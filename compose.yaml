@@ -1,0 +1,59 @@
+name: afterglow
+services:
+  db:
+    image: mariadb:11.4@sha256:250e1609e93c0e6aecf64bfbab2d84d5e89d2481540fe77447ff6c855c3b1873
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: wordpress
+      MARIADB_USER: wordpress
+      MARIADB_PASSWORD: ${DB_PASSWORD:?Run scripts/setup.sh first}
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:?Run scripts/setup.sh first}
+    volumes:
+      - database:/var/lib/mysql
+    healthcheck:
+      test: [CMD, healthcheck.sh, --connect, --innodb_initialized]
+      interval: 3s
+      timeout: 3s
+      retries: 40
+  wordpress:
+    image: wordpress:php8.3-apache@sha256:d42f63cb89ad0eab272c4b393164e63830d0df270009907919f7dcce52b1a20b
+    restart: unless-stopped
+    ports:
+      - '127.0.0.1:${PORT:-8080}:80'
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
+      WORDPRESS_CONFIG_EXTRA: |
+        define('DISALLOW_FILE_EDIT', true);
+        define('WP_ENVIRONMENT_TYPE', 'local');
+    volumes:
+      - wordpress:/var/www/html
+      - ./theme:/var/www/html/wp-content/themes/afterglow:ro
+      - ./plugin:/var/www/html/wp-content/plugins/afterglow-core:ro
+    depends_on:
+      db:
+        condition: service_healthy
+  cli:
+    image: wordpress:cli-php8.3@sha256:661db880e953da051abcac6c0a769767b995a82cd52101c003ca7438dd427d7d
+    profiles: [tools]
+    user: '33:33'
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
+      AFTERGLOW_ADMIN_PASSWORD: ${AFTERGLOW_ADMIN_PASSWORD}
+      AFTERGLOW_SITE_URL: http://localhost:${PORT:-8080}
+    volumes:
+      - wordpress:/var/www/html
+      - ./theme:/var/www/html/wp-content/themes/afterglow:ro
+      - ./plugin:/var/www/html/wp-content/plugins/afterglow-core:ro
+      - ./scripts:/scripts:ro
+    depends_on:
+      db:
+        condition: service_healthy
+volumes:
+  database:
+  wordpress:
