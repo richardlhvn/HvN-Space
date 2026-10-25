@@ -4,6 +4,8 @@ A working WordPress MVP for independent emotional-pop discovery. The name is a s
 
 The site includes a designed homepage, artist and song directories, name/genre/mood/country filters, individual profiles, manually curated relationships, global search, an editorial journal, and a collection saved in the visitor’s browser. No music, artist photographs, analytics, or advertisements are bundled.
 
+Afterglow Core 0.2 adds **Artists → Research collections**, an explicit, draft-only import for a provisional Astrid S ten-song research queue. It retains existing records and edits. The titles are unranked candidates; live source verification is blocked by the cloud network policy and remains outstanding. See [Astrid S research status and local import instructions](docs/ASTRID-S-RESEARCH.md). Nothing is imported automatically when updating the plugin.
+
 ## Why WordPress
 
 WordPress fits Hostinger’s managed WordPress/PHP hosting and lets an editor maintain structured artist/song records without coding. The custom theme provides the design; the companion plugin owns the content models so records survive theme changes. MariaDB stores content. No build framework, music API, paid plugin, or subscription is required to run the site.
@@ -38,6 +40,7 @@ To choose a different port, add `PORT=8081` to `.env` **before the first setup**
 ```bash
 npm test                         # 38 functional checks in Chromium; writes screenshots
 bash scripts/test-editorial.sh   # 16 permission, validation, and editorial-integrity checks
+bash scripts/test-research.sh    # 39 import safety checks in a disposable DB namespace
 npm run test:a11y                # Automated WCAG checks on representative templates
 npm run test:admin               # Save structured fields through WordPress administration
 npm run package                  # Creates dist/afterglow.zip and dist/afterglow-core.zip
