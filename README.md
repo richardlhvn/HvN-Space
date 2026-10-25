@@ -4,6 +4,8 @@ A working WordPress MVP for independent emotional-pop discovery. The name is a s
 
 The site includes a designed homepage, artist and song directories, name/genre/mood/country filters, individual profiles, manually curated relationships, global search, an editorial journal, and a collection saved in the visitor’s browser. No music, artist photographs, analytics, or advertisements are bundled.
 
+**New in Core 0.3:** [apply the supplied research update](docs/RESEARCH-UPDATE.md) for Astrid S, Sara Kays, and Caleb Hearn (three artist profiles and thirty curated songs). Update the plugin/theme/scripts and use **Artists → Import supplied research**. Existing edits are protected and imports remain noindex pending editorial review. The older 0.2 draft queue below is retained for compatibility.
+
 Afterglow Core 0.2 adds **Artists → Research collections**, an explicit, draft-only import for a provisional Astrid S ten-song research queue. It retains existing records and edits. The titles are unranked candidates; live source verification is blocked by the cloud network policy and remains outstanding. See [Astrid S research status and local import instructions](docs/ASTRID-S-RESEARCH.md). Nothing is imported automatically when updating the plugin.
 
 ## Why WordPress
@@ -41,6 +43,8 @@ To choose a different port, add `PORT=8081` to `.env` **before the first setup**
 npm test                         # 38 functional checks in Chromium; writes screenshots
 bash scripts/test-editorial.sh   # 16 permission, validation, and editorial-integrity checks
 bash scripts/test-research.sh    # 39 import safety checks in a disposable DB namespace
+bash scripts/test-handoffs.sh    # 142 supplied-research checks in a disposable DB namespace
+bash scripts/backup.sh           # Private database backup before content updates
 npm run test:a11y                # Automated WCAG checks on representative templates
 npm run test:admin               # Save structured fields through WordPress administration
 npm run package                  # Creates dist/afterglow.zip and dist/afterglow-core.zip

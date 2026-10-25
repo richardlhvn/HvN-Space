@@ -1,0 +1,1418 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-25",
+  "selection": {
+    "type": "curated",
+    "description": "Curated starter selection of ten verified Astrid S recordings spanning solo singles, two named collaborations, EP material, and the Joyride era. The listed order is editorial presentation order, not a chart rank.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-004",
+      "src-005",
+      "src-001",
+      "src-025"
+    ],
+    "limitations": [
+      "Spotify artist Top tracks were encountered, but cached/retrieved renderings did not yield a consistent current top ten or stable market; no Spotify Popular ranking is claimed.",
+      "Spotify track embed URLs establish recorded artist credits but do not independently prove availability in every market.",
+      "Release dates describe the named verified edition and need not equal earliest live performance or first issue."
+    ]
+  },
+  "artist": {
+    "slug": "astrid-s",
+    "name": "Astrid S",
+    "full_name": "Astrid Smeplass",
+    "country": "Norway",
+    "place_of_origin": "Berkåk, Rennebu, Norway",
+    "short_description": "Norwegian pop singer-songwriter whose catalogue pairs relationship-focused writing with polished pop and electronic influences.",
+    "biography": "Astrid S is the recording name of Astrid Smeplass, a Norwegian singer and songwriter from Berkåk in the Rennebu area. She received piano and singing tuition while growing up, and also learned flute and guitar. Her wider public breakthrough came after finishing fifth on Norway’s Idol in 2013; she subsequently signed with Universal Music. The self-titled Astrid S EP arrived in 2016 and included Hurts So Good, which became one of her signature releases. Party’s Over followed in 2017, a period that also brought Breathe, Such A Boy and Think Before I Talk. She earned a Norwegian Spellemann newcomer prize for 2016 and the Artist of the Year honor for 2017. Her debut studio album, Leave It Beautiful, appeared in October 2020. Her official biography frames the album as personal writing shaped by breakups, major changes and the experience of growing up; It’s Ok If You Forget Me is one of its key songs. Her second studio album, Joyride, followed in May 2024. In a contemporary interview, she compared the title track’s fleeting romance with her approach to enjoying life without dwelling on uncertain outcomes. Across these releases, her documented pop background sits alongside electronic and R&B influences, while the emotional range stretches from argument and regret to infatuation and acceptance. For Afterglow, the attraction is the contrast between accessible pop songwriting and emotionally complicated stories; that final characterization is editorial, not an official genre designation.",
+    "spotify_url": "https://open.spotify.com/artist/3AVfmawzu83sp94QW7CEGm",
+    "official_website": "https://astridsofficial.com/",
+    "social_profiles": [
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/astridsofficial/",
+        "source_ids": [
+          "src-003"
+        ]
+      },
+      {
+        "platform": "X",
+        "url": "https://twitter.com/astridsofficial",
+        "source_ids": [
+          "src-003"
+        ]
+      },
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/316563188531840",
+        "source_ids": [
+          "src-003"
+        ]
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@astridsofficial",
+        "source_ids": [
+          "src-003"
+        ]
+      }
+    ],
+    "genres": [
+      "pop",
+      "electropop (editorial tag informed by MusicBrainz)",
+      "R&B influence"
+    ],
+    "moods": [
+      "bittersweet (editorial)",
+      "reflective (editorial)",
+      "heartbreak (editorial)",
+      "playful (editorial)"
+    ],
+    "career_milestones": [
+      {
+        "date": "2013",
+        "description": "Finished fifth on Norway’s Idol and subsequently signed with Universal Music.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "date": "2016",
+        "description": "Released the self-titled Astrid S EP, including Hurts So Good.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "date": "2017",
+        "description": "Received Norway’s Artist of the Year Spellemann honor for 2017; previously received the newcomer award for 2016.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "date": "2020-10-16",
+        "description": "Released debut studio album Leave It Beautiful.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-018"
+        ]
+      },
+      {
+        "date": "2024-05-24",
+        "description": "Released second studio album Joyride.",
+        "source_ids": [
+          "src-025"
+        ]
+      },
+      {
+        "date": "2025",
+        "description": "Appeared on Hver gang vi møtes and released performances from the program.",
+        "source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "SHY Martin",
+        "explanation": "Editorial pairing for readers interested in vulnerable songwriting within polished Scandinavian pop and electronic production; not a measured acoustic similarity.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-003",
+          "src-031"
+        ]
+      },
+      {
+        "name": "Sasha Alex Sloan",
+        "explanation": "Editorial connection through emotionally candid pop storytelling and difficult relationship themes, rather than a claim that the recordings sound identical.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001",
+          "src-032"
+        ]
+      },
+      {
+        "name": "Clara Mae",
+        "explanation": "Editorial adjacent-artist suggestion within melodic, relationship-centered pop; similarity is unscored and should be assessed by editors before publication.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-031"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "name,full_name",
+        "claim": "The artist performs as Astrid S and her legal name is Astrid Smeplass.",
+        "source_ids": [
+          "src-001",
+          "src-003"
+        ]
+      },
+      {
+        "field": "country,place_of_origin",
+        "claim": "Norwegian artist from Berkåk in the Rennebu area.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "She studied music in childhood, was fifth on Norwegian Idol in 2013, and then signed with Universal.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Her self-titled EP was released in 2016 and Party’s Over in 2017.",
+        "source_ids": [
+          "src-001",
+          "src-022"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "She won Norwegian Spellemann newcomer recognition for 2016 and Artist of the Year for 2017.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Leave It Beautiful was released in October 2020 and its official artist biography links the work to changes, breakups and coming of age.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-018"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Joyride was released in May 2024; Astrid discussed the title track as an approach to enjoying imperfectly lasting situations.",
+        "source_ids": [
+          "src-025",
+          "src-028"
+        ]
+      },
+      {
+        "field": "genres",
+        "claim": "Norwegian reference source describes pop and R&B; MusicBrainz community tags also include electropop.",
+        "source_ids": [
+          "src-001",
+          "src-003"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "The linked Spotify artist identifier corresponds to Astrid S.",
+        "source_ids": [
+          "src-003",
+          "src-004"
+        ]
+      },
+      {
+        "field": "official_website",
+        "claim": "MusicBrainz and Norway’s encyclopedia list astridsofficial.com as her official homepage.",
+        "source_ids": [
+          "src-001",
+          "src-003"
+        ]
+      },
+      {
+        "field": "social_profiles",
+        "claim": "Listed social URLs are linked by MusicBrainz, without independent in-platform badge verification.",
+        "source_ids": [
+          "src-003"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Descriptions of electronic collaborations and introspective themes are supported at a broad career level, but Afterglow’s emotional-pop classification is editorial.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "Social profile URLs are associated with her identity by MusicBrainz; live platform verification badges and current control of every account were not independently confirmed.",
+      "No usable commercial image license or artist-specific consent was established; retain Afterglow’s abstract image placeholder.",
+      "MusicBrainz electropop label is a community genre tag; emotional pop is Afterglow editorial taxonomy, not a formal artist designation."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "hurts-so-good",
+      "title": "Hurts So Good",
+      "artist_slug": "astrid-s",
+      "artist_credits": [
+        "Astrid S"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/60lwJa695S26FsYbhCVFVa",
+      "release_date": "2016",
+      "release_date_precision": "year",
+      "release_date_context": "Verified on the 2016 self-titled EP; precise original standalone-single issue date is not independently established.",
+      "release_title": "Astrid S",
+      "release_type": "EP",
+      "short_description": "A signature Astrid S recording about wanting a relationship that also causes pain.",
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "yearning",
+        "bittersweet"
+      ],
+      "themes": [
+        "painful attraction",
+        "push-pull relationships"
+      ],
+      "editorial_notes": "Start here for a relationship story built around attraction and incompatibility. This framing follows the artist’s own interview, not independent audio listening.",
+      "editorial_notes_basis": "original artist interview",
+      "editorial_notes_source_ids": [
+        "src-016"
+      ],
+      "artist_statement_paraphrase": "Astrid described a couple strongly drawn to one another even though being together is painful or impossible, and said she related to the song although she did not write it.",
+      "artist_statement_source_ids": [
+        "src-016"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "think-before-i-talk",
+          "explanation": "Moves from painful attraction to damage caused by conflict.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "its-ok-if-you-forget-me",
+          "explanation": "Follows the aftermath of a relationship that no longer works.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,spotify_url,artist_credits",
+          "claim": "Spotify identifies this recording as Hurts So Good by Astrid S.",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "release_title,release_date",
+          "claim": "A version was on her 2016 self-titled EP.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Astrid explained the song’s painful attraction and distinguished herself from its writers.",
+          "source_ids": [
+            "src-016"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Exact first-release day is not confirmed here; do not treat the 2021 remix or reissue as the original."
+      ]
+    },
+    {
+      "slug": "think-before-i-talk",
+      "title": "Think Before I Talk",
+      "artist_slug": "astrid-s",
+      "artist_credits": [
+        "Astrid S"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/4lszNcJSaz61QT6gpMhFU1",
+      "release_date": "2017-08-25",
+      "release_date_precision": "day",
+      "release_date_context": "2017 standalone single, before later compilation or complete-album appearances.",
+      "release_title": "Think Before I Talk",
+      "release_type": "single",
+      "short_description": "A pop single addressing words spoken in anger and the regret that follows.",
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "regretful",
+        "reflective"
+      ],
+      "themes": [
+        "arguments",
+        "regret",
+        "communication"
+      ],
+      "editorial_notes": "Use for a playlist about conversations people wish they could undo; the subject is described in the release announcement and in Astrid’s interviews.",
+      "editorial_notes_basis": "release announcement and original interviews",
+      "editorial_notes_source_ids": [
+        "src-017",
+        "src-036"
+      ],
+      "artist_statement_paraphrase": "Astrid said it concerns hurtful things people say when angry or frustrated. In a separate interview, she clarified that she did not write the song, though she identifies with its message.",
+      "artist_statement_source_ids": [
+        "src-017",
+        "src-036"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "hurts-so-good",
+          "explanation": "Both examine hurt within a relationship.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "i-do",
+          "explanation": "Both revisit emotional consequences after a relationship changes.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,spotify_url,artist_credits",
+          "claim": "Spotify confirms this single recording and Astrid S credit.",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "The standalone single was released August 25 2017.",
+          "source_ids": [
+            "src-017"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Astrid spoke about conflict and explicitly said she was not the song’s writer.",
+          "source_ids": [
+            "src-017",
+            "src-036"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "its-ok-if-you-forget-me",
+      "title": "It's Ok If You Forget Me",
+      "artist_slug": "astrid-s",
+      "artist_credits": [
+        "Astrid S"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/312zSwwbPU7C3sTmro4Wx9",
+      "release_date": "2020-09-18",
+      "release_date_precision": "day",
+      "release_date_context": "Originally reported as a single on this date, ahead of its appearance on Leave It Beautiful in October 2020.",
+      "release_title": "It's Ok If You Forget Me",
+      "release_type": "single",
+      "short_description": "A breakup song reflecting on the unsettling absence, or delay, of expected heartbreak.",
+      "genres": [
+        "pop (editorial)",
+        "acoustic-influenced pop (editorial)"
+      ],
+      "moods": [
+        "wistful",
+        "restrained"
+      ],
+      "themes": [
+        "breakup",
+        "emotional detachment",
+        "uncertain closure"
+      ],
+      "editorial_notes": "A useful Afterglow entry for songs where the narrator seems unexpectedly composed after a split. Independent reviews support that reading; it is not inferred from the title alone.",
+      "editorial_notes_basis": "contemporaneous review and 2023 interview transcript",
+      "editorial_notes_source_ids": [
+        "src-034",
+        "src-029"
+      ],
+      "artist_statement_paraphrase": "In a 2023 Q&A transcript, Astrid reportedly explained that the song was written about an ex and that its apparent reassurance partly masked her struggle to cope. This paraphrase should be verified against the original recording before publishing as a definitive quote of intent.",
+      "artist_statement_source_ids": [
+        "src-029"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "i-do",
+          "explanation": "A contrasting way of handling feelings after a breakup.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "hurts-so-good",
+          "explanation": "An emotional sequel to a difficult attachment.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,spotify_url,artist_credits",
+          "claim": "Official Spotify embed identifies the selected track and performer.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Contemporary reporting establishes the September 18 2020 single and subsequent album release.",
+          "source_ids": [
+            "src-018"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "The 2023 interview transcript records Astrid’s comments, though transcription quality remains unverified.",
+          "source_ids": [
+            "src-029"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "2023 commentary comes from an automatically generated Norwegian podcast transcript; confirm against audio before attributing strongly."
+      ]
+    },
+    {
+      "slug": "i-do",
+      "title": "I Do",
+      "artist_slug": "astrid-s",
+      "artist_credits": [
+        "Astrid S",
+        "Brett Young"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6yKkgZBuakFy6SPtsZBR5H",
+      "release_date": "2020-02-28",
+      "release_date_precision": "day",
+      "release_date_context": "Original collaborative single, separate from later Leave It Beautiful (Complete) placement.",
+      "release_title": "I Do",
+      "release_type": "single",
+      "short_description": "A duet about admitting that feelings for a former partner remain.",
+      "genres": [
+        "pop (catalog)",
+        "country-pop influence (editorial)"
+      ],
+      "moods": [
+        "longing",
+        "conflicted"
+      ],
+      "themes": [
+        "lingering love",
+        "breakup"
+      ],
+      "editorial_notes": "The two credited vocalists give Afterglow an example of a pop-country crossover, while contemporary reporting grounds the lingering-feelings theme. No independent audio analysis was performed.",
+      "editorial_notes_basis": "label reporting and trade-publication description",
+      "editorial_notes_source_ids": [
+        "src-030"
+      ],
+      "artist_statement_paraphrase": "Astrid said country music had influenced her songwriting and welcomed Brett Young on the song; Young emphasized the story and lyrics when discussing why he joined. Neither statement is treated as a detailed autobiographical account.",
+      "artist_statement_source_ids": [
+        "src-030"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "its-ok-if-you-forget-me",
+          "explanation": "Both consider what remains emotionally after a breakup.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "hurts-so-good",
+          "explanation": "Both center on unresolved romantic attachment.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,spotify_url,artist_credits",
+          "claim": "Official Spotify embed names Astrid S and Brett Young.",
+          "source_ids": [
+            "src-009"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Apple Music lists the original duet single on February 28 2020.",
+          "source_ids": [
+            "src-019"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Contemporaneous trade reporting quotes both artists on influences and song storytelling.",
+          "source_ids": [
+            "src-030"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "favorite-part-of-me",
+      "title": "Favorite Part Of Me",
+      "artist_slug": "astrid-s",
+      "artist_credits": [
+        "Astrid S"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/0cppqb4vQycORHNMxr8DGd",
+      "release_date": "2019-09",
+      "release_date_precision": "month",
+      "release_date_context": "Documented on Down Low in late September 2019; Apple lists September 26 while a Norwegian label announcement dated September 26 said the EP would arrive at midnight. This is an EP-edition date, not a verified earliest public performance.",
+      "release_title": "Down Low",
+      "release_type": "EP",
+      "short_description": "A personal song of gratitude for people who help someone become their best self.",
+      "genres": [
+        "stripped-back pop (editorial)"
+      ],
+      "moods": [
+        "warm",
+        "appreciative"
+      ],
+      "themes": [
+        "friendship",
+        "family",
+        "self-acceptance"
+      ],
+      "editorial_notes": "Rather than assuming a romantic dedication, frame it around positive influence from close relationships: the artist specifically mentioned friends and family.",
+      "editorial_notes_basis": "original artist interview",
+      "editorial_notes_source_ids": [
+        "src-026"
+      ],
+      "artist_statement_paraphrase": "Astrid explained that different people affect her differently, and she wrote this song to celebrate friends and family who draw out the best version of herself.",
+      "artist_statement_source_ids": [
+        "src-026"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "breathe",
+          "explanation": "Moves from gratitude toward moments of overwhelming affection.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "two-hands",
+          "explanation": "Both feature self-awareness in relationships, though with different tones.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,spotify_url,artist_credits",
+          "claim": "Spotify confirms the recording is credited to Astrid S.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Late-September 2019 Down Low EP inclusion is confirmed by label announcement and Apple Music.",
+          "source_ids": [
+            "src-020",
+            "src-033"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Astrid explained the personal inspiration in an interview.",
+          "source_ids": [
+            "src-026"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Day-level EP release differs by retailer/time-zone framing; month precision is deliberate.",
+        "Earlier live performances are documented, so the EP date should not be characterized as the first time the song was heard."
+      ]
+    },
+    {
+      "slug": "breathe",
+      "title": "Breathe",
+      "artist_slug": "astrid-s",
+      "artist_credits": [
+        "Astrid S"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/4fhVodXZARPX0oTuQh8V9l",
+      "release_date": "2017-03-10",
+      "release_date_precision": "day",
+      "release_date_context": "Original single issued in March 2017, subsequently included on Party’s Over in June 2017.",
+      "release_title": "Breathe",
+      "release_type": "single",
+      "short_description": "A pop song about the breathless feeling of falling hard for a person or an extraordinary moment.",
+      "genres": [
+        "pop (catalog)"
+      ],
+      "moods": [
+        "euphoric",
+        "romantic"
+      ],
+      "themes": [
+        "infatuation",
+        "overwhelming moments"
+      ],
+      "editorial_notes": "Use for playlists about the intensity of a new feeling; the artist distinguished the emotion from being about any one specific partner.",
+      "editorial_notes_basis": "contemporaneous original artist interview",
+      "editorial_notes_source_ids": [
+        "src-021"
+      ],
+      "artist_statement_paraphrase": "Astrid said the song captures being swept away and losing one’s breath; for her, it also represented exciting moments from the preceding year rather than a single love interest.",
+      "artist_statement_source_ids": [
+        "src-021"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "favorite-part-of-me",
+          "explanation": "Both express positive emotion brought out by others.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "two-hands",
+          "explanation": "Both can fit a brighter relationship-focused collection.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,spotify_url,artist_credits",
+          "claim": "Spotify embed confirms this Astrid S track.",
+          "source_ids": [
+            "src-011"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Contemporaneous interview dates the release to March 10 2017.",
+          "source_ids": [
+            "src-021"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Astrid gave the song-specific explanation in a March 2017 interview.",
+          "source_ids": [
+            "src-021"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "such-a-boy",
+      "title": "Such A Boy",
+      "artist_slug": "astrid-s",
+      "artist_credits": [
+        "Astrid S"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/3oIhthYPSKwAwJLA8JClkV",
+      "release_date": "2017-06-30",
+      "release_date_precision": "day",
+      "release_date_context": "Verified Party’s Over EP edition date; a separate earlier single-premiere date was not established.",
+      "release_title": "Party’s Over",
+      "release_type": "EP",
+      "short_description": "A sharp pop song that questions gendered expectations and uncertain behavior while dating.",
+      "genres": [
+        "pop (catalog)"
+      ],
+      "moods": [
+        "assertive",
+        "playful"
+      ],
+      "themes": [
+        "gender stereotypes",
+        "dating ambiguity"
+      ],
+      "editorial_notes": "More pointed and playful than the breakup-oriented entries here; this description draws from the artist’s discussion of how the song was written, not from a claimed listening session.",
+      "editorial_notes_basis": "original artist interview",
+      "editorial_notes_source_ids": [
+        "src-027"
+      ],
+      "artist_statement_paraphrase": "Astrid described writing it with Cass Lowe around confusion in dating and the unfair use of gendered insults that frame girls as overly emotional.",
+      "artist_statement_source_ids": [
+        "src-027"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "think-before-i-talk",
+          "explanation": "Both explore how language affects relationships.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "two-hands",
+          "explanation": "Both use more assertive, playful relationship framing.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,spotify_url,artist_credits",
+          "claim": "Spotify embed identifies Such A Boy by Astrid S.",
+          "source_ids": [
+            "src-012"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Apple Music dates the Party’s Over EP to June 30 2017.",
+          "source_ids": [
+            "src-022"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Astrid discussed the song’s social and dating themes in an interview.",
+          "source_ids": [
+            "src-027"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "The date is for the documented EP edition, not a independently verified first standalone release."
+      ]
+    },
+    {
+      "slug": "i-dont-know-why",
+      "title": "I Don't Know Why",
+      "artist_slug": "astrid-s",
+      "artist_credits": [
+        "NOTD",
+        "Astrid S"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/0ZXdzaT1k688dkpNeEgQiV",
+      "release_date": "2020-05-08",
+      "release_date_precision": "day",
+      "release_date_context": "Collaborative single credited to NOTD and Astrid S, not an Astrid-only solo original.",
+      "release_title": "I Don't Know Why",
+      "release_type": "single",
+      "short_description": "An electronic-pop collaboration joining NOTD’s production with Astrid S’s vocals.",
+      "genres": [
+        "pop (catalog)",
+        "electronic-pop (editorial)"
+      ],
+      "moods": [
+        "upbeat (reviewer characterization)"
+      ],
+      "themes": [],
+      "editorial_notes": "The original Q&A explains how the collaboration and vocal recording came together. It is a useful stylistic detour within the selection, but there is insufficient song-specific first-person evidence here to assert the intended lyrical story.",
+      "editorial_notes_basis": "NOTD interview and catalog credits; no direct listening",
+      "editorial_notes_source_ids": [
+        "src-035",
+        "src-023"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "two-hands",
+          "explanation": "Shows another contemporary pop setting for Astrid’s vocals.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "breathe",
+          "explanation": "Offers another brighter selection alongside relationship-focused pop.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,spotify_url,artist_credits",
+          "claim": "Spotify embed names NOTD first and Astrid S second.",
+          "source_ids": [
+            "src-013"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Apple Music dates the original single May 8 2020 and credits both acts.",
+          "source_ids": [
+            "src-023"
+          ]
+        },
+        {
+          "field": "editorial_notes",
+          "claim": "Interview with NOTD confirms collaboration workflow but does not establish intended lyrical meaning.",
+          "source_ids": [
+            "src-035"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No sufficiently explicit Astrid S song-meaning statement was verified; leave the artist-statement field null."
+      ]
+    },
+    {
+      "slug": "two-hands",
+      "title": "Two Hands",
+      "artist_slug": "astrid-s",
+      "artist_credits": [
+        "Astrid S"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/4tkZDH3CmPBae2SztqcVIQ",
+      "release_date": "2024-01-12",
+      "release_date_precision": "day",
+      "release_date_context": "Original single, later included on the May 2024 Joyride album.",
+      "release_title": "Two Hands",
+      "release_type": "single",
+      "short_description": "A playful relationship song presenting both attractive traits and personal complications.",
+      "genres": [
+        "pop (catalog)",
+        "country-tinged pop (editorial)"
+      ],
+      "moods": [
+        "cheeky",
+        "self-aware"
+      ],
+      "themes": [
+        "dating",
+        "imperfection",
+        "self-acceptance"
+      ],
+      "editorial_notes": "An editorial bridge from Such A Boy: both approach dating with humor or provocation instead of straightforward sadness. The label announcement, not unverified audio playback, is the basis for this framing.",
+      "editorial_notes_basis": "official label release and artist statement",
+      "editorial_notes_source_ids": [
+        "src-024"
+      ],
+      "artist_statement_paraphrase": "Astrid characterized the song as a note to future partners: she has good and difficult sides, but believes the experience together can still be enjoyable.",
+      "artist_statement_source_ids": [
+        "src-024"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "such-a-boy",
+          "explanation": "Both present an assertive, less melancholy side of relationship pop.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "joyride",
+          "explanation": "Both belong to the Joyride period and embrace imperfect experiences.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,spotify_url,artist_credits",
+          "claim": "Spotify embed confirms Astrid S recording.",
+          "source_ids": [
+            "src-014"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Apple Music and label announce January 12 2024 as the single release date.",
+          "source_ids": [
+            "src-024",
+            "src-037"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Official Universal Music Norge announcement includes Astrid’s direct song-specific explanation.",
+          "source_ids": [
+            "src-024"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "joyride",
+      "title": "Joyride",
+      "artist_slug": "astrid-s",
+      "artist_credits": [
+        "Astrid S"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6n8KUQZOne1iMIyJYhWUrj",
+      "release_date": "2024-05-24",
+      "release_date_precision": "day",
+      "release_date_context": "Title track from second studio album of the same name, dated May 24 2024.",
+      "release_title": "Joyride",
+      "release_type": "album",
+      "short_description": "An album title track using a temporary romance as a metaphor for enjoying uncertain experiences.",
+      "genres": [
+        "pop (catalog)"
+      ],
+      "moods": [
+        "carefree",
+        "bittersweet"
+      ],
+      "themes": [
+        "short-lived romance",
+        "living in the moment"
+      ],
+      "editorial_notes": "A fitting closer for the starter selection: the artist’s own comparison broadens the song from romance to an outlook on creative life. This is interview-based analysis, not a claimed audio review.",
+      "editorial_notes_basis": "original artist interview",
+      "editorial_notes_source_ids": [
+        "src-028"
+      ],
+      "artist_statement_paraphrase": "Astrid described the track as entering a relationship one suspects will not last while choosing to enjoy it, and related that idea to not worrying prematurely about her career.",
+      "artist_statement_source_ids": [
+        "src-028"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "two-hands",
+          "explanation": "Both represent the 2024 Joyride era and acknowledge imperfect romance.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "its-ok-if-you-forget-me",
+          "explanation": "Contrasts post-breakup reflection with willingness to enjoy something uncertain.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,spotify_url,artist_credits",
+          "claim": "Spotify embed confirms recording and artist.",
+          "source_ids": [
+            "src-015"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Apple Music dates Joyride to May 24 2024.",
+          "source_ids": [
+            "src-025"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Astrid explained the relationship-as-journey metaphor in an original 2024 interview.",
+          "source_ids": [
+            "src-028"
+          ]
+        }
+      ],
+      "uncertainties": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://snl.no/Astrid_S",
+      "title": "Astrid S",
+      "publisher": "Store norske leksikon",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "reference",
+      "access_status": "read",
+      "evidence_summary": "Identifies Astrid Smeplass, Berkåk and Rennebu background, 2013 Idol finish, Norwegian awards, major releases and later television appearances."
+    },
+    {
+      "id": "src-002",
+      "url": "https://astridsofficial.com/pages/bio",
+      "title": "Bio",
+      "publisher": "Astrid S official website",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_artist_biography",
+      "access_status": "read",
+      "evidence_summary": "Artist biography describes the debut album as personal writing about breakups and life changes, names signature songs, and notes the Cinderella film role."
+    },
+    {
+      "id": "src-003",
+      "url": "https://musicbrainz.org/artist/be389638-e74f-46a9-83d2-91ee3ce1fb0c",
+      "title": "Astrid S",
+      "publisher": "MusicBrainz",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "music_metadata",
+      "access_status": "read",
+      "evidence_summary": "Records legal name, Norway association, genre tags, official site, Spotify identity, and community-maintained links to social accounts."
+    },
+    {
+      "id": "src-004",
+      "url": "https://open.spotify.com/embed/artist/3AVfmawzu83sp94QW7CEGm",
+      "title": "Astrid S: Top tracks",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Spotify artist embed displays ten numbered tracks; independently retrieved versions are inconsistent, so none is treated as a stable current ranking."
+    },
+    {
+      "id": "src-005",
+      "url": "https://music.apple.com/us/artist/astrid-s/987085593",
+      "title": "Astrid S",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Identifies the artist, records Leave It Beautiful and Joyride, and displays songs and collaborations."
+    },
+    {
+      "id": "src-006",
+      "url": "https://open.spotify.com/embed/track/60lwJa695S26FsYbhCVFVa",
+      "title": "Hurts So Good — official Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Accessible official embed explicitly identifies the track title and credits Astrid S; this is recording-level URL validation."
+    },
+    {
+      "id": "src-007",
+      "url": "https://open.spotify.com/embed/track/4lszNcJSaz61QT6gpMhFU1",
+      "title": "Think Before I Talk — official Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Accessible official embed explicitly identifies the track title and credits Astrid S; this is recording-level URL validation."
+    },
+    {
+      "id": "src-008",
+      "url": "https://open.spotify.com/embed/track/312zSwwbPU7C3sTmro4Wx9",
+      "title": "It's Ok If You Forget Me — official Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Accessible official embed explicitly identifies the track title and credits Astrid S; this is recording-level URL validation."
+    },
+    {
+      "id": "src-009",
+      "url": "https://open.spotify.com/embed/track/6yKkgZBuakFy6SPtsZBR5H",
+      "title": "I Do — official Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Accessible official embed explicitly identifies the track title and credits Astrid S and Brett Young; this is recording-level URL validation."
+    },
+    {
+      "id": "src-010",
+      "url": "https://open.spotify.com/embed/track/0cppqb4vQycORHNMxr8DGd",
+      "title": "Favorite Part Of Me — official Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Accessible official embed explicitly identifies the track title and credits Astrid S; this is recording-level URL validation."
+    },
+    {
+      "id": "src-011",
+      "url": "https://open.spotify.com/embed/track/4fhVodXZARPX0oTuQh8V9l",
+      "title": "Breathe — official Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Accessible official embed explicitly identifies the track title and credits Astrid S; this is recording-level URL validation."
+    },
+    {
+      "id": "src-012",
+      "url": "https://open.spotify.com/embed/track/3oIhthYPSKwAwJLA8JClkV",
+      "title": "Such A Boy — official Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Accessible official embed explicitly identifies the track title and credits Astrid S; this is recording-level URL validation."
+    },
+    {
+      "id": "src-013",
+      "url": "https://open.spotify.com/embed/track/0ZXdzaT1k688dkpNeEgQiV",
+      "title": "I Don't Know Why — official Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Accessible official embed explicitly identifies the track title and credits NOTD and Astrid S; this is recording-level URL validation."
+    },
+    {
+      "id": "src-014",
+      "url": "https://open.spotify.com/embed/track/4tkZDH3CmPBae2SztqcVIQ",
+      "title": "Two Hands — official Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Accessible official embed explicitly identifies the track title and credits Astrid S; this is recording-level URL validation."
+    },
+    {
+      "id": "src-015",
+      "url": "https://open.spotify.com/embed/track/6n8KUQZOne1iMIyJYhWUrj",
+      "title": "Joyride — official Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Accessible official embed explicitly identifies the track title and credits Astrid S; this is recording-level URL validation."
+    },
+    {
+      "id": "src-016",
+      "url": "https://www.iheart.com/content/2016-08-30-interview-who-is-astrid-s-everything-you-need-to-know/",
+      "title": "INTERVIEW: Who Is Astrid S?",
+      "publisher": "iHeart",
+      "published_date": "2016-08-30",
+      "accessed_date": "2026-10-25",
+      "source_type": "original_artist_interview",
+      "access_status": "read",
+      "evidence_summary": "Astrid describes Hurts So Good as an attraction that is painful or cannot work, and clarifies that she did not write that song."
+    },
+    {
+      "id": "src-017",
+      "url": "https://www.broadwayworld.com/bwwmusic/article/Astrid-S-Releases-New-Single-Think-Before-I-Talk-20170825",
+      "title": "Astrid S Releases New Single Think Before I Talk",
+      "publisher": "BroadwayWorld",
+      "published_date": "2017-08-25",
+      "accessed_date": "2026-10-25",
+      "source_type": "release_announcement",
+      "access_status": "read",
+      "evidence_summary": "Reports the August 25 2017 single release and relays Astrid’s explanation about regretting harmful words spoken during conflict."
+    },
+    {
+      "id": "src-018",
+      "url": "https://www.nme.com/news/music/astrid-s-announces-debut-album-leave-it-beautiful-shares-new-single-2756686",
+      "title": "Astrid S announces debut album Leave It Beautiful and shares new single",
+      "publisher": "NME",
+      "published_date": "2020-09-18",
+      "accessed_date": "2026-10-25",
+      "source_type": "music_news",
+      "access_status": "read",
+      "evidence_summary": "Announces It’s Ok If You Forget Me on September 18 2020 and the planned October 16 debut-album release."
+    },
+    {
+      "id": "src-019",
+      "url": "https://music.apple.com/us/album/i-do-single/1499018055",
+      "title": "I Do - Single",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Original single listing credits Astrid S and Brett Young and dates release February 28 2020."
+    },
+    {
+      "id": "src-020",
+      "url": "https://kommunikasjon.ntb.no/pressemelding/17871630/astrid-s-overrasker-med-ny-ep-i-natt?publisherId=6987388",
+      "title": "Astrid S overrasker med ny EP i natt",
+      "publisher": "Universal Music Norge",
+      "published_date": "2019-09-26",
+      "accessed_date": "2026-10-25",
+      "source_type": "label_press_release",
+      "access_status": "read",
+      "evidence_summary": "September 26 2019 announcement of Down Low EP including Favorite Part Of Me; Astrid says she wrote the song while making the stripped-back collection."
+    },
+    {
+      "id": "src-021",
+      "url": "https://www.klikk.no/underholdning/astrid-s--laten-handler-om-a-vaere-skikkelig-forelsket-og-miste-pusten-4639062",
+      "title": "Astrid S on Breathe",
+      "publisher": "Side2 / Klikk",
+      "published_date": "2017-03-10",
+      "accessed_date": "2026-10-25",
+      "source_type": "original_artist_interview",
+      "access_status": "read",
+      "evidence_summary": "March 10 2017 interview confirms single arrival that day; Astrid explains breathless infatuation or powerful moments rather than one specific romantic person."
+    },
+    {
+      "id": "src-022",
+      "url": "https://music.apple.com/us/album/partys-over-ep/1440880945",
+      "title": "Party’s Over - EP",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Lists the six-track EP and June 30 2017 release; music videos include Such A Boy and Breathe."
+    },
+    {
+      "id": "src-023",
+      "url": "https://music.apple.com/us/song/1510334388",
+      "title": "I Don't Know Why",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Identifies the May 8 2020 NOTD and Astrid S collaborative single, with production credited to NOTD."
+    },
+    {
+      "id": "src-024",
+      "url": "https://kommunikasjon.ntb.no/pressemelding/18037277/astrid-s-annonserer-ny-lat-two-hands?lang=no&publisherId=6987388",
+      "title": "Astrid S annonserer ny låt: Two Hands!",
+      "publisher": "Universal Music Norge",
+      "published_date": "2024-01-08",
+      "accessed_date": "2026-10-25",
+      "source_type": "label_press_release",
+      "access_status": "read",
+      "evidence_summary": "Confirms January 12 2024 single, cowriting collaboration and Astrid’s explanation framing the song as a playful warning to future partners."
+    },
+    {
+      "id": "src-025",
+      "url": "https://music.apple.com/us/album/joyride/1744477279",
+      "title": "Joyride",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Documents Astrid’s nine-song album Joyride released May 24 2024."
+    },
+    {
+      "id": "src-026",
+      "url": "https://1883magazine.com/ones-to-watch-music-2020/",
+      "title": "Ones to Watch: Music 2020",
+      "publisher": "1883 Magazine",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "original_artist_interview",
+      "access_status": "read",
+      "evidence_summary": "Astrid explains Favorite Part Of Me was inspired by how friends and family bring out the best in her."
+    },
+    {
+      "id": "src-027",
+      "url": "https://www.coupdemainmagazine.com/astrid-s/13201",
+      "title": "Interview: Astrid S on her Party’s Over EP",
+      "publisher": "Coup de Main Magazine",
+      "published_date": "2017-09-05",
+      "accessed_date": "2026-10-25",
+      "source_type": "original_artist_interview",
+      "access_status": "read",
+      "evidence_summary": "Astrid discusses Such A Boy, dating ambiguity and gender-stereotype language."
+    },
+    {
+      "id": "src-028",
+      "url": "https://1883magazine.com/astrid-s/",
+      "title": "Astrid S",
+      "publisher": "1883 Magazine",
+      "published_date": "2024-05-28",
+      "accessed_date": "2026-10-25",
+      "source_type": "original_artist_interview",
+      "access_status": "read",
+      "evidence_summary": "In a 2024 interview, Astrid explains the Joyride title track as choosing to enjoy an apparently temporary relationship and connects that feeling with her career."
+    },
+    {
+      "id": "src-029",
+      "url": "https://teksta.no/podcasts/df1de11b-735f-4d80-9dcb-d752050ee962/50d1e1bb-b2aa-4b70-bfe7-18c37569c703/",
+      "title": "Q&A Astrid S (730.no)",
+      "publisher": "Teksta / 730.no",
+      "published_date": "2023-09-28",
+      "accessed_date": "2026-10-25",
+      "source_type": "interview_transcript",
+      "access_status": "read",
+      "evidence_summary": "Machine-generated transcript of a 2023 interview attributes to Astrid a nuanced account of writing It’s Ok If You Forget Me about an ex and using a positive tone to cope; transcription requires primary-audio verification."
+    },
+    {
+      "id": "src-030",
+      "url": "https://musicrow.com/2020/02/brett-young-teams-with-norways-astrid-s-for-new-track-i-do/",
+      "title": "Brett Young Teams With Norway’s Astrid S For New Track I Do",
+      "publisher": "MusicRow",
+      "published_date": "2020-02-18",
+      "accessed_date": "2026-10-25",
+      "source_type": "music_news_with_artist_statements",
+      "access_status": "read",
+      "evidence_summary": "Release announcement says Astrid wrote I Do and invited Brett Young, whose comments emphasize its storytelling; describes lingering feeling for an ex."
+    },
+    {
+      "id": "src-031",
+      "url": "https://music.apple.com/us/artist/shy-martin/1061879773",
+      "title": "SHY Martin",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Describes Swedish emotional electropop and vulnerable songwriting, supporting an editorial comparison with Astrid S."
+    },
+    {
+      "id": "src-032",
+      "url": "https://www.harpersbazaar.com/culture/art-books-music/a25899054/sasha-sloan-loser-interview/",
+      "title": "Sasha Sloan talks her Loser EP",
+      "publisher": "Harper’s Bazaar",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "original_artist_interview",
+      "access_status": "read",
+      "evidence_summary": "Describes Sloan’s emotionally direct pop songwriting about heartbreak and family, offering context for editorial similarities."
+    },
+    {
+      "id": "src-033",
+      "url": "https://music.apple.com/us/song/1479929527",
+      "title": "Favorite Part of Me",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Links Favorite Part Of Me to the Down Low EP edition dated September 26 2019, without establishing whether earlier live performances or another issue preceded it."
+    },
+    {
+      "id": "src-034",
+      "url": "https://www.euphoriazine.com/blog/2020/10/interviews-astrid-s/",
+      "title": "Interview: Astrid S — Leave It Beautiful",
+      "publisher": "EUPHORIA.",
+      "published_date": "2020-10-16",
+      "accessed_date": "2026-10-25",
+      "source_type": "music_review_and_interview",
+      "access_status": "read",
+      "evidence_summary": "Publication characterizes It’s Ok If You Forget Me as bittersweet post-breakup writing; critical reading is not Astrid’s own stated meaning."
+    },
+    {
+      "id": "src-035",
+      "url": "https://dancingastronaut.com/2020/05/notd-expand-on-collaboration-long-in-the-making-i-dont-know-why-qa/",
+      "title": "NOTD expand on collaboration I Don't Know Why — Q&A",
+      "publisher": "Dancing Astronaut",
+      "published_date": "2020-05-08",
+      "accessed_date": "2026-10-25",
+      "source_type": "original_cowriter_interview",
+      "access_status": "read",
+      "evidence_summary": "NOTD explain how the vocal collaboration came together and how Astrid recorded the topline; do not provide a direct song-meaning interpretation."
+    },
+    {
+      "id": "src-036",
+      "url": "https://creativedisc.com/2017/10/creativedisc-exclusive-interview-with-astrid-s-debut-album-rilis-tahun-depan/",
+      "title": "CreativeDisc Exclusive Interview With Astrid S",
+      "publisher": "CreativeDisc",
+      "published_date": "2017-10-09",
+      "accessed_date": "2026-10-25",
+      "source_type": "original_artist_interview",
+      "access_status": "read",
+      "evidence_summary": "Astrid says she did not write Think Before I Talk, but relates to its message of saying hurtful things one does not mean."
+    },
+    {
+      "id": "src-037",
+      "url": "https://music.apple.com/us/album/two-hands-single/1722555708",
+      "title": "Two Hands - Single",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Dates the single Two Hands to January 12 2024."
+    }
+  ],
+  "outstanding_research": [
+    "Confirm original standalone issue dates for Hurts So Good and Such A Boy if first-issue day precision is required.",
+    "For Favorite Part Of Me, reconcile the September 26 catalogue date with the Norwegian midnight-after-September-26 release announcement; month precision is used.",
+    "Listen to original audio of the 2023 730.no Q&A before publishing the automatically transcribed It’s Ok If You Forget Me statement as definitive artist intent.",
+    "Independently verify current social-account ownership and verification badges; MusicBrainz external links are curated associations rather than platform attestations.",
+    "Obtain written permission or a documented commercially valid license before replacing the abstract artist image.",
+    "If Afterglow later uses ranked Spotify Popular, capture a stable timestamped, market-defined Spotify chart source rather than silently substituting a different popularity metric.",
+    "Conduct editorial audio listening before adding sound-production observations that cannot be supported by interviews or reviews."
+  ]
+}

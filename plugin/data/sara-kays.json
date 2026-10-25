@@ -1,0 +1,1377 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-25",
+  "selection": {
+    "type": "curated",
+    "description": "Ten historically significant or thematically distinctive Sara Kays recordings spanning Camera Shy, the 2020 breakout single, the 2021 Struck By Lightning era and the 2025 independent single Bench Sitter. Selected editorially for Afterglow, not by streaming totals or an algorithmic chart.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-004",
+      "src-005",
+      "src-001",
+      "src-008",
+      "src-009",
+      "src-026"
+    ],
+    "limitations": [
+      "Attempted Spotify artist Top tracks. The embedded Spotify result had a stale crawl and a different order/ten-song composition from another retrieved version; neither established a current, reproducible market-specific Spotify Popular list.",
+      "This is not a Spotify top-ten ranking, nor an ordering by total streams. All position values are null.",
+      "Artist-selected ten song list includes material across years rather than seeking only most-streamed tracks."
+    ]
+  },
+  "artist": {
+    "slug": "sara-kays",
+    "name": "Sara Kays",
+    "full_name": null,
+    "country": "United States",
+    "place_of_origin": "Carmel, Indiana, United States",
+    "short_description": "Indiana-raised singer-songwriter known for personal, narrative-led pop about relationships, self-image and growing up.",
+    "biography": "Sara Kays is an American singer-songwriter from Carmel, Indiana, whose songs often explore vulnerable moments with a direct, diary-like approach. She began singing young and received a guitar from her mother, then spent much of her school years performing covers on the street and at local venues. As she became more interested in writing her own material, she moved to Nashville, where she developed an ongoing recording partnership with producer Steven Martinez. Her early work includes the 2018 project A House Too Big and the 2020 EP Camera Shy. Songs such as Smaller Than This, Chosen Last and No Matter the Season brought candid subjects, including self-image and isolation, into her music. Kays used short clips on TikTok to test unfinished ideas; the response to Remember That Night? encouraged her to complete and release it quickly in November 2020. That song became her breakthrough recording and led to wider touring and television exposure. In 2021, she released Struck By Lightning on Atlantic Records, including a duet with Cavetown. Her songwriting frequently returns to everyday relationships, friendship changes and the discomfort of growing up, while allowing personal experiences to shape the stories. In January 2025, Bench Sitter began a new release chapter, followed by the seven-song Reasons To Call You project in May. For Afterglow, her catalogue offers several entry points into intimate, narrative-led emotional pop.",
+    "spotify_url": "https://open.spotify.com/artist/7Lk9V7E1u5gqSHmtcKlOqH",
+    "official_website": null,
+    "social_profiles": [
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/sarakaysmusic/",
+        "source_ids": [
+          "src-006",
+          "src-007"
+        ]
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@sarakaysmusic",
+        "source_ids": [
+          "src-006",
+          "src-007"
+        ]
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/@sarakaysmusic",
+        "source_ids": [
+          "src-006",
+          "src-007"
+        ]
+      },
+      {
+        "platform": "Linktree",
+        "url": "https://linktr.ee/sarakays",
+        "source_ids": [
+          "src-006"
+        ]
+      }
+    ],
+    "genres": [
+      "alternative pop (documented music press)",
+      "singer-songwriter (documented artist description)",
+      "indie pop (editorial)",
+      "emotional pop (editorial Afterglow taxonomy)"
+    ],
+    "moods": [
+      "introspective (editorial)",
+      "bittersweet (editorial)",
+      "vulnerable (editorial)",
+      "nostalgic (editorial)"
+    ],
+    "career_milestones": [
+      {
+        "date": "2018",
+        "description": "Released early project A House Too Big; documented as a debut EP by the Shazam artist reference.",
+        "source_ids": [
+          "src-031"
+        ]
+      },
+      {
+        "date": "2020-10-15",
+        "description": "Camera Shy released; track-centered stories include body image, friendship and social anxiety.",
+        "source_ids": [
+          "src-008",
+          "src-002"
+        ]
+      },
+      {
+        "date": "2020-11-06",
+        "description": "Released Remember That Night? after a TikTok excerpt drew attention; Kays discussed its inspiration in subsequent interviews.",
+        "source_ids": [
+          "src-021",
+          "src-002",
+          "src-029"
+        ]
+      },
+      {
+        "date": "2021-08",
+        "description": "Released Struck By Lightning, featuring a duet with Cavetown; the accompanying label biography describes tours and breakthrough attention.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-009"
+        ]
+      },
+      {
+        "date": "2025-01-10",
+        "description": "Released Bench Sitter as a standalone single as her independent-release phase began.",
+        "source_ids": [
+          "src-026",
+          "src-027"
+        ]
+      },
+      {
+        "date": "2025-05-02",
+        "description": "Released the seven-song Reasons To Call You collection.",
+        "source_ids": [
+          "src-004",
+          "src-010"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Sasha Alex Sloan",
+        "explanation": "An editorial match for vulnerable, confessional songwriting and restrained pop presentation; Apple Music also lists her among related artists.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-004",
+          "src-003"
+        ]
+      },
+      {
+        "name": "Rosie Darling",
+        "explanation": "An editorial recommendation for listeners drawn to softer, emotionally frank pop; Apple Music lists Rosie Darling alongside Camera Shy as related listening.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-008"
+        ]
+      },
+      {
+        "name": "Gracie Abrams",
+        "explanation": "An editorial bridge for people who prefer intimate, relationship-focused storytelling; Apple Music lists her as a related artist.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-004"
+        ]
+      },
+      {
+        "name": "Anson Seabra",
+        "explanation": "A compatible introspective singer-songwriter recommendation; Apple Music’s related-artist directory includes him.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-004"
+        ]
+      },
+      {
+        "name": "Alec Benjamin",
+        "explanation": "A match for strongly narrative songwriting; Kays named Benjamin among personal listening influences in her 2021 label biography.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001",
+          "src-004"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "name,country,place_of_origin",
+        "claim": "Sara Kays is an American singer-songwriter raised in Carmel, Indiana.",
+        "source_ids": [
+          "src-002",
+          "src-007"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Official Spotify artist embed resolves to Sara Kays with the recorded account ID.",
+        "source_ids": [
+          "src-005"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "She learned guitar young, busked through school and developed a later partnership with Nashville producer Steven Martinez.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-029"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "A House Too Big dates to 2018, Camera Shy to 2020, and Struck By Lightning to 2021.",
+        "source_ids": [
+          "src-031",
+          "src-008",
+          "src-009"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "The response to a TikTok excerpt contributed to the rapid release of Remember That Night? in November 2020.",
+        "source_ids": [
+          "src-021",
+          "src-002"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "The 2021 EP includes a duet with Cavetown; the 2025 chapter includes Bench Sitter and Reasons To Call You.",
+        "source_ids": [
+          "src-001",
+          "src-026",
+          "src-010"
+        ]
+      },
+      {
+        "field": "genres",
+        "claim": "Contemporary music press and Kays’s original interviews describe pop/alternative-pop songwriting with intimate acoustic elements.",
+        "source_ids": [
+          "src-001",
+          "src-003",
+          "src-029"
+        ]
+      },
+      {
+        "field": "social_profiles",
+        "claim": "The artist-branded link hub and music industry profile associate sarakaysmusic with Instagram, TikTok and YouTube.",
+        "source_ids": [
+          "src-006",
+          "src-007"
+        ]
+      },
+      {
+        "field": "career_milestones",
+        "claim": "Specific dated events are supported by catalogues, artist interview and contemporary release reports.",
+        "source_ids": [
+          "src-008",
+          "src-021",
+          "src-001",
+          "src-026",
+          "src-010"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No independently verified expanded legal/full name beyond the professional credit Sara Kays.",
+      "Current official website content could not be retrieved; historically reported sarakays.com is deliberately left null pending a safe recheck.",
+      "Individual Instagram, TikTok and YouTube pages could not be directly fetched; links are supported by artist-branded link hub and industry profile rather than platform badge checks.",
+      "Genre and mood tags are a mixture of documented descriptions and explicitly editorial categorization.",
+      "No photograph or album-art license permitting reuse on this commercial website was established."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "remember-that-night",
+      "title": "Remember That Night?",
+      "artist_slug": "sara-kays",
+      "artist_credits": [
+        "Sara Kays"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1nYzjrdVQ8RpF93M0jPFW7",
+      "release_date": "2020-11-06",
+      "release_date_precision": "day",
+      "release_date_context": "Contemporaneous original standalone single release; later included on the 2021 Struck By Lightning EP and on numerous later compilations.",
+      "release_title": "Remember That Night?",
+      "release_type": "single",
+      "short_description": "A breakup song triggered by a message from someone she previously dated.",
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "heartbroken",
+        "nostalgic"
+      ],
+      "themes": [
+        "renewed grief",
+        "breakup memories",
+        "moving on"
+      ],
+      "editorial_notes": "A strong introduction to how an ordinary message can reopen feelings that seemed settled; follows the artist’s original account, not claimed audio listening.",
+      "editorial_notes_basis": "artist interview and original release statement",
+      "editorial_notes_source_ids": [
+        "src-021",
+        "src-002"
+      ],
+      "artist_statement_paraphrase": "Kays said a former partner contacted her months after their breakup and brought earlier feelings back; a TikTok response led her to finish and release the song rapidly.",
+      "artist_statement_source_ids": [
+        "src-002",
+        "src-021",
+        "src-029"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "traffic-lights",
+          "explanation": "Both address how romantic closeness changes after a relationship shift.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "picture-of-you",
+          "explanation": "Both explore the emotional pull of memories.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,spotify_url,artist_credits",
+          "claim": "Spotify identifies this exact recording title and credited performers.",
+          "source_ids": [
+            "src-011"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "The supplied date and release format are supported by the indicated catalogue or contemporary release evidence.",
+          "source_ids": [
+            "src-021"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Documented song-specific statement is paraphrased from artist or attributed contemporary primary commentary.",
+          "source_ids": [
+            "src-002",
+            "src-021",
+            "src-029"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "The chosen Spotify URL identifies one original-era recording, not necessarily every reissued instance sharing the same master."
+      ]
+    },
+    {
+      "slug": "smaller-than-this",
+      "title": "Smaller Than This",
+      "artist_slug": "sara-kays",
+      "artist_credits": [
+        "Sara Kays"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/29A7Zz30FbIbvlnHHaJdIx",
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "Documented on the 2020 Camera Shy collection; exact earliest single release date is not established here.",
+      "release_title": "Camera Shy",
+      "release_type": "EP",
+      "short_description": "Personal songwriting about discomfort with body image.",
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "vulnerable",
+        "introspective"
+      ],
+      "themes": [
+        "body image",
+        "self-criticism",
+        "self-acceptance struggles"
+      ],
+      "editorial_notes": "Pair this with No Matter the Season and Picture of You for a grounded guide to Kays’s recurring self-image concerns.",
+      "editorial_notes_basis": "original artist interview",
+      "editorial_notes_source_ids": [
+        "src-002",
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "Kays singled out Smaller Than This as especially personal while discussing songs drawn from her own body-image struggles.",
+      "artist_statement_source_ids": [
+        "src-002",
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "no-matter-the-season",
+          "explanation": "Both are tied to Kays’s stated body-image songwriting.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "picture-of-you",
+          "explanation": "Both address discomfort with how one sees oneself.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,spotify_url,artist_credits",
+          "claim": "Spotify identifies this exact recording title and credited performers.",
+          "source_ids": [
+            "src-012"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "The supplied date and release format are supported by the indicated catalogue or contemporary release evidence.",
+          "source_ids": [
+            "src-004",
+            "src-008"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Documented song-specific statement is paraphrased from artist or attributed contemporary primary commentary.",
+          "source_ids": [
+            "src-002",
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Exact initial single release day not independently confirmed; the October 2020 EP date is not asserted as its premiere."
+      ]
+    },
+    {
+      "slug": "chosen-last",
+      "title": "Chosen Last",
+      "artist_slug": "sara-kays",
+      "artist_credits": [
+        "Sara Kays"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/5X4tAxxNC5XaSgcIW3xhj7",
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "Documented on Camera Shy in 2020 and as a 2020 single; exact earliest issue day not verified.",
+      "release_title": "Camera Shy",
+      "release_type": "EP",
+      "short_description": "A personal song that critics discuss in terms of exclusion and not feeling included.",
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "lonely",
+        "self-conscious"
+      ],
+      "themes": [
+        "social exclusion",
+        "feeling overlooked"
+      ],
+      "editorial_notes": "An editorial companion to Backseat Rider: both are presented by reviewers as experiences of being displaced or left at the margins of a social circle.",
+      "editorial_notes_basis": "published interpretation and original artist interview",
+      "editorial_notes_source_ids": [
+        "src-022",
+        "src-002"
+      ],
+      "artist_statement_paraphrase": "Kays confirmed that Chosen Last was among the personal songs inspired by her experience; the interview does not specify every narrative detail.",
+      "artist_statement_source_ids": [
+        "src-002"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "backseat-rider",
+          "explanation": "Both make social exclusion and changing friendships accessible.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "home-for-the-summer",
+          "explanation": "Offers another lens on friendship and belonging.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,spotify_url,artist_credits",
+          "claim": "Spotify identifies this exact recording title and credited performers.",
+          "source_ids": [
+            "src-013"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "The supplied date and release format are supported by the indicated catalogue or contemporary release evidence.",
+          "source_ids": [
+            "src-008",
+            "src-004"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Documented song-specific statement is paraphrased from artist or attributed contemporary primary commentary.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Detailed narrative of being selected last is an editorial reading, not a sourced verbatim artist explanation."
+      ]
+    },
+    {
+      "slug": "home-for-the-summer",
+      "title": "Home for the Summer",
+      "artist_slug": "sara-kays",
+      "artist_credits": [
+        "Sara Kays"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6zHP0OCcZYtxumAqmRuIXk",
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "On Camera Shy (October 2020); also catalogued as a 2020 single. The exact original standalone single day is not independently established.",
+      "release_title": "Camera Shy",
+      "release_type": "EP",
+      "short_description": "A nostalgic song about friendships and the prospect of reconnecting in summer.",
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "nostalgic",
+        "wistful"
+      ],
+      "themes": [
+        "old friends",
+        "distance",
+        "summer reunions"
+      ],
+      "editorial_notes": "A critic describes the story as friends hoping to reunite after leaving their hometown; treat that as published editorial interpretation rather than a confirmed first-person explanation.",
+      "editorial_notes_basis": "contemporary editorial music review",
+      "editorial_notes_source_ids": [
+        "src-022"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "backseat-rider",
+          "explanation": "Contrasts hope for maintaining friendship with the feeling of being displaced.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "chosen-last",
+          "explanation": "Both connect to uncertainty about belonging.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,spotify_url,artist_credits",
+          "claim": "Spotify identifies this exact recording title and credited performers.",
+          "source_ids": [
+            "src-014"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "The supplied date and release format are supported by the indicated catalogue or contemporary release evidence.",
+          "source_ids": [
+            "src-008",
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Kays discussed this song’s video in an interview, but that discussion is not proof of the song’s meaning; artist intent is left null."
+      ]
+    },
+    {
+      "slug": "no-matter-the-season",
+      "title": "No Matter the Season",
+      "artist_slug": "sara-kays",
+      "artist_credits": [
+        "Sara Kays"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/5TteeRkf1yjuDA3O5OpdVc",
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "Released before or by Camera Shy in 2020; earliest single issue date not established here.",
+      "release_title": "Camera Shy",
+      "release_type": "EP",
+      "short_description": "One of the artist’s early songs directly addressing body image.",
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "raw",
+        "reflective"
+      ],
+      "themes": [
+        "body image",
+        "belonging",
+        "insecurity"
+      ],
+      "editorial_notes": "A useful starting point for readers interested in how Kays connected deeply personal subjects with a wider listener community.",
+      "editorial_notes_basis": "original artist interview",
+      "editorial_notes_source_ids": [
+        "src-002",
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "Kays identified this as the first song she released about body image and said listeners’ responses helped her feel less alone in discussing the topic.",
+      "artist_statement_source_ids": [
+        "src-002",
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "smaller-than-this",
+          "explanation": "Both explicitly connect to Kays’s experiences of body image.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "picture-of-you",
+          "explanation": "Another exploration of self-image in everyday situations.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,spotify_url,artist_credits",
+          "claim": "Spotify identifies this exact recording title and credited performers.",
+          "source_ids": [
+            "src-015"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "The supplied date and release format are supported by the indicated catalogue or contemporary release evidence.",
+          "source_ids": [
+            "src-008",
+            "src-002"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Documented song-specific statement is paraphrased from artist or attributed contemporary primary commentary.",
+          "source_ids": [
+            "src-002",
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Precise first-release date before the October 2020 EP is not verified."
+      ]
+    },
+    {
+      "slug": "traffic-lights",
+      "title": "Traffic Lights",
+      "artist_slug": "sara-kays",
+      "artist_credits": [
+        "Sara Kays"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6CRMSbYypKAf9XubEsmvkN",
+      "release_date": "2021",
+      "release_date_precision": "year",
+      "release_date_context": "Contemporary reporting confirms a June 2021 single; exact day remains unverified from an accessible primary catalogue entry. Subsequently appeared on Struck By Lightning.",
+      "release_title": "Traffic Lights",
+      "release_type": "single",
+      "short_description": "A relationship story in which small changes during a drive suggest that affection is fading.",
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "uneasy",
+        "bittersweet"
+      ],
+      "themes": [
+        "emotional distance",
+        "falling out of love",
+        "communication"
+      ],
+      "editorial_notes": "The car-journey image works as an accessible way to discuss a slow, uncertain change in a relationship; this reading is anchored in Kays’s published explanation.",
+      "editorial_notes_basis": "contemporaneous artist statement",
+      "editorial_notes_source_ids": [
+        "src-024"
+      ],
+      "artist_statement_paraphrase": "Kays said that changed behavior while driving together stood in for broader signs that a partner was gradually falling out of love.",
+      "artist_statement_source_ids": [
+        "src-024"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "remember-that-night",
+          "explanation": "Emotional distance during a relationship versus an old breakup reopened.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "backseat-rider",
+          "explanation": "Both use everyday social situations to illustrate exclusion.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,spotify_url,artist_credits",
+          "claim": "Spotify identifies this exact recording title and credited performers.",
+          "source_ids": [
+            "src-016"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "The supplied date and release format are supported by the indicated catalogue or contemporary release evidence.",
+          "source_ids": [
+            "src-024",
+            "src-004"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Documented song-specific statement is paraphrased from artist or attributed contemporary primary commentary.",
+          "source_ids": [
+            "src-024"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "June 25 is reported in some aggregators, but the package conservatively stores year precision only."
+      ]
+    },
+    {
+      "slug": "backseat-rider",
+      "title": "Backseat Rider",
+      "artist_slug": "sara-kays",
+      "artist_credits": [
+        "Sara Kays"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/0N0xjFAF6ZklrsAtOO56Ai",
+      "release_date": "2021-04-23",
+      "release_date_precision": "day",
+      "release_date_context": "Contemporaneous announcement of original single; later featured on Struck By Lightning.",
+      "release_title": "Backseat Rider",
+      "release_type": "single",
+      "short_description": "A song about losing your place as a best friend becomes closer to somebody else.",
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "excluded",
+        "sad"
+      ],
+      "themes": [
+        "friendship changes",
+        "social displacement",
+        "jealousy"
+      ],
+      "editorial_notes": "A parallel to Chosen Last, but with Kays’s own song-specific account of a changing friendship rather than only an editorial interpretation.",
+      "editorial_notes_basis": "artist statement in contemporaneous release coverage",
+      "editorial_notes_source_ids": [
+        "src-023"
+      ],
+      "artist_statement_paraphrase": "Kays explained that the song depicts the hurt of watching a best friend grow closer to someone else and feeling relegated to the back seat.",
+      "artist_statement_source_ids": [
+        "src-023"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "chosen-last",
+          "explanation": "An adjacent story of not being prioritized.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "home-for-the-summer",
+          "explanation": "Another friendship-focused contrast.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,spotify_url,artist_credits",
+          "claim": "Spotify identifies this exact recording title and credited performers.",
+          "source_ids": [
+            "src-017"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "The supplied date and release format are supported by the indicated catalogue or contemporary release evidence.",
+          "source_ids": [
+            "src-023"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Documented song-specific statement is paraphrased from artist or attributed contemporary primary commentary.",
+          "source_ids": [
+            "src-023"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "struck-by-lightning-feat-cavetown",
+      "title": "Struck by Lightning (feat. Cavetown)",
+      "artist_slug": "sara-kays",
+      "artist_credits": [
+        "Sara Kays",
+        "Cavetown"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6LBvil8ZDD2nktYSmKkHIy",
+      "release_date": "2021-08-06",
+      "release_date_precision": "day",
+      "release_date_context": "Release of 2021 EP and title duet, documented contemporaneously; do not confuse with later compilations.",
+      "release_title": "Struck By Lightning",
+      "release_type": "EP",
+      "short_description": "A Cavetown duet rooted in being there for a friend who is struggling.",
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "compassionate",
+        "somber"
+      ],
+      "themes": [
+        "support",
+        "friendship",
+        "emotional distress"
+      ],
+      "editorial_notes": "An empathetic anchor for a thematic collection about standing by someone in distress, with the intended meaning directly documented by the former label.",
+      "editorial_notes_basis": "original artist statement in official label biography",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": "Kays described wanting to support a friend who was experiencing depression even when they were unwilling or unable to talk, and said the storm image expressed solidarity.",
+      "artist_statement_source_ids": [
+        "src-001"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "no-matter-the-season",
+          "explanation": "Both address deeply personal difficulties, though from different perspectives.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "backseat-rider",
+          "explanation": "Contrasts loyal support with a friendship becoming distant.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,spotify_url,artist_credits",
+          "claim": "Spotify identifies this exact recording title and credited performers.",
+          "source_ids": [
+            "src-018"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "The supplied date and release format are supported by the indicated catalogue or contemporary release evidence.",
+          "source_ids": [
+            "src-001",
+            "src-009"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Documented song-specific statement is paraphrased from artist or attributed contemporary primary commentary.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Themes include a difficult mental-health subject; avoid treating the song as clinical advice."
+      ]
+    },
+    {
+      "slug": "picture-of-you",
+      "title": "Picture of You",
+      "artist_slug": "sara-kays",
+      "artist_credits": [
+        "Sara Kays"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/0PylJseXPdhgTpTAqXKiWE",
+      "release_date": "2021-03-19",
+      "release_date_precision": "day",
+      "release_date_context": "Contemporaneous reporting confirms the original March 19 single; later on Struck By Lightning.",
+      "release_title": "Picture of You",
+      "release_type": "single",
+      "short_description": "A reflection on photographs, memory and discomfort with one’s appearance.",
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "reflective",
+        "vulnerable"
+      ],
+      "themes": [
+        "photos",
+        "self-image",
+        "memory"
+      ],
+      "editorial_notes": "Use alongside Smaller Than This to explore self-image, or alongside Remember That Night? to contrast a memory you treasure with a photograph you might avoid.",
+      "editorial_notes_basis": "artist statement in contemporary release reporting",
+      "editorial_notes_source_ids": [
+        "src-025"
+      ],
+      "artist_statement_paraphrase": "Kays said she sometimes preferred keeping a memory in her mind rather than being photographed because she expected to dislike how she looked.",
+      "artist_statement_source_ids": [
+        "src-025"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "smaller-than-this",
+          "explanation": "Both are grounded in the artist’s explicit body-image commentary.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "remember-that-night",
+          "explanation": "Both concern memory and the emotional aftermath of experiences.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,spotify_url,artist_credits",
+          "claim": "Spotify identifies this exact recording title and credited performers.",
+          "source_ids": [
+            "src-019"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "The supplied date and release format are supported by the indicated catalogue or contemporary release evidence.",
+          "source_ids": [
+            "src-025",
+            "src-003"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Documented song-specific statement is paraphrased from artist or attributed contemporary primary commentary.",
+          "source_ids": [
+            "src-025"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "bench-sitter",
+      "title": "Bench Sitter",
+      "artist_slug": "sara-kays",
+      "artist_credits": [
+        "Sara Kays"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/69PbR7w1VkVMEd7m33NsgC",
+      "release_date": "2025-01-10",
+      "release_date_precision": "day",
+      "release_date_context": "Original standalone single appeared January 10, 2025; subsequently included on Reasons To Call You in May 2025.",
+      "release_title": "Bench Sitter",
+      "release_type": "single",
+      "short_description": "The January 2025 single marking a new independent-release chapter for Sara Kays.",
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Include as a later-era discovery stop, rather than attributing an unverified story or mood to its lyrics. The artist’s public remarks about the release explain career context, not the song’s precise meaning.",
+      "editorial_notes_basis": "release and cataloguing context only",
+      "editorial_notes_source_ids": [
+        "src-026",
+        "src-027"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "backseat-rider",
+          "explanation": "A time-spanning recommendation from earlier friendship-related releases to her 2025 catalogue.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "picture-of-you",
+          "explanation": "An earlier reference point for her introspective material.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,spotify_url,artist_credits",
+          "claim": "Spotify identifies this exact recording title and credited performers.",
+          "source_ids": [
+            "src-020"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "The supplied date and release format are supported by the indicated catalogue or contemporary release evidence.",
+          "source_ids": [
+            "src-026",
+            "src-027",
+            "src-010"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No source-backed song-specific account of its lyrical meaning was established.",
+        "A different Spotify track ID represents the May 2025 album version; this selected ID is a verified Sara Kays recording from the earlier single era."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://press.atlanticrecords.com/sites/g/files/g2000014001/files/2022-04/SARA-KAYS-BIO-AUGUST-2021.pdf",
+      "title": "Sara Kays — August 2021 artist biography",
+      "publisher": "Atlantic Records",
+      "published_date": "2021-08",
+      "accessed_date": "2026-10-25",
+      "source_type": "official_label_press_material",
+      "access_status": "read",
+      "evidence_summary": "Describes Indiana-to-Nashville development, Steven Martinez collaboration, Camera Shy, TikTok breakthrough, 2021 Struck By Lightning EP and Kays’s specific explanation of the Cavetown duet; PDF text and both page images examined."
+    },
+    {
+      "id": "src-002",
+      "url": "https://www.songwriteruniverse.com/sara-kays-interview-2021/",
+      "title": "Pop Singer/Songwriter Sara Kays Talks About Her EP",
+      "publisher": "SongwriterUniverse",
+      "published_date": "2021-08-23",
+      "accessed_date": "2026-10-25",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Interview confirms Carmel, Indiana upbringing and Nashville move; Kays says some songs were completed after TikTok feedback, discusses body-image songs and the Cavetown collaboration."
+    },
+    {
+      "id": "src-003",
+      "url": "https://atwoodmagazine.com/srky-sara-kays-interview-music-2021/",
+      "title": "Interview: Sara Kays Leans into Her Viral Success",
+      "publisher": "Atwood Magazine",
+      "published_date": "2021-03-22",
+      "accessed_date": "2026-10-25",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Interview describes writing process, viral success of No Matter the Season, body-image concerns and Future Kids; contextualizes March 19 release of Picture of You."
+    },
+    {
+      "id": "src-004",
+      "url": "https://music.apple.com/us/artist/sara-kays/541673498",
+      "title": "Sara Kays — Artist",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Lists 2020 Camera Shy, 2021 Struck By Lightning, 2025 Reasons To Call You, and associated tracks; identifies similar musicians; rankings are Apple Music’s and are not treated as Spotify ranks."
+    },
+    {
+      "id": "src-005",
+      "url": "https://open.spotify.com/embed/artist/7Lk9V7E1u5gqSHmtcKlOqH",
+      "title": "Sara Kays — Spotify artist embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Confirms artist identity, account ID, and a ten-song top-track display in one cached snapshot; another retrieved version differs, with old crawl age and no market data, so no current popularity ranking is claimed."
+    },
+    {
+      "id": "src-006",
+      "url": "https://linktr.ee/sarakays",
+      "title": "@sarakays official Linktree",
+      "publisher": "Linktree / Sara Kays",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "artist_controlled_link_hub",
+      "access_status": "read",
+      "evidence_summary": "Artist-branded hub links Instagram/TikTok/YouTube, Spotify and 2025 EP promo; one outgoing website link contained unrelated text in parsed output and direct website check failed."
+    },
+    {
+      "id": "src-007",
+      "url": "https://chartmetric.com/artist/1341492",
+      "title": "Sara Kays — Artist Stats and Official Profiles",
+      "publisher": "Chartmetric",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "music_industry_profile",
+      "access_status": "read",
+      "evidence_summary": "Identifies United States/Indiana artist and cross-references Instagram, TikTok and YouTube username sarakaysmusic; indexed profile updated in 2026; this is a cross-reference, not verification of platform badges."
+    },
+    {
+      "id": "src-008",
+      "url": "https://music.apple.com/us/album/camera-shy/1534546097",
+      "title": "Camera Shy — Sara Kays",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Lists the release as October 15, 2020, seven tracks. Historical label and artist interviews call the project an EP."
+    },
+    {
+      "id": "src-009",
+      "url": "https://music.apple.com/us/album/struck-by-lightning/1576852076",
+      "title": "Struck By Lightning — Sara Kays",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Lists Struck By Lightning, seven tracks, released August 6, 2021 by Sara Kays."
+    },
+    {
+      "id": "src-010",
+      "url": "https://music.apple.com/us/album/reasons-to-call-you/1806386824",
+      "title": "Reasons To Call You — Sara Kays",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Lists May 2, 2025 collection, seven tracks, later than the separately released Bench Sitter single."
+    },
+    {
+      "id": "src-011",
+      "url": "https://open.spotify.com/embed/track/1nYzjrdVQ8RpF93M0jPFW7",
+      "title": "Remember That Night? — recording",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Spotify embed identifies this recording as Remember That Night? by Sara Kays."
+    },
+    {
+      "id": "src-012",
+      "url": "https://open.spotify.com/embed/track/29A7Zz30FbIbvlnHHaJdIx",
+      "title": "Smaller Than This — recording",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Spotify embed identifies Smaller Than This by Sara Kays."
+    },
+    {
+      "id": "src-013",
+      "url": "https://open.spotify.com/embed/track/5X4tAxxNC5XaSgcIW3xhj7",
+      "title": "Chosen Last — recording",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Spotify embed identifies Chosen Last by Sara Kays."
+    },
+    {
+      "id": "src-014",
+      "url": "https://open.spotify.com/embed/track/6zHP0OCcZYtxumAqmRuIXk",
+      "title": "Home for the Summer — recording",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Spotify embed identifies Home for the Summer by Sara Kays."
+    },
+    {
+      "id": "src-015",
+      "url": "https://open.spotify.com/embed/track/5TteeRkf1yjuDA3O5OpdVc",
+      "title": "No Matter the Season — recording",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Spotify embed identifies No Matter the Season by Sara Kays."
+    },
+    {
+      "id": "src-016",
+      "url": "https://open.spotify.com/embed/track/6CRMSbYypKAf9XubEsmvkN",
+      "title": "Traffic Lights — recording",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Spotify embed identifies Traffic Lights by Sara Kays."
+    },
+    {
+      "id": "src-017",
+      "url": "https://open.spotify.com/embed/track/0N0xjFAF6ZklrsAtOO56Ai",
+      "title": "Backseat Rider — recording",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Spotify embed identifies Backseat Rider by Sara Kays."
+    },
+    {
+      "id": "src-018",
+      "url": "https://open.spotify.com/embed/track/6LBvil8ZDD2nktYSmKkHIy",
+      "title": "Struck by Lightning (feat. Cavetown) — recording",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Spotify embed displays song title, Sara Kays and Cavetown as joint credited artists."
+    },
+    {
+      "id": "src-019",
+      "url": "https://open.spotify.com/embed/track/0PylJseXPdhgTpTAqXKiWE",
+      "title": "Picture of You — recording",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Spotify embed identifies Picture of You by Sara Kays."
+    },
+    {
+      "id": "src-020",
+      "url": "https://open.spotify.com/embed/track/69PbR7w1VkVMEd7m33NsgC",
+      "title": "Bench Sitter — recording",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Spotify embed identifies Bench Sitter by Sara Kays; selected recording corresponds to a 2025-era single listing, rather than claiming a 2025 album release as its premiere."
+    },
+    {
+      "id": "src-021",
+      "url": "https://preludepress.com/news/2020/11/06/sara-kays-releases-new-song-remember-that-night/",
+      "title": "Sara Kays Releases New Song, Remember That Night?",
+      "publisher": "Prelude Press",
+      "published_date": "2020-11-06",
+      "accessed_date": "2026-10-25",
+      "source_type": "contemporaneous_release_news",
+      "access_status": "read",
+      "evidence_summary": "Contemporaneous November 6, 2020 release announcement includes a statement attributed to Kays connecting the song to moving on after a breakup."
+    },
+    {
+      "id": "src-022",
+      "url": "https://www.redbrick.me/a-beginners-guide-to-sara-kays/",
+      "title": "A Beginner’s Guide to Sara Kays",
+      "publisher": "Redbrick Music",
+      "published_date": "2021-04-17",
+      "accessed_date": "2026-10-25",
+      "source_type": "editorial_music_review",
+      "access_status": "read",
+      "evidence_summary": "Music critic interprets Home for the Summer as a nostalgic promise between friends leaving hometown and discusses Chosen Last and Smaller Than This; these are not directly verified artist statements."
+    },
+    {
+      "id": "src-023",
+      "url": "https://www.broadwayworld.com/bwwmusic/article/Sara-Kays-Releases-New-Single-Backseat-Rider-20210423",
+      "title": "Sara Kays Releases New Single Backseat Rider",
+      "publisher": "BroadwayWorld",
+      "published_date": "2021-04-23",
+      "accessed_date": "2026-10-25",
+      "source_type": "contemporaneous_release_news",
+      "access_status": "read",
+      "evidence_summary": "April 23, 2021 release announcement carries Sara Kays’s explicit explanation that the track concerns a best friend becoming closer to someone else."
+    },
+    {
+      "id": "src-024",
+      "url": "https://outnowmagazine.com/sara-kays-traffic-lights/",
+      "title": "Sara Kays Shares Traffic Lights",
+      "publisher": "Out Now Magazine",
+      "published_date": "2021-06-28",
+      "accessed_date": "2026-10-25",
+      "source_type": "contemporaneous_release_news",
+      "access_status": "read",
+      "evidence_summary": "June 2021 article attributes to Sara an explanation of gradual loss of affection in a relationship, represented by changed behavior during a drive."
+    },
+    {
+      "id": "src-025",
+      "url": "https://www.milkymilkymilky.com/post/capturing-a-moment-with-sara-kays-picture-of-you",
+      "title": "Capturing a Moment with Sara Kays’ Picture of You",
+      "publisher": "MILKY",
+      "published_date": "2021-03-19",
+      "accessed_date": "2026-10-25",
+      "source_type": "contemporaneous_release_news",
+      "access_status": "read",
+      "evidence_summary": "March 19, 2021 release article includes Sara’s statement that she prefers retaining an experience mentally rather than appearing in photographs she expects to dislike."
+    },
+    {
+      "id": "src-026",
+      "url": "https://music.apple.com/us/album/bench-sitter-single/1773199868",
+      "title": "Bench Sitter — Single",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Documents Bench Sitter as a standalone single released January 10, 2025; distinguishes it from the May 2025 EP edition."
+    },
+    {
+      "id": "src-027",
+      "url": "https://www.pmstudio.com/music/20250112-24742",
+      "title": "Sara Kays Returns with New Song Bench Sitter",
+      "publisher": "pm studio",
+      "published_date": "2025-01-12",
+      "accessed_date": "2026-10-25",
+      "source_type": "contemporaneous_release_news",
+      "access_status": "read",
+      "evidence_summary": "Reports January 10, 2025 single and later independent-release direction; quotes the artist about returning to releasing music, but does not directly explain this song’s narrative."
+    },
+    {
+      "id": "src-028",
+      "url": "https://www.headlinerhub.com/sara-kays-situationships-body-image-screaming-into-a-pillow.html",
+      "title": "Sara Kays on situationships, body image and screaming into a pillow",
+      "publisher": "Headliner Magazine",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Kays explains why she writes songs about personally difficult issues; reports television performance and later touring. Interview does not establish intent for all songs."
+    },
+    {
+      "id": "src-029",
+      "url": "https://www.flaunt.com/blog/sara-kays",
+      "title": "Sara Kays / Humanizing TikTok With Music As Therapy",
+      "publisher": "Flaunt",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Kays describes her Indiana busking, songwriting influences and the ex-partner conversation behind Remember That Night?."
+    },
+    {
+      "id": "src-030",
+      "url": "https://www.sarakays.com/",
+      "title": "Sara Kays website (historical official link)",
+      "publisher": "Artist domain",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "website",
+      "access_status": "inaccessible",
+      "evidence_summary": "Historically linked by 2021 interview and artist-branded Linktree, but direct retrieval returned an error; current site and contents were not verified."
+    },
+    {
+      "id": "src-031",
+      "url": "https://www.shazam.com/artist/sara-kays/541673498",
+      "title": "Sara Kays — Artist biography and releases",
+      "publisher": "Shazam",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "music_catalogue_artist_biography",
+      "access_status": "read",
+      "evidence_summary": "Its artist reference describes the Indiana-born singer-songwriter and identifies A House Too Big as a 2018 early project."
+    }
+  ],
+  "outstanding_research": [
+    "Independently verify any legal/full name beyond the professional name Sara Kays before populating full_name.",
+    "Verify current functioning official website domain and current platform verification badges; direct website check returned an error and social platforms blocked direct retrieval.",
+    "Identify dates of original standalone issues of Smaller Than This, Chosen Last, Home for the Summer and No Matter the Season before claiming specific first-release days.",
+    "Resolve original Traffic Lights single release day from a directly accessible catalog or label notice if day precision is required.",
+    "Obtain a verifiable source for the specific intent of Home for the Summer, Chosen Last and Bench Sitter, rather than upgrading critical interpretations to artist statements.",
+    "If Afterglow later displays a live Spotify Popular list, use a documented access time and market and do not equate it with all-time stream totals.",
+    "Obtain an explicit license or authorization before replacing the abstract commercial-use image placeholder."
+  ]
+}

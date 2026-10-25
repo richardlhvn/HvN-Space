@@ -1,0 +1,1747 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-25",
+  "selection": {
+    "type": "curated",
+    "description": "Ten-track curated starter selection spanning 2020 to 2026, favoring verifiable Spotify recording identities, multiple career phases, and song-specific source evidence.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-007",
+      "src-004",
+      "src-008"
+    ],
+    "limitations": [
+      "The Spotify artist embed is a non-auditable, shifting top-tracks snapshot; no current, dated, market-specific Spotify Popular top-ten order was established.",
+      "Song order is editorial and not a Spotify popularity ranking.",
+      "Original release dates are differentiated from later edition dates when sources allow; remaining ambiguities appear per track."
+    ]
+  },
+  "artist": {
+    "slug": "caleb-hearn",
+    "name": "Caleb Hearn",
+    "full_name": null,
+    "country": "United States",
+    "place_of_origin": "Mount Airy, North Carolina, United States",
+    "short_description": "North Carolina-born, Nashville-based singer-songwriter making personal, emotionally direct folk-pop and singer-songwriter pop.",
+    "biography": "Caleb Hearn is an American singer-songwriter from Mount Airy, North Carolina, who is based in Nashville, Tennessee. Growing up around family members who made music, he learned guitar as a child and developed an interest in writing songs. During the COVID-19 period, he reconsidered his direction as a musician, turning toward more personal material rather than chasing a particular commercial sound. His reworked 2020 release “Always Be 2.0,” drawn from grief after the death of a close friend, became a breakthrough with listeners online. In 2022, Hearn signed with Nettwerk and released “Where Do We Go from Here?,” a story inspired by a family he knew. His 2022 EP We’re Getting Older examined heartbreak and the effort to understand himself; 2023’s 1200 sq ft looked back at childhood and family life. His duet “Little Bit Better” with ROSIE arrived in 2024 and became one of his best-known recordings. That year also brought his debut studio album, Left on McKinney. In February 2026, he followed it with LEAVE THE WORLD BEHIND, a second album reflecting on change and moving forward. For Afterglow listeners, Hearn fits the intersection of confessional pop, folk-pop, and intimate singer-songwriter storytelling. That genre description is editorial, informed by published descriptions of his music, not a rigid official classification.",
+    "spotify_url": "https://open.spotify.com/artist/0EiNdCUwM4B5GkTInLAyuj",
+    "official_website": "https://www.calebhearnmusic.com/",
+    "social_profiles": [
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/calebhearnmusic/",
+        "source_ids": [
+          "src-004",
+          "src-006"
+        ]
+      },
+      {
+        "platform": "TikTok",
+        "url": "https://www.tiktok.com/@calebhearnmusic",
+        "source_ids": [
+          "src-004",
+          "src-006"
+        ]
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/@calebhearnmusic",
+        "source_ids": [
+          "src-006"
+        ]
+      }
+    ],
+    "genres": [
+      "folk-pop (editorial)",
+      "singer-songwriter pop (editorial)",
+      "indie pop (editorial)"
+    ],
+    "moods": [
+      "reflective (editorial)",
+      "tender (editorial)",
+      "nostalgic (editorial)",
+      "hopeful (editorial)"
+    ],
+    "career_milestones": [
+      {
+        "date": "2020-12-18",
+        "description": "Released the reworked recording Always Be 2.0 after the earlier Always Be gained attention online.",
+        "source_ids": [
+          "src-013",
+          "src-001",
+          "src-002"
+        ]
+      },
+      {
+        "date": "2022-04-28",
+        "description": "Nettwerk announced Hearn as a signing alongside the new single Where Do We Go from Here?.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "date": "2022-09-23",
+        "description": "The EP We’re Getting Older was released (date as reflected on the official Spotify track listing for It Wasn’t Me at All).",
+        "source_ids": [
+          "src-017",
+          "src-009"
+        ]
+      },
+      {
+        "date": "2023-05-12",
+        "description": "Released the 1200 sq ft EP, whose title track revisits his childhood home.",
+        "source_ids": [
+          "src-023"
+        ]
+      },
+      {
+        "date": "2024-02-23",
+        "description": "Released Little Bit Better with ROSIE.",
+        "source_ids": [
+          "src-025",
+          "src-019"
+        ]
+      },
+      {
+        "date": "2024-09-06",
+        "description": "Released debut studio album Left on McKinney.",
+        "source_ids": [
+          "src-003",
+          "src-027"
+        ]
+      },
+      {
+        "date": "2026-02-20",
+        "description": "Released sophomore album LEAVE THE WORLD BEHIND.",
+        "source_ids": [
+          "src-008",
+          "src-003"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "ROSIE",
+        "explanation": "Editorial: a natural next stop for emotionally open duet-based pop; she is a documented co-performer on Little Bit Better.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-025",
+          "src-026"
+        ]
+      },
+      {
+        "name": "Rosie Darling",
+        "explanation": "Editorial: similarly intimate, heart-on-sleeve pop songwriting; Nettwerk named her in its label roster alongside Hearn.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "name": "Matt Hansen",
+        "explanation": "Editorial: another contemporary artist in the earnest, introspective singer-songwriter lane; included among listeners-may-also-like releases alongside Hearn on Apple Music.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-008"
+        ]
+      },
+      {
+        "name": "Anson Seabra",
+        "explanation": "Editorial: suggested for listeners who prefer melodic, vulnerable singer-songwriter pop; adjacent artist in Apple Music recommendations, not a documented collaboration.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-008"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "name",
+        "claim": "Artist is publicly credited as Caleb Hearn.",
+        "source_ids": [
+          "src-007",
+          "src-004"
+        ]
+      },
+      {
+        "field": "country",
+        "claim": "American singer-songwriter from North Carolina.",
+        "source_ids": [
+          "src-001",
+          "src-003"
+        ]
+      },
+      {
+        "field": "place_of_origin",
+        "claim": "Born in the Mount Airy, North Carolina area.",
+        "source_ids": [
+          "src-001",
+          "src-003"
+        ]
+      },
+      {
+        "field": "short_description",
+        "claim": "Born in Mount Airy and based in Nashville; singer-songwriter with folk-pop and singer-songwriter traits.",
+        "source_ids": [
+          "src-003",
+          "src-004"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Music was part of his childhood; he learned guitar and later used honest songwriting as a career direction.",
+        "source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "The re-recorded Always Be 2.0 reflected grief for a deceased friend and attracted online attention.",
+        "source_ids": [
+          "src-001",
+          "src-010",
+          "src-013"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "He joined Nettwerk in 2022 and released Where Do We Go from Here? inspired by a couple he knew.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "We’re Getting Older addressed heartbreak and identity; 1200 sq ft revisited childhood.",
+        "source_ids": [
+          "src-009",
+          "src-023"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "ROSIE duet in 2024; debut Left on McKinney in 2024; second album LEAVE THE WORLD BEHIND in 2026.",
+        "source_ids": [
+          "src-025",
+          "src-003",
+          "src-008"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Official Spotify artist embed uses artist ID 0EiNdCUwM4B5GkTInLAyuj.",
+        "source_ids": [
+          "src-007"
+        ]
+      },
+      {
+        "field": "official_website",
+        "claim": "Artist-branded website is accessible.",
+        "source_ids": [
+          "src-005",
+          "src-003"
+        ]
+      },
+      {
+        "field": "social_profiles",
+        "claim": "Artist-linked Bandcamp and Feature.fm hub identify Instagram and TikTok, and the Feature.fm hub includes YouTube.",
+        "source_ids": [
+          "src-004",
+          "src-006"
+        ]
+      },
+      {
+        "field": "genres",
+        "claim": "Editorial folk-pop / singer-songwriter pop / indie pop tags drawn from label and partner musical descriptions rather than platform-standard genre assignments.",
+        "source_ids": [
+          "src-001",
+          "src-003"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No independently substantiated expanded legal name distinct from the credited name Caleb Hearn.",
+      "Social links are artist-linked, but platform verification badge status was not independently confirmed.",
+      "The editorial genre and mood tags are not formal certifications.",
+      "No explicitly commercially reusable photograph or likeness license was established."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "always-be-2-0",
+      "title": "Always Be 2.0",
+      "artist_slug": "caleb-hearn",
+      "artist_credits": [
+        "Caleb Hearn"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/3DaYs4ChhQbqjFP0z9KiCO",
+      "release_date": "2020-12-18",
+      "release_date_precision": "day",
+      "release_date_context": "Original or earliest verified release/edition: Always Be 2.0 (single); see uncertainties for edition or first-release caveats.",
+      "release_title": "Always Be 2.0",
+      "release_type": "single",
+      "short_description": "The re-recorded breakthrough that helped Hearn turn the loss of a friend into a public conversation about grief.",
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "grieving (editorial)",
+        "cathartic (editorial)"
+      ],
+      "themes": [
+        "friendship (editorial)",
+        "bereavement (editorial)",
+        "remembering a friend (editorial)"
+      ],
+      "editorial_notes": "A useful starting point for his more vulnerable side, because Hearn explicitly connects the composition to processing the death of a close friend.",
+      "editorial_notes_basis": "artist_interview",
+      "editorial_notes_source_ids": [
+        "src-010",
+        "src-001",
+        "src-002"
+      ],
+      "artist_statement_paraphrase": "Hearn said the song helped him finally articulate his feelings about a friend who had died; the 2.0 edition reworked an earlier recording.",
+      "artist_statement_source_ids": [
+        "src-010",
+        "src-001"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "where-do-we-go-from-here",
+          "explanation": "Both address loss; the artist has documented different personal inspirations.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "klonopin",
+          "explanation": "Both were described by Hearn as difficult, deeply personal writing.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Official Spotify embed identifies the recording as Always Be 2.0.",
+          "source_ids": [
+            "src-030"
+          ]
+        },
+        {
+          "field": "artist_credits",
+          "claim": "This exact Spotify recording is credited to Caleb Hearn.",
+          "source_ids": [
+            "src-030"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Verified official Spotify recording link matches this title and listed artist credits.",
+          "source_ids": [
+            "src-030"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "2020-12-18 pertains to Always Be 2.0 (single) under the stated edition context.",
+          "source_ids": [
+            "src-013"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "Track associated with verified release Always Be 2.0.",
+          "source_ids": [
+            "src-013"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Hearn said the song helped him finally articulate his feelings about a friend who had died; the 2.0 edition reworked an earlier recording.",
+          "source_ids": [
+            "src-010",
+            "src-001"
+          ]
+        },
+        {
+          "field": "editorial_notes",
+          "claim": "Editorial reading is grounded in artist_interview; not independently authenticated artist intent.",
+          "source_ids": [
+            "src-010",
+            "src-001",
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "The 2020-12-18 date is the 2.0 recording release, not the first appearance of the earlier song Always Be."
+      ]
+    },
+    {
+      "slug": "brown-eyes-brown-hair",
+      "title": "Brown Eyes, Brown Hair",
+      "artist_slug": "caleb-hearn",
+      "artist_credits": [
+        "Caleb Hearn"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/25zBEnljUJahVT6SUVgyc4",
+      "release_date": "2021-02-28",
+      "release_date_precision": "day",
+      "release_date_context": "Original or earliest verified release/edition: Brown Eyes, Brown Hair (single); see uncertainties for edition or first-release caveats.",
+      "release_title": "Brown Eyes, Brown Hair",
+      "release_type": "single",
+      "short_description": "An early standalone single whose narrated character hides distress and tries to keep going.",
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "empathetic (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "concealed emotional pain (editorial)",
+        "encouragement (editorial)",
+        "self-acceptance (editorial)"
+      ],
+      "editorial_notes": "The lyric narrative describes someone masking how much she is struggling. Afterglow reads it as a compassionate reminder not to mistake outward appearances for emotional security.",
+      "editorial_notes_basis": "editorial_reading_of_artist_published_lyrics",
+      "editorial_notes_source_ids": [
+        "src-022"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "it-wasnt-me-at-all",
+          "explanation": "Both can be curated around unseen hurt; this is an editorial bridge, not artist-confirmed shared intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "1200-sq-ft",
+          "explanation": "Both place personal vulnerability ahead of a conventional love-song arc.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Official Spotify embed identifies the recording as Brown Eyes, Brown Hair.",
+          "source_ids": [
+            "src-031"
+          ]
+        },
+        {
+          "field": "artist_credits",
+          "claim": "This exact Spotify recording is credited to Caleb Hearn.",
+          "source_ids": [
+            "src-031"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Verified official Spotify recording link matches this title and listed artist credits.",
+          "source_ids": [
+            "src-031"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "2021-02-28 pertains to Brown Eyes, Brown Hair (single) under the stated edition context.",
+          "source_ids": [
+            "src-014",
+            "src-022"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "Track associated with verified release Brown Eyes, Brown Hair.",
+          "source_ids": [
+            "src-014",
+            "src-022"
+          ]
+        },
+        {
+          "field": "editorial_notes",
+          "claim": "Editorial reading is grounded in editorial_reading_of_artist_published_lyrics; not independently authenticated artist intent.",
+          "source_ids": [
+            "src-022"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No original interview specifically confirming who inspired the narrator or character was verified."
+      ]
+    },
+    {
+      "slug": "its-always-been-you",
+      "title": "It's Always Been You",
+      "artist_slug": "caleb-hearn",
+      "artist_credits": [
+        "Caleb Hearn"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6uhiewbc64ENhWvoVnQZ9s",
+      "release_date": "2021-10-15",
+      "release_date_precision": "day",
+      "release_date_context": "Original or earliest verified release/edition: It's Always Been You (single); see uncertainties for edition or first-release caveats.",
+      "release_title": "It's Always Been You",
+      "release_type": "single",
+      "short_description": "A 2021 solo single featured in official Spotify catalogue listings.",
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "little-bit-better",
+          "explanation": "Editorial pairing of two relationship-oriented entries; the connection is a curation choice.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "the-lows",
+          "explanation": "Suggested alongside a later supportive-relationship song.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Official Spotify embed identifies the recording as It's Always Been You.",
+          "source_ids": [
+            "src-032"
+          ]
+        },
+        {
+          "field": "artist_credits",
+          "claim": "This exact Spotify recording is credited to Caleb Hearn.",
+          "source_ids": [
+            "src-032"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Verified official Spotify recording link matches this title and listed artist credits.",
+          "source_ids": [
+            "src-032"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "2021-10-15 pertains to It's Always Been You (single) under the stated edition context.",
+          "source_ids": [
+            "src-015"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "Track associated with verified release It's Always Been You.",
+          "source_ids": [
+            "src-015"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No source-backed song-specific artist statement or reliable lyrical interpretation was established; moods/themes left empty."
+      ]
+    },
+    {
+      "slug": "where-do-we-go-from-here",
+      "title": "Where Do We Go from Here?",
+      "artist_slug": "caleb-hearn",
+      "artist_credits": [
+        "Caleb Hearn"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/0ntWxuqiNx7ShbLGzfmnOD",
+      "release_date": "2022-04-28",
+      "release_date_precision": "day",
+      "release_date_context": "Original or earliest verified release/edition: Where Do We Go from Here? (single); see uncertainties for edition or first-release caveats.",
+      "release_title": "Where Do We Go from Here?",
+      "release_type": "single",
+      "short_description": "A narrative about devastating loss, based on an experience witnessed by Hearn.",
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "heartbroken (editorial)",
+        "compassionate (editorial)"
+      ],
+      "themes": [
+        "bereavement (editorial)",
+        "loss of a partner (editorial)",
+        "family (editorial)"
+      ],
+      "editorial_notes": "Unlike a generic separation song, this selection has a documented story: Hearn was moved by a widowed father and his children. The emotional stakes are grounded in the label-published artist account.",
+      "editorial_notes_basis": "artist_statement_via_label",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": "Hearn said a couple he knew inspired the song after the wife died of cancer, leaving behind her husband and two children.",
+      "artist_statement_source_ids": [
+        "src-001"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "always-be-2-0",
+          "explanation": "Different stories that both involve bereavement.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "1200-sq-ft",
+          "explanation": "Songs exploring difficult changes in the people or places that feel like home.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Official Spotify embed identifies the recording as Where Do We Go from Here?.",
+          "source_ids": [
+            "src-033"
+          ]
+        },
+        {
+          "field": "artist_credits",
+          "claim": "This exact Spotify recording is credited to Caleb Hearn.",
+          "source_ids": [
+            "src-033"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Verified official Spotify recording link matches this title and listed artist credits.",
+          "source_ids": [
+            "src-033"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "2022-04-28 pertains to Where Do We Go from Here? (single) under the stated edition context.",
+          "source_ids": [
+            "src-001",
+            "src-016"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "Track associated with verified release Where Do We Go from Here?.",
+          "source_ids": [
+            "src-001",
+            "src-016"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Hearn said a couple he knew inspired the song after the wife died of cancer, leaving behind her husband and two children.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "editorial_notes",
+          "claim": "Editorial reading is grounded in artist_statement_via_label; not independently authenticated artist intent.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "April 28 is the official Nettwerk announcement date for the single; it is not independently confirmed as the first availability date of every Spotify edition."
+      ]
+    },
+    {
+      "slug": "it-wasnt-me-at-all",
+      "title": "It Wasn't Me at All",
+      "artist_slug": "caleb-hearn",
+      "artist_credits": [
+        "Caleb Hearn"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/00nSg6SIvNxjfhsrzbGSOI",
+      "release_date": "2022-09-23",
+      "release_date_precision": "day",
+      "release_date_context": "Original or earliest verified release/edition: We're Getting Older (EP); see uncertainties for edition or first-release caveats.",
+      "release_title": "We're Getting Older",
+      "release_type": "EP",
+      "short_description": "A relationship song that Hearn explicitly linked to the experience of being unfairly blamed by a partner.",
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "hurt (editorial)",
+        "resolute (editorial)"
+      ],
+      "themes": [
+        "manipulation in a relationship (editorial)",
+        "self-blame (editorial)",
+        "breakup (editorial)"
+      ],
+      "editorial_notes": "This is a strong candidate for Afterglow’s song-meaning pages because an original interview supports the interpretation of manipulative relationship dynamics.",
+      "editorial_notes_basis": "original_artist_interview",
+      "editorial_notes_source_ids": [
+        "src-009"
+      ],
+      "artist_statement_paraphrase": "Hearn described the song as intended for people whose partner manipulates them into believing they are responsible for problems in the relationship.",
+      "artist_statement_source_ids": [
+        "src-009"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "brown-eyes-brown-hair",
+          "explanation": "Editorial grouping on difficult-to-see emotional struggles.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "klonopin",
+          "explanation": "More intense and painful relationship or emotional material.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Official Spotify embed identifies the recording as It Wasn't Me at All.",
+          "source_ids": [
+            "src-034"
+          ]
+        },
+        {
+          "field": "artist_credits",
+          "claim": "This exact Spotify recording is credited to Caleb Hearn.",
+          "source_ids": [
+            "src-034"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Verified official Spotify recording link matches this title and listed artist credits.",
+          "source_ids": [
+            "src-034"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "2022-09-23 pertains to We're Getting Older (EP) under the stated edition context.",
+          "source_ids": [
+            "src-017",
+            "src-009"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "Track associated with verified release We're Getting Older.",
+          "source_ids": [
+            "src-017",
+            "src-009"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Hearn described the song as intended for people whose partner manipulates them into believing they are responsible for problems in the relationship.",
+          "source_ids": [
+            "src-009"
+          ]
+        },
+        {
+          "field": "editorial_notes",
+          "claim": "Editorial reading is grounded in original_artist_interview; not independently authenticated artist intent.",
+          "source_ids": [
+            "src-009"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "The date is the verified EP edition date, not a separately established original single release."
+      ]
+    },
+    {
+      "slug": "1200-sq-ft",
+      "title": "1200 sq ft",
+      "artist_slug": "caleb-hearn",
+      "artist_credits": [
+        "Caleb Hearn"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/32PsaKDm7jF7hnnw18ZBn1",
+      "release_date": "2023-05-12",
+      "release_date_precision": "day",
+      "release_date_context": "Original or earliest verified release/edition: 1200 sq ft (EP); see uncertainties for edition or first-release caveats.",
+      "release_title": "1200 sq ft",
+      "release_type": "EP",
+      "short_description": "A memory of the small North Carolina house Hearn grew up in before his parents separated.",
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "nostalgic (editorial)",
+        "tender (editorial)",
+        "bittersweet (editorial)"
+      ],
+      "themes": [
+        "childhood home (editorial)",
+        "family changes (editorial)",
+        "memory (editorial)"
+      ],
+      "editorial_notes": "A strong thematic bridge between songs about relationships and songs about family: its meaning comes from Hearn’s own description of the home, rather than a title-based guess.",
+      "editorial_notes_basis": "artist_published_statement_and_original_interview",
+      "editorial_notes_source_ids": [
+        "src-023",
+        "src-024"
+      ],
+      "artist_statement_paraphrase": "Hearn said the title names the approximate size of his first childhood house and that the song holds both affectionate memories and the changes surrounding his parents’ separation.",
+      "artist_statement_source_ids": [
+        "src-023",
+        "src-024"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "always-be-2-0",
+          "explanation": "Personal-memory storytelling anchored in a documented event.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "where-do-we-go-from-here",
+          "explanation": "Story-led songwriting about losing the life you knew.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Official Spotify embed identifies the recording as 1200 sq ft.",
+          "source_ids": [
+            "src-035"
+          ]
+        },
+        {
+          "field": "artist_credits",
+          "claim": "This exact Spotify recording is credited to Caleb Hearn.",
+          "source_ids": [
+            "src-035"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Verified official Spotify recording link matches this title and listed artist credits.",
+          "source_ids": [
+            "src-035"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "2023-05-12 pertains to 1200 sq ft (EP) under the stated edition context.",
+          "source_ids": [
+            "src-023",
+            "src-018"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "Track associated with verified release 1200 sq ft.",
+          "source_ids": [
+            "src-023",
+            "src-018"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Hearn said the title names the approximate size of his first childhood house and that the song holds both affectionate memories and the changes surrounding his parents’ separation.",
+          "source_ids": [
+            "src-023",
+            "src-024"
+          ]
+        },
+        {
+          "field": "editorial_notes",
+          "claim": "Editorial reading is grounded in artist_published_statement_and_original_interview; not independently authenticated artist intent.",
+          "source_ids": [
+            "src-023",
+            "src-024"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "little-bit-better",
+      "title": "Little Bit Better",
+      "artist_slug": "caleb-hearn",
+      "artist_credits": [
+        "Caleb Hearn",
+        "ROSIE"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/0GMs3jq70wmCo12pavj4st",
+      "release_date": "2024-02-23",
+      "release_date_precision": "day",
+      "release_date_context": "Original or earliest verified release/edition: Little Bit Better (single); see uncertainties for edition or first-release caveats.",
+      "release_title": "Little Bit Better",
+      "release_type": "single",
+      "short_description": "A duet with ROSIE about someone whose presence makes difficult days feel more manageable.",
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "comforting (editorial)",
+        "hopeful (editorial)",
+        "romantic (editorial)"
+      ],
+      "themes": [
+        "mutual support (editorial)",
+        "love (editorial)",
+        "emotional reassurance (editorial)"
+      ],
+      "editorial_notes": "The interplay of two named performers makes this a useful discovery bridge to ROSIE. The message of solace and companionship is backed by Hearn’s account of the writing process.",
+      "editorial_notes_basis": "artist_interview_and_artist_release",
+      "editorial_notes_source_ids": [
+        "src-026",
+        "src-025"
+      ],
+      "artist_statement_paraphrase": "Hearn said he approached ROSIE to collaborate and that he was thinking of his then-fiancée Michal while writing his part of the song.",
+      "artist_statement_source_ids": [
+        "src-026"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "the-lows",
+          "explanation": "Both songs center support when life becomes difficult.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "its-always-been-you",
+          "explanation": "Editorial relationship-pop pairing across different years.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Official Spotify embed identifies the recording as Little Bit Better.",
+          "source_ids": [
+            "src-036"
+          ]
+        },
+        {
+          "field": "artist_credits",
+          "claim": "This exact Spotify recording is credited to Caleb Hearn and ROSIE.",
+          "source_ids": [
+            "src-036"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Verified official Spotify recording link matches this title and listed artist credits.",
+          "source_ids": [
+            "src-036"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "2024-02-23 pertains to Little Bit Better (single) under the stated edition context.",
+          "source_ids": [
+            "src-019",
+            "src-025"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "Track associated with verified release Little Bit Better.",
+          "source_ids": [
+            "src-019",
+            "src-025"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Hearn said he approached ROSIE to collaborate and that he was thinking of his then-fiancée Michal while writing his part of the song.",
+          "source_ids": [
+            "src-026"
+          ]
+        },
+        {
+          "field": "editorial_notes",
+          "claim": "Editorial reading is grounded in artist_interview_and_artist_release; not independently authenticated artist intent.",
+          "source_ids": [
+            "src-026",
+            "src-025"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Multiple Spotify recordings exist for the single and later album; this link is the verified stand-alone recording associated with the 2024 single."
+      ]
+    },
+    {
+      "slug": "klonopin",
+      "title": "Klonopin",
+      "artist_slug": "caleb-hearn",
+      "artist_credits": [
+        "Caleb Hearn"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/75VHUtwzUTKmcjz8zt440c",
+      "release_date": "2024-05-10",
+      "release_date_precision": "day",
+      "release_date_context": "Original or earliest verified release/edition: Klonopin (single); see uncertainties for edition or first-release caveats.",
+      "release_title": "Klonopin",
+      "release_type": "single",
+      "short_description": "A direct and difficult song connected in reporting and interviews to Hearn’s experience of panic and intense distress.",
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "intense (editorial)",
+        "vulnerable (editorial)",
+        "anxious (editorial)"
+      ],
+      "themes": [
+        "panic (editorial)",
+        "mental wellness (editorial)",
+        "searching for relief (editorial)"
+      ],
+      "editorial_notes": "More emotionally confronting than his reassuring love songs. Its documented context makes it suitable for careful editorial treatment without offering medical explanations or assumptions.",
+      "editorial_notes_basis": "artist_interview_and_music_reporting",
+      "editorial_notes_source_ids": [
+        "src-010",
+        "src-027"
+      ],
+      "artist_statement_paraphrase": "Hearn said Klonopin expressed something he was experiencing acutely at the time, and that releasing it was difficult because of how emotionally raw it felt.",
+      "artist_statement_source_ids": [
+        "src-010"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "always-be-2-0",
+          "explanation": "Emotionally direct subjects confirmed by artist commentary.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "it-wasnt-me-at-all",
+          "explanation": "Songs that explore painful experiences without offering an easy resolution.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Official Spotify embed identifies the recording as Klonopin.",
+          "source_ids": [
+            "src-037"
+          ]
+        },
+        {
+          "field": "artist_credits",
+          "claim": "This exact Spotify recording is credited to Caleb Hearn.",
+          "source_ids": [
+            "src-037"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Verified official Spotify recording link matches this title and listed artist credits.",
+          "source_ids": [
+            "src-037"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "2024-05-10 pertains to Klonopin (single) under the stated edition context.",
+          "source_ids": [
+            "src-020"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "Track associated with verified release Klonopin.",
+          "source_ids": [
+            "src-020"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Hearn said Klonopin expressed something he was experiencing acutely at the time, and that releasing it was difficult because of how emotionally raw it felt.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "editorial_notes",
+          "claim": "Editorial reading is grounded in artist_interview_and_music_reporting; not independently authenticated artist intent.",
+          "source_ids": [
+            "src-010",
+            "src-027"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "The musical work should not be treated as a medical explanation of the prescription drug named in the title."
+      ]
+    },
+    {
+      "slug": "the-lows",
+      "title": "THE LOWS",
+      "artist_slug": "caleb-hearn",
+      "artist_credits": [
+        "Caleb Hearn"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/79mpJRScxPAmlIXqGhb70I",
+      "release_date": "2025-05-23",
+      "release_date_precision": "day",
+      "release_date_context": "Original or earliest verified release/edition: THE LOWS (single); see uncertainties for edition or first-release caveats.",
+      "release_title": "THE LOWS",
+      "release_type": "single",
+      "short_description": "A solo-credited single about being supported through difficult periods.",
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "reassuring (editorial)",
+        "warm (editorial)"
+      ],
+      "themes": [
+        "unconditional love (editorial)",
+        "friendship (editorial)",
+        "support through hardship (editorial)"
+      ],
+      "editorial_notes": "A clear follow-up to Little Bit Better for listeners drawn to companionship as a response to hard times, although the two songs are not claimed to form a formal series.",
+      "editorial_notes_basis": "artist_interview_and_artist_catalogue",
+      "editorial_notes_source_ids": [
+        "src-010",
+        "src-028"
+      ],
+      "artist_statement_paraphrase": "Hearn described the song as exploring love, friendship, and the value of someone who stays with you through difficult moments.",
+      "artist_statement_source_ids": [
+        "src-010"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "little-bit-better",
+          "explanation": "Comforting lyrics about the importance of a supportive person.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "green-eyed-heart-attack",
+          "explanation": "A later love-centered track with a documented relationship inspiration.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Official Spotify embed identifies the recording as THE LOWS.",
+          "source_ids": [
+            "src-038"
+          ]
+        },
+        {
+          "field": "artist_credits",
+          "claim": "This exact Spotify recording is credited to Caleb Hearn.",
+          "source_ids": [
+            "src-038"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Verified official Spotify recording link matches this title and listed artist credits.",
+          "source_ids": [
+            "src-038"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "2025-05-23 pertains to THE LOWS (single) under the stated edition context.",
+          "source_ids": [
+            "src-028"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "Track associated with verified release THE LOWS.",
+          "source_ids": [
+            "src-028"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Hearn described the song as exploring love, friendship, and the value of someone who stays with you through difficult moments.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "editorial_notes",
+          "claim": "Editorial reading is grounded in artist_interview_and_artist_catalogue; not independently authenticated artist intent.",
+          "source_ids": [
+            "src-010",
+            "src-028"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Some reporting discusses ROSIE’s co-writing or a performance association, but the selected Spotify recording officially lists Caleb Hearn as the performing artist; do not add ROSIE to its artist_credits.",
+        "The song appears again on the 2026 album, but the selected original single date is 2025-05-23."
+      ]
+    },
+    {
+      "slug": "green-eyed-heart-attack",
+      "title": "GREEN EYED HEART ATTACK",
+      "artist_slug": "caleb-hearn",
+      "artist_credits": [
+        "Caleb Hearn"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/7L8RgSfXkVtloR5WxwfgpC",
+      "release_date": "2026-02-20",
+      "release_date_precision": "day",
+      "release_date_context": "Original or earliest verified release/edition: LEAVE THE WORLD BEHIND (album); see uncertainties for edition or first-release caveats.",
+      "release_title": "LEAVE THE WORLD BEHIND",
+      "release_type": "album",
+      "short_description": "A song from his second album whose inspiration Hearn directly identified as the story of meeting his wife.",
+      "genres": [
+        "folk-pop (editorial)"
+      ],
+      "moods": [
+        "playful (editorial)",
+        "affectionate (editorial)"
+      ],
+      "themes": [
+        "first meeting (editorial)",
+        "romantic attraction (editorial)",
+        "memory (editorial)"
+      ],
+      "editorial_notes": "The direct interview links the song to a particular relationship memory and his experiments with a less conventional song structure; editorially it balances the collection’s heavier pieces.",
+      "editorial_notes_basis": "original_artist_interview",
+      "editorial_notes_source_ids": [
+        "src-011"
+      ],
+      "artist_statement_paraphrase": "Hearn said he wrote the song about meeting his green-eyed wife and commented that it departs from a conventional song structure.",
+      "artist_statement_source_ids": [
+        "src-011"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "the-lows",
+          "explanation": "Relationship-centered writing in Hearn’s later period.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "little-bit-better",
+          "explanation": "An earlier duet associated with a real romantic relationship.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Official Spotify embed identifies the recording as GREEN EYED HEART ATTACK.",
+          "source_ids": [
+            "src-039"
+          ]
+        },
+        {
+          "field": "artist_credits",
+          "claim": "This exact Spotify recording is credited to Caleb Hearn.",
+          "source_ids": [
+            "src-039"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Verified official Spotify recording link matches this title and listed artist credits.",
+          "source_ids": [
+            "src-039"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "2026-02-20 pertains to LEAVE THE WORLD BEHIND (album) under the stated edition context.",
+          "source_ids": [
+            "src-021",
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "Track associated with verified release LEAVE THE WORLD BEHIND.",
+          "source_ids": [
+            "src-021",
+            "src-008"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Hearn said he wrote the song about meeting his green-eyed wife and commented that it departs from a conventional song structure.",
+          "source_ids": [
+            "src-011"
+          ]
+        },
+        {
+          "field": "editorial_notes",
+          "claim": "Editorial reading is grounded in original_artist_interview; not independently authenticated artist intent.",
+          "source_ids": [
+            "src-011"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "The verified date is the 2026 album track date; any earlier pre-release campaign or subsequent standalone issue has not been established as an earlier first release."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://nettwerk.com/news/new-signing-caleb-hearn-shares-affecting-single-where-do-we-go-from-here-listen-here",
+      "title": "New Signing Caleb Hearn Shares Affecting Single Where Do We Go from Here?",
+      "publisher": "Nettwerk Music Group",
+      "published_date": "2022-04-28",
+      "accessed_date": "2026-10-25",
+      "source_type": "official_label",
+      "access_status": "read",
+      "evidence_summary": "Confirms birthplace Mount Airy, signing with Nettwerk in 2022, earlier Always Be/Always Be 2.0 history and the personal inspiration behind Where Do We Go from Here?."
+    },
+    {
+      "id": "src-002",
+      "url": "https://atwoodmagazine.com/chlm-caleb-hearn-music-interview-feature-left-on-mckinney/",
+      "title": "Interview: Caleb Hearn Discusses Finding His Sound and Left on McKinney",
+      "publisher": "Atwood Magazine",
+      "published_date": "2024-07-15",
+      "accessed_date": "2026-10-25",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Artist describes music-filled childhood, learning guitar, experimental early releases, father encouraging lyrical honesty, origin of Always Be 2.0, and collaboration with ROSIE."
+    },
+    {
+      "id": "src-003",
+      "url": "https://www.echobase.com/artists/caleb-hearn",
+      "title": "Caleb Hearn",
+      "publisher": "Echo Base",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "artist_partner_biography",
+      "access_status": "read",
+      "evidence_summary": "Describes Mount Airy origin and Nashville base, 2019 beginnings, 2024 debut album, and 2026 sophomore album LEAVE THE WORLD BEHIND. Not independently verified as artist-authored."
+    },
+    {
+      "id": "src-004",
+      "url": "https://calebhearn.bandcamp.com/",
+      "title": "Music | Caleb Hearn",
+      "publisher": "Caleb Hearn / Bandcamp",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "artist_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Artist Bandcamp lists releases, identifies Nashville base and links Instagram and TikTok; pages say all rights reserved."
+    },
+    {
+      "id": "src-005",
+      "url": "https://www.calebhearnmusic.com/",
+      "title": "Home | Caleb Hearn",
+      "publisher": "Caleb Hearn",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_website",
+      "access_status": "read",
+      "evidence_summary": "Official-branded website is accessible and contains music-platform and social icons."
+    },
+    {
+      "id": "src-006",
+      "url": "https://ffm.bio/calebhearn",
+      "title": "Caleb Hearn",
+      "publisher": "Caleb Hearn / Feature.fm",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "artist_link_hub",
+      "access_status": "read",
+      "evidence_summary": "Artist-named link hub directs visitors to Spotify, Instagram, TikTok, and YouTube."
+    },
+    {
+      "id": "src-007",
+      "url": "https://open.spotify.com/embed/artist/0EiNdCUwM4B5GkTInLAyuj",
+      "title": "Caleb Hearn — Spotify artist embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Official Spotify embed identifies artist and tracks, including collaborations and popular names; snapshot does not provide a stable reproducible ten-song ranking."
+    },
+    {
+      "id": "src-008",
+      "url": "https://music.apple.com/us/album/leave-the-world-behind/1862276651",
+      "title": "LEAVE THE WORLD BEHIND — Album by Caleb Hearn",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_catalogue",
+      "access_status": "read",
+      "evidence_summary": "US album listing gives February 20, 2026, thirteen songs and artist Caleb Hearn."
+    },
+    {
+      "id": "src-009",
+      "url": "https://thenewnine.com/artist-to-watch-caleb-hearn",
+      "title": "Artist To Watch: Caleb Hearn",
+      "publisher": "The New Nine",
+      "published_date": "2022-10-03",
+      "accessed_date": "2026-10-25",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Hearn states he released Always Be 2.0 at the end of 2020 and explains the emotional experiences behind EP We’re Getting Older, specifically manipulation in It Wasn’t Me at All."
+    },
+    {
+      "id": "src-010",
+      "url": "https://forkthenews.com/interview-caleb-hearn-lights-up-paris-with-raw-emotional-music/",
+      "title": "Interview: Caleb Hearn Lights Up Paris With Raw, Emotional Music",
+      "publisher": "Fork! The News",
+      "published_date": "2025-10-11",
+      "accessed_date": "2026-10-25",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Hearn explains Always Be 2.0 is about a late friend, Klonopin captured an immediate painful experience, and THE LOWS concerns love and friendship."
+    },
+    {
+      "id": "src-011",
+      "url": "https://www.digitaljournal.com/article/caleb-hearn-talks-about-his-sophomore-studio-country-album-and-future-plans-in-music/",
+      "title": "Caleb Hearn talks about his sophomore studio album",
+      "publisher": "Digital Journal",
+      "published_date": "2026-02-26",
+      "accessed_date": "2026-10-25",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Hearn explains GREEN EYED HEART ATTACK tells how he met his green-eyed wife; he discusses creative direction of 2026 album."
+    },
+    {
+      "id": "src-012",
+      "url": "https://open.spotify.com/album/0vhWLJPLOryAhlxza9K77D",
+      "title": "LEAVE THE WORLD BEHIND — Spotify album",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Spotify identifies the 13-track 2026 album, including THE LOWS and GREEN EYED HEART ATTACK, and its February 20 date."
+    },
+    {
+      "id": "src-013",
+      "url": "https://open.spotify.com/album/2KuHxnsA88gPaqcKdrYehI",
+      "title": "Always Be 2.0 — Single",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Single listing specifies Caleb Hearn and December 18, 2020."
+    },
+    {
+      "id": "src-014",
+      "url": "https://open.spotify.com/album/6zzY7J9guQW1XzhMrH3CgJ",
+      "title": "Brown Eyes, Brown Hair — Single",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Single listing specifies Caleb Hearn and February 28, 2021."
+    },
+    {
+      "id": "src-015",
+      "url": "https://open.spotify.com/album/1ZN5Tjf59aEdaimbt3SRUS",
+      "title": "It's Always Been You — Single",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Single listing identifies Caleb Hearn and October 15, 2021."
+    },
+    {
+      "id": "src-016",
+      "url": "https://open.spotify.com/album/2eL80OhoCT1lTuSwuSh6HG",
+      "title": "Where Do We Go from Here? — Single",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Official Spotify listing confirms a Caleb Hearn release under this title in 2022; catalog editions may differ."
+    },
+    {
+      "id": "src-017",
+      "url": "https://open.spotify.com/intl-es/track/00nSg6SIvNxjfhsrzbGSOI",
+      "title": "It Wasn't Me at All — Spotify song",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Identifies Caleb Hearn solo recording on We're Getting Older EP with September 23, 2022 EP date."
+    },
+    {
+      "id": "src-018",
+      "url": "https://open.spotify.com/intl-id/track/32PsaKDm7jF7hnnw18ZBn1",
+      "title": "1200 sq ft — Spotify song",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Identifies Caleb Hearn track on the four-song 1200 sq ft EP dated May 12, 2023."
+    },
+    {
+      "id": "src-019",
+      "url": "https://music.apple.com/us/album/little-bit-better-single/1728553689",
+      "title": "Little Bit Better — Single",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Identifies Caleb Hearn and ROSIE duet on a single released February 23, 2024."
+    },
+    {
+      "id": "src-020",
+      "url": "https://music.apple.com/us/album/klonopin-single/1739681128",
+      "title": "Klonopin — Single",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Identifies a solo Caleb Hearn single released May 10, 2024."
+    },
+    {
+      "id": "src-021",
+      "url": "https://music.apple.com/us/song/1862276915",
+      "title": "GREEN EYED HEART ATTACK — Song",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Identifies Caleb Hearn track on LEAVE THE WORLD BEHIND with a February 20, 2026 edition date."
+    },
+    {
+      "id": "src-022",
+      "url": "https://calebhearn.bandcamp.com/track/brown-eyes-brown-hair",
+      "title": "Brown Eyes, Brown Hair | Caleb Hearn",
+      "publisher": "Caleb Hearn / Bandcamp",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "artist_published_lyrics",
+      "access_status": "read",
+      "evidence_summary": "Artist-controlled lyrics describe a young woman concealing hurt and striving to persevere; page gives February 28, 2021 release date. Text is not republished in Afterglow."
+    },
+    {
+      "id": "src-023",
+      "url": "https://calebhearn.bandcamp.com/album/1200-sq-ft",
+      "title": "1200 sq ft | Caleb Hearn",
+      "publisher": "Caleb Hearn / Bandcamp",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "artist_commentary",
+      "access_status": "read",
+      "evidence_summary": "Artist-controlled release page states May 12, 2023 and includes Caleb explaining that the song recalls his childhood home, including memories before his parents separated."
+    },
+    {
+      "id": "src-024",
+      "url": "https://www.unclearmag.com/music-posts/2023/5/31/caleb-hearn-interview",
+      "title": "Caleb Hearn: Interview",
+      "publisher": "Unclear Magazine",
+      "published_date": "2023-05-31",
+      "accessed_date": "2026-10-25",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Artist discusses EP stories, childhood-video depiction, production partnership with Marc Scibilia and work with Mokita."
+    },
+    {
+      "id": "src-025",
+      "url": "https://calebhearn.bandcamp.com/track/little-bit-better-feat-rosie?label=3829142575&tab=music",
+      "title": "Little Bit Better (feat. ROSIE) | Caleb Hearn",
+      "publisher": "Caleb Hearn / Bandcamp",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "artist_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Artist-controlled release page identifies ROSIE collaboration and February 23, 2024 standalone release."
+    },
+    {
+      "id": "src-026",
+      "url": "https://thehoneypop.com/2024/03/04/exclusive-interview-caleb-hearn-on-new-single-little-bit-better/",
+      "title": "Exclusive Interview: Caleb Hearn on Little Bit Better",
+      "publisher": "The Honey POP",
+      "published_date": "2024-03-04",
+      "accessed_date": "2026-10-25",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Hearn says he approached ROSIE, they composed the song in one day, and his then-fiancée Michal inspired his contribution."
+    },
+    {
+      "id": "src-027",
+      "url": "https://www.broadwayworld.com/bwwmusic/article/caleb-hearn-to-release-debut-lp-shares-new-single-last-breath-20240708",
+      "title": "Caleb Hearn to Release Debut LP; Shares Last Breath",
+      "publisher": "BroadwayWorld",
+      "published_date": "2024-07-08",
+      "accessed_date": "2026-10-25",
+      "source_type": "music_reporting",
+      "access_status": "read",
+      "evidence_summary": "2024 release announcement describes Klonopin as the artist addressing his experience with panic disorder, and confirms Left on McKinney debut album release."
+    },
+    {
+      "id": "src-028",
+      "url": "https://calebhearn.bandcamp.com/track/the-lows",
+      "title": "THE LOWS | Caleb Hearn",
+      "publisher": "Caleb Hearn / Bandcamp",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "artist_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Artist-controlled Bandcamp lists original track release date May 23, 2025; later included on 2026 album."
+    },
+    {
+      "id": "src-029",
+      "url": "https://thehoneypop.com/2023/11/17/interview-celebrating-caleb-hearns-ep-birthdays-funerals/",
+      "title": "Interview: Celebrating Birthdays & Funerals",
+      "publisher": "The Honey POP",
+      "published_date": "2023-11-17",
+      "accessed_date": "2026-10-25",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Artist identifies Ed Sheeran and The Fray as influences for a 2023 project and discusses his song Always Be 2.0."
+    },
+    {
+      "id": "src-030",
+      "url": "https://open.spotify.com/embed/track/3DaYs4ChhQbqjFP0z9KiCO",
+      "title": "Always Be 2.0 — Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Official Spotify embed labels this exact recording Always Be 2.0 and credits Caleb Hearn."
+    },
+    {
+      "id": "src-031",
+      "url": "https://open.spotify.com/embed/track/25zBEnljUJahVT6SUVgyc4",
+      "title": "Brown Eyes, Brown Hair — Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Official Spotify embed labels this exact recording Brown Eyes, Brown Hair and credits Caleb Hearn."
+    },
+    {
+      "id": "src-032",
+      "url": "https://open.spotify.com/embed/track/6uhiewbc64ENhWvoVnQZ9s",
+      "title": "It's Always Been You — Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Official Spotify embed labels this exact recording It's Always Been You and credits Caleb Hearn."
+    },
+    {
+      "id": "src-033",
+      "url": "https://open.spotify.com/embed/track/0ntWxuqiNx7ShbLGzfmnOD",
+      "title": "Where Do We Go from Here? — Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Official Spotify embed labels this exact recording Where Do We Go from Here? and credits Caleb Hearn."
+    },
+    {
+      "id": "src-034",
+      "url": "https://open.spotify.com/embed/track/00nSg6SIvNxjfhsrzbGSOI",
+      "title": "It Wasn't Me at All — Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Official Spotify embed labels this exact recording It Wasn't Me at All and credits Caleb Hearn."
+    },
+    {
+      "id": "src-035",
+      "url": "https://open.spotify.com/embed/track/32PsaKDm7jF7hnnw18ZBn1",
+      "title": "1200 sq ft — Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Official Spotify embed labels this exact recording 1200 sq ft and credits Caleb Hearn."
+    },
+    {
+      "id": "src-036",
+      "url": "https://open.spotify.com/embed/track/0GMs3jq70wmCo12pavj4st",
+      "title": "Little Bit Better — Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Official Spotify embed labels this exact recording Little Bit Better and credits Caleb Hearn, ROSIE."
+    },
+    {
+      "id": "src-037",
+      "url": "https://open.spotify.com/embed/track/75VHUtwzUTKmcjz8zt440c",
+      "title": "Klonopin — Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Official Spotify embed labels this exact recording Klonopin and credits Caleb Hearn."
+    },
+    {
+      "id": "src-038",
+      "url": "https://open.spotify.com/embed/track/79mpJRScxPAmlIXqGhb70I",
+      "title": "THE LOWS — Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Official Spotify embed labels this exact recording THE LOWS and credits Caleb Hearn."
+    },
+    {
+      "id": "src-039",
+      "url": "https://open.spotify.com/embed/track/7L8RgSfXkVtloR5WxwfgpC",
+      "title": "GREEN EYED HEART ATTACK — Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-25",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Official Spotify embed labels this exact recording GREEN EYED HEART ATTACK and credits Caleb Hearn."
+    }
+  ],
+  "outstanding_research": [
+    "Independent legal-name verification (currently null).",
+    "Review social accounts for current platform verification badge status; linked profiles are grounded in artist-controlled sources.",
+    "Obtain commercial-use photo license and likeness consent if replacing abstract placeholder.",
+    "Check whether Where Do We Go from Here? has conflicting Spotify edition dates versus the official label announcement.",
+    "Locate the first-person, song-specific explanation for It’s Always Been You rather than inferring intent.",
+    "Periodically re-verify Spotify recording links and cross-market availability.",
+    "Check any WordPress image embeds and advertising arrangements against platform terms."
+  ]
+}

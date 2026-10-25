@@ -29,7 +29,8 @@ try {
   await page.waitForSelector('#saved-empty:not([hidden])');
   check(await page.locator('#saved-empty').isVisible(), 'Removing last save restores empty state');
   await page.goto(route('/artists/'));
-  check(await page.locator('.music-card').count() === 6, 'Directory has six artists');
+  const artistTotal = Number((await page.locator('.results-heading').textContent()).match(/\d+/)[0]);
+  check(artistTotal >= 6 && await page.locator('.music-card').count() === Math.min(12, artistTotal), 'Artist directory renders its reported result count');
   await page.getByLabel('Search this directory').fill('Sara');
   await page.locator('.filter-bar button[type=submit]').click();
   check(await page.locator('.music-card').count() === 1, 'Artist name filter works');
@@ -43,13 +44,16 @@ try {
   check(await page.locator('.music-card').count() === 3, 'Mood filter returns expected artists');
   await page.goto(route('/artists/sara-kays/'));
   check(await page.locator('h1').textContent() === 'Sara Kays', 'Artist profile renders');
-  check(await page.locator('.editorial-notice').textContent().then(t => t.includes('demo collection')), 'Demo is labeled');
+  check(await page.locator('.editorial-notice').textContent().then(t => t.includes('demo collection') || t.includes('Research review pending')), 'Demo is labeled');
   check(await page.locator('meta[name=robots]').getAttribute('content').then(t => t.includes('noindex')), 'Demo has noindex');
   check(await page.locator('.related-grid .music-card').count() === 2, 'Curated artist relationships render');
-  check(await page.locator('.spotify-button').getAttribute('href').then(v => v.startsWith('https://open.spotify.com/search/')), 'Unverified Spotify link uses labeled search');
+  const spotifyLink = page.locator('.spotify-button');
+  const spotifyHref = await spotifyLink.getAttribute('href');
+  check(spotifyHref.startsWith('https://open.spotify.com/search/') ? (await spotifyLink.textContent()).includes('Find on Spotify') : /^https:\/\/open\.spotify\.com\/artist\/[A-Za-z0-9]{22}$/.test(spotifyHref) && (await spotifyLink.textContent()).includes('Open in Spotify'), 'Spotify link and its label match verified artist or search fallback');
   await page.screenshot({path:'test-results/artist-desktop.png', fullPage:true});
   await page.goto(route('/songs/'));
-  check(await page.locator('.music-card').count() === 6, 'Directory has six songs');
+  const songTotal = Number((await page.locator('.results-heading').textContent()).match(/\d+/)[0]);
+  check(songTotal >= 6 && await page.locator('.music-card').count() === Math.min(12, songTotal), 'Song directory renders its reported result count');
   await page.goto(route('/songs/coping/'));
   check(await page.locator('.meaning-label').textContent().then(t => t.includes('Editorial')), 'Interpretation is labeled');
   check(await page.locator('.profile-section').textContent().then(t => t.includes('No verified artist explanation')), 'Missing artist intent is disclosed');
@@ -57,7 +61,7 @@ try {
   await page.locator('.search-trigger').click();
   await page.locator('#global-search').fill('Sara Kays');
   await page.locator('#search-dialog button[type=submit]').click();
-  check(await page.locator('.search-list h2').textContent().then(t => t.includes('Sara Kays')), 'Global search finds artists');
+  check(await page.locator('.search-list h2').allTextContents().then(items => items.includes('Sara Kays')), 'Global search finds artists');
   await page.goto(route('/?s=zzznomatchzz'));
   check(await page.locator('.empty-state').isVisible(), 'Search has empty state');
   for (const path of ['/journal/', '/about/', '/privacy/', '/contact/', '/copyright/']) {

@@ -84,6 +84,10 @@ function ag_section_heading($eyebrow, $title, $link = '', $label = '') {
     echo '</div>';
 }
 function ag_demo_notice($id) {
+    if (ag_meta('demo', $id) && ag_meta('handoff_key', $id)) {
+        echo '<aside class="editorial-notice"><strong>Research review pending.</strong> This page uses supplied source-linked research. Open questions are listed below; some source pages have not been independently rechecked. This page stays out of search-engine indexes until editorial review.</aside>';
+        return;
+    }
     if (ag_meta('demo', $id)) { echo '<aside class="editorial-notice"><strong>From the demo collection.</strong> This is a starter editorial page, not a fact-checked artist biography or an artist-endorsed explanation. Abstract artwork is a placeholder. This page is excluded from search-engine indexing.</aside>'; }
 }
 function ag_source_links($id, $key = 'sources') {
