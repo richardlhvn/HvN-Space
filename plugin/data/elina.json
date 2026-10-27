@@ -1,0 +1,1175 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-26",
+  "selection": {
+    "type": "curated",
+    "description": "CURATED STARTER SELECTION of ten recordings by Elina, spanning notable release eras and songs with source-backed editorial context. Not ranked or represented as a verified current Spotify Popular list.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-001",
+      "src-003"
+    ],
+    "limitations": [
+      "Spotify Popular could not be reproduced as a reliable market-specific current ranked ten-track list.",
+      "The order is editorial and must not be displayed as a streaming-platform popularity ranking.",
+      "The linked Spotify recording may represent a particular edition; availability may vary by market.",
+      "Track-level subjective labels are editorial. Artist statement fields require first-person song-specific evidence."
+    ]
+  },
+  "artist": {
+    "slug": "elina",
+    "name": "Elina",
+    "full_name": "Elina Gunhild Stridh",
+    "country": "Sweden",
+    "place_of_origin": "Sweden (rural upbringing; specific town not independently verified)",
+    "short_description": "Swedish singer-songwriter whose reflective pop and folk-influenced songs focus on change, empathy and emotional resilience.",
+    "biography": "Elina is a Swedish singer-songwriter whose expanded name, Elina Gunhild Stridh, appears in the MusicBrainz catalogue. Before launching a performing career, she developed credits writing for other artists, including NEIKED, Zara Larsson and Astrid S. She began releasing her own music in 2018 with 'Wild Enough,' which she explained in a contemporary interview as a song about self-doubt and the need to believe in her abilities. Her first EP, 'In Hindsight,' appeared in 2019, followed by 'Remember' in 2020. The latter project is especially valuable for listeners interested in the stories behind songs: Elina provided an original track-by-track account to American Songwriter. She described 'Free' as reflecting on the difficulty of leaving a relationship while searching for happiness, 'Another Round' as the temptation to romanticize the past, and 'Paper Planes' as loving people enough to accept their separation. The title song, 'Remember,' offered reassurance to a loved one experiencing pain. In 2023 she released her debut album 'Whatever Happens Now,' preceded by 'Apologize,' which introduced a more folk-influenced direction and addressed growth after letting go. Her releases in 2025 further expanded the catalogue. Afterglow’s emotional-pop categorization reflects these lyrical connections; it is an editorial recommendation framework, not a rigid genre designation.",
+    "spotify_url": "https://open.spotify.com/artist/4K9OTkRXEFL6NDXFTqVmq9",
+    "official_website": null,
+    "social_profiles": [
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/channel/UCigu-EPbF--kOU5WyYCMRlA",
+        "source_ids": [
+          "src-002",
+          "src-006"
+        ]
+      }
+    ],
+    "genres": [
+      "singer-songwriter (source described)",
+      "folk-pop (source described)",
+      "emotional pop (editorial)"
+    ],
+    "moods": [
+      "tender (editorial)",
+      "wistful (editorial)",
+      "reflective (editorial)"
+    ],
+    "career_milestones": [
+      {
+        "date": "2018",
+        "description": "Released debut solo single Wild Enough, with direct commentary on self-belief.",
+        "source_ids": [
+          "src-004",
+          "src-001"
+        ]
+      },
+      {
+        "date": "2019",
+        "description": "Released the In Hindsight EP.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "date": "2020",
+        "description": "Released Remember EP and discussed its songs in a track-by-track interview.",
+        "source_ids": [
+          "src-001",
+          "src-003"
+        ]
+      },
+      {
+        "date": "2023",
+        "description": "Released debut album Whatever Happens Now and single Apologize.",
+        "source_ids": [
+          "src-001",
+          "src-005"
+        ]
+      },
+      {
+        "date": "2025",
+        "description": "Released EPs Under different skies and A Place I Recognise.",
+        "source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Astrid S",
+        "explanation": "An especially grounded link: management credits Elina’s songwriting work with Astrid S.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "name": "SHY Martin",
+        "explanation": "Both belong in a curated Scandinavian pop pathway where lyrical vulnerability takes priority.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-003"
+        ]
+      },
+      {
+        "name": "Clara Mae",
+        "explanation": "Swedish singer-songwriter profiles with reflective relationships and pop/folk crossover.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002",
+          "src-005"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "full_name",
+        "claim": "MusicBrainz identifies Elina as Elina Gunhild Stridh.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "country",
+        "claim": "Artist directory identifies her as Swedish.",
+        "source_ids": [
+          "src-001",
+          "src-002"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Management credits work as songwriter for NEIKED, Zara Larsson and Astrid S.",
+        "source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Wild Enough was debuted in 2018 with first-person explanation of self-doubt.",
+        "source_ids": [
+          "src-004"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Catalogue dates In Hindsight EP to 2019 and Remember EP to 2020.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Direct American Songwriter track-by-track details the meanings of Free, Another Round, Paper Planes, Blue and Remember.",
+        "source_ids": [
+          "src-003"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Whatever Happens Now arrived in 2023; Apologize was an early release in the album cycle.",
+        "source_ids": [
+          "src-001",
+          "src-005"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Artist catalogue lists two 2025 EPs.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Official Spotify embed links identify recordings credited to Elina and link to their artist page.",
+        "source_ids": [
+          "src-007"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No suitably licensed commercial-use artist photograph was confirmed; abstract placeholder is required.",
+      "Genres and moods are Afterglow editorial labels rather than official genre or psychological classifications.",
+      "Official artist-controlled website could not be verified as accessible; official_website remains null.",
+      "Specific rural hometown unverified; elinasongs.com returned a fetch error.",
+      "Name is supported by community-edited music metadata; secondary corroboration is recommended."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "wild-enough",
+      "title": "Wild Enough",
+      "artist_slug": "elina",
+      "artist_credits": [
+        "Elina"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6lTDzhs8J9mqHs4cShQFVO",
+      "release_date": "2018",
+      "release_date_precision": "year",
+      "release_date_context": "The date describes a documented release year or identified collection; exact first-issue day is not independently verified.",
+      "release_title": "Wild Enough",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Elina's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "vulnerable (editorial)",
+        "determined (editorial)"
+      ],
+      "themes": [
+        "self-doubt (editorial)",
+        "self-belief (editorial)"
+      ],
+      "editorial_notes": "A strong introductory example of personal, clearly documented songwriting.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": "Elina said the track directly addresses self-doubt and fear of being inadequate, while asserting a desire to grow.",
+      "artist_statement_source_ids": [
+        "src-004"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "here-with-me",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "champion",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Wild Enough' credited to Elina.",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2018; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Wild Enough; linked recording may have additional issues.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "here-with-me",
+      "title": "Here With Me",
+      "artist_slug": "elina",
+      "artist_credits": [
+        "Elina"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/02VOS5QRFc6i1XQVROAeDi",
+      "release_date": "2018",
+      "release_date_precision": "year",
+      "release_date_context": "MusicBrainz 2018 single; no verified track-specific artist statement.",
+      "release_title": "Here With Me",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Elina's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "champion",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "free",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Here With Me' credited to Elina.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2018; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Here With Me; linked recording may have additional issues.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "champion",
+      "title": "Champion",
+      "artist_slug": "elina",
+      "artist_credits": [
+        "Elina"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1z1mMZtZW0gvR9FSPc7JpJ",
+      "release_date": "2018",
+      "release_date_precision": "year",
+      "release_date_context": "MusicBrainz 2018 single; original exact date unresolved.",
+      "release_title": "Champion",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Elina's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "free",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "paper-planes",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Champion' credited to Elina.",
+          "source_ids": [
+            "src-009"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2018; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Champion; linked recording may have additional issues.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "free",
+      "title": "Free",
+      "artist_slug": "elina",
+      "artist_credits": [
+        "Elina"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/2MLTj37cnRXEFMrvf9RVCa",
+      "release_date": "2019",
+      "release_date_precision": "year",
+      "release_date_context": "The date describes a documented release year or identified collection; exact first-issue day is not independently verified.",
+      "release_title": "Free",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Elina's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "reflective (editorial)",
+        "wistful (editorial)"
+      ],
+      "themes": [
+        "letting go (editorial)",
+        "happiness (editorial)",
+        "doubt (editorial)"
+      ],
+      "editorial_notes": "An opening into the larger Remember EP narrative about moving forward.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "She associated the song with looking for happiness elsewhere and doubting the decision to part ways with someone.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "apologize",
+          "explanation": "Afterglow editorial pairing: both records are tagged with letting go.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Free' credited to Elina.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2019; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Free; linked recording may have additional issues.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "paper-planes",
+      "title": "Paper Planes",
+      "artist_slug": "elina",
+      "artist_credits": [
+        "Elina"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/5GzgEC6pWf1USZsCtkG8yC",
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "The date describes a documented release year or identified collection; exact first-issue day is not independently verified.",
+      "release_title": "Paper Planes",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Elina's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "tender (editorial)",
+        "accepting (editorial)"
+      ],
+      "themes": [
+        "love (editorial)",
+        "separation (editorial)",
+        "goodwill (editorial)"
+      ],
+      "editorial_notes": "A distinctive, empathetic perspective on a breakup outside the singer’s own romance.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "Elina said she wrote this for two people she loves who separated while continuing to wish each other well.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "blue",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "remember",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Paper Planes' credited to Elina.",
+          "source_ids": [
+            "src-011"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2020; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Paper Planes; linked recording may have additional issues.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "blue",
+      "title": "Blue",
+      "artist_slug": "elina",
+      "artist_credits": [
+        "Elina"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/65HsXWtHGIMXJE9YB7CvZA",
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "The date describes a documented release year or identified collection; exact first-issue day is not independently verified.",
+      "release_title": "Blue",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Elina's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "calm (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "acceptance (editorial)",
+        "change (editorial)",
+        "growth (editorial)"
+      ],
+      "editorial_notes": "Pairs with Paper Planes as an Afterglow theme of compassionate release.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "She described the song as embracing change and recognizing that a past experience can remain meaningful after it has ended.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "remember",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "another-round",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Blue' credited to Elina.",
+          "source_ids": [
+            "src-012"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2020; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Blue; linked recording may have additional issues.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "remember",
+      "title": "Remember",
+      "artist_slug": "elina",
+      "artist_credits": [
+        "Elina"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/36hXBosTKJPrpGBXMBGHIh",
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "The date describes a documented release year or identified collection; exact first-issue day is not independently verified.",
+      "release_title": "Remember",
+      "release_type": "EP",
+      "short_description": "Afterglow editor's pick from Elina's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "comforting (editorial)",
+        "tender (editorial)"
+      ],
+      "themes": [
+        "self-worth (editorial)",
+        "empathy (editorial)",
+        "support (editorial)"
+      ],
+      "editorial_notes": "A clear example of emotional pop as support rather than romantic longing.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "Elina said she wrote the song to someone close who was hurting, as reassurance of love and worth.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "apologize",
+          "explanation": "Afterglow editorial pairing: both records are tagged with self-worth.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Remember' credited to Elina.",
+          "source_ids": [
+            "src-013"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2020; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Remember; linked recording may have additional issues.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "another-round",
+      "title": "Another Round",
+      "artist_slug": "elina",
+      "artist_credits": [
+        "Elina"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1IW4oi4K76TaWsSjW0aeC1",
+      "release_date": "2019",
+      "release_date_precision": "year",
+      "release_date_context": "The date describes a documented release year or identified collection; exact first-issue day is not independently verified.",
+      "release_title": "Another Round",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Elina's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "longing (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "nostalgia (editorial)",
+        "resistance to change (editorial)"
+      ],
+      "editorial_notes": "The emotionally unsettled counterpart to the acceptance described in Blue.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "Elina connected the song to idealizing the past and wanting to return to a familiar relationship rather than face change.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "apologize",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "you-make-me-think-of-fire",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Another Round' credited to Elina.",
+          "source_ids": [
+            "src-014"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2019; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Another Round; linked recording may have additional issues.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "apologize",
+      "title": "Apologize",
+      "artist_slug": "elina",
+      "artist_credits": [
+        "Elina"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1kUiUerOAJjH4mbgSgM8VZ",
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "The date describes a documented release year or identified collection; exact first-issue day is not independently verified.",
+      "release_title": "Apologize",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Elina's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "hopeful (editorial)",
+        "resolute (editorial)"
+      ],
+      "themes": [
+        "personal growth (editorial)",
+        "letting go (editorial)",
+        "self-worth (editorial)"
+      ],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "free",
+          "explanation": "Afterglow editorial pairing: both records are tagged with letting go.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "remember",
+          "explanation": "Afterglow editorial pairing: both records are tagged with self-worth.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Apologize' credited to Elina.",
+          "source_ids": [
+            "src-015"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2023; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Apologize; linked recording may have additional issues.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "you-make-me-think-of-fire",
+      "title": "You Make Me Think Of Fire",
+      "artist_slug": "elina",
+      "artist_credits": [
+        "Elina"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1LyBEzSxNBrPeTh3Aq9lvn",
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "2023 album edition; no artist interview specifically explaining this song verified.",
+      "release_title": "Whatever Happens Now",
+      "release_type": "album",
+      "short_description": "Afterglow editor's pick from Elina's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "wild-enough",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "here-with-me",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'You Make Me Think Of Fire' credited to Elina.",
+          "source_ids": [
+            "src-016"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2023; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Whatever Happens Now; linked recording may have additional issues.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://musicbrainz.org/artist/4e2fe119-5d0e-4e89-aae3-cab819e03f17",
+      "title": "Elina — artist overview and discography",
+      "publisher": "MusicBrainz",
+      "evidence_summary": "Catalogues Swedish artist Elina Gunhild Stridh, singles from 2018 onward, Remember EP in 2020 and 2023 album.",
+      "source_type": "community_music_metadata",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-002",
+      "url": "https://real-culture.com/elina",
+      "title": "Elina — artist management profile",
+      "publisher": "REAL CULTURE",
+      "evidence_summary": "Management identifies songwriting work for NEIKED, Zara Larsson and Astrid S; links official social channels.",
+      "source_type": "artist_management",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-003",
+      "url": "https://americansongwriter.com/elina-comes-face-to-face-with-her-reflections-on-remember/",
+      "title": "Elina reflects on Remember EP, track by track",
+      "publisher": "American Songwriter",
+      "evidence_summary": "First-person descriptions of Free, Another Round, Paper Planes, Blue and Remember and themes of change, kindness and acceptance.",
+      "source_type": "original_artist_track_by_track",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-004",
+      "url": "https://www.thelineofbestfit.com/new-music/song-of-the-day/elina-wild-enough",
+      "title": "Elina explains Wild Enough",
+      "publisher": "The Line of Best Fit",
+      "evidence_summary": "Original Elina statement says Wild Enough addresses insecurity and fear of inadequacy; article is dated April 20, 2018.",
+      "source_type": "original_artist_statement",
+      "published_date": "2018-04-20",
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-005",
+      "url": "https://www.wonderlandmagazine.com/2023/05/26/premiere-elina-apologize/",
+      "title": "Elina premieres Apologize",
+      "publisher": "Wonderland",
+      "evidence_summary": "Article describes Apologize’s personal-growth theme, includes an original artist comment and announces forthcoming 2023 album.",
+      "source_type": "original_artist_release_feature",
+      "published_date": "2023-05-26",
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-006",
+      "url": "https://www.youtube.com/channel/UCigu-EPbF--kOU5WyYCMRlA",
+      "title": "ELINA — YouTube",
+      "publisher": "YouTube",
+      "evidence_summary": "YouTube channel reached from artist management page.",
+      "source_type": "artist_management_link",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-007",
+      "url": "https://open.spotify.com/embed/track/6lTDzhs8J9mqHs4cShQFVO",
+      "title": "Wild Enough — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Wild Enough' and the credited recording artist Elina; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-008",
+      "url": "https://open.spotify.com/embed/track/02VOS5QRFc6i1XQVROAeDi",
+      "title": "Here With Me — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Here With Me' and the credited recording artist Elina; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-009",
+      "url": "https://open.spotify.com/embed/track/1z1mMZtZW0gvR9FSPc7JpJ",
+      "title": "Champion — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Champion' and the credited recording artist Elina; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-010",
+      "url": "https://open.spotify.com/embed/track/2MLTj37cnRXEFMrvf9RVCa",
+      "title": "Free — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Free' and the credited recording artist Elina; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-011",
+      "url": "https://open.spotify.com/embed/track/5GzgEC6pWf1USZsCtkG8yC",
+      "title": "Paper Planes — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Paper Planes' and the credited recording artist Elina; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-012",
+      "url": "https://open.spotify.com/embed/track/65HsXWtHGIMXJE9YB7CvZA",
+      "title": "Blue — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Blue' and the credited recording artist Elina; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-013",
+      "url": "https://open.spotify.com/embed/track/36hXBosTKJPrpGBXMBGHIh",
+      "title": "Remember — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Remember' and the credited recording artist Elina; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-014",
+      "url": "https://open.spotify.com/embed/track/1IW4oi4K76TaWsSjW0aeC1",
+      "title": "Another Round — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Another Round' and the credited recording artist Elina; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-015",
+      "url": "https://open.spotify.com/embed/track/1kUiUerOAJjH4mbgSgM8VZ",
+      "title": "Apologize — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Apologize' and the credited recording artist Elina; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-016",
+      "url": "https://open.spotify.com/embed/track/1LyBEzSxNBrPeTh3Aq9lvn",
+      "title": "You Make Me Think Of Fire — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'You Make Me Think Of Fire' and the credited recording artist Elina; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    }
+  ],
+  "outstanding_research": [
+    "Confirm original releases and edition-specific dates for remaining year-only or null tracks.",
+    "Review image licensing directly with rightsholders before using any artist or album photography.",
+    "Check whether previously unverified personal/social channels can be authenticated by artist or management.",
+    "Reassess live music-catalogue availability and update the editorial selection periodically."
+  ]
+}

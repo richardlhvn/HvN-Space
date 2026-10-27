@@ -1,0 +1,1481 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-26",
+  "selection": {
+    "type": "curated",
+    "description": "Ten-song editorial starter selection spanning Clara Mae’s early KREAM feature, 2017–2018 concept EP, 2019–2021 solo work, and 2025 country-influenced transition. Not a ranked Spotify Popular list.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-001",
+      "src-002",
+      "src-008",
+      "src-010",
+      "src-011"
+    ],
+    "limitations": [
+      "Spotify Popular ordering could not be captured as a stable and reproducible market-specific ten-track ranking.",
+      "The ten tracks were chosen for editorial coverage, breadth of era, and available first-person song context.",
+      "Recording links may be edition-specific; check availability for target visitors."
+    ]
+  },
+  "artist": {
+    "slug": "clara-mae",
+    "name": "Clara Mae",
+    "full_name": null,
+    "country": "Sweden",
+    "place_of_origin": "Gävle area, Sweden (raised / studied; exact birthplace not verified)",
+    "short_description": "Swedish songwriter whose intimate breakup narratives move between bright Scandinavian pop and country-tinged reflection.",
+    "biography": "Clara Mae is a Swedish singer-songwriter associated with Gävle, where she studied jazz singing and piano before pursuing music professionally in Stockholm. She developed her craft writing for other performers, with credits connected to dance-pop artists including David Guetta and Tiësto. Her collaboration with Norwegian electronic duo KREAM brought her voice to the 2016 track ‘Taped Up Heart,’ an early international breakthrough. She subsequently signed with Big Beat Records and established a solo identity built around candid relationship stories. Her 2018 six-song project ‘Sorry for Writing All the Songs About You,’ co-written with Cassandra Ströberg, follows the emotional arc of a romance, from early excitement to separation and acceptance. In a contemporary interview, Clara Mae explained that writing the songs helped her work through experiences from past relationships. Her 2020 collection ‘Drunk On Emotions’ continued that emotional focus and featured collaborations with gnash and country singer Russell Dickerson. The standalone 2021 single ‘Not Sad Anymore’ offered a different perspective: rediscovering independence after heartbreak. On the 2026 album ‘My Roots,’ her music moved toward a softer, more organic palette with country influences. Across those chapters, Clara Mae has emphasized story-led songwriting, melodic accessibility, and emotional specificity. For Afterglow listeners, her catalogue offers a bridge between polished Scandinavian pop, reflective breakup songs, and country-tinged singer-songwriter music.",
+    "spotify_url": "https://open.spotify.com/artist/6RHKEd9dpzQ4c09x8Zdaxu",
+    "official_website": null,
+    "social_profiles": [
+      {
+        "platform": "Instagram",
+        "url": "https://www.instagram.com/claramaemusic/",
+        "source_ids": [
+          "src-009"
+        ]
+      },
+      {
+        "platform": "X",
+        "url": "https://x.com/claramaemusic",
+        "source_ids": [
+          "src-009"
+        ]
+      },
+      {
+        "platform": "Facebook",
+        "url": "https://www.facebook.com/iamclaramae",
+        "source_ids": [
+          "src-009"
+        ]
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://www.youtube.com/channel/UCWNVPfzSAAJr2L4GyvF6y7g",
+        "source_ids": [
+          "src-009"
+        ]
+      }
+    ],
+    "genres": [
+      "pop (catalogued)",
+      "Swedish pop (editorial)",
+      "electropop (editorial)",
+      "country-influenced pop (later work; editorial)"
+    ],
+    "moods": [
+      "bittersweet (editorial)",
+      "heartbroken (editorial)",
+      "reflective (editorial)",
+      "hopeful (editorial)"
+    ],
+    "career_milestones": [
+      {
+        "date": "2016-10-14",
+        "description": "Featured on KREAM’s Taped Up Heart, a dance-pop collaboration.",
+        "source_ids": [
+          "src-007",
+          "src-024"
+        ]
+      },
+      {
+        "date": "2017-11-10",
+        "description": "Released I’m Not Her, an early solo breakthrough.",
+        "source_ids": [
+          "src-022"
+        ]
+      },
+      {
+        "date": "2018-09-14",
+        "description": "Released the six-track Sorry for Writing All the Songs About You project via Big Beat.",
+        "source_ids": [
+          "src-003",
+          "src-010"
+        ]
+      },
+      {
+        "date": "2020-08-28",
+        "description": "Released Drunk On Emotions, with collaborations including gnash and Russell Dickerson.",
+        "source_ids": [
+          "src-010",
+          "src-018",
+          "src-019"
+        ]
+      },
+      {
+        "date": "2021-06-18",
+        "description": "Released Not Sad Anymore as a standalone single.",
+        "source_ids": [
+          "src-026",
+          "src-032"
+        ]
+      },
+      {
+        "date": "2026-01-30",
+        "description": "Released 14-track album My Roots.",
+        "source_ids": [
+          "src-008"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "SHY Martin",
+        "explanation": "An editorial bridge through Swedish melodic pop and frank, vulnerable relationship stories.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001",
+          "src-002",
+          "src-033"
+        ]
+      },
+      {
+        "name": "Astrid S",
+        "explanation": "A fit for listeners who want expressive female vocals and hook-led pop with bittersweet relationship themes.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002",
+          "src-033"
+        ]
+      },
+      {
+        "name": "Rosie Darling",
+        "explanation": "A softer route into intimate heartbreak storytelling rather than beat-driven arrangements.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002",
+          "src-033"
+        ]
+      },
+      {
+        "name": "Sasha Alex Sloan",
+        "explanation": "A companion for listeners prioritizing confessional songwriting and vulnerability over production style.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002",
+          "src-033"
+        ]
+      },
+      {
+        "name": "Elina",
+        "explanation": "A Swedish singer-songwriter adjacency with an emphasis on direct, emotional narratives.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002",
+          "src-033"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "name",
+        "claim": "Performs professionally as Clara Mae; songwriter credits identify Clara Hagman (not verified as complete legal name)",
+        "source_ids": [
+          "src-022",
+          "src-033"
+        ]
+      },
+      {
+        "field": "country",
+        "claim": "Swedish singer-songwriter",
+        "source_ids": [
+          "src-001",
+          "src-034"
+        ]
+      },
+      {
+        "field": "place_of_origin",
+        "claim": "Grew up or studied in the Gävle area of Sweden; birth location not separately established",
+        "source_ids": [
+          "src-001",
+          "src-034"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Studied jazz vocals and piano in the Gävle area, then pursued music in Stockholm",
+        "source_ids": [
+          "src-001",
+          "src-034"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Worked as a songwriter for electronic-pop performers including David Guetta and Tiësto",
+        "source_ids": [
+          "src-001",
+          "src-034"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Featured on KREAM original Taped Up Heart in 2016",
+        "source_ids": [
+          "src-007",
+          "src-016",
+          "src-024"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Signed to Big Beat and issued six-song relationship-story EP in 2018 with Cassandra Ströberg as collaborator",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003",
+          "src-010"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "2018 EP follows a relationship from early happiness through hurt, regret and the need to move on",
+        "source_ids": [
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Drunk On Emotions collection was issued in August 2020 and featured gnash and Russell Dickerson",
+        "source_ids": [
+          "src-010",
+          "src-018",
+          "src-019"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Not Sad Anymore was first a 2021 single; Clara Mae described it as regaining autonomy after grief",
+        "source_ids": [
+          "src-006",
+          "src-026"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "2026 My Roots has an organic, country-leaning sound",
+        "source_ids": [
+          "src-008"
+        ]
+      },
+      {
+        "field": "genres",
+        "claim": "Swedish pop, electropop, and later organic/country-influenced pop describe documented work and editorial categorization",
+        "source_ids": [
+          "src-001",
+          "src-004",
+          "src-008"
+        ]
+      },
+      {
+        "field": "social_profiles",
+        "claim": "Social links are endorsed by Universal Music Japan, although login-restricted pages could not be reauthenticated",
+        "source_ids": [
+          "src-009"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "Songwriter credits identify Clara Hagman, but an expanded full legal name was not sufficiently established; full_name remains null.",
+      "Gävle is supported as the hometown/study location; an independently evidenced birth address/city was not established.",
+      "The management page links claramaemusic.com, but the domain displayed unrelated gambling content during research; leave official_website null and do not link to it.",
+      "Social platform pages may restrict direct access; account URLs are attributed to Universal Music Japan rather than a fresh account-badge verification.",
+      "No commercially reusable artist photograph permission/license was established.",
+      "Later pop/country categorization is editorial; it is not asserted as a definitive formal genre taxonomy."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "im-not-her",
+      "title": "I'm Not Her",
+      "artist_slug": "clara-mae",
+      "artist_credits": [
+        "Clara Mae"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1G8AhUfC9RRpzsKF68YYt9",
+      "release_date": "2017-11-10",
+      "release_date_precision": "day",
+      "release_date_context": "Original solo single release; song subsequently included on the 2018 EP.",
+      "release_title": "I'm Not Her",
+      "release_type": "single",
+      "short_description": "An early Clara Mae single confronting comparison with an ex-partner’s new relationship.",
+      "genres": [
+        "pop (catalogued)",
+        "electropop (editorial)"
+      ],
+      "moods": [
+        "defiant",
+        "vulnerable"
+      ],
+      "themes": [
+        "self-comparison",
+        "self-worth",
+        "breakups"
+      ],
+      "editorial_notes": "A starting point for the songwriter’s practice of turning painful comparison into self-affirmation. This takeaway follows Clara Mae’s interview explanation, not an independent audio analysis.",
+      "editorial_notes_basis": "artist interview",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": "Clara Mae said the track addresses comparing yourself to an ex’s new partner and learning to value your own identity.",
+      "artist_statement_source_ids": [
+        "src-002"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "i-forgot",
+          "explanation": "Both revisit a former relationship, but from different stages of separation.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "not-sad-anymore",
+          "explanation": "Move from comparison to emotional independence.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "spotify_url",
+          "claim": "Official Spotify embed credits Clara Mae and names the track",
+          "source_ids": [
+            "src-012"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Apple Music lists November 10, 2017 for the original single song",
+          "source_ids": [
+            "src-022"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "Artist directly describes comparison and self-worth",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "i-forgot",
+      "title": "I Forgot",
+      "artist_slug": "clara-mae",
+      "artist_credits": [
+        "Clara Mae"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6p3MquVmVPXgH5WrRYoTL8",
+      "release_date": "2018-02-23",
+      "release_date_precision": "day",
+      "release_date_context": "Standalone single date from licensed Bugs Music catalogue; later reissued on the 2018 EP.",
+      "release_title": "I Forgot",
+      "release_type": "single",
+      "short_description": "The emotional shock of seeing an ex again after believing the breakup was behind you.",
+      "genres": [
+        "pop (catalogued)",
+        "electropop (editorial)"
+      ],
+      "moods": [
+        "wistful",
+        "unsettled"
+      ],
+      "themes": [
+        "unexpected encounters",
+        "lingering attachment",
+        "breakups"
+      ],
+      "editorial_notes": "Read alongside I’m Not Her as another chapter in the EP relationship arc. This is based on Clara Mae’s first-person outline.",
+      "editorial_notes_basis": "artist interview",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": "She described an encounter with an ex that made buried feelings resurface, while also reminding her why the relationship ended.",
+      "artist_statement_source_ids": [
+        "src-002"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "loved-you-once",
+          "explanation": "Both pivot on unexpectedly meeting a former partner.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "sorry-for-writing-all-the-songs-about-you",
+          "explanation": "This is one emotional chapter in the EP-wide process of closure.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "spotify_url",
+          "claim": "Official Spotify embed verifies track and artist",
+          "source_ids": [
+            "src-013"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Bugs Music lists a February 23, 2018 original single",
+          "source_ids": [
+            "src-023"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "Her EUPHORIA interview explicitly describes the premise",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "sorry-for-writing-all-the-songs-about-you",
+      "title": "Sorry for Writing All the Songs About You",
+      "artist_slug": "clara-mae",
+      "artist_credits": [
+        "Clara Mae"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/7CETR23Us2ET1iXIKhF5Ju",
+      "release_date": "2018-09-14",
+      "release_date_precision": "day",
+      "release_date_context": "Date of verified 2018 EP edition; earliest independent song release not separately established.",
+      "release_title": "Sorry for Writing All the Songs About You",
+      "release_type": "EP",
+      "short_description": "A closing chapter for an EP that turns the process of writing about heartbreak into its own resolution.",
+      "genres": [
+        "pop (catalogued)",
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective",
+        "resolute"
+      ],
+      "themes": [
+        "writing to heal",
+        "closure",
+        "breakups"
+      ],
+      "editorial_notes": "As a discovery-page entry, this is an especially useful way to introduce Clara Mae’s songwriting perspective and the surrounding EP narrative.",
+      "editorial_notes_basis": "artist interview",
+      "editorial_notes_source_ids": [
+        "src-002",
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "Clara Mae explained that writing about those prior experiences became necessary for her to move forward.",
+      "artist_statement_source_ids": [
+        "src-002",
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "im-not-her",
+          "explanation": "Both come from the same six-song relationship narrative.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "not-sad-anymore",
+          "explanation": "A later song continues the movement toward independence.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "spotify_url",
+          "claim": "Official Spotify embed confirms title and artist",
+          "source_ids": [
+            "src-014"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Qobuz dates EP edition September 14, 2018",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "Interview states the songs themselves were part of moving on",
+          "source_ids": [
+            "src-002",
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Earliest standalone track appearance before the EP, if any, was not independently established."
+      ]
+    },
+    {
+      "slug": "better-me-better-you",
+      "title": "Better Me Better You",
+      "artist_slug": "clara-mae",
+      "artist_credits": [
+        "Clara Mae",
+        "Jake Miller"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6r12RVOkFrin1piA74rWyO",
+      "release_date": "2018-09-14",
+      "release_date_precision": "day",
+      "release_date_context": "Verified EP edition date, not asserted to be the first standalone single date.",
+      "release_title": "Sorry for Writing All the Songs About You",
+      "release_type": "EP",
+      "short_description": "A duet examining the temptation to romanticize a difficult past while in a better present.",
+      "genres": [
+        "pop (catalogued)",
+        "duet pop (editorial)"
+      ],
+      "moods": [
+        "conflicted",
+        "nostalgic"
+      ],
+      "themes": [
+        "idealizing the past",
+        "relationship comparison"
+      ],
+      "editorial_notes": "The contrasting voices help frame the tension between current comfort and selective nostalgia; this is an editorial framing of the artist’s stated concept, not a claimed audio review.",
+      "editorial_notes_basis": "artist interview",
+      "editorial_notes_source_ids": [
+        "src-002",
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "Clara Mae described feeling bored in a good relationship and glamorizing the drama of the previous one; she said Jake Miller was chosen as a duet partner after hearing his voice.",
+      "artist_statement_source_ids": [
+        "src-002"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "im-not-her",
+          "explanation": "Both question comparisons that can distort how relationships are viewed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "alright-feat-russell-dickerson",
+          "explanation": "Another collaboration exploring two sides of a relationship.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "spotify_url",
+          "claim": "Spotify confirms both Clara Mae and Jake Miller",
+          "source_ids": [
+            "src-015"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "EP edition verified for September 14, 2018",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "First-person interview explains the premise",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Exact original single issue date not established from sources read."
+      ]
+    },
+    {
+      "slug": "taped-up-heart-feat-clara-mae",
+      "title": "Taped Up Heart (feat. Clara Mae)",
+      "artist_slug": "clara-mae",
+      "artist_credits": [
+        "KREAM",
+        "Clara Mae"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/26hcyzSE154xMZCbFdtInA",
+      "release_date": "2016-10-14",
+      "release_date_precision": "day",
+      "release_date_context": "Release of original KREAM collaboration; verified non-remix track.",
+      "release_title": "Taped Up Heart (feat. Clara Mae)",
+      "release_type": "single",
+      "short_description": "An early KREAM collaboration where Clara Mae provided vocals for an electronic dance-pop production.",
+      "genres": [
+        "dance-pop (licensed catalogue)",
+        "electronic (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "This is a historical starting point for visitors interested in Clara Mae’s dance-pop collaborations. No lyric-level interpretation is offered without a direct source.",
+      "editorial_notes_basis": "documented production history",
+      "editorial_notes_source_ids": [
+        "src-007",
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "overused-feat-gnash",
+          "explanation": "Both feature Clara Mae collaborating beyond a solo recording.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "alright-feat-russell-dickerson",
+          "explanation": "Another cross-style collaboration showing her versatility.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "spotify_url",
+          "claim": "Spotify verifies original non-remix KREAM and Clara Mae credits",
+          "source_ids": [
+            "src-016"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Beatport confirms October 14, 2016 edition",
+          "source_ids": [
+            "src-024"
+          ]
+        },
+        {
+          "field": "production_history",
+          "claim": "Original producer interview documents remote collaboration",
+          "source_ids": [
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No song-specific lyric meaning sourced; KREAM interview only explains production."
+      ]
+    },
+    {
+      "slug": "loved-you-once",
+      "title": "Loved You Once",
+      "artist_slug": "clara-mae",
+      "artist_credits": [
+        "Clara Mae"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6cc7nzmG4iClAyl47BOf2Z",
+      "release_date": "2019-06-21",
+      "release_date_precision": "day",
+      "release_date_context": "Original song release documented June 21, 2019; linked Spotify recording is the later 2020 Drunk On Emotions album edition.",
+      "release_title": "Drunk On Emotions",
+      "release_type": "album",
+      "short_description": "Clara Mae reflects on how an ex can become a stranger despite once being close.",
+      "genres": [
+        "pop (catalogued)",
+        "ballad (editorial)"
+      ],
+      "moods": [
+        "wistful",
+        "melancholic"
+      ],
+      "themes": [
+        "unexpected encounter",
+        "lost familiarity",
+        "breakups"
+      ],
+      "editorial_notes": "Pair with I Forgot for two differently framed accounts of seeing a former partner after separation. Note that the 2019 announcement describes a demo version, whereas this link is to the 2020 album edition.",
+      "editorial_notes_basis": "original release statement and later edition metadata",
+      "editorial_notes_source_ids": [
+        "src-005",
+        "src-025",
+        "src-029"
+      ],
+      "artist_statement_paraphrase": "Clara Mae said the song came from seeing an ex at a hometown bar and finding that they ignored each other like strangers.",
+      "artist_statement_source_ids": [
+        "src-005"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "i-forgot",
+          "explanation": "Both are based on encountering an ex after time apart.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "sorry-for-writing-all-the-songs-about-you",
+          "explanation": "Both revisit the aftermath of closeness and separation.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "spotify_url",
+          "claim": "Spotify embed validates the specific album edition",
+          "source_ids": [
+            "src-017"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Apple Music confirms June 21, 2019 original song release",
+          "source_ids": [
+            "src-025"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "Spotify lists selected recording on 2020 Drunk On Emotions album",
+          "source_ids": [
+            "src-029"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "Contemporaneous artist statement identifies hometown-bar inspiration",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "2019 release was called Loved You Once (Demo) in contemporary coverage; the linked Spotify track is a later album edition, not asserted to be identical mastering."
+      ]
+    },
+    {
+      "slug": "overused-feat-gnash",
+      "title": "Overused (feat. gnash)",
+      "artist_slug": "clara-mae",
+      "artist_credits": [
+        "Clara Mae",
+        "gnash"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/74I76sDq0rPJV3FP4fq44d",
+      "release_date": "2020-05-22",
+      "release_date_precision": "day",
+      "release_date_context": "Original single release as chart-discography corroborated, later featured on Drunk On Emotions.",
+      "release_title": "Overused (feat. gnash)",
+      "release_type": "single",
+      "short_description": "A collaboration contemplating whether a relationship should end before recurring conflict overwrites its happier memories.",
+      "genres": [
+        "pop (catalogued)",
+        "pop duet (editorial)"
+      ],
+      "moods": [
+        "bittersweet",
+        "conflicted"
+      ],
+      "themes": [
+        "relationship deterioration",
+        "preserving memories",
+        "separation"
+      ],
+      "editorial_notes": "A useful recommendation for people drawn to the tension between still caring for someone and sensing a relationship has run its course.",
+      "editorial_notes_basis": "original interview",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": "Clara Mae said an in-flight film inspired the idea of leaving a relationship before constant disputes ruined the memory of what had been good; she brought that idea to a writing session with gnash.",
+      "artist_statement_source_ids": [
+        "src-004"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "better-me-better-you",
+          "explanation": "Both examine the difference between a remembered romance and its actual condition.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "alright-feat-russell-dickerson",
+          "explanation": "Both collaborations make emotional distance a central subject.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "spotify_url",
+          "claim": "Spotify verifies Clara Mae and gnash credits on this recording",
+          "source_ids": [
+            "src-018"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Swedish Charts dates standalone Overused single to May 2020",
+          "source_ids": [
+            "src-031"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "Original 2020 interview describes the specific inspiration",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "alright-feat-russell-dickerson",
+      "title": "Alright (feat. Russell Dickerson)",
+      "artist_slug": "clara-mae",
+      "artist_credits": [
+        "Clara Mae",
+        "Russell Dickerson"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/2sCxUQfUto6uaBe1ZBHFtA",
+      "release_date": "2020-08-28",
+      "release_date_precision": "day",
+      "release_date_context": "Spotify date for Drunk On Emotions album edition; not necessarily an earlier single or premiere date.",
+      "release_title": "Drunk On Emotions",
+      "release_type": "album",
+      "short_description": "A country-pop-leaning breakup duet built around two perspectives and concern for a former partner’s well-being.",
+      "genres": [
+        "pop (catalogued)",
+        "country-influenced pop (editorial)"
+      ],
+      "moods": [
+        "tender",
+        "bittersweet"
+      ],
+      "themes": [
+        "different viewpoints",
+        "breakups",
+        "wishing someone well"
+      ],
+      "editorial_notes": "This illustrates Clara Mae’s interest in emotionally direct duets and her appreciation of country storytelling.",
+      "editorial_notes_basis": "original interview",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": "Clara Mae said she and her collaborators wanted to write about the same relationship from a woman’s and a man’s viewpoints, without necessarily wanting the other person to return.",
+      "artist_statement_source_ids": [
+        "src-004"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "better-me-better-you",
+          "explanation": "Another collaborative relationship song with contrasting voices.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "overused-feat-gnash",
+          "explanation": "Both explore a breakup from a nuanced rather than simply angry angle.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "spotify_url",
+          "claim": "Spotify embed verifies both credited artists",
+          "source_ids": [
+            "src-019"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Spotify album edition dated August 28, 2020",
+          "source_ids": [
+            "src-028"
+          ]
+        },
+        {
+          "field": "artist_statement",
+          "claim": "Original 2020 interview explains why she chose two perspectives",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "An earlier promotional availability date may differ by territory; only the selected album edition is used here."
+      ]
+    },
+    {
+      "slug": "not-sad-anymore",
+      "title": "Not Sad Anymore",
+      "artist_slug": "clara-mae",
+      "artist_credits": [
+        "Clara Mae"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/4lsQwFKcIkcXhCnw9H7Ung",
+      "release_date": "2021-06-18",
+      "release_date_precision": "day",
+      "release_date_context": "Original standalone single released June 18, 2021; selected Spotify link is the later 2022 Learning Experience edition.",
+      "release_title": "Learning Experience",
+      "release_type": "EP",
+      "short_description": "An unusually hopeful response to heartbreak, focused on reclaiming time and agency.",
+      "genres": [
+        "pop (catalogued)",
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "uplifting",
+        "hopeful"
+      ],
+      "themes": [
+        "independence",
+        "recovery",
+        "moving on"
+      ],
+      "editorial_notes": "A tonal counterweight to her earlier breakup songs, grounded in her direct public explanation rather than inferred from the title.",
+      "editorial_notes_basis": "reported artist statement",
+      "editorial_notes_source_ids": [
+        "src-006"
+      ],
+      "artist_statement_paraphrase": "Clara Mae explained that she wrote this song about the moment after grief when you realize life continues and activities once shared with a partner can be enjoyed alone.",
+      "artist_statement_source_ids": [
+        "src-006"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "im-not-her",
+          "explanation": "An arc from self-comparison to recovered autonomy.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "sorry-for-writing-all-the-songs-about-you",
+          "explanation": "Both offer different versions of emotional closure.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "spotify_url",
+          "claim": "Spotify verifies linked Clara Mae recording",
+          "source_ids": [
+            "src-020"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Original 2021 single verified by Apple and label",
+          "source_ids": [
+            "src-026",
+            "src-032"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "Spotify page associates linked version with 2022 Learning Experience release",
+          "source_ids": [
+            "src-030"
+          ]
+        },
+        {
+          "field": "artist_statement",
+          "claim": "Artist explanation quoted in contemporary Scandipop coverage",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "The selected recording is on a 2022 EP; source does not establish whether mastering exactly matches the 2021 single."
+      ]
+    },
+    {
+      "slug": "no-jolene",
+      "title": "No Jolene",
+      "artist_slug": "clara-mae",
+      "artist_credits": [
+        "Clara Mae"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/32MwhuIuhW55LawKJa8jyQ",
+      "release_date": "2025-10-24",
+      "release_date_precision": "day",
+      "release_date_context": "Original standalone single released October 24, 2025, later included on My Roots in January 2026.",
+      "release_title": "No Jolene",
+      "release_type": "single",
+      "short_description": "A representative entry from Clara Mae’s later era, surrounding her more organic, country-influenced My Roots project.",
+      "genres": [
+        "pop (catalogued)",
+        "country-influenced pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Recommended to compare an early electronic-pop era with her later release context. No claims about the song’s narrative are made, as an artist explanation was not verified.",
+      "editorial_notes_basis": "release and album context only",
+      "editorial_notes_source_ids": [
+        "src-008",
+        "src-027"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "alright-feat-russell-dickerson",
+          "explanation": "Both are entry points for the country-influenced side of the catalogue.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "im-not-her",
+          "explanation": "Contrasts earlier mainstream Swedish pop with her later stylistic shift.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "spotify_url",
+          "claim": "Spotify embed verifies title and Clara Mae credit",
+          "source_ids": [
+            "src-021"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Apple Music confirms original single release October 24, 2025",
+          "source_ids": [
+            "src-027"
+          ]
+        },
+        {
+          "field": "later_album_context",
+          "claim": "Amazon album track list includes No Jolene; Apple describes country-leaning sound",
+          "source_ids": [
+            "src-008",
+            "src-037"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified song-specific origin, narrative or artist interpretation; moods and themes intentionally left empty."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://www.echomgmt.com/copy-of-clara-mae-1",
+      "title": "Clara Mae — artist management profile",
+      "publisher": "echo+management",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "artist_management",
+      "access_status": "read",
+      "evidence_summary": "Her management describes her Gävle upbringing, jazz studies, outside songwriting, KREAM feature, and 2018 six-song relationship EP."
+    },
+    {
+      "id": "src-002",
+      "url": "https://www.euphoriazine.com/blog/2018/11/interviews-clara-mae-interview/",
+      "title": "Clara Mae interview",
+      "publisher": "EUPHORIA.",
+      "published_date": "2018-11-19",
+      "accessed_date": "2026-10-26",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Clara Mae describes the six songs on her 2018 EP individually, their relationship chronology, her songwriting priorities, and Jake Miller collaboration."
+    },
+    {
+      "id": "src-003",
+      "url": "https://www.broadwayworld.com/bwwmusic/article/Clara-Mae-Releases-Debut-EPORRY-FOR-WRITING-ALL-THE-SONGS-ABOUT-YOU-20180914?format=auto&width=400",
+      "title": "Clara Mae releases debut EP",
+      "publisher": "BroadwayWorld",
+      "published_date": "2018-09-14",
+      "accessed_date": "2026-10-26",
+      "source_type": "release_announcement",
+      "access_status": "read",
+      "evidence_summary": "Contemporaneous announcement reproduces the original six-song track listing and the artist’s explanation of its sequence."
+    },
+    {
+      "id": "src-004",
+      "url": "https://mrlifeday.com/clara-mae-interview/",
+      "title": "Interview with Clara Mae on Drunk On Emotions",
+      "publisher": "Mr. Life Day",
+      "published_date": "2020-11-07",
+      "accessed_date": "2026-10-26",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Clara Mae explains her inspiration for Overused, collaborative two-perspective concept for Alright, and the different feelings in Drunk On Emotions. Article is in Chinese."
+    },
+    {
+      "id": "src-005",
+      "url": "https://www.stagerightsecrets.com/clara-mae-loved-you-once/",
+      "title": "Clara Mae debuts Loved You Once",
+      "publisher": "Stage Right Secrets",
+      "published_date": "2019-06-21",
+      "accessed_date": "2026-10-26",
+      "source_type": "reported_artist_statement",
+      "access_status": "read",
+      "evidence_summary": "Contemporaneous announcement contains Clara Mae’s description of unexpectedly encountering an ex at a bar, inspiring the track; 2019 release was described as a demo."
+    },
+    {
+      "id": "src-006",
+      "url": "https://scandipop.co.uk/song-clara-mae-not-sad-anymore/",
+      "title": "Song: Clara Mae — Not Sad Anymore",
+      "publisher": "Scandipop",
+      "published_date": "2021-06-23",
+      "accessed_date": "2026-10-26",
+      "source_type": "reported_artist_statement",
+      "access_status": "read",
+      "evidence_summary": "Relays Clara Mae’s statement that the song addresses the period after heartbreak when life can be enjoyed independently again."
+    },
+    {
+      "id": "src-007",
+      "url": "https://splice.com/blog/kream-producing-collaborating-taped-up-heart/",
+      "title": "KREAM on producing and collaborating on Taped Up Heart",
+      "publisher": "Splice",
+      "published_date": "2016-11-16",
+      "accessed_date": "2026-10-26",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "KREAM describe creating the electronic production remotely from Clara Mae’s submitted vocal and their production choices; no verified lyric meaning."
+    },
+    {
+      "id": "src-008",
+      "url": "https://music.apple.com/us/album/my-roots/1867542195",
+      "title": "My Roots — Clara Mae",
+      "publisher": "Apple Music",
+      "published_date": "2026-01-30",
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "The album My Roots was released January 30, 2026, contains 14 tracks, and is characterized as intimate pop with country leanings."
+    },
+    {
+      "id": "src-009",
+      "url": "https://www.universal-music.co.jp/clara-mae/",
+      "title": "Clara Mae — Japanese label artist page",
+      "publisher": "Universal Music Japan",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_label",
+      "access_status": "read",
+      "evidence_summary": "Official label profile links the artist’s Instagram, X, Facebook, and YouTube accounts."
+    },
+    {
+      "id": "src-010",
+      "url": "https://www.qobuz.com/us-en/interpreter/clara-mae/2485990",
+      "title": "Clara Mae discography",
+      "publisher": "Qobuz",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "licensed_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Catalog dates the Sorry For Writing All The Songs About You EP to September 14, 2018, Drunk On Emotions to August 28, 2020, and My Roots to January 30, 2026."
+    },
+    {
+      "id": "src-011",
+      "url": "https://open.spotify.com/artist/6RHKEd9dpzQ4c09x8Zdaxu",
+      "title": "Clara Mae — Spotify",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Artist identity; Spotify Popular positions were not saved as a stable market-specific ranking."
+    },
+    {
+      "id": "src-012",
+      "url": "https://open.spotify.com/embed/track/1G8AhUfC9RRpzsKF68YYt9",
+      "title": "I'm Not Her — Spotify embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Embed confirms title and Clara Mae credit for selected recording."
+    },
+    {
+      "id": "src-013",
+      "url": "https://open.spotify.com/embed/track/6p3MquVmVPXgH5WrRYoTL8",
+      "title": "I Forgot — Spotify embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Embed confirms title and Clara Mae credit for selected recording."
+    },
+    {
+      "id": "src-014",
+      "url": "https://open.spotify.com/embed/track/7CETR23Us2ET1iXIKhF5Ju",
+      "title": "Sorry for Writing All the Songs About You — Spotify embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Embed confirms title and Clara Mae credit for selected recording."
+    },
+    {
+      "id": "src-015",
+      "url": "https://open.spotify.com/embed/track/6r12RVOkFrin1piA74rWyO",
+      "title": "Better Me Better You — Spotify embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Embed confirms title and performer credits Clara Mae and Jake Miller."
+    },
+    {
+      "id": "src-016",
+      "url": "https://open.spotify.com/embed/track/26hcyzSE154xMZCbFdtInA",
+      "title": "Taped Up Heart (feat. Clara Mae) — Spotify embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Embed confirms recording title and performing artists KREAM and Clara Mae; not a remix."
+    },
+    {
+      "id": "src-017",
+      "url": "https://open.spotify.com/embed/track/6cc7nzmG4iClAyl47BOf2Z",
+      "title": "Loved You Once — Spotify embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Embed confirms title and Clara Mae credit for selected album-version recording."
+    },
+    {
+      "id": "src-018",
+      "url": "https://open.spotify.com/embed/track/74I76sDq0rPJV3FP4fq44d",
+      "title": "Overused (feat. gnash) — Spotify embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Embed confirms title and Clara Mae and gnash artist credits; original recording, not stripped version."
+    },
+    {
+      "id": "src-019",
+      "url": "https://open.spotify.com/embed/track/2sCxUQfUto6uaBe1ZBHFtA",
+      "title": "Alright (feat. Russell Dickerson) — Spotify embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Embed confirms Clara Mae and Russell Dickerson as credited performing artists."
+    },
+    {
+      "id": "src-020",
+      "url": "https://open.spotify.com/embed/track/4lsQwFKcIkcXhCnw9H7Ung",
+      "title": "Not Sad Anymore — Spotify embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Embed confirms Clara Mae song recording; linked recording is associated with the later Learning Experience release."
+    },
+    {
+      "id": "src-021",
+      "url": "https://open.spotify.com/embed/track/32MwhuIuhW55LawKJa8jyQ",
+      "title": "No Jolene — Spotify embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Embed confirms title and Clara Mae credit for selected standalone version."
+    },
+    {
+      "id": "src-022",
+      "url": "https://music.apple.com/us/song/1435778125",
+      "title": "I'm Not Her — Apple Music",
+      "publisher": "Apple Music",
+      "published_date": "2017-11-10",
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Lists November 10, 2017 and songwriter Clara Hagman, confirming the professional writing-credit name."
+    },
+    {
+      "id": "src-023",
+      "url": "https://music.bugs.co.kr/album/715457",
+      "title": "I Forgot — single",
+      "publisher": "Bugs Music",
+      "published_date": "2018-02-23",
+      "accessed_date": "2026-10-26",
+      "source_type": "licensed_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Korean music catalogue shows I Forgot standalone single release February 23, 2018."
+    },
+    {
+      "id": "src-024",
+      "url": "https://www.beatport.com/track/taped-up-heart-feat-clara-mae/25448519",
+      "title": "Taped Up Heart (feat. Clara Mae) — Beatport",
+      "publisher": "Beatport",
+      "published_date": "2016-10-14",
+      "accessed_date": "2026-10-26",
+      "source_type": "licensed_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Records October 14, 2016 release and KREAM/Clara Mae performing credits for a non-remix version."
+    },
+    {
+      "id": "src-025",
+      "url": "https://music.apple.com/us/song/1527990985",
+      "title": "Loved You Once — Apple Music",
+      "publisher": "Apple Music",
+      "published_date": "2019-06-21",
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Shows June 21, 2019 for song; later included in Drunk On Emotions."
+    },
+    {
+      "id": "src-026",
+      "url": "https://music.apple.com/us/album/not-sad-anymore-single/1570734546",
+      "title": "Not Sad Anymore — original single",
+      "publisher": "Apple Music",
+      "published_date": "2021-06-18",
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Standalone single released June 18, 2021."
+    },
+    {
+      "id": "src-027",
+      "url": "https://music.apple.com/us/song/1844595346",
+      "title": "No Jolene — Apple Music",
+      "publisher": "Apple Music",
+      "published_date": "2025-10-24",
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Lists standalone No Jolene single as October 24, 2025."
+    },
+    {
+      "id": "src-028",
+      "url": "https://open.spotify.com/track/2sCxUQfUto6uaBe1ZBHFtA",
+      "title": "Alright — Spotify track release",
+      "publisher": "Spotify",
+      "published_date": "2020-08-28",
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Spotify lists the selected Alright album edition on Drunk On Emotions, dated August 28, 2020."
+    },
+    {
+      "id": "src-029",
+      "url": "https://open.spotify.com/track/6cc7nzmG4iClAyl47BOf2Z",
+      "title": "Loved You Once — Spotify track release",
+      "publisher": "Spotify",
+      "published_date": "2020-08-28",
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Selected Spotify recording appears on Drunk On Emotions, issued August 28, 2020, which is later than original single release."
+    },
+    {
+      "id": "src-030",
+      "url": "https://open.spotify.com/track/4lsQwFKcIkcXhCnw9H7Ung",
+      "title": "Not Sad Anymore — Spotify track release",
+      "publisher": "Spotify",
+      "published_date": "2022-04-08",
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Selected Spotify recording page lists the later Learning Experience edition dated April 8, 2022."
+    },
+    {
+      "id": "src-031",
+      "url": "https://swedishcharts.com/showinterpret.asp?interpret=Clara+Mae",
+      "title": "Clara Mae — Swedish chart discography",
+      "publisher": "Swedish Charts",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "chart_discography",
+      "access_status": "read",
+      "evidence_summary": "Discography lists Overused single in May 2020 and KREAM collaboration in 2016."
+    },
+    {
+      "id": "src-032",
+      "url": "https://www.universal-music.co.jp/clara-mae/discography/",
+      "title": "Clara Mae releases — Universal Music Japan",
+      "publisher": "Universal Music Japan",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_label",
+      "access_status": "read",
+      "evidence_summary": "Label documents Not Sad Anymore single date June 18, 2021."
+    },
+    {
+      "id": "src-033",
+      "url": "https://www.illustratemagazine.com/exclusive-interview-with-clara-mae/",
+      "title": "Exclusive interview with Clara Mae",
+      "publisher": "Illustrate Magazine",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Artist describes her style as hook-driven Scandinavian pop focused on story and heartbreak; confirms Clara Hagman is her songwriting identity."
+    },
+    {
+      "id": "src-034",
+      "url": "https://www.cooperhewitt.org/event/atlantic-records-presents-clara-mae-08-02-2018/",
+      "title": "Atlantic Records Presents Clara Mae",
+      "publisher": "Cooper Hewitt Smithsonian Design Museum",
+      "published_date": "2018-08-02",
+      "accessed_date": "2026-10-26",
+      "source_type": "institution_event_bio",
+      "access_status": "read",
+      "evidence_summary": "Institutional artist introduction reports Swedish hometown training and the transition to her own solo storytelling."
+    },
+    {
+      "id": "src-035",
+      "url": "https://www.echomgmt.com/copy-of-clara-mae-1",
+      "title": "Management-linked website reference",
+      "publisher": "echo+management",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "artist_management",
+      "access_status": "read",
+      "evidence_summary": "Management links to claramaemusic.com, but the linked domain currently hosts unrelated content, so it must not be used as an official artist link."
+    },
+    {
+      "id": "src-037",
+      "url": "https://music.amazon.com/albums/B0GH5W27MR",
+      "title": "My Roots — full track listing",
+      "publisher": "Amazon Music",
+      "published_date": "2026-01-30",
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Album page lists No Jolene on the 14-track My Roots release dated January 30, 2026."
+    },
+    {
+      "id": "src-036",
+      "url": "https://www.claramaemusic.com/",
+      "title": "Former artist website domain — unrelated current content",
+      "publisher": "Unverified third-party content",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "website_current_status",
+      "access_status": "read",
+      "evidence_summary": "At retrieval domain displayed unrelated gambling content and could not be validated as Clara Mae’s active official site."
+    }
+  ],
+  "outstanding_research": [
+    "Identify a current artist-controlled official website before enabling an external website button; former management-linked domain currently hosts unrelated content.",
+    "Recheck social account verification badges on platforms that throttle unauthenticated access.",
+    "Request permission or a commercial-use license for any proposed artist photograph; otherwise retain the abstract placeholder.",
+    "Determine exact original release dates for the EP-era Better Me Better You and title song if earlier than the verified September 2018 EP edition.",
+    "Verify an original artist explanation for No Jolene; otherwise publish without claimed lyrical meaning.",
+    "Distinguish 2019 Loved You Once demo from 2020 album mastering if you plan to represent them as separate recordings.",
+    "Check the publication release type naming: Drunk On Emotions appears as an album in Spotify/Qobuz; some press calls it an EP.",
+    "Add publisher-sourced information about Clara Mae’s 2026 album songs before expanding the newer-era song catalogue."
+  ]
+}

@@ -1,0 +1,1547 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-26",
+  "selection": {
+    "type": "curated",
+    "description": "CURATED STARTER SELECTION of ten verified Spotify recordings that introduce solo material from Overthinking and Sad Songs, a NOTD collaboration, and later personal songwriting from late night thoughts. Not a popularity ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-023",
+      "src-001",
+      "src-014",
+      "src-016",
+      "src-008",
+      "src-022"
+    ],
+    "limitations": [
+      "Spotify public Top tracks displays and third-party stream totals do not establish a reproducible current ten-song Spotify Popular ranking with market and retrieval time.",
+      "Track selection is editorial, not ordered by streams, popularity, quality, or artist preference.",
+      "Earlier singles and later EP/album editions sometimes differ. Recording-specific Spotify URLs and release context are recorded separately."
+    ]
+  },
+  "artist": {
+    "slug": "shy-martin",
+    "name": "shy martin",
+    "full_name": "Sara Hjellström",
+    "country": "Sweden",
+    "place_of_origin": "Lerdala, Sweden",
+    "short_description": "Swedish singer-songwriter whose emotionally candid pop blends polished hooks, personal storytelling, and collaborations with electronic producers.",
+    "biography": "SHY Martin is the performing name of Sara Hjellström, a Swedish singer-songwriter raised in Lerdala, a small town in southern Sweden. She began making music at a young age, playing guitar and joining a band before studying songwriting at Musikmakarna in northern Sweden. Her career developed first behind the scenes: she co-wrote and performed on Mike Perry’s 2016 single “The Ocean” and contributed to songs associated with The Chainsmokers and other international pop artists.\n\nHer own releases took shape in the late 2010s. The EP “Overthinking” arrived in 2018, followed by “Sad Songs” in 2020. In a first-person track-by-track account of “Sad Songs,” she described material drawn from broken relationships, the loss of friendship and her experiences with anxiety. The EP balances confessional subjects with polished pop songwriting.\n\nAfter stepping back from a broader industry-writing routine, she returned with “wish I didn’t know you” in 2022, describing that bedroom-written song as a way back to enjoying music-making. Her debut full-length album, “late night thoughts,” followed in May 2023. In interviews, she characterized the album as a more personal project exploring emotional strain and other experiences she had previously struggled to address. The result spans intimate songwriting and accessible contemporary pop without reducing her work to a single mood.",
+    "spotify_url": "https://open.spotify.com/artist/7eCmccnRwPmRnWPw61x6jM",
+    "official_website": "https://shymartin.com/",
+    "social_profiles": [
+      {
+        "platform": "instagram",
+        "url": "https://www.instagram.com/shy.martin/",
+        "source_ids": [
+          "src-002",
+          "src-001"
+        ]
+      },
+      {
+        "platform": "tiktok",
+        "url": "https://www.tiktok.com/@shy.martin",
+        "source_ids": [
+          "src-025"
+        ]
+      },
+      {
+        "platform": "youtube",
+        "url": "https://www.youtube.com/channel/UC0YlaLsWPehIZ1foxrjthRg",
+        "source_ids": [
+          "src-024"
+        ]
+      }
+    ],
+    "genres": [
+      "pop",
+      "electropop",
+      "emotional pop (editorial)"
+    ],
+    "moods": [
+      "bittersweet (editorial)",
+      "reflective (editorial)",
+      "vulnerable (editorial)"
+    ],
+    "career_milestones": [
+      {
+        "date": "2016",
+        "description": "Featured vocalist and co-writer on Mike Perry’s The Ocean, a major early international breakthrough.",
+        "source_ids": [
+          "src-003",
+          "src-022"
+        ]
+      },
+      {
+        "date": "2018",
+        "description": "Released debut EP Overthinking.",
+        "source_ids": [
+          "src-016"
+        ]
+      },
+      {
+        "date": "2019",
+        "description": "Released collaboration Keep You Mine with NOTD.",
+        "source_ids": [
+          "src-002",
+          "src-022"
+        ]
+      },
+      {
+        "date": "2020-08-07",
+        "description": "Released five-song EP Sad Songs, including detailed personal commentary on each track.",
+        "source_ids": [
+          "src-015",
+          "src-001"
+        ]
+      },
+      {
+        "date": "2022-10-14",
+        "description": "Released wish I didn’t know you as a standalone single, a return to a more personal writing approach.",
+        "source_ids": [
+          "src-019",
+          "src-004"
+        ]
+      },
+      {
+        "date": "2023-05-19",
+        "description": "Released full-length debut album late night thoughts.",
+        "source_ids": [
+          "src-008"
+        ]
+      },
+      {
+        "date": "2026-07-10",
+        "description": "Apple Music lists Out of My Head as a 2026 single.",
+        "source_ids": [
+          "src-022"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Astrid S",
+        "explanation": "Editorial: an accessible entry for listeners who like melodic Scandinavian pop and emotionally direct relationship songwriting; SHY has also been reported as a songwriter for Astrid S.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-009",
+          "src-002"
+        ]
+      },
+      {
+        "name": "Clara Mae",
+        "explanation": "Editorial: a neighbouring Swedish heartbreak-pop recommendation; Spotify surfaces Clara Mae as a recommendation near Slow, which is not an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-027"
+        ]
+      },
+      {
+        "name": "Elina",
+        "explanation": "Editorial: a softer, reflective singer-songwriter adjacent to the mood of Slow; Spotify displays Elina among its song recommendations.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-027"
+        ]
+      },
+      {
+        "name": "Sasha Alex Sloan",
+        "explanation": "Editorial: recommended for listeners interested in candid lyric-driven pop, rather than on the basis of any documented collaboration.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "name",
+        "claim": "Performs as SHY Martin, stylized shy martin.",
+        "source_ids": [
+          "src-005",
+          "src-001"
+        ]
+      },
+      {
+        "field": "full_name",
+        "claim": "Born/named Sara Hjellström.",
+        "source_ids": [
+          "src-001",
+          "src-006",
+          "src-002",
+          "src-012"
+        ]
+      },
+      {
+        "field": "country",
+        "claim": "Artist is Swedish.",
+        "source_ids": [
+          "src-002",
+          "src-006"
+        ]
+      },
+      {
+        "field": "place_of_origin",
+        "claim": "Raised in the small town of Lerdala, Sweden.",
+        "source_ids": [
+          "src-006",
+          "src-002"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Grew up in a small Swedish town; began guitar and band performances young; studied songwriting at Musikmakarna.",
+        "source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Contributed to Mike Perry The Ocean and The Chainsmokers songwriter catalogue, before releasing her own work.",
+        "source_ids": [
+          "src-003",
+          "src-026"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Released EPs Overthinking in 2018 and Sad Songs in 2020.",
+        "source_ids": [
+          "src-016",
+          "src-014",
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "She gave firsthand context relating Sad Songs to relationships, friendships and anxiety.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "She linked writing wish I did not know you to restoring creative excitement following exhaustion.",
+        "source_ids": [
+          "src-004"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "The debut full-length late night thoughts arrived May 19, 2023, with a shift toward more personal subjects.",
+        "source_ids": [
+          "src-008",
+          "src-003"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Official artist URL resolves to shy martin artist page.",
+        "source_ids": [
+          "src-023"
+        ]
+      },
+      {
+        "field": "official_website",
+        "claim": "Official website publishes SHY Martin music links and announcements.",
+        "source_ids": [
+          "src-005"
+        ]
+      },
+      {
+        "field": "genres",
+        "claim": "Music described as pop/electropop by contemporaneous music press; emotional pop is the editorial taxonomy of Afterglow.",
+        "source_ids": [
+          "src-001",
+          "src-006",
+          "src-026"
+        ]
+      },
+      {
+        "field": "social_profiles",
+        "claim": "Instagram account shy.martin linked by 2019 interview and PAPER article.",
+        "source_ids": [
+          "src-002",
+          "src-001"
+        ]
+      },
+      {
+        "field": "social_profiles",
+        "claim": "TikTok and YouTube handle association from third-party directory and identified music channel; in-app verification not independently established.",
+        "source_ids": [
+          "src-025",
+          "src-024"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "Artist birthdate not included because it was not independently established from a primary source.",
+      "Instagram and TikTok destinations could not be read as logged-out verified profiles; links are attributed to artist interviews/directory and should be reconfirmed before publication.",
+      "The official site is reachable but may not list latest 2025–2026 releases; use catalogue for current music.",
+      "SHY Martin photographs in press articles are not established as commercially licensed for Afterglow; continue using abstract placeholder.",
+      "Genre/mood taxonomy and similar artists are editorial recommendations, not artist self-classifications."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "make-us-never-happen",
+      "title": "Make us never happen",
+      "artist_slug": "shy-martin",
+      "artist_credits": [
+        "shy martin"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/03ARE7xKtbCVV2GE5j0IWq",
+      "release_date": "2019",
+      "release_date_precision": "year",
+      "release_date_context": "Date records the original standalone 2019 release at year precision, not the 2020 Sad Songs inclusion.",
+      "release_title": "Make Us Never Happen",
+      "release_type": "single",
+      "short_description": "An emotionally direct portrait of losing a friendship while ending a relationship.",
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "bittersweet",
+        "reflective"
+      ],
+      "themes": [
+        "heartbreak",
+        "regret",
+        "lost friendship"
+      ],
+      "editorial_notes": "An emotionally direct portrait of losing a friendship while ending a relationship.",
+      "editorial_notes_basis": "Artist first-person breakdown in PAPER; the earlier November 2019 release is documented in The Line of Best Fit. The Spotify URL here resolves to the standalone song.",
+      "editorial_notes_source_ids": [
+        "src-001",
+        "src-006"
+      ],
+      "artist_statement_paraphrase": "She wrote about becoming romantically involved with a close friend and regretting the loss of their friendship after the relationship ended.",
+      "artist_statement_source_ids": [
+        "src-001",
+        "src-006"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "are-you-happy",
+          "explanation": "The artist explicitly describes Are you happy? as a later change in perspective about the same relationship.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Spotify identifies the selected recording as Make us never happen.",
+          "source_ids": [
+            "src-028"
+          ]
+        },
+        {
+          "field": "artist_credits",
+          "claim": "Recording is credited to shy martin.",
+          "source_ids": [
+            "src-028"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Original release or identified edition dated 2019 at year precision; contextual caveat in release_date_context.",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "Make Us Never Happen is the catalogued release or selected edition.",
+          "source_ids": [
+            "src-006",
+            "src-028"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "She wrote about becoming romantically involved with a close friend and regretting the loss of their friendship after the relationship ended.",
+          "source_ids": [
+            "src-001",
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Earlier original single day not established with sufficient precision."
+      ]
+    },
+    {
+      "slug": "slow",
+      "title": "Slow",
+      "artist_slug": "shy-martin",
+      "artist_credits": [
+        "shy martin"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1Ia95g66IhlAJ3qVI4qI8W",
+      "release_date": "2020-01-10",
+      "release_date_precision": "day",
+      "release_date_context": "Original standalone Spotify single date; later included on Sad Songs (2020).",
+      "release_title": "Slow",
+      "release_type": "single",
+      "short_description": "A transition song about learning not to carry the weight of an old relationship into a new one.",
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "cautious",
+        "hopeful",
+        "reflective"
+      ],
+      "themes": [
+        "past relationship wounds",
+        "new relationships",
+        "vulnerability"
+      ],
+      "editorial_notes": "A transition song about learning not to carry the weight of an old relationship into a new one.",
+      "editorial_notes_basis": "Artist explained its origin and subject in PAPER; Spotify identifies a January 10, 2020 original single.",
+      "editorial_notes_source_ids": [
+        "src-001",
+        "src-010"
+      ],
+      "artist_statement_paraphrase": "SHY said the song grew from a conversation during an outdoor songwriting session at her parents home about scars from prior relationships affecting a new one.",
+      "artist_statement_source_ids": [
+        "src-001"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "make-us-never-happen",
+          "explanation": "Both consider how past relationships reshape later choices.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Spotify identifies the selected recording as Slow.",
+          "source_ids": [
+            "src-029"
+          ]
+        },
+        {
+          "field": "artist_credits",
+          "claim": "Recording is credited to shy martin.",
+          "source_ids": [
+            "src-029"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Original release or identified edition dated 2020-01-10 at day precision; contextual caveat in release_date_context.",
+          "source_ids": [
+            "src-010",
+            "src-012"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "Slow is the catalogued release or selected edition.",
+          "source_ids": [
+            "src-010",
+            "src-012",
+            "src-029"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "SHY said the song grew from a conversation during an outdoor songwriting session at her parents home about scars from prior relationships affecting a new one.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "can-i-call-you-back",
+      "title": "Can I call you back?",
+      "artist_slug": "shy-martin",
+      "artist_credits": [
+        "shy martin"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/4YUAuFDr1sXYYMOu8Oqocq",
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "2020 is release-year precision only for the linked Sad Songs EP recording; separately issued as a single in 2020, but original single day is not confirmed here.",
+      "release_title": "Sad Songs",
+      "release_type": "ep",
+      "short_description": "A personal account of struggling to respond to others while dealing with anxiety.",
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "vulnerable",
+        "introspective"
+      ],
+      "themes": [
+        "anxiety",
+        "emotional overwhelm",
+        "mental health"
+      ],
+      "editorial_notes": "A personal account of struggling to respond to others while dealing with anxiety.",
+      "editorial_notes_basis": "PAPER carries the artist statement; the linked Spotify recording is from Sad Songs, not independently verified as the earliest single master.",
+      "editorial_notes_source_ids": [
+        "src-001",
+        "src-014"
+      ],
+      "artist_statement_paraphrase": "SHY said she wrote the song during a difficult period of anxiety and considered it important to share this side of her experience with listeners.",
+      "artist_statement_source_ids": [
+        "src-001"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "glued-to-the-floor",
+          "explanation": "Both have documented first-person roots in her experiences of mental-health challenges.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Spotify identifies the selected recording as Can I call you back?.",
+          "source_ids": [
+            "src-030"
+          ]
+        },
+        {
+          "field": "artist_credits",
+          "claim": "Recording is credited to shy martin.",
+          "source_ids": [
+            "src-030"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Original release or identified edition dated 2020 at year precision; contextual caveat in release_date_context.",
+          "source_ids": [
+            "src-014",
+            "src-015"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "Sad Songs is the catalogued release or selected edition.",
+          "source_ids": [
+            "src-014",
+            "src-015"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "SHY said she wrote the song during a difficult period of anxiety and considered it important to share this side of her experience with listeners.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Earlier original single day not established with sufficient precision."
+      ]
+    },
+    {
+      "slug": "nobody-likes-moving-on",
+      "title": "Nobody likes moving on",
+      "artist_slug": "shy-martin",
+      "artist_credits": [
+        "shy martin"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1XqegoC80dHvz0x238wfqG",
+      "release_date": "2020-05-22",
+      "release_date_precision": "day",
+      "release_date_context": "Original standalone Spotify single date; subsequently included on Sad Songs in August 2020.",
+      "release_title": "Nobody Likes Moving On",
+      "release_type": "single",
+      "short_description": "A breakup perspective focused on how people must divide a shared life and everyday routines.",
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "melancholic",
+        "reflective"
+      ],
+      "themes": [
+        "breakup",
+        "shared routines",
+        "separation"
+      ],
+      "editorial_notes": "A breakup perspective focused on how people must divide a shared life and everyday routines.",
+      "editorial_notes_basis": "First-person PAPER description and Spotify release page for standalone single.",
+      "editorial_notes_source_ids": [
+        "src-001",
+        "src-011"
+      ],
+      "artist_statement_paraphrase": "SHY said a writing-room conversation about long relationships inspired the idea of dividing mutual friends, favourite places, and ordinary habits after a breakup.",
+      "artist_statement_source_ids": [
+        "src-001"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "make-us-never-happen",
+          "explanation": "Both consider the collateral loss accompanying the end of a relationship.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Spotify identifies the selected recording as Nobody likes moving on.",
+          "source_ids": [
+            "src-031"
+          ]
+        },
+        {
+          "field": "artist_credits",
+          "claim": "Recording is credited to shy martin.",
+          "source_ids": [
+            "src-031"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Original release or identified edition dated 2020-05-22 at day precision; contextual caveat in release_date_context.",
+          "source_ids": [
+            "src-011",
+            "src-013"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "Nobody Likes Moving On is the catalogued release or selected edition.",
+          "source_ids": [
+            "src-011",
+            "src-013",
+            "src-031"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "SHY said a writing-room conversation about long relationships inspired the idea of dividing mutual friends, favourite places, and ordinary habits after a breakup.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "are-you-happy",
+      "title": "Are you happy?",
+      "artist_slug": "shy-martin",
+      "artist_credits": [
+        "shy martin"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6s86N7LVaJZuU4alwKp6XO",
+      "release_date": "2020-08-07",
+      "release_date_precision": "day",
+      "release_date_context": "Sad Songs EP release date; no earlier standalone release verified.",
+      "release_title": "Sad Songs",
+      "release_type": "ep",
+      "short_description": "A counterpart to Make us never happen that moves from wishing away a past relationship toward appreciating what it meant.",
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "wistful",
+        "accepting"
+      ],
+      "themes": [
+        "acceptance",
+        "past relationships",
+        "closure"
+      ],
+      "editorial_notes": "A counterpart to Make us never happen that moves from wishing away a past relationship toward appreciating what it meant.",
+      "editorial_notes_basis": "Artist directly connected the two songs in Out Now interview and PAPER; Spotify EP edition dated August 7, 2020.",
+      "editorial_notes_source_ids": [
+        "src-001",
+        "src-007",
+        "src-015"
+      ],
+      "artist_statement_paraphrase": "The artist said the song revisits a past relationship with more acceptance; she initially wrote it as a pitch for someone else and later kept it for Sad Songs.",
+      "artist_statement_source_ids": [
+        "src-007"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "make-us-never-happen",
+          "explanation": "SHY explicitly identified this song as a later perspective on the relationship at the centre of Make us never happen.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Spotify identifies the selected recording as Are you happy?.",
+          "source_ids": [
+            "src-032"
+          ]
+        },
+        {
+          "field": "artist_credits",
+          "claim": "Recording is credited to shy martin.",
+          "source_ids": [
+            "src-032"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Original release or identified edition dated 2020-08-07 at day precision; contextual caveat in release_date_context.",
+          "source_ids": [
+            "src-015"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "Sad Songs is the catalogued release or selected edition.",
+          "source_ids": [
+            "src-014",
+            "src-015"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "The artist said the song revisits a past relationship with more acceptance; she initially wrote it as a pitch for someone else and later kept it for Sad Songs.",
+          "source_ids": [
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "forget-to-forget",
+      "title": "Forget to Forget",
+      "artist_slug": "shy-martin",
+      "artist_credits": [
+        "shy martin"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/4E5IBDRu8kJbzUv1qaZM1t",
+      "release_date": "2018",
+      "release_date_precision": "year",
+      "release_date_context": "Standalone Spotify single dated 2018 at year precision; subsequently included on Overthinking (December 2018).",
+      "release_title": "Forget to Forget",
+      "release_type": "single",
+      "short_description": "A recommended entry point into SHY Martins early 2018 releases; a specific autobiographical meaning has not been established.",
+      "genres": [
+        "pop"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "A recommended entry point into SHY Martins early 2018 releases; a specific autobiographical meaning has not been established.",
+      "editorial_notes_basis": "Identified as a standalone 2018 single in Spotify and included in Overthinking; no verified first-person song explanation.",
+      "editorial_notes_source_ids": [
+        "src-017",
+        "src-016"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "lose-you-too",
+          "explanation": "Both belong to her earlier Overthinking-era repertoire.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Spotify identifies the selected recording as Forget to Forget.",
+          "source_ids": [
+            "src-033"
+          ]
+        },
+        {
+          "field": "artist_credits",
+          "claim": "Recording is credited to shy martin.",
+          "source_ids": [
+            "src-033"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Original release or identified edition dated 2018 at year precision; contextual caveat in release_date_context.",
+          "source_ids": [
+            "src-017"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "Forget to Forget is the catalogued release or selected edition.",
+          "source_ids": [
+            "src-017",
+            "src-033"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No song-specific first-person narrative established; editorial moods and themes intentionally omitted.",
+        "Earlier original single day not established with sufficient precision."
+      ]
+    },
+    {
+      "slug": "lose-you-too",
+      "title": "Lose You Too",
+      "artist_slug": "shy-martin",
+      "artist_credits": [
+        "shy martin"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/0fDHxuRdvwqL6O1Q7atg2A",
+      "release_date": "2018",
+      "release_date_precision": "year",
+      "release_date_context": "Standalone Spotify single dated 2018 at year precision; subsequently included on Overthinking (December 2018).",
+      "release_title": "Lose You Too",
+      "release_type": "single",
+      "short_description": "An early SHY Martin single later collected on Overthinking. The artist has called its lyrics personally special, but did not give a specific song narrative in the checked interview.",
+      "genres": [
+        "pop"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "An early SHY Martin single later collected on Overthinking. The artist has called its lyrics personally special, but did not give a specific song narrative in the checked interview.",
+      "editorial_notes_basis": "Spotify standalone single and RAIN interview provide factual basis.",
+      "editorial_notes_source_ids": [
+        "src-018",
+        "src-002"
+      ],
+      "artist_statement_paraphrase": "In a 2019 interview, SHY named Lose You Too as one of the lyrics particularly meaningful to her; she did not explain a concrete biographical story.",
+      "artist_statement_source_ids": [
+        "src-002"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "forget-to-forget",
+          "explanation": "Both are part of her 2018 Overthinking phase.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Spotify identifies the selected recording as Lose You Too.",
+          "source_ids": [
+            "src-034"
+          ]
+        },
+        {
+          "field": "artist_credits",
+          "claim": "Recording is credited to shy martin.",
+          "source_ids": [
+            "src-034"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Original release or identified edition dated 2018 at year precision; contextual caveat in release_date_context.",
+          "source_ids": [
+            "src-018"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "Lose You Too is the catalogued release or selected edition.",
+          "source_ids": [
+            "src-018",
+            "src-034"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "In a 2019 interview, SHY named Lose You Too as one of the lyrics particularly meaningful to her; she did not explain a concrete biographical story.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Earlier original single day not established with sufficient precision."
+      ]
+    },
+    {
+      "slug": "keep-you-mine",
+      "title": "Keep You Mine",
+      "artist_slug": "shy-martin",
+      "artist_credits": [
+        "NOTD",
+        "shy martin"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/0OJN2A3Qyvd7pwSF0AIteC",
+      "release_date": "2019",
+      "release_date_precision": "year",
+      "release_date_context": "Original NOTD and shy martin collaborative single dated 2019; avoid later compilation and reissue dates.",
+      "release_title": "Keep You Mine",
+      "release_type": "single",
+      "short_description": "A collaborative electronic-pop single connecting SHY Martins songwriting and vocals with Swedish production duo NOTD.",
+      "genres": [
+        "pop",
+        "electropop"
+      ],
+      "moods": [
+        "energetic"
+      ],
+      "themes": [],
+      "editorial_notes": "A collaborative electronic-pop single connecting SHY Martins songwriting and vocals with Swedish production duo NOTD.",
+      "editorial_notes_basis": "Spotify confirms joint credit; artist interview describes the collaboration; Apple Music confirms 2019 release.",
+      "editorial_notes_source_ids": [
+        "src-002",
+        "src-022"
+      ],
+      "artist_statement_paraphrase": "SHY said she co-wrote the song with friends, sent it to NOTD, and that the duo created the production before the track was released together.",
+      "artist_statement_source_ids": [
+        "src-002"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "slow",
+          "explanation": "Offers a more dance-oriented counterpart to her introspective solo pop.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Spotify identifies the selected recording as Keep You Mine.",
+          "source_ids": [
+            "src-035"
+          ]
+        },
+        {
+          "field": "artist_credits",
+          "claim": "Recording is credited to NOTD and shy martin.",
+          "source_ids": [
+            "src-035"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Original release or identified edition dated 2019 at year precision; contextual caveat in release_date_context.",
+          "source_ids": [
+            "src-022",
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "Keep You Mine is the catalogued release or selected edition.",
+          "source_ids": [
+            "src-022",
+            "src-002",
+            "src-035"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "SHY said she co-wrote the song with friends, sent it to NOTD, and that the duo created the production before the track was released together.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Earlier original single day not established with sufficient precision."
+      ]
+    },
+    {
+      "slug": "wish-i-didnt-know-you",
+      "title": "wish I didn’t know you",
+      "artist_slug": "shy-martin",
+      "artist_credits": [
+        "shy martin"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/5eqawn12Jr65SvCFHvL3Jh",
+      "release_date": "2022-10-14",
+      "release_date_precision": "day",
+      "release_date_context": "Original October 14, 2022 standalone single; later appears on May 19, 2023 album late night thoughts.",
+      "release_title": "wish I didn’t know you",
+      "release_type": "single",
+      "short_description": "A stripped-back entry into her late night thoughts period, important to the artist as a creative reset.",
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "intimate",
+        "reflective"
+      ],
+      "themes": [],
+      "editorial_notes": "A stripped-back entry into her late night thoughts period, important to the artist as a creative reset.",
+      "editorial_notes_basis": "Spotify gives October 14, 2022 single release; The Luna Collective supplies firsthand writing-process context but not a specific lyrical meaning.",
+      "editorial_notes_source_ids": [
+        "src-019",
+        "src-004"
+      ],
+      "artist_statement_paraphrase": "SHY said that writing the song in her bedroom on the guitar renewed her excitement about making music after a creatively exhausting period.",
+      "artist_statement_source_ids": [
+        "src-004"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "glued-to-the-floor",
+          "explanation": "Both belong to the more intimate songwriting approach she pursued around late night thoughts.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Spotify identifies the selected recording as wish I didn’t know you.",
+          "source_ids": [
+            "src-036"
+          ]
+        },
+        {
+          "field": "artist_credits",
+          "claim": "Recording is credited to shy martin.",
+          "source_ids": [
+            "src-036"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Original release or identified edition dated 2022-10-14 at day precision; contextual caveat in release_date_context.",
+          "source_ids": [
+            "src-019"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "wish I didn’t know you is the catalogued release or selected edition.",
+          "source_ids": [
+            "src-019",
+            "src-036"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "SHY said that writing the song in her bedroom on the guitar renewed her excitement about making music after a creatively exhausting period.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "glued-to-the-floor",
+      "title": "glued to the floor",
+      "artist_slug": "shy-martin",
+      "artist_credits": [
+        "shy martin"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/20Y7AHrMDTxzOxMfw0jCv5",
+      "release_date": "2023-04-12",
+      "release_date_precision": "day",
+      "release_date_context": "Original April 12, 2023 single announcement; later appears on May 19, 2023 album late night thoughts.",
+      "release_title": "glued to the floor",
+      "release_type": "single",
+      "short_description": "A personal confession connected to a difficult period of mental health and changing emotional experience.",
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "vulnerable",
+        "introspective"
+      ],
+      "themes": [
+        "mental health",
+        "emotional numbness",
+        "recovery"
+      ],
+      "editorial_notes": "A personal confession connected to a difficult period of mental health and changing emotional experience.",
+      "editorial_notes_basis": "Official publicist statement reproduced by Prelude Press and music release listing; avoid generalizing the artist disclosure beyond the song.",
+      "editorial_notes_source_ids": [
+        "src-009",
+        "src-021"
+      ],
+      "artist_statement_paraphrase": "SHY said this was the last song written for her debut album and drew on her experience of starting antidepressant medication during a difficult period.",
+      "artist_statement_source_ids": [
+        "src-009",
+        "src-021"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "can-i-call-you-back",
+          "explanation": "The artist gave personal context linking both songs to mental-health experiences.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Spotify identifies the selected recording as glued to the floor.",
+          "source_ids": [
+            "src-037"
+          ]
+        },
+        {
+          "field": "artist_credits",
+          "claim": "Recording is credited to shy martin.",
+          "source_ids": [
+            "src-037"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Original release or identified edition dated 2023-04-12 at day precision; contextual caveat in release_date_context.",
+          "source_ids": [
+            "src-021",
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_title",
+          "claim": "glued to the floor is the catalogued release or selected edition.",
+          "source_ids": [
+            "src-021",
+            "src-008",
+            "src-037"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "SHY said this was the last song written for her debut album and drew on her experience of starting antidepressant medication during a difficult period.",
+          "source_ids": [
+            "src-009",
+            "src-021"
+          ]
+        }
+      ],
+      "uncertainties": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://www.papermag.com/shy-martin-sad-songs",
+      "title": "SHY Martin Has an Entire EP of Sad Songs",
+      "publisher": "PAPER",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "original_artist_commentary",
+      "access_status": "read",
+      "evidence_summary": "First-person, song-by-song explanation of five Sad Songs tracks; confirms Sara Hjellström and 2020 EP tracklisting."
+    },
+    {
+      "id": "src-002",
+      "url": "https://rain-mag.com/musician-shy-martin-opens-up-to-rain-in-an-exclusive-interview/",
+      "title": "Exclusive: SHY Martin Tells All On How To Make Pop, Pop!",
+      "publisher": "RAIN Magazine",
+      "published_date": "2019-10-01",
+      "accessed_date": "2026-10-26",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "SHY explains upbringing in a small Swedish town, musical training, BLNK relationship, and that she wrote Keep You Mine with friends before passing it to NOTD. Names Lose You Too as personally special."
+    },
+    {
+      "id": "src-003",
+      "url": "https://vmagazine.com/article/shy-martin-the-most-famous-singer-youve-never-heard-of/",
+      "title": "Shy Martin: The Most Famous Singer You’ve Never Heard of",
+      "publisher": "V Magazine",
+      "published_date": "2023-04-18",
+      "accessed_date": "2026-10-26",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Artist traces how stage name arose, credits The Ocean and Chainsmokers songs, and describes shift toward personal themes on debut album late night thoughts."
+    },
+    {
+      "id": "src-004",
+      "url": "https://www.thelunacollective.co/journal/qa-shy-martin",
+      "title": "Q&A: Shy Martin on Her Latest Single wish I didn’t know you",
+      "publisher": "The Luna Collective",
+      "published_date": "2022-11-03",
+      "accessed_date": "2026-10-26",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Artist says writing wish I did not know you in her bedroom on guitar restored her excitement for songwriting; comments on smaller creative circle and video work with brother."
+    },
+    {
+      "id": "src-005",
+      "url": "https://shymartin.com/",
+      "title": "Shy Martin — Official Website",
+      "publisher": "Shy Martin",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "artist_official_website",
+      "access_status": "read",
+      "evidence_summary": "Artist site links releases late night thoughts, glued to the floor, wish I did not know you, Sad Songs, Overthinking."
+    },
+    {
+      "id": "src-006",
+      "url": "https://www.thelineofbestfit.com/new-music/discovery/shy-martin-make-us-never-happen",
+      "title": "SHY Martin’s Make Us Never Happen is a take on friendship and love gone wrong",
+      "publisher": "The Line of Best Fit",
+      "published_date": "2019-11-21",
+      "accessed_date": "2026-10-26",
+      "source_type": "artist_commentary_in_article",
+      "access_status": "read",
+      "evidence_summary": "Identifies real name Sara Hjellström, origin Lerdala, and quotes the artist explaining the loss of a friendship after romance."
+    },
+    {
+      "id": "src-007",
+      "url": "https://outnowmagazine.com/shy-martin-cover-story/",
+      "title": "SHY Martin Talks About Her Music Career and the Story Behind her Sad Songs EP",
+      "publisher": "Out Now Magazine",
+      "published_date": "2020-09-03",
+      "accessed_date": "2026-10-26",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Artist explains acoustic-oriented writing of Sad Songs and acceptance behind Are you happy?"
+    },
+    {
+      "id": "src-008",
+      "url": "https://shymartin.tmstor.es/product/late-night-thoughts",
+      "title": "late night thoughts CD album",
+      "publisher": "Shy Martin Official Store",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_release_listing",
+      "access_status": "read",
+      "evidence_summary": "Official store confirms seven-track debut album late night thoughts and May 19, 2023 release; includes the two chosen 2022/2023 songs."
+    },
+    {
+      "id": "src-009",
+      "url": "https://www.murraychalmers.com/rising-swedish-pop-act-shy-martin-reveals-brand-new-single-glued-to-the-floor-watch-the-lyric-video-here/",
+      "title": "shy martin reveals glued to the floor",
+      "publisher": "Murray Chalmers PR",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "artist_press_release",
+      "access_status": "read",
+      "evidence_summary": "Official PR announcement quotes SHY on writing glued to the floor about a difficult mental-health period and beginning antidepressants; identifies 2023 single."
+    },
+    {
+      "id": "src-010",
+      "url": "https://open.spotify.com/album/02h7Xw1OoQAKbd3YCwAOuC",
+      "title": "Slow — Single",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Spotify lists Slow as SHY Martin single released January 10, 2020."
+    },
+    {
+      "id": "src-011",
+      "url": "https://open.spotify.com/album/1AJOV6svxsjY0PcfGn20av",
+      "title": "Nobody Likes Moving On — Single",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Spotify lists a standalone single Nobody Likes Moving On released May 22, 2020."
+    },
+    {
+      "id": "src-012",
+      "url": "https://music.apple.com/us/song/1820168467",
+      "title": "Slow — track and songwriting credits",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Apple Music shows the original Slow single dated January 10, 2020 and credits Sara Hjellström as a songwriter."
+    },
+    {
+      "id": "src-013",
+      "url": "https://music.apple.com/us/album/nobody-likes-moving-on-single/1820138569",
+      "title": "Nobody Likes Moving On — Single",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Apple Music identifies the standalone single and its May 22, 2020 release date."
+    },
+    {
+      "id": "src-014",
+      "url": "https://open.spotify.com/album/04RVcaj5FZNDNwh53rk8Bb",
+      "title": "Sad Songs — EP",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Spotify labels the five-track Sad Songs as 2020 EP; individual Spotify song page gives August 7, 2020 EP edition."
+    },
+    {
+      "id": "src-015",
+      "url": "https://open.spotify.com/intl-de/track/6s86N7LVaJZuU4alwKp6XO",
+      "title": "Are you happy? — from Sad Songs EP",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Spotify track page identifies Sad Songs edition dated August 7, 2020; artist credit shy martin."
+    },
+    {
+      "id": "src-016",
+      "url": "https://open.spotify.com/album/11BMDCeD3IO5VnE1VVTSQA",
+      "title": "Overthinking — EP",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Spotify lists Overthinking as SHY Martin six-track EP from 2018. Exact original release day not established by the catalogue page."
+    },
+    {
+      "id": "src-017",
+      "url": "https://open.spotify.com/album/3GX2lFOgBOfVw4BYsINt6S",
+      "title": "Forget to Forget — Single",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Spotify lists standalone Forget to Forget as a 2018 single."
+    },
+    {
+      "id": "src-018",
+      "url": "https://open.spotify.com/album/5xkVDU9mPmVRgGzIcY6xHd",
+      "title": "Lose You Too — Single",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Spotify lists standalone Lose You Too as a 2018 single."
+    },
+    {
+      "id": "src-019",
+      "url": "https://open.spotify.com/intl-de/track/5eqawn12Jr65SvCFHvL3Jh",
+      "title": "wish I did not know you — single",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Spotify shows October 14, 2022 on the original wish I did not know you single; later album edition is 2023."
+    },
+    {
+      "id": "src-020",
+      "url": "https://open.spotify.com/album/3NNyPYXwkHc4F8QffKQkui",
+      "title": "late night thoughts — album",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Spotify identifies the late night thoughts album as 2023, including wish I did not know you and glued to the floor."
+    },
+    {
+      "id": "src-021",
+      "url": "https://preludepress.com/news/2023/04/12/shy-martin-glued-to-the-floor/",
+      "title": "shy martin Shares New Single glued to the floor",
+      "publisher": "Prelude Press",
+      "published_date": "2023-04-12",
+      "accessed_date": "2026-10-26",
+      "source_type": "music_press_release_republication",
+      "access_status": "read",
+      "evidence_summary": "Dated April 12, 2023 announcement describes the standalone glued to the floor release and includes SHY Martin explanation."
+    },
+    {
+      "id": "src-022",
+      "url": "https://music.apple.com/us/artist/shy-martin/1061879773",
+      "title": "SHY Martin artist catalogue",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Catalogue identifies The Ocean in 2016, Keep You Mine in 2019, Overthinking and Sad Songs eras, album late night thoughts in 2023, and Out of My Head release July 10, 2026."
+    },
+    {
+      "id": "src-023",
+      "url": "https://open.spotify.com/artist/7eCmccnRwPmRnWPw61x6jM",
+      "title": "shy martin — Spotify",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_artist_profile",
+      "access_status": "read",
+      "evidence_summary": "Spotify artist page reached from PAPER magazine artist link; resolves to shy martin profile."
+    },
+    {
+      "id": "src-024",
+      "url": "https://www.youtube.com/channel/UC0YlaLsWPehIZ1foxrjthRg",
+      "title": "shy martin official artist YouTube channel",
+      "publisher": "YouTube",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "artist_channel",
+      "access_status": "read",
+      "evidence_summary": "Artist-named channel with releases including 2025 l.o.v.e and dead to me."
+    },
+    {
+      "id": "src-025",
+      "url": "https://chartmetric.com/artist/469187",
+      "title": "shy martin — social profiles",
+      "publisher": "Chartmetric",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "music_industry_directory",
+      "access_status": "read",
+      "evidence_summary": "Directory associates shy.martin handles on Instagram, TikTok, and YouTube; profile ownership cannot be checked independently through each social platform."
+    },
+    {
+      "id": "src-026",
+      "url": "https://outloudculture.com/2019/06/08/introducing-shy-martin-and-the-new-single-same-old/",
+      "title": "Introducing SHY Martin and the new single Same Old",
+      "publisher": "OutLoud! Culture",
+      "published_date": "2019-06-08",
+      "accessed_date": "2026-10-26",
+      "source_type": "music_press_report",
+      "access_status": "read",
+      "evidence_summary": "Names Sara Hjellström and recounts writer-to-recording-artist path, The Ocean collaboration, and first EP Overthinking."
+    },
+    {
+      "id": "src-027",
+      "url": "https://open.spotify.com/intl-es/track/1Ia95g66IhlAJ3qVI4qI8W",
+      "title": "Slow — Spotify recommendations",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Spotify Slow track page displays algorithmic recommendations containing Elina and Clara Mae; not evidence of SHY Martin-endorsed similarity."
+    },
+    {
+      "id": "src-028",
+      "url": "https://open.spotify.com/embed/track/03ARE7xKtbCVV2GE5j0IWq",
+      "title": "Make us never happen — Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Spotify official embed identifies Make us never happen, lists shy martin as performer(s), and resolves this exact recording."
+    },
+    {
+      "id": "src-029",
+      "url": "https://open.spotify.com/embed/track/1Ia95g66IhlAJ3qVI4qI8W",
+      "title": "Slow — Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Spotify official embed identifies Slow, lists shy martin as performer(s), and resolves this exact recording."
+    },
+    {
+      "id": "src-030",
+      "url": "https://open.spotify.com/embed/track/4YUAuFDr1sXYYMOu8Oqocq",
+      "title": "Can I call you back? — Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Spotify official embed identifies Can I call you back?, lists shy martin as performer(s), and resolves this exact recording."
+    },
+    {
+      "id": "src-031",
+      "url": "https://open.spotify.com/embed/track/1XqegoC80dHvz0x238wfqG",
+      "title": "Nobody likes moving on — Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Spotify official embed identifies Nobody likes moving on, lists shy martin as performer(s), and resolves this exact recording."
+    },
+    {
+      "id": "src-032",
+      "url": "https://open.spotify.com/embed/track/6s86N7LVaJZuU4alwKp6XO",
+      "title": "Are you happy? — Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Spotify official embed identifies Are you happy?, lists shy martin as performer(s), and resolves this exact recording."
+    },
+    {
+      "id": "src-033",
+      "url": "https://open.spotify.com/embed/track/4E5IBDRu8kJbzUv1qaZM1t",
+      "title": "Forget to Forget — Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Spotify official embed identifies Forget to Forget, lists shy martin as performer(s), and resolves this exact recording."
+    },
+    {
+      "id": "src-034",
+      "url": "https://open.spotify.com/embed/track/0fDHxuRdvwqL6O1Q7atg2A",
+      "title": "Lose You Too — Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Spotify official embed identifies Lose You Too, lists shy martin as performer(s), and resolves this exact recording."
+    },
+    {
+      "id": "src-035",
+      "url": "https://open.spotify.com/embed/track/0OJN2A3Qyvd7pwSF0AIteC",
+      "title": "Keep You Mine — Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Spotify official embed identifies Keep You Mine, lists NOTD and shy martin as performer(s), and resolves this exact recording."
+    },
+    {
+      "id": "src-036",
+      "url": "https://open.spotify.com/embed/track/5eqawn12Jr65SvCFHvL3Jh",
+      "title": "wish I didn’t know you — Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Spotify official embed identifies wish I didn’t know you, lists shy martin as performer(s), and resolves this exact recording."
+    },
+    {
+      "id": "src-037",
+      "url": "https://open.spotify.com/embed/track/20Y7AHrMDTxzOxMfw0jCv5",
+      "title": "glued to the floor — Spotify track embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "source_type": "official_track_embed",
+      "access_status": "read",
+      "evidence_summary": "Spotify official embed identifies glued to the floor, lists shy martin as performer(s), and resolves this exact recording."
+    }
+  ],
+  "outstanding_research": [
+    "Manually reconfirm whether Instagram/TikTok profiles retain official verification; direct logged-out access is restricted.",
+    "Find original standalone single release days for Make us never happen, can I call you back?, Forget to Forget, Lose You Too and Keep You Mine, if accurate full dates are editorially required.",
+    "Seek further song-specific first-person commentary for Forget to Forget and Lose You Too; do not infer meaning from song title or lyrics.",
+    "Review earliest publication date of PAPER Sad Songs track-by-track feature if needed for citation precision.",
+    "Obtain a written or clearly reusable commercial image licence before replacing abstract placeholder; do not assume press credits confer permission.",
+    "Monitor SHY Martin releases after mid-2026 for future updates; this is a selection, not exhaustive discography."
+  ]
+}

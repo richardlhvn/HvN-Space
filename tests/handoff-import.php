@@ -16,13 +16,13 @@ try {
     ag_handoff_assert(ag_handoff_can_update($old_sara, 'sara-kays/profile'), 'Restored starter must match its portable baseline.');
     $result = ag_apply_handoffs(true);
     ag_handoff_assert(!is_wp_error($result), 'Import must succeed.');
-    ag_handoff_assert(count($result['created']) + count($result['updated']) === 33 && !$result['preserved'], 'All 33 untouched targets must import.');
+    ag_handoff_assert(count($result['created']) + count($result['updated']) === 110 && !$result['preserved'], 'All 110 untouched targets must import.');
     ag_handoff_assert(ag_handoff_find('sara-kays') === $old_sara, 'Existing artist URL/ID must remain stable.');
     foreach (ag_handoff_packs() as $slug => $pack) {
         $artist_id = ag_handoff_find($slug);
         ag_handoff_assert(get_post_status($artist_id) === 'publish', 'Artist must appear on preview site.');
         ag_handoff_assert(count(explode(',', ag_meta('recommended', $artist_id))) === 10, 'Artist must recommend ten tracks.');
-        ag_handoff_assert(str_contains(html_entity_decode(wp_strip_all_tags(get_post($artist_id)->post_content), ENT_QUOTES, 'UTF-8'), $pack['artist']['biography']), 'Biography must be populated.');
+        ag_handoff_assert(str_contains(preg_replace('/\s+/u', ' ', html_entity_decode(wp_strip_all_tags(get_post($artist_id)->post_content), ENT_QUOTES, 'UTF-8')), preg_replace('/\s+/u', ' ', $pack['artist']['biography'])), 'Biography must be populated.');
         foreach ($pack['songs'] as $song) {
             $id = ag_handoff_find($slug, $song, $artist_id);
             ag_handoff_assert($id && ag_meta('artist_id', $id) === (string)$artist_id, 'Every track must link to its artist.');
@@ -31,6 +31,12 @@ try {
             ag_handoff_assert(ag_meta('credits', $id) === implode(', ', $song['artist_credits']), 'Collaborator credits must be retained.');
         }
     }
+    $clara = ag_handoff_find('clara-mae');
+    ag_handoff_assert(ag_meta('website', $clara) === '' && !str_contains(ag_meta('sources', $clara), 'claramaemusic.com'), 'The unrelated former artist domain must not become a public website or source link.');
+    $mokita = ag_handoff_find('mokita');
+    $mokita_pack = ag_handoff_packs()['mokita'];
+    $unknown = ag_handoff_find('mokita', $mokita_pack['songs'][0], $mokita);
+    ag_handoff_assert(ag_meta('artist_comment', $unknown) === '' && str_contains(get_post($unknown)->post_content, 'not yet been added'), 'Missing interpretation must remain missing.');
     $astrid = ag_handoff_find('astrid-s');
     $pack = ag_handoff_packs()['astrid-s']; $by_slug = array_column($pack['songs'], null, 'slug');
     ag_handoff_assert(ag_handoff_find('astrid-s', $by_slug['hurts-so-good'], $astrid) === $old_hurts, 'Existing song URL/ID must remain stable.');
@@ -40,7 +46,7 @@ try {
     $transcript = ag_handoff_find('astrid-s', $by_slug['its-ok-if-you-forget-me'], $astrid);
     ag_handoff_assert(ag_meta('artist_comment', $transcript) === '' && ag_meta('meaning_type', $transcript) === 'editorial', 'Unconfirmed automatic transcript must not become an artist statement.');
     $again = ag_apply_handoffs(true);
-    ag_handoff_assert(!$again['created'] && !$again['preserved'] && count($again['updated']) === 33, 'Repeat imports must be safe and duplicate-free.');
+    ag_handoff_assert(!$again['created'] && !$again['preserved'] && count($again['updated']) === 110, 'Repeat imports must be safe and duplicate-free.');
     wp_update_post(['ID' => $old_sara, 'post_content' => 'My revised biography.']);
     wp_trash_post($favorite);
     $after = ag_apply_handoffs(true);

@@ -3,7 +3,7 @@ defined('ABSPATH') || exit;
 
 function ag_handoff_packs() {
     $packs = [];
-    foreach (['astrid-s', 'sara-kays', 'caleb-hearn'] as $slug) {
+    foreach (['astrid-s', 'sara-kays', 'caleb-hearn', 'shy-martin', 'clara-mae', 'elina', 'chelsea-cutler', 'mokita', 'rosie-darling', 'sasha-alex-sloan'] as $slug) {
         $data = json_decode(file_get_contents(__DIR__ . '/data/' . $slug . '.json'), true);
         if (!is_array($data) || ($data['schema_version'] ?? '') !== 'afterglow.research.v1' || ($data['artist']['slug'] ?? '') !== $slug || count($data['songs'] ?? []) !== 10) {
             throw new RuntimeException('Invalid bundled research package: ' . $slug);
@@ -77,7 +77,7 @@ function ag_handoff_can_update($id, $key) {
 function ag_handoff_sources($pack, $ids) {
     $out = [];
     foreach ($pack['sources'] as $source) {
-        if (in_array($source['id'], $ids, true) && ($source['access_status'] ?? '') === 'read' && filter_var($source['url'], FILTER_VALIDATE_URL) && wp_parse_url($source['url'], PHP_URL_SCHEME) === 'https') { $out[$source['id']] = $source; }
+        if (($source['source_type'] ?? '') !== 'website_current_status' && in_array($source['id'], $ids, true) && ($source['access_status'] ?? '') === 'read' && filter_var($source['url'], FILTER_VALIDATE_URL) && wp_parse_url($source['url'], PHP_URL_SCHEME) === 'https') { $out[$source['id']] = $source; }
     }
     return $out;
 }
@@ -204,7 +204,8 @@ add_action('admin_menu', function () {
     add_submenu_page('edit.php?post_type=artist', 'Import supplied research', 'Import supplied research', 'manage_options', 'ag-handoffs', 'ag_handoff_page');
 });
 function ag_handoff_page() {
-    echo '<div class="wrap"><h1>Import supplied research</h1><p>Three supplied research packages dated 25 October 2026: Astrid S, Sara Kays, and Caleb Hearn. Each contains ten curated songs, not a ranked top ten.</p><p>Unchanged starter records are updated; edited records and records in Trash are preserved. New pages remain noindex with the review flag. Artist photographs are not imported. The automatic-transcript statement for It’s Ok If You Forget Me is withheld pending audio verification.</p>';
+    if (!current_user_can('manage_options')) { return; }
+    echo '<div class="wrap"><h1>Import supplied research</h1><p>Ten supplied research packages dated 25–26 October 2026: Astrid S, Sara Kays, Caleb Hearn, shy martin, Clara Mae, Elina, Chelsea Cutler, Mokita, Rosie Darling, and Sasha Alex Sloan. Each contains ten curated songs, not a ranked top ten.</p><p>Unchanged starter records are updated; edited records and records in Trash are preserved. New pages remain noindex with the review flag. Artist photographs are not imported. Clara Mae’s former website is excluded because the supplied research reports unrelated current content. The automatic-transcript statement for It’s Ok If You Forget Me is withheld pending audio verification.</p>';
     $report = get_option('ag_handoff_last_report');
     if ($report) { echo '<div class="notice notice-info inline"><p>Last import: ' . count($report['created']) . ' created, ' . count($report['updated']) . ' updated, ' . count($report['preserved']) . ' preserved.</p></div>'; }
     echo '<table class="widefat striped"><thead><tr><th>Record</th><th>Action</th></tr></thead><tbody>';

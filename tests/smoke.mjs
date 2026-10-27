@@ -31,7 +31,7 @@ try {
   await page.goto(route('/artists/'));
   const artistTotal = Number((await page.locator('.results-heading').textContent()).match(/\d+/)[0]);
   check(artistTotal >= 6 && await page.locator('.music-card').count() === Math.min(12, artistTotal), 'Artist directory renders its reported result count');
-  await page.getByLabel('Search this directory').fill('Sara');
+  await page.getByLabel('Search this directory').fill('Sara Kays');
   await page.locator('.filter-bar button[type=submit]').click();
   check(await page.locator('.music-card').count() === 1, 'Artist name filter works');
   check(await page.locator('.music-card h3').textContent() === 'Sara Kays', 'Correct artist returned');
@@ -39,9 +39,13 @@ try {
   await page.locator('.filter-bar button[type=submit]').click();
   check(await page.locator('.empty-state').isVisible(), 'Combined filters use AND');
   await page.locator('.empty-state .button').click();
-  await page.selectOption('#filter-mood', 'late-night');
+  const moods = await page.request.get(route('/wp-json/wp/v2/mood?slug=reflective'));
+  const reflective = (await moods.json())[0];
+  const expectedArtists = await page.request.get(route(`/wp-json/wp/v2/artist?mood=${reflective.id}&per_page=1`));
+  const moodTotal = Number(expectedArtists.headers()['x-wp-total']);
+  await page.selectOption('#filter-mood', 'reflective');
   await page.locator('.filter-bar button[type=submit]').click();
-  check(await page.locator('.music-card').count() === 3, 'Mood filter returns expected artists');
+  check(moodTotal > 0 && await page.locator('.music-card').count() === Math.min(12, moodTotal), 'Mood filter matches the independently queried catalog');
   await page.goto(route('/artists/sara-kays/'));
   check(await page.locator('h1').textContent() === 'Sara Kays', 'Artist profile renders');
   check(await page.locator('.editorial-notice').textContent().then(t => t.includes('demo collection') || t.includes('Research review pending')), 'Demo is labeled');
@@ -56,7 +60,9 @@ try {
   check(songTotal >= 6 && await page.locator('.music-card').count() === Math.min(12, songTotal), 'Song directory renders its reported result count');
   await page.goto(route('/songs/coping/'));
   check(await page.locator('.meaning-label').textContent().then(t => t.includes('Editorial')), 'Interpretation is labeled');
-  check(await page.locator('.profile-section').textContent().then(t => t.includes('No verified artist explanation')), 'Missing artist intent is disclosed');
+  const intentText = await page.locator('.profile-section').textContent();
+  const attributed = await page.locator('.attribution-label').count();
+  check(intentText.includes('No verified artist explanation') || (attributed === 1 && await page.locator('.source-list a').count() > 0), 'Artist commentary has attribution and sources, or missing intent is disclosed');
   check(await page.locator('.artist-byline').textContent().then(t => t.includes('Rosie Darling')), 'Song links its artist');
   await page.locator('.search-trigger').click();
   await page.locator('#global-search').fill('Sara Kays');

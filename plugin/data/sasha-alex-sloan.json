@@ -1,0 +1,1218 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-26",
+  "selection": {
+    "type": "curated",
+    "description": "CURATED STARTER SELECTION of ten recordings by Sasha Alex Sloan, spanning notable release eras and songs with source-backed editorial context. Not ranked or represented as a verified current Spotify Popular list.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-001",
+      "src-003",
+      "src-004"
+    ],
+    "limitations": [
+      "Spotify Popular could not be reproduced as a reliable market-specific current ranked ten-track list.",
+      "The order is editorial and must not be displayed as a streaming-platform popularity ranking.",
+      "The linked Spotify recording may represent a particular edition; availability may vary by market.",
+      "Track-level subjective labels are editorial. Artist statement fields require first-person song-specific evidence."
+    ]
+  },
+  "artist": {
+    "slug": "sasha-alex-sloan",
+    "name": "Sasha Alex Sloan",
+    "full_name": "Alexandra Artourovna Yatchenko",
+    "country": "United States",
+    "place_of_origin": "Boston, Massachusetts, United States",
+    "short_description": "Boston-born singer-songwriter known for intimate pop that explores relationships, family, self-image, and the discomforts of growing up.",
+    "biography": "Sasha Alex Sloan is an American singer-songwriter from the Boston area who records under a name different from the expanded name Alexandra Artourovna Yatchenko listed in AllMusic. In a 2020 interview, Sloan described learning piano as a child, writing early songs, and eventually moving to Los Angeles after signing a songwriting publishing deal. She first developed her career writing with and for other artists before releasing her own material. The 2019 single 'Dancing With Your Ghost' brought wider attention to her reflective style; Sloan has explained that its concept arose after a close family friend lost her husband. Her 2020 debut album 'Only Child' pushed beyond conventional breakup songs into upbringing, family, vulnerability, body image, and existential questions. She supplied Apple Music with detailed, first-person commentary about the album, including how 'House With No Mirrors' came from a difficult moment involving her self-image and how 'Until It Happens to You' addresses the inability to comfort someone facing loss. In later years Sloan released 'I Blame the World' in 2022 and 'Me Again' in 2024, broadening a catalogue still strongly associated with unguarded writing. Afterglow groups her with emotional and confessional pop as an editorial classification rather than a claim about a single official genre.",
+    "spotify_url": "https://open.spotify.com/artist/4xnihxcoXWK3UqryOSnbw5",
+    "official_website": "https://www.sadgirlsloan.com/",
+    "social_profiles": [
+      {
+        "platform": "Linktree",
+        "url": "https://linktr.ee/sashaalexsloan",
+        "source_ids": [
+          "src-006"
+        ]
+      }
+    ],
+    "genres": [
+      "alternative pop (editorial)",
+      "confessional pop (editorial)",
+      "singer-songwriter (editorial)"
+    ],
+    "moods": [
+      "melancholic (editorial)",
+      "introspective (editorial)",
+      "wry (editorial)"
+    ],
+    "career_milestones": [
+      {
+        "date": "2017",
+        "description": "Began releasing music under her own artist identity after working as a songwriter for others.",
+        "source_ids": [
+          "src-004"
+        ]
+      },
+      {
+        "date": "2019",
+        "description": "Released Dancing With Your Ghost, later explaining its inspiration in a 2020 interview.",
+        "source_ids": [
+          "src-004"
+        ]
+      },
+      {
+        "date": "2020-10-16",
+        "description": "Released debut full-length Only Child, accompanied by track-by-track artist commentary.",
+        "source_ids": [
+          "src-003"
+        ]
+      },
+      {
+        "date": "2022",
+        "description": "Released follow-up album I Blame the World.",
+        "source_ids": [
+          "src-005"
+        ]
+      },
+      {
+        "date": "2024",
+        "description": "Released the album Me Again.",
+        "source_ids": [
+          "src-005"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Sara Kays",
+        "explanation": "Confessional songs about youth and vulnerability invite a curator-led connection.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-004",
+          "src-003"
+        ]
+      },
+      {
+        "name": "Rosie Darling",
+        "explanation": "Both emphasize first-person intimacy, including a nuanced approach to difficult emotions.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-003"
+        ]
+      },
+      {
+        "name": "Chelsea Cutler",
+        "explanation": "Relationship and identity writing overlaps with indie-pop songwriting.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-003"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "full_name",
+        "claim": "AllMusic lists Alexandra Artourovna Yatchenko as an alternative expanded name.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "place_of_origin",
+        "claim": "AllMusic identifies Boston, Massachusetts as birthplace.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Artist recounts writing at an early age and moving to Los Angeles to develop songwriting career.",
+        "source_ids": [
+          "src-004"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Dancing With Your Ghost was inspired by bereavement experienced by someone close to her family.",
+        "source_ids": [
+          "src-004"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Only Child debut LP released October 16, 2020.",
+        "source_ids": [
+          "src-003"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Sloan explained how House With No Mirrors concerns body-image difficulties and Until It Happens To You relates to a friend’s bereavement.",
+        "source_ids": [
+          "src-003"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Subsequent albums include I Blame the World (2022) and Me Again (2024).",
+        "source_ids": [
+          "src-005"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Official Spotify embed links identify recordings credited to Sasha Alex Sloan and link to their artist page.",
+        "source_ids": [
+          "src-007"
+        ]
+      },
+      {
+        "field": "official_website",
+        "claim": "Artist-branded domain was directly accessible.",
+        "source_ids": [
+          "src-002"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No suitably licensed commercial-use artist photograph was confirmed; abstract placeholder is required.",
+      "Genres and moods are Afterglow editorial labels rather than official genre or psychological classifications.",
+      "Expanded name is listed by a professional catalogue as an alternate name, not independently confirmed by an artist-issued legal document."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "dancing-with-your-ghost",
+      "title": "Dancing With Your Ghost",
+      "artist_slug": "sasha-alex-sloan",
+      "artist_credits": [
+        "Sasha Alex Sloan"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1TQXIltqoZ5XXyfCbAeSQQ",
+      "release_date": "2019",
+      "release_date_precision": "year",
+      "release_date_context": "The date describes a documented release year or identified collection; exact first-issue day is not independently verified.",
+      "release_title": "Dancing With Your Ghost",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Sasha Alex Sloan's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "melancholic (editorial)",
+        "tender (editorial)"
+      ],
+      "themes": [
+        "grief (editorial)",
+        "bereavement (editorial)"
+      ],
+      "editorial_notes": "Artist-backed theme of imagining the lasting absence of a loved one.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": "Sloan said the song was prompted by the death of a longtime family friend’s husband and her imagining such a loss.",
+      "artist_statement_source_ids": [
+        "src-004"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "until-it-happens-to-you",
+          "explanation": "Afterglow editorial pairing: both records are tagged with grief.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Dancing With Your Ghost' credited to Sasha Alex Sloan.",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2019; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Dancing With Your Ghost; linked recording may have additional issues.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "older",
+      "title": "Older",
+      "artist_slug": "sasha-alex-sloan",
+      "artist_credits": [
+        "Sasha Alex Sloan"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/52iLDrSoRtf9lcgFuLVfqE",
+      "release_date": "2018",
+      "release_date_precision": "year",
+      "release_date_context": "2018 era; original standalone versus EP issue should be checked before adding a precise day.",
+      "release_title": "Loser",
+      "release_type": "EP",
+      "short_description": "Afterglow editor's pick from Sasha Alex Sloan's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "matter-to-you",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "only-child",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Older' credited to Sasha Alex Sloan.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2018; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Loser; linked recording may have additional issues.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "matter-to-you",
+      "title": "Matter To You",
+      "artist_slug": "sasha-alex-sloan",
+      "artist_credits": [
+        "Sasha Alex Sloan"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1InPL1Qm8qJC3FIIvFruNt",
+      "release_date": "2020-10-16",
+      "release_date_precision": "day",
+      "release_date_context": "Verified Only Child album edition; not asserted as its first standalone appearance.",
+      "release_title": "Only Child",
+      "release_type": "album",
+      "short_description": "Afterglow editor's pick from Sasha Alex Sloan's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "existential unease (editorial)",
+        "love (editorial)",
+        "purpose (editorial)"
+      ],
+      "editorial_notes": "A rare existential entry point into emotional pop.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "Sloan said the song contrasts feelings of insignificance in a vast world with the meaning she finds in love.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "only-child",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "house-with-no-mirrors",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Matter To You' credited to Sasha Alex Sloan.",
+          "source_ids": [
+            "src-009"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2020-10-16; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-003",
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Only Child; linked recording may have additional issues.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "only-child",
+      "title": "Only Child",
+      "artist_slug": "sasha-alex-sloan",
+      "artist_credits": [
+        "Sasha Alex Sloan"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1UTTbArdZ8Z7cBaAbDBAjK",
+      "release_date": "2020-10-16",
+      "release_date_precision": "day",
+      "release_date_context": "Verified album edition.",
+      "release_title": "Only Child",
+      "release_type": "album",
+      "short_description": "Afterglow editor's pick from Sasha Alex Sloan's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "nostalgic (editorial)",
+        "introspective (editorial)"
+      ],
+      "themes": [
+        "childhood (editorial)",
+        "isolation (editorial)",
+        "family (editorial)"
+      ],
+      "editorial_notes": "A personal identity story rather than a romance-focused song.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "Sloan connected the title track to a lonely childhood and growing up largely with her mother.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "house-with-no-mirrors",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "santa-s-real",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Only Child' credited to Sasha Alex Sloan.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2020-10-16; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-003",
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Only Child; linked recording may have additional issues.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "house-with-no-mirrors",
+      "title": "House With No Mirrors",
+      "artist_slug": "sasha-alex-sloan",
+      "artist_credits": [
+        "Sasha Alex Sloan"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/55vsJO4tLZQ37qzD5QUOmh",
+      "release_date": "2020-10-16",
+      "release_date_precision": "day",
+      "release_date_context": "Verified album edition; an earlier standalone single may exist.",
+      "release_title": "Only Child",
+      "release_type": "album",
+      "short_description": "Afterglow editor's pick from Sasha Alex Sloan's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "vulnerable (editorial)",
+        "introspective (editorial)"
+      ],
+      "themes": [
+        "body image (editorial)",
+        "self-acceptance (editorial)",
+        "vulnerability (editorial)"
+      ],
+      "editorial_notes": "One of the record’s explicitly self-reflective, personally sourced narratives.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "Sloan said a painful moment concerning her appearance prompted the idea, and she drew on her own body-image struggles.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "high-school-me",
+          "explanation": "Afterglow editorial pairing: both records are tagged with self-acceptance.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'House With No Mirrors' credited to Sasha Alex Sloan.",
+          "source_ids": [
+            "src-011"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2020-10-16; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-003",
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Only Child; linked recording may have additional issues.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "santa-s-real",
+      "title": "Santa's Real",
+      "artist_slug": "sasha-alex-sloan",
+      "artist_credits": [
+        "Sasha Alex Sloan"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6Gy3MOuOWPNs3nEorpdx5F",
+      "release_date": "2020-10-16",
+      "release_date_precision": "day",
+      "release_date_context": "Verified album edition.",
+      "release_title": "Only Child",
+      "release_type": "album",
+      "short_description": "Afterglow editor's pick from Sasha Alex Sloan's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "wistful (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "lost innocence (editorial)",
+        "growing up (editorial)",
+        "world events (editorial)"
+      ],
+      "editorial_notes": "Moves the record toward cultural and generational anxiety.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "Sloan said the song evolved into wishing for childhood innocence amid distressing world events during 2020.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "someone-you-hate",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "until-it-happens-to-you",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Santa's Real' credited to Sasha Alex Sloan.",
+          "source_ids": [
+            "src-012"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2020-10-16; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-003",
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Only Child; linked recording may have additional issues.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "someone-you-hate",
+      "title": "Someone You Hate",
+      "artist_slug": "sasha-alex-sloan",
+      "artist_credits": [
+        "Sasha Alex Sloan"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/2juRTLgqPmkOjgUCVcXOeC",
+      "release_date": "2020-10-16",
+      "release_date_precision": "day",
+      "release_date_context": "Verified album edition.",
+      "release_title": "Only Child",
+      "release_type": "album",
+      "short_description": "Afterglow editor's pick from Sasha Alex Sloan's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "regretful (editorial)",
+        "heartbroken (editorial)"
+      ],
+      "themes": [
+        "breakup (editorial)",
+        "guilt (editorial)",
+        "friendship (editorial)"
+      ],
+      "editorial_notes": "A breakup story told with attention to the other person’s hurt.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "Sloan said she reflected on an ex-partner who had once been her friend, and on guilt after the relationship ended.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "lie",
+          "explanation": "Afterglow editorial pairing: both records are tagged with breakup, guilt.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Someone You Hate' credited to Sasha Alex Sloan.",
+          "source_ids": [
+            "src-013"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2020-10-16; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-003",
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Only Child; linked recording may have additional issues.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "until-it-happens-to-you",
+      "title": "Until It Happens To You",
+      "artist_slug": "sasha-alex-sloan",
+      "artist_credits": [
+        "Sasha Alex Sloan"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/0IJQOj33GVl6osZmxClKqV",
+      "release_date": "2020-10-16",
+      "release_date_precision": "day",
+      "release_date_context": "Verified album edition.",
+      "release_title": "Only Child",
+      "release_type": "album",
+      "short_description": "Afterglow editor's pick from Sasha Alex Sloan's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "tender (editorial)",
+        "sorrowful (editorial)"
+      ],
+      "themes": [
+        "grief (editorial)",
+        "empathy (editorial)",
+        "helplessness (editorial)"
+      ],
+      "editorial_notes": "Pairs well with Dancing With Your Ghost while approaching grief from a different position.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "She said a friend’s bereavement inspired a song about wanting to help but not knowing what to say.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "dancing-with-your-ghost",
+          "explanation": "Afterglow editorial pairing: both records are tagged with grief.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "lie",
+          "explanation": "Afterglow editorial pairing: both records are tagged with empathy.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Until It Happens To You' credited to Sasha Alex Sloan.",
+          "source_ids": [
+            "src-014"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2020-10-16; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-003",
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Only Child; linked recording may have additional issues.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "high-school-me",
+      "title": "High School Me",
+      "artist_slug": "sasha-alex-sloan",
+      "artist_credits": [
+        "Sasha Alex Sloan"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/4c8SeWzX1nvSN7chHvyq8n",
+      "release_date": "2020-10-16",
+      "release_date_precision": "day",
+      "release_date_context": "Verified album edition.",
+      "release_title": "Only Child",
+      "release_type": "album",
+      "short_description": "Afterglow editor's pick from Sasha Alex Sloan's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "nostalgic (editorial)",
+        "reassuring (editorial)"
+      ],
+      "themes": [
+        "adolescence (editorial)",
+        "self-acceptance (editorial)",
+        "growth (editorial)"
+      ],
+      "editorial_notes": "Provides an optimistic coda to a reflective album.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "She described the track as reconsidering the embarrassment she felt about adolescence while recognizing her subsequent growth.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "house-with-no-mirrors",
+          "explanation": "Afterglow editorial pairing: both records are tagged with self-acceptance.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'High School Me' credited to Sasha Alex Sloan.",
+          "source_ids": [
+            "src-015"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2020-10-16; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-003",
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Only Child; linked recording may have additional issues.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "lie",
+      "title": "Lie",
+      "artist_slug": "sasha-alex-sloan",
+      "artist_credits": [
+        "Sasha Alex Sloan"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/04NMWz4ctkuILV6mUR2iWp",
+      "release_date": "2020-10-16",
+      "release_date_precision": "day",
+      "release_date_context": "Verified album edition; song was released earlier as a single.",
+      "release_title": "Only Child",
+      "release_type": "album",
+      "short_description": "Afterglow editor's pick from Sasha Alex Sloan's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "heartbroken (editorial)"
+      ],
+      "themes": [
+        "breakup (editorial)",
+        "empathy (editorial)",
+        "guilt (editorial)"
+      ],
+      "editorial_notes": "A useful counterpart to Someone You Hate, documenting another angle on a separation.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": "Sloan said she wrote it after ending a relationship, imagining the rejected person’s perspective and feeling guilty.",
+      "artist_statement_source_ids": [
+        "src-004"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "someone-you-hate",
+          "explanation": "Afterglow editorial pairing: both records are tagged with breakup, guilt.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "until-it-happens-to-you",
+          "explanation": "Afterglow editorial pairing: both records are tagged with empathy.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Lie' credited to Sasha Alex Sloan.",
+          "source_ids": [
+            "src-016"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2020-10-16; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-003",
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Only Child; linked recording may have additional issues.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://www.allmusic.com/artist/sasha-sloan-mn0003435850/biography",
+      "title": "Sasha Alex Sloan — biography",
+      "publisher": "AllMusic",
+      "evidence_summary": "Lists expanded name Alexandra Artourovna Yatchenko, born in Boston, and categorizes her pop work.",
+      "source_type": "professional_biography",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-002",
+      "url": "https://www.sadgirlsloan.com/",
+      "title": "Sasha Alex Sloan — official website",
+      "publisher": "Sasha Alex Sloan",
+      "evidence_summary": "Artist-branded website currently accessible.",
+      "source_type": "official_artist_site",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-003",
+      "url": "https://music.apple.com/us/album/only-child/1529018233",
+      "title": "Only Child album and track-by-track commentary",
+      "publisher": "Apple Music",
+      "evidence_summary": "Catalogue lists October 16, 2020 and contains Sasha’s first-person explanation of all ten tracks, including body-image, family and relationship topics.",
+      "source_type": "official_music_catalogue_and_original_interview",
+      "published_date": "2020-10-16",
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-004",
+      "url": "https://semiband.wonderlandmagazine.com/2020/11/06/sasha-sloan-wonderland-china-only-child/",
+      "title": "Sasha Sloan — Only Child interview",
+      "publisher": "Wonderland",
+      "evidence_summary": "Original interview describes childhood, songwriter beginnings and firsthand meanings of Dancing With Your Ghost, Lie and House With No Mirrors.",
+      "source_type": "original_artist_interview",
+      "published_date": "2020-11-06",
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-005",
+      "url": "https://music.apple.com/us/artist/sasha-alex-sloan/868093249",
+      "title": "Sasha Alex Sloan — artist catalogue",
+      "publisher": "Apple Music",
+      "evidence_summary": "Artist discography documents subsequent album releases and active catalogue.",
+      "source_type": "official_music_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-006",
+      "url": "https://linktr.ee/sashaalexsloan",
+      "title": "Sasha Alex Sloan — links",
+      "publisher": "Linktree",
+      "evidence_summary": "Artist-name Linktree provides a general social and official-link hub; specific account identity beyond hub not asserted.",
+      "source_type": "artist_link_hub",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-007",
+      "url": "https://open.spotify.com/embed/track/1TQXIltqoZ5XXyfCbAeSQQ",
+      "title": "Dancing With Your Ghost — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Dancing With Your Ghost' and the credited recording artist Sasha Alex Sloan; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-008",
+      "url": "https://open.spotify.com/embed/track/52iLDrSoRtf9lcgFuLVfqE",
+      "title": "Older — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Older' and the credited recording artist Sasha Alex Sloan; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-009",
+      "url": "https://open.spotify.com/embed/track/1InPL1Qm8qJC3FIIvFruNt",
+      "title": "Matter To You — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Matter To You' and the credited recording artist Sasha Alex Sloan; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-010",
+      "url": "https://open.spotify.com/embed/track/1UTTbArdZ8Z7cBaAbDBAjK",
+      "title": "Only Child — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Only Child' and the credited recording artist Sasha Alex Sloan; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-011",
+      "url": "https://open.spotify.com/embed/track/55vsJO4tLZQ37qzD5QUOmh",
+      "title": "House With No Mirrors — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'House With No Mirrors' and the credited recording artist Sasha Alex Sloan; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-012",
+      "url": "https://open.spotify.com/embed/track/6Gy3MOuOWPNs3nEorpdx5F",
+      "title": "Santa's Real — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Santa's Real' and the credited recording artist Sasha Alex Sloan; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-013",
+      "url": "https://open.spotify.com/embed/track/2juRTLgqPmkOjgUCVcXOeC",
+      "title": "Someone You Hate — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Someone You Hate' and the credited recording artist Sasha Alex Sloan; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-014",
+      "url": "https://open.spotify.com/embed/track/0IJQOj33GVl6osZmxClKqV",
+      "title": "Until It Happens To You — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Until It Happens To You' and the credited recording artist Sasha Alex Sloan; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-015",
+      "url": "https://open.spotify.com/embed/track/4c8SeWzX1nvSN7chHvyq8n",
+      "title": "High School Me — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'High School Me' and the credited recording artist Sasha Alex Sloan; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-016",
+      "url": "https://open.spotify.com/embed/track/04NMWz4ctkuILV6mUR2iWp",
+      "title": "Lie — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Lie' and the credited recording artist Sasha Alex Sloan; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    }
+  ],
+  "outstanding_research": [
+    "Confirm original releases and edition-specific dates for remaining year-only or null tracks.",
+    "Review image licensing directly with rightsholders before using any artist or album photography.",
+    "Check whether previously unverified personal/social channels can be authenticated by artist or management.",
+    "Reassess live music-catalogue availability and update the editorial selection periodically."
+  ]
+}

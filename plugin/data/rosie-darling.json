@@ -1,0 +1,1129 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-26",
+  "selection": {
+    "type": "curated",
+    "description": "CURATED STARTER SELECTION of ten recordings by Rosie Darling, spanning notable release eras and songs with source-backed editorial context. Not ranked or represented as a verified current Spotify Popular list.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-002",
+      "src-004",
+      "src-005"
+    ],
+    "limitations": [
+      "Spotify Popular could not be reproduced as a reliable market-specific current ranked ten-track list.",
+      "The order is editorial and must not be displayed as a streaming-platform popularity ranking.",
+      "The linked Spotify recording may represent a particular edition; availability may vary by market.",
+      "Track-level subjective labels are editorial. Artist statement fields require first-person song-specific evidence."
+    ]
+  },
+  "artist": {
+    "slug": "rosie-darling",
+    "name": "Rosie Darling",
+    "full_name": "Rosemary Darling",
+    "country": "United States",
+    "place_of_origin": "Boston, Massachusetts, United States (born); Los Angeles, California (based)",
+    "short_description": "Boston-born, Los Angeles-based singer-songwriter whose candid indie-pop songs revisit love, friendship, loss, and personal growth.",
+    "biography": "Rosie Darling is the performing name of Rosemary Darling, a singer-songwriter born in Boston and based in Los Angeles. In a 2021 interview, she said that Rosie was already her everyday nickname, making it a natural stage name. Her early independent songs led to the release of 'Coping' in 2020, followed by the six-track 'Coping' EP in 2021. Discussing the project, Darling emphasized its grounding in the complicated emotions that accompany romance, friendship, heartbreak, and loneliness. Her songwriting is personal, but she has also spoken about wanting listeners to locate their own experiences inside the songs. The 2022 'Golden Age' EP expanded her storytelling. In a track-by-track interview she connected its title song to grief, isolation, and emotional upheaval during the pandemic, while 'Always Almost' explored the idea of someone who got away. Her debut album 'Lanterns' arrived in 2023 through Nettwerk. In subsequent interviews she characterized that collection as a challenging process of unpacking painful experiences and described 'Boxes' as particularly important to her recovery. For Afterglow, Darling provides an intimate link between soft heartbreak pop and reflective coming-of-age songwriting. That last categorization is editorial, rather than a formal description supplied by the artist.",
+    "spotify_url": "https://open.spotify.com/artist/6kDXH8d9LugUAsHIozzDAI",
+    "official_website": "https://www.rosiedarling.com/",
+    "social_profiles": [],
+    "genres": [
+      "indie pop (editorial)",
+      "confessional pop (editorial)"
+    ],
+    "moods": [
+      "introspective (editorial)",
+      "bittersweet (editorial)",
+      "vulnerable (editorial)"
+    ],
+    "career_milestones": [
+      {
+        "date": "2020",
+        "description": "Debut song Coping released as a standalone single.",
+        "source_ids": [
+          "src-003"
+        ]
+      },
+      {
+        "date": "2021",
+        "description": "Released Coping EP and discussed its emotional themes in an original interview.",
+        "source_ids": [
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "date": "2022",
+        "description": "Released Golden Age EP and gave a track-by-track explanation of its songs.",
+        "source_ids": [
+          "src-004"
+        ]
+      },
+      {
+        "date": "2023",
+        "description": "Released debut album Lanterns through Nettwerk.",
+        "source_ids": [
+          "src-002",
+          "src-006"
+        ]
+      },
+      {
+        "date": "2024",
+        "description": "Discussed Boxes and the process of making Lanterns.",
+        "source_ids": [
+          "src-005"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Sara Kays",
+        "explanation": "Original storytelling about complicated relationships and emotional vulnerability; an Afterglow editorial pairing.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "name": "Sasha Alex Sloan",
+        "explanation": "Personal reflection and confessional writing provide a natural discovery path.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-003",
+          "src-004"
+        ]
+      },
+      {
+        "name": "SHY Martin",
+        "explanation": "Bittersweet relationship stories and direct artist commentary make these useful adjacent profiles.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-004"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "stage_name",
+        "claim": "She identifies her real name as Rosemary Darling and says Rosie is her existing nickname.",
+        "source_ids": [
+          "src-003"
+        ]
+      },
+      {
+        "field": "place_of_origin",
+        "claim": "Artist biography states Boston-born and Los Angeles-based.",
+        "source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Her first single Coping predates the 2021 Coping EP.",
+        "source_ids": [
+          "src-003",
+          "src-002"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "The 2021 Coping EP deals with relationships, friendship and separation.",
+        "source_ids": [
+          "src-003"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "She provided first-person Golden Age track-by-track context in 2022.",
+        "source_ids": [
+          "src-004"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Lanterns album was issued in 2023 by Nettwerk-linked distribution.",
+        "source_ids": [
+          "src-006",
+          "src-002"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Darling explained Boxes began during a difficult personal period.",
+        "source_ids": [
+          "src-005"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Official Spotify embed links identify recordings credited to Rosie Darling and link to their artist page.",
+        "source_ids": [
+          "src-007"
+        ]
+      },
+      {
+        "field": "official_website",
+        "claim": "Artist-branded domain was directly accessible.",
+        "source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No suitably licensed commercial-use artist photograph was confirmed; abstract placeholder is required.",
+      "Genres and moods are Afterglow editorial labels rather than official genre or psychological classifications.",
+      "Personal name is verified directly through a first-person interview, but no independent civil/legal documentation was sought."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "coping",
+      "title": "Coping",
+      "artist_slug": "rosie-darling",
+      "artist_credits": [
+        "Rosie Darling"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/4RX020eHQpZbZFP5jpbwOP",
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "Original standalone song was reported in November 2020; the selected Spotify recording may be an EP edition from 2021. Do not present as a verified edition-specific release date.",
+      "release_title": "Coping",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Rosie Darling's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "heartbroken (editorial)",
+        "nostalgic (editorial)"
+      ],
+      "themes": [
+        "post-breakup memories (editorial)",
+        "loss (editorial)"
+      ],
+      "editorial_notes": "An introduction to Rosie Darling through a documented post-breakup perspective.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "Darling explained that the song concerns the aftermath of a breakup and the memories attached to shared experiences.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "witness",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "reruns",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Coping' credited to Rosie Darling.",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2020; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Coping; linked recording may have additional issues.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Exact month/day of first release not established; only year or selected era supplied.",
+        "The Spotify track link is verified, but its precise initial-release vs EP-edition association is unconfirmed."
+      ]
+    },
+    {
+      "slug": "witness",
+      "title": "Witness",
+      "artist_slug": "rosie-darling",
+      "artist_credits": [
+        "Rosie Darling"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1DsVpqnIPZCV1YKdMragRL",
+      "release_date": "2021",
+      "release_date_precision": "year",
+      "release_date_context": "2021 Coping EP edition; exact recording-level first-release day not established.",
+      "release_title": "Coping",
+      "release_type": "EP",
+      "short_description": "Afterglow editor's pick from Rosie Darling's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "reruns",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "say-less",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Witness' credited to Rosie Darling.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2021; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Coping; linked recording may have additional issues.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "reruns",
+      "title": "Reruns",
+      "artist_slug": "rosie-darling",
+      "artist_credits": [
+        "Rosie Darling"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/2YBbTgu1H0kQttnPetbPGS",
+      "release_date": "2021",
+      "release_date_precision": "year",
+      "release_date_context": "2021 Coping EP edition; exact song-specific meaning not verified.",
+      "release_title": "Coping",
+      "release_type": "EP",
+      "short_description": "Afterglow editor's pick from Rosie Darling's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "say-less",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "golden-age",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Reruns' credited to Rosie Darling.",
+          "source_ids": [
+            "src-009"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2021; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Coping; linked recording may have additional issues.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "say-less",
+      "title": "Say Less",
+      "artist_slug": "rosie-darling",
+      "artist_credits": [
+        "Rosie Darling"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/4BoWM5jPzcJQTOehHM6rd4",
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "The date describes a documented release year or identified collection; exact first-issue day is not independently verified.",
+      "release_title": "Golden Age",
+      "release_type": "EP",
+      "short_description": "Afterglow editor's pick from Rosie Darling's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "restless (editorial)",
+        "introspective (editorial)"
+      ],
+      "themes": [
+        "frustration (editorial)",
+        "meaning (editorial)",
+        "overwhelm (editorial)"
+      ],
+      "editorial_notes": "A short, candid entry into the frustrated perspective she described in her track-by-track commentary.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": "Darling described it as an outpouring of frustrations about constant pressures and the difficulty of finding meaning.",
+      "artist_statement_source_ids": [
+        "src-004"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "golden-age",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "always-almost",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Say Less' credited to Rosie Darling.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2022; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Golden Age; linked recording may have additional issues.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "golden-age",
+      "title": "Golden Age",
+      "artist_slug": "rosie-darling",
+      "artist_credits": [
+        "Rosie Darling"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/3FfbHT7O32OGWUAqctJ2nt",
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "The date describes a documented release year or identified collection; exact first-issue day is not independently verified.",
+      "release_title": "Golden Age",
+      "release_type": "EP",
+      "short_description": "Afterglow editor's pick from Rosie Darling's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)",
+        "wistful (editorial)"
+      ],
+      "themes": [
+        "grief (editorial)",
+        "isolation (editorial)",
+        "pandemic experience (editorial)"
+      ],
+      "editorial_notes": "Its documented pandemic perspective extends the site beyond romantic heartbreak.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": "She connected the song with grief, isolation and intensified emotion during the COVID-19 pandemic.",
+      "artist_statement_source_ids": [
+        "src-004"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "always-almost",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "lost-on-you",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Golden Age' credited to Rosie Darling.",
+          "source_ids": [
+            "src-011"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2022; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Golden Age; linked recording may have additional issues.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "always-almost",
+      "title": "Always Almost",
+      "artist_slug": "rosie-darling",
+      "artist_credits": [
+        "Rosie Darling"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/35FwQrg7thq6kjrHL01QiJ",
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "A standalone single in 2022; also included on Golden Age.",
+      "release_title": "Always Almost",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Rosie Darling's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "melancholic (editorial)",
+        "nostalgic (editorial)"
+      ],
+      "themes": [
+        "missed connection (editorial)",
+        "regret (editorial)"
+      ],
+      "editorial_notes": "A clear counterpart to post-breakup narratives in Coping.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": "Darling described the song as an emotionally cinematic portrait of the person who got away.",
+      "artist_statement_source_ids": [
+        "src-004"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "lost-on-you",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "boxes",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Always Almost' credited to Rosie Darling.",
+          "source_ids": [
+            "src-012"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2022; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Always Almost; linked recording may have additional issues.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "lost-on-you",
+      "title": "Lost On You",
+      "artist_slug": "rosie-darling",
+      "artist_credits": [
+        "Rosie Darling"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/59llL5gGlCyMM2P1VQc74R",
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "2023 Lanterns album-era recording; original standalone date not independently established.",
+      "release_title": "Lanterns",
+      "release_type": "album",
+      "short_description": "Afterglow editor's pick from Rosie Darling's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "boxes",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "joanna",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Lost On You' credited to Rosie Darling.",
+          "source_ids": [
+            "src-013"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2023; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Lanterns; linked recording may have additional issues.",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "boxes",
+      "title": "Boxes",
+      "artist_slug": "rosie-darling",
+      "artist_credits": [
+        "Rosie Darling"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/44N22ZXzUnAx0kZSZsH2Aq",
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "The date describes a documented release year or identified collection; exact first-issue day is not independently verified.",
+      "release_title": "Lanterns",
+      "release_type": "album",
+      "short_description": "Afterglow editor's pick from Rosie Darling's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "vulnerable (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "personal recovery (editorial)",
+        "processing hurt (editorial)"
+      ],
+      "editorial_notes": "Darling presents this as a particularly personal moment within the Lanterns period.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-005"
+      ],
+      "artist_statement_paraphrase": "She said she began writing Boxes after a difficult time and that making it helped her express her perspective.",
+      "artist_statement_source_ids": [
+        "src-005"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "joanna",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "this-is-me-letting-you-go",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Boxes' credited to Rosie Darling.",
+          "source_ids": [
+            "src-014"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2023; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Lanterns; linked recording may have additional issues.",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "joanna",
+      "title": "Joanna",
+      "artist_slug": "rosie-darling",
+      "artist_credits": [
+        "Rosie Darling"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6fwXcoCCisSb2NzIPKH8GI",
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": "Recording is verified, but the precise release date and edition are not established from a directly readable catalogue date.",
+      "release_title": "Joanna",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Rosie Darling's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "this-is-me-letting-you-go",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "coping",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Joanna' credited to Rosie Darling.",
+          "source_ids": [
+            "src-015"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Joanna; linked recording may have additional issues.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Original release date and exact edition date not independently established."
+      ]
+    },
+    {
+      "slug": "this-is-me-letting-you-go",
+      "title": "This Is Me Letting You Go",
+      "artist_slug": "rosie-darling",
+      "artist_credits": [
+        "Rosie Darling"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/29quxKogJxgXbbvsW8vHwx",
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": "Specific release edition and original date require additional verification.",
+      "release_title": null,
+      "release_type": null,
+      "short_description": "Afterglow editor's pick from Rosie Darling's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "coping",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "witness",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'This Is Me Letting You Go' credited to Rosie Darling.",
+          "source_ids": [
+            "src-016"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Original release date and exact edition date not independently established.",
+        "Associated original single/EP/album edition not independently verified."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://www.rosiedarling.com/",
+      "title": "Rosie Darling — official homepage",
+      "publisher": "Rosie Darling",
+      "evidence_summary": "Artist-branded site confirms a current artist site and music promotions.",
+      "source_type": "official_artist_site",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-002",
+      "url": "https://www.rosiedarling.com/bio/",
+      "title": "Rosie Darling — biography",
+      "publisher": "Rosie Darling",
+      "evidence_summary": "Artist biography explicitly describes Boston-born Los Angeles-based singer and 2021 Coping EP.",
+      "source_type": "official_artist_biography",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-003",
+      "url": "https://tonedeaf.thebrag.com/rosie-darling-get-to-know/",
+      "title": "Get to know Rosie Darling and Coping",
+      "publisher": "Tone Deaf",
+      "evidence_summary": "In her own responses she states her name is Rosemary Darling and explains Coping as post-breakup recollection.",
+      "source_type": "original_artist_interview",
+      "published_date": "2021-04-09",
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-004",
+      "url": "https://www.wonderlandmagazine.com/2022/08/15/rosie-darling-golden-age/",
+      "title": "Rosie Darling — Golden Age track by track",
+      "publisher": "Wonderland",
+      "evidence_summary": "Direct artist reflections on Golden Age, Say Less, Always Almost, including pandemic grief, frustration and the person who got away.",
+      "source_type": "original_artist_track_by_track",
+      "published_date": "2022-08-15",
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-005",
+      "url": "https://thehoneypop.com/2024/01/12/interview-rosing-darling-brightens-our-day-with-the-release-of-lanterns/",
+      "title": "Rosie Darling interview — Lanterns",
+      "publisher": "The Honey POP",
+      "evidence_summary": "Artist describes Lanterns as painful and freeing, and says Boxes began after a difficult personal period.",
+      "source_type": "original_artist_interview",
+      "published_date": "2024-01-12",
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-006",
+      "url": "https://music.apple.com/us/album/lanterns/1708068166",
+      "title": "Lanterns — album listing",
+      "publisher": "Apple Music",
+      "evidence_summary": "Catalogues the 2023 debut album Lanterns and its date.",
+      "source_type": "official_music_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-007",
+      "url": "https://open.spotify.com/embed/track/4RX020eHQpZbZFP5jpbwOP",
+      "title": "Coping — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Coping' and the credited recording artist Rosie Darling; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-008",
+      "url": "https://open.spotify.com/embed/track/1DsVpqnIPZCV1YKdMragRL",
+      "title": "Witness — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Witness' and the credited recording artist Rosie Darling; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-009",
+      "url": "https://open.spotify.com/embed/track/2YBbTgu1H0kQttnPetbPGS",
+      "title": "Reruns — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Reruns' and the credited recording artist Rosie Darling; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-010",
+      "url": "https://open.spotify.com/embed/track/4BoWM5jPzcJQTOehHM6rd4",
+      "title": "Say Less — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Say Less' and the credited recording artist Rosie Darling; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-011",
+      "url": "https://open.spotify.com/embed/track/3FfbHT7O32OGWUAqctJ2nt",
+      "title": "Golden Age — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Golden Age' and the credited recording artist Rosie Darling; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-012",
+      "url": "https://open.spotify.com/embed/track/35FwQrg7thq6kjrHL01QiJ",
+      "title": "Always Almost — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Always Almost' and the credited recording artist Rosie Darling; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-013",
+      "url": "https://open.spotify.com/embed/track/59llL5gGlCyMM2P1VQc74R",
+      "title": "Lost On You — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Lost On You' and the credited recording artist Rosie Darling; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-014",
+      "url": "https://open.spotify.com/embed/track/44N22ZXzUnAx0kZSZsH2Aq",
+      "title": "Boxes — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Boxes' and the credited recording artist Rosie Darling; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-015",
+      "url": "https://open.spotify.com/embed/track/6fwXcoCCisSb2NzIPKH8GI",
+      "title": "Joanna — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Joanna' and the credited recording artist Rosie Darling; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-016",
+      "url": "https://open.spotify.com/embed/track/29quxKogJxgXbbvsW8vHwx",
+      "title": "This Is Me Letting You Go — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'This Is Me Letting You Go' and the credited recording artist Rosie Darling; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    }
+  ],
+  "outstanding_research": [
+    "Confirm original releases and edition-specific dates for remaining year-only or null tracks.",
+    "Review image licensing directly with rightsholders before using any artist or album photography.",
+    "Check whether previously unverified personal/social channels can be authenticated by artist or management.",
+    "Reassess live music-catalogue availability and update the editorial selection periodically."
+  ]
+}

@@ -1,0 +1,1101 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-26",
+  "selection": {
+    "type": "curated",
+    "description": "CURATED STARTER SELECTION of ten recordings by Chelsea Cutler, spanning notable release eras and songs with source-backed editorial context. Not ranked or represented as a verified current Spotify Popular list.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-002",
+      "src-003"
+    ],
+    "limitations": [
+      "Spotify Popular could not be reproduced as a reliable market-specific current ranked ten-track list.",
+      "The order is editorial and must not be displayed as a streaming-platform popularity ranking.",
+      "The linked Spotify recording may represent a particular edition; availability may vary by market.",
+      "Track-level subjective labels are editorial. Artist statement fields require first-person song-specific evidence."
+    ]
+  },
+  "artist": {
+    "slug": "chelsea-cutler",
+    "name": "Chelsea Cutler",
+    "full_name": null,
+    "country": "United States",
+    "place_of_origin": "Westport, Connecticut, United States (reported hometown)",
+    "short_description": "American singer-songwriter and producer whose pop catalogue combines relationship writing with electronic and acoustic textures.",
+    "biography": "Chelsea Cutler is an American singer-songwriter and producer associated with Westport, Connecticut. Her solo catalogue blends intimate songwriting with elements of electronic pop, an editorial description of the way her releases have developed across several years. She emerged with early releases including 'Your Shirt' and the 2017 'Snow in October' project, then built a larger audience through the 'Sleeping with Roses' releases. Her first full-length album, 'How to Be Human,' arrived in 2020 and was followed by 'When I Close My Eyes' in 2021. She has also worked with Jeremy Zucker, a collaboration that sits alongside rather than replacing her solo work. The 2023 album 'Stellaria' marked an especially reflective chapter. In an interview with the Recording Academy, Cutler described valuing presence, openness, and vulnerability during its creation. She explained that 'you're all i ever dreamed of' revisited the early, delicate period of a personal relationship, while 'Your Bones' came from a melody that arrived unexpectedly in a voice note. In September 2026 she released 'IS THIS THE END?', extending her discography. For Afterglow, she offers a bridge from softer emotional pop toward understated electronic and singer-songwriter production. Mood and genre labels here are editorial navigation aids, not universally defined categories.",
+    "spotify_url": "https://open.spotify.com/artist/5JMLG56F1X5mFmWNmS0iAp",
+    "official_website": null,
+    "social_profiles": [
+      {
+        "platform": "Linktree",
+        "url": "https://linktr.ee/chelseacutler",
+        "source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "genres": [
+      "indie pop (editorial)",
+      "electronic pop (editorial)",
+      "singer-songwriter pop (editorial)"
+    ],
+    "moods": [
+      "confessional (editorial)",
+      "wistful (editorial)",
+      "warm (editorial)"
+    ],
+    "career_milestones": [
+      {
+        "date": "2017",
+        "description": "Released early solo material including Your Shirt and Snow in October.",
+        "source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "date": "2018",
+        "description": "Released Sleeping with Roses projects as her solo catalogue expanded.",
+        "source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "date": "2020",
+        "description": "Released debut full-length How to Be Human.",
+        "source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "date": "2021",
+        "description": "Released When I Close My Eyes.",
+        "source_ids": [
+          "src-005"
+        ]
+      },
+      {
+        "date": "2023",
+        "description": "Released Stellaria and discussed its creative direction with GRAMMY.",
+        "source_ids": [
+          "src-003"
+        ]
+      },
+      {
+        "date": "2026-09",
+        "description": "Released IS THIS THE END?; precise release day can be checked against the music catalogue.",
+        "source_ids": [
+          "src-004",
+          "src-006"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Jeremy Zucker",
+        "explanation": "A collaborator whose quieter pop writing gives listeners a natural route beyond Chelsea’s solo catalogue.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "name": "Sasha Alex Sloan",
+        "explanation": "Original, relationship-centred songwriting and confessional themes connect their editorial profiles.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-003"
+        ]
+      },
+      {
+        "name": "Rosie Darling",
+        "explanation": "Both document vulnerable personal material and reflective pop storytelling.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-003"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "biography",
+        "claim": "Chelsea Cutler is a Connecticut-associated singer, songwriter and producer.",
+        "source_ids": [
+          "src-002",
+          "src-004"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Her early releases include 2017-era Your Shirt and Snow in October and later Sleeping with Roses.",
+        "source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Her full-length discography includes How to Be Human (2020), When I Close My Eyes (2021), and Stellaria (2023).",
+        "source_ids": [
+          "src-002",
+          "src-005",
+          "src-003"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "She has collaborated with Jeremy Zucker.",
+        "source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Direct GRAMMY interview explains creative intentions behind Your Bones and you’re all i ever dreamed of.",
+        "source_ids": [
+          "src-003"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "IS THIS THE END? released September 25, 2026.",
+        "source_ids": [
+          "src-004"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Official Spotify embed links identify recordings credited to Chelsea Cutler and link to their artist page.",
+        "source_ids": [
+          "src-010"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No suitably licensed commercial-use artist photograph was confirmed; abstract placeholder is required.",
+      "Genres and moods are Afterglow editorial labels rather than official genre or psychological classifications.",
+      "Official artist-controlled website could not be verified as accessible; official_website remains null.",
+      "Expanded full name not independently established.",
+      "chelseacutler.com is linked by the verified Linktree but could not be fetched at research time; use the Linktree instead."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "your-shirt",
+      "title": "Your Shirt",
+      "artist_slug": "chelsea-cutler",
+      "artist_credits": [
+        "Chelsea Cutler"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/5vtyFzfLkCSJvXEZFjQAa1",
+      "release_date": "2017",
+      "release_date_precision": "year",
+      "release_date_context": "2017 solo material; earliest standalone day not independently established.",
+      "release_title": "Your Shirt",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Chelsea Cutler's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "sixteen",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "how-to-be-human",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Your Shirt' credited to Chelsea Cutler.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2017; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Your Shirt; linked recording may have additional issues.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "sixteen",
+      "title": "Sixteen",
+      "artist_slug": "chelsea-cutler",
+      "artist_credits": [
+        "Chelsea Cutler"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/7GPmNfFp9Po1xsomflIHsB",
+      "release_date": "2017",
+      "release_date_precision": "year",
+      "release_date_context": "Year and EP association are provisional pending precise release-edition check.",
+      "release_title": "Snow in October",
+      "release_type": "EP",
+      "short_description": "Afterglow editor's pick from Chelsea Cutler's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "how-to-be-human",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "forever",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Sixteen' credited to Chelsea Cutler.",
+          "source_ids": [
+            "src-011"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2017; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Snow in October; linked recording may have additional issues.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "how-to-be-human",
+      "title": "How To Be Human",
+      "artist_slug": "chelsea-cutler",
+      "artist_credits": [
+        "Chelsea Cutler"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/5M5OVOAqBib6MBJXCK8TZl",
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "2020 album edition; standalone original release date not established.",
+      "release_title": "How To Be Human",
+      "release_type": "album",
+      "short_description": "Afterglow editor's pick from Chelsea Cutler's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "introspective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "forever",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "men-on-the-moon",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'How To Be Human' credited to Chelsea Cutler.",
+          "source_ids": [
+            "src-012"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2020; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project How To Be Human; linked recording may have additional issues.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "forever",
+      "title": "Forever",
+      "artist_slug": "chelsea-cutler",
+      "artist_credits": [
+        "Chelsea Cutler"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/5joAoABdjBh3rx98eE3oQw",
+      "release_date": "2021",
+      "release_date_precision": "year",
+      "release_date_context": "2021 album edition; song-specific artist explanation not verified.",
+      "release_title": "When I Close My Eyes",
+      "release_type": "album",
+      "short_description": "Afterglow editor's pick from Chelsea Cutler's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "men-on-the-moon",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "i-don-t-feel-alive",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Forever' credited to Chelsea Cutler.",
+          "source_ids": [
+            "src-013"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2021; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project When I Close My Eyes; linked recording may have additional issues.",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "men-on-the-moon",
+      "title": "Men On The Moon",
+      "artist_slug": "chelsea-cutler",
+      "artist_credits": [
+        "Chelsea Cutler"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/17mTYn5eDcBf54CMqwloos",
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "Song was released as a standalone single in 2022 and also appears in the 2023 Stellaria era; recording link is verified, but its particular edition is not determined.",
+      "release_title": "Stellaria",
+      "release_type": "album",
+      "short_description": "Afterglow editor's pick from Chelsea Cutler's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "i-don-t-feel-alive",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "your-bones",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Men On The Moon' credited to Chelsea Cutler.",
+          "source_ids": [
+            "src-014"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2022; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Stellaria; linked recording may have additional issues.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "i-don-t-feel-alive",
+      "title": "I Don't Feel Alive",
+      "artist_slug": "chelsea-cutler",
+      "artist_credits": [
+        "Chelsea Cutler"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/0i3V45jNnOPjFI711oLtdS",
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "2023 album-era edition; theme is a Recording Academy editorial description, not a direct song-intent quote.",
+      "release_title": "Stellaria",
+      "release_type": "album",
+      "short_description": "Afterglow editor's pick from Chelsea Cutler's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "introspective (editorial)"
+      ],
+      "themes": [
+        "feeling insufficient (editorial)"
+      ],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "your-bones",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "you-re-all-i-ever-dreamed-of",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'I Don't Feel Alive' credited to Chelsea Cutler.",
+          "source_ids": [
+            "src-015"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2023; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Stellaria; linked recording may have additional issues.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "your-bones",
+      "title": "Your Bones",
+      "artist_slug": "chelsea-cutler",
+      "artist_credits": [
+        "Chelsea Cutler"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/7aYKDcKrHifG3vL2uGIWML",
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "The date describes a documented release year or identified collection; exact first-issue day is not independently verified.",
+      "release_title": "Stellaria",
+      "release_type": "album",
+      "short_description": "Afterglow editor's pick from Chelsea Cutler's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "warm (editorial)",
+        "affectionate (editorial)"
+      ],
+      "themes": [
+        "love (editorial)",
+        "vulnerability (editorial)"
+      ],
+      "editorial_notes": "The artist’s description emphasizes spontaneity and openness rather than a preplanned message.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "Cutler said she woke early with a musical idea, saved it in a voice note, and finished a love song that emerged naturally.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "you-re-all-i-ever-dreamed-of",
+          "explanation": "Afterglow editorial pairing: both records are tagged with vulnerability.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Your Bones' credited to Chelsea Cutler.",
+          "source_ids": [
+            "src-016"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2023; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Stellaria; linked recording may have additional issues.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "you-re-all-i-ever-dreamed-of",
+      "title": "you’re all i ever dreamed of",
+      "artist_slug": "chelsea-cutler",
+      "artist_credits": [
+        "Chelsea Cutler"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/0ITVaSgOcMeLjUz9XkCoQj",
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "The date describes a documented release year or identified collection; exact first-issue day is not independently verified.",
+      "release_title": "Stellaria",
+      "release_type": "album",
+      "short_description": "Afterglow editor's pick from Chelsea Cutler's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "tender (editorial)",
+        "hopeful (editorial)"
+      ],
+      "themes": [
+        "early romance (editorial)",
+        "vulnerability (editorial)"
+      ],
+      "editorial_notes": "A companion to Your Bones, with more explicit artist-supplied personal context.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "Cutler said she wrote it about the early period of a relationship, especially the newness and perceived fragility of that connection.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "your-bones",
+          "explanation": "Afterglow editorial pairing: both records are tagged with vulnerability.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'you’re all i ever dreamed of' credited to Chelsea Cutler.",
+          "source_ids": [
+            "src-017"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2023; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Stellaria; linked recording may have additional issues.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "sad-tonight",
+      "title": "Sad Tonight",
+      "artist_slug": "chelsea-cutler",
+      "artist_credits": [
+        "Chelsea Cutler"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1X8mgsS7R6lcKLjDPeQWum",
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "Album-era selection; original standalone single date unconfirmed.",
+      "release_title": "How To Be Human",
+      "release_type": "album",
+      "short_description": "Afterglow editor's pick from Chelsea Cutler's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "easy",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "your-shirt",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Sad Tonight' credited to Chelsea Cutler.",
+          "source_ids": [
+            "src-018"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2020; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project How To Be Human; linked recording may have additional issues.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "easy",
+      "title": "Easy",
+      "artist_slug": "chelsea-cutler",
+      "artist_credits": [
+        "Chelsea Cutler"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1uDCo8ypL2ljONv7kV0M0K",
+      "release_date": "2021",
+      "release_date_precision": "year",
+      "release_date_context": "2021 album-era selection; no independently verified artist statement for this exact recording.",
+      "release_title": "When I Close My Eyes",
+      "release_type": "album",
+      "short_description": "Afterglow editor's pick from Chelsea Cutler's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "your-shirt",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "sixteen",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Easy' credited to Chelsea Cutler.",
+          "source_ids": [
+            "src-019"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2021; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project When I Close My Eyes; linked recording may have additional issues.",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://linktr.ee/chelseacutler",
+      "title": "Chelsea Cutler — verified artist Linktree",
+      "publisher": "Linktree",
+      "evidence_summary": "Explicitly verified artist-owned link hub points to official website, album, socials and artist Substack.",
+      "source_type": "verified_artist_link_hub",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-002",
+      "url": "https://www.qobuz.com/us-en/interpreter/chelsea-cutler/2723554",
+      "title": "Chelsea Cutler — biography and music catalogue",
+      "publisher": "Qobuz",
+      "evidence_summary": "Directly readable catalogued bio confirms Westport roots, 2017 Your Shirt/Sixteen, Snow in October, 2018 Sleeping with Roses projects, Jeremy Zucker collaborations, and 2020–2023 albums.",
+      "source_type": "professional_catalogue_biography",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-003",
+      "url": "https://www.grammy.com/news/chelsea-cutler-stellaria-new-album-interview-your-bones/",
+      "title": "Chelsea Cutler reflects on Stellaria",
+      "publisher": "Recording Academy / GRAMMY",
+      "evidence_summary": "First-person artist interview on making Stellaria, the inspiration and songwriting of Your Bones and you’re all i ever dreamed of.",
+      "source_type": "original_artist_interview",
+      "published_date": "2023-10",
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-004",
+      "url": "https://music.apple.com/us/album/is-this-the-end/6798862624",
+      "title": "IS THIS THE END? — album",
+      "publisher": "Apple Music",
+      "evidence_summary": "Catalogues the 2026 album by Chelsea Cutler.",
+      "source_type": "official_music_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-005",
+      "url": "https://www.universal-music.de/chelsea-cutler/news/chelsea-cutler-veroeffentlicht-ihr-album-when-i-close-my-eyes-264531",
+      "title": "When I Close My Eyes — label announcement",
+      "publisher": "Universal Music",
+      "evidence_summary": "Official-label account documents her 2021 album release.",
+      "source_type": "official_label_release",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-006",
+      "url": "https://chelseacutler.substack.com/p/my-album-is-out-now",
+      "title": "My album is out now",
+      "publisher": "Chelsea Cutler / Substack",
+      "evidence_summary": "Artist-authored notice about a newer album release, used for career chronology not for unmentioned song intentions.",
+      "source_type": "first_party_statement",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-007",
+      "url": "https://music.apple.com/us/artist/chelsea-cutler/1067387561",
+      "title": "Chelsea Cutler — music catalogue",
+      "publisher": "Apple Music",
+      "evidence_summary": "Music-service catalogue establishes artist identity and release eras.",
+      "source_type": "official_music_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-008",
+      "url": "https://www.bostonglobe.com/2020/02/20/lifestyle/rosary-beads-hand-this-singer-songwriter-is-ready-hit-road/",
+      "title": "Chelsea Cutler on touring and travel",
+      "publisher": "The Boston Globe",
+      "evidence_summary": "Contemporary interview identifies Chelsea Cutler as a Westport, Connecticut native who attended Amherst College.",
+      "source_type": "original_artist_interview",
+      "published_date": "2020-02-20",
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-009",
+      "url": "https://musicbrainz.org/artist/ae34b97a-83ae-423c-bc2d-9cc7c0e4244d",
+      "title": "Chelsea Cutler — discography",
+      "publisher": "MusicBrainz",
+      "evidence_summary": "Catalogue confirms release years for Snow in October, Sleeping with Roses, How to Be Human, When I Close My Eyes and Stellaria.",
+      "source_type": "community_music_metadata",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-010",
+      "url": "https://open.spotify.com/embed/track/5vtyFzfLkCSJvXEZFjQAa1",
+      "title": "Your Shirt — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Your Shirt' and the credited recording artist Chelsea Cutler; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-011",
+      "url": "https://open.spotify.com/embed/track/7GPmNfFp9Po1xsomflIHsB",
+      "title": "Sixteen — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Sixteen' and the credited recording artist Chelsea Cutler; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-012",
+      "url": "https://open.spotify.com/embed/track/5M5OVOAqBib6MBJXCK8TZl",
+      "title": "How To Be Human — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'How To Be Human' and the credited recording artist Chelsea Cutler; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-013",
+      "url": "https://open.spotify.com/embed/track/5joAoABdjBh3rx98eE3oQw",
+      "title": "Forever — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Forever' and the credited recording artist Chelsea Cutler; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-014",
+      "url": "https://open.spotify.com/embed/track/17mTYn5eDcBf54CMqwloos",
+      "title": "Men On The Moon — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Men On The Moon' and the credited recording artist Chelsea Cutler; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-015",
+      "url": "https://open.spotify.com/embed/track/0i3V45jNnOPjFI711oLtdS",
+      "title": "I Don't Feel Alive — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'I Don't Feel Alive' and the credited recording artist Chelsea Cutler; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-016",
+      "url": "https://open.spotify.com/embed/track/7aYKDcKrHifG3vL2uGIWML",
+      "title": "Your Bones — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Your Bones' and the credited recording artist Chelsea Cutler; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-017",
+      "url": "https://open.spotify.com/embed/track/0ITVaSgOcMeLjUz9XkCoQj",
+      "title": "you’re all i ever dreamed of — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'you’re all i ever dreamed of' and the credited recording artist Chelsea Cutler; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-018",
+      "url": "https://open.spotify.com/embed/track/1X8mgsS7R6lcKLjDPeQWum",
+      "title": "Sad Tonight — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Sad Tonight' and the credited recording artist Chelsea Cutler; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-019",
+      "url": "https://open.spotify.com/embed/track/1uDCo8ypL2ljONv7kV0M0K",
+      "title": "Easy — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Easy' and the credited recording artist Chelsea Cutler; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    }
+  ],
+  "outstanding_research": [
+    "Confirm original releases and edition-specific dates for remaining year-only or null tracks.",
+    "Review image licensing directly with rightsholders before using any artist or album photography.",
+    "Check whether previously unverified personal/social channels can be authenticated by artist or management.",
+    "Reassess live music-catalogue availability and update the editorial selection periodically."
+  ]
+}

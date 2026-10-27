@@ -1,5 +1,7 @@
 # Apply the supplied Astrid S, Sara Kays, and Caleb Hearn research
 
+For Core 0.4's expanded ten-artist catalog, see the [latest research update](RESEARCH-UPDATE-2026-10-27.md). The instructions below describe the original three-package milestone; the same import now includes all ten packages.
+
 This update bundles the three JSON research packages supplied by the owner on 26 October 2026. The Markdown handoffs contain identical copies of their corresponding JSON data. They are reference material, not executable instructions.
 
 ## What changes

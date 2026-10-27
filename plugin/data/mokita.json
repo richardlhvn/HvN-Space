@@ -1,0 +1,1040 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-26",
+  "selection": {
+    "type": "curated",
+    "description": "CURATED STARTER SELECTION of ten recordings by Mokita, spanning notable release eras and songs with source-backed editorial context. Not ranked or represented as a verified current Spotify Popular list.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-002",
+      "src-001"
+    ],
+    "limitations": [
+      "Spotify Popular could not be reproduced as a reliable market-specific current ranked ten-track list.",
+      "The order is editorial and must not be displayed as a streaming-platform popularity ranking.",
+      "The linked Spotify recording may represent a particular edition; availability may vary by market.",
+      "Track-level subjective labels are editorial. Artist statement fields require first-person song-specific evidence."
+    ]
+  },
+  "artist": {
+    "slug": "mokita",
+    "name": "Mokita",
+    "full_name": "John-Luke Carter",
+    "country": "United States",
+    "place_of_origin": "Virginia, United States (early upbringing); western North Carolina (adolescence); Nashville, Tennessee (based)",
+    "short_description": "Nashville-based singer-songwriter and producer John-Luke Carter, whose Mokita project blends vulnerable pop writing with electronic and acoustic elements.",
+    "biography": "Mokita is the artist project of John-Luke Carter, an American singer-songwriter and producer based in Nashville, Tennessee. According to a 2026 profile by his distributor, Carter was originally from Virginia and moved to North Carolina as a teenager. He described growing up with classical piano training, teaching himself guitar, and turning toward production after moving to Nashville to write songs. Alongside his solo music, he has worked behind the scenes as a songwriter and producer for other performers. Early Mokita releases leaned toward electronic pop, but later material has made room for acoustic instruments and a more restrained presentation. 'Love Alone' arrived in 2018, and Carter explained in a contemporary interview that it was motivated by the fear of being vulnerable in a relationship. The 2019 song 'colorblind' drew attention for addressing depression and the challenge of communicating an internal experience to someone else. Later projects include the 2022 EP 'Color Me In,' a self-titled 2025 album, and the 2026 single 'easy come, easy go.' His distributor characterized the later single as concerned with timing and emotional clarity. On Afterglow, Mokita offers a route from confessional songwriting into understated electronic pop. Those cross-genre recommendations are editorial choices rather than claims made by Carter himself.",
+    "spotify_url": "https://open.spotify.com/artist/3sKeaby6GMSJWgYueZaSjE",
+    "official_website": null,
+    "social_profiles": [],
+    "genres": [
+      "chill pop (source described)",
+      "electronic pop (source described)",
+      "singer-songwriter pop (editorial)"
+    ],
+    "moods": [
+      "introspective (editorial)",
+      "warm (editorial)",
+      "melancholic (editorial)"
+    ],
+    "career_milestones": [
+      {
+        "date": "2018",
+        "description": "Issued songs including Love Alone, London and With You.",
+        "source_ids": [
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "date": "2019",
+        "description": "Released colorblind, subsequently highlighted for its mental-health focus.",
+        "source_ids": [
+          "src-002",
+          "src-004"
+        ]
+      },
+      {
+        "date": "2022",
+        "description": "Released Color Me In EP.",
+        "source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "date": "2025",
+        "description": "Released self-titled Mokita album.",
+        "source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "date": "2026",
+        "description": "Released easy come, easy go and was profiled by distributor Too Lost.",
+        "source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Caleb Hearn",
+        "explanation": "Male-vocalist and introspective singer-songwriter discovery path with softer production options.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001",
+          "src-003"
+        ]
+      },
+      {
+        "name": "Chelsea Cutler",
+        "explanation": "A bridge from electronic-inflected pop into personal songwriting.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "name": "SHY Martin",
+        "explanation": "Melodic electronic pop and relational vulnerability connect these editorial styles.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001",
+          "src-003"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "full_name",
+        "claim": "Too Lost distributor and MusicBrainz identify John-Luke Carter as Mokita.",
+        "source_ids": [
+          "src-001",
+          "src-002"
+        ]
+      },
+      {
+        "field": "place_of_origin",
+        "claim": "Distributor says he came from Virginia, moved to North Carolina at fourteen and is based in Nashville.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Artist discussed early classical piano, guitar learning and later production in original interview.",
+        "source_ids": [
+          "src-003"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Distributor identifies his work as a songwriter and producer for other performers.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "His 2018 Love Alone directly addresses vulnerability in a romantic relationship.",
+        "source_ids": [
+          "src-003"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "colorblind was released in 2019 and reviewed in connection with depression.",
+        "source_ids": [
+          "src-002",
+          "src-004"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Discography includes 2022 Color Me In and 2025 self-titled album.",
+        "source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Distributor discusses 2026 single easy come, easy go.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Official Spotify embed links identify recordings credited to Mokita and link to their artist page.",
+        "source_ids": [
+          "src-005"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No suitably licensed commercial-use artist photograph was confirmed; abstract placeholder is required.",
+      "Genres and moods are Afterglow editorial labels rather than official genre or psychological classifications.",
+      "Official artist-controlled website could not be verified as accessible; official_website remains null.",
+      "Artist name is confirmed in distributor profile; no musician-controlled website with a reliably readable page was established."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "colorblind",
+      "title": "colorblind",
+      "artist_slug": "mokita",
+      "artist_credits": [
+        "Mokita"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/73qLaVz4R0EN3rFoaaSBzZ",
+      "release_date": "2019",
+      "release_date_precision": "year",
+      "release_date_context": "Original single year corroborated by MusicBrainz and 2019 release coverage.",
+      "release_title": "colorblind",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Mokita's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [
+        "melancholic (editorial)",
+        "vulnerable (editorial)"
+      ],
+      "themes": [
+        "depression (editorial)",
+        "communication (editorial)",
+        "isolation (editorial)"
+      ],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "london",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "with-you",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'colorblind' credited to Mokita.",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2019; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project colorblind; linked recording may have additional issues.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "london",
+      "title": "London",
+      "artist_slug": "mokita",
+      "artist_credits": [
+        "Mokita"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/38o5lj4mbLK34vQkJUlMrg",
+      "release_date": "2018",
+      "release_date_precision": "year",
+      "release_date_context": "MusicBrainz lists a 2018 single; no verified artist-specific interpretation.",
+      "release_title": "London",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Mokita's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "with-you",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "lonely-city",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'London' credited to Mokita.",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2018; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project London; linked recording may have additional issues.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "with-you",
+      "title": "With You",
+      "artist_slug": "mokita",
+      "artist_credits": [
+        "Mokita"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/5Lu0vv78RmKZeBPpP1N8za",
+      "release_date": "2018",
+      "release_date_precision": "year",
+      "release_date_context": "MusicBrainz lists a 2018 single; song-specific meaning not established.",
+      "release_title": "With You",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Mokita's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "lonely-city",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "down",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'With You' credited to Mokita.",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2018; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project With You; linked recording may have additional issues.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "lonely-city",
+      "title": "Lonely City",
+      "artist_slug": "mokita",
+      "artist_credits": [
+        "Mokita"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/4q3biaQQoADspV16lbsfPH",
+      "release_date": "2021",
+      "release_date_precision": "year",
+      "release_date_context": "Spotify lists a separate single release; exact date not independently confirmed.",
+      "release_title": "Lonely City",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Mokita's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "down",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "love-alone",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Lonely City' credited to Mokita.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2021; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Lonely City; linked recording may have additional issues.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "down",
+      "title": "down",
+      "artist_slug": "mokita",
+      "artist_credits": [
+        "Mokita"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/7mOcLhVf0Aj6pIfi3LcSNW",
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "2020 MusicBrainz single; lyrics or artist intent not checked.",
+      "release_title": "down",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Mokita's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "love-alone",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "more-than-friends",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'down' credited to Mokita.",
+          "source_ids": [
+            "src-009"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2020; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project down; linked recording may have additional issues.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "love-alone",
+      "title": "Love Alone",
+      "artist_slug": "mokita",
+      "artist_credits": [
+        "Mokita"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6KUsVERTI2fY3Swi5mo27R",
+      "release_date": "2018",
+      "release_date_precision": "year",
+      "release_date_context": "The date describes a documented release year or identified collection; exact first-issue day is not independently verified.",
+      "release_title": "Love Alone",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Mokita's catalogue. Song theme follows a cited artist explanation.",
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [
+        "hesitant (editorial)",
+        "vulnerable (editorial)"
+      ],
+      "themes": [
+        "relationship anxiety (editorial)",
+        "emotional risk (editorial)"
+      ],
+      "editorial_notes": "An accessible pairing with colorblind for direct, first-person emotional writing.",
+      "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "Mokita explained the song as navigating the fear of opening oneself to a new relationship and the possibility of being hurt.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "more-than-friends",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "ready-yet",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Love Alone' credited to Mokita.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2018; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Love Alone; linked recording may have additional issues.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "This song-specific explanation is paraphrased from direct artist commentary.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "themes",
+          "claim": "The themes are editorial labels derived from the indicated song-specific source rather than independent claims about lyrics or audio.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "more-than-friends",
+      "title": "More Than Friends",
+      "artist_slug": "mokita",
+      "artist_credits": [
+        "Mokita"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/0WkapTWP1Z1kJqxj2Hjzcl",
+      "release_date": "2019",
+      "release_date_precision": "year",
+      "release_date_context": "2019 MusicBrainz single; title alone does not establish narrative.",
+      "release_title": "More Than Friends",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Mokita's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "ready-yet",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "happiness",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'More Than Friends' credited to Mokita.",
+          "source_ids": [
+            "src-011"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2019; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project More Than Friends; linked recording may have additional issues.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "ready-yet",
+      "title": "Ready Yet",
+      "artist_slug": "mokita",
+      "artist_credits": [
+        "Mokita"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/17H5BFEUB0tMcQfJEcDSwH",
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "2020 MusicBrainz single; artist explanation not established.",
+      "release_title": "Ready Yet",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Mokita's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "happiness",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "easy-come-easy-go",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Ready Yet' credited to Mokita.",
+          "source_ids": [
+            "src-012"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2020; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Ready Yet; linked recording may have additional issues.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "happiness",
+      "title": "Happiness",
+      "artist_slug": "mokita",
+      "artist_credits": [
+        "Mokita"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6KGA8KZyDF9WLiI94ZTjSu",
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "2022 Nettwerk release; no precise claim about lyrical meaning is made without a fully accessible primary statement.",
+      "release_title": "Happiness",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Mokita's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "easy-come-easy-go",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "colorblind",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'Happiness' credited to Mokita.",
+          "source_ids": [
+            "src-013"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2022; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project Happiness; linked recording may have additional issues.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    },
+    {
+      "slug": "easy-come-easy-go",
+      "title": "easy come, easy go",
+      "artist_slug": "mokita",
+      "artist_credits": [
+        "Mokita"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1NUS9E7b4tiAmwt6PuiNTE",
+      "release_date": "2026",
+      "release_date_precision": "year",
+      "release_date_context": "The date describes a documented release year or identified collection; exact first-issue day is not independently verified.",
+      "release_title": "easy come, easy go",
+      "release_type": "single",
+      "short_description": "Afterglow editor's pick from Mokita's catalogue. No song-specific interpretation is asserted without a verified basis.",
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "timing (editorial)",
+        "emotional clarity (editorial)",
+        "relationships (editorial)"
+      ],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "colorblind",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "london",
+          "explanation": "Editorial discovery suggestion within the same artist catalogue; not a verified claim of shared meaning.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Official Spotify embed shows 'easy come, easy go' credited to Mokita.",
+          "source_ids": [
+            "src-014"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Supported year/identified edition: 2026; context and original-release limitations stated separately.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "release_title,release_type",
+          "claim": "Associated era/project easy come, easy go; linked recording may have additional issues.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "No verified first-person, song-specific artist explanation found; artist intent not inferred.",
+        "Exact month/day of first release not established; only year or selected era supplied."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://toolost.com/news/article/artist-spotlight-mokita",
+      "title": "Artist Spotlight: Mokita",
+      "publisher": "Too Lost",
+      "evidence_summary": "Distributor identifies John-Luke Carter, Virginia/North Carolina history, Nashville base, influences, 2019 colorblind breakthrough and 2026 easy come easy go.",
+      "source_type": "official_distributor_profile",
+      "published_date": "2026-04-20",
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-002",
+      "url": "https://musicbrainz.org/artist/8a055cb0-d793-428b-b86d-e65e7bb78c50",
+      "title": "Mokita — catalogue and aliases",
+      "publisher": "MusicBrainz",
+      "evidence_summary": "Music metadata lists legal name and release years for many 2018–2020 singles and 2022 Color Me In EP.",
+      "source_type": "community_music_metadata",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-003",
+      "url": "https://preludepress.com/interviews/2018/09/25/interview-with-mokita/",
+      "title": "Mokita on Love Alone",
+      "publisher": "Prelude Press",
+      "evidence_summary": "Direct interview describes singer-songwriter background and the song as fear of relationship vulnerability.",
+      "source_type": "original_artist_interview",
+      "published_date": "2018-09-25",
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-004",
+      "url": "https://atwoodmagazine.com/colorblind-mokita-song-review/",
+      "title": "Mokita tackles depression in colorblind",
+      "publisher": "Atwood Magazine",
+      "evidence_summary": "Original coverage identifies colorblind as Nov 1 2019 independent release and discusses its mental-health theme.",
+      "source_type": "music_review_with_artist_context",
+      "published_date": "2019-11-15",
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-005",
+      "url": "https://open.spotify.com/embed/track/73qLaVz4R0EN3rFoaaSBzZ",
+      "title": "colorblind — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'colorblind' and the credited recording artist Mokita; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-006",
+      "url": "https://open.spotify.com/embed/track/38o5lj4mbLK34vQkJUlMrg",
+      "title": "London — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'London' and the credited recording artist Mokita; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-007",
+      "url": "https://open.spotify.com/embed/track/5Lu0vv78RmKZeBPpP1N8za",
+      "title": "With You — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'With You' and the credited recording artist Mokita; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-008",
+      "url": "https://open.spotify.com/embed/track/4q3biaQQoADspV16lbsfPH",
+      "title": "Lonely City — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Lonely City' and the credited recording artist Mokita; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-009",
+      "url": "https://open.spotify.com/embed/track/7mOcLhVf0Aj6pIfi3LcSNW",
+      "title": "down — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'down' and the credited recording artist Mokita; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-010",
+      "url": "https://open.spotify.com/embed/track/6KUsVERTI2fY3Swi5mo27R",
+      "title": "Love Alone — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Love Alone' and the credited recording artist Mokita; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-011",
+      "url": "https://open.spotify.com/embed/track/0WkapTWP1Z1kJqxj2Hjzcl",
+      "title": "More Than Friends — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'More Than Friends' and the credited recording artist Mokita; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-012",
+      "url": "https://open.spotify.com/embed/track/17H5BFEUB0tMcQfJEcDSwH",
+      "title": "Ready Yet — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Ready Yet' and the credited recording artist Mokita; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-013",
+      "url": "https://open.spotify.com/embed/track/6KGA8KZyDF9WLiI94ZTjSu",
+      "title": "Happiness — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'Happiness' and the credited recording artist Mokita; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    },
+    {
+      "id": "src-014",
+      "url": "https://open.spotify.com/embed/track/1NUS9E7b4tiAmwt6PuiNTE",
+      "title": "easy come, easy go — official Spotify embed",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify embed identifies 'easy come, easy go' and the credited recording artist Mokita; the embed does not verify date or song meaning.",
+      "source_type": "official_streaming_embed",
+      "published_date": null,
+      "accessed_date": "2026-10-26",
+      "access_status": "read"
+    }
+  ],
+  "outstanding_research": [
+    "Confirm original releases and edition-specific dates for remaining year-only or null tracks.",
+    "Review image licensing directly with rightsholders before using any artist or album photography.",
+    "Check whether previously unverified personal/social channels can be authenticated by artist or management.",
+    "Reassess live music-catalogue availability and update the editorial selection periodically."
+  ]
+}
