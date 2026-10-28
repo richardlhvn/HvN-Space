@@ -1,0 +1,5 @@
+{
+  "old_sha256": "256623bd8f596835a906cbce31d1719dfc7c5ca65ce4c136b3336294bcb7cf5d",
+  "old_paragraph": "Spotify links open an external site subject to its own policies. No Spotify player, third-party font request, or third-party tracking script is loaded by this theme.",
+  "new_paragraph": "Spotify links open an external site subject to its own policies. Official Spotify players load only when you select Load Spotify player. Loading a player connects your browser to Spotify, which may process request data and use storage under its policies. No player request is made before that choice. Fonts remain local, and no advertising or analytics trackers are installed."
+}

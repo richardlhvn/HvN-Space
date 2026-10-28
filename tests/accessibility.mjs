@@ -13,7 +13,7 @@ page.on('request', request => { const url = new URL(request.url()); if (['http:'
 try {
   for (const width of [1440,390]) {
     await page.setViewportSize({width,height:width === 390 ? 844 : 1050});
-    for (const path of ['/', '/artists/', '/artists/sara-kays/', '/songs/coping/', '/saved/']) {
+    for (const path of ['/', '/artists/', '/artists/sara-kays/', '/songs/coping/', '/saved/', '/media-credits/']) {
       await page.goto(new URL(path,base).href);
       await page.evaluate(() => document.fonts.ready);
       const report = await new AxeBuilder({page}).withTags(['wcag2a','wcag2aa','wcag21aa']).analyze();

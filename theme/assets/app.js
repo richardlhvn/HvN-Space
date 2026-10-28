@@ -1,5 +1,24 @@
 (() => {
   'use strict';
+  document.addEventListener('click', event => {
+    const button = event.target.closest('.spotify-load');
+    if (!button) return;
+    const player = button.closest('[data-spotify-embed]');
+    const source = player?.dataset.spotifyEmbed || '';
+    if (!/^https:\/\/open\.spotify\.com\/embed\/(track|artist)\/[A-Za-z0-9]{22}$/.test(source) || player.querySelector('iframe')) return;
+    const frame = document.createElement('iframe');
+    frame.src = source;
+    frame.title = player.dataset.playerTitle || 'Official Spotify player';
+    frame.loading = 'lazy';
+    frame.width = '100%';
+    frame.height = '352';
+    frame.allow = 'autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture';
+    frame.allowFullscreen = true;
+    frame.referrerPolicy = 'strict-origin-when-cross-origin';
+    player.querySelector('.spotify-frame-slot').append(frame);
+    button.hidden = true;
+    frame.focus();
+  });
   const key = 'afterglow:saved:v1';
   const status = document.querySelector('#save-status');
   let timer;

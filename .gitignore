@@ -5,3 +5,4 @@ test-results/
 playwright-report/
 dist/
 *.zip
+plugin/media-assets/.test-*

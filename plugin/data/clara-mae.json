@@ -170,11 +170,13 @@
       }
     ],
     "image": {
-      "use_placeholder": true,
-      "url": null,
-      "license": null,
-      "credit": null,
-      "permission_source_ids": []
+      "use_placeholder": false,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Saja_Sessions_02_22_2018_-16_%2840461121861%29.jpg",
+      "license": "CC BY 2.0",
+      "credit": "Photo: Justin Higuchi / Wikimedia Commons · CC BY 2.0",
+      "permission_source_ids": [
+        "src-038"
+      ]
     },
     "supported_claims": [
       {
@@ -1466,6 +1468,17 @@
       "source_type": "website_current_status",
       "access_status": "read",
       "evidence_summary": "At retrieval domain displayed unrelated gambling content and could not be validated as Clara Mae’s active official site."
+    },
+    {
+      "id": "src-038",
+      "url": "https://commons.wikimedia.org/wiki/File:Saja_Sessions_02_22_2018_-16_(40461121861).jpg",
+      "title": "File:Saja Sessions 02 22 2018 -16 (40461121861).jpg",
+      "publisher": "Wikimedia Commons",
+      "published_date": null,
+      "accessed_date": "2026-10-28",
+      "source_type": "image_license_file_page",
+      "access_status": "read",
+      "evidence_summary": "Commons file page identifies Justin Higuchi as creator and displays the CC BY 2.0 rights status; licensing notes: Photo categorized as Clara Mae at Saja Sessions; Flickr CC BY 2.0 reviewed by Commons FlickreviewR 2 on 2018-12-27."
     }
   ],
   "outstanding_research": [

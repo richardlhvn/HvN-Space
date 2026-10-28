@@ -1,0 +1,1371 @@
+{
+  "schema_version": "afterglow.media.v1",
+  "audit_date": "2026-10-28",
+  "site": "Afterglow",
+  "publication_policy": {
+    "purpose": "Independent editorial artist discovery; display advertising possible",
+    "approved_status": "licence_verified_for_editorial_use",
+    "blocked_status": "placeholder_until_permission_verified",
+    "editorial_photo_usage": "No implied endorsement, artist affiliation, merchandise promotion, or image advertising. Respect country-specific personality/publicity rights.",
+    "attribution": "Place photographer/source/license near each image or link from each image to a clearly discoverable, complete Media Credits page. Indicate any changes/cropping.",
+    "share_alike": "When modifying a CC BY-SA photo, license the adapted IMAGE under the same/compatible CC BY-SA version, and preserve full credit; this does not make the whole website CC BY-SA.",
+    "source_handling": "Download only approved Commons photo files to WordPress Media Library. Do not hotlink to Wikimedia for production.",
+    "album_artwork": "No standalone cover-image downloads. Render through Spotify official embed; link to song when embeds unavailable.",
+    "spotify_policy_url": "https://developer.spotify.com/documentation/embeds/terms",
+    "rights_disclaimer": "Commons licences are uploader-provided declarations and do not eliminate third-party or personality rights; recheck status before launch."
+  },
+  "artists": [
+    {
+      "artist_slug": "astrid-s",
+      "artist_name": "Astrid S",
+      "status": "licence_verified_for_editorial_use",
+      "publish_image": true,
+      "image": {
+        "source_file_page_url": "https://commons.wikimedia.org/wiki/File:Astrid_S.jpg",
+        "source_original_page_url": "https://www.flickr.com/photos/canalstreetarendal/28598990382/",
+        "commons_filename": "Astrid S.jpg",
+        "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Astrid_S.jpg",
+        "local_media_path": null,
+        "rights_holder": "Canal Street",
+        "photographer": "Canal Street",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_details": "Flickr Creative Commons licence checked by Commons FlickreviewR 2 on 2025-03-12.",
+        "commercial_editorial_use_allowed_by_copyright_license": true,
+        "cropping_resizing": "Permitted under this license; mark material changes in credit.",
+        "attribution_required": true,
+        "attribution_text": "Photo: Canal Street / Wikimedia Commons · CC BY 2.0",
+        "original_photo_date": "2016-07-30",
+        "require_personality_rights_editorial_use_review": true,
+        "do_not_use_for_endorsement_or_paid_artist_advertisement": true,
+        "evidence_source_ids": [
+          "src-038"
+        ]
+      },
+      "notes": []
+    },
+    {
+      "artist_slug": "caleb-hearn",
+      "artist_name": "Caleb Hearn",
+      "status": "placeholder_until_permission_verified",
+      "publish_image": false,
+      "image": {
+        "source_file_page_url": null,
+        "source_original_page_url": null,
+        "commons_filename": null,
+        "original_image_url": null,
+        "local_media_path": null,
+        "rights_holder": null,
+        "photographer": null,
+        "license": null,
+        "license_url": null,
+        "license_details": null,
+        "commercial_editorial_use_allowed_by_copyright_license": false,
+        "cropping_resizing": null,
+        "attribution_required": null,
+        "attribution_text": null,
+        "original_photo_date": null,
+        "require_personality_rights_editorial_use_review": true,
+        "do_not_use_for_endorsement_or_paid_artist_advertisement": true,
+        "evidence_source_ids": []
+      },
+      "unapproved_candidate_url": "https://bongminesentertainment.com/caleb-hearn-where-do-we-go-from-here/",
+      "notes": [
+        "Press photograph credited to Hunter Cohen, but public license or permission for independent commercial editorial reuse not established."
+      ]
+    },
+    {
+      "artist_slug": "chelsea-cutler",
+      "artist_name": "Chelsea Cutler",
+      "status": "placeholder_until_permission_verified",
+      "publish_image": false,
+      "image": {
+        "source_file_page_url": null,
+        "source_original_page_url": null,
+        "commons_filename": null,
+        "original_image_url": null,
+        "local_media_path": null,
+        "rights_holder": null,
+        "photographer": null,
+        "license": null,
+        "license_url": null,
+        "license_details": null,
+        "commercial_editorial_use_allowed_by_copyright_license": false,
+        "cropping_resizing": null,
+        "attribution_required": null,
+        "attribution_text": null,
+        "original_photo_date": null,
+        "require_personality_rights_editorial_use_review": true,
+        "do_not_use_for_endorsement_or_paid_artist_advertisement": true,
+        "evidence_source_ids": []
+      },
+      "unapproved_candidate_url": "https://commons.wikimedia.org/wiki/File:Chelsea_Cutler.tif",
+      "notes": [
+        "Commons file shows CC0 data and a received-permission template, but photographer is unknown and the template warns that permission verification may be pending. Hold until permission documentation is resolved."
+      ]
+    },
+    {
+      "artist_slug": "clara-mae",
+      "artist_name": "Clara Mae",
+      "status": "licence_verified_for_editorial_use",
+      "publish_image": true,
+      "image": {
+        "source_file_page_url": "https://commons.wikimedia.org/wiki/File:Saja_Sessions_02_22_2018_-16_(40461121861).jpg",
+        "source_original_page_url": "https://www.flickr.com/photos/39400957@N03/40461121861",
+        "commons_filename": "Saja Sessions 02 22 2018 -16 (40461121861).jpg",
+        "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Saja_Sessions_02_22_2018_-16_%2840461121861%29.jpg",
+        "local_media_path": null,
+        "rights_holder": "Justin Higuchi",
+        "photographer": "Justin Higuchi",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_details": "Photo categorized as Clara Mae at Saja Sessions; Flickr CC BY 2.0 reviewed by Commons FlickreviewR 2 on 2018-12-27.",
+        "commercial_editorial_use_allowed_by_copyright_license": true,
+        "cropping_resizing": "Permitted under this license; mark material changes in credit.",
+        "attribution_required": true,
+        "attribution_text": "Photo: Justin Higuchi / Wikimedia Commons · CC BY 2.0",
+        "original_photo_date": "2018-02-22",
+        "require_personality_rights_editorial_use_review": true,
+        "do_not_use_for_endorsement_or_paid_artist_advertisement": true,
+        "evidence_source_ids": [
+          "src-038"
+        ]
+      },
+      "notes": []
+    },
+    {
+      "artist_slug": "elina",
+      "artist_name": "Elina",
+      "status": "placeholder_until_permission_verified",
+      "publish_image": false,
+      "image": {
+        "source_file_page_url": null,
+        "source_original_page_url": null,
+        "commons_filename": null,
+        "original_image_url": null,
+        "local_media_path": null,
+        "rights_holder": null,
+        "photographer": null,
+        "license": null,
+        "license_url": null,
+        "license_details": null,
+        "commercial_editorial_use_allowed_by_copyright_license": false,
+        "cropping_resizing": null,
+        "attribution_required": null,
+        "attribution_text": null,
+        "original_photo_date": null,
+        "require_personality_rights_editorial_use_review": true,
+        "do_not_use_for_endorsement_or_paid_artist_advertisement": true,
+        "evidence_source_ids": []
+      },
+      "unapproved_candidate_url": null,
+      "notes": [
+        "Unable to establish a documented commercial-use license for a specific photograph of Elina Stridh."
+      ]
+    },
+    {
+      "artist_slug": "mokita",
+      "artist_name": "Mokita",
+      "status": "placeholder_until_permission_verified",
+      "publish_image": false,
+      "image": {
+        "source_file_page_url": null,
+        "source_original_page_url": null,
+        "commons_filename": null,
+        "original_image_url": null,
+        "local_media_path": null,
+        "rights_holder": null,
+        "photographer": null,
+        "license": null,
+        "license_url": null,
+        "license_details": null,
+        "commercial_editorial_use_allowed_by_copyright_license": false,
+        "cropping_resizing": null,
+        "attribution_required": null,
+        "attribution_text": null,
+        "original_photo_date": null,
+        "require_personality_rights_editorial_use_review": true,
+        "do_not_use_for_endorsement_or_paid_artist_advertisement": true,
+        "evidence_source_ids": []
+      },
+      "unapproved_candidate_url": "https://nettwerk.com/news/chill-pop-producer-mokita-shares-new-single-happiness-via-nettwerk",
+      "notes": [
+        "Label press materials exist, but no clear reusable standalone photograph license established for a specific photo."
+      ]
+    },
+    {
+      "artist_slug": "rosie-darling",
+      "artist_name": "Rosie Darling",
+      "status": "licence_verified_for_editorial_use",
+      "publish_image": true,
+      "image": {
+        "source_file_page_url": "https://commons.wikimedia.org/wiki/File:Rosie_Darling_@_The_Echo_10_06_2023_(53422490972).jpg",
+        "source_original_page_url": "https://flickr.com/photos/39400957@N03/53422490972",
+        "commons_filename": "Rosie Darling @ The Echo 10 06 2023 (53422490972).jpg",
+        "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/13/Rosie_Darling_%40_The_Echo_10_06_2023_%2853422490972%29.jpg",
+        "local_media_path": null,
+        "rights_holder": "Justin Higuchi",
+        "photographer": "Justin Higuchi",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_details": "Photograph at The Echo; Flickr license confirmed by Commons FlickreviewR 2 on 2023-12-27.",
+        "commercial_editorial_use_allowed_by_copyright_license": true,
+        "cropping_resizing": "Permitted under this license; mark material changes in credit.",
+        "attribution_required": true,
+        "attribution_text": "Photo: Justin Higuchi / Wikimedia Commons · CC BY 2.0",
+        "original_photo_date": "2023-10-06",
+        "require_personality_rights_editorial_use_review": true,
+        "do_not_use_for_endorsement_or_paid_artist_advertisement": true,
+        "evidence_source_ids": [
+          "src-017"
+        ]
+      },
+      "notes": []
+    },
+    {
+      "artist_slug": "sara-kays",
+      "artist_name": "Sara Kays",
+      "status": "licence_verified_for_editorial_use",
+      "publish_image": true,
+      "image": {
+        "source_file_page_url": "https://commons.wikimedia.org/wiki/File:Sara_Kays_dehors_le_bar_Ritz_PDB.jpg",
+        "source_original_page_url": null,
+        "commons_filename": "Sara Kays dehors le bar Ritz PDB.jpg",
+        "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Sara_Kays_dehors_le_bar_Ritz_PDB.jpg",
+        "local_media_path": null,
+        "rights_holder": "Bull-Doser",
+        "photographer": "Bull-Doser",
+        "license": "Public domain (PD-self)",
+        "license_url": "https://commons.wikimedia.org/wiki/File:Sara_Kays_dehors_le_bar_Ritz_PDB.jpg",
+        "license_details": "Uploader identifying themself as copyright holder dedicated photograph to public domain worldwide.",
+        "commercial_editorial_use_allowed_by_copyright_license": true,
+        "cropping_resizing": "Permitted under this license; mark material changes in credit.",
+        "attribution_required": false,
+        "attribution_text": "Photo: Bull-Doser / Wikimedia Commons · Public-domain dedication",
+        "original_photo_date": "2022-06-05",
+        "require_personality_rights_editorial_use_review": true,
+        "do_not_use_for_endorsement_or_paid_artist_advertisement": true,
+        "evidence_source_ids": [
+          "src-032"
+        ]
+      },
+      "notes": []
+    },
+    {
+      "artist_slug": "sasha-alex-sloan",
+      "artist_name": "Sasha Alex Sloan",
+      "status": "licence_verified_for_editorial_use",
+      "publish_image": true,
+      "image": {
+        "source_file_page_url": "https://commons.wikimedia.org/wiki/File:Sasha_Sloan_@_The_Shrine_06_28_2019_(48498471361).jpg",
+        "source_original_page_url": "https://flickr.com/photos/39400957@N03/48498471361",
+        "commons_filename": "Sasha Sloan @ The Shrine 06 28 2019 (48498471361).jpg",
+        "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Sasha_Sloan_%40_The_Shrine_06_28_2019_%2848498471361%29.jpg",
+        "local_media_path": null,
+        "rights_holder": "Justin Higuchi",
+        "photographer": "Justin Higuchi",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "license_details": "2019 concert photograph. Flickr license confirmed by Commons FlickreviewR 2 on 2019-08-10.",
+        "commercial_editorial_use_allowed_by_copyright_license": true,
+        "cropping_resizing": "Permitted under this license; mark material changes in credit.",
+        "attribution_required": true,
+        "attribution_text": "Photo: Justin Higuchi / Wikimedia Commons · CC BY 2.0",
+        "original_photo_date": "2019-06-28",
+        "require_personality_rights_editorial_use_review": true,
+        "do_not_use_for_endorsement_or_paid_artist_advertisement": true,
+        "evidence_source_ids": [
+          "src-017"
+        ]
+      },
+      "notes": []
+    },
+    {
+      "artist_slug": "shy-martin",
+      "artist_name": "SHY Martin",
+      "status": "licence_verified_for_editorial_use",
+      "publish_image": true,
+      "image": {
+        "source_file_page_url": "https://commons.wikimedia.org/wiki/File:Shy-martin.jpg",
+        "source_original_page_url": null,
+        "commons_filename": "Shy-martin.jpg",
+        "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Shy-martin.jpg",
+        "local_media_path": null,
+        "rights_holder": "Teokg33",
+        "photographer": "Teokg33",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "license_details": "Wikimedia VRT permission ticket 2019052710006301 published on file page; share-alike applies to adaptations.",
+        "commercial_editorial_use_allowed_by_copyright_license": true,
+        "cropping_resizing": "Permitted, but adapted image must comply with ShareAlike; mark changes and republish derivative on compatible license.",
+        "attribution_required": true,
+        "attribution_text": "Photo: Teokg33 / Wikimedia Commons · CC BY-SA 4.0",
+        "original_photo_date": "2019-02-08",
+        "require_personality_rights_editorial_use_review": true,
+        "do_not_use_for_endorsement_or_paid_artist_advertisement": true,
+        "evidence_source_ids": [
+          "src-038"
+        ]
+      },
+      "notes": []
+    }
+  ],
+  "song_artworks": [
+    {
+      "artist_slug": "astrid-s",
+      "song_slug": "breathe",
+      "title": "Breathe",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/4fhVodXZARPX0oTuQh8V9l",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/4fhVodXZARPX0oTuQh8V9l",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "astrid-s",
+      "song_slug": "favorite-part-of-me",
+      "title": "Favorite Part Of Me",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/0cppqb4vQycORHNMxr8DGd",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/0cppqb4vQycORHNMxr8DGd",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "astrid-s",
+      "song_slug": "hurts-so-good",
+      "title": "Hurts So Good",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/60lwJa695S26FsYbhCVFVa",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/60lwJa695S26FsYbhCVFVa",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "astrid-s",
+      "song_slug": "i-do",
+      "title": "I Do",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/6yKkgZBuakFy6SPtsZBR5H",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/6yKkgZBuakFy6SPtsZBR5H",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "astrid-s",
+      "song_slug": "i-dont-know-why",
+      "title": "I Don't Know Why",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/0ZXdzaT1k688dkpNeEgQiV",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/0ZXdzaT1k688dkpNeEgQiV",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "astrid-s",
+      "song_slug": "its-ok-if-you-forget-me",
+      "title": "It's Ok If You Forget Me",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/312zSwwbPU7C3sTmro4Wx9",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/312zSwwbPU7C3sTmro4Wx9",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "astrid-s",
+      "song_slug": "joyride",
+      "title": "Joyride",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/6n8KUQZOne1iMIyJYhWUrj",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/6n8KUQZOne1iMIyJYhWUrj",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "astrid-s",
+      "song_slug": "such-a-boy",
+      "title": "Such A Boy",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/3oIhthYPSKwAwJLA8JClkV",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/3oIhthYPSKwAwJLA8JClkV",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "astrid-s",
+      "song_slug": "think-before-i-talk",
+      "title": "Think Before I Talk",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/4lszNcJSaz61QT6gpMhFU1",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/4lszNcJSaz61QT6gpMhFU1",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "astrid-s",
+      "song_slug": "two-hands",
+      "title": "Two Hands",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/4tkZDH3CmPBae2SztqcVIQ",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/4tkZDH3CmPBae2SztqcVIQ",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "caleb-hearn",
+      "song_slug": "1200-sq-ft",
+      "title": "1200 sq ft",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/32PsaKDm7jF7hnnw18ZBn1",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/32PsaKDm7jF7hnnw18ZBn1",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "caleb-hearn",
+      "song_slug": "always-be-2-0",
+      "title": "Always Be 2.0",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/3DaYs4ChhQbqjFP0z9KiCO",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/3DaYs4ChhQbqjFP0z9KiCO",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "caleb-hearn",
+      "song_slug": "brown-eyes-brown-hair",
+      "title": "Brown Eyes, Brown Hair",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/25zBEnljUJahVT6SUVgyc4",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/25zBEnljUJahVT6SUVgyc4",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "caleb-hearn",
+      "song_slug": "green-eyed-heart-attack",
+      "title": "GREEN EYED HEART ATTACK",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/7L8RgSfXkVtloR5WxwfgpC",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/7L8RgSfXkVtloR5WxwfgpC",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "caleb-hearn",
+      "song_slug": "it-wasnt-me-at-all",
+      "title": "It Wasn't Me at All",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/00nSg6SIvNxjfhsrzbGSOI",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/00nSg6SIvNxjfhsrzbGSOI",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "caleb-hearn",
+      "song_slug": "its-always-been-you",
+      "title": "It's Always Been You",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/6uhiewbc64ENhWvoVnQZ9s",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/6uhiewbc64ENhWvoVnQZ9s",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "caleb-hearn",
+      "song_slug": "klonopin",
+      "title": "Klonopin",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/75VHUtwzUTKmcjz8zt440c",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/75VHUtwzUTKmcjz8zt440c",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "caleb-hearn",
+      "song_slug": "little-bit-better",
+      "title": "Little Bit Better",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/0GMs3jq70wmCo12pavj4st",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/0GMs3jq70wmCo12pavj4st",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "caleb-hearn",
+      "song_slug": "the-lows",
+      "title": "THE LOWS",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/79mpJRScxPAmlIXqGhb70I",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/79mpJRScxPAmlIXqGhb70I",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "caleb-hearn",
+      "song_slug": "where-do-we-go-from-here",
+      "title": "Where Do We Go from Here?",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/0ntWxuqiNx7ShbLGzfmnOD",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/0ntWxuqiNx7ShbLGzfmnOD",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "chelsea-cutler",
+      "song_slug": "easy",
+      "title": "Easy",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/1uDCo8ypL2ljONv7kV0M0K",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/1uDCo8ypL2ljONv7kV0M0K",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "chelsea-cutler",
+      "song_slug": "forever",
+      "title": "Forever",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/5joAoABdjBh3rx98eE3oQw",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/5joAoABdjBh3rx98eE3oQw",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "chelsea-cutler",
+      "song_slug": "how-to-be-human",
+      "title": "How To Be Human",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/5M5OVOAqBib6MBJXCK8TZl",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/5M5OVOAqBib6MBJXCK8TZl",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "chelsea-cutler",
+      "song_slug": "i-don-t-feel-alive",
+      "title": "I Don't Feel Alive",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/0i3V45jNnOPjFI711oLtdS",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/0i3V45jNnOPjFI711oLtdS",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "chelsea-cutler",
+      "song_slug": "men-on-the-moon",
+      "title": "Men On The Moon",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/17mTYn5eDcBf54CMqwloos",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/17mTYn5eDcBf54CMqwloos",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "chelsea-cutler",
+      "song_slug": "sad-tonight",
+      "title": "Sad Tonight",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/1X8mgsS7R6lcKLjDPeQWum",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/1X8mgsS7R6lcKLjDPeQWum",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "chelsea-cutler",
+      "song_slug": "sixteen",
+      "title": "Sixteen",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/7GPmNfFp9Po1xsomflIHsB",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/7GPmNfFp9Po1xsomflIHsB",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "chelsea-cutler",
+      "song_slug": "you-re-all-i-ever-dreamed-of",
+      "title": "you’re all i ever dreamed of",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/0ITVaSgOcMeLjUz9XkCoQj",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/0ITVaSgOcMeLjUz9XkCoQj",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "chelsea-cutler",
+      "song_slug": "your-bones",
+      "title": "Your Bones",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/7aYKDcKrHifG3vL2uGIWML",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/7aYKDcKrHifG3vL2uGIWML",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "chelsea-cutler",
+      "song_slug": "your-shirt",
+      "title": "Your Shirt",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/5vtyFzfLkCSJvXEZFjQAa1",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/5vtyFzfLkCSJvXEZFjQAa1",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "clara-mae",
+      "song_slug": "alright-feat-russell-dickerson",
+      "title": "Alright (feat. Russell Dickerson)",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/2sCxUQfUto6uaBe1ZBHFtA",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/2sCxUQfUto6uaBe1ZBHFtA",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "clara-mae",
+      "song_slug": "better-me-better-you",
+      "title": "Better Me Better You",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/6r12RVOkFrin1piA74rWyO",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/6r12RVOkFrin1piA74rWyO",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "clara-mae",
+      "song_slug": "i-forgot",
+      "title": "I Forgot",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/6p3MquVmVPXgH5WrRYoTL8",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/6p3MquVmVPXgH5WrRYoTL8",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "clara-mae",
+      "song_slug": "im-not-her",
+      "title": "I'm Not Her",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/1G8AhUfC9RRpzsKF68YYt9",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/1G8AhUfC9RRpzsKF68YYt9",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "clara-mae",
+      "song_slug": "loved-you-once",
+      "title": "Loved You Once",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/6cc7nzmG4iClAyl47BOf2Z",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/6cc7nzmG4iClAyl47BOf2Z",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "clara-mae",
+      "song_slug": "no-jolene",
+      "title": "No Jolene",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/32MwhuIuhW55LawKJa8jyQ",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/32MwhuIuhW55LawKJa8jyQ",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "clara-mae",
+      "song_slug": "not-sad-anymore",
+      "title": "Not Sad Anymore",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/4lsQwFKcIkcXhCnw9H7Ung",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/4lsQwFKcIkcXhCnw9H7Ung",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "clara-mae",
+      "song_slug": "overused-feat-gnash",
+      "title": "Overused (feat. gnash)",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/74I76sDq0rPJV3FP4fq44d",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/74I76sDq0rPJV3FP4fq44d",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "clara-mae",
+      "song_slug": "sorry-for-writing-all-the-songs-about-you",
+      "title": "Sorry for Writing All the Songs About You",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/7CETR23Us2ET1iXIKhF5Ju",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/7CETR23Us2ET1iXIKhF5Ju",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "clara-mae",
+      "song_slug": "taped-up-heart-feat-clara-mae",
+      "title": "Taped Up Heart (feat. Clara Mae)",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/26hcyzSE154xMZCbFdtInA",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/26hcyzSE154xMZCbFdtInA",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "elina",
+      "song_slug": "another-round",
+      "title": "Another Round",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/1IW4oi4K76TaWsSjW0aeC1",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/1IW4oi4K76TaWsSjW0aeC1",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "elina",
+      "song_slug": "apologize",
+      "title": "Apologize",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/1kUiUerOAJjH4mbgSgM8VZ",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/1kUiUerOAJjH4mbgSgM8VZ",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "elina",
+      "song_slug": "blue",
+      "title": "Blue",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/65HsXWtHGIMXJE9YB7CvZA",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/65HsXWtHGIMXJE9YB7CvZA",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "elina",
+      "song_slug": "champion",
+      "title": "Champion",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/1z1mMZtZW0gvR9FSPc7JpJ",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/1z1mMZtZW0gvR9FSPc7JpJ",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "elina",
+      "song_slug": "free",
+      "title": "Free",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/2MLTj37cnRXEFMrvf9RVCa",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/2MLTj37cnRXEFMrvf9RVCa",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "elina",
+      "song_slug": "here-with-me",
+      "title": "Here With Me",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/02VOS5QRFc6i1XQVROAeDi",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/02VOS5QRFc6i1XQVROAeDi",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "elina",
+      "song_slug": "paper-planes",
+      "title": "Paper Planes",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/5GzgEC6pWf1USZsCtkG8yC",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/5GzgEC6pWf1USZsCtkG8yC",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "elina",
+      "song_slug": "remember",
+      "title": "Remember",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/36hXBosTKJPrpGBXMBGHIh",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/36hXBosTKJPrpGBXMBGHIh",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "elina",
+      "song_slug": "wild-enough",
+      "title": "Wild Enough",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/6lTDzhs8J9mqHs4cShQFVO",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/6lTDzhs8J9mqHs4cShQFVO",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "elina",
+      "song_slug": "you-make-me-think-of-fire",
+      "title": "You Make Me Think Of Fire",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/1LyBEzSxNBrPeTh3Aq9lvn",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/1LyBEzSxNBrPeTh3Aq9lvn",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "mokita",
+      "song_slug": "colorblind",
+      "title": "colorblind",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/73qLaVz4R0EN3rFoaaSBzZ",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/73qLaVz4R0EN3rFoaaSBzZ",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "mokita",
+      "song_slug": "down",
+      "title": "down",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/7mOcLhVf0Aj6pIfi3LcSNW",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/7mOcLhVf0Aj6pIfi3LcSNW",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "mokita",
+      "song_slug": "easy-come-easy-go",
+      "title": "easy come, easy go",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/1NUS9E7b4tiAmwt6PuiNTE",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/1NUS9E7b4tiAmwt6PuiNTE",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "mokita",
+      "song_slug": "happiness",
+      "title": "Happiness",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/6KGA8KZyDF9WLiI94ZTjSu",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/6KGA8KZyDF9WLiI94ZTjSu",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "mokita",
+      "song_slug": "london",
+      "title": "London",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/38o5lj4mbLK34vQkJUlMrg",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/38o5lj4mbLK34vQkJUlMrg",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "mokita",
+      "song_slug": "lonely-city",
+      "title": "Lonely City",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/4q3biaQQoADspV16lbsfPH",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/4q3biaQQoADspV16lbsfPH",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "mokita",
+      "song_slug": "love-alone",
+      "title": "Love Alone",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/6KUsVERTI2fY3Swi5mo27R",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/6KUsVERTI2fY3Swi5mo27R",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "mokita",
+      "song_slug": "more-than-friends",
+      "title": "More Than Friends",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/0WkapTWP1Z1kJqxj2Hjzcl",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/0WkapTWP1Z1kJqxj2Hjzcl",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "mokita",
+      "song_slug": "ready-yet",
+      "title": "Ready Yet",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/17H5BFEUB0tMcQfJEcDSwH",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/17H5BFEUB0tMcQfJEcDSwH",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "mokita",
+      "song_slug": "with-you",
+      "title": "With You",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/5Lu0vv78RmKZeBPpP1N8za",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/5Lu0vv78RmKZeBPpP1N8za",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "rosie-darling",
+      "song_slug": "always-almost",
+      "title": "Always Almost",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/35FwQrg7thq6kjrHL01QiJ",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/35FwQrg7thq6kjrHL01QiJ",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "rosie-darling",
+      "song_slug": "boxes",
+      "title": "Boxes",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/44N22ZXzUnAx0kZSZsH2Aq",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/44N22ZXzUnAx0kZSZsH2Aq",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "rosie-darling",
+      "song_slug": "coping",
+      "title": "Coping",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/4RX020eHQpZbZFP5jpbwOP",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/4RX020eHQpZbZFP5jpbwOP",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "rosie-darling",
+      "song_slug": "golden-age",
+      "title": "Golden Age",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/3FfbHT7O32OGWUAqctJ2nt",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/3FfbHT7O32OGWUAqctJ2nt",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "rosie-darling",
+      "song_slug": "joanna",
+      "title": "Joanna",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/6fwXcoCCisSb2NzIPKH8GI",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/6fwXcoCCisSb2NzIPKH8GI",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "rosie-darling",
+      "song_slug": "lost-on-you",
+      "title": "Lost On You",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/59llL5gGlCyMM2P1VQc74R",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/59llL5gGlCyMM2P1VQc74R",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "rosie-darling",
+      "song_slug": "reruns",
+      "title": "Reruns",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/2YBbTgu1H0kQttnPetbPGS",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/2YBbTgu1H0kQttnPetbPGS",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "rosie-darling",
+      "song_slug": "say-less",
+      "title": "Say Less",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/4BoWM5jPzcJQTOehHM6rd4",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/4BoWM5jPzcJQTOehHM6rd4",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "rosie-darling",
+      "song_slug": "this-is-me-letting-you-go",
+      "title": "This Is Me Letting You Go",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/29quxKogJxgXbbvsW8vHwx",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/29quxKogJxgXbbvsW8vHwx",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "rosie-darling",
+      "song_slug": "witness",
+      "title": "Witness",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/1DsVpqnIPZCV1YKdMragRL",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/1DsVpqnIPZCV1YKdMragRL",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "sara-kays",
+      "song_slug": "backseat-rider",
+      "title": "Backseat Rider",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/0N0xjFAF6ZklrsAtOO56Ai",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/0N0xjFAF6ZklrsAtOO56Ai",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "sara-kays",
+      "song_slug": "bench-sitter",
+      "title": "Bench Sitter",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/69PbR7w1VkVMEd7m33NsgC",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/69PbR7w1VkVMEd7m33NsgC",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "sara-kays",
+      "song_slug": "chosen-last",
+      "title": "Chosen Last",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/5X4tAxxNC5XaSgcIW3xhj7",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/5X4tAxxNC5XaSgcIW3xhj7",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "sara-kays",
+      "song_slug": "home-for-the-summer",
+      "title": "Home for the Summer",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/6zHP0OCcZYtxumAqmRuIXk",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/6zHP0OCcZYtxumAqmRuIXk",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "sara-kays",
+      "song_slug": "no-matter-the-season",
+      "title": "No Matter the Season",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/5TteeRkf1yjuDA3O5OpdVc",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/5TteeRkf1yjuDA3O5OpdVc",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "sara-kays",
+      "song_slug": "picture-of-you",
+      "title": "Picture of You",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/0PylJseXPdhgTpTAqXKiWE",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/0PylJseXPdhgTpTAqXKiWE",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "sara-kays",
+      "song_slug": "remember-that-night",
+      "title": "Remember That Night?",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/1nYzjrdVQ8RpF93M0jPFW7",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/1nYzjrdVQ8RpF93M0jPFW7",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "sara-kays",
+      "song_slug": "smaller-than-this",
+      "title": "Smaller Than This",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/29A7Zz30FbIbvlnHHaJdIx",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/29A7Zz30FbIbvlnHHaJdIx",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "sara-kays",
+      "song_slug": "struck-by-lightning-feat-cavetown",
+      "title": "Struck by Lightning (feat. Cavetown)",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/6LBvil8ZDD2nktYSmKkHIy",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/6LBvil8ZDD2nktYSmKkHIy",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "sara-kays",
+      "song_slug": "traffic-lights",
+      "title": "Traffic Lights",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/6CRMSbYypKAf9XubEsmvkN",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/6CRMSbYypKAf9XubEsmvkN",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "sasha-alex-sloan",
+      "song_slug": "dancing-with-your-ghost",
+      "title": "Dancing With Your Ghost",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/1TQXIltqoZ5XXyfCbAeSQQ",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/1TQXIltqoZ5XXyfCbAeSQQ",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "sasha-alex-sloan",
+      "song_slug": "high-school-me",
+      "title": "High School Me",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/4c8SeWzX1nvSN7chHvyq8n",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/4c8SeWzX1nvSN7chHvyq8n",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "sasha-alex-sloan",
+      "song_slug": "house-with-no-mirrors",
+      "title": "House With No Mirrors",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/55vsJO4tLZQ37qzD5QUOmh",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/55vsJO4tLZQ37qzD5QUOmh",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "sasha-alex-sloan",
+      "song_slug": "lie",
+      "title": "Lie",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/04NMWz4ctkuILV6mUR2iWp",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/04NMWz4ctkuILV6mUR2iWp",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "sasha-alex-sloan",
+      "song_slug": "matter-to-you",
+      "title": "Matter To You",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/1InPL1Qm8qJC3FIIvFruNt",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/1InPL1Qm8qJC3FIIvFruNt",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "sasha-alex-sloan",
+      "song_slug": "older",
+      "title": "Older",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/52iLDrSoRtf9lcgFuLVfqE",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/52iLDrSoRtf9lcgFuLVfqE",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "sasha-alex-sloan",
+      "song_slug": "only-child",
+      "title": "Only Child",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/1UTTbArdZ8Z7cBaAbDBAjK",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/1UTTbArdZ8Z7cBaAbDBAjK",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "sasha-alex-sloan",
+      "song_slug": "santa-s-real",
+      "title": "Santa's Real",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/6Gy3MOuOWPNs3nEorpdx5F",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/6Gy3MOuOWPNs3nEorpdx5F",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "sasha-alex-sloan",
+      "song_slug": "someone-you-hate",
+      "title": "Someone You Hate",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/2juRTLgqPmkOjgUCVcXOeC",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/2juRTLgqPmkOjgUCVcXOeC",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "sasha-alex-sloan",
+      "song_slug": "until-it-happens-to-you",
+      "title": "Until It Happens To You",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/0IJQOj33GVl6osZmxClKqV",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/0IJQOj33GVl6osZmxClKqV",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "shy-martin",
+      "song_slug": "are-you-happy",
+      "title": "Are you happy?",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/6s86N7LVaJZuU4alwKp6XO",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/6s86N7LVaJZuU4alwKp6XO",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "shy-martin",
+      "song_slug": "can-i-call-you-back",
+      "title": "Can I call you back?",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/4YUAuFDr1sXYYMOu8Oqocq",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/4YUAuFDr1sXYYMOu8Oqocq",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "shy-martin",
+      "song_slug": "forget-to-forget",
+      "title": "Forget to Forget",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/4E5IBDRu8kJbzUv1qaZM1t",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/4E5IBDRu8kJbzUv1qaZM1t",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "shy-martin",
+      "song_slug": "glued-to-the-floor",
+      "title": "glued to the floor",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/20Y7AHrMDTxzOxMfw0jCv5",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/20Y7AHrMDTxzOxMfw0jCv5",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "shy-martin",
+      "song_slug": "keep-you-mine",
+      "title": "Keep You Mine",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/0OJN2A3Qyvd7pwSF0AIteC",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/0OJN2A3Qyvd7pwSF0AIteC",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "shy-martin",
+      "song_slug": "lose-you-too",
+      "title": "Lose You Too",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/0fDHxuRdvwqL6O1Q7atg2A",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/0fDHxuRdvwqL6O1Q7atg2A",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "shy-martin",
+      "song_slug": "make-us-never-happen",
+      "title": "Make us never happen",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/03ARE7xKtbCVV2GE5j0IWq",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/03ARE7xKtbCVV2GE5j0IWq",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "shy-martin",
+      "song_slug": "nobody-likes-moving-on",
+      "title": "Nobody likes moving on",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/1XqegoC80dHvz0x238wfqG",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/1XqegoC80dHvz0x238wfqG",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "shy-martin",
+      "song_slug": "slow",
+      "title": "Slow",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/1Ia95g66IhlAJ3qVI4qI8W",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/1Ia95g66IhlAJ3qVI4qI8W",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    },
+    {
+      "artist_slug": "shy-martin",
+      "song_slug": "wish-i-didnt-know-you",
+      "title": "wish I didn’t know you",
+      "artwork_mode": "official_spotify_embed_only",
+      "spotify_track_url": "https://open.spotify.com/track/5eqawn12Jr65SvCFHvL3Jh",
+      "spotify_embed_url": "https://open.spotify.com/embed/track/5eqawn12Jr65SvCFHvL3Jh",
+      "independent_cover_asset_url": null,
+      "download_cover": false
+    }
+  ],
+  "source_registry": [
+    {
+      "source_id": "media-policy-001",
+      "url": "https://commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia/en",
+      "title": "Reusing content outside Wikimedia",
+      "read_on": "2026-10-28"
+    },
+    {
+      "source_id": "media-policy-002",
+      "url": "https://developer.spotify.com/documentation/embeds/terms",
+      "title": "Spotify widget terms",
+      "read_on": "2026-10-28"
+    },
+    {
+      "source_id": "media-policy-003",
+      "url": "https://developer.spotify.com/documentation/embeds/tutorials/creating-an-embed",
+      "title": "Spotify creating an embed",
+      "read_on": "2026-10-28"
+    },
+    {
+      "source_id": "media-photo-astrid-s",
+      "url": "https://commons.wikimedia.org/wiki/File:Astrid_S.jpg",
+      "title": "Wikimedia Commons file license: Astrid S.jpg",
+      "read_on": "2026-10-28"
+    },
+    {
+      "source_id": "media-photo-clara-mae",
+      "url": "https://commons.wikimedia.org/wiki/File:Saja_Sessions_02_22_2018_-16_(40461121861).jpg",
+      "title": "Wikimedia Commons file license: Saja Sessions 02 22 2018 -16 (40461121861).jpg",
+      "read_on": "2026-10-28"
+    },
+    {
+      "source_id": "media-photo-rosie-darling",
+      "url": "https://commons.wikimedia.org/wiki/File:Rosie_Darling_@_The_Echo_10_06_2023_(53422490972).jpg",
+      "title": "Wikimedia Commons file license: Rosie Darling @ The Echo 10 06 2023 (53422490972).jpg",
+      "read_on": "2026-10-28"
+    },
+    {
+      "source_id": "media-photo-sara-kays",
+      "url": "https://commons.wikimedia.org/wiki/File:Sara_Kays_dehors_le_bar_Ritz_PDB.jpg",
+      "title": "Wikimedia Commons file license: Sara Kays dehors le bar Ritz PDB.jpg",
+      "read_on": "2026-10-28"
+    },
+    {
+      "source_id": "media-photo-sasha-alex-sloan",
+      "url": "https://commons.wikimedia.org/wiki/File:Sasha_Sloan_@_The_Shrine_06_28_2019_(48498471361).jpg",
+      "title": "Wikimedia Commons file license: Sasha Sloan @ The Shrine 06 28 2019 (48498471361).jpg",
+      "read_on": "2026-10-28"
+    },
+    {
+      "source_id": "media-photo-shy-martin",
+      "url": "https://commons.wikimedia.org/wiki/File:Shy-martin.jpg",
+      "title": "Wikimedia Commons file license: Shy-martin.jpg",
+      "read_on": "2026-10-28"
+    }
+  ]
+}

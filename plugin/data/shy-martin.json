@@ -154,11 +154,13 @@
       }
     ],
     "image": {
-      "use_placeholder": true,
-      "url": null,
-      "license": null,
-      "credit": null,
-      "permission_source_ids": []
+      "use_placeholder": false,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Shy-martin.jpg",
+      "license": "CC BY-SA 4.0",
+      "credit": "Photo: Teokg33 / Wikimedia Commons · CC BY-SA 4.0",
+      "permission_source_ids": [
+        "src-038"
+      ]
     },
     "supported_claims": [
       {
@@ -1534,6 +1536,17 @@
       "source_type": "official_track_embed",
       "access_status": "read",
       "evidence_summary": "Spotify official embed identifies glued to the floor, lists shy martin as performer(s), and resolves this exact recording."
+    },
+    {
+      "id": "src-038",
+      "url": "https://commons.wikimedia.org/wiki/File:Shy-martin.jpg",
+      "title": "File:Shy-martin.jpg",
+      "publisher": "Wikimedia Commons",
+      "published_date": null,
+      "accessed_date": "2026-10-28",
+      "source_type": "image_license_file_page",
+      "access_status": "read",
+      "evidence_summary": "Commons file page identifies Teokg33 as creator and displays the CC BY-SA 4.0 rights status; licensing notes: Wikimedia VRT permission ticket 2019052710006301 published on file page; share-alike applies to adaptations."
     }
   ],
   "outstanding_research": [

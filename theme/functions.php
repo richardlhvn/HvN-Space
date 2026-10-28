@@ -50,7 +50,8 @@ function ag_terms_text($id, $taxonomy) {
 }
 function ag_palette($id) { $p = ag_meta('palette', $id); return in_array($p, ['lilac', 'rose', 'sage', 'sand', 'blue', 'peach'], true) ? $p : 'lilac'; }
 function ag_art($id, $class = '', $eager = false) {
-    echo '<div class="artwork palette-' . esc_attr(ag_palette($id)) . ' ' . esc_attr($class) . '">';
+    $verified_photo = function_exists('ag_media_credit') && ag_media_credit($id);
+    echo '<div class="artwork palette-' . esc_attr(ag_palette($id)) . ' ' . esc_attr($class) . ($verified_photo ? ' licensed-photo' : '') . '">';
     if (has_post_thumbnail($id) && ag_meta('artwork_credit', $id)) {
         echo get_the_post_thumbnail($id, 'ag-card', ['loading' => $eager ? 'eager' : 'lazy', 'alt' => get_the_title($id)]);
     } else {
@@ -69,7 +70,9 @@ function ag_card($id, $kind = '') {
     ag_art($id);
     echo '</a><span class="card-type">' . esc_html($kind === 'song' ? 'SONG NOTES' : 'ON OUR RADAR') . '</span>';
     ag_save_button($id);
-    echo '</div><div class="card-caption"><div><h3><a href="' . esc_url(get_permalink($id)) . '">' . esc_html(get_the_title($id)) . '</a></h3><p>' . esc_html($label ?: 'An invitation to listen') . '</p></div><a class="circle-link" href="' . esc_url(get_permalink($id)) . '" aria-label="Explore ' . esc_attr(get_the_title($id)) . '">' . ag_icon('diagonal') . '</a></div></article>';
+    echo '</div><div class="card-caption"><div><h3><a href="' . esc_url(get_permalink($id)) . '">' . esc_html(get_the_title($id)) . '</a></h3><p>' . esc_html($label ?: 'An invitation to listen') . '</p></div><a class="circle-link" href="' . esc_url(get_permalink($id)) . '" aria-label="Explore ' . esc_attr(get_the_title($id)) . '">' . ag_icon('diagonal') . '</a></div>';
+    if ($kind === 'artist' && function_exists('ag_media_credit') && ag_media_credit($id)) { echo '<p class="media-credit">' . ag_photo_credit_html($id, true) . '</p>'; }
+    echo '</article>';
 }
 function ag_song_row($id, $n = '') {
     echo '<article class="song-row"><span class="song-number">' . esc_html($n) . '</span><a class="song-thumb" href="' . esc_url(get_permalink($id)) . '" aria-label="Read ' . esc_attr(get_the_title($id)) . '">'; ag_art($id);
@@ -109,6 +112,18 @@ function ag_listen($id) {
 }
 function ag_related_ids($id, $key = 'related') {
     return array_values(array_filter(array_map('absint', explode(',', ag_meta($key, $id))), function ($v) { return get_post_status($v) === 'publish'; }));
+}
+function ag_photo_credit_html($id, $compact = false) {
+    $credit = function_exists('ag_media_credit') ? ag_media_credit($id) : [];
+    if (!$credit) { return esc_html(ag_meta('artwork_credit', $id) ?: 'Original abstract artwork · Not a photograph of the artist'); }
+    if ($compact) { return 'Photo: ' . esc_html($credit['photographer']) . ' · <a href="' . esc_url($credit['license_url']) . '" target="_blank" rel="noopener noreferrer">' . esc_html($credit['license']) . '</a> · Scaled, no crop. <a href="' . esc_url(home_url('/media-credits/#' . get_post_field('post_name', $id))) . '">Credits</a>'; }
+    return 'Photo: ' . esc_html($credit['photographer']) . ' · <a href="' . esc_url($credit['source_url']) . '" target="_blank" rel="noopener noreferrer">Source</a> · <a href="' . esc_url($credit['license_url']) . '" target="_blank" rel="noopener noreferrer">' . esc_html($credit['license']) . '</a> · ' . esc_html($credit['changes']) . ' <a href="' . esc_url(home_url('/media-credits/')) . '">Full media credits</a>';
+}
+function ag_spotify_player($id) {
+    $url = function_exists('ag_spotify_embed_url') ? ag_spotify_embed_url($id) : '';
+    if (!$url) { return; }
+    $title = 'Spotify player: ' . get_the_title($id);
+    echo '<section class="spotify-player" data-spotify-embed="' . esc_url($url) . '" data-player-title="' . esc_attr($title) . '" aria-label="' . esc_attr($title) . '"><p class="eyebrow">LISTEN WITH SPOTIFY</p><p>Load the official player to listen here. This connects to Spotify; <a href="https://www.spotify.com/legal/privacy-policy/" target="_blank" rel="noopener noreferrer">Spotify’s privacy policy</a> applies.</p><button type="button" class="button button-dark spotify-load">' . ag_icon('spotify') . 'Load Spotify player</button><div class="spotify-frame-slot" aria-live="polite"></div><p class="fine-print"><a href="' . esc_url(ag_meta('spotify', $id)) . '" target="_blank" rel="noopener noreferrer">Open directly in Spotify ↗</a> · If the player is blocked, this link remains available.</p><noscript><p>Use the Spotify link above to listen.</p></noscript></section>';
 }
 function ag_filters() {
     $action = is_post_type_archive('song') ? ag_url('songs') : ag_url('artists');

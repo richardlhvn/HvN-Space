@@ -59,7 +59,7 @@ try {
   const songTotal = Number((await page.locator('.results-heading').textContent()).match(/\d+/)[0]);
   check(songTotal >= 6 && await page.locator('.music-card').count() === Math.min(12, songTotal), 'Song directory renders its reported result count');
   await page.goto(route('/songs/coping/'));
-  check(await page.locator('.meaning-label').textContent().then(t => t.includes('Editorial')), 'Interpretation is labeled');
+  check(await page.locator('.meaning-label').textContent().then(t => t.includes('Afterglow interpretation')), 'Interpretation is labeled');
   const intentText = await page.locator('.profile-section').textContent();
   const attributed = await page.locator('.attribution-label').count();
   check(intentText.includes('No verified artist explanation') || (attributed === 1 && await page.locator('.source-list a').count() > 0), 'Artist commentary has attribution and sources, or missing intent is disclosed');

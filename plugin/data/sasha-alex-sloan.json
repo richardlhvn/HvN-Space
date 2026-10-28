@@ -113,11 +113,13 @@
       }
     ],
     "image": {
-      "use_placeholder": true,
-      "url": null,
-      "license": null,
-      "credit": null,
-      "permission_source_ids": []
+      "use_placeholder": false,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Sasha_Sloan_%40_The_Shrine_06_28_2019_%2848498471361%29.jpg",
+      "license": "CC BY 2.0",
+      "credit": "Photo: Justin Higuchi / Wikimedia Commons · CC BY 2.0",
+      "permission_source_ids": [
+        "src-017"
+      ]
     },
     "supported_claims": [
       {
@@ -1207,6 +1209,17 @@
       "published_date": null,
       "accessed_date": "2026-10-26",
       "access_status": "read"
+    },
+    {
+      "id": "src-017",
+      "url": "https://commons.wikimedia.org/wiki/File:Sasha_Sloan_@_The_Shrine_06_28_2019_(48498471361).jpg",
+      "title": "File:Sasha Sloan @ The Shrine 06 28 2019 (48498471361).jpg",
+      "publisher": "Wikimedia Commons",
+      "published_date": null,
+      "accessed_date": "2026-10-28",
+      "source_type": "image_license_file_page",
+      "access_status": "read",
+      "evidence_summary": "Commons file page identifies Justin Higuchi as creator and displays the CC BY 2.0 rights status; licensing notes: 2019 concert photograph. Flickr license confirmed by Commons FlickreviewR 2 on 2019-08-10."
     }
   ],
   "outstanding_research": [

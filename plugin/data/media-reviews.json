@@ -1,0 +1,197 @@
+{
+  "review_date": "2026-10-28",
+  "candidates": {
+    "astrid-s": {
+      "status": "live_verified",
+      "live_source_checked": true,
+      "identity_caption_checked": true,
+      "license_checked": true,
+      "commercial_editorial_use_confirmed": true,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Astrid_S.jpg",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license": "CC BY 2.0",
+      "photographer": "Canal Street",
+      "checked_at": "2026-10-28",
+      "evidence_summary": "Current Commons extmetadata retrieved through the official en.wikipedia.org shared-file MediaWiki API matches the source caption, creator, and stated copyright license. Original bytes match Commons SHA-1. Independent editorial identification only; no endorsement or advertising use.",
+      "changes": "Original full frame preserved. Display sizes are scaled without cropping.",
+      "sha256": "4c755e05d6b3e30196ee70bcdfb18f6e1519f8b11a838f5a9867404ec18f49b8",
+      "local_file": "media-assets/astrid-s.jpg",
+      "derivative_license": "CC BY 2.0",
+      "reason": "Copyright license confirmed from live official shared-file metadata; source-specific personality/endorsement review remains part of production release."
+    },
+    "caleb-hearn": {
+      "status": "placeholder_permission_unresolved",
+      "live_source_checked": false,
+      "identity_caption_checked": false,
+      "license_checked": false,
+      "commercial_editorial_use_confirmed": false,
+      "changes": "None; no photo downloaded or imported.",
+      "reason": "Official/label/photographer leads reviewed where accessible; no established commercial-editorial license for a selected alternative. Preserve placeholder pending owner-approved clearance.",
+      "local_file": null,
+      "sha256": null,
+      "research_date": "2026-10-28",
+      "research_leads": [
+        {
+          "url": "https://www.calebhearnmusic.com/",
+          "observed": "HTTP 200; public home page, no explicit reusable photo license located."
+        },
+        {
+          "url": "https://nettwerk.com/news/new-signing-caleb-hearn-shares-affecting-single-where-do-we-go-from-here-listen-here",
+          "observed": "Proxy HTTP 403; prior handoff names Hunter Cohen as photo lead, not a permission grant."
+        }
+      ]
+    },
+    "chelsea-cutler": {
+      "status": "placeholder_permission_unresolved",
+      "live_source_checked": false,
+      "identity_caption_checked": false,
+      "license_checked": false,
+      "commercial_editorial_use_confirmed": false,
+      "changes": "None; no photo downloaded or imported.",
+      "reason": "Official/label/photographer leads reviewed where accessible; no established commercial-editorial license for a selected alternative. Preserve placeholder pending owner-approved clearance.",
+      "local_file": null,
+      "sha256": null,
+      "research_date": "2026-10-28",
+      "research_leads": [
+        {
+          "url": "https://www.chelseacutler.com/",
+          "observed": "HTTP 200; official Mercury/UMG home page, no explicit reusable photo grant located."
+        },
+        {
+          "url": "https://www.universalmusic.ca/2026/07/10/chelsea-cutler-shares-new-single-what-else-out-now-alongside-official-music-video/",
+          "observed": "Proxy HTTP 403; label-publicity lead remains unverified."
+        }
+      ]
+    },
+    "clara-mae": {
+      "status": "live_verified",
+      "live_source_checked": true,
+      "identity_caption_checked": true,
+      "license_checked": true,
+      "commercial_editorial_use_confirmed": true,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Saja_Sessions_02_22_2018_-16_(40461121861).jpg",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license": "CC BY 2.0",
+      "photographer": "Justin Higuchi",
+      "checked_at": "2026-10-28",
+      "evidence_summary": "Current Commons extmetadata retrieved through the official en.wikipedia.org shared-file MediaWiki API matches the source caption, creator, and stated copyright license. Original bytes match Commons SHA-1. Independent editorial identification only; no endorsement or advertising use.",
+      "changes": "Original full frame preserved. Display sizes are scaled without cropping.",
+      "sha256": "f35d0939d6d841457c4eb73bd9ac9c3c6e8b7814ce15772586f1bd22cc0e33b5",
+      "local_file": "media-assets/clara-mae.jpg",
+      "derivative_license": "CC BY 2.0",
+      "reason": "Copyright license confirmed from live official shared-file metadata; source-specific personality/endorsement review remains part of production release."
+    },
+    "elina": {
+      "status": "placeholder_permission_unresolved",
+      "live_source_checked": false,
+      "identity_caption_checked": false,
+      "license_checked": false,
+      "commercial_editorial_use_confirmed": false,
+      "changes": "None; no photo downloaded or imported.",
+      "reason": "Official/label/photographer leads reviewed where accessible; no established commercial-editorial license for a selected alternative. Preserve placeholder pending owner-approved clearance.",
+      "local_file": null,
+      "sha256": null,
+      "research_date": "2026-10-28",
+      "research_leads": [
+        {
+          "url": "https://elinasongs.com/",
+          "observed": "HTTP 200; artist-branded Shopify storefront, no established commercial-editorial portrait license located."
+        },
+        {
+          "url": "https://bongminesentertainment.com/elina-sophomore-ep-remember/",
+          "observed": "Proxy HTTP 403; prior handoff names Hampus Hjellström as a photo lead, not a permission grant."
+        }
+      ]
+    },
+    "mokita": {
+      "status": "placeholder_permission_unresolved",
+      "live_source_checked": false,
+      "identity_caption_checked": false,
+      "license_checked": false,
+      "commercial_editorial_use_confirmed": false,
+      "changes": "None; no photo downloaded or imported.",
+      "reason": "Official/label/photographer leads reviewed where accessible; no established commercial-editorial license for a selected alternative. Preserve placeholder pending owner-approved clearance.",
+      "local_file": null,
+      "sha256": null,
+      "research_date": "2026-10-28",
+      "research_leads": [
+        {
+          "url": "https://nettwerk.com/news/chill-pop-producer-mokita-shares-new-single-happiness-via-nettwerk",
+          "observed": "HTTP 200; accessible press content credits Annie Noelker and offers a download lead. No explicit independent commercial-editorial reuse grant was established."
+        }
+      ]
+    },
+    "rosie-darling": {
+      "status": "live_verified",
+      "live_source_checked": true,
+      "identity_caption_checked": true,
+      "license_checked": true,
+      "commercial_editorial_use_confirmed": true,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Rosie_Darling_@_The_Echo_10_06_2023_(53422490972).jpg",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license": "CC BY 2.0",
+      "photographer": "Justin Higuchi",
+      "checked_at": "2026-10-28",
+      "evidence_summary": "Current Commons extmetadata retrieved through the official en.wikipedia.org shared-file MediaWiki API matches the source caption, creator, and stated copyright license. Original bytes match Commons SHA-1. Independent editorial identification only; no endorsement or advertising use.",
+      "changes": "Original full frame preserved. Display sizes are scaled without cropping.",
+      "sha256": "24dfafd918b46bec85a94121aaa9f0c2f7e0c67b19bca41d82120508d5e53082",
+      "local_file": "media-assets/rosie-darling.jpg",
+      "derivative_license": "CC BY 2.0",
+      "reason": "Copyright license confirmed from live official shared-file metadata; source-specific personality/endorsement review remains part of production release."
+    },
+    "sara-kays": {
+      "status": "live_verified",
+      "live_source_checked": true,
+      "identity_caption_checked": true,
+      "license_checked": true,
+      "commercial_editorial_use_confirmed": true,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sara_Kays_dehors_le_bar_Ritz_PDB.jpg",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Sara_Kays_dehors_le_bar_Ritz_PDB.jpg",
+      "license": "Public domain (PD-self)",
+      "photographer": "Bull-Doser",
+      "checked_at": "2026-10-28",
+      "evidence_summary": "Current Commons extmetadata retrieved through the official en.wikipedia.org shared-file MediaWiki API matches the source caption, creator, and stated copyright license. Original bytes match Commons SHA-1. Independent editorial identification only; no endorsement or advertising use.",
+      "changes": "Original full frame preserved. Display sizes are scaled without cropping.",
+      "sha256": "17e77eec1de6391b36e89843150c6357716a58105582819af11e8a4988f90511",
+      "local_file": "media-assets/sara-kays.jpg",
+      "derivative_license": "Public domain (PD-self)",
+      "reason": "Copyright license confirmed from live official shared-file metadata; source-specific personality/endorsement review remains part of production release."
+    },
+    "sasha-alex-sloan": {
+      "status": "live_verified",
+      "live_source_checked": true,
+      "identity_caption_checked": true,
+      "license_checked": true,
+      "commercial_editorial_use_confirmed": true,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Sasha_Sloan_@_The_Shrine_06_28_2019_(48498471361).jpg",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/",
+      "license": "CC BY 2.0",
+      "photographer": "Justin Higuchi",
+      "checked_at": "2026-10-28",
+      "evidence_summary": "Current Commons extmetadata retrieved through the official en.wikipedia.org shared-file MediaWiki API matches the source caption, creator, and stated copyright license. Original bytes match Commons SHA-1. Independent editorial identification only; no endorsement or advertising use.",
+      "changes": "Original full frame preserved. Display sizes are scaled without cropping.",
+      "sha256": "05c339a3d88f435ad7603a63f23e606dda6c0d8a582a96fabe150117f06f06cf",
+      "local_file": "media-assets/sasha-alex-sloan.jpg",
+      "derivative_license": "CC BY 2.0",
+      "reason": "Copyright license confirmed from live official shared-file metadata; source-specific personality/endorsement review remains part of production release."
+    },
+    "shy-martin": {
+      "status": "live_verified",
+      "live_source_checked": true,
+      "identity_caption_checked": true,
+      "license_checked": true,
+      "commercial_editorial_use_confirmed": true,
+      "source_url": "https://commons.wikimedia.org/wiki/File:Shy-martin.jpg",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license": "CC BY-SA 4.0",
+      "photographer": "Teokg33",
+      "checked_at": "2026-10-28",
+      "evidence_summary": "Current Commons extmetadata retrieved through the official en.wikipedia.org shared-file MediaWiki API matches the source caption, creator, and stated copyright license. Original bytes match Commons SHA-1. Independent editorial identification only; no endorsement or advertising use.",
+      "changes": "Original full frame preserved. Display sizes are scaled without cropping.",
+      "sha256": "1fa3d7da6ba40b9ed0336dd566fe736641b5eb20c87767f222208132c8e4dfcc",
+      "local_file": "media-assets/shy-martin.jpg",
+      "derivative_license": "CC BY-SA 4.0",
+      "reason": "Copyright license confirmed from live official shared-file metadata; source-specific personality/endorsement review remains part of production release."
+    }
+  }
+}
