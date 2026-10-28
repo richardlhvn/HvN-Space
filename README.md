@@ -12,6 +12,8 @@ Afterglow Core 0.2 adds **Artists → Research collections**, an explicit, draft
 
 **Core 0.5 media update:** see [the local update instructions](docs/LOCAL_MEDIA_UPDATE.md), [implementation and rights report](docs/MEDIA_SYNC_REPORT.md), and [Hostinger media release checklist](docs/HOSTINGER_MEDIA_RELEASE.md). It adds six source-verified portraits, complete credits, and 100 click-to-load official track embed mappings. Use **Artists → Media and embeds** after the catalog is imported. The owner approved publishing this reviewed source update to GitHub; production deployment still requires separate approval.
 
+On song pages with a verified track link, the official Spotify player now occupies the main artwork position. Click **Load Spotify player** to show Spotify's cover and playback controls together. Directory cards retain original abstract artwork; songs without a verified track link retain their artwork and Spotify search fallback. No cover image is copied into WordPress.
+
 ## Why WordPress
 
 WordPress fits Hostinger’s managed WordPress/PHP hosting and lets an editor maintain structured artist/song records without coding. The custom theme provides the design; the companion plugin owns the content models so records survive theme changes. MariaDB stores content. No build framework, music API, paid plugin, or subscription is required to run the site.

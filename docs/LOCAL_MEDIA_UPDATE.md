@@ -38,4 +38,6 @@ docker compose restart wordpress
 4. Apply the media synchronization using the button on that page. Repeating it reuses the same attachments rather than adding duplicates. Review any preserved or missing records rather than forcing an overwrite.
 5. Refresh http://localhost:8080/artists/ and check the photo credits, an artist profile, a song page, and **Media credits** in the footer. Click **Load Spotify player** to test playback from your own browser. A direct Spotify link remains available if embedding is blocked.
 
+On updated song pages, the Spotify player replaces the large abstract hero image. The real cover appears inside the full official player after you click **Load Spotify player**. Abstract illustrations remain on directory cards and on song profiles that have no verified track link. This is a theme layout update; existing Spotify mappings do not need to be imported again.
+
 You do not need to run `npm ci`, reset WordPress, or reinstall the database for this update. Never run `docker compose down -v`: that removes the stored site data.
