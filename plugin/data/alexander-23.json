@@ -1,0 +1,972 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-29",
+  "selection": {
+    "type": "curated",
+    "description": "CURATED STARTER SELECTION of ten identified songs from multiple release periods. This is not a current Spotify Popular top-ten ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-008",
+      "src-006",
+      "src-007"
+    ],
+    "limitations": [
+      "Spotify artist embed ordering is dynamic, and no stable market-specific ranking and retrieval was established.",
+      "Song sequence is editorial, not a stream count ranking.",
+      "Some recording-specific Spotify URLs remain null pending independent confirmation.",
+      "A release date tied to an album/EP edition does not establish the first release of the song."
+    ]
+  },
+  "artist": {
+    "slug": "alexander-23",
+    "name": "Alexander 23",
+    "full_name": "Alexander Glantz",
+    "country": "United States",
+    "place_of_origin": "Deerfield, Illinois, United States",
+    "short_description": "American singer-songwriter and producer whose sparse emotional pop connects vulnerability with studio craftsmanship.",
+    "biography": "Alexander 23 is the performing name of Alexander Glantz, an American singer-songwriter and producer raised in Deerfield, Illinois. After developing his musical skills and working in Los Angeles, he began releasing his own music in 2019, starting with 'Dirty AF1s' and the EP 'I'm Sorry I Love You'. His 2020 song 'IDK You Yet' became an important breakthrough, arriving during the pandemic and circulating widely through social media. His second EP, 'Oh No, Not Again!', followed in 2021 and included 'Cry Over Boys'. He has described that song as an examination of putting romantic fantasies ahead of personal wellbeing. Alongside his solo releases, Alexander developed a substantial production and songwriting career. The Recording Academy has documented his work with other popular artists, including contributions to Olivia Rodrigo's music. His first full-length album, 'Aftershock', appeared in July 2022 and included 'Hate Me If It Helps' and 'The Hardest Part'. In interviews he has explained the conflicting feelings in the former and the sensitive grief surrounding the latter. Afterglow places his solo work in the emotional-pop and alternative singer-songwriter space as an editorial description. His profile is a particularly useful discovery link to Chelsea Cutler, with whom he has a documented recording collaboration.",
+    "spotify_url": "https://open.spotify.com/artist/6sFHvCyqklnJpXC9Nh1aag",
+    "official_website": null,
+    "social_profiles": [],
+    "genres": [
+      "emotional pop (editorial)",
+      "singer-songwriter pop (editorial)"
+    ],
+    "moods": [
+      "introspective (editorial)",
+      "bittersweet (editorial)"
+    ],
+    "career_milestones": [
+      {
+        "date": "2019",
+        "description": "Began releasing solo music with Dirty AF1s and I’m Sorry I Love You EP",
+        "source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "date": "2020",
+        "description": "Released breakout recording IDK You Yet",
+        "source_ids": [
+          "src-002",
+          "src-006"
+        ]
+      },
+      {
+        "date": "2021",
+        "description": "Released Oh No, Not Again! EP",
+        "source_ids": [
+          "src-002",
+          "src-004"
+        ]
+      },
+      {
+        "date": "2022-07-15",
+        "description": "Released debut album Aftershock",
+        "source_ids": [
+          "src-007",
+          "src-002"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Chelsea Cutler",
+        "explanation": "Documented recording collaboration on Lucky and complementary confessional-pop styles.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001",
+          "src-002"
+        ]
+      },
+      {
+        "name": "Mokita",
+        "explanation": "Both fit an editorial route through melodic, male-vocal emotional pop.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001",
+          "src-002"
+        ]
+      },
+      {
+        "name": "Caleb Hearn",
+        "explanation": "Both offer a personal singer-songwriter perspective on complex relationships.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001",
+          "src-002"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "full_name",
+        "claim": "Official/secondary identity and name are given in the cited source.",
+        "source_ids": [
+          "src-001",
+          "src-002"
+        ]
+      },
+      {
+        "field": "country,place_of_origin",
+        "claim": "Artist origins and upbringing match cited biographical sources.",
+        "source_ids": [
+          "src-001",
+          "src-002"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Career origins and early release history are supported by cited artist profiles.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "biography:recent",
+        "claim": "Later projects and artist comments are supported by these first-person/catalogue sources.",
+        "source_ids": [
+          "src-003",
+          "src-004",
+          "src-005"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Official Spotify artist embed identifies this musical artist.",
+        "source_ids": [
+          "src-008"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No artist photo or album-cover commercial reuse license was independently established; retain placeholder and official Spotify embeds.",
+      "Mood, genre and cross-artist associations are Afterglow editorial choices rather than verified artist statements.",
+      "Social account ownership was not independently confirmed for publication; social_profiles remains empty.",
+      "No accessible, independently verified artist-owned website: official_website is null."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "idk-you-yet",
+      "title": "IDK You Yet",
+      "artist_slug": "alexander-23",
+      "artist_credits": [
+        "Alexander 23"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/11WbNwwAdoxfwpZxSHIP7J",
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "Linked Spotify recording is 2021 EP edition; original song is documented in 2020.",
+      "release_title": "IDK You Yet",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from Alexander 23; not part of a certified popularity ranking.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "Pandemic-era breakthrough with a documented sense of longing.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "cry-over-boys",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "brainstorm",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-009"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "cry-over-boys",
+      "title": "Cry Over Boys",
+      "artist_slug": "alexander-23",
+      "artist_credits": [
+        "Alexander 23"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/218q4fCmVERKhXEZDr6g4P",
+      "release_date": "2021-01-27",
+      "release_date_precision": "day",
+      "release_date_context": "Original single edition date is shown by Spotify.",
+      "release_title": "Cry Over Boys",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from Alexander 23; not part of a certified popularity ranking.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "Confronts cycles of idealizing romance at personal cost.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information and first-person artist commentary. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": "Alexander described recognizing his own habit of romanticizing relationships to the detriment of his happiness.",
+      "artist_statement_source_ids": [
+        "src-004"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "brainstorm",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "hate-me-if-it-helps",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Song-specific paraphrase derived from a first-person interview with the artist.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context."
+      ]
+    },
+    {
+      "slug": "brainstorm",
+      "title": "Brainstorm",
+      "artist_slug": "alexander-23",
+      "artist_credits": [
+        "Alexander 23"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6O2rEuaCuz9oULfn6USRm1",
+      "release_date": "2021",
+      "release_date_precision": "year",
+      "release_date_context": "EP edition date from Spotify; original standalone release unverified.",
+      "release_title": "Oh No, Not Again!",
+      "release_type": "ep",
+      "short_description": "Afterglow curated starter selection from Alexander 23; not part of a certified popularity ranking.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "An entry from his 2021 relationship-cycle EP.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-008"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "hate-me-if-it-helps",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "the-hardest-part",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-011"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-011"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "hate-me-if-it-helps",
+      "title": "Hate Me If It Helps",
+      "artist_slug": "alexander-23",
+      "artist_credits": [
+        "Alexander 23"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/028Dv9KHLZfxwPN8fAw4qn",
+      "release_date": "2022-07-15",
+      "release_date_precision": "day",
+      "release_date_context": "Aftershock album edition date; standalone single earlier date not established.",
+      "release_title": "Aftershock",
+      "release_type": "album",
+      "short_description": "Afterglow curated starter selection from Alexander 23; not part of a certified popularity ranking.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "Conflicting feelings about an ex’s ability to move on.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information and first-person artist commentary. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "He described wanting an ex to move on even if being hated in the process would hurt him.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "the-hardest-part",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "crash",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-012"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Song-specific paraphrase derived from a first-person interview with the artist.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context."
+      ]
+    },
+    {
+      "slug": "the-hardest-part",
+      "title": "The Hardest Part",
+      "artist_slug": "alexander-23",
+      "artist_credits": [
+        "Alexander 23"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2022-07-15",
+      "release_date_precision": "day",
+      "release_date_context": "Album issue date only.",
+      "release_title": "Aftershock",
+      "release_type": "album",
+      "short_description": "Afterglow curated starter selection from Alexander 23; not part of a certified popularity ranking.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "Grief-centered song with a documented first-person explanation.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information and first-person artist commentary. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-005"
+      ],
+      "artist_statement_paraphrase": "Alexander said the subject involved other people’s grief, making him initially reluctant to release the song.",
+      "artist_statement_source_ids": [
+        "src-005"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "crash",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "somebodys-nobody",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Song-specific paraphrase derived from a first-person interview with the artist.",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context."
+      ]
+    },
+    {
+      "slug": "crash",
+      "title": "Crash",
+      "artist_slug": "alexander-23",
+      "artist_credits": [
+        "Alexander 23"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "Album edition 2022, not necessarily standalone first release.",
+      "release_title": "Aftershock",
+      "release_type": "album",
+      "short_description": "Afterglow curated starter selection from Alexander 23; not part of a certified popularity ranking.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Introduces another selection from the debut album.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-007"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "somebodys-nobody",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "dirty-af1s",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "somebodys-nobody",
+      "title": "Somebody's Nobody",
+      "artist_slug": "alexander-23",
+      "artist_credits": [
+        "Alexander 23"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/2b0zJ2tlY2wEacrPMU0Qxr",
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "Album year documented; linked recording may be compilation edition.",
+      "release_title": "Aftershock",
+      "release_type": "album",
+      "short_description": "Afterglow curated starter selection from Alexander 23; not part of a certified popularity ranking.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Another view of the album’s relationship themes without claiming specific intent.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-007"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "dirty-af1s",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "lucky",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-013"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "dirty-af1s",
+      "title": "Dirty AF1s",
+      "artist_slug": "alexander-23",
+      "artist_credits": [
+        "Alexander 23"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2019",
+      "release_date_precision": "year",
+      "release_date_context": "Documented debut single era; exact original date not independently checked.",
+      "release_title": "I'm Sorry I Love You",
+      "release_type": "ep",
+      "short_description": "Afterglow curated starter selection from Alexander 23; not part of a certified popularity ranking.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "A useful starting point for his early minimalist pop sound, described editorially.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "lucky",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "everythings-fine",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "lucky",
+      "title": "Lucky",
+      "artist_slug": "alexander-23",
+      "artist_credits": [
+        "Chelsea Cutler",
+        "Alexander 23"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6ymNwyDXZBzVeoWvtpY48M",
+      "release_date": "2019",
+      "release_date_precision": "year",
+      "release_date_context": "Apple Music lists this album version under 2019; the selected Spotify recording comes from a later compilation, so first release date is not established.",
+      "release_title": "How To Be Human (Bonus Track Version)",
+      "release_type": "album",
+      "short_description": "Afterglow curated starter selection from Alexander 23; not part of a certified popularity ranking.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Joint recording that creates an explicit discovery bridge to existing Afterglow artist Chelsea Cutler.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-006"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "everythings-fine",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "idk-you-yet",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-014"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "everythings-fine",
+      "title": "Everything’s Fine",
+      "artist_slug": "alexander-23",
+      "artist_credits": [
+        "Alexander 23"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/4yas02w61EJjQS8TVnC56Z",
+      "release_date": "2022-07-15",
+      "release_date_precision": "day",
+      "release_date_context": "Spotify identifies track and dated album edition.",
+      "release_title": "Aftershock",
+      "release_type": "album",
+      "short_description": "Afterglow curated starter selection from Alexander 23; not part of a certified popularity ranking.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "A further documented entry from Aftershock, with no claimed first-person interpretation.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-007"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "idk-you-yet",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "cry-over-boys",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-015"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.grammy.com/news/alexander-23-interview-songwriter-producer-pop-secret-weapon/",
+      "title": "Alexander 23 on songwriting and production",
+      "publisher": "Recording Academy / GRAMMY.com",
+      "evidence_summary": "First-person interview confirms full name Alexander Glantz, Deerfield origins and professional producing/songwriting.",
+      "source_type": "first_person_interview",
+      "published_date": "2025-08-07",
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-001"
+    },
+    {
+      "url": "https://music.apple.com/us/artist/alexander-23/1455299847",
+      "title": "Alexander 23 artist discography",
+      "publisher": "Apple Music",
+      "evidence_summary": "Official catalogue dates Dirty AF1s and first EP to 2019, IDK You Yet to 2020, the 2021 EP and 2022 album.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-002"
+    },
+    {
+      "url": "https://www.philippineconcerts.com/interviews/alexander-23-new-album-concert-interview/",
+      "title": "Alexander 23 on Aftershock",
+      "publisher": "Philippine Concerts",
+      "evidence_summary": "First-person explanation of Hate Me If It Helps and emotional context of album.",
+      "source_type": "first_person_interview",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-003"
+    },
+    {
+      "url": "https://observer.case.edu/alexander-23-speaks-on-his-new-album-oh-no-not-again/",
+      "title": "Alexander 23 speaks on Oh No, Not Again!",
+      "publisher": "The Observer",
+      "evidence_summary": "Artist explains Cry Over Boys as recognizing unhealthy romantic idealization in himself.",
+      "source_type": "first_person_interview",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-004"
+    },
+    {
+      "url": "https://bleachedistheword.com/2022/08/29/interview-alexander-23-3/",
+      "title": "Alexander 23 interview about Aftershock",
+      "publisher": "BLEACHED",
+      "evidence_summary": "First-person reflection about the grief and discomfort involved in writing The Hardest Part.",
+      "source_type": "first_person_interview",
+      "published_date": "2022-08-29",
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-005"
+    },
+    {
+      "url": "https://music.apple.com/us/artist/alexander-23/1455299847",
+      "title": "Alexander 23 — catalogue",
+      "publisher": "Apple Music",
+      "evidence_summary": "Lists songs and releases including IDK You Yet, Brainstorm, Cry Over Boys, Hate Me If It Helps, Dirty AF1s and The Hardest Part.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-006"
+    },
+    {
+      "url": "https://open.spotify.com/track/4yas02w61EJjQS8TVnC56Z",
+      "title": "Aftershock — Spotify album context",
+      "publisher": "Spotify",
+      "evidence_summary": "From linked Everything’s Fine track, Spotify displays Aftershock track list and July 15 2022 edition date.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": "2022-07-15",
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-007"
+    },
+    {
+      "url": "https://open.spotify.com/embed/artist/6sFHvCyqklnJpXC9Nh1aag",
+      "title": "Alexander 23 — Spotify artist player",
+      "publisher": "Spotify",
+      "evidence_summary": "Official embed verifies identity and selected prominent recordings.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-008"
+    },
+    {
+      "url": "https://open.spotify.com/track/11WbNwwAdoxfwpZxSHIP7J",
+      "title": "IDK You Yet — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as IDK You Yet credited to Alexander 23, shown on IDK You Yet.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-009"
+    },
+    {
+      "url": "https://open.spotify.com/track/218q4fCmVERKhXEZDr6g4P",
+      "title": "Cry Over Boys — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as Cry Over Boys credited to Alexander 23, shown on Cry Over Boys.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-010"
+    },
+    {
+      "url": "https://open.spotify.com/track/6O2rEuaCuz9oULfn6USRm1",
+      "title": "Brainstorm — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as Brainstorm credited to Alexander 23, shown on Oh No, Not Again!.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-011"
+    },
+    {
+      "url": "https://open.spotify.com/track/028Dv9KHLZfxwPN8fAw4qn",
+      "title": "Hate Me If It Helps — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as Hate Me If It Helps credited to Alexander 23, shown on Aftershock.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-012"
+    },
+    {
+      "url": "https://open.spotify.com/track/2b0zJ2tlY2wEacrPMU0Qxr",
+      "title": "Somebody's Nobody — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as Somebody's Nobody credited to Alexander 23, shown on Aftershock.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-013"
+    },
+    {
+      "url": "https://open.spotify.com/track/6ymNwyDXZBzVeoWvtpY48M",
+      "title": "Lucky — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as Lucky credited to Chelsea Cutler, Alexander 23, shown on How To Be Human (Bonus Track Version).",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-014"
+    },
+    {
+      "url": "https://open.spotify.com/track/4yas02w61EJjQS8TVnC56Z",
+      "title": "Everything’s Fine — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as Everything’s Fine credited to Alexander 23, shown on Aftershock.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-015"
+    }
+  ],
+  "outstanding_research": [
+    "Verify each song with null spotify_url against a direct official Spotify track page, checking performing artists and editions.",
+    "Confirm first-release dates separately from subsequent album and compilation editions.",
+    "Locate additional original interviews that substantiate song-specific artist intent.",
+    "Secure explicit commercial editorial use rights before adding artist photographs to WordPress.",
+    "Confirm social media accounts from an official source before publishing social links."
+  ]
+}

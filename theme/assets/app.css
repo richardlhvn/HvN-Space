@@ -13,4 +13,5 @@
 .art-credit{font-size:11px}
 .spotify-player>p a{text-decoration:underline;text-underline-offset:3px}
 .song-profile .profile-art-column>.spotify-player{margin-top:0}
+.recording-credits a{text-decoration:underline;text-underline-offset:3px}
 @media(max-width:640px){.song-profile .profile-art-column>.spotify-player{order:0}}

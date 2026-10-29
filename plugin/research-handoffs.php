@@ -2,8 +2,13 @@
 defined('ABSPATH') || exit;
 
 function ag_handoff_packs() {
-    $packs = [];
-    foreach (['astrid-s', 'sara-kays', 'caleb-hearn', 'shy-martin', 'clara-mae', 'elina', 'chelsea-cutler', 'mokita', 'rosie-darling', 'sasha-alex-sloan'] as $slug) {
+    $catalog = json_decode(file_get_contents(__DIR__ . '/data/research-catalog.json'), true);
+    if (($catalog['schema_version'] ?? '') !== 'afterglow.catalog.v1') { throw new RuntimeException('Invalid research catalog.'); }
+    $slugs = array_merge(...array_column($catalog['batches'], 'slugs'));
+    if (count($slugs) !== count(array_unique($slugs))) { throw new RuntimeException('Duplicate catalog artist.'); }
+    $packs = []; $recordings = [];
+    foreach ($slugs as $slug) {
+        if (!preg_match('/^[a-z0-9]+(?:-[a-z0-9]+)*$/D', $slug)) { throw new RuntimeException('Invalid catalog slug.'); }
         $data = json_decode(file_get_contents(__DIR__ . '/data/' . $slug . '.json'), true);
         if (!is_array($data) || ($data['schema_version'] ?? '') !== 'afterglow.research.v1' || ($data['artist']['slug'] ?? '') !== $slug || count($data['songs'] ?? []) !== 10) {
             throw new RuntimeException('Invalid bundled research package: ' . $slug);
@@ -19,9 +24,27 @@ function ag_handoff_packs() {
                 $validate($child);
             }
         };
-        $validate($data); $packs[$slug] = $data;
+        $validate($data);
+        if (!empty($data['artist']['spotify_url']) && !preg_match('~^https://open\.spotify\.com/artist/[A-Za-z0-9]{22}$~D', $data['artist']['spotify_url'])) { throw new RuntimeException('Invalid Spotify artist URL.'); }
+        $song_slugs = array_column($data['songs'], 'slug');
+        if (count($song_slugs) !== count(array_unique($song_slugs))) { throw new RuntimeException('Duplicate song slug in artist package.'); }
+        foreach ($data['songs'] as $song) {
+            if (($song['artist_slug'] ?? '') !== $slug || !preg_match('/^[a-z0-9]+(?:-[a-z0-9]+)*$/D', $song['slug'])) { throw new RuntimeException('Invalid artist-scoped song key.'); }
+            if ($song['spotify_url'] !== null) {
+                if (!preg_match('~^https://open\.spotify\.com/track/[A-Za-z0-9]{22}$~D', $song['spotify_url'])) { throw new RuntimeException('Invalid Spotify recording URL.'); }
+                if (isset($recordings[$song['spotify_url']])) { throw new RuntimeException('A shared recording requires review before it can be imported twice.'); }
+                $recordings[$song['spotify_url']] = $slug . '/' . $song['slug'];
+            }
+            foreach ($song['related_songs'] as $related) { if (!in_array($related['song_slug'], $song_slugs, true)) { throw new RuntimeException('Unknown related song.'); } }
+        }
+        $packs[$slug] = $data;
     }
     return $packs;
+}
+
+function ag_handoff_collection_packs($collection) {
+    $packs = ag_handoff_packs();
+    return $collection === 'all' ? $packs : array_filter($packs, function ($pack) use ($collection) { return $pack['research_date'] === $collection; });
 }
 
 function ag_handoff_state($id) {
@@ -149,15 +172,23 @@ function ag_handoff_save($id, $pack, $record, $artist, $artist_id, $publish) {
     update_post_meta($id, '_ag_handoff_key', $key);
     update_post_meta($id, '_ag_handoff_record', $record);
     update_post_meta($id, '_ag_handoff_date', $pack['research_date']);
+    // Source IDs restart inside each artist package. Never merge bare src-001 identities.
+    update_post_meta($id, '_ag_source_scope', $pack['artist']['slug']);
+    update_post_meta($id, '_ag_source_registry', $pack['sources']);
     return $id;
 }
 
-function ag_apply_handoffs($publish = true) {
+function ag_apply_handoffs($publish = true, $slugs = null) {
     if (!current_user_can('manage_options')) { return new WP_Error('forbidden', 'Administrator access is required.'); }
+    $packs = ag_handoff_packs();
+    if ($slugs !== null) {
+        if (!is_array($slugs) || !$slugs || array_diff($slugs, array_keys($packs))) { return new WP_Error('invalid_collection', 'Choose an existing research collection.'); }
+        $packs = array_intersect_key($packs, array_fill_keys($slugs, true));
+    }
     if (!add_option('ag_handoff_lock', time(), '', false)) { return new WP_Error('busy', 'An import is running. If it was interrupted, an administrator can clear its import lock after inspection.'); }
     $report = ['updated' => [], 'created' => [], 'preserved' => []]; $editable = []; $maps = [];
     try {
-        foreach (ag_handoff_packs() as $slug => $pack) {
+        foreach ($packs as $slug => $pack) {
             $artist_id = ag_handoff_find($slug); $key = ag_handoff_key($slug);
             if (ag_handoff_can_update($artist_id, $key)) {
                 $old = $artist_id; $artist_id = ag_handoff_save($artist_id, $pack, $pack['artist'], true, 0, $publish);
@@ -175,7 +206,7 @@ function ag_apply_handoffs($publish = true) {
                 $maps[$slug]['songs'][$song['slug']] = $id;
             }
         }
-        foreach (ag_handoff_packs() as $slug => $pack) {
+        foreach ($packs as $slug => $pack) {
             $key = ag_handoff_key($slug); $map = $maps[$slug];
             if (isset($editable[$key])) {
                 update_post_meta($map['artist'], '_ag_recommended', implode(',', $map['songs']));
@@ -205,11 +236,18 @@ add_action('admin_menu', function () {
 });
 function ag_handoff_page() {
     if (!current_user_can('manage_options')) { return; }
-    echo '<div class="wrap"><h1>Import supplied research</h1><p>Ten supplied research packages dated 25–26 October 2026: Astrid S, Sara Kays, Caleb Hearn, shy martin, Clara Mae, Elina, Chelsea Cutler, Mokita, Rosie Darling, and Sasha Alex Sloan. Each contains ten curated songs, not a ranked top ten.</p><p>Unchanged starter records are updated; edited records and records in Trash are preserved. New pages remain noindex with the review flag. Artist photographs are not imported. Clara Mae’s former website is excluded because the supplied research reports unrelated current content. The automatic-transcript statement for It’s Ok If You Forget Me is withheld pending audio verification.</p>';
+    $all = ag_handoff_packs(); $dates = array_unique(array_column($all, 'research_date')); rsort($dates);
+    $collection = isset($_GET['collection']) && is_string($_GET['collection']) ? sanitize_text_field(wp_unslash($_GET['collection'])) : $dates[0];
+    if ($collection !== 'all' && !in_array($collection, $dates, true)) { $collection = $dates[0]; }
+    $packs = ag_handoff_collection_packs($collection);
+    echo '<div class="wrap"><h1>Import supplied research</h1><p>' . count($all) . ' bundled artist packages, each containing ten curated songs. These are editorial selections, not popularity rankings. The newest research date is selected by default; choose All research only when you intend to synchronize earlier packages too.</p><p>Edited records and records in Trash are preserved. New pages remain noindex pending review. No photographs are imported here. Missing track links stay missing and use a verified artist profile when available. Full source registries remain scoped to each artist. Clara Mae’s former website and the unconfirmed automatic-transcript statement remain excluded.</p>';
+    echo '<form method="get" action="' . esc_url(admin_url('edit.php')) . '"><input type="hidden" name="post_type" value="artist"><input type="hidden" name="page" value="ag-handoffs"><label for="ag-research-collection">Research collection </label><select id="ag-research-collection" name="collection">';
+    foreach (array_merge($dates, ['all']) as $date) { echo '<option value="' . esc_attr($date) . '" ' . selected($collection, $date, false) . '>' . esc_html($date === 'all' ? 'All research' : $date) . '</option>'; }
+    echo '</select> <button class="button" type="submit">Review collection</button></form><p>Selected: ' . count($packs) . ' artists and ' . array_sum(array_map(function ($p) { return count($p['songs']); }, $packs)) . ' curated songs.</p>';
     $report = get_option('ag_handoff_last_report');
     if ($report) { echo '<div class="notice notice-info inline"><p>Last import: ' . count($report['created']) . ' created, ' . count($report['updated']) . ' updated, ' . count($report['preserved']) . ' preserved.</p></div>'; }
     echo '<table class="widefat striped"><thead><tr><th>Record</th><th>Action</th></tr></thead><tbody>';
-    foreach (ag_handoff_packs() as $slug => $pack) {
+    foreach ($packs as $slug => $pack) {
         $artist_id = ag_handoff_find($slug);
         $records = [[$pack['artist']['name'], ag_handoff_key($slug), $artist_id]];
         foreach ($pack['songs'] as $song) { $records[] = [$song['title'], ag_handoff_key($slug, $song), ag_handoff_find($slug, $song, $artist_id)]; }
@@ -218,14 +256,17 @@ function ag_handoff_page() {
             if ($id) { echo ' · <a href="' . esc_url(get_edit_post_link($id)) . '">Open record</a>'; } echo '</td></tr>';
         }
     }
-    echo '</tbody></table><form action="' . esc_url(admin_url('admin-post.php')) . '" method="post"><input type="hidden" name="action" value="ag_apply_handoffs">'; wp_nonce_field('ag_apply_handoffs');
+    echo '</tbody></table><form action="' . esc_url(admin_url('admin-post.php')) . '" method="post"><input type="hidden" name="action" value="ag_apply_handoffs"><input type="hidden" name="collection" value="' . esc_attr($collection) . '">'; wp_nonce_field('ag_apply_handoffs');
     echo '<p><label><input type="checkbox" name="show_on_site" value="1" checked> Show imported pages on the site for review (keep noindex). Uncheck to keep new pages as drafts and preserve existing statuses.</label></p>';
     submit_button('Apply supplied research'); echo '</form><h2>Preserved records</h2><p>If a row says Preserve, its content differs from the original starter or its last import. Review it manually using the bundled package; this importer will not overwrite your work.</p></div>';
 }
 add_action('admin_post_ag_apply_handoffs', function () {
     if (!current_user_can('manage_options') || ($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') { wp_die('Not permitted.', '', ['response' => 403]); }
     check_admin_referer('ag_apply_handoffs');
-    $result = ag_apply_handoffs(($_POST['show_on_site'] ?? '') === '1');
+    $collection = isset($_POST['collection']) && is_string($_POST['collection']) ? sanitize_text_field(wp_unslash($_POST['collection'])) : '';
+    $selected = ag_handoff_collection_packs($collection);
+    if (!$selected) { wp_die('Choose an existing research collection.', '', ['response' => 400]); }
+    $result = ag_apply_handoffs(($_POST['show_on_site'] ?? '') === '1', array_keys($selected));
     if (is_wp_error($result)) { wp_die(esc_html($result->get_error_message()), '', ['response' => 400]); }
-    wp_safe_redirect(admin_url('edit.php?post_type=artist&page=ag-handoffs')); exit;
+    wp_safe_redirect(add_query_arg('collection', $collection, admin_url('edit.php?post_type=artist&page=ag-handoffs'))); exit;
 });

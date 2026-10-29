@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Afterglow Core
  * Description: Artist and song records, curated relationships, and source-aware editorial fields.
- * Version: 0.5.0
+ * Version: 0.6.0
  * Requires at least: 6.6
  * Requires PHP: 8.1
  * License: GPL-2.0-or-later
@@ -172,7 +172,7 @@ add_action('pre_get_posts', function ($q) {
     if ($q->is_post_type_archive(['artist', 'song']) || $q->is_tax(['genre', 'mood', 'country'])) {
         $q->set('posts_per_page', 12);
         $q->set('orderby', 'title'); $q->set('order', 'ASC');
-        if (isset($_GET['q']) && is_string($_GET['q'])) { $q->set('s', sanitize_text_field(wp_unslash($_GET['q']))); }
+        if (isset($_GET['q']) && is_string($_GET['q'])) { $q->set('s', sanitize_text_field(wp_unslash($_GET['q']))); $q->set('search_columns', ['post_title']); }
         $tax = [];
         foreach (['genre', 'mood', 'country'] as $name) {
             $key = 'filter_' . $name;

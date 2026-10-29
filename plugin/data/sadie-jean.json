@@ -1,0 +1,946 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-29",
+  "selection": {
+    "type": "curated",
+    "description": "CURATED STARTER SELECTION of ten identified songs from multiple release periods. This is not a current Spotify Popular top-ten ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-008",
+      "src-007",
+      "src-006"
+    ],
+    "limitations": [
+      "Spotify artist embed ordering is dynamic, and no stable market-specific ranking and retrieval was established.",
+      "Song sequence is editorial, not a stream count ranking.",
+      "Some recording-specific Spotify URLs remain null pending independent confirmation.",
+      "A release date tied to an album/EP edition does not establish the first release of the song."
+    ]
+  },
+  "artist": {
+    "slug": "sadie-jean",
+    "name": "Sadie Jean",
+    "full_name": null,
+    "country": "United States",
+    "place_of_origin": "Orange County, California, United States",
+    "short_description": "California singer-songwriter creating candid, relationship-focused pop about the uncertainty of growing up.",
+    "biography": "Sadie Jean is an American singer-songwriter raised in Orange County, California. She attended New York University, where she found collaborators who helped her begin recording and releasing original songs. Her breakout arrived with the independently released 'WYD Now?' in 2021, which gained wide attention through short-form video. She followed it with 'Locksmith' in 2022 and the 2023 EP 'Simple Like 17', establishing a catalogue centered on complicated relationships, nostalgia, and the particular intensity of young adulthood. Her full-length album 'Early Twenties Torture' arrived in October 2025. Speaking about that album, Jean said its earliest and latest compositions spanned her ages of 20 to 23, turning the project into a record of changing experiences and perspectives. She has also described how the writing moved from processing an earlier breakup toward meeting new people and navigating unfamiliar relationships. Afterglow approaches her work as confessional emotional pop: that classification is editorial, while the releases and autobiographical context are documented. Her material makes a natural companion to the relationship storytelling already represented by Sara Kays and Rosie Darling on the site.",
+    "spotify_url": "https://open.spotify.com/artist/0sMAHzxguan2KpnKFZPW2d",
+    "official_website": "https://www.sadiejean.com/",
+    "social_profiles": [],
+    "genres": [
+      "emotional pop (editorial)",
+      "singer-songwriter pop (editorial)"
+    ],
+    "moods": [
+      "introspective (editorial)",
+      "bittersweet (editorial)"
+    ],
+    "career_milestones": [
+      {
+        "date": "2021",
+        "description": "Released breakout single WYD Now?",
+        "source_ids": [
+          "src-002",
+          "src-007"
+        ]
+      },
+      {
+        "date": "2022",
+        "description": "Released Locksmith",
+        "source_ids": [
+          "src-007"
+        ]
+      },
+      {
+        "date": "2023-12",
+        "description": "Released EP Simple Like 17",
+        "source_ids": [
+          "src-003",
+          "src-007"
+        ]
+      },
+      {
+        "date": "2025-10-24",
+        "description": "Released debut album Early Twenties Torture",
+        "source_ids": [
+          "src-006",
+          "src-004"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Sara Kays",
+        "explanation": "Both foreground personal vulnerability and the aftermath of relationships.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "name": "Rosie Darling",
+        "explanation": "Both provide intimate songs about difficult separations and growing up.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "name": "Sasha Alex Sloan",
+        "explanation": "Both use directly personal songwriting in accessible pop forms.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002",
+          "src-003"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "country,place_of_origin",
+        "claim": "Artist origins and upbringing match cited biographical sources.",
+        "source_ids": [
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Career origins and early release history are supported by cited artist profiles.",
+        "source_ids": [
+          "src-002",
+          "src-003",
+          "src-004"
+        ]
+      },
+      {
+        "field": "biography:recent",
+        "claim": "Later projects and artist comments are supported by these first-person/catalogue sources.",
+        "source_ids": [
+          "src-004",
+          "src-006",
+          "src-001"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Official Spotify artist embed identifies this musical artist.",
+        "source_ids": [
+          "src-008"
+        ]
+      },
+      {
+        "field": "official_website",
+        "claim": "Artist-branded official website was readable during the research window.",
+        "source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No artist photo or album-cover commercial reuse license was independently established; retain placeholder and official Spotify embeds.",
+      "Mood, genre and cross-artist associations are Afterglow editorial choices rather than verified artist statements.",
+      "Social account ownership was not independently confirmed for publication; social_profiles remains empty.",
+      "Full legal name not established through sufficiently reliable evidence: full_name is null."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "wyd-now",
+      "title": "WYD Now?",
+      "artist_slug": "sadie-jean",
+      "artist_credits": [
+        "Sadie Jean"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/050mgGApqfh0HGQaD1i3h0",
+      "release_date": "2021-12-10",
+      "release_date_precision": "day",
+      "release_date_context": "Breakthrough released in 2021; the selected URL is the standalone track.",
+      "release_title": "WYD Now?",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from Sadie Jean; not part of a certified popularity ranking.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "A pivotal early track for exploring Jean’s relationship-centered songwriting.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "locksmith",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "just-because",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-009"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "locksmith",
+      "title": "Locksmith",
+      "artist_slug": "sadie-jean",
+      "artist_credits": [
+        "Sadie Jean"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/4Z9JSBMTTZOGw4NdyGjdOX",
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "Spotify standalone recording identified; only release year is carried from catalogue.",
+      "release_title": "Locksmith",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from Sadie Jean; not part of a certified popularity ranking.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "A bridge from the first viral release to the more developed EP era.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "just-because",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "october-25th",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "just-because",
+      "title": "Just Because",
+      "artist_slug": "sadie-jean",
+      "artist_credits": [
+        "Sadie Jean"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/64A7AHwsnUh4EWuex6kxU9",
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "Standalone single appears in the 2023 catalogue; precise date not asserted from current primary source.",
+      "release_title": "Just Because",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from Sadie Jean; not part of a certified popularity ranking.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "Relationship-focused selection from Jean’s Simple Like 17 period.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "october-25th",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "simple-like-17",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-011"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "october-25th",
+      "title": "October 25th",
+      "artist_slug": "sadie-jean",
+      "artist_credits": [
+        "Sadie Jean"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1hb71rcXUH45mIrx0NqsIk",
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "Identified as appearing on 2023 EP; title does not establish a specific calendar release date.",
+      "release_title": "Simple Like 17",
+      "release_type": "ep",
+      "short_description": "Afterglow curated starter selection from Sadie Jean; not part of a certified popularity ranking.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "A deeper cut from the EP to offer visitors beyond her early singles.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "simple-like-17",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "slow-burn",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-012"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "simple-like-17",
+      "title": "Simple Like 17",
+      "artist_slug": "sadie-jean",
+      "artist_credits": [
+        "Sadie Jean"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "Album edition year is verified, but no direct track URL independently verified.",
+      "release_title": "Simple Like 17",
+      "release_type": "ep",
+      "short_description": "Afterglow curated starter selection from Sadie Jean; not part of a certified popularity ranking.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "EP title track included for its place in the project rather than a claimed song meaning.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-007"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "slow-burn",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "move-on-first",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "slow-burn",
+      "title": "Slow Burn",
+      "artist_slug": "sadie-jean",
+      "artist_credits": [
+        "Sadie Jean"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/5RmLb6jwgOnh0yXoaO1OcV",
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "The 2025 single is listed in the artist catalogue; exact original release day is not asserted.",
+      "release_title": "Slow Burn",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from Sadie Jean; not part of a certified popularity ranking.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "A later-period single to connect the earlier EP with the debut album.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-006"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "move-on-first",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "i-tried",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-013"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-013"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "move-on-first",
+      "title": "Move On First",
+      "artist_slug": "sadie-jean",
+      "artist_credits": [
+        "Sadie Jean"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1aAoYRxr0r6sWSEsWfL1GU",
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "Selected album issue is dated 2025, but this is not proof of first standalone release.",
+      "release_title": "Early Twenties Torture",
+      "release_type": "album",
+      "short_description": "Afterglow curated starter selection from Sadie Jean; not part of a certified popularity ranking.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "Part of the album Jean has publicly characterized as an early-twenties time capsule.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "i-tried",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "the-one-that-i-want-but-i-dont-know-why",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-014"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "i-tried",
+      "title": "I Tried",
+      "artist_slug": "sadie-jean",
+      "artist_credits": [
+        "Sadie Jean"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025-10-24",
+      "release_date_precision": "day",
+      "release_date_context": "The album issue date is documented; standalone initial issue not established.",
+      "release_title": "Early Twenties Torture",
+      "release_type": "album",
+      "short_description": "Afterglow curated starter selection from Sadie Jean; not part of a certified popularity ranking.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "An album track identified in the contemporary first-person interview; interpretation remains editorial.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "the-one-that-i-want-but-i-dont-know-why",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "know-you-forever",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "the-one-that-i-want-but-i-dont-know-why",
+      "title": "The One That I Want (But I Don’t Know Why)",
+      "artist_slug": "sadie-jean",
+      "artist_credits": [
+        "Sadie Jean"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "Listed in the 2025 catalogue; precise original single date not established.",
+      "release_title": "Early Twenties Torture",
+      "release_type": "album",
+      "short_description": "Afterglow curated starter selection from Sadie Jean; not part of a certified popularity ranking.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "A way to sample the album beyond its opening tracks.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-006"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "know-you-forever",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "wyd-now",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "know-you-forever",
+      "title": "Know You Forever",
+      "artist_slug": "sadie-jean",
+      "artist_credits": [
+        "Sadie Jean"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025-10-24",
+      "release_date_precision": "day",
+      "release_date_context": "Album edition date only; not claimed as original single release.",
+      "release_title": "Early Twenties Torture",
+      "release_type": "album",
+      "short_description": "Afterglow curated starter selection from Sadie Jean; not part of a certified popularity ranking.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "A further album entry for readers interested in the later songwriting period.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-006"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "wyd-now",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "locksmith",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.sadiejean.com/",
+      "title": "Sadie Jean official website",
+      "publisher": "Sadie Jean",
+      "evidence_summary": "Artist-branded site advertises Early Twenties Torture and merchandise.",
+      "source_type": "official_artist_site",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-001"
+    },
+    {
+      "url": "https://www.pleasermagazine.com/features/sadie-jean-on-taking-early-twenties-torture-on-the-road",
+      "title": "Sadie Jean — artist interview",
+      "publisher": "Pleaser Magazine",
+      "evidence_summary": "Artist confirms growing up in Orange County, studying at NYU, early singles, and her album-era songwriting.",
+      "source_type": "first_person_interview",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-002"
+    },
+    {
+      "url": "https://music.wmeagency.com/Music/sadiejean",
+      "title": "Sadie Jean booking biography",
+      "publisher": "WME",
+      "evidence_summary": "Agency describes 2023 Simple Like 17 EP and earlier breakthrough singles.",
+      "source_type": "official_agency_biography",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-003"
+    },
+    {
+      "url": "https://www.pleasermagazine.com/features/sadie-jean-on-taking-early-twenties-torture-on-the-road",
+      "title": "Sadie Jean on Taking Early Twenties Torture on the Road",
+      "publisher": "Pleaser Magazine",
+      "evidence_summary": "First-person discussion of album as diary of ages 20–23, its breakup context and her NYU community.",
+      "source_type": "first_person_interview",
+      "published_date": "2026-05-05",
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-004"
+    },
+    {
+      "url": "https://open.spotify.com/album/7vHnOZjiqPEgDP6BkmEp2Z",
+      "title": "WYD Now? original single",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify single edition dated December 10, 2021.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": "2021-12-10",
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-005"
+    },
+    {
+      "url": "https://music.apple.com/us/album/early-twenties-torture/1843901389",
+      "title": "Early Twenties Torture — album",
+      "publisher": "Apple Music",
+      "evidence_summary": "Catalogue dates 12-song album to October 24, 2025.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": "2025-10-24",
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-006"
+    },
+    {
+      "url": "https://music.apple.com/us/artist/sadie-jean/1521149262",
+      "title": "Sadie Jean — releases",
+      "publisher": "Apple Music",
+      "evidence_summary": "Artist catalogue lists WYD Now?, Locksmith, Simple Like 17, October 25th, 2025 album and later singles.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-007"
+    },
+    {
+      "url": "https://open.spotify.com/embed/artist/0sMAHzxguan2KpnKFZPW2d",
+      "title": "Sadie Jean — Spotify artist player",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify embed shows artist and prominent tracks; its ordering is not used as a reproducible market-wide ranking.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-008"
+    },
+    {
+      "url": "https://open.spotify.com/track/050mgGApqfh0HGQaD1i3h0",
+      "title": "WYD Now? — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as WYD Now? credited to Sadie Jean, shown on WYD Now?.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-009"
+    },
+    {
+      "url": "https://open.spotify.com/track/4Z9JSBMTTZOGw4NdyGjdOX",
+      "title": "Locksmith — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as Locksmith credited to Sadie Jean, shown on Locksmith.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-010"
+    },
+    {
+      "url": "https://open.spotify.com/track/64A7AHwsnUh4EWuex6kxU9",
+      "title": "Just Because — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as Just Because credited to Sadie Jean, shown on Just Because.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-011"
+    },
+    {
+      "url": "https://open.spotify.com/track/1hb71rcXUH45mIrx0NqsIk",
+      "title": "October 25th — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as October 25th credited to Sadie Jean, shown on Simple Like 17.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-012"
+    },
+    {
+      "url": "https://open.spotify.com/track/5RmLb6jwgOnh0yXoaO1OcV",
+      "title": "Slow Burn — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as Slow Burn credited to Sadie Jean, shown on Slow Burn.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-013"
+    },
+    {
+      "url": "https://open.spotify.com/track/1aAoYRxr0r6sWSEsWfL1GU",
+      "title": "Move On First — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as Move On First credited to Sadie Jean, shown on Early Twenties Torture.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-014"
+    }
+  ],
+  "outstanding_research": [
+    "Verify each song with null spotify_url against a direct official Spotify track page, checking performing artists and editions.",
+    "Confirm first-release dates separately from subsequent album and compilation editions.",
+    "Locate additional original interviews that substantiate song-specific artist intent.",
+    "Secure explicit commercial editorial use rights before adding artist photographs to WordPress.",
+    "Confirm social media accounts from an official source before publishing social links."
+  ]
+}

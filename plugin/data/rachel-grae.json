@@ -1,0 +1,909 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-29",
+  "selection": {
+    "type": "spotify_popular_or_curated",
+    "description": "CURATED STARTER SELECTION: ten verified catalogue titles representing the artist’s work; editorial order only, not a popularity ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-002",
+      "src-003"
+    ],
+    "limitations": [
+      "No reproducible current Spotify Popular top-ten ranking with known market was established.",
+      "Some exact Spotify recording URLs remain null; do not invent or auto-generate track IDs.",
+      "Some edition dates are not original release dates."
+    ]
+  },
+  "artist": {
+    "slug": "rachel-grae",
+    "name": "Rachel Grae",
+    "full_name": null,
+    "country": "United States",
+    "place_of_origin": "New Jersey, United States (raised)",
+    "short_description": "Rachel Grae — an Afterglow curated emotional-pop discovery profile.",
+    "biography": "Rachel Grae is an American pop singer and songwriter raised in New Jersey whose artist website emphasizes candid writing about relationships, family, friendships, and self-worth. The official biography describes an early interest in cover songs and songwriting, followed by writing sessions in Los Angeles in 2020 and a growing online audience. Her releases during 2021–2023 included ‘Bad Timing,’ ‘Outsider,’ ‘How to Be Alone,’ ‘Friend Like Me,’ and ‘Right Person Right Time.’ Grae has explained the original idea behind ‘Friend Like Me’ as the unequal experience of offering support to others without receiving the same care. On her official press page, she also describes ‘Right Person Right Time’ as a reconsideration of a relationship that might have worked with greater maturity. These firsthand comments are especially useful for Afterglow because they distinguish confirmed subject matter from a reader’s interpretation. Her 2024 album ‘Journal No.1’ collected a broad selection of previously released and newer material; its official Spotify edition includes 22 tracks. Her website describes a shift toward greater confidence and empowerment around the 2025 single ‘Raised By A Woman,’ which she connects with expectations of respect in relationships. As an Afterglow editorial classification, Rachel Grae sits between intimate confessional songwriting and fuller contemporary pop, offering listeners entry points into themes that extend beyond romantic heartbreak.",
+    "spotify_url": "https://open.spotify.com/artist/0ekCwZGQUkAISV1h48jlHn",
+    "official_website": "https://www.rachelgrae.com/",
+    "social_profiles": [],
+    "genres": [
+      "pop (documented)",
+      "singer-songwriter pop (editorial)",
+      "emotional pop (Afterglow editorial)"
+    ],
+    "moods": [
+      "confessional (editorial)",
+      "hopeful (editorial)",
+      "reflective (editorial)"
+    ],
+    "career_milestones": [
+      {
+        "date": "2021",
+        "description": "Original Outsider single released",
+        "source_ids": [
+          "src-009"
+        ]
+      },
+      {
+        "date": "2022",
+        "description": "Original Friend Like Me and Right Person Right Time era documented on official press pages",
+        "source_ids": [
+          "src-002",
+          "src-008"
+        ]
+      },
+      {
+        "date": "2024",
+        "description": "Journal No.1 album released December 6 2024",
+        "source_ids": [
+          "src-001",
+          "src-003"
+        ]
+      },
+      {
+        "date": "2025",
+        "description": "Raised By A Woman introduced more empowered songwriting in official bio",
+        "source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Sara Kays",
+        "explanation": "Personal first-person songwriting with emotional pop arrangements; editorial.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Sadie Jean",
+        "explanation": "Reflective relationship themes and direct confessional writing; editorial.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Fly By Midnight",
+        "explanation": "Verified duet Different Lives provides a direct catalogue link.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Rosie Darling",
+        "explanation": "Personal relationship-driven indie-pop songwriting; editorial.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "biography",
+        "claim": "Origin/identity and selected career milestones in the biography",
+        "source_ids": [
+          "src-001",
+          "src-002"
+        ]
+      },
+      {
+        "field": "genres",
+        "claim": "Base pop genre and project descriptions; emotional pop is editorial",
+        "source_ids": [
+          "src-001",
+          "src-002"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Artist identity on Spotify",
+        "source_ids": [
+          "src-004"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No cleared commercial-use photograph; use an abstract placeholder.",
+      "Album/EP appearance is not evidence of a track’s original single-release date.",
+      "No current stable Spotify Popular ordering with defined market was verified.",
+      "Some recording-specific Spotify links and artist-intent explanations remain unverified.",
+      "Expanded legal name not adopted from songwriter credits alone."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "bad-timing",
+      "title": "Bad Timing",
+      "artist_slug": "rachel-grae",
+      "artist_credits": [
+        "Rachel Grae"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2021",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Bad Timing",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to Bad Timing by Rachel Grae.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-001",
+        "src-003"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "how-to-be-alone",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Bad Timing is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-001",
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2021 (precision year); see release_date_context",
+          "source_ids": [
+            "src-001",
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "how-to-be-alone",
+      "title": "How to Be Alone",
+      "artist_slug": "rachel-grae",
+      "artist_credits": [
+        "Rachel Grae"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6xWHPPreZAD93a1g14Noun",
+      "release_date": "2022-03-04",
+      "release_date_precision": "day",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "How to Be Alone",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to How to Be Alone by Rachel Grae.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-005"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "bad-timing",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "outsider",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for How to Be Alone is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2022-03-04 (precision day); see release_date_context",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "This URL identifies the specified recording on Spotify or an official Spotify embed",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "outsider",
+      "title": "Outsider",
+      "artist_slug": "rachel-grae",
+      "artist_credits": [
+        "Rachel Grae"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2021-11-05",
+      "release_date_precision": "day",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Outsider",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to Outsider by Rachel Grae.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-001",
+        "src-009"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "how-to-be-alone",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "friend-like-me",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Outsider is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-001",
+            "src-009"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2021-11-05 (precision day); see release_date_context",
+          "source_ids": [
+            "src-001",
+            "src-009"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "friend-like-me",
+      "title": "Friend Like Me",
+      "artist_slug": "rachel-grae",
+      "artist_credits": [
+        "Rachel Grae"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/0ArW1iNq8D7qfL8acsL1Cs",
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "2022 original single year evidenced by artist press; album edition also appears in 2024 Journal No.1.",
+      "release_title": "Friend Like Me",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to Friend Like Me by Rachel Grae.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [
+        "unequal friendship"
+      ],
+      "editorial_notes": "This introductory note uses the artist’s own discussion of the song, summarized without a direct quotation.",
+      "editorial_notes_basis": "artist interview/official biography",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": "Grae said the song addresses the imbalance of supporting friends who rarely check on you in return.",
+      "artist_statement_source_ids": [
+        "src-002"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "outsider",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "hope-you-re-proud",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Friend Like Me is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002",
+            "src-011"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2022 (precision year); see release_date_context",
+          "source_ids": [
+            "src-002",
+            "src-011"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "This URL identifies the specified recording on Spotify or an official Spotify embed",
+          "source_ids": [
+            "src-002",
+            "src-011"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "hope-you-re-proud",
+      "title": "Hope You're Proud",
+      "artist_slug": "rachel-grae",
+      "artist_credits": [
+        "Rachel Grae"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/0g8DBFUhszRFIUp6lSZIB4",
+      "release_date": "2023-09-08",
+      "release_date_precision": "day",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Hope You're Proud",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to Hope You're Proud by Rachel Grae.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-006"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "friend-like-me",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "right-person-right-time",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Hope You're Proud is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2023-09-08 (precision day); see release_date_context",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "This URL identifies the specified recording on Spotify or an official Spotify embed",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "right-person-right-time",
+      "title": "Right Person Right Time",
+      "artist_slug": "rachel-grae",
+      "artist_credits": [
+        "Rachel Grae"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/5OkOmrLsbr8Lg5wj89LOUb",
+      "release_date": "2022-09-16",
+      "release_date_precision": "day",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Right Person Right Time",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to Right Person Right Time by Rachel Grae.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [
+        "relationship timing"
+      ],
+      "editorial_notes": "This introductory note uses the artist’s own discussion of the song, summarized without a direct quotation.",
+      "editorial_notes_basis": "artist interview/official biography",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": "Grae said she imagined how a past relationship might have evolved had both partners met later and been more mature.",
+      "artist_statement_source_ids": [
+        "src-002"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "hope-you-re-proud",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "daughter",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Right Person Right Time is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002",
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2022-09-16 (precision day); see release_date_context",
+          "source_ids": [
+            "src-002",
+            "src-008"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "This URL identifies the specified recording on Spotify or an official Spotify embed",
+          "source_ids": [
+            "src-002",
+            "src-008"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "daughter",
+      "title": "Daughter",
+      "artist_slug": "rachel-grae",
+      "artist_credits": [
+        "Rachel Grae"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2023-05-12",
+      "release_date_precision": "day",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Daughter",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to Daughter by Rachel Grae.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-010"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "right-person-right-time",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "colorblind",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Daughter is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2023-05-12 (precision day); see release_date_context",
+          "source_ids": [
+            "src-010"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "colorblind",
+      "title": "Colorblind",
+      "artist_slug": "rachel-grae",
+      "artist_credits": [
+        "Rachel Grae"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/31F7qLsBKeRoVkv28vyfDu",
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Colorblind",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to Colorblind by Rachel Grae.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-007"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "daughter",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "raised-by-a-woman",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Colorblind is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2022 (precision year); see release_date_context",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "This URL identifies the specified recording on Spotify or an official Spotify embed",
+          "source_ids": [
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "raised-by-a-woman",
+      "title": "Raised By A Woman",
+      "artist_slug": "rachel-grae",
+      "artist_credits": [
+        "Rachel Grae"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Raised By A Woman",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to Raised By A Woman by Rachel Grae.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [
+        "mutual respect"
+      ],
+      "editorial_notes": "This introductory note uses the artist’s own discussion of the song, summarized without a direct quotation.",
+      "editorial_notes_basis": "artist interview/official biography",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": "Grae characterizes this track as encouraging listeners not to settle for the bare minimum in relationships.",
+      "artist_statement_source_ids": [
+        "src-002"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "colorblind",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "love-i-ve-been-jealous-of",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Raised By A Woman is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2025 (precision year); see release_date_context",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null."
+      ]
+    },
+    {
+      "slug": "love-i-ve-been-jealous-of",
+      "title": "Love I’ve Been Jealous Of",
+      "artist_slug": "rachel-grae",
+      "artist_credits": [
+        "Rachel Grae"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2024",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Journal No.1",
+      "release_type": "album",
+      "short_description": "An Afterglow curated introduction to Love I’ve Been Jealous Of by Rachel Grae.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "raised-by-a-woman",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Love I’ve Been Jealous Of is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2024 (precision year); see release_date_context",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://www.rachelgrae.com/about",
+      "title": "Rachel Grae official biography",
+      "publisher": "Rachel Grae",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "official_biography",
+      "access_status": "read",
+      "evidence_summary": "Describes New Jersey upbringing, early writing, Journal No. 1 in 2024, and direct 2025 Raised By A Woman explanation."
+    },
+    {
+      "id": "src-002",
+      "url": "https://www.rachelgrae.com/press",
+      "title": "Rachel Grae official press collection",
+      "publisher": "Rachel Grae",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "official_press",
+      "access_status": "read",
+      "evidence_summary": "Includes artist statements that Friend Like Me concerns one-sided friendships and Right Person Right Time questions a poorly timed relationship."
+    },
+    {
+      "id": "src-003",
+      "url": "https://open.spotify.com/album/2k0fcWU7mY3UiZ9BrNqBAU",
+      "title": "Journal No.1 official Spotify album",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "release_page",
+      "access_status": "read",
+      "evidence_summary": "Spotify album edition lists 22 Rachel Grae tracks, released December 6 2024."
+    },
+    {
+      "id": "src-004",
+      "url": "https://open.spotify.com/artist/0ekCwZGQUkAISV1h48jlHn",
+      "title": "Rachel Grae official Spotify artist",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "artist_page",
+      "access_status": "read",
+      "evidence_summary": "Spotify artist identity and artist URL."
+    },
+    {
+      "id": "src-005",
+      "url": "https://open.spotify.com/track/6xWHPPreZAD93a1g14Noun",
+      "title": "How to Be Alone Spotify track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "track_page",
+      "access_status": "read",
+      "evidence_summary": "Confirms recording and March 4 2022 single release."
+    },
+    {
+      "id": "src-006",
+      "url": "https://open.spotify.com/track/0g8DBFUhszRFIUp6lSZIB4",
+      "title": "Hope You’re Proud Spotify track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "track_page",
+      "access_status": "read",
+      "evidence_summary": "Confirms recording and September 8 2023 single release."
+    },
+    {
+      "id": "src-007",
+      "url": "https://open.spotify.com/track/31F7qLsBKeRoVkv28vyfDu",
+      "title": "Colorblind Spotify track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "track_page",
+      "access_status": "read",
+      "evidence_summary": "Confirms Rachel Grae track and 2022 release year."
+    },
+    {
+      "id": "src-008",
+      "url": "https://open.spotify.com/intl-de/track/5OkOmrLsbr8Lg5wj89LOUb",
+      "title": "Right Person Right Time Spotify track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "track_page",
+      "access_status": "read",
+      "evidence_summary": "Confirms original single September 16 2022."
+    },
+    {
+      "id": "src-009",
+      "url": "https://open.spotify.com/album/32RwvA0lww1t0KUQJo8cC4",
+      "title": "Outsider original single",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "release_page",
+      "access_status": "read",
+      "evidence_summary": "Confirms standalone Outsider single November 5 2021."
+    },
+    {
+      "id": "src-010",
+      "url": "https://open.spotify.com/album/55DZkL2EvZgYOmDzUZvG1n",
+      "title": "Daughter original single",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "release_page",
+      "access_status": "read",
+      "evidence_summary": "Confirms standalone Daughter single May 12 2023."
+    },
+    {
+      "id": "src-011",
+      "url": "https://open.spotify.com/track/0ArW1iNq8D7qfL8acsL1Cs",
+      "title": "Friend Like Me track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "track_page",
+      "access_status": "read",
+      "evidence_summary": "Official Spotify track URL published on Rachel Grae official press collection; independent playback confirmation not obtained."
+    }
+  ],
+  "outstanding_research": [
+    "Find and license a commercial-editorial artist portrait or retain placeholder.",
+    "Verify null track Spotify URLs before adding official embeds.",
+    "Locate song-specific original interviews where interpretations are currently withheld.",
+    "Check original standalone release dates separately from album/EP editions."
+  ]
+}

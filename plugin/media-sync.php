@@ -10,7 +10,10 @@ function ag_media_manifest() {
         if (isset($seen[$key]) || !empty($row['download_cover']) || !preg_match('~^https://open\.spotify\.com/track/([A-Za-z0-9]{22})$~D', $row['spotify_track_url'], $m) || $row['spotify_embed_url'] !== 'https://open.spotify.com/embed/track/' . $m[1]) { throw new RuntimeException('Invalid or duplicate Spotify mapping.'); }
         $seen[$key] = true;
     }
-    foreach (ag_handoff_packs() as $slug => $pack) {
+    // The original photo-rights manifest covers its own artist subset, not later research batches.
+    $packs = ag_handoff_packs(); $manifest_slugs = array_column($data['artists'], 'artist_slug');
+    if (count(array_unique($manifest_slugs)) !== count($manifest_slugs) || array_diff($manifest_slugs, array_keys($packs))) { throw new RuntimeException('Unknown or duplicate photo-manifest artist.'); }
+    foreach (array_intersect_key($packs, array_fill_keys($manifest_slugs, true)) as $slug => $pack) {
         foreach ($pack['songs'] as $song) {
             $key = $slug . '/' . $song['slug'];
             $rows = array_values(array_filter($data['song_artworks'], function ($r) use ($key) { return $r['artist_slug'] . '/' . $r['song_slug'] === $key; }));
@@ -145,6 +148,7 @@ function ag_sync_media_run($dry_run = true) {
             if (is_wp_error($result)) { $report['photos_pending'][] = $slug; } elseif ($previous === $result) { $report['photos_reused'][$slug] = $result; } else { $report['photos_imported'][$slug] = $result; }
         }
     }
+    foreach (array_diff(array_keys($packs), array_column($manifest['artists'], 'artist_slug')) as $slug) { $report['placeholders'][] = $slug; }
     $page = get_page_by_path('media-credits', OBJECT, 'page'); $content = ag_media_credits_content();
     if (!$page) {
         $report['credits_page'] = 'create';
@@ -168,12 +172,14 @@ add_action('admin_menu', function () { add_submenu_page('edit.php?post_type=arti
 function ag_media_page() {
     if (!current_user_can('manage_options')) { return; }
     $report = ag_sync_media(true); if (is_wp_error($report)) { return; }
-    echo '<div class="wrap"><h1>Media and embeds</h1><p>Dry run: ' . esc_html($report['matched']) . ' existing records matched; ' . count($report['missing']) . ' missing; ' . count($report['preserved']) . ' edited records preserved. ' . esc_html($report['embed_updates']) . ' embed mappings and ' . esc_html($report['record_metadata_updates']) . ' supplied-record metadata updates planned.</p><p>Sync does not replace biographies, publish research drafts, download covers, or approve candidate photographs. Preserve the four unresolved placeholders until owner approval of a separately cleared alternative.</p><table class="widefat striped"><thead><tr><th>Artist</th><th>Permission status</th><th>Candidate license</th></tr></thead><tbody>';
+    echo '<div class="wrap"><h1>Media and embeds</h1><p>Dry run: ' . esc_html($report['matched']) . ' existing records matched; ' . count($report['missing']) . ' missing; ' . count($report['preserved']) . ' edited records preserved. ' . esc_html($report['embed_updates']) . ' embed mappings and ' . esc_html($report['record_metadata_updates']) . ' supplied-record metadata updates planned.</p><p>Sync does not replace biographies, publish research drafts, download covers, or approve candidate photographs. ' . count($report['placeholders']) . ' artists retain placeholders pending separately verified photo permissions. Missing track links do not produce embeds.</p><table class="widefat striped"><thead><tr><th>Artist</th><th>Permission status</th><th>Candidate license</th></tr></thead><tbody>';
     $reviews = ag_media_reviews();
     $status_labels = ['live_verified' => 'Live copyright license verified', 'pending_live_verification' => 'Live source review pending', 'placeholder_permission_unresolved' => 'Permission unresolved — keep placeholder'];
-    foreach (ag_media_manifest()['artists'] as $a) {
-        $status = $reviews[$a['artist_slug']]['status'] ?? 'pending_live_verification';
-        echo '<tr data-review-status="' . esc_attr($status) . '"><td>' . esc_html($a['artist_name']) . '</td><td>' . esc_html($status_labels[$status] ?? 'Review pending') . '</td><td>' . esc_html($a['image']['license'] ?: 'No established permission') . '</td></tr>';
+    $candidates = array_column(ag_media_manifest()['artists'], null, 'artist_slug');
+    foreach (ag_handoff_packs() as $slug => $pack) {
+        $a = $candidates[$slug] ?? null;
+        $status = $reviews[$slug]['status'] ?? ($a ? 'pending_live_verification' : 'placeholder_permission_unresolved');
+        echo '<tr data-review-status="' . esc_attr($status) . '"><td>' . esc_html($pack['artist']['name']) . '</td><td>' . esc_html($status_labels[$status] ?? 'Review pending') . '</td><td>' . esc_html($a['image']['license'] ?? 'No established permission') . '</td></tr>';
     }
     echo '</tbody></table><form action="' . esc_url(admin_url('admin-post.php')) . '" method="post"><input type="hidden" name="action" value="ag_sync_media">'; wp_nonce_field('ag_sync_media'); submit_button('Sync checked mappings and credits'); echo '</form><p>Live source review is required before a candidate photo becomes eligible. See docs/MEDIA_SYNC_PLAN.md and the media review register for current blockers.</p></div>';
 }

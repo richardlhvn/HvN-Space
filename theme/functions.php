@@ -104,11 +104,36 @@ function ag_source_links($id, $key = 'sources') {
 }
 function ag_listen($id) {
     $url = ag_meta('spotify', $id);
-    $valid = $url && wp_parse_url($url, PHP_URL_SCHEME) === 'https' && wp_parse_url($url, PHP_URL_HOST) === 'open.spotify.com';
+    $song = get_post_type($id) === 'song'; $type = $song ? 'track' : 'artist';
+    $valid = (bool)preg_match('~^https://open\.spotify\.com/' . $type . '/[A-Za-z0-9]{22}/?$~D', $url);
+    $artist_fallback = false;
+    if (!$valid && $song) {
+        $artist = absint(ag_meta('artist_id', $id)); $artist_url = ag_meta('spotify', $artist);
+        if ($artist && get_post_status($artist) === 'publish' && preg_match('~^https://open\.spotify\.com/artist/[A-Za-z0-9]{22}/?$~D', $artist_url)) { $url = $artist_url; $artist_fallback = true; }
+    }
     $search = get_the_title($id) . (get_post_type($id) === 'song' ? ' ' . ag_artist_name($id) : '');
-    if (!$valid) { $url = 'https://open.spotify.com/search/' . rawurlencode($search); }
-    echo '<a class="button spotify-button" href="' . esc_url($url) . '" target="_blank" rel="noopener noreferrer">' . ag_icon('spotify') . esc_html($valid ? 'Open in Spotify' : 'Find on Spotify') . ag_icon('diagonal') . '</a>';
-    echo '<p class="fine-print">' . esc_html($valid ? 'Listen on Spotify. No music is hosted here.' : 'Opens Spotify search. An official artist or track link has not been verified yet.') . '</p>';
+    if (!$valid && !$artist_fallback) { $url = 'https://open.spotify.com/search/' . rawurlencode($search); }
+    $label = $valid ? 'Open in Spotify' : ($artist_fallback ? 'Explore artist on Spotify' : 'Find on Spotify');
+    $note = $valid ? 'Listen on Spotify. No music is hosted here.' : ($artist_fallback ? 'The exact track link is not verified yet. This opens the artist’s verified Spotify profile.' : 'Opens Spotify search. An official artist or track link has not been verified yet.');
+    echo '<a class="button spotify-button" href="' . esc_url($url) . '" target="_blank" rel="noopener noreferrer">' . ag_icon('spotify') . esc_html($label) . ag_icon('diagonal') . '</a>';
+    echo '<p class="fine-print">' . esc_html($note) . '</p>';
+}
+function ag_recording_credits_html($id) {
+    $out = [];
+    foreach (array_filter(array_map('trim', explode(',', ag_meta('credits', $id)))) as $name) {
+        $artists = get_posts(['post_type' => 'artist', 'post_status' => 'publish', 'title' => $name, 'numberposts' => 1]);
+        $out[] = $artists ? '<a href="' . esc_url(get_permalink($artists[0])) . '">' . esc_html($name) . '</a>' : esc_html($name);
+    }
+    return implode(', ', $out);
+}
+function ag_collaboration_ids($artist) {
+    $name = get_the_title($artist); $selected = ag_related_ids($artist, 'recommended'); $ids = [];
+    $songs = get_posts(['post_type' => 'song', 'post_status' => 'publish', 'numberposts' => -1, 'meta_query' => [['key' => '_ag_credits', 'value' => $name, 'compare' => 'LIKE'], ['key' => '_ag_artist_id', 'value' => (string)$artist, 'compare' => '!=']]]);
+    foreach ($songs as $song) {
+        $credits = array_map('trim', explode(',', ag_meta('credits', $song->ID)));
+        if (in_array($name, $credits, true) && !in_array($song->ID, $selected, true)) { $ids[] = $song->ID; }
+    }
+    return $ids;
 }
 function ag_related_ids($id, $key = 'related') {
     return array_values(array_filter(array_map('absint', explode(',', ag_meta($key, $id))), function ($v) { return get_post_status($v) === 'publish'; }));

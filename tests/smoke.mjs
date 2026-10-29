@@ -46,6 +46,10 @@ try {
   await page.selectOption('#filter-mood', 'reflective');
   await page.locator('.filter-bar button[type=submit]').click();
   check(moodTotal > 0 && await page.locator('.music-card').count() === Math.min(12, moodTotal), 'Mood filter matches the independently queried catalog');
+  await page.goto(route('/artists/?q=BL%C3%9C%20EYES'));
+  check(await page.locator('.music-card').count() === 1 && await page.locator('.music-card h3').textContent() === 'BLÜ EYES', 'Unicode artist-name filtering preserves display names');
+  await page.goto(route('/artists/?filter_country=germany'));
+  check(await page.locator('.music-card').count() === 1 && await page.locator('.music-card h3').textContent() === 'Hanniou', 'Country filter finds the sourced German artist');
   await page.goto(route('/artists/sara-kays/'));
   check(await page.locator('h1').textContent() === 'Sara Kays', 'Artist profile renders');
   check(await page.locator('.editorial-notice').textContent().then(t => t.includes('demo collection') || t.includes('Research review pending')), 'Demo is labeled');

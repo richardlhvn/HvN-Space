@@ -1,0 +1,954 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-29",
+  "selection": {
+    "type": "curated",
+    "description": "CURATED STARTER SELECTION of ten identified songs from multiple release periods. This is not a current Spotify Popular top-ten ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-007",
+      "src-006",
+      "src-005"
+    ],
+    "limitations": [
+      "Spotify artist embed ordering is dynamic, and no stable market-specific ranking and retrieval was established.",
+      "Song sequence is editorial, not a stream count ranking.",
+      "Some recording-specific Spotify URLs remain null pending independent confirmation.",
+      "A release date tied to an album/EP edition does not establish the first release of the song."
+    ]
+  },
+  "artist": {
+    "slug": "anson-seabra",
+    "name": "Anson Seabra",
+    "full_name": "Anson Long-Seabra",
+    "country": "United States",
+    "place_of_origin": "Blue Springs, Missouri, United States (raised; Kansas City area)",
+    "short_description": "Missouri-raised pianist and songwriter combining storybook imagery with emotional singer-songwriter pop.",
+    "biography": "Anson Seabra, whose full name is Anson Long-Seabra, is an American singer-songwriter associated with the Kansas City area of Missouri. He studied computer science at Truman State University and began his career as a software engineer before choosing music as a full-time pursuit. His university's alumni profile details that change and the online attention surrounding his 2018 recording 'Welcome to Wonderland'. Seabra has since built a catalogue of piano-centered, narrative pop, often combining ordinary emotional struggles with fantastical images. In an interview with EnVi, he described the significance of Ruth B.'s 'Lost Boy' as an influence on 'Welcome to Wonderland', particularly its combination of nostalgia and escapism. His album 'Songs I Wrote in My Bedroom' arrived in 2020, followed by the project 'Feeling For My Life' in 2021, which explored vulnerability and changing perspectives. In a separate first-person interview, Seabra connected 'Broken' and 'Lucky Charms' to difficult personal periods and reflections on self-worth. His later releases include 'Peter Pan Was Right' in 2022 and the album 'A Heart Is a Terrible Thing to Break' in 2023. Afterglow categorizes his work as emotional piano-pop and narrative singer-songwriter music; this is editorial language rather than an exhaustive official genre label. His profile also expands the site's selection of male-vocal emotional pop alongside Caleb Hearn.",
+    "spotify_url": "https://open.spotify.com/artist/2jHp7gQArCQrlMvdrIVFCg",
+    "official_website": "https://ansonseabra.com/",
+    "social_profiles": [],
+    "genres": [
+      "piano pop (editorial)",
+      "singer-songwriter pop (editorial)"
+    ],
+    "moods": [
+      "introspective (editorial)",
+      "bittersweet (editorial)"
+    ],
+    "career_milestones": [
+      {
+        "date": "2018",
+        "description": "Welcome to Wonderland gained internet attention",
+        "source_ids": [
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "date": "2020-05-08",
+        "description": "Issued Songs I Wrote in My Bedroom",
+        "source_ids": [
+          "src-005"
+        ]
+      },
+      {
+        "date": "2021",
+        "description": "Released Feeling For My Life and discussed the project in interviews",
+        "source_ids": [
+          "src-003",
+          "src-004"
+        ]
+      },
+      {
+        "date": "2022",
+        "description": "Released Peter Pan Was Right",
+        "source_ids": [
+          "src-006"
+        ]
+      },
+      {
+        "date": "2023",
+        "description": "Released A Heart Is a Terrible Thing to Break",
+        "source_ids": [
+          "src-006"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Caleb Hearn",
+        "explanation": "Narrative songwriting and expressive male vocals build a useful emotional-pop path.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "name": "Sara Kays",
+        "explanation": "Both foreground vulnerability, though Seabra uses more fantastical framing.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "name": "Alexander 23",
+        "explanation": "Both write melodic relationship and self-reflection songs.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002",
+          "src-003"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "full_name",
+        "claim": "Official/secondary identity and name are given in the cited source.",
+        "source_ids": [
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "country,place_of_origin",
+        "claim": "Artist origins and upbringing match cited biographical sources.",
+        "source_ids": [
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Career origins and early release history are supported by cited artist profiles.",
+        "source_ids": [
+          "src-002",
+          "src-003",
+          "src-004"
+        ]
+      },
+      {
+        "field": "biography:recent",
+        "claim": "Later projects and artist comments are supported by these first-person/catalogue sources.",
+        "source_ids": [
+          "src-004",
+          "src-005",
+          "src-001"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Official Spotify artist embed identifies this musical artist.",
+        "source_ids": [
+          "src-007"
+        ]
+      },
+      {
+        "field": "official_website",
+        "claim": "Artist-branded official website was readable during the research window.",
+        "source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No artist photo or album-cover commercial reuse license was independently established; retain placeholder and official Spotify embeds.",
+      "Mood, genre and cross-artist associations are Afterglow editorial choices rather than verified artist statements.",
+      "Social account ownership was not independently confirmed for publication; social_profiles remains empty."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "welcome-to-wonderland",
+      "title": "Welcome to Wonderland",
+      "artist_slug": "anson-seabra",
+      "artist_credits": [
+        "Anson Seabra"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/3JfHYZKy5JmE5Fv4gDTCiz",
+      "release_date": "2018-04-20",
+      "release_date_precision": "day",
+      "release_date_context": "Original standalone track date is recorded on Spotify.",
+      "release_title": "Welcome to Wonderland",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from Anson Seabra; not part of a certified popularity ranking.",
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "A storybook-style introduction to his writing.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information and first-person artist commentary. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "Seabra identified Ruth B.'s 'Lost Boy' as a direct influence on the nostalgic, escapist feeling he wanted for this song.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "trying-my-best",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "walked-through-hell",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Song-specific paraphrase derived from a first-person interview with the artist.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context."
+      ]
+    },
+    {
+      "slug": "trying-my-best",
+      "title": "Trying My Best",
+      "artist_slug": "anson-seabra",
+      "artist_credits": [
+        "Anson Seabra"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6IAyWbUaML4dEaxZXOSrWK",
+      "release_date": "2020-05-08",
+      "release_date_precision": "day",
+      "release_date_context": "2020 album date; selected track link points to a later compilation edition.",
+      "release_title": "Songs I Wrote in My Bedroom",
+      "release_type": "album",
+      "short_description": "Afterglow curated starter selection from Anson Seabra; not part of a certified popularity ranking.",
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "An early album selection showing his introspective catalogue.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-005"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "walked-through-hell",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "peter-pan-was-right",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-009"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "walked-through-hell",
+      "title": "Walked Through Hell",
+      "artist_slug": "anson-seabra",
+      "artist_credits": [
+        "Anson Seabra"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6c7N5N7amAOpeMykjlovjI",
+      "release_date": "2020-11-20",
+      "release_date_precision": "day",
+      "release_date_context": "Spotify shows standalone single dated November 20, 2020.",
+      "release_title": "Walked Through Hell",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from Anson Seabra; not part of a certified popularity ranking.",
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "A frequently cited early song included without asserting a specific unstated origin.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-007"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "peter-pan-was-right",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "robin-hood",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-010"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "peter-pan-was-right",
+      "title": "Peter Pan Was Right",
+      "artist_slug": "anson-seabra",
+      "artist_credits": [
+        "Anson Seabra"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/5w2l0aRyEcEvplqQD950GM",
+      "release_date": "2022-04-29",
+      "release_date_precision": "day",
+      "release_date_context": "Spotify standalone album listing documents April 29, 2022.",
+      "release_title": "Peter Pan Was Right",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from Anson Seabra; not part of a certified popularity ranking.",
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "Connects to the fairytale and childhood motifs documented throughout his writing.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "robin-hood",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "keep-your-head-up-princess",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-011"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-011"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "robin-hood",
+      "title": "Robin Hood",
+      "artist_slug": "anson-seabra",
+      "artist_credits": [
+        "Anson Seabra"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2018",
+      "release_date_precision": "year",
+      "release_date_context": "Spotify artist page dates single to 2018; exact date of issue not checked.",
+      "release_title": "Robin Hood",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from Anson Seabra; not part of a certified popularity ranking.",
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Another early fairytale-themed title, but specific song meaning is not inferred.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-006"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "keep-your-head-up-princess",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "i-cant-carry-this-anymore",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "keep-your-head-up-princess",
+      "title": "Keep Your Head Up Princess",
+      "artist_slug": "anson-seabra",
+      "artist_credits": [
+        "Anson Seabra"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/19pChrR4hwdINqoOFUo2Hj",
+      "release_date": "2021-10-12",
+      "release_date_precision": "day",
+      "release_date_context": "Spotify standalone single date shown.",
+      "release_title": "Keep Your Head Up Princess",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from Anson Seabra; not part of a certified popularity ranking.",
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "Stories of encouragement are described by contemporary press; not framed as unverified artist intent.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "i-cant-carry-this-anymore",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "broken",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-012"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-012"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "i-cant-carry-this-anymore",
+      "title": "I Can't Carry This Anymore",
+      "artist_slug": "anson-seabra",
+      "artist_credits": [
+        "Anson Seabra"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2019",
+      "release_date_precision": "year",
+      "release_date_context": "Official artist discography lists a 2019 single; original month and day are not independently established.",
+      "release_title": "I Can't Carry This Anymore",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from Anson Seabra; not part of a certified popularity ranking.",
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "An early song showing the more vulnerable side of Seabra’s public catalogue.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-006"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "broken",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "unloving-you",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "broken",
+      "title": "Broken",
+      "artist_slug": "anson-seabra",
+      "artist_credits": [
+        "Anson Seabra"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2020-05-08",
+      "release_date_precision": "day",
+      "release_date_context": "Selected album edition released May 2020; original issue, if any, unverified.",
+      "release_title": "Songs I Wrote in My Bedroom",
+      "release_type": "album",
+      "short_description": "Afterglow curated starter selection from Anson Seabra; not part of a certified popularity ranking.",
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "A documented reflection on a very difficult personal period.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information and first-person artist commentary. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": "Seabra recalled feeling lost and isolated when he wrote Broken, later valuing how other people found their own experiences in it.",
+      "artist_statement_source_ids": [
+        "src-004"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "unloving-you",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "lucky-charms",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Song-specific paraphrase derived from a first-person interview with the artist.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context."
+      ]
+    },
+    {
+      "slug": "unloving-you",
+      "title": "Unloving You",
+      "artist_slug": "anson-seabra",
+      "artist_credits": [
+        "Anson Seabra"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "Single listed in 2022 catalogue; date precision limited to year.",
+      "release_title": "Unloving You",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from Anson Seabra; not part of a certified popularity ranking.",
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Later relationship-oriented recording included without speculative intent.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-006"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "lucky-charms",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "welcome-to-wonderland",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "lucky-charms",
+      "title": "Lucky Charms",
+      "artist_slug": "anson-seabra",
+      "artist_credits": [
+        "Anson Seabra"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2021",
+      "release_date_precision": "year",
+      "release_date_context": "2021 project context established by interview; exact issue date not verified.",
+      "release_title": "Feeling For My Life",
+      "release_type": "ep",
+      "short_description": "Afterglow curated starter selection from Anson Seabra; not part of a certified popularity ranking.",
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "Artist-described confrontation with negative feelings about himself.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information and first-person artist commentary. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": "Seabra described writing Lucky Charms after self-examination and realizing that he had struggled with self-acceptance.",
+      "artist_statement_source_ids": [
+        "src-004"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "welcome-to-wonderland",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "trying-my-best",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Song-specific paraphrase derived from a first-person interview with the artist.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ansonseabra.com/",
+      "title": "Anson Seabra official website",
+      "publisher": "Anson Seabra",
+      "evidence_summary": "Artist site lists current singles, songs, and tour information.",
+      "source_type": "official_artist_site",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-001"
+    },
+    {
+      "url": "https://www.truman.edu/our-stories/alumni/anson-long-seabra/",
+      "title": "Anson Long-Seabra alumni profile",
+      "publisher": "Truman State University",
+      "evidence_summary": "University establishes full name, Blue Springs origins, computer science training and career switch.",
+      "source_type": "institutional_profile",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-002"
+    },
+    {
+      "url": "https://envimedia.co/anson-seabra-strikes-a-chord-in-feeling-for-my-life/",
+      "title": "Anson Seabra talks Feeling For My Life",
+      "publisher": "EnVi Media",
+      "evidence_summary": "Original interview explains songwriting, piano-pop influences and Ruth B. inspiration for Welcome to Wonderland.",
+      "source_type": "first_person_interview",
+      "published_date": "2021-11-01",
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-003"
+    },
+    {
+      "url": "https://risingartistsblog.com/2021/11/08/review-press-interview-feeling-for-my-life-by-anson-seabra/",
+      "title": "Anson Seabra Feeling For My Life press Q&A",
+      "publisher": "Rising Artists Music Blog",
+      "evidence_summary": "First-person statements address Broken, Lucky Charms, and fairytale imagery.",
+      "source_type": "first_person_interview",
+      "published_date": "2021-11-08",
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-004"
+    },
+    {
+      "url": "https://open.spotify.com/album/668oAqIKAYbli2jpdiMbXM",
+      "title": "Songs I Wrote in My Bedroom",
+      "publisher": "Spotify",
+      "evidence_summary": "15-track album released May 8, 2020; track list includes Broken and Trying My Best.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": "2020-05-08",
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-005"
+    },
+    {
+      "url": "https://open.spotify.com/artist/2jHp7gQArCQrlMvdrIVFCg",
+      "title": "Anson Seabra — Spotify artist page",
+      "publisher": "Spotify",
+      "evidence_summary": "Official artist page identifies 2020, 2021, 2022 and 2023 releases.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-006"
+    },
+    {
+      "url": "https://open.spotify.com/embed/artist/2jHp7gQArCQrlMvdrIVFCg",
+      "title": "Anson Seabra — Spotify artist player",
+      "publisher": "Spotify",
+      "evidence_summary": "Official embed lists ten prominent Anson Seabra songs and artist credits.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-007"
+    },
+    {
+      "url": "https://open.spotify.com/track/3JfHYZKy5JmE5Fv4gDTCiz",
+      "title": "Welcome to Wonderland — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as Welcome to Wonderland credited to Anson Seabra, shown on Welcome to Wonderland.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-008"
+    },
+    {
+      "url": "https://open.spotify.com/track/6IAyWbUaML4dEaxZXOSrWK",
+      "title": "Trying My Best — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as Trying My Best credited to Anson Seabra, shown on Songs I Wrote in My Bedroom.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-009"
+    },
+    {
+      "url": "https://open.spotify.com/track/6c7N5N7amAOpeMykjlovjI",
+      "title": "Walked Through Hell — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as Walked Through Hell credited to Anson Seabra, shown on Walked Through Hell.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-010"
+    },
+    {
+      "url": "https://open.spotify.com/track/5w2l0aRyEcEvplqQD950GM",
+      "title": "Peter Pan Was Right — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as Peter Pan Was Right credited to Anson Seabra, shown on Peter Pan Was Right.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-011"
+    },
+    {
+      "url": "https://open.spotify.com/track/19pChrR4hwdINqoOFUo2Hj",
+      "title": "Keep Your Head Up Princess — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as Keep Your Head Up Princess credited to Anson Seabra, shown on Keep Your Head Up Princess.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-012"
+    }
+  ],
+  "outstanding_research": [
+    "Verify each song with null spotify_url against a direct official Spotify track page, checking performing artists and editions.",
+    "Confirm first-release dates separately from subsequent album and compilation editions.",
+    "Locate additional original interviews that substantiate song-specific artist intent.",
+    "Secure explicit commercial editorial use rights before adding artist photographs to WordPress.",
+    "Confirm social media accounts from an official source before publishing social links."
+  ]
+}

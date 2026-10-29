@@ -1,0 +1,992 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-29",
+  "selection": {
+    "type": "curated",
+    "description": "CURATED STARTER SELECTION of ten identified songs from multiple release periods. This is not a current Spotify Popular top-ten ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-009",
+      "src-002",
+      "src-008"
+    ],
+    "limitations": [
+      "Spotify artist embed ordering is dynamic, and no stable market-specific ranking and retrieval was established.",
+      "Song sequence is editorial, not a stream count ranking.",
+      "Some recording-specific Spotify URLs remain null pending independent confirmation.",
+      "A release date tied to an album/EP edition does not establish the first release of the song."
+    ]
+  },
+  "artist": {
+    "slug": "lyn-lapid",
+    "name": "Lyn Lapid",
+    "full_name": "Katelyn Lapid",
+    "country": "United States",
+    "place_of_origin": "Maryland, United States (Baltimore area)",
+    "short_description": "Maryland-raised singer-songwriter blending intimate pop stories with alternative R&B and jazz-influenced phrasing.",
+    "biography": "Lyn Lapid is an American singer-songwriter and multi-instrumentalist who grew up in Maryland. She studied classical instruments before attracting a large online audience through covers and her original song 'Producer Man' in 2020. Its story of pressure to compromise her artistic identity helped establish the personal voice of her early work. She subsequently released 'In My Mind' and the 2022 EP 'The Outsider', before developing a relationship narrative across 'to love in the 21st century' and its extended 'epilogue' edition in 2023. Discussing the project in a 2024 interview, Lapid described broadening a storyline about romantic ambiguity to include the friendships that support someone through it. Her debut album 'BUZZKILL' followed in April 2025. In an interview surrounding that release, Lapid tied the album to moving to Los Angeles, struggling to connect socially and eventually understanding that belonging does not require pleasing everyone. She gave specific explanations for 'floater friend', 'back up plan' and the album title track. Afterglow describes her work as emotionally observant indie pop with alternative R&B touches; these are editorial style labels, not an assertion that her entire catalogue fits a single genre. Her profile broadens Afterglow from romantic heartbreak into themes of friendship, identity and early-adult self-discovery.",
+    "spotify_url": "https://open.spotify.com/artist/4pfy05cNNTacuOQ6SiSu4v",
+    "official_website": "https://www.lynlapidmusic.com/",
+    "social_profiles": [],
+    "genres": [
+      "indie pop (editorial)",
+      "alternative R&B (editorial)"
+    ],
+    "moods": [
+      "introspective (editorial)",
+      "bittersweet (editorial)"
+    ],
+    "career_milestones": [
+      {
+        "date": "2020",
+        "description": "Released Producer Man, an early original that gained attention online",
+        "source_ids": [
+          "src-003",
+          "src-004"
+        ]
+      },
+      {
+        "date": "2022",
+        "description": "Released The Outsider EP",
+        "source_ids": [
+          "src-003",
+          "src-002"
+        ]
+      },
+      {
+        "date": "2023-06-23",
+        "description": "Released to love in the 21st century",
+        "source_ids": [
+          "src-007",
+          "src-006"
+        ]
+      },
+      {
+        "date": "2025-04-25",
+        "description": "Released debut album BUZZKILL",
+        "source_ids": [
+          "src-008",
+          "src-005"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Sasha Alex Sloan",
+        "explanation": "Both write with directness about emotional experience and self-perception.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-003",
+          "src-004"
+        ]
+      },
+      {
+        "name": "Chelsea Cutler",
+        "explanation": "Their work creates a useful transition between singer-songwriter narratives and pop production.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-003",
+          "src-004"
+        ]
+      },
+      {
+        "name": "Sara Kays",
+        "explanation": "Both explore vulnerability and growing-up themes beyond simple romance.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-003",
+          "src-004"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "full_name",
+        "claim": "Official/secondary identity and name are given in the cited source.",
+        "source_ids": [
+          "src-003",
+          "src-004"
+        ]
+      },
+      {
+        "field": "country,place_of_origin",
+        "claim": "Artist origins and upbringing match cited biographical sources.",
+        "source_ids": [
+          "src-003",
+          "src-004"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Career origins and early release history are supported by cited artist profiles.",
+        "source_ids": [
+          "src-003",
+          "src-004",
+          "src-006"
+        ]
+      },
+      {
+        "field": "biography:recent",
+        "claim": "Later projects and artist comments are supported by these first-person/catalogue sources.",
+        "source_ids": [
+          "src-006",
+          "src-005",
+          "src-008"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Official Spotify artist embed identifies this musical artist.",
+        "source_ids": [
+          "src-009"
+        ]
+      },
+      {
+        "field": "official_website",
+        "claim": "Artist-branded official website was readable during the research window.",
+        "source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No artist photo or album-cover commercial reuse license was independently established; retain placeholder and official Spotify embeds.",
+      "Mood, genre and cross-artist associations are Afterglow editorial choices rather than verified artist statements.",
+      "Social account ownership was not independently confirmed for publication; social_profiles remains empty."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "producer-man",
+      "title": "Producer Man",
+      "artist_slug": "lyn-lapid",
+      "artist_credits": [
+        "Lyn Lapid"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/31frqbb0fGBd44glzM0MFi",
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "Official website lists original song; selected recording exists in a later compilation, so use 2020 only as song-era year.",
+      "release_title": "Producer Man",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from Lyn Lapid; not part of a certified popularity ranking.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "Early career statement of artistic autonomy.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information and first-person artist commentary. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": "Lapid said it grew out of an encounter with a producer who encouraged her to change herself for the industry.",
+      "artist_statement_source_ids": [
+        "src-004"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "in-my-mind",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "when-she-loved-me",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Song-specific paraphrase derived from a first-person interview with the artist.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context."
+      ]
+    },
+    {
+      "slug": "in-my-mind",
+      "title": "In My Mind",
+      "artist_slug": "lyn-lapid",
+      "artist_credits": [
+        "Lyn Lapid"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/10443wYXWa6PNEAqy5xdjb",
+      "release_date": "2021",
+      "release_date_precision": "year",
+      "release_date_context": "Original single year supported by artist discography; linked recording is a later compilation entry.",
+      "release_title": "In My Mind",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from Lyn Lapid; not part of a certified popularity ranking.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "An accessible entry to her earlier emotional-pop catalogue.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "when-she-loved-me",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "poster-boy",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-011"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "when-she-loved-me",
+      "title": "When She Loved Me",
+      "artist_slug": "lyn-lapid",
+      "artist_credits": [
+        "Lyn Lapid"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/3198LMj0bpnXj8Mb1GLo3u",
+      "release_date": "2021-05-25",
+      "release_date_precision": "day",
+      "release_date_context": "Original single date visible on selected Spotify page.",
+      "release_title": "When She Loved Me",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from Lyn Lapid; not part of a certified popularity ranking.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Early recording included for historical breadth.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-009"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "poster-boy",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "do-u-really",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-012"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-012"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "poster-boy",
+      "title": "poster boy",
+      "artist_slug": "lyn-lapid",
+      "artist_credits": [
+        "Lyn Lapid"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "Part of the 2023 project; standalone single date unverified.",
+      "release_title": "to love in the 21st century",
+      "release_type": "ep",
+      "short_description": "Afterglow curated starter selection from Lyn Lapid; not part of a certified popularity ranking.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "Opening romantic encounter within Lapid’s EP storyline.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-006"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "do-u-really",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "detached",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-009"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "do-u-really",
+      "title": "do u really?",
+      "artist_slug": "lyn-lapid",
+      "artist_credits": [
+        "Lyn Lapid",
+        "Ruth B."
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/2vjX1VkntJPIQkqwbJQvoa",
+      "release_date": "2023-06-23",
+      "release_date_precision": "day",
+      "release_date_context": "2023 EP edition date only.",
+      "release_title": "to love in the 21st century",
+      "release_type": "ep",
+      "short_description": "Afterglow curated starter selection from Lyn Lapid; not part of a certified popularity ranking.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "Ruth B. collaboration adds a second vocal perspective within the project.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-006"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "detached",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "i-guess-that-was-goodbye",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-013"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "detached",
+      "title": "Detached",
+      "artist_slug": "lyn-lapid",
+      "artist_credits": [
+        "Lyn Lapid"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "Official artist discography lists song; year also appears in reputable catalogue.",
+      "release_title": "Detached",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from Lyn Lapid; not part of a certified popularity ranking.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Another example of the 2022 transition between early singles and concept EP.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "i-guess-that-was-goodbye",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "buzzkill",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-009"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "i-guess-that-was-goodbye",
+      "title": "I Guess That Was Goodbye",
+      "artist_slug": "lyn-lapid",
+      "artist_credits": [
+        "Lyn Lapid"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "Artist site identifies song and EP era; exact single date is not established.",
+      "release_title": "The Outsider",
+      "release_type": "ep",
+      "short_description": "Afterglow curated starter selection from Lyn Lapid; not part of a certified popularity ranking.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Representative of the The Outsider phase.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "buzzkill",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "floater-friend",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-009"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "buzzkill",
+      "title": "buzzkill",
+      "artist_slug": "lyn-lapid",
+      "artist_credits": [
+        "Lyn Lapid"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/0Zsx06W9nrYyZeawIPcfjW",
+      "release_date": "2025-04-25",
+      "release_date_precision": "day",
+      "release_date_context": "Original album edition date from firsthand interview; Spotify link points to a later BUZZKILL (forever) version.",
+      "release_title": "BUZZKILL",
+      "release_type": "album",
+      "short_description": "Afterglow curated starter selection from Lyn Lapid; not part of a certified popularity ranking.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "Artist’s account of socially awkward adjustment to Los Angeles.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information and first-person artist commentary. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-005"
+      ],
+      "artist_statement_paraphrase": "Lapid framed the title song around discomfort at unfamiliar social gatherings and the need to stop seeking universal approval.",
+      "artist_statement_source_ids": [
+        "src-005"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "floater-friend",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "it-doesnt-kill-me-anymore",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-014"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Song-specific paraphrase derived from a first-person interview with the artist.",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context."
+      ]
+    },
+    {
+      "slug": "floater-friend",
+      "title": "floater friend",
+      "artist_slug": "lyn-lapid",
+      "artist_credits": [
+        "Lyn Lapid"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025-04-25",
+      "release_date_precision": "day",
+      "release_date_context": "Album edition date, not an independent single-release date.",
+      "release_title": "BUZZKILL",
+      "release_type": "album",
+      "short_description": "Afterglow curated starter selection from Lyn Lapid; not part of a certified popularity ranking.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "First-person account of feeling overlooked and trying to fit into a new city.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information and first-person artist commentary. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-005"
+      ],
+      "artist_statement_paraphrase": "She connected the song to loneliness after relocating and memories of feeling unseen during high school.",
+      "artist_statement_source_ids": [
+        "src-005"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "it-doesnt-kill-me-anymore",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "producer-man",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-009"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Song-specific paraphrase derived from a first-person interview with the artist.",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context."
+      ]
+    },
+    {
+      "slug": "it-doesnt-kill-me-anymore",
+      "title": "it doesn’t kill me anymore",
+      "artist_slug": "lyn-lapid",
+      "artist_credits": [
+        "Lyn Lapid"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/0Kgcz5tX27HlWIrQ6kyavh",
+      "release_date": "2025-04-25",
+      "release_date_precision": "day",
+      "release_date_context": "Album edition identified on selected Spotify link.",
+      "release_title": "BUZZKILL",
+      "release_type": "album",
+      "short_description": "Afterglow curated starter selection from Lyn Lapid; not part of a certified popularity ranking.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "Closing moment of the album’s personal transition.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information and first-person artist commentary. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-005"
+      ],
+      "artist_statement_paraphrase": "Lapid described the song as healing to write and a deliberate, satisfying ending for the album.",
+      "artist_statement_source_ids": [
+        "src-005"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "producer-man",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "in-my-mind",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-015"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Song-specific paraphrase derived from a first-person interview with the artist.",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.lynlapidmusic.com/",
+      "title": "Lyn Lapid official homepage",
+      "publisher": "Mercury Records / Lyn Lapid",
+      "evidence_summary": "Official site has music, tour, contact and social media links.",
+      "source_type": "official_artist_site",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-001"
+    },
+    {
+      "url": "https://www.lynlapidmusic.com/music/",
+      "title": "Lyn Lapid official discography",
+      "publisher": "Lyn Lapid",
+      "evidence_summary": "Official discography lists major EPs and recordings including Producer Man, In My Mind and poster boy.",
+      "source_type": "official_artist_site",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-002"
+    },
+    {
+      "url": "https://principlemagazine.com/2025/06/20/lyn-lapid/",
+      "title": "Lyn Lapid interview and biography",
+      "publisher": "Principle Magazine",
+      "evidence_summary": "Profile verifies Maryland upbringing, piano and violin training, Producer Man and BUZZKILL.",
+      "source_type": "first_person_interview",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-003"
+    },
+    {
+      "url": "https://live.grammy.com/news/lyn-lapid-buzzkill-new-album-interview/",
+      "title": "Meet Lyn Lapid: Definitely Not A Buzzkill",
+      "publisher": "Recording Academy / GRAMMY.com",
+      "evidence_summary": "First-person album context: moving to LA, loneliness, desire for acceptance, and Producer Man inspiration.",
+      "source_type": "first_person_interview",
+      "published_date": "2025-04-22",
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-004"
+    },
+    {
+      "url": "https://www.crucialrhythm.com/lyn-lapid-buzzkill-interview",
+      "title": "Lyn Lapid on BUZZKILL",
+      "publisher": "Crucial Rhythm",
+      "evidence_summary": "Artist explains floater friend, back up plan, buzzkill and album closing track, in her own words.",
+      "source_type": "first_person_interview",
+      "published_date": "2025-04-25",
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-005"
+    },
+    {
+      "url": "https://atwoodmagazine.com/lylp-lyn-lapid-to-love-in-the-21st-century-the-epilogue-ep-interview-music-feature/",
+      "title": "Lyn Lapid talks the epilogue EP",
+      "publisher": "Atwood Magazine",
+      "evidence_summary": "Artist explains the 2023 EP concept and expansion toward platonic friendship.",
+      "source_type": "first_person_interview",
+      "published_date": "2024-03-20",
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-006"
+    },
+    {
+      "url": "https://music.apple.com/us/album/to-love-in-the-21st-century/1691928962",
+      "title": "to love in the 21st century",
+      "publisher": "Apple Music",
+      "evidence_summary": "Album listing identifies June 23, 2023 EP issue.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": "2023-06-23",
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-007"
+    },
+    {
+      "url": "https://www.crucialrhythm.com/lyn-lapid-buzzkill-interview",
+      "title": "BUZZKILL release details",
+      "publisher": "Crucial Rhythm",
+      "evidence_summary": "Interview introduction dates twelve-track debut album to April 25, 2025.",
+      "source_type": "publication",
+      "published_date": "2025-04-25",
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-008"
+    },
+    {
+      "url": "https://open.spotify.com/embed/artist/4pfy05cNNTacuOQ6SiSu4v",
+      "title": "Lyn Lapid — Spotify artist player",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify artist embed confirms displayed top-track identities, including Ruth B. collaboration.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-009"
+    },
+    {
+      "url": "https://open.spotify.com/track/31frqbb0fGBd44glzM0MFi",
+      "title": "Producer Man — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as Producer Man credited to Lyn Lapid, shown on Producer Man.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-010"
+    },
+    {
+      "url": "https://open.spotify.com/track/10443wYXWa6PNEAqy5xdjb",
+      "title": "In My Mind — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as In My Mind credited to Lyn Lapid, shown on In My Mind.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-011"
+    },
+    {
+      "url": "https://open.spotify.com/track/3198LMj0bpnXj8Mb1GLo3u",
+      "title": "When She Loved Me — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as When She Loved Me credited to Lyn Lapid, shown on When She Loved Me.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-012"
+    },
+    {
+      "url": "https://open.spotify.com/track/2vjX1VkntJPIQkqwbJQvoa",
+      "title": "do u really? — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as do u really? credited to Lyn Lapid, Ruth B., shown on to love in the 21st century.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-013"
+    },
+    {
+      "url": "https://open.spotify.com/track/0Zsx06W9nrYyZeawIPcfjW",
+      "title": "buzzkill — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as buzzkill credited to Lyn Lapid, shown on BUZZKILL.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-014"
+    },
+    {
+      "url": "https://open.spotify.com/track/0Kgcz5tX27HlWIrQ6kyavh",
+      "title": "it doesn’t kill me anymore — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as it doesn’t kill me anymore credited to Lyn Lapid, shown on BUZZKILL.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-015"
+    }
+  ],
+  "outstanding_research": [
+    "Verify each song with null spotify_url against a direct official Spotify track page, checking performing artists and editions.",
+    "Confirm first-release dates separately from subsequent album and compilation editions.",
+    "Locate additional original interviews that substantiate song-specific artist intent.",
+    "Secure explicit commercial editorial use rights before adding artist photographs to WordPress.",
+    "Confirm social media accounts from an official source before publishing social links."
+  ]
+}

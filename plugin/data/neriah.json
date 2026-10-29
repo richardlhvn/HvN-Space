@@ -1,0 +1,852 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-29",
+  "selection": {
+    "type": "spotify_popular_or_curated",
+    "description": "CURATED STARTER SELECTION: ten verified catalogue titles representing the artist’s work; editorial order only, not a popularity ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-002",
+      "src-003"
+    ],
+    "limitations": [
+      "No reproducible current Spotify Popular top-ten ranking with known market was established.",
+      "Some exact Spotify recording URLs remain null; do not invent or auto-generate track IDs.",
+      "Some edition dates are not original release dates."
+    ]
+  },
+  "artist": {
+    "slug": "neriah",
+    "name": "NERIAH",
+    "full_name": null,
+    "country": "United States",
+    "place_of_origin": "Los Angeles and Malibu, California, United States",
+    "short_description": "NERIAH — an Afterglow curated emotional-pop discovery profile.",
+    "biography": "NERIAH is an American pop singer-songwriter associated with Los Angeles and Malibu. A 2023 profile from the songwriter organization BMI identifies both places as part of her upbringing and reports that she began writing music as a child. The profile also notes early online activity and a growing catalogue that included ‘Lego Blocks,’ ‘Unfinished Business,’ and ‘AT LEAST I’M GOOD AT IT.’ Her official music-service catalogue shows a steady sequence of releases rather than a single breakthrough-only discography. In 2022 she released the projects ‘This Is How the World Made Me’ and ‘How Do I Get Clean?,’ the latter including ‘Unfinished Business’ and ‘Fuck You Matthew.’ Her music also moved into full-length album territory with 2023’s ‘Cause of Death,’ followed by later singles and the 2025 project ‘Reason To Hate You.’ A public Apple Music listing identifies subsequent titles such as ‘Out of Your League’ and the 2026 single ‘Not Tonight.’ For Afterglow, NERIAH is an editorial fit for the confrontational and emotionally candid end of pop: songs that can carry the directness of diary entries without limiting the listening experience to acoustic ballads. This is a stylistic assessment based on her reported genres and catalogued work, not a claim that the artist defines herself exclusively by any particular heartbreak theme. Song-level interpretations should remain absent unless source-specific evidence supports them.",
+    "spotify_url": "https://open.spotify.com/artist/1dUrqVHcv2FCXxlIqzIbiG",
+    "official_website": null,
+    "social_profiles": [],
+    "genres": [
+      "pop (documented)",
+      "alt-pop (editorial)",
+      "confessional pop (editorial)"
+    ],
+    "moods": [
+      "candid (editorial)",
+      "defiant (editorial)",
+      "heartbroken (editorial)"
+    ],
+    "career_milestones": [
+      {
+        "date": "2022",
+        "description": "Two EPs included This Is How the World Made Me and How Do I Get Clean?",
+        "source_ids": [
+          "src-001",
+          "src-002"
+        ]
+      },
+      {
+        "date": "2023",
+        "description": "BMI profiled NERIAH as an emerging independent songwriter",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "date": "2025",
+        "description": "Reason To Hate You project listed by Apple Music",
+        "source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "date": "2026",
+        "description": "Not Tonight single listed by Apple Music",
+        "source_ids": [
+          "src-002"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Sasha Alex Sloan",
+        "explanation": "Confessional emotions interpreted through contemporary pop; editorial.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "BLÜ EYES",
+        "explanation": "Both fit candid lyrical pop with emotionally assertive themes; editorial.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Rachel Grae",
+        "explanation": "Pop songwriting around self-definition and complex relationships; editorial.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Sadie Jean",
+        "explanation": "Personal storytelling with a confessional angle, although production differs; editorial.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "biography",
+        "claim": "Origin/identity and selected career milestones in the biography",
+        "source_ids": [
+          "src-001",
+          "src-002"
+        ]
+      },
+      {
+        "field": "genres",
+        "claim": "Base pop genre and project descriptions; emotional pop is editorial",
+        "source_ids": [
+          "src-001",
+          "src-002"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Artist identity on Spotify",
+        "source_ids": [
+          "src-003"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No cleared commercial-use photograph; use an abstract placeholder.",
+      "Album/EP appearance is not evidence of a track’s original single-release date.",
+      "No current stable Spotify Popular ordering with defined market was verified.",
+      "Some recording-specific Spotify links and artist-intent explanations remain unverified."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "lego-blocks",
+      "title": "Lego Blocks",
+      "artist_slug": "neriah",
+      "artist_credits": [
+        "NERIAH"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/01RJQlTi0aR0syDcSFLzTv",
+      "release_date": "2022-05-27",
+      "release_date_precision": "day",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Lego Blocks",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to Lego Blocks by NERIAH.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "unfinished-business",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Lego Blocks is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2022-05-27 (precision day); see release_date_context",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "This URL identifies the specified recording on Spotify or an official Spotify embed",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "unfinished-business",
+      "title": "Unfinished Business",
+      "artist_slug": "neriah",
+      "artist_credits": [
+        "NERIAH"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/5CYUCj24HvoKfjraBQal0O",
+      "release_date": "2022-08-19",
+      "release_date_precision": "day",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Unfinished Business",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to Unfinished Business by NERIAH.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-005"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "lego-blocks",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "sh-tshow",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Unfinished Business is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2022-08-19 (precision day); see release_date_context",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "This URL identifies the specified recording on Spotify or an official Spotify embed",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "sh-tshow",
+      "title": "SH!TSHOW",
+      "artist_slug": "neriah",
+      "artist_credits": [
+        "NERIAH"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "SH!TSHOW",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to SH!TSHOW by NERIAH.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "unfinished-business",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "at-least-i-m-good-at-it",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for SH!TSHOW is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2022 (precision year); see release_date_context",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "at-least-i-m-good-at-it",
+      "title": "AT LEAST I'M GOOD AT IT",
+      "artist_slug": "neriah",
+      "artist_credits": [
+        "NERIAH"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "This Is How the World Made Me",
+      "release_type": "EP",
+      "short_description": "An Afterglow curated introduction to AT LEAST I'M GOOD AT IT by NERIAH.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-001",
+        "src-002"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "sh-tshow",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "falling-4-somebody",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for AT LEAST I'M GOOD AT IT is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-001",
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2022 (precision year); see release_date_context",
+          "source_ids": [
+            "src-001",
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "falling-4-somebody",
+      "title": "FALLING 4 SOMEBODY",
+      "artist_slug": "neriah",
+      "artist_credits": [
+        "NERIAH"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Cause of Death",
+      "release_type": "album",
+      "short_description": "An Afterglow curated introduction to FALLING 4 SOMEBODY by NERIAH.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-001",
+        "src-002"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "at-least-i-m-good-at-it",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "fuck-you-matthew",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for FALLING 4 SOMEBODY is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-001",
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2023 (precision year); see release_date_context",
+          "source_ids": [
+            "src-001",
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "fuck-you-matthew",
+      "title": "Fuck You Matthew",
+      "artist_slug": "neriah",
+      "artist_credits": [
+        "NERIAH"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "How Do I Get Clean?",
+      "release_type": "EP",
+      "short_description": "An Afterglow curated introduction to Fuck You Matthew by NERIAH.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-002",
+        "src-007"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "falling-4-somebody",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "driving-weather",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Fuck You Matthew is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002",
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2022 (precision year); see release_date_context",
+          "source_ids": [
+            "src-002",
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "driving-weather",
+      "title": "Driving Weather",
+      "artist_slug": "neriah",
+      "artist_credits": [
+        "NERIAH"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2024",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Driving Weather",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to Driving Weather by NERIAH.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-002",
+        "src-008"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "fuck-you-matthew",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "red-flag",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Driving Weather is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002",
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2024 (precision year); see release_date_context",
+          "source_ids": [
+            "src-002",
+            "src-008"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "red-flag",
+      "title": "Red Flag",
+      "artist_slug": "neriah",
+      "artist_credits": [
+        "NERIAH"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2024",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Red Flag",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to Red Flag by NERIAH.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "driving-weather",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "out-of-your-league",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Red Flag is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2024 (precision year); see release_date_context",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "out-of-your-league",
+      "title": "Out of Your League",
+      "artist_slug": "neriah",
+      "artist_credits": [
+        "NERIAH"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025-05-16",
+      "release_date_precision": "day",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Out of Your League",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to Out of Your League by NERIAH.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-002",
+        "src-006"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "red-flag",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "not-tonight",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Out of Your League is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002",
+            "src-006"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2025-05-16 (precision day); see release_date_context",
+          "source_ids": [
+            "src-002",
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "not-tonight",
+      "title": "Not Tonight",
+      "artist_slug": "neriah",
+      "artist_credits": [
+        "NERIAH"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2026",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Not Tonight",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to Not Tonight by NERIAH.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "out-of-your-league",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Not Tonight is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2026 (precision year); see release_date_context",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://www.bmi.com/spotlight/bmi-indie-spotlight-neriah",
+      "title": "BMI Indie Spotlight: NERIAH",
+      "publisher": "BMI",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "publisher_profile",
+      "access_status": "read",
+      "evidence_summary": "Describes Los Angeles and Malibu upbringing, songwriting as a child, and 2022 projects/singles."
+    },
+    {
+      "id": "src-002",
+      "url": "https://music.apple.com/us/artist/neriah/1535542133",
+      "title": "NERIAH official Apple Music catalogue",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Lists 2022 projects, 2023 Cause of Death, 2025 Reason To Hate You, and 2026 singles including Not Tonight."
+    },
+    {
+      "id": "src-003",
+      "url": "https://open.spotify.com/artist/1dUrqVHcv2FCXxlIqzIbiG",
+      "title": "NERIAH Spotify artist page",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "artist_page",
+      "access_status": "read",
+      "evidence_summary": "Official artist Spotify identity found through cross-referenced artist metadata; artist page itself may not expose text."
+    },
+    {
+      "id": "src-004",
+      "url": "https://open.spotify.com/track/01RJQlTi0aR0syDcSFLzTv",
+      "title": "Lego Blocks Spotify song",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "track_page",
+      "access_status": "read",
+      "evidence_summary": "Spotify names NERIAH and original standalone date May 27 2022."
+    },
+    {
+      "id": "src-005",
+      "url": "https://open.spotify.com/track/5CYUCj24HvoKfjraBQal0O",
+      "title": "Unfinished Business Spotify song",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "track_page",
+      "access_status": "read",
+      "evidence_summary": "Spotify names NERIAH and standalone date August 19 2022."
+    },
+    {
+      "id": "src-006",
+      "url": "https://open.spotify.com/album/4Tfc6JkbqehfTP7rF725kd",
+      "title": "Out of Your League Spotify single",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "release_page",
+      "access_status": "read",
+      "evidence_summary": "Spotify names NERIAH and date May 16 2025."
+    },
+    {
+      "id": "src-007",
+      "url": "https://open.spotify.com/intl-de/track/7C3diQ7WdN4rDcmJRG5bmB",
+      "title": "How Do I Get Clean? EP recording",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "track_page",
+      "access_status": "read",
+      "evidence_summary": "Spotify displays EP song list and October 14 2022 edition date, including Fuck You Matthew."
+    },
+    {
+      "id": "src-008",
+      "url": "https://shorefire.com/releases/entry/neriah-releases-acoustic-version-of-driving-weather",
+      "title": "NERIAH Driving Weather label press release",
+      "publisher": "Shore Fire Media",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "artist_publicist",
+      "access_status": "read",
+      "evidence_summary": "August 2024 press release describes the original song and acoustic reworking as part of a brighter romance-led phase."
+    }
+  ],
+  "outstanding_research": [
+    "Find and license a commercial-editorial artist portrait or retain placeholder.",
+    "Verify null track Spotify URLs before adding official embeds.",
+    "Locate song-specific original interviews where interpretations are currently withheld.",
+    "Check original standalone release dates separately from album/EP editions."
+  ]
+}

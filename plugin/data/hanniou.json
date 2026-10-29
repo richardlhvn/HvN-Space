@@ -1,0 +1,880 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-29",
+  "selection": {
+    "type": "spotify_popular_or_curated",
+    "description": "CURATED STARTER SELECTION: ten verified catalogue titles representing the artist’s work; editorial order only, not a popularity ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-002",
+      "src-003"
+    ],
+    "limitations": [
+      "No reproducible current Spotify Popular top-ten ranking with known market was established.",
+      "Some exact Spotify recording URLs remain null; do not invent or auto-generate track IDs.",
+      "Some edition dates are not original release dates."
+    ]
+  },
+  "artist": {
+    "slug": "hanniou",
+    "name": "Hanniou",
+    "full_name": null,
+    "country": "Germany",
+    "place_of_origin": "Stuttgart, Germany",
+    "short_description": "Hanniou — an Afterglow curated emotional-pop discovery profile.",
+    "biography": "Hanniou is a German singer-songwriter associated with Stuttgart who releases emotionally direct pop under a single-name stage identity. A Stuttgart festival biography identifies her as Hannah, but does not establish a verified full legal name. The same programme describes her early radio exposure through the debut single ‘Angel’ in 2020 and notes a nomination for the German Songwriting Award. Her early releases gathered an audience through online music discovery as well as live performances. Her song ‘heartbeats’ attracted attention after a snippet spread on TikTok; the festival programme connects that moment with support from the FRTYFVE label. Subsequent recordings developed her catalogue of compact, relationship-focused pop songs, including ‘what do i do now’ and material collected on the 2024 ‘Losing You’ EP. Her distributor Kontor New Media described her 2025 ‘you’re just a boy’ EP as moving between pop, bedroom pop and singer-songwriter approaches. That description and the music-service catalogues provide the factual basis for Afterglow’s categorization; the ‘emotional pop’ label is our editorial grouping rather than a formal artist-designated genre. The 2025 distributor feature also discusses touring and the growing audience around her music. For new listeners, Afterglow would present Hanniou as an accessible route into intimate modern pop, with the emotional directness of acoustic songwriting and the brevity of contemporary singles.",
+    "spotify_url": "https://open.spotify.com/artist/6cPHtMeQsCbbzpKyNDduLT",
+    "official_website": null,
+    "social_profiles": [],
+    "genres": [
+      "pop (documented)",
+      "bedroom pop (distributor description)",
+      "singer-songwriter (documented)",
+      "emotional pop (Afterglow editorial)"
+    ],
+    "moods": [
+      "vulnerable (editorial)",
+      "wistful (editorial)",
+      "reflective (editorial)"
+    ],
+    "career_milestones": [
+      {
+        "date": "2020",
+        "description": "Debut single Angel documented by the Stuttgart festival profile",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "date": "2023",
+        "description": "heartbeats was released as a single and its online momentum was described by festival sources",
+        "source_ids": [
+          "src-001",
+          "src-005"
+        ]
+      },
+      {
+        "date": "2024",
+        "description": "Losing You EP appears in Apple and Spotify catalogue",
+        "source_ids": [
+          "src-003",
+          "src-007"
+        ]
+      },
+      {
+        "date": "2025",
+        "description": "you’re just a boy EP discussed by distributor Kontor New Media",
+        "source_ids": [
+          "src-002"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Sara Kays",
+        "explanation": "Both fit vulnerable songwriter-led emotional pop; editorial comparison.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Caleb Hearn",
+        "explanation": "Shared interest in intimate, personal songwriter presentation; editorial comparison.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Rachel Grae",
+        "explanation": "Both foreground personal lyrics within accessible contemporary pop; editorial comparison.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "biography",
+        "claim": "Origin/identity and selected career milestones in the biography",
+        "source_ids": [
+          "src-001",
+          "src-002"
+        ]
+      },
+      {
+        "field": "genres",
+        "claim": "Base pop genre and project descriptions; emotional pop is editorial",
+        "source_ids": [
+          "src-001",
+          "src-002"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Artist identity on Spotify",
+        "source_ids": [
+          "src-004"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No cleared commercial-use photograph; use an abstract placeholder.",
+      "Album/EP appearance is not evidence of a track’s original single-release date.",
+      "No current stable Spotify Popular ordering with defined market was verified.",
+      "Some recording-specific Spotify links and artist-intent explanations remain unverified.",
+      "Full legal name beyond the first name Hannah is not independently established."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "heartbeats",
+      "title": "heartbeats",
+      "artist_slug": "hanniou",
+      "artist_credits": [
+        "Hanniou"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2023-01-20",
+      "release_date_precision": "day",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "heartbeats",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to heartbeats by Hanniou.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-005"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "what-do-i-do-now",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for heartbeats is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2023-01-20 (precision day); see release_date_context",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "what-do-i-do-now",
+      "title": "what do i do now",
+      "artist_slug": "hanniou",
+      "artist_credits": [
+        "Hanniou"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/4LLuQsfEN8mbuMJsdv27fs",
+      "release_date": "2023-09-29",
+      "release_date_precision": "day",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "what do i do now",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to what do i do now by Hanniou.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-006",
+        "src-009"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "heartbeats",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "unanswered",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for what do i do now is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-006",
+            "src-009"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2023-09-29 (precision day); see release_date_context",
+          "source_ids": [
+            "src-006",
+            "src-009"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "This URL identifies the specified recording on Spotify or an official Spotify embed",
+          "source_ids": [
+            "src-006",
+            "src-009"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "unanswered",
+      "title": "unanswered",
+      "artist_slug": "hanniou",
+      "artist_credits": [
+        "Hanniou"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "unanswered",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to unanswered by Hanniou.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "what-do-i-do-now",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "terrified",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for unanswered is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2023 (precision year); see release_date_context",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "terrified",
+      "title": "terrified",
+      "artist_slug": "hanniou",
+      "artist_credits": [
+        "Hanniou"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1MYp7qpQO9QYW6Wk8FCfjr",
+      "release_date": "2024-05-10",
+      "release_date_precision": "day",
+      "release_date_context": "May 10 2024 is the Losing You EP edition; an earlier standalone single exists (April 19 2024, Apple Music) so this is not the debut single date.",
+      "release_title": "Losing You",
+      "release_type": "EP",
+      "short_description": "An Afterglow curated introduction to terrified by Hanniou.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-007"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "unanswered",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "losing-you",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for terrified is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2024-05-10 (precision day); see release_date_context",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "This URL identifies the specified recording on Spotify or an official Spotify embed",
+          "source_ids": [
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "losing-you",
+      "title": "losing you",
+      "artist_slug": "hanniou",
+      "artist_credits": [
+        "Hanniou"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2024",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Losing You",
+      "release_type": "EP",
+      "short_description": "An Afterglow curated introduction to losing you by Hanniou.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-003",
+        "src-007"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "terrified",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "in-case-you-come-home",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for losing you is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-003",
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2024 (precision year); see release_date_context",
+          "source_ids": [
+            "src-003",
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "in-case-you-come-home",
+      "title": "In Case You Come Home",
+      "artist_slug": "hanniou",
+      "artist_credits": [
+        "Hanniou"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2024",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Losing You",
+      "release_type": "EP",
+      "short_description": "An Afterglow curated introduction to In Case You Come Home by Hanniou.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-003",
+        "src-007"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "losing-you",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "just-a-name",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for In Case You Come Home is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-003",
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2024 (precision year); see release_date_context",
+          "source_ids": [
+            "src-003",
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "just-a-name",
+      "title": "just a name",
+      "artist_slug": "hanniou",
+      "artist_credits": [
+        "Hanniou"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2024",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "just a name",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to just a name by Hanniou.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "in-case-you-come-home",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "heartbeats-duet",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for just a name is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2024 (precision year); see release_date_context",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "heartbeats-duet",
+      "title": "heartbeats duet",
+      "artist_slug": "hanniou",
+      "artist_credits": [
+        "Hanniou",
+        "James TW"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "heartbeats duet",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to heartbeats duet by Hanniou, James TW.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-003",
+        "src-010"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "just-a-name",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "just-a-boy",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for heartbeats duet is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-003",
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2023 (precision year); see release_date_context",
+          "source_ids": [
+            "src-003",
+            "src-010"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "just-a-boy",
+      "title": "just a boy",
+      "artist_slug": "hanniou",
+      "artist_credits": [
+        "Hanniou"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/58t9BUFbK7NIrnG64H9lm7",
+      "release_date": "2025-02-07",
+      "release_date_precision": "day",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "just a boy",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to just a boy by Hanniou.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-002",
+        "src-008"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "heartbeats-duet",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "retrograde",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for just a boy is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002",
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2025-02-07 (precision day); see release_date_context",
+          "source_ids": [
+            "src-002",
+            "src-008"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "This URL identifies the specified recording on Spotify or an official Spotify embed",
+          "source_ids": [
+            "src-002",
+            "src-008"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "retrograde",
+      "title": "retrograde",
+      "artist_slug": "hanniou",
+      "artist_credits": [
+        "Hanniou"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2026",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "retrograde",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to retrograde by Hanniou.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-003"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "just-a-boy",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for retrograde is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2026 (precision year); see release_date_context",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://www.aboutpop.de/en/artist/hanniou/",
+      "title": "Hanniou festival artist biography",
+      "publisher": "About Pop",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "festival_profile",
+      "access_status": "read",
+      "evidence_summary": "Identifies Hanniou as Hannah from Stuttgart; notes 2020 debut Angel, Heartbeats TikTok momentum, songwriting award nomination and label support."
+    },
+    {
+      "id": "src-002",
+      "url": "https://kontornewmedia.com/en/news/music/kontor-new-media-presents-new-amazon-prime-video-channel-mosaik/",
+      "title": "Hanniou releases you’re just a boy EP",
+      "publisher": "Kontor New Media",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "distributor_news",
+      "access_status": "read",
+      "evidence_summary": "July 2025 distributor release calls her German and describes the EP in pop, bedroom-pop and singer-songwriter terms; identifies just a boy release and touring."
+    },
+    {
+      "id": "src-003",
+      "url": "https://music.apple.com/us/artist/hanniou/1531843258",
+      "title": "Hanniou official music catalogue",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Lists the artist singles, Losing You EP, 2025 work and 2026 single retrograde; provides year-level edition data."
+    },
+    {
+      "id": "src-004",
+      "url": "https://open.spotify.com/artist/6cPHtMeQsCbbzpKyNDduLT",
+      "title": "Hanniou Spotify artist page",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "artist_page",
+      "access_status": "read",
+      "evidence_summary": "Spotify artist identifier and identity; no reproducible market-specific Top 10 accepted."
+    },
+    {
+      "id": "src-005",
+      "url": "https://open.spotify.com/album/3uJ6GuPf56ONU5JuaOcC6I",
+      "title": "heartbeats single",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "release_page",
+      "access_status": "read",
+      "evidence_summary": "Names Hanniou and records original single date January 20 2023."
+    },
+    {
+      "id": "src-006",
+      "url": "https://open.spotify.com/album/42COPbWHymFoRBJFyPd0SJ",
+      "title": "what do i do now single",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "release_page",
+      "access_status": "read",
+      "evidence_summary": "Names Hanniou and dates the standalone recording September 29 2023."
+    },
+    {
+      "id": "src-007",
+      "url": "https://open.spotify.com/track/1MYp7qpQO9QYW6Wk8FCfjr",
+      "title": "terrified song track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "track_page",
+      "access_status": "read",
+      "evidence_summary": "Spotify identifies Hanniou track terrified on Losing You EP, dated May 10 2024 for that edition."
+    },
+    {
+      "id": "src-008",
+      "url": "https://open.spotify.com/track/58t9BUFbK7NIrnG64H9lm7",
+      "title": "just a boy song track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "track_page",
+      "access_status": "read",
+      "evidence_summary": "Spotify identifies just a boy by Hanniou and standalone date February 7 2025."
+    },
+    {
+      "id": "src-009",
+      "url": "https://open.spotify.com/embed/track/4LLuQsfEN8mbuMJsdv27fs",
+      "title": "what do i do now Spotify player",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "track_embed",
+      "access_status": "read",
+      "evidence_summary": "Official embed identifies exact Hanniou track."
+    },
+    {
+      "id": "src-010",
+      "url": "https://open.spotify.com/embed/playlist/4HFIDQxRGkvh8m5QQdv0Bl",
+      "title": "heartbeats duet playlist verification",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "playlist_embed",
+      "access_status": "read",
+      "evidence_summary": "Official Spotify playlist identifies heartbeats duet credited to Hanniou and James TW."
+    }
+  ],
+  "outstanding_research": [
+    "Find and license a commercial-editorial artist portrait or retain placeholder.",
+    "Verify null track Spotify URLs before adding official embeds.",
+    "Locate song-specific original interviews where interpretations are currently withheld.",
+    "Check original standalone release dates separately from album/EP editions."
+  ]
+}

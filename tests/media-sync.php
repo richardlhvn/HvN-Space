@@ -6,16 +6,18 @@ function ag_media_assert($ok, $message) { if (!$ok) { throw new RuntimeException
 try {
     wp_set_current_user(0); ag_media_assert(is_wp_error(ag_sync_media()), 'Anonymous sync must be forbidden.');
     wp_set_current_user(get_user_by('login', 'editor')->ID);
+    $packs = ag_handoff_packs(); $expected = array_sum(array_map(function ($p) { return 1 + count($p['songs']); }, $packs));
+    $expected_embeds = array_sum(array_map(function ($p) { return count(array_filter($p['songs'], function ($s) { return (bool)$s['spotify_url']; })); }, $packs));
     // Exercise the blocked/unverified state independently of the live review register.
     add_filter('ag_media_reviews', function ($reviews) { foreach ($reviews as &$r) { $r['status'] = 'pending_live_verification'; } return $reviews; });
     ag_media_assert(is_wp_error(ag_sync_media(false)), 'Missing catalog must prevent writes.');
     ag_apply_handoffs(true);
     $before = $wpdb->get_var("SELECT COUNT(*) FROM {$wpdb->posts}");
     $dry = ag_sync_media(true);
-    ag_media_assert($dry['matched'] === 110 && !$dry['missing'], 'Dry run must match all records.');
+    ag_media_assert($dry['matched'] === $expected && !$dry['missing'], 'Dry run must match all registered records.');
     ag_media_assert($before === $wpdb->get_var("SELECT COUNT(*) FROM {$wpdb->posts}"), 'Dry run must not create records.');
-    ag_media_assert(count($dry['photos_pending']) === 6 && count($dry['placeholders']) === 4, 'All candidate gates must remain pending.');
-    ag_media_assert($dry['embed_updates'] === 100, 'All hundred mappings must be planned.');
+    ag_media_assert(count($dry['photos_pending']) === 6 && count($dry['placeholders']) === 14, 'Original photo gates and all fourteen placeholders must remain protected.');
+    ag_media_assert($dry['embed_updates'] === $expected_embeds && $expected_embeds === 142, 'Only exact verified recording mappings may be planned.');
     $apply = ag_sync_media(false);
     ag_media_assert(!is_wp_error($apply) && !$apply['photos_imported'], 'Unverified photos must never be imported.');
     ag_media_assert((int)$wpdb->get_var("SELECT COUNT(*) FROM {$wpdb->posts} WHERE post_type='attachment'") === 0, 'No artist binaries may be uploaded without verification.');

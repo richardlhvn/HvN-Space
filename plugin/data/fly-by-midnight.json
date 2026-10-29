@@ -1,0 +1,872 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-29",
+  "selection": {
+    "type": "spotify_popular_or_curated",
+    "description": "CURATED STARTER SELECTION: ten verified catalogue titles representing the artist’s work; editorial order only, not a popularity ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-002",
+      "src-003"
+    ],
+    "limitations": [
+      "No reproducible current Spotify Popular top-ten ranking with known market was established.",
+      "Some exact Spotify recording URLs remain null; do not invent or auto-generate track IDs.",
+      "Some edition dates are not original release dates."
+    ]
+  },
+  "artist": {
+    "slug": "fly-by-midnight",
+    "name": "Fly By Midnight",
+    "full_name": null,
+    "country": "United States",
+    "place_of_origin": "New York City, United States (formed); Los Angeles-based later",
+    "short_description": "Fly By Midnight — an Afterglow curated emotional-pop discovery profile.",
+    "biography": "Fly By Midnight is an American pop duo featuring singer-songwriter Justin Bryte and producer and singer-songwriter Slavo. An official Live Nation artist profile describes the duo as Los Angeles-based and self-distributed, and notes their fourth album ‘Fictional Illustrations.’ The group’s own Bandcamp release page offers an especially useful primary record of that album’s track list: ‘In The Night,’ ‘What If I Wasn’t Done Loving You?,’ ‘Different Lives,’ and ‘Infinitely Falling’ are among its songs, with a March 2023 edition date. That page also identifies two bonus recordings on its deluxe edition, including ‘Different Lives’ featuring Rachel Grae. The collaboration gives Afterglow a direct bridge between its softer confessional-pop profiles and a more synth-driven duo. Earlier catalogue entries include ‘No Choice’ on ‘Silver Crane’ and ‘Automatic’ with Jake Miller, while the 2025 album ‘The Fastest Time Of Our Lives’ adds material such as ‘The Weather’ and ‘Better Late Than Sooner.’ Their 2026 official website continues to promote new releases and links to their music and social platforms. Fly By Midnight's inclusion in Afterglow rests on the contrast between melodic, polished pop production and relationship-centered song titles and presentation. Any deeper explanation of individual lyrical intent would need a song-specific interview; the general career profiles and album track lists by themselves do not establish what the writers intended.",
+    "spotify_url": "https://open.spotify.com/artist/4rQTEdG6hDVOlDUFKs9EjZ",
+    "official_website": "https://www.flybymidnight.com/",
+    "social_profiles": [],
+    "genres": [
+      "pop (documented)",
+      "indie pop (documented)",
+      "synth-pop (editorial)",
+      "emotional electronic pop (Afterglow editorial)"
+    ],
+    "moods": [
+      "nostalgic (editorial)",
+      "atmospheric (editorial)",
+      "romantic (editorial)"
+    ],
+    "career_milestones": [
+      {
+        "date": "2020",
+        "description": "Released Automatic with Jake Miller",
+        "source_ids": [
+          "src-006"
+        ]
+      },
+      {
+        "date": "2021",
+        "description": "No Choice appears on Silver Crane",
+        "source_ids": [
+          "src-007"
+        ]
+      },
+      {
+        "date": "2023",
+        "description": "Fictional Illustrations album released March 24 2023",
+        "source_ids": [
+          "src-001",
+          "src-002"
+        ]
+      },
+      {
+        "date": "2025",
+        "description": "The Fastest Time Of Our Lives album released July 11 2025",
+        "source_ids": [
+          "src-005"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Loote",
+        "explanation": "Both are pop songwriting duos with electronic production; direct tour connection reported by Live Nation.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "name": "Chelsea Cutler",
+        "explanation": "Electronic-leaning melodic pop with a personal songwriting angle; editorial.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Rachel Grae",
+        "explanation": "Their Different Lives collaboration provides a direct recorded connection.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002",
+          "src-004"
+        ]
+      },
+      {
+        "name": "SHY Martin",
+        "explanation": "Accessible synth-driven pop with emotional hooks; editorial.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "biography",
+        "claim": "Origin/identity and selected career milestones in the biography",
+        "source_ids": [
+          "src-001",
+          "src-002"
+        ]
+      },
+      {
+        "field": "genres",
+        "claim": "Base pop genre and project descriptions; emotional pop is editorial",
+        "source_ids": [
+          "src-001",
+          "src-002"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Artist identity on Spotify",
+        "source_ids": [
+          "src-003"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No cleared commercial-use photograph; use an abstract placeholder.",
+      "Album/EP appearance is not evidence of a track’s original single-release date.",
+      "No current stable Spotify Popular ordering with defined market was verified.",
+      "Some recording-specific Spotify links and artist-intent explanations remain unverified."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "no-choice",
+      "title": "No Choice",
+      "artist_slug": "fly-by-midnight",
+      "artist_credits": [
+        "Fly By Midnight"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/74G0T9Zo5TAJQabpW4gIs3",
+      "release_date": "2021",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Silver Crane",
+      "release_type": "album",
+      "short_description": "An Afterglow curated introduction to No Choice by Fly By Midnight.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-004",
+        "src-007"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "in-the-night",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for No Choice is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-004",
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2021 (precision year); see release_date_context",
+          "source_ids": [
+            "src-004",
+            "src-007"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "This URL identifies the specified recording on Spotify or an official Spotify embed",
+          "source_ids": [
+            "src-004",
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "in-the-night",
+      "title": "In The Night",
+      "artist_slug": "fly-by-midnight",
+      "artist_credits": [
+        "Fly By Midnight"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6QMWZGwkpUS7RtgRgRcW5x",
+      "release_date": "2023-03-24",
+      "release_date_precision": "day",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Fictional Illustrations",
+      "release_type": "album",
+      "short_description": "An Afterglow curated introduction to In The Night by Fly By Midnight.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-002",
+        "src-010"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "no-choice",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "infinitely-falling",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for In The Night is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002",
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2023-03-24 (precision day); see release_date_context",
+          "source_ids": [
+            "src-002",
+            "src-010"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "This URL identifies the specified recording on Spotify or an official Spotify embed",
+          "source_ids": [
+            "src-002",
+            "src-010"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "infinitely-falling",
+      "title": "Infinitely Falling",
+      "artist_slug": "fly-by-midnight",
+      "artist_credits": [
+        "Fly By Midnight"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2023-03-24",
+      "release_date_precision": "day",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Fictional Illustrations",
+      "release_type": "album",
+      "short_description": "An Afterglow curated introduction to Infinitely Falling by Fly By Midnight.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "in-the-night",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "what-if-i-wasn-t-done-loving-you",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Infinitely Falling is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2023-03-24 (precision day); see release_date_context",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "what-if-i-wasn-t-done-loving-you",
+      "title": "What If I Wasn't Done Loving You?",
+      "artist_slug": "fly-by-midnight",
+      "artist_credits": [
+        "Fly By Midnight"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2023-03-24",
+      "release_date_precision": "day",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Fictional Illustrations",
+      "release_type": "album",
+      "short_description": "An Afterglow curated introduction to What If I Wasn't Done Loving You? by Fly By Midnight.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "infinitely-falling",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "different-lives-feat-rachel-grae",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for What If I Wasn't Done Loving You? is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2023-03-24 (precision day); see release_date_context",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "different-lives-feat-rachel-grae",
+      "title": "Different Lives (feat. Rachel Grae)",
+      "artist_slug": "fly-by-midnight",
+      "artist_credits": [
+        "Fly By Midnight",
+        "Rachel Grae"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": "March 24 2023 is the original album issue date; bonus duet edition date not independently established.",
+      "release_title": "Fictional Illustrations (Bandcamp Deluxe Edition)",
+      "release_type": "album",
+      "short_description": "An Afterglow curated introduction to Different Lives (feat. Rachel Grae) by Fly By Midnight, Rachel Grae.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-002",
+        "src-004"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "what-if-i-wasn-t-done-loving-you",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "automatic",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Different Lives (feat. Rachel Grae) is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002",
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "automatic",
+      "title": "Automatic",
+      "artist_slug": "fly-by-midnight",
+      "artist_credits": [
+        "Fly By Midnight",
+        "Jake Miller"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/53j8ASpDNpphJlQVgkwJQY",
+      "release_date": "2020-11-20",
+      "release_date_precision": "day",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Automatic",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to Automatic by Fly By Midnight, Jake Miller.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-006"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "different-lives-feat-rachel-grae",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "better-late-than-sooner",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Automatic is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2020-11-20 (precision day); see release_date_context",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "This URL identifies the specified recording on Spotify or an official Spotify embed",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "better-late-than-sooner",
+      "title": "Better Late Than Sooner",
+      "artist_slug": "fly-by-midnight",
+      "artist_credits": [
+        "Fly By Midnight"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/7wzYZCcgdnjwLlsDDnxt4I",
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "The Fastest Time Of Our Lives",
+      "release_type": "album",
+      "short_description": "An Afterglow curated introduction to Better Late Than Sooner by Fly By Midnight.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-005",
+        "src-008"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "automatic",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "borrow-your-time",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Better Late Than Sooner is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-005",
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2025 (precision year); see release_date_context",
+          "source_ids": [
+            "src-005",
+            "src-008"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "This URL identifies the specified recording on Spotify or an official Spotify embed",
+          "source_ids": [
+            "src-005",
+            "src-008"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "borrow-your-time",
+      "title": "Borrow Your Time",
+      "artist_slug": "fly-by-midnight",
+      "artist_credits": [
+        "Fly By Midnight"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": "An Afterglow curated introduction to Borrow Your Time by Fly By Midnight.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "better-late-than-sooner",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "the-weather",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Borrow Your Time is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "the-weather",
+      "title": "The Weather",
+      "artist_slug": "fly-by-midnight",
+      "artist_credits": [
+        "Fly By Midnight"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "The Fastest Time Of Our Lives",
+      "release_type": "album",
+      "short_description": "An Afterglow curated introduction to The Weather by Fly By Midnight.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-005"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "borrow-your-time",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "love-me-like-a-friend",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for The Weather is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2025 (precision year); see release_date_context",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "love-me-like-a-friend",
+      "title": "Love Me Like a Friend",
+      "artist_slug": "fly-by-midnight",
+      "artist_credits": [
+        "Fly By Midnight"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": "An Afterglow curated introduction to Love Me Like a Friend by Fly By Midnight.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "the-weather",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Love Me Like a Friend is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://www.livenation.asia/fly-by-midnight-tickets-adp1431552",
+      "title": "Fly By Midnight artist profile",
+      "publisher": "Live Nation",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "official_promoter",
+      "access_status": "read",
+      "evidence_summary": "Names duo Justin Bryte and Slavo; describes LA base, releases and touring with Loote."
+    },
+    {
+      "id": "src-002",
+      "url": "https://flybymidnight.bandcamp.com/album/fictional-illustrations-bandcamp-deluxe-edition",
+      "title": "Fictional Illustrations deluxe edition",
+      "publisher": "Fly By Midnight Bandcamp",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "artist_release",
+      "access_status": "read",
+      "evidence_summary": "Album track list and March 24 2023 release, with Rachel Grae feature on deluxe bonus version."
+    },
+    {
+      "id": "src-003",
+      "url": "https://open.spotify.com/artist/4rQTEdG6hDVOlDUFKs9EjZ",
+      "title": "Fly By Midnight Spotify artist",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "artist_page",
+      "access_status": "read",
+      "evidence_summary": "Spotify official artist identity."
+    },
+    {
+      "id": "src-004",
+      "url": "https://open.spotify.com/embed/artist/4rQTEdG6hDVOlDUFKs9EjZ",
+      "title": "Fly By Midnight Spotify embedded artist catalogue",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "artist_embed",
+      "access_status": "read",
+      "evidence_summary": "Lists top tracks and correct credits for collaborations with Jake Miller and Rachel Grae; rankings not used."
+    },
+    {
+      "id": "src-005",
+      "url": "https://open.spotify.com/album/7r7Q2FOiZugbsWuD9N9ZPl",
+      "title": "The Fastest Time Of Our Lives album",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "release_page",
+      "access_status": "read",
+      "evidence_summary": "Official July 11 2025 album and 11-track listing."
+    },
+    {
+      "id": "src-006",
+      "url": "https://open.spotify.com/track/53j8ASpDNpphJlQVgkwJQY",
+      "title": "Automatic with Jake Miller track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "track_page",
+      "access_status": "read",
+      "evidence_summary": "Names Fly By Midnight and Jake Miller and confirms November 20 2020 single release."
+    },
+    {
+      "id": "src-007",
+      "url": "https://open.spotify.com/track/74G0T9Zo5TAJQabpW4gIs3",
+      "title": "No Choice track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "track_page",
+      "access_status": "read",
+      "evidence_summary": "Names Fly By Midnight and 2021 Silver Crane release edition."
+    },
+    {
+      "id": "src-008",
+      "url": "https://open.spotify.com/track/7wzYZCcgdnjwLlsDDnxt4I",
+      "title": "Better Late Than Sooner track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "track_page",
+      "access_status": "read",
+      "evidence_summary": "Official track from The Fastest Time Of Our Lives 2025 album."
+    },
+    {
+      "id": "src-009",
+      "url": "https://www.flybymidnight.com/",
+      "title": "Fly By Midnight official website",
+      "publisher": "Fly By Midnight",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "official_website",
+      "access_status": "read",
+      "evidence_summary": "Official site links new promotional music and their social channels."
+    },
+    {
+      "id": "src-010",
+      "url": "https://open.spotify.com/track/6QMWZGwkpUS7RtgRgRcW5x",
+      "title": "In The Night Spotify track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "track_page",
+      "access_status": "read",
+      "evidence_summary": "Original Fly By Midnight album recording on Fictional Illustrations released March 24 2023."
+    }
+  ],
+  "outstanding_research": [
+    "Find and license a commercial-editorial artist portrait or retain placeholder.",
+    "Verify null track Spotify URLs before adding official embeds.",
+    "Locate song-specific original interviews where interpretations are currently withheld.",
+    "Check original standalone release dates separately from album/EP editions."
+  ]
+}

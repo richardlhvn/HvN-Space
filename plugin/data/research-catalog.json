@@ -1,0 +1,43 @@
+{
+  "schema_version": "afterglow.catalog.v1",
+  "batches": [
+    {
+      "id": "original",
+      "label": "Original ten artists",
+      "slugs": [
+        "astrid-s",
+        "sara-kays",
+        "caleb-hearn",
+        "shy-martin",
+        "clara-mae",
+        "elina",
+        "chelsea-cutler",
+        "mokita",
+        "rosie-darling",
+        "sasha-alex-sloan"
+      ]
+    },
+    {
+      "id": "batch3",
+      "label": "Batch 3 \u2014 29 October 2026",
+      "slugs": [
+        "sadie-jean",
+        "lyn-lapid",
+        "alexander-23",
+        "anson-seabra",
+        "blu-eyes"
+      ]
+    },
+    {
+      "id": "batch4",
+      "label": "Batch 4 \u2014 29 October 2026",
+      "slugs": [
+        "hanniou",
+        "loote",
+        "rachel-grae",
+        "neriah",
+        "fly-by-midnight"
+      ]
+    }
+  ]
+}

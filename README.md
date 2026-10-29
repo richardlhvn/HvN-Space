@@ -2,7 +2,9 @@
 
 A working WordPress MVP for independent emotional-pop discovery. The name is a starting point: change it in **Settings → General**, and change the site’s tagline and public contact email in **Appearance → Customize → Afterglow identity**.
 
-The site includes a designed homepage, artist and song directories, name/genre/mood/country filters, individual profiles, manually curated relationships, global search, an editorial journal, and a collection saved in the visitor’s browser. No music, downloaded album covers, analytics, or advertisements are bundled. Six separately licensed artist photographs are included with their own attribution and license records; four artists retain abstract placeholders.
+The site includes a designed homepage, artist and song directories, name/genre/mood/country filters, individual profiles, manually curated relationships, global search, an editorial journal, and a collection saved in the visitor’s browser. No music, downloaded album covers, analytics, or advertisements are bundled. Six separately licensed artist photographs are included with their own attribution and license records; fourteen artists retain abstract placeholders.
+
+**New in Core 0.6:** [research batches 3 and 4](docs/RESEARCH-UPDATE-2026-10-29.md) add Sadie Jean, Lyn Lapid, Alexander 23, Anson Seabra, BLÜ EYES, Hanniou, Loote, Rachel Grae, NERIAH, and Fly By Midnight. The catalog now contains **20 artists and 200 curated songs**. In **Artists → Import supplied research**, review the **2026-10-29** collection to import only these ten artists and their hundred songs. Forty-two new exact track links support official players; 58 deliberately missing track links use verified artist-profile fallbacks. Original records and photo-rights files are preserved. Linked collaboration credits share existing song pages rather than create duplicate recordings. Imports remain noindex pending editorial review.
 
 **New in Core 0.4:** [seven additional supplied research collections](docs/RESEARCH-UPDATE-2026-10-27.md) bring the bundled catalog to **ten artists and 100 curated songs**. Use the same **Artists → Import supplied research** screen after updating the code. Edited records remain protected, and imported pages remain noindex pending review. The former Clara Mae website is excluded from public links.
 
@@ -12,7 +14,7 @@ Afterglow Core 0.2 adds **Artists → Research collections**, an explicit, draft
 
 **Core 0.5 media update:** see [the local update instructions](docs/LOCAL_MEDIA_UPDATE.md), [implementation and rights report](docs/MEDIA_SYNC_REPORT.md), and [Hostinger media release checklist](docs/HOSTINGER_MEDIA_RELEASE.md). It adds six source-verified portraits, complete credits, and 100 click-to-load official track embed mappings. Use **Artists → Media and embeds** after the catalog is imported. The owner approved publishing this reviewed source update to GitHub; production deployment still requires separate approval.
 
-On song pages with a verified track link, the official Spotify player now occupies the main artwork position. Click **Load Spotify player** to show Spotify's cover and playback controls together. Directory cards retain original abstract artwork; songs without a verified track link retain their artwork and Spotify search fallback. No cover image is copied into WordPress.
+On song pages with an exact track link, the official Spotify player occupies the main artwork position. Click **Load Spotify player** to show Spotify's cover and playback controls together. Directory cards retain original abstract artwork; songs without an exact track link retain their artwork and offer the artist's verified Spotify profile, or a labeled search when no verified profile exists. No cover image is copied into WordPress.
 
 ## Why WordPress
 
@@ -46,14 +48,16 @@ To choose a different port, add `PORT=8081` to `.env` **before the first setup**
 ## Tests and packages
 
 ```bash
-npm test                         # 38 functional checks in Chromium; writes screenshots
+npm test                         # 40 functional checks in Chromium; writes screenshots
 bash scripts/test-editorial.sh   # 16 permission, validation, and editorial-integrity checks
 bash scripts/test-research.sh    # 39 import safety checks in a disposable DB namespace
-bash scripts/test-handoffs.sh    # 445 supplied-research checks in a disposable DB namespace
+bash scripts/test-handoffs.sh    # 1,310 supplied-research checks in a disposable DB namespace
+python3 scripts/validate-research.py # Catalog, nulls, source references, dates, and duplicate recordings
 bash scripts/backup.sh           # Private database backup before content updates
 npm run test:a11y                # Automated WCAG checks on representative templates
-bash scripts/test-media.sh       # 133 media sync and permission-gate checks
-node tests/media-browser.mjs      # All 100 song pages, real photos, credits, and embeds
+bash scripts/test-media.sh       # 243 media sync and permission-gate checks
+node tests/media-browser.mjs      # All 200 song pages, real photos, credits, embeds, and null-track fallbacks
+node tests/research-admin.mjs     # Research collection selection and protected admin import
 npm run test:admin               # Save structured fields through WordPress administration
 npm run package                  # Creates dist/afterglow.zip and dist/afterglow-core.zip
 ```
@@ -64,7 +68,7 @@ See [Hostinger deployment](docs/HOSTINGER.md), [editorial workflow](docs/EDITORI
 
 ## Content status
 
-Six artist profiles and six song pages are **clearly labeled demo listening prompts**, not researched biographies or authoritative song meanings. Mood/genre labels and connections are provisional editorial choices. No country, interview, quote, release date, official Spotify entity ID, or social account is invented. Unverified Spotify destinations are labeled searches. Demo records carry `noindex` and are excluded from WordPress’s post sitemap, even after public indexing is enabled.
+The twenty artist profiles and two hundred selected song pages use supplied source-linked research and remain **noindex pending editorial review**. Mood/genre labels and recommendations are editorial choices. Exact recording links are present for 142 selections; 58 remain deliberately missing. Release precision, edition context, uncertainties, source provenance, and missing artist statements are retained. One legacy starter song and five older research drafts remain rather than being deleted to force a raw post count of 200. Review-flagged records are excluded from WordPress’s post sitemap, even after public indexing is enabled.
 
 Three original journal articles discuss listening and editorial practice. Legal/contact pages are pre-launch templates requiring the owner’s details and appropriate review. Before launch, replace or finish the sample records, verify links and claims, document artwork rights, and complete contact/privacy information. Local WordPress additionally has **Discourage search engines** enabled.
 

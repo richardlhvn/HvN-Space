@@ -33,8 +33,8 @@ docker compose restart wordpress
 ```
 
 1. Open http://localhost:8080/wp-admin/ (use your configured port if different) and sign in with your existing administrator account.
-2. If the ten research artists and 100 curated songs have not been imported, open **Artists → Import supplied research**, inspect its review, and apply the import. Existing edited records are protected.
-3. Open **Artists → Media and embeds** and inspect the dry run. It should match ten artists and 100 curated songs, with six verified photo candidates and four unresolved placeholders. Some photos can be preserved rather than replaced if you edited the corresponding artist record.
+2. If the current twenty research artists and 200 curated songs have not been imported, open **Artists → Import supplied research**, inspect its review, and apply the relevant collection. **2026-10-29** adds only the ten newer artists and their 100 songs; choose **All research** on an installation missing the earlier catalog. Existing edited records are protected. See `RESEARCH-UPDATE-2026-10-29.md` for the two newest batches.
+3. Open **Artists → Media and embeds** and inspect the dry run. A complete catalog should match 220 records, with six verified photo candidates and fourteen unresolved placeholders. Some photos can be preserved rather than replaced if you edited the corresponding artist record. Only 142 selected songs have exact track mappings; the other 58 deliberately retain missing track links and use artist-profile fallbacks.
 4. Apply the media synchronization using the button on that page. Repeating it reuses the same attachments rather than adding duplicates. Review any preserved or missing records rather than forcing an overwrite.
 5. Refresh http://localhost:8080/artists/ and check the photo credits, an artist profile, a song page, and **Media credits** in the footer. Click **Load Spotify player** to test playback from your own browser. A direct Spotify link remains available if embedding is blocked.
 

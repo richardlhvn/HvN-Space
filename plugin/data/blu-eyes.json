@@ -1,0 +1,932 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-29",
+  "selection": {
+    "type": "curated",
+    "description": "CURATED STARTER SELECTION of ten identified songs from multiple release periods. This is not a current Spotify Popular top-ten ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-010",
+      "src-004",
+      "src-005"
+    ],
+    "limitations": [
+      "Spotify artist embed ordering is dynamic, and no stable market-specific ranking and retrieval was established.",
+      "Song sequence is editorial, not a stream count ranking.",
+      "Some recording-specific Spotify URLs remain null pending independent confirmation.",
+      "A release date tied to an album/EP edition does not establish the first release of the song."
+    ]
+  },
+  "artist": {
+    "slug": "blu-eyes",
+    "name": "BLÜ EYES",
+    "full_name": "Katie Stump",
+    "country": "United States",
+    "place_of_origin": "Fullerton, California, United States",
+    "short_description": "California artist, writer and producer creating direct, atmospheric alt-pop about difficult feelings and relationships.",
+    "biography": "BLÜ EYES is the musical identity of Katie Stump, an American singer-songwriter and producer from Fullerton in Orange County, California. In a 2023 interview, she described growing up around family singing and learning piano and guitar as a child. She has cited Taylor Swift and several earlier singer-songwriters as formative influences, alongside more recent alternative-pop artists. Stump works closely with the writing and production of her recordings and has described developing songs from written observations or feelings into melodies and self-produced demos. Her early releases include 'stuck in my head' in 2021 and the 'healing hurts' EP in 2022. She released the album 'The Last Songs I'll Write About You' in 2023 and later discussed its concluding track, 'The Last Song', as a particularly personal example of her creative independence. Subsequent releases have included 'dear anxiety', 'two people at once', and the 2026 project 'Two People at Once'. Her official site presents newer music and videos, while the music-service catalogue distinguishes the 2026 album from an expanded double-album edition. Afterglow positions BLÜ EYES within candid alternative pop, with an emphasis on emotionally direct writing and production; that characterization is editorial. Her catalogue creates a natural discovery path from Rosie Darling and Sasha Alex Sloan toward more expansive, self-produced pop arrangements.",
+    "spotify_url": "https://open.spotify.com/artist/2gI1WfmpFmmgSRojy4Jup2",
+    "official_website": "https://www.blueyesmusic.com/",
+    "social_profiles": [],
+    "genres": [
+      "alternative pop (editorial)",
+      "confessional pop (editorial)"
+    ],
+    "moods": [
+      "introspective (editorial)",
+      "bittersweet (editorial)"
+    ],
+    "career_milestones": [
+      {
+        "date": "2021-01-12",
+        "description": "Released stuck in my head",
+        "source_ids": [
+          "src-007"
+        ]
+      },
+      {
+        "date": "2022",
+        "description": "Released healing hurts EP",
+        "source_ids": [
+          "src-004"
+        ]
+      },
+      {
+        "date": "2023",
+        "description": "Released The Last Songs I’ll Write About You",
+        "source_ids": [
+          "src-002",
+          "src-004"
+        ]
+      },
+      {
+        "date": "2026-03-20",
+        "description": "Released Two People at Once",
+        "source_ids": [
+          "src-005"
+        ]
+      },
+      {
+        "date": "2026-07-24",
+        "description": "Released expanded Two People at Once (The Double Album)",
+        "source_ids": [
+          "src-006"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Rosie Darling",
+        "explanation": "Candid emotional writing creates a logical connection across indie and alt-pop.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "name": "Sasha Alex Sloan",
+        "explanation": "Both provide emotionally direct narratives about complicated internal experiences.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "name": "SHY Martin",
+        "explanation": "Self-reflective lyrics and melodic pop give visitors a route between their catalogues.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002",
+          "src-003"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "full_name",
+        "claim": "Official/secondary identity and name are given in the cited source.",
+        "source_ids": [
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "country,place_of_origin",
+        "claim": "Artist origins and upbringing match cited biographical sources.",
+        "source_ids": [
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Career origins and early release history are supported by cited artist profiles.",
+        "source_ids": [
+          "src-002",
+          "src-003",
+          "src-005"
+        ]
+      },
+      {
+        "field": "biography:recent",
+        "claim": "Later projects and artist comments are supported by these first-person/catalogue sources.",
+        "source_ids": [
+          "src-005",
+          "src-006",
+          "src-001"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Official Spotify artist embed identifies this musical artist.",
+        "source_ids": [
+          "src-010"
+        ]
+      },
+      {
+        "field": "official_website",
+        "claim": "Artist-branded official website was readable during the research window.",
+        "source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No artist photo or album-cover commercial reuse license was independently established; retain placeholder and official Spotify embeds.",
+      "Mood, genre and cross-artist associations are Afterglow editorial choices rather than verified artist statements.",
+      "Social account ownership was not independently confirmed for publication; social_profiles remains empty."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "youd-never-know",
+      "title": "you'd never know",
+      "artist_slug": "blu-eyes",
+      "artist_credits": [
+        "BLÜ EYES"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1I2zZtHCrBkoTgfwxnNKZ9",
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "Year in Apple catalogue; official Spotify embed confirms linked recording.",
+      "release_title": "you'd never know",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from BLÜ EYES; not part of a certified popularity ranking.",
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "A major early recording in the contemporary catalogues, without invented backstory.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "healing-hurts",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "stuck-in-my-head",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-011"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "healing-hurts",
+      "title": "healing hurts",
+      "artist_slug": "blu-eyes",
+      "artist_credits": [
+        "BLÜ EYES"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "Release year and EP association verified, but standalone track URL not checked.",
+      "release_title": "healing hurts",
+      "release_type": "ep",
+      "short_description": "Afterglow curated starter selection from BLÜ EYES; not part of a certified popularity ranking.",
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "The EP’s title track helps visitors explore this period.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "stuck-in-my-head",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "the-last-song",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "stuck-in-my-head",
+      "title": "stuck in my head",
+      "artist_slug": "blu-eyes",
+      "artist_credits": [
+        "BLÜ EYES"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2021-01-12",
+      "release_date_precision": "day",
+      "release_date_context": "Standalone single date from Spotify release page.",
+      "release_title": "stuck in my head",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from BLÜ EYES; not part of a certified popularity ranking.",
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Early catalogue entry, with no unsupported explanation of its title.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-007"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "the-last-song",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "break-up-with-a-friend",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "the-last-song",
+      "title": "The Last Song",
+      "artist_slug": "blu-eyes",
+      "artist_credits": [
+        "BLÜ EYES"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "Artist discusses the 2023 album and song; exact original day not verified.",
+      "release_title": "The Last Songs I'll Write About You (for real)",
+      "release_type": "album",
+      "short_description": "Afterglow curated starter selection from BLÜ EYES; not part of a certified popularity ranking.",
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [],
+      "editorial_notes": "A rare song with verifiable first-person production context.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information and first-person artist commentary. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": "Stump identified it as her favorite from the project and emphasized that she created the song herself, from writing through production.",
+      "artist_statement_source_ids": [
+        "src-002"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "break-up-with-a-friend",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "dear-anxiety",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Song-specific paraphrase derived from a first-person interview with the artist.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context."
+      ]
+    },
+    {
+      "slug": "break-up-with-a-friend",
+      "title": "Break Up With a Friend",
+      "artist_slug": "blu-eyes",
+      "artist_credits": [
+        "BLÜ EYES"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2021",
+      "release_date_precision": "year",
+      "release_date_context": "Apple catalogue records it in 2021; no original day verified.",
+      "release_title": "Break Up With a Friend",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from BLÜ EYES; not part of a certified popularity ranking.",
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "A title and project worth exploring as a companion to her later work; interpretation unverified.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "dear-anxiety",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "gaslight",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "dear-anxiety",
+      "title": "dear anxiety",
+      "artist_slug": "blu-eyes",
+      "artist_credits": [
+        "BLÜ EYES"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "EP association dated 2025; 2026 EP reissue also exists.",
+      "release_title": "dear anxiety",
+      "release_type": "ep",
+      "short_description": "Afterglow curated starter selection from BLÜ EYES; not part of a certified popularity ranking.",
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "A later entry from the personal alt-pop catalogue, without assuming autobiography from title.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "gaslight",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "two-people-at-once",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "gaslight",
+      "title": "gaslight",
+      "artist_slug": "blu-eyes",
+      "artist_credits": [
+        "BLÜ EYES"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "2025 single is listed; exact issue day not checked.",
+      "release_title": "gaslight",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from BLÜ EYES; not part of a certified popularity ranking.",
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Another track from the 2025–26 cycle.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-004"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "two-people-at-once",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "29",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "two-people-at-once",
+      "title": "two people at once",
+      "artist_slug": "blu-eyes",
+      "artist_credits": [
+        "BLÜ EYES"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025-06-27",
+      "release_date_precision": "day",
+      "release_date_context": "Standalone single date separately verified in Spotify catalogue; 29 EP is later 2026 edition.",
+      "release_title": "two people at once",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from BLÜ EYES; not part of a certified popularity ranking.",
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Bridge between 2025 singles and the 2026 project.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-008"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "29",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "wish-we-never-happened",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-008"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "29",
+      "title": "29",
+      "artist_slug": "blu-eyes",
+      "artist_credits": [
+        "BLÜ EYES"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2026-01-23",
+      "release_date_precision": "day",
+      "release_date_context": "EP edition dated 2026; cannot establish earliest song recording beyond this issue.",
+      "release_title": "29",
+      "release_type": "ep",
+      "short_description": "Afterglow curated starter selection from BLÜ EYES; not part of a certified popularity ranking.",
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Opening selection from the 29 EP.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-009"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "wish-we-never-happened",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "youd-never-know",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits",
+          "claim": "Official artist/album catalogue lists the song and performing artist, but a recording-specific Spotify link was not verified.",
+          "source_ids": [
+            "src-010"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-009"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; provide artist profile link until checked.",
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    },
+    {
+      "slug": "wish-we-never-happened",
+      "title": "wish we never happened",
+      "artist_slug": "blu-eyes",
+      "artist_credits": [
+        "BLÜ EYES"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/5c9DWtkq7J4mwsTrUZXqoZ",
+      "release_date": "2022-07-22",
+      "release_date_precision": "day",
+      "release_date_context": "Spotify standalone single edition dated July 22, 2022.",
+      "release_title": "wish we never happened",
+      "release_type": "single",
+      "short_description": "Afterglow curated starter selection from BLÜ EYES; not part of a certified popularity ranking.",
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "An earlier song selected as an introduction to the pre-2023 catalogue.",
+      "editorial_notes_basis": "Original editorial guide based on cited catalogue information. No claim of listening to audio.",
+      "editorial_notes_source_ids": [
+        "src-010"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "youd-never-know",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "healing-hurts",
+          "explanation": "Editorial recommendation to continue exploring this artist’s selected catalogue; similarity of musical sound has not been independently assessed.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,spotify_url",
+          "claim": "Catalogue identifies the selected recording and displayed performing artists.",
+          "source_ids": [
+            "src-012"
+          ]
+        },
+        {
+          "field": "release_date,release_title,release_type",
+          "claim": "Release information refers to the identified single/project/album edition with limitations recorded in release_date_context.",
+          "source_ids": [
+            "src-012"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "First release may differ from selected edition; see release_date_context.",
+        "No verified song-specific artist explanation was found; no intent is claimed."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.blueyesmusic.com/",
+      "title": "BLÜ EYES official website",
+      "publisher": "BLÜ EYES",
+      "evidence_summary": "Site promotes newer releases, music videos, and artist mailing list.",
+      "source_type": "official_artist_site",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-001"
+    },
+    {
+      "url": "https://blogtest.gigsandtours.com/2023/08/interview-with-blu-eyes/",
+      "title": "Interview with BLÜ EYES",
+      "publisher": "Gigs & Tours Discover",
+      "evidence_summary": "First-person interview identifies Katie Stump, Fullerton origins, writing process and 2023 record.",
+      "source_type": "first_person_interview",
+      "published_date": "2023-08-22",
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-002"
+    },
+    {
+      "url": "https://www.brillbuilding.com/roster/blu-eyes",
+      "title": "BLÜ EYES writer roster",
+      "publisher": "Brill Building Modern Copyrights",
+      "evidence_summary": "Publishing roster identifies Katie Stump and independent artist/writer/producer identity.",
+      "source_type": "official_publisher_biography",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-003"
+    },
+    {
+      "url": "https://music.apple.com/us/artist/bl%C3%BC-eyes/1249436331",
+      "title": "BLÜ EYES — catalogue",
+      "publisher": "Apple Music",
+      "evidence_summary": "Releases include stuck in my head, healing hurts, you’d never know, 2025 and 2026 work.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-004"
+    },
+    {
+      "url": "https://music.apple.com/us/album/two-people-at-once/1871570653",
+      "title": "Two People at Once — album",
+      "publisher": "Apple Music",
+      "evidence_summary": "Album dated March 20, 2026.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": "2026-03-20",
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-005"
+    },
+    {
+      "url": "https://music.apple.com/us/album/two-people-at-once-the-double-album/6786415143",
+      "title": "Two People at Once (The Double Album)",
+      "publisher": "Apple Music",
+      "evidence_summary": "Expanded double album dated July 24, 2026, distinct from March album.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": "2026-07-24",
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-006"
+    },
+    {
+      "url": "https://open.spotify.com/album/3eo0JY9SkVm2cchI0ZAqfU",
+      "title": "stuck in my head — single",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify confirms song, artist and January 12, 2021 standalone edition.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": "2021-01-12",
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-007"
+    },
+    {
+      "url": "https://open.spotify.com/album/3Qx93IZlHLoCjoc9xJOuUg",
+      "title": "two people at once — 2025 single",
+      "publisher": "Spotify",
+      "evidence_summary": "Official Spotify single release page is dated June 27, 2025.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": "2025-06-27",
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-008"
+    },
+    {
+      "url": "https://open.spotify.com/album/7zE8WryMg0RpDh2VUISZSn",
+      "title": "29 — EP",
+      "publisher": "Spotify",
+      "evidence_summary": "EP dated January 23, 2026 with 29, dear anxiety, gaslight, BAD FEELINGS and two people at once.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": "2026-01-23",
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-009"
+    },
+    {
+      "url": "https://open.spotify.com/embed/artist/2gI1WfmpFmmgSRojy4Jup2",
+      "title": "BLÜ EYES — Spotify artist player",
+      "publisher": "Spotify",
+      "evidence_summary": "Official artist embed confirms several recordings and names.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-010"
+    },
+    {
+      "url": "https://open.spotify.com/track/1I2zZtHCrBkoTgfwxnNKZ9",
+      "title": "you'd never know — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as you'd never know credited to BLÜ EYES, shown on you'd never know.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-011"
+    },
+    {
+      "url": "https://open.spotify.com/track/5c9DWtkq7J4mwsTrUZXqoZ",
+      "title": "wish we never happened — Spotify track catalogue",
+      "publisher": "Spotify",
+      "evidence_summary": "Spotify identifies the track as wish we never happened credited to BLÜ EYES, shown on wish we never happened.",
+      "source_type": "official_streaming_catalogue",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "access_status": "read",
+      "id": "src-012"
+    }
+  ],
+  "outstanding_research": [
+    "Verify each song with null spotify_url against a direct official Spotify track page, checking performing artists and editions.",
+    "Confirm first-release dates separately from subsequent album and compilation editions.",
+    "Locate additional original interviews that substantiate song-specific artist intent.",
+    "Secure explicit commercial editorial use rights before adding artist photographs to WordPress.",
+    "Confirm social media accounts from an official source before publishing social links."
+  ]
+}

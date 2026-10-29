@@ -1,0 +1,859 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-29",
+  "selection": {
+    "type": "spotify_popular_or_curated",
+    "description": "CURATED STARTER SELECTION: ten verified catalogue titles representing the artist’s work; editorial order only, not a popularity ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-002",
+      "src-003"
+    ],
+    "limitations": [
+      "No reproducible current Spotify Popular top-ten ranking with known market was established.",
+      "Some exact Spotify recording URLs remain null; do not invent or auto-generate track IDs.",
+      "Some edition dates are not original release dates."
+    ]
+  },
+  "artist": {
+    "slug": "loote",
+    "name": "Loote",
+    "full_name": null,
+    "country": "United States",
+    "place_of_origin": "New York City, New York, United States",
+    "short_description": "Loote — an Afterglow curated emotional-pop discovery profile.",
+    "biography": "Loote is a New York-associated American pop duo built around the songwriting and production partnership of Emma Lov and Jackson Foote. According to AllMusic, the pair met while studying and continued making music together after a class project; their work brings producer-minded arrangement into a vocal pop setting. Their recorded catalogue includes the 2017 single ‘High Without Your Love,’ the 2018 collection ‘single.’ and the 2019 EP ‘lost.’ Apple Music lists the duo’s tracks ‘Your Side of the Bed,’ ‘tomorrow tonight,’ ‘she’s all yours’ and ‘Wish I Never Met You’ among its featured catalogue selections. Their collaborative approach also reached outside their own releases. A 2019 Ones to Watch feature documents ‘85%’ with gnash and describes the track as a vocal duet addressing unequal effort in a relationship. The song is particularly relevant to Afterglow’s interest in bittersweet emotional songwriting presented through bright pop production. Loote also appears on ‘Better When You’re Gone’ alongside David Guetta and Brooks, reflecting a connection to dance-pop. Their 2026 single ‘This Is the Last Song About You’ is credited jointly with Anson Seabra, creating a direct bridge to another artist in Afterglow’s research catalogue. Loote’s combination of polished hooks, electronic textures, and personal relationship narratives makes them a strong addition to the site’s more energetic emotional-pop category.",
+    "spotify_url": "https://open.spotify.com/artist/00TKPo9MxwZ0j4ooveIxWZ",
+    "official_website": null,
+    "social_profiles": [],
+    "genres": [
+      "pop (documented)",
+      "dance-pop (documented)",
+      "indie pop (documented)",
+      "electronic emotional pop (Afterglow editorial)"
+    ],
+    "moods": [
+      "bittersweet (editorial)",
+      "energetic (editorial)",
+      "romantic (editorial)"
+    ],
+    "career_milestones": [
+      {
+        "date": "2017",
+        "description": "High Without Your Love released as a standalone single",
+        "source_ids": [
+          "src-005"
+        ]
+      },
+      {
+        "date": "2019",
+        "description": "lost EP included 85%, a collaboration with gnash",
+        "source_ids": [
+          "src-002",
+          "src-006",
+          "src-007"
+        ]
+      },
+      {
+        "date": "2026",
+        "description": "Joint single This Is the Last Song About You with Anson Seabra",
+        "source_ids": [
+          "src-002",
+          "src-008"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "SHY Martin",
+        "explanation": "Polished pop arrangements with relationship-driven writing; editorial.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Clara Mae",
+        "explanation": "Bright Scandinavian-style heartbreak pop and accessible hooks; editorial.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Fly By Midnight",
+        "explanation": "Melodic electronic pop duos with strong vocal hooks; editorial.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Anson Seabra",
+        "explanation": "Verified joint 2026 track provides a real catalogue connection.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-008"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "biography",
+        "claim": "Origin/identity and selected career milestones in the biography",
+        "source_ids": [
+          "src-001",
+          "src-002"
+        ]
+      },
+      {
+        "field": "genres",
+        "claim": "Base pop genre and project descriptions; emotional pop is editorial",
+        "source_ids": [
+          "src-001",
+          "src-002"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Artist identity on Spotify",
+        "source_ids": [
+          "src-004"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No cleared commercial-use photograph; use an abstract placeholder.",
+      "Album/EP appearance is not evidence of a track’s original single-release date.",
+      "No current stable Spotify Popular ordering with defined market was verified.",
+      "Some recording-specific Spotify links and artist-intent explanations remain unverified."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "high-without-your-love",
+      "title": "High Without Your Love",
+      "artist_slug": "loote",
+      "artist_credits": [
+        "Loote"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/7qs2GAglLWfxEfmO8u2u0A",
+      "release_date": "2017-05-05",
+      "release_date_precision": "day",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "High Without Your Love",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to High Without Your Love by Loote.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-005"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "your-side-of-the-bed",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for High Without Your Love is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2017-05-05 (precision day); see release_date_context",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "This URL identifies the specified recording on Spotify or an official Spotify embed",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "your-side-of-the-bed",
+      "title": "Your Side Of The Bed",
+      "artist_slug": "loote",
+      "artist_credits": [
+        "Loote"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2018",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "single.",
+      "release_type": "album",
+      "short_description": "An Afterglow curated introduction to Your Side Of The Bed by Loote.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "high-without-your-love",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "wish-i-never-met-you",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Your Side Of The Bed is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2018 (precision year); see release_date_context",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "wish-i-never-met-you",
+      "title": "Wish I Never Met You",
+      "artist_slug": "loote",
+      "artist_credits": [
+        "Loote"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2018",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "single.",
+      "release_type": "album",
+      "short_description": "An Afterglow curated introduction to Wish I Never Met You by Loote.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "your-side-of-the-bed",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "tomorrow-tonight",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Wish I Never Met You is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2018 (precision year); see release_date_context",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "tomorrow-tonight",
+      "title": "tomorrow tonight",
+      "artist_slug": "loote",
+      "artist_credits": [
+        "Loote"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2019",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "lost",
+      "release_type": "EP",
+      "short_description": "An Afterglow curated introduction to tomorrow tonight by Loote.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "wish-i-never-met-you",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "85",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for tomorrow tonight is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2019 (precision year); see release_date_context",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "85",
+      "title": "85%",
+      "artist_slug": "loote",
+      "artist_credits": [
+        "Loote",
+        "gnash"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/5teOR8KU4XNWY2WlVUDiIR",
+      "release_date": "2019-03-22",
+      "release_date_precision": "day",
+      "release_date_context": "March 22 2019 is the original standalone single. Linked Spotify recording is the June 14 2019 lost EP edition.",
+      "release_title": "85%",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to 85% by Loote, gnash.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "A 2019 Ones to Watch review discusses uneven contribution to a relationship. This is a critic interpretation, not documented artist intent.",
+      "editorial_notes_basis": "artist interview/official biography",
+      "editorial_notes_source_ids": [
+        "src-003",
+        "src-006",
+        "src-007"
+      ],
+      "artist_statement_paraphrase": "Review article discusses unequal commitment in a relationship; no direct artist meaning statement verified.",
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "tomorrow-tonight",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "she-s-all-yours",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for 85% is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-003",
+            "src-006",
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2019-03-22 (precision day); see release_date_context",
+          "source_ids": [
+            "src-003",
+            "src-006",
+            "src-007"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "This URL identifies the specified recording on Spotify or an official Spotify embed",
+          "source_ids": [
+            "src-003",
+            "src-006",
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "she-s-all-yours",
+      "title": "she's all yours",
+      "artist_slug": "loote",
+      "artist_credits": [
+        "Loote"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2019",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "lost",
+      "release_type": "EP",
+      "short_description": "An Afterglow curated introduction to she's all yours by Loote.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "85",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "better-when-you-re-gone",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for she's all yours is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2019 (precision year); see release_date_context",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "better-when-you-re-gone",
+      "title": "Better When You're Gone",
+      "artist_slug": "loote",
+      "artist_credits": [
+        "David Guetta",
+        "Brooks",
+        "Loote"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2019",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Better When You're Gone",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to Better When You're Gone by David Guetta, Brooks, Loote.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "she-s-all-yours",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "friends",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Better When You're Gone is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2019 (precision year); see release_date_context",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "friends",
+      "title": "Friends",
+      "artist_slug": "loote",
+      "artist_credits": [
+        "Loote"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Friends",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to Friends by Loote.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "better-when-you-re-gone",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "somebody-else",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Friends is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2022 (precision year); see release_date_context",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "somebody-else",
+      "title": "Somebody Else",
+      "artist_slug": "loote",
+      "artist_credits": [
+        "Loote"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "Somebody Else",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to Somebody Else by Loote.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-002"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "friends",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        },
+        {
+          "song_slug": "this-is-the-last-song-about-you",
+          "explanation": "A nearby entry in the artist’s starter collection to explore next.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for Somebody Else is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2020 (precision year); see release_date_context",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    },
+    {
+      "slug": "this-is-the-last-song-about-you",
+      "title": "This Is the Last Song About You",
+      "artist_slug": "loote",
+      "artist_credits": [
+        "Anson Seabra",
+        "Loote"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2026-09-03",
+      "release_date_precision": "day",
+      "release_date_context": "Documented release edition. Do not assume this is the first-ever issue of the recording.",
+      "release_title": "This Is the Last Song About You",
+      "release_type": "single",
+      "short_description": "An Afterglow curated introduction to This Is the Last Song About You by Anson Seabra, Loote.",
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Featured in Afterglow’s curated introduction to this artist. The source establishes the credited release; detailed sound or lyrical meaning is not asserted without a song-specific source.",
+      "editorial_notes_basis": "catalogue only",
+      "editorial_notes_source_ids": [
+        "src-002",
+        "src-008"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "somebody-else",
+          "explanation": "Another title in the same Afterglow curated artist selection; no claim of shared authorial intent.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "artist_credits",
+          "claim": "Credit for This Is the Last Song About You is listed by an official music catalogue or release page",
+          "source_ids": [
+            "src-002",
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The cited release edition is dated 2026-09-03 (precision day); see release_date_context",
+          "source_ids": [
+            "src-002",
+            "src-008"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not independently verified; deliberately null.",
+        "Song-specific firsthand meaning not verified."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://www.allmusic.com/artist/loote-mn0003623901",
+      "title": "Loote artist biography",
+      "publisher": "AllMusic",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "professional_biography",
+      "access_status": "read",
+      "evidence_summary": "Identifies New York pop duo, meeting through college songwriting, members Emma Lov and Jackson Foote, and dance-pop and indie-pop classifications."
+    },
+    {
+      "id": "src-002",
+      "url": "https://music.apple.com/us/artist/loote/1230692924",
+      "title": "Loote official catalogue",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Lists selected singles and EPs for 2017 to 2026, including 2026 This Is the Last Song About You; years represent release editions."
+    },
+    {
+      "id": "src-003",
+      "url": "https://www.onestowatch.com/en/blog/gnash-joins-loote-for-impassioned-bop-85",
+      "title": "Loote and gnash on 85%",
+      "publisher": "Ones to Watch",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "music_feature",
+      "access_status": "read",
+      "evidence_summary": "Documents Loote members, duet with gnash, and a reviewer description of uneven relationship effort; not firsthand artist intent."
+    },
+    {
+      "id": "src-004",
+      "url": "https://open.spotify.com/artist/00TKPo9MxwZ0j4ooveIxWZ",
+      "title": "Loote Spotify artist page",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "artist_page",
+      "access_status": "read",
+      "evidence_summary": "Official Loote artist URL."
+    },
+    {
+      "id": "src-005",
+      "url": "https://open.spotify.com/track/7qs2GAglLWfxEfmO8u2u0A",
+      "title": "High Without Your Love Spotify track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "track_page",
+      "access_status": "read",
+      "evidence_summary": "Identifies original Loote track on a May 5 2017 single."
+    },
+    {
+      "id": "src-006",
+      "url": "https://open.spotify.com/intl-id/track/5teOR8KU4XNWY2WlVUDiIR",
+      "title": "85% Spotify EP recording",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "track_page",
+      "access_status": "read",
+      "evidence_summary": "Identifies Loote and gnash recording of 85% on the June 14 2019 lost EP."
+    },
+    {
+      "id": "src-007",
+      "url": "https://open.spotify.com/album/0jgsdQlQ1LZtLmYb667r8l",
+      "title": "85% original single",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "release_page",
+      "access_status": "read",
+      "evidence_summary": "Single credited to Loote and gnash dated March 22 2019."
+    },
+    {
+      "id": "src-008",
+      "url": "https://open.spotify.com/album/4QVwataDdz8ZuUNa2dKiAJ",
+      "title": "This Is the Last Song About You collaboration",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "release_page",
+      "access_status": "read",
+      "evidence_summary": "September 3 2026 release with joint artist credit Anson Seabra and Loote."
+    },
+    {
+      "id": "src-009",
+      "url": "https://open.spotify.com/track/0bQyeF9DrJjnc1FlzFxyMh",
+      "title": "tomorrow tonight compilation recording",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-29",
+      "source_type": "track_page",
+      "access_status": "read",
+      "evidence_summary": "Identifies Loote track on a 2020 compilation; not evidence of original 2019 single date."
+    }
+  ],
+  "outstanding_research": [
+    "Find and license a commercial-editorial artist portrait or retain placeholder.",
+    "Verify null track Spotify URLs before adding official embeds.",
+    "Locate song-specific original interviews where interpretations are currently withheld.",
+    "Check original standalone release dates separately from album/EP editions."
+  ]
+}
