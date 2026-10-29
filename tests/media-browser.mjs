@@ -16,7 +16,7 @@ try{
  for(let i=0;i<catalog.songs.length;i+=6){
   await Promise.all(catalog.songs.slice(i,i+6).map(async song=>{
    const response=await page.request.get(song.url);check(response.status()===200,'Song page must render');const html=await response.text();check(!html.includes('<iframe'),'No player may load before explicit choice');check(html.includes('Sources &amp; further reading')||html.includes('Sources & further reading'),'Song must retain source citations');
-   if(song.embed){check(html.includes(`data-spotify-embed="${song.embed}"`),'Song must have its exact official embed');check(/class="profile-art-column">\s*<section class="spotify-player"/.test(html),'Official Spotify player replaces the song profile artwork');}
+   if(song.embed){check(html.includes(`data-spotify-embed="${song.embed}"`),'Song must have its exact official embed');check(/class="profile-art-column">\s*<section class="song-listening-panel spotify-player"/.test(html),'Song has a complete listening panel in the main artwork position');}
    else{check(!html.includes('data-spotify-embed='),'Unverified track must not receive a fabricated player');check(html.includes(`href="${song.artist_url}"`)&&html.includes('Explore artist on Spotify'),'Missing track must offer the verified artist profile');}
   }));
  }
@@ -34,12 +34,12 @@ try{
  await page.goto(new URL('/artists/shy-martin/',base).href);check((await page.locator('.art-credit').textContent()).includes('CC BY-SA 4.0'),'ShareAlike credit visible near photo');
  await page.screenshot({path:'test-results/media-artist-desktop.png',fullPage:true});
  await page.goto(new URL('/songs/sad-songs/',base).href);
- check(await page.locator('.profile-art-column .profile-art').count()===1,'Song without a verified Spotify track retains its artwork');
+ check(await page.locator('.profile-art-column .spotify-preview').count()===1,'Song without a verified Spotify track retains its visual');
  check(await page.locator('.profile-art-column .listen-panel').count()===1,'Unverified song retains its direct-search listening fallback');
  check(await page.locator('.spotify-player').count()===0,'Unverified song never receives an invented player');
  const unresolved=catalog.songs.find(s=>!s.embed);await page.goto(unresolved.url);
  check(await page.locator('.listen-panel .spotify-button').getAttribute('href')===unresolved.artist_url,'Null track opens its actual artist profile');
- check(await page.locator('.profile-art-column .profile-art').count()===1,'Null track keeps its abstract illustration');
+ check(await page.locator('.profile-art-column .spotify-preview').count()===1,'Null track keeps its preview visual');
  await page.goto(new URL('/artists/anson-seabra/',base).href);check((await page.locator('.collaboration-section').textContent()).includes('This Is the Last Song About You'),'Anson links to the Loote collaboration');
  await page.goto(new URL('/artists/rachel-grae/',base).href);check((await page.locator('.collaboration-section').textContent()).includes('Different Lives'),'Rachel links to the existing Fly By Midnight collaboration');
  await page.goto(new URL('/songs/loote-85/',base).href);check(await page.locator('.attribution-label').count()===0,'Reviewer interpretation must not become an artist statement');
@@ -65,8 +65,8 @@ try{
  await page.screenshot({path:'test-results/media-credits-desktop.png',fullPage:true});
  await page.setViewportSize({width:390,height:844});
  for(const path of ['/artists/','/artists/shy-martin/','/songs/hurts-so-good/','/media-credits/']){await page.goto(new URL(path,base).href);check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'No mobile overflow');}
- await page.goto(catalog.songs[0].url);const mobileMedia=await page.locator('.spotify-player').boundingBox(),mobileCopy=await page.locator('.profile-copy').boundingBox();
- check(mobileMedia.y+mobileMedia.height<=mobileCopy.y,'Mobile player occupies the former artwork position before song details');
+ await page.goto(catalog.songs[0].url);const mobileMedia=await page.locator('.spotify-player').boundingBox(),mobileIntro=await page.locator('.song-introduction').boundingBox(),mobileNext=await page.locator('.next-discovery').boundingBox();
+ check(mobileMedia.y>=mobileIntro.y+mobileIntro.height&&mobileMedia.y+mobileMedia.height<=mobileNext.y,'Mobile order is introduction, listening, then next discovery');
  await page.locator('.spotify-load').click();await page.frameLocator('.spotify-player iframe').locator('body').waitFor();
  check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Loaded mobile player has no horizontal overflow');
  await page.goto(new URL('/artists/shy-martin/',base).href);await page.screenshot({path:'test-results/media-artist-mobile.png',fullPage:true});

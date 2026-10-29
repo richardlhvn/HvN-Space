@@ -1,5 +1,6 @@
 <?php
 defined('ABSPATH') || exit;
+require_once __DIR__ . '/discovery-ui.php';
 add_action('after_setup_theme', function () {
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
@@ -39,6 +40,7 @@ function ag_icon($name, $class = '') {
         'close' => '<path d="m6 6 12 12M6 18 18 6"/>',
         'menu' => '<path d="M4 7h16M4 12h16M4 17h16"/>',
         'spotify' => '<circle cx="12" cy="12" r="9"/><path d="M6.5 9c4-1.5 7-1 11 1M7 12.5c3-1 6-1 9.5.7M8 16c2-.7 4.5-.5 7 .5"/>',
+        'volume' => '<path d="M11 4 6 8H3v8h3l5 4Z"/><path d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/>',
     ];
     return '<svg class="icon ' . esc_attr($class) . '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' . ($paths[$name] ?? $paths['arrow']) . '</svg>';
 }
@@ -49,10 +51,10 @@ function ag_terms_text($id, $taxonomy) {
     return $terms && !is_wp_error($terms) ? implode(' · ', wp_list_pluck($terms, 'name')) : '';
 }
 function ag_palette($id) { $p = ag_meta('palette', $id); return in_array($p, ['lilac', 'rose', 'sage', 'sand', 'blue', 'peach'], true) ? $p : 'lilac'; }
-function ag_art($id, $class = '', $eager = false) {
-    $verified_photo = function_exists('ag_media_credit') && ag_media_credit($id);
+function ag_art($id, $class = '', $eager = false, $abstract_only = false) {
+    $verified_photo = !$abstract_only && function_exists('ag_media_credit') && ag_media_credit($id);
     echo '<div class="artwork palette-' . esc_attr(ag_palette($id)) . ' ' . esc_attr($class) . ($verified_photo ? ' licensed-photo' : '') . '">';
-    if (has_post_thumbnail($id) && ag_meta('artwork_credit', $id)) {
+    if (!$abstract_only && has_post_thumbnail($id) && ag_meta('artwork_credit', $id)) {
         echo get_the_post_thumbnail($id, 'ag-card', ['loading' => $eager ? 'eager' : 'lazy', 'alt' => get_the_title($id)]);
     } else {
         echo '<span class="art-sun" aria-hidden="true"></span><span class="art-hill hill-one" aria-hidden="true"></span><span class="art-hill hill-two" aria-hidden="true"></span><span class="art-grain" aria-hidden="true"></span><span class="art-label" aria-hidden="true">AFTERGLOW / DISCOVERY SERIES</span>';

@@ -15,3 +15,111 @@
 .song-profile .profile-art-column>.spotify-player{margin-top:0}
 .recording-credits a{text-decoration:underline;text-underline-offset:3px}
 @media(max-width:640px){.song-profile .profile-art-column>.spotify-player{order:0}}
+
+/* Song listening and discovery: all content stays local until Spotify is requested. */
+.song-listening-panel{margin:0;padding:24px;background:#efebe5;border:1px solid var(--line);border-radius:8px;min-width:0}
+.song-listening-panel>.eyebrow{color:#705679;font-size:9px;margin-bottom:18px}
+.spotify-stage{min-height:352px}
+.spotify-preview{position:relative;min-height:352px}
+.spotify-preview[hidden],.spotify-player .spotify-load[hidden]{display:none!important}
+.spotify-load{display:none}
+.js .spotify-player .spotify-load:not([hidden]){display:inline-flex}
+.listening-portrait{height:240px;aspect-ratio:auto;border-radius:4px}
+.listening-portrait img{height:100%;object-fit:contain}
+.preview-artist-name{font-size:17px;font-weight:500;margin-top:12px}
+.preview-artist-name span{font-size:10px;display:block;color:var(--muted);font-weight:400}
+.listening-photo-credit{font-size:11px;line-height:1.7;margin-top:8px;color:var(--muted)}
+.listening-photo-credit a,.player-disclosure a,.volume-help a{text-decoration:underline;text-underline-offset:3px}
+.listening-art{height:352px;aspect-ratio:auto;border-radius:5px}
+.listening-art .art-label{display:none}
+.listening-art-caption{position:absolute;inset:auto 0 0;background:#302b32;color:#fff;padding:18px 20px;border-radius:0 0 5px 5px;overflow-wrap:anywhere}
+.listening-art-caption>.eyebrow{font-size:8px;color:#e6dbe8;margin-bottom:8px}
+.listening-art-caption>p:not(.eyebrow){font-family:var(--serif);font-size:29px;line-height:1.1;letter-spacing:-.025em}
+.listening-art-caption>span{display:block;margin-top:8px;font-size:10px;color:#f2eaf2}
+.listening-actions{margin-top:18px;display:flex;align-items:flex-start;gap:14px;flex-wrap:wrap}
+.listening-actions>.button{font-size:12px;flex-grow:1;gap:10px}
+.volume-help{flex:1 0 100%;font-size:12px;color:var(--muted)}
+.volume-help summary{display:flex;align-items:center;gap:8px;width:max-content;max-width:100%;cursor:pointer;padding:5px 0;text-decoration:underline;text-underline-offset:3px}
+.volume-help .icon{width:16px;height:16px}
+.volume-help p{padding:8px 0;line-height:1.8;max-width:380px}
+.volume-help summary:focus-visible,.discovery-controls summary:focus-visible{outline:3px solid #8f648f;outline-offset:5px}
+.song-listening-panel .player-disclosure{font-size:11px;line-height:1.8;color:var(--muted);margin-top:14px}
+.song-listening-panel>.fine-print{margin-top:12px;line-height:1.8}
+.song-listening-panel .spotify-frame-slot{margin-top:0}
+.song-listening-fallback{padding:0;margin-top:20px;background:none}
+.song-listening-fallback .spotify-button{width:100%}
+.song-discovery-hero{align-items:start}
+.song-introduction>.eyebrow{color:#705679;margin-top:8px;margin-bottom:16px;font-size:9px}
+.next-discovery{margin-top:27px;padding:22px 24px;border-left:3px solid #8b7490;background:#eee9ee;border-radius:0 6px 6px 0}
+.next-discovery>.eyebrow{font-size:9px;color:#705679;margin-bottom:10px}
+.next-discovery h2{font-size:30px;letter-spacing:-.035em;overflow-wrap:anywhere}
+.next-artist{font-size:12px;color:var(--muted);margin-top:7px}
+.next-artist a{text-decoration:underline;text-underline-offset:3px}
+.next-artist span{display:block;margin-top:4px;color:#66536e;font-size:10px}
+.discovery-reason{font-size:13px;line-height:1.75;color:var(--muted);margin-top:12px}
+.next-discovery-link{font-weight:600;margin-top:10px;gap:12px}
+.song-discovery-actions{display:flex;align-items:center;gap:14px 22px;flex-wrap:wrap;margin-top:20px}
+.song-discovery-actions>.button{font-size:11px;padding:12px 16px;gap:14px}
+.song-discovery-actions>.text-link{font-size:11px}
+.song-review-status{display:inline-block;margin-top:18px;font-size:11px;color:var(--muted);text-decoration:underline;text-underline-offset:3px}
+.discovery-explore{border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:26px}
+.discovery-heading h2{font-size:40px;margin-top:12px}
+.discovery-heading>div>p:not(.eyebrow){font-size:14px;color:var(--muted);margin-top:14px}
+.discovery-controls{margin-top:24px;padding:18px 22px;border:1px solid var(--line);border-radius:6px;background:#fffcf8}
+.discovery-controls>summary{display:flex;justify-content:space-between;align-items:center;gap:15px;font-size:13px;cursor:pointer;list-style:none}
+.discovery-controls>summary::-webkit-details-marker{display:none}
+.discovery-controls[open]>summary>.icon{transform:rotate(90deg)}
+.discovery-form{display:flex;align-items:end;gap:16px;margin-top:22px}
+.discovery-field{flex:1;min-width:0}
+.discovery-field label{display:block;font-size:12px;font-weight:500;margin-bottom:7px}
+.discovery-field select{width:100%;max-width:100%;min-height:48px;border:1px solid #bcb3bb;border-radius:4px;background:var(--paper);color:var(--ink);padding:10px 12px;font-size:13px}
+.discovery-form .button{gap:18px}
+.discovery-controls>.fine-print{margin-top:14px}
+.discovery-status{font-size:12px;color:var(--muted);margin:22px 0 16px;min-height:20px}
+.discovery-status a{text-decoration:underline}
+.discovery-results{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.discovery-results[aria-busy=true]{opacity:.6}
+.discovery-card{padding:24px;border:1px solid var(--line);border-radius:6px;display:flex;flex-direction:column;min-width:0;background:#fffcf8}
+.discovery-card>.eyebrow{color:#705679;font-size:8px;margin-bottom:13px}
+.discovery-card h3{font-family:var(--serif);font-size:28px;letter-spacing:-.025em;overflow-wrap:anywhere}
+.discovery-artist{font-size:12px;color:#705679;margin-top:10px;text-decoration:underline;text-underline-offset:4px}
+.discovery-artist>.icon{width:12px;height:12px}
+.discovery-card .discovery-reason{margin-bottom:18px}
+.discovery-card-actions{display:flex;justify-content:space-between;align-items:center;gap:15px;margin-top:auto}
+.discovery-card-actions .save-button{position:static;flex-shrink:0;border:1px solid var(--line);width:33px;height:33px}
+.discovery-card-actions .text-link{font-size:11px;gap:10px}
+.discovery-empty{grid-column:1/-1;padding:30px;background:#eee9ee;border-radius:6px}
+.discovery-empty h3{font-family:var(--serif);font-size:28px}
+.discovery-empty p{font-size:14px;margin:12px 0}
+.song-story{max-width:840px;margin-inline:auto;padding:35px 0 75px}
+.song-story>.prose{margin-top:28px}
+.song-story>.recording-credits{margin-top:24px}
+@media(max-width:900px){.discovery-results{gap:14px}.discovery-card{padding:20px}.discovery-card h3{font-size:25px}.discovery-form{flex-wrap:wrap}.discovery-form>.button{flex-basis:100%}}
+@media(max-width:640px){
+ .song-profile .profile-art-column{display:block;order:1}
+ .song-profile .profile-copy{display:contents}
+ .song-introduction{order:0}
+ .song-profile .next-discovery{order:2;margin-top:0}
+ .song-profile .song-discovery-actions{order:3;margin-top:0}
+ .song-profile .song-review-status{order:4;margin-top:0}
+ .song-listening-panel{padding:20px}
+ .song-discovery-hero{gap:30px}
+ .song-profile .profile-title h1{font-size:45px}
+ .song-profile .profile-intro{font-size:15px}
+ .next-discovery{padding:18px;margin-top:22px}
+ .next-discovery h2{font-size:28px}
+ .song-discovery-actions>.button{width:100%;font-size:11px;justify-content:space-between}
+ .song-review-status{font-size:10px}
+ .discovery-explore{margin-top:16px;padding-block:35px}
+ .discovery-heading h2{font-size:32px}
+ .discovery-heading>div>p:not(.eyebrow){font-size:12px}
+ .discovery-controls{padding:16px}
+ .discovery-form{gap:14px}
+ .discovery-field{flex-basis:100%}
+ .discovery-field select{font-size:14px}
+ .discovery-form>.button{width:100%}
+ .discovery-results{grid-template-columns:1fr;gap:14px}
+ .discovery-card{padding:22px}
+ .discovery-card h3{font-size:29px}
+ .song-story{padding:25px 0 45px}
+}

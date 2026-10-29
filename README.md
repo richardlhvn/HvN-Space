@@ -4,6 +4,8 @@ A working WordPress MVP for independent emotional-pop discovery. The name is a s
 
 The site includes a designed homepage, artist and song directories, name/genre/mood/country filters, individual profiles, manually curated relationships, global search, an editorial journal, and a collection saved in the visitor’s browser. No music, downloaded album covers, analytics, or advertisements are bundled. Six separately licensed artist photographs are included with their own attribution and license records; fourteen artists retain abstract placeholders.
 
+**New in Core 0.7 / Theme 0.2:** [listening and discovery](docs/LISTENING_AND_DISCOVERY.md) gives song pages a complete visual before Spotify loads, a prominent next discovery, and inline feeling/theme suggestions. Filters keep a loaded player intact, recent discoveries avoid immediate repeats, and volume help explains device/browser controls. It works with the current catalog and was checked against a 500-song synthetic catalog. Update both the plugin and theme; no research reimport or database migration is needed.
+
 **New in Core 0.6:** [research batches 3 and 4](docs/RESEARCH-UPDATE-2026-10-29.md) add Sadie Jean, Lyn Lapid, Alexander 23, Anson Seabra, BLÜ EYES, Hanniou, Loote, Rachel Grae, NERIAH, and Fly By Midnight. The catalog now contains **20 artists and 200 curated songs**. In **Artists → Import supplied research**, review the **2026-10-29** collection to import only these ten artists and their hundred songs. Forty-two new exact track links support official players; 58 deliberately missing track links use verified artist-profile fallbacks. Original records and photo-rights files are preserved. Linked collaboration credits share existing song pages rather than create duplicate recordings. Imports remain noindex pending editorial review.
 
 **New in Core 0.4:** [seven additional supplied research collections](docs/RESEARCH-UPDATE-2026-10-27.md) bring the bundled catalog to **ten artists and 100 curated songs**. Use the same **Artists → Import supplied research** screen after updating the code. Edited records remain protected, and imported pages remain noindex pending review. The former Clara Mae website is excluded from public links.
@@ -58,6 +60,8 @@ npm run test:a11y                # Automated WCAG checks on representative templ
 bash scripts/test-media.sh       # 243 media sync and permission-gate checks
 node tests/media-browser.mjs      # All 200 song pages, real photos, credits, embeds, and null-track fallbacks
 node tests/research-admin.mjs     # Research collection selection and protected admin import
+bash scripts/test-discovery.sh    # Recommendation safety, truthful filters, and a 500-song scale check
+node tests/discovery-browser.mjs  # Listening visuals, filters, playback preservation, keyboard, and no-JS paths
 npm run test:admin               # Save structured fields through WordPress administration
 npm run package                  # Creates dist/afterglow.zip and dist/afterglow-core.zip
 ```

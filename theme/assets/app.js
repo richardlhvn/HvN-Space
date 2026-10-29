@@ -1,5 +1,6 @@
 (() => {
   'use strict';
+  document.documentElement.classList.add('js');
   document.addEventListener('click', event => {
     const button = event.target.closest('.spotify-load');
     if (!button) return;
@@ -16,8 +17,56 @@
     frame.allowFullscreen = true;
     frame.referrerPolicy = 'strict-origin-when-cross-origin';
     player.querySelector('.spotify-frame-slot').append(frame);
+    const preview = player.querySelector('.spotify-preview');
+    if (preview) preview.hidden = true;
     button.hidden = true;
     frame.focus();
+  });
+  document.addEventListener('click', event => {
+    const link = event.target.closest('[data-discovery-open]');
+    if (!link) return;
+    const controls = document.querySelector('.discovery-controls');
+    if (controls) {
+      event.preventDefault(); controls.open = true;
+      document.querySelector('#discover-more').scrollIntoView({block:'start'});
+      history.replaceState(null, '', location.pathname + location.search + '#discover-more');
+      controls.querySelector('select')?.focus({preventScroll:true});
+    }
+  });
+  const discoveryForm = document.querySelector('.discovery-form');
+  let discoveryRequest = 0;
+  discoveryForm?.addEventListener('submit', async event => {
+    const url = new URL(discoveryForm.action, location.href);
+    if (url.origin !== location.origin) return;
+    event.preventDefault();
+    url.search = new URLSearchParams(new FormData(discoveryForm)).toString();
+    const version = ++discoveryRequest;
+    const button = discoveryForm.querySelector('button[type=submit]');
+    const status = document.querySelector('.discovery-status');
+    const results = document.querySelector('[data-discovery-results]');
+    button.disabled = true; results.setAttribute('aria-busy', 'true'); status.textContent = 'Finding your next listen…';
+    try {
+      const response = await fetch(url.href, {credentials:'same-origin'});
+      if (!response.ok || new URL(response.url).origin !== location.origin) throw new Error('Could not load suggestions');
+      const documentResult = new DOMParser().parseFromString(await response.text(), 'text/html');
+      if (version !== discoveryRequest) return;
+      const next = documentResult.querySelector('[data-discovery-results]');
+      const primary = documentResult.querySelector('[data-discovery-primary]');
+      const message = documentResult.querySelector('.discovery-status');
+      if (!next || !primary || !message) throw new Error('Incomplete suggestions');
+      results.replaceWith(document.importNode(next, true));
+      document.querySelector('[data-discovery-primary]').replaceWith(document.importNode(primary, true));
+      status.textContent = message.textContent;
+      history.replaceState(null, '', url.pathname + url.search + url.hash);
+      sync();
+    } catch {
+      if (version !== discoveryRequest) return;
+      status.textContent = 'Suggestions weren’t updated. Try again, or ';
+      const fallback = document.createElement('a'); fallback.href = url.href; fallback.textContent = 'open the full results page';
+      status.append(fallback, '.');
+    } finally {
+      if (version === discoveryRequest) { button.disabled = false; document.querySelector('[data-discovery-results]')?.removeAttribute('aria-busy'); }
+    }
   });
   const key = 'afterglow:saved:v1';
   const status = document.querySelector('#save-status');
