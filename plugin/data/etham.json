@@ -1,0 +1,804 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-30",
+  "selection": {
+    "type": "curated",
+    "description": "Ten Etham recordings selected editorially for Afterglow from catalogues and source-backed release pages; order is not a streaming ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-001"
+    ],
+    "limitations": [
+      "The selections are editorially curated, not an official Spotify Popular top ten or independently audited popularity ranking.",
+      "Any blank Spotify URL must remain null until its precise recording is verified.",
+      "Photo rights were not reviewed; placeholder is mandatory.",
+      "Original release dates versus later editions are not exhaustively established."
+    ]
+  },
+  "artist": {
+    "slug": "etham",
+    "name": "Etham",
+    "full_name": null,
+    "country": "United Kingdom",
+    "place_of_origin": null,
+    "short_description": "Etham — an Afterglow editorial selection for listeners exploring acoustic pop.",
+    "biography": "Etham is a UK singer-songwriter whose catalogue places expressive vocals and personal relationship writing at the forefront. His earlier releases include stripped-back versions of ‘12:45’, ‘Before I Lose My Mind’, and ‘Purpose’, while later material includes ‘You're the Reason’, ‘Waiting for You’ and ‘Still Can't Move On’. The recorded titles and collaborations are traceable through Spotify and music-service catalogues. In 2025, Etham discussed the mini-album Everything & Nothing in original interviews, describing songwriting as a way to process difficult emotions. He explained that ‘Still Can't Move On’ drew on a breakup he experienced in 2023, and recalled beginning the song from feelings that were still present much later. That direct account is especially useful for Afterglow's sourced song-explanation pages. Editorially, his work fits an acoustic and soul-tinged branch of emotional pop, connecting listeners who enjoy vulnerable ballads with the softer parts of contemporary singer-songwriter music. This stylistic placement should not be confused with a formally defined official genre or a claim about the meaning of every track.",
+    "spotify_url": "https://open.spotify.com/artist/5fywYLnKJi950Y5yMqavxm",
+    "official_website": null,
+    "social_profiles": [],
+    "genres": [
+      "acoustic pop (editorial)",
+      "soul-influenced singer-songwriter pop (editorial)"
+    ],
+    "moods": [
+      "heartbroken",
+      "intimate",
+      "reflective"
+    ],
+    "career_milestones": [
+      {
+        "date": "2018",
+        "description": "Released stripped acoustic recordings, including 12:45.",
+        "source_ids": [
+          "src-006"
+        ]
+      },
+      {
+        "date": "2023",
+        "description": "Released songs later included on Patterns.",
+        "source_ids": [
+          "src-004"
+        ]
+      },
+      {
+        "date": "2025",
+        "description": "Discussed the personal relationship experiences behind Everything & Nothing.",
+        "source_ids": [
+          "src-003"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Caleb Hearn",
+        "explanation": "Afterglow editorial connection based on broad songwriting themes and discovery fit; verify musical resemblance independently rather than treating this as an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "name": "Anson Seabra",
+        "explanation": "Afterglow editorial connection based on broad songwriting themes and discovery fit; verify musical resemblance independently rather than treating this as an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "name": "Sody",
+        "explanation": "Afterglow editorial connection based on broad songwriting themes and discovery fit; verify musical resemblance independently rather than treating this as an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-002"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "biography",
+        "claim": "Biographical information and main career context are supported by the indicated profile or interview.",
+        "source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "field": "career_milestones",
+        "claim": "Milestones use catalogue, label or interview evidence; dates have the precision supported by those sources.",
+        "source_ids": [
+          "src-006",
+          "src-004",
+          "src-003"
+        ]
+      },
+      {
+        "field": "genres,moods,similar_artists",
+        "claim": "These are Afterglow editorial navigation tags, not verified quotations or formal artist-provided genre labels.",
+        "source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Artist URL refers to the independently identified Spotify performer.",
+        "source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No commercially licensed artist photo was established in this research batch; retain abstract placeholder."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "12-45-stripped",
+      "title": "12:45 - Stripped",
+      "artist_slug": "etham",
+      "artist_credits": [
+        "Etham"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1Nl2urTboR602d6kBxvwdL",
+      "release_date": "2018",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "12:45 (Stripped)",
+      "release_type": null,
+      "short_description": "A curated Etham recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Specific track URL is supported by Spotify or a linked contemporaneous publisher source.",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "i-wish-it-was-me",
+      "title": "I Wish It Was Me",
+      "artist_slug": "etham",
+      "artist_credits": [
+        "Etham"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/5pu1NHwlPjOZVx6tP6IyL0",
+      "release_date": "2019",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "I Wish It Was Me",
+      "release_type": null,
+      "short_description": "A curated Etham recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "12-45-stripped",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Specific track URL is supported by Spotify or a linked contemporaneous publisher source.",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "purpose-stripped",
+      "title": "Purpose - Stripped",
+      "artist_slug": "etham",
+      "artist_credits": [
+        "Etham"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/7oSYw2uXIEVgEyhanXnf1O",
+      "release_date": "2019",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Stripped - EP",
+      "release_type": null,
+      "short_description": "A curated Etham recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "i-wish-it-was-me",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Specific track URL is supported by Spotify or a linked contemporaneous publisher source.",
+          "source_ids": [
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "before-i-lose-my-mind-stripped",
+      "title": "Before I Lose My Mind - Stripped",
+      "artist_slug": "etham",
+      "artist_credits": [
+        "Etham"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2018",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Before I Lose My Mind (Stripped)",
+      "release_type": null,
+      "short_description": "A curated Etham recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "purpose-stripped",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "you-re-the-reason",
+      "title": "You’re the Reason",
+      "artist_slug": "etham",
+      "artist_credits": [
+        "Etham"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/7MKszWR23tj8RiN9zt05AP",
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "You’re the Reason",
+      "release_type": null,
+      "short_description": "A curated Etham recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "before-i-lose-my-mind-stripped",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Specific track URL is supported by Spotify or a linked contemporaneous publisher source.",
+          "source_ids": [
+            "src-008"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "waiting-for-you",
+      "title": "Waiting for You",
+      "artist_slug": "etham",
+      "artist_credits": [
+        "Etham"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Patterns",
+      "release_type": null,
+      "short_description": "A curated Etham recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "you-re-the-reason",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "guilty",
+      "title": "Guilty",
+      "artist_slug": "etham",
+      "artist_credits": [
+        "Etham"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Patterns",
+      "release_type": null,
+      "short_description": "A curated Etham recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "waiting-for-you",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "there-for-you",
+      "title": "There For You",
+      "artist_slug": "etham",
+      "artist_credits": [
+        "Etham"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/06kSyYqsKQBpkqfWwEye4K",
+      "release_date": "2024",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "There For You",
+      "release_type": null,
+      "short_description": "A curated Etham recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "guilty",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-009"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-009"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Specific track URL is supported by Spotify or a linked contemporaneous publisher source.",
+          "source_ids": [
+            "src-009"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "still-can-t-move-on",
+      "title": "Still Can’t Move On",
+      "artist_slug": "etham",
+      "artist_credits": [
+        "Etham"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Still Can’t Move On",
+      "release_type": null,
+      "short_description": "A curated Etham recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": "Etham traced the writing to feelings remaining from a 2023 breakup, which resurfaced while he was writing the EP in Los Angeles.",
+      "artist_statement_source_ids": [
+        "src-002"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "there-for-you",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Song-specific artist explanation is paraphrased from the cited interview or statement.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "now-that-you-re-gone",
+      "title": "Now That You’re Gone",
+      "artist_slug": "etham",
+      "artist_credits": [
+        "Etham"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Now That You’re Gone",
+      "release_type": null,
+      "short_description": "A curated Etham recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "still-can-t-move-on",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://open.spotify.com/embed/artist/5fywYLnKJi950Y5yMqavxm",
+      "title": "Etham — Spotify Artist Embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Confirms artist identity and ten track names and credits including stripped editions and DONGHYEON duet."
+    },
+    {
+      "id": "src-002",
+      "url": "https://originalrock.net/2025/02/26/etham-on-heartbreak-honesty-and-the-stories-behind-new-ep/",
+      "title": "Etham on heartbreak, honesty and stories",
+      "publisher": "OriginalRock",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "original_artist_interview",
+      "access_status": "read",
+      "evidence_summary": "Etham explains 2023 breakup inspired Still Can’t Move On and discusses writing a personal EP."
+    },
+    {
+      "id": "src-003",
+      "url": "https://www.hatcmagazine.com/new-artists-1/etham",
+      "title": "Etham talks Everything & Nothing",
+      "publisher": "HATC Magazine",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "original_artist_interview",
+      "access_status": "read",
+      "evidence_summary": "Artist describes EP as relationship narrative from love to heartbreak and therapeutic songwriting."
+    },
+    {
+      "id": "src-004",
+      "url": "https://www.genie.co.kr/detail/artistInfo?xxnm=80633617",
+      "title": "Etham Music Discography",
+      "publisher": "Genie Music",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Service lists dates and releases for 2023 Patterns, 2024 There For You, 2025 Now That You’re Gone and Still Can’t Move On."
+    },
+    {
+      "id": "src-005",
+      "url": "https://open.spotify.com/intl-de/track/5pu1NHwlPjOZVx6tP6IyL0",
+      "title": "I Wish It Was Me — Etham",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Exact track identifies Etham; 2019 release shown."
+    },
+    {
+      "id": "src-006",
+      "url": "https://open.spotify.com/intl-th/track/1Nl2urTboR602d6kBxvwdL",
+      "title": "12:45 - Stripped — Etham",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Exact 2018 stripped recording confirmed."
+    },
+    {
+      "id": "src-007",
+      "url": "https://open.spotify.com/track/7oSYw2uXIEVgEyhanXnf1O",
+      "title": "Purpose - Stripped — Etham",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Exact 2019 stripped recording confirmed."
+    },
+    {
+      "id": "src-008",
+      "url": "https://open.spotify.com/intl-ja/track/7MKszWR23tj8RiN9zt05AP",
+      "title": "You’re the Reason — Etham",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Exact title and artist, album edition Patterns 2023; may postdate original single."
+    },
+    {
+      "id": "src-009",
+      "url": "https://open.spotify.com/track/06kSyYqsKQBpkqfWwEye4K",
+      "title": "There For You — Etham",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Exact Etham song; a 2025 EP edition is not its earliest standalone release."
+    }
+  ],
+  "outstanding_research": [
+    "Verify each null Spotify track URL against the exact recording and credits.",
+    "Audit original release dates, including later EP/album editions and any covers.",
+    "Locate first-person interviews for songs with null artist_statement_paraphrase.",
+    "Only publish photography after a commercial-editorial rights review."
+  ]
+}

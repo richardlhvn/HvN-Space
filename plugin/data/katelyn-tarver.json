@@ -1,0 +1,738 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-30",
+  "selection": {
+    "type": "curated",
+    "description": "Ten Katelyn Tarver recordings selected editorially for Afterglow from catalogues and source-backed release pages; order is not a streaming ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-002"
+    ],
+    "limitations": [
+      "The selections are editorially curated, not an official Spotify Popular top ten or independently audited popularity ranking.",
+      "Any blank Spotify URL must remain null until its precise recording is verified.",
+      "Photo rights were not reviewed; placeholder is mandatory.",
+      "Original release dates versus later editions are not exhaustively established."
+    ]
+  },
+  "artist": {
+    "slug": "katelyn-tarver",
+    "name": "Katelyn Tarver",
+    "full_name": null,
+    "country": "United States",
+    "place_of_origin": "Glennville, Georgia, United States",
+    "short_description": "Katelyn Tarver — an Afterglow editorial selection for listeners exploring indie pop.",
+    "biography": "Katelyn Tarver is an American singer-songwriter and actress raised in Glennville, Georgia. Her recording history reaches back to the 2000s; she later appeared in television productions including Big Time Rush. Music biographies describe her songwriting work for other performers and the growth of an adult alternative-pop sound in her own releases. A major early point of recognition was the song ‘You Don't Know’ in 2017. She went on to release Subject to Change in 2021 and Quitter in 2024. Her 2026 album Tell Me How You Really Feel adds a new autobiographical focus. In a direct interview, Tarver described the record as documenting the emotional consequences of ending a long marriage and rebuilding her sense of identity. This broader explanation establishes the album's context, but should not automatically be assigned as the intended meaning of every song on it. At Afterglow, she connects emotional-pop songwriting with questions of identity, self-doubt, honesty and change. That positioning is an editorial assessment of her documented career and subject matter.",
+    "spotify_url": "https://open.spotify.com/artist/6i8Tae6takoQos2JZ4vdRn",
+    "official_website": "https://www.katelyntarver.com/",
+    "social_profiles": [],
+    "genres": [
+      "indie pop (editorial)",
+      "alternative singer-songwriter pop (editorial)"
+    ],
+    "moods": [
+      "reflective",
+      "resilient",
+      "bittersweet"
+    ],
+    "career_milestones": [
+      {
+        "date": "2017",
+        "description": "Released You Don’t Know and developed a wider audience.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "date": "2021",
+        "description": "Released Subject to Change.",
+        "source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "date": "2026-03-06",
+        "description": "Released Tell Me How You Really Feel.",
+        "source_ids": [
+          "src-004"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Sasha Alex Sloan",
+        "explanation": "Afterglow editorial connection based on broad songwriting themes and discovery fit; verify musical resemblance independently rather than treating this as an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "name": "BLÜ EYES",
+        "explanation": "Afterglow editorial connection based on broad songwriting themes and discovery fit; verify musical resemblance independently rather than treating this as an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "name": "Emily James",
+        "explanation": "Afterglow editorial connection based on broad songwriting themes and discovery fit; verify musical resemblance independently rather than treating this as an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "biography",
+        "claim": "Biographical information and main career context are supported by the indicated profile or interview.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "career_milestones",
+        "claim": "Milestones use catalogue, label or interview evidence; dates have the precision supported by those sources.",
+        "source_ids": [
+          "src-002",
+          "src-001",
+          "src-004"
+        ]
+      },
+      {
+        "field": "genres,moods,similar_artists",
+        "claim": "These are Afterglow editorial navigation tags, not verified quotations or formal artist-provided genre labels.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Artist URL refers to the independently identified Spotify performer.",
+        "source_ids": [
+          "src-002"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No commercially licensed artist photo was established in this research batch; retain abstract placeholder."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "you-don-t-know",
+      "title": "You Don’t Know",
+      "artist_slug": "katelyn-tarver",
+      "artist_credits": [
+        "Katelyn Tarver"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2017",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Tired Eyes",
+      "release_type": null,
+      "short_description": "A curated Katelyn Tarver recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "nicer",
+      "title": "Nicer",
+      "artist_slug": "katelyn-tarver",
+      "artist_credits": [
+        "Katelyn Tarver"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2021",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Subject to Change",
+      "release_type": null,
+      "short_description": "A curated Katelyn Tarver recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "you-don-t-know",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "shit-happens",
+      "title": "Shit Happens",
+      "artist_slug": "katelyn-tarver",
+      "artist_credits": [
+        "Katelyn Tarver"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2021",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Subject to Change",
+      "release_type": null,
+      "short_description": "A curated Katelyn Tarver recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "nicer",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "year-from-now",
+      "title": "Year from Now",
+      "artist_slug": "katelyn-tarver",
+      "artist_credits": [
+        "Katelyn Tarver"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2021",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Subject to Change",
+      "release_type": null,
+      "short_description": "A curated Katelyn Tarver recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "shit-happens",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "glad-i-got-you",
+      "title": "Glad I Got You",
+      "artist_slug": "katelyn-tarver",
+      "artist_credits": [
+        "Katelyn Tarver"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2021",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Subject to Change",
+      "release_type": null,
+      "short_description": "A curated Katelyn Tarver recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "year-from-now",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "strange-weather",
+      "title": "Strange Weather",
+      "artist_slug": "katelyn-tarver",
+      "artist_credits": [
+        "Katelyn Tarver"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Strange Weather",
+      "release_type": null,
+      "short_description": "A curated Katelyn Tarver recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "glad-i-got-you",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "the-price",
+      "title": "The Price",
+      "artist_slug": "katelyn-tarver",
+      "artist_credits": [
+        "Katelyn Tarver"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "The Price",
+      "release_type": null,
+      "short_description": "A curated Katelyn Tarver recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "strange-weather",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "idgaf",
+      "title": "IDGAF",
+      "artist_slug": "katelyn-tarver",
+      "artist_credits": [
+        "Katelyn Tarver"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2026",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Tell Me How You Really Feel",
+      "release_type": null,
+      "short_description": "A curated Katelyn Tarver recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "the-price",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "so-am-i",
+      "title": "So Am I",
+      "artist_slug": "katelyn-tarver",
+      "artist_credits": [
+        "Katelyn Tarver"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2026",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Tell Me How You Really Feel",
+      "release_type": null,
+      "short_description": "A curated Katelyn Tarver recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "idgaf",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "right-for-me",
+      "title": "Right For Me",
+      "artist_slug": "katelyn-tarver",
+      "artist_credits": [
+        "Katelyn Tarver"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/0YLKT5ruwfNiafGBzMGZib",
+      "release_date": "2026",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Tell Me How You Really Feel",
+      "release_type": null,
+      "short_description": "A curated Katelyn Tarver recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "so-am-i",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Specific track URL is supported by Spotify or a linked contemporaneous publisher source.",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://www.allmusic.com/artist/katelyn-tarver-mn0000304388",
+      "title": "Katelyn Tarver Biography",
+      "publisher": "AllMusic",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "reputable_artist_biography",
+      "access_status": "read",
+      "evidence_summary": "Georgia upbringing, career in music and acting, adult pop direction, 2017 You Don’t Know."
+    },
+    {
+      "id": "src-002",
+      "url": "https://music.apple.com/us/artist/katelyn-tarver/2356378",
+      "title": "Katelyn Tarver — Apple Music Catalogue",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Identifies 2021 Subject to Change, 2024 Quitter and 2026 Tell Me How You Really Feel plus song-year listings."
+    },
+    {
+      "id": "src-003",
+      "url": "https://tmrwmagazine.com/en/news/katelyn-tarver-tell-me-how-you-really-feel",
+      "title": "On making Tell Me How You Really Feel",
+      "publisher": "tmrw Magazine",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "original_artist_interview",
+      "access_status": "read",
+      "evidence_summary": "Artist explains autobiographical context of 2026 album, divorce and re-establishing identity."
+    },
+    {
+      "id": "src-004",
+      "url": "https://music.apple.com/us/album/tell-me-how-you-really-feel/1867012005",
+      "title": "Tell Me How You Really Feel — Album",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "March 6 2026 album date, 13 tracks."
+    },
+    {
+      "id": "src-005",
+      "url": "https://open.spotify.com/track/0YLKT5ruwfNiafGBzMGZib",
+      "title": "Right For Me — Spotify Track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Exact recording of Right For Me credited to Katelyn Tarver."
+    },
+    {
+      "id": "src-006",
+      "url": "https://open.spotify.com/track/0ld8ddoUI2vzESRiUMUvMn",
+      "title": "All Our Friends Are Splitting Up — Spotify Track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Exact 2021 recording in Hurt Like That edition listing, with Nicer in same release."
+    }
+  ],
+  "outstanding_research": [
+    "Verify each null Spotify track URL against the exact recording and credits.",
+    "Audit original release dates, including later EP/album editions and any covers.",
+    "Locate first-person interviews for songs with null artist_statement_paraphrase.",
+    "Only publish photography after a commercial-editorial rights review."
+  ]
+}

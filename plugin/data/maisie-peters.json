@@ -1,0 +1,624 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-31",
+  "selection": {
+    "type": "curated",
+    "description": "Ten editorially curated catalogue-backed starter tracks; not a Spotify Popular ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-001"
+    ],
+    "limitations": [
+      "No Spotify Popular ranking asserted.",
+      "Unverified original release dates and Spotify recording URLs remain null.",
+      "Some catalogue and collaboration credits require editorial review."
+    ]
+  },
+  "artist": {
+    "slug": "maisie-peters",
+    "name": "Maisie Peters",
+    "full_name": null,
+    "country": "United Kingdom",
+    "place_of_origin": "West Sussex, England",
+    "short_description": "Maisie Peters is an Afterglow discovery artist in the broader emotional-pop and songwriter catalogue.",
+    "biography": "Maisie Peters is an English singer-songwriter whose catalogue blends diaristic relationship writing with big pop hooks and sharply observed characters. After sharing original songs online as a teenager, she released the EPs Dressed Too Nice for a Jacket and It's Your Bed Babe, It's Your Funeral. Her debut album You Signed Up for This came out in 2021. She then expanded her storytelling on The Good Witch, released in 2023, with songs including 'Body Better,' 'Lost The Breakup,' 'History Of Man' and 'There It Goes.' Florescence arrived in 2026, adding further material to the catalogue. Peters has discussed how heartbreak, humour and self-scrutiny can coexist in her songwriting, while live performances can gradually change what a once-painful song means to her. In an essay about 'Body Better,' she directly connected the song to insecurity and comparison after a breakup. Afterglow can use her catalogue to link listeners who prefer Sara Kays or Gracie Abrams with more upbeat but emotionally precise storytelling. Her songs should not all be described as strictly autobiographical without individual evidence.",
+    "spotify_url": "https://open.spotify.com/artist/2RVvqRBon9NgaGXKfywDSs",
+    "official_website": null,
+    "social_profiles": [],
+    "genres": [
+      "pop",
+      "indie pop",
+      "singer-songwriter"
+    ],
+    "moods": [
+      "reflective",
+      "vulnerable"
+    ],
+    "career_milestones": [],
+    "similar_artists": [
+      {
+        "name": "Gracie Abrams",
+        "explanation": "Afterglow editorial similarity, based on neighbouring songwriter-pop audience and themes; not an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "FLETCHER",
+        "explanation": "Afterglow editorial similarity, based on neighbouring songwriter-pop audience and themes; not an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Holly Humberstone",
+        "explanation": "Afterglow editorial similarity, based on neighbouring songwriter-pop audience and themes; not an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "name",
+        "claim": "Maisie Peters is the intended performing artist identity.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Original editorial career synopsis based on these cited sources; verify claim-by-claim before publication.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003",
+          "src-004",
+          "src-005"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Spotify artist identity from matched Spotify / track sources, where available; null means unverified.",
+        "source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "A commercially reusable photograph was not licensed; use abstract artwork.",
+      "Artist biography is a sourced starter draft requiring copy-edit and detailed verification.",
+      "Expanded/legal full name not source-verified; null retained."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "worst-of-you",
+      "title": "Worst of You",
+      "artist_slug": "maisie-peters",
+      "artist_credits": [
+        "Maisie Peters"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "john-hughes-movie",
+      "title": "John Hughes Movie",
+      "artist_slug": "maisie-peters",
+      "artist_credits": [
+        "Maisie Peters"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "psycho",
+      "title": "Psycho",
+      "artist_slug": "maisie-peters",
+      "artist_credits": [
+        "Maisie Peters"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "body-better",
+      "title": "Body Better",
+      "artist_slug": "maisie-peters",
+      "artist_credits": [
+        "Maisie Peters"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6pn5dBDetgg4rojbzIxH7v",
+      "release_date": "2023-01-27",
+      "release_date_precision": "day",
+      "release_date_context": "Original standalone single",
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Song has an attributable artist explanation; do not generalize beyond the documented statement.",
+      "editorial_notes_basis": "catalogue listing and attributable artist statement",
+      "editorial_notes_source_ids": [
+        "src-001",
+        "src-003",
+        "src-006"
+      ],
+      "artist_statement_paraphrase": "Peters wrote about insecurity and comparing herself to the new partner of someone she had been involved with; she has detailed the breakup context herself.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Specific Spotify track page matched to this song and credited artist.",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Date applies to the exact cited release edition, not necessarily earliest performance.",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "lost-the-breakup",
+      "title": "Lost The Breakup",
+      "artist_slug": "maisie-peters",
+      "artist_credits": [
+        "Maisie Peters"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Song has an attributable artist explanation; do not generalize beyond the documented statement.",
+      "editorial_notes_basis": "catalogue listing and attributable artist statement",
+      "editorial_notes_source_ids": [
+        "src-001",
+        "src-005"
+      ],
+      "artist_statement_paraphrase": "Peters has explained that the song gradually became associated with audiences singing it back, rather than only the relationship behind it.",
+      "artist_statement_source_ids": [
+        "src-005"
+      ],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "history-of-man",
+      "title": "History Of Man",
+      "artist_slug": "maisie-peters",
+      "artist_credits": [
+        "Maisie Peters"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "there-it-goes",
+      "title": "There It Goes",
+      "artist_slug": "maisie-peters",
+      "artist_credits": [
+        "Maisie Peters"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "love-him-i-don-t",
+      "title": "Love Him I Don't",
+      "artist_slug": "maisie-peters",
+      "artist_credits": [
+        "Maisie Peters"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "my-regards",
+      "title": "My Regards",
+      "artist_slug": "maisie-peters",
+      "artist_credits": [
+        "Maisie Peters"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "say-my-name-in-your-sleep",
+      "title": "Say My Name In Your Sleep",
+      "artist_slug": "maisie-peters",
+      "artist_credits": [
+        "Maisie Peters"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/09GyiRsM5YOrFFR5qYSHDd",
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": "Verified recording; original issue date not independently determined",
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001",
+        "src-007"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Specific Spotify track page matched to this song and credited artist.",
+          "source_ids": [
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Original release date not reliably established."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://music.apple.com/us/artist/maisie-peters/1264549322",
+      "title": "Maisie Peters catalogue / artist profile",
+      "publisher": "music.apple.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Song titles, associated performer and public discography. For Frawley and Gabrielle Aplin this is AllMusic."
+    },
+    {
+      "id": "src-002",
+      "url": "https://www.allmusic.com/artist/maisie-peters-mn0003741917",
+      "title": "Maisie Peters AllMusic biography",
+      "publisher": "www.allmusic.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "industry_profile",
+      "access_status": "read",
+      "evidence_summary": "Album chronology to 2026."
+    },
+    {
+      "id": "src-003",
+      "url": "https://www.glamourmagazine.co.uk/article/maisie-peters-essay-exclusive",
+      "title": "Maisie Peters essay about Body Better",
+      "publisher": "www.glamourmagazine.co.uk",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "artist_statement",
+      "access_status": "read",
+      "evidence_summary": "First-person origin of Body Better."
+    },
+    {
+      "id": "src-004",
+      "url": "https://www.teenvogue.com/story/maisie-peters-new-album-the-good-witch-and-making-songwriting-magic-interview",
+      "title": "The Good Witch interview",
+      "publisher": "www.teenvogue.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "artist_interview",
+      "access_status": "read",
+      "evidence_summary": "Album-level motivations and songwriting."
+    },
+    {
+      "id": "src-005",
+      "url": "https://www.thelineofbestfit.com/features/interviews/maisie-peters-calm-ambition",
+      "title": "Maisie Peters interview on songwriting",
+      "publisher": "www.thelineofbestfit.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "artist_interview",
+      "access_status": "read",
+      "evidence_summary": "On songs changing meaning onstage."
+    },
+    {
+      "id": "src-006",
+      "url": "https://open.spotify.com/track/6pn5dBDetgg4rojbzIxH7v",
+      "title": "Maisie Peters — Body Better Spotify track page",
+      "publisher": "open.spotify.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Verified matching artist and recording page; edition and release dates are not assumed from other versions."
+    },
+    {
+      "id": "src-007",
+      "url": "https://open.spotify.com/track/09GyiRsM5YOrFFR5qYSHDd",
+      "title": "Maisie Peters — Say My Name In Your Sleep Spotify track page",
+      "publisher": "open.spotify.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Verified matching artist and recording page; edition and release dates are not assumed from other versions."
+    }
+  ],
+  "outstanding_research": [
+    {
+      "field": "song.spotify_url",
+      "status": "pending"
+    },
+    {
+      "field": "song.release_date",
+      "status": "pending"
+    },
+    {
+      "field": "song.artist_statement_paraphrase",
+      "status": "pending_optional"
+    },
+    {
+      "field": "artist.image",
+      "status": "use_placeholder"
+    }
+  ]
+}

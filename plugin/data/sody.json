@@ -1,0 +1,802 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-30",
+  "selection": {
+    "type": "curated",
+    "description": "Ten Sody recordings selected editorially for Afterglow from catalogues and source-backed release pages; order is not a streaming ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-002"
+    ],
+    "limitations": [
+      "The selections are editorially curated, not an official Spotify Popular top ten or independently audited popularity ranking.",
+      "Any blank Spotify URL must remain null until its precise recording is verified.",
+      "Photo rights were not reviewed; placeholder is mandatory.",
+      "Original release dates versus later editions are not exhaustively established."
+    ]
+  },
+  "artist": {
+    "slug": "sody",
+    "name": "Sody",
+    "full_name": "Sophie Dyson",
+    "country": "United Kingdom",
+    "place_of_origin": "London, United Kingdom",
+    "short_description": "Sody — an Afterglow editorial selection for listeners exploring emotional pop.",
+    "biography": "Sody is the stage name of British singer-songwriter Sophie Dyson. In an original interview, she discussed growing up in a large family and writing songs from an unusually young age. Her catalogue developed through singles such as ‘Maybe It Was Me’, ‘What We Had’ and ‘Bedroom Ceiling’. She has also collaborated with Cavetown on ‘is your bedroom ceiling bored?’, while the song ‘fools (can't help falling in love)’ includes her contributions alongside Foster and Sarcastic Sounds. The 2020 EP real growth takes time was presented as a personal collection, with Sody specifically describing ‘butterfly’ as addressing mental health. In 2025, she released her debut album THE HELL OF APRIL and characterized it as an account of heartbreak rather than a completed healing journey. That personal framing makes her catalogue especially suitable for careful, sourced song discussions. For Afterglow, she occupies an intimate, confessional corner of emotional pop. This is an editorial description of her work, and the artist's explanation for one track should never be applied automatically to another.",
+    "spotify_url": "https://open.spotify.com/artist/01y8iBZYk8aeNfPsuTVrAt",
+    "official_website": null,
+    "social_profiles": [],
+    "genres": [
+      "emotional pop (editorial)",
+      "singer-songwriter pop (editorial)"
+    ],
+    "moods": [
+      "vulnerable",
+      "heartbroken",
+      "nostalgic"
+    ],
+    "career_milestones": [
+      {
+        "date": "2019",
+        "description": "Released What We Had and associated songs later collected on I’m Sorry, I’m Not Sorry.",
+        "source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "date": "2020",
+        "description": "Released real growth takes time, including butterfly.",
+        "source_ids": [
+          "src-005"
+        ]
+      },
+      {
+        "date": "2025-10-03",
+        "description": "Released THE HELL OF APRIL.",
+        "source_ids": [
+          "src-004"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Sara Kays",
+        "explanation": "Afterglow editorial connection based on broad songwriting themes and discovery fit; verify musical resemblance independently rather than treating this as an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "name": "Avery Lynch",
+        "explanation": "Afterglow editorial connection based on broad songwriting themes and discovery fit; verify musical resemblance independently rather than treating this as an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "name": "Rosie Darling",
+        "explanation": "Afterglow editorial connection based on broad songwriting themes and discovery fit; verify musical resemblance independently rather than treating this as an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "biography",
+        "claim": "Biographical information and main career context are supported by the indicated profile or interview.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "career_milestones",
+        "claim": "Milestones use catalogue, label or interview evidence; dates have the precision supported by those sources.",
+        "source_ids": [
+          "src-002",
+          "src-005",
+          "src-004"
+        ]
+      },
+      {
+        "field": "genres,moods,similar_artists",
+        "claim": "These are Afterglow editorial navigation tags, not verified quotations or formal artist-provided genre labels.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Artist URL refers to the independently identified Spotify performer.",
+        "source_ids": [
+          "src-003"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No commercially licensed artist photo was established in this research batch; retain abstract placeholder."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "maybe-it-was-me",
+      "title": "Maybe It Was Me",
+      "artist_slug": "sody",
+      "artist_credits": [
+        "Sody"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2018",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Maybe It Was Me",
+      "release_type": null,
+      "short_description": "A curated Sody recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "what-we-had",
+      "title": "What We Had",
+      "artist_slug": "sody",
+      "artist_credits": [
+        "Sody"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/3xHmZZu3twA1edrwbk0OBR",
+      "release_date": "2019",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "What We Had",
+      "release_type": null,
+      "short_description": "A curated Sody recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "maybe-it-was-me",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-008"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Specific track URL is supported by Spotify or a linked contemporaneous publisher source.",
+          "source_ids": [
+            "src-008"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "reason-to-stay",
+      "title": "Reason To Stay",
+      "artist_slug": "sody",
+      "artist_credits": [
+        "Sody"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2019",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "I’m Sorry, I’m Not Sorry",
+      "release_type": null,
+      "short_description": "A curated Sody recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "what-we-had",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "love-s-a-waste",
+      "title": "Love’s a Waste",
+      "artist_slug": "sody",
+      "artist_credits": [
+        "Sody"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/7k5wAztTCmsqywW6NsoggK",
+      "release_date": "2019",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "I’m Sorry, I’m Not Sorry",
+      "release_type": null,
+      "short_description": "A curated Sody recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "reason-to-stay",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-009"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-009"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Specific track URL is supported by Spotify or a linked contemporaneous publisher source.",
+          "source_ids": [
+            "src-009"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "bedroom-ceiling",
+      "title": "Bedroom Ceiling",
+      "artist_slug": "sody",
+      "artist_credits": [
+        "Sody"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Bedroom Ceiling",
+      "release_type": null,
+      "short_description": "A curated Sody recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "love-s-a-waste",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "is-your-bedroom-ceiling-bored-feat-cavetown",
+      "title": "is your bedroom ceiling bored? (feat. Cavetown)",
+      "artist_slug": "sody",
+      "artist_credits": [
+        "Sody",
+        "Cavetown"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/3ehrCQoouv7NW8LRgcMvRF",
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "is your bedroom ceiling bored?",
+      "release_type": null,
+      "short_description": "A curated Sody recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "bedroom-ceiling",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Specific track URL is supported by Spotify or a linked contemporaneous publisher source.",
+          "source_ids": [
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "butterfly",
+      "title": "butterfly",
+      "artist_slug": "sody",
+      "artist_credits": [
+        "Sody"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "real growth takes time",
+      "release_type": null,
+      "short_description": "A curated Sody recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": "Sody described butterfly as addressing mental health and the internal struggles visualized in its accompanying video.",
+      "artist_statement_source_ids": [
+        "src-005"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "is-your-bedroom-ceiling-bored-feat-cavetown",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Song-specific artist explanation is paraphrased from the cited interview or statement.",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "bitch-i-said-it",
+      "title": "Bitch (I Said It)",
+      "artist_slug": "sody",
+      "artist_credits": [
+        "Sody"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2021",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Bitch (I Said It)",
+      "release_type": null,
+      "short_description": "A curated Sody recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "butterfly",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "missing-me",
+      "title": "Missing Me",
+      "artist_slug": "sody",
+      "artist_credits": [
+        "Sody"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2024",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Missing Me",
+      "release_type": null,
+      "short_description": "A curated Sody recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": "Sody said the song is about missing the happier version of yourself that you associate with a former relationship.",
+      "artist_statement_source_ids": [
+        "src-006"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "bitch-i-said-it",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Song-specific artist explanation is paraphrased from the cited interview or statement.",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "you-already-know",
+      "title": "you already know",
+      "artist_slug": "sody",
+      "artist_credits": [
+        "Sody"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2026",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "you already know",
+      "release_type": null,
+      "short_description": "A curated Sody recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "missing-me",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://www.thelineofbestfit.com/features/interviews/sody-on-the-rise",
+      "title": "Sody — On the Rise interview",
+      "publisher": "The Line of Best Fit",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "original_artist_interview",
+      "access_status": "read",
+      "evidence_summary": "British singer-songwriter Sophie Dyson discusses upbringing, family and songwriting, real growth takes time."
+    },
+    {
+      "id": "src-002",
+      "url": "https://music.apple.com/us/artist/sody/271348279",
+      "title": "Sody — Apple Music Catalogue",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Lists What We Had, Bedroom Ceiling, Maybe It Was Me, Love’s a Waste and 2026 you already know."
+    },
+    {
+      "id": "src-003",
+      "url": "https://open.spotify.com/embed/artist/01y8iBZYk8aeNfPsuTVrAt",
+      "title": "Sody Spotify Artist Embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Artist identity and credits, including Cavetown collaboration, Foster/Sarcastic Sounds feature."
+    },
+    {
+      "id": "src-004",
+      "url": "https://pmstudio.com/music/20251015-26840",
+      "title": "Sody debuts The Hell of April",
+      "publisher": "PM Studio",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "artist_release_statement",
+      "access_status": "read",
+      "evidence_summary": "Artist describes October 3 2025 album as breakup-related; 13 tracks."
+    },
+    {
+      "id": "src-005",
+      "url": "https://pmstudio.com/music/music.html?page=20201230-12827",
+      "title": "Sody real growth takes time EP",
+      "publisher": "PM Studio",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "artist_release_statement",
+      "access_status": "read",
+      "evidence_summary": "Artist describes butterfly as addressing mental health; other songs on 2020 EP."
+    },
+    {
+      "id": "src-006",
+      "url": "https://pmstudio.com/music/20240130-21996",
+      "title": "Sody explains Missing Me",
+      "publisher": "PM Studio",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "artist_release_statement",
+      "access_status": "read",
+      "evidence_summary": "Artist describes Missing Me as a breakup-related reflection on missing one’s former happier self."
+    },
+    {
+      "id": "src-007",
+      "url": "https://open.spotify.com/track/3ehrCQoouv7NW8LRgcMvRF",
+      "title": "is your bedroom ceiling bored? with Cavetown",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Official Sody and Cavetown credit, 2020 single."
+    },
+    {
+      "id": "src-008",
+      "url": "https://open.spotify.com/track/3xHmZZu3twA1edrwbk0OBR",
+      "title": "What We Had — Sody",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Official 2019 single recording by Sody."
+    },
+    {
+      "id": "src-009",
+      "url": "https://open.spotify.com/track/7k5wAztTCmsqywW6NsoggK",
+      "title": "Love’s a Waste — Sody",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Exact song, 2019 EP edition."
+    }
+  ],
+  "outstanding_research": [
+    "Verify each null Spotify track URL against the exact recording and credits.",
+    "Audit original release dates, including later EP/album editions and any covers.",
+    "Locate first-person interviews for songs with null artist_statement_paraphrase.",
+    "Only publish photography after a commercial-editorial rights review."
+  ]
+}

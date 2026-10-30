@@ -49,7 +49,7 @@ try {
   await page.goto(route('/artists/?q=BL%C3%9C%20EYES'));
   check(await page.locator('.music-card').count() === 1 && await page.locator('.music-card h3').textContent() === 'BLÜ EYES', 'Unicode artist-name filtering preserves display names');
   await page.goto(route('/artists/?filter_country=germany'));
-  check(await page.locator('.music-card').count() === 1 && await page.locator('.music-card h3').textContent() === 'Hanniou', 'Country filter finds the sourced German artist');
+  check(await page.locator('.music-card').count() === 2 && await page.locator('.music-card h3').allTextContents().then(names => names.includes('Hanniou') && names.includes('Zoe Wees')), 'Country filter finds the two sourced German artists');
   await page.goto(route('/artists/sara-kays/'));
   check(await page.locator('h1').textContent() === 'Sara Kays', 'Artist profile renders');
   check(await page.locator('.editorial-notice').textContent().then(t => t.includes('demo collection') || t.includes('Research review pending')), 'Demo is labeled');

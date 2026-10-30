@@ -13,7 +13,7 @@ page.on('request', request => { const url = new URL(request.url()); if (['http:'
 try {
   for (const width of [1440,390]) {
     await page.setViewportSize({width,height:width === 390 ? 844 : 1050});
-    for (const path of ['/', '/artists/', '/artists/sara-kays/', '/songs/coping/', '/saved/', '/media-credits/', '/songs/loote-high-without-your-love/', '/songs/shy-martin-are-you-happy/?ag_feeling=hopeful&ag_theme=any', '/songs/shy-martin-are-you-happy/?ag_feeling=euphoric&ag_theme=body-image']) {
+    for (const path of ['/', '/artists/', '/artists/sara-kays/', '/songs/coping/', '/saved/', '/media-credits/', '/songs/loote-high-without-your-love/', '/songs/shy-martin-are-you-happy/?ag_feeling=hopeful&ag_theme=any', '/songs/shy-martin-are-you-happy/?ag_feeling=euphoric&ag_theme=body-image', '/artists/rosie/', '/songs/gabrielle-aplin-the-power-of-love/']) {
       await page.goto(new URL(path,base).href);
       await page.evaluate(() => document.fonts.ready);
       await page.locator('.discovery-controls, .volume-help').evaluateAll(details => details.forEach(detail => { detail.open = true; }));

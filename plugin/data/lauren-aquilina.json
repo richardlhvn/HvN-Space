@@ -1,0 +1,560 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-30",
+  "selection": {
+    "type": "curated",
+    "description": "Ten editorially curated catalogue-backed starter tracks; no popularity ranking asserted.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-002"
+    ],
+    "limitations": [
+      "Not a Spotify Popular ranking.",
+      "Many track-specific Spotify URLs and earliest release dates remain unverified."
+    ]
+  },
+  "artist": {
+    "slug": "lauren-aquilina",
+    "name": "Lauren Aquilina",
+    "full_name": null,
+    "country": "United Kingdom",
+    "place_of_origin": null,
+    "short_description": "Lauren Aquilina: an Afterglow editorial discovery candidate in singer-songwriter.",
+    "biography": "Lauren Aquilina is a British singer-songwriter whose work combines piano-led writing, introspection, and melodic pop. Her early catalogue includes the Fools and Sinners EPs, with songs such as “King,” “Fools,” and “Sinners.” Apple Music’s editorial notes for Fools describe the contrast between her acoustic arrangements and piano ballads, while its catalogue documents later releases including Isn’t It Strange?, Ghost World, “Empathy,” and “The Knife.” Her songs make a useful addition to Afterglow’s discovery network because they connect older singer-songwriter material to the softer, contemporary emotional-pop space represented by Katelyn Tarver and Clara Mae. This is a stylistic recommendation rather than a factual collaboration claim. The database should distinguish the original “Empathy” recording from its MUNA remix, and preserve any reissues or piano versions as separate recordings only when specifically selected. Interviews establishing precise artist intent for the chosen songs still need to be collected; until then, the records should use original editorial listening notes sparingly and leave the artist-statement field unfilled.",
+    "spotify_url": null,
+    "official_website": null,
+    "social_profiles": [],
+    "genres": [
+      "singer-songwriter",
+      "pop",
+      "piano pop"
+    ],
+    "moods": [
+      "reflective",
+      "hopeful"
+    ],
+    "career_milestones": [],
+    "similar_artists": [
+      {
+        "name": "Katelyn Tarver",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Nina Nesbitt",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Clara Mae",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "name",
+        "claim": "Lauren Aquilina is the identified performing artist.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "The biography is an original synopsis of the career and releases described in the cited artist/catalogue references.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "country",
+        "claim": "Artist is associated with United Kingdom.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No verified commercial reuse license for a standalone artist photograph.",
+      "Legal/expanded full name not independently verified; null retained.",
+      "This is a research starter; all song-level gaps should be reviewed before publication."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "king",
+      "title": "King",
+      "artist_slug": "lauren-aquilina",
+      "artist_credits": [
+        "Lauren Aquilina"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/5pCqu0I33UR4UMjrJaAHCi",
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Exact track-level Spotify URL confirmed for this song and performer(s).",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "fools",
+      "title": "Fools",
+      "artist_slug": "lauren-aquilina",
+      "artist_credits": [
+        "Lauren Aquilina"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "sinners",
+      "title": "Sinners",
+      "artist_slug": "lauren-aquilina",
+      "artist_credits": [
+        "Lauren Aquilina"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "tobacco-in-my-sheets",
+      "title": "Tobacco in My Sheets",
+      "artist_slug": "lauren-aquilina",
+      "artist_credits": [
+        "Lauren Aquilina"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "hanging-by-your-halo",
+      "title": "Hanging By Your Halo",
+      "artist_slug": "lauren-aquilina",
+      "artist_credits": [
+        "Lauren Aquilina"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "empathy",
+      "title": "Empathy",
+      "artist_slug": "lauren-aquilina",
+      "artist_credits": [
+        "Lauren Aquilina"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "the-knife",
+      "title": "The Knife",
+      "artist_slug": "lauren-aquilina",
+      "artist_credits": [
+        "Lauren Aquilina"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "psycho",
+      "title": "Psycho",
+      "artist_slug": "lauren-aquilina",
+      "artist_credits": [
+        "Lauren Aquilina"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "forest-fires",
+      "title": "Forest Fires",
+      "artist_slug": "lauren-aquilina",
+      "artist_credits": [
+        "Lauren Aquilina"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "wonder",
+      "title": "Wonder",
+      "artist_slug": "lauren-aquilina",
+      "artist_credits": [
+        "Lauren Aquilina"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://music.apple.com/us/artist/lauren-aquilina/484947499",
+      "title": "Lauren Aquilina — Apple Music",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Displays identified artist or recording titles, with some release information and performer credits."
+    },
+    {
+      "id": "src-002",
+      "url": "https://music.apple.com/es/artist/lauren-aquilina/484947499",
+      "title": "Lauren Aquilina top tracks",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Displays identified artist or recording titles, with some release information and performer credits."
+    },
+    {
+      "id": "src-003",
+      "url": "https://music.apple.com/us/album/fools-ep/558518089",
+      "title": "Fools — original EP",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Displays identified artist or recording titles, with some release information and performer credits."
+    },
+    {
+      "id": "src-004",
+      "url": "https://www.last.fm/music/Lauren%2BAquilina",
+      "title": "Lauren Aquilina track catalogue",
+      "publisher": "Last.fm",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "catalogue_aggregator",
+      "access_status": "read",
+      "evidence_summary": "Publisher profile or release announcement supporting identified artist and related repertoire."
+    },
+    {
+      "id": "src-005",
+      "url": "https://open.spotify.com/embed/track/5pCqu0I33UR4UMjrJaAHCi",
+      "title": "King — official Spotify embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Displays identified artist or recording titles, with some release information and performer credits."
+    },
+    {
+      "id": "src-006",
+      "url": "https://open.spotify.com/embed/track/5pCqu0I33UR4UMjrJaAHCi",
+      "title": "King — official Spotify embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Evidence for artist identification, song catalogue or cited statements in the linked source; refer to individual claim associations."
+    }
+  ],
+  "outstanding_research": [
+    "Verify missing exact Spotify track URLs and original release edition dates.",
+    "Seek song-specific first-person interview explanations and verify precise inspirations.",
+    "Complete biography fact-check, verified social profiles and commercial-use image rights."
+  ]
+}

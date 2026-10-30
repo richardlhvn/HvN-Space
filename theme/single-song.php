@@ -16,14 +16,14 @@ while (have_posts()) : the_post();
             <div class="profile-title"><h1><?php the_title(); ?></h1><?php ag_save_button($id, 'large-save'); ?></div>
             <?php if ($artist && get_post_status($artist) === 'publish') : ?><a class="artist-byline" href="<?php echo esc_url(get_permalink($artist)); ?>">by <?php echo esc_html(get_the_title($artist)); ?> <?php echo ag_icon('diagonal'); ?></a><?php endif; ?>
             <div class="tag-list"><?php foreach (['genre', 'mood'] as $tax) { $terms = get_the_terms($id, $tax); foreach ($terms && !is_wp_error($terms) ? $terms : [] as $term) { echo '<a class="tag" href="' . esc_url(ag_url('songs') . '?filter_' . $tax . '=' . $term->slug) . '">' . esc_html($term->name) . '</a>'; } } ?></div>
-            <p class="profile-intro"><?php echo esc_html(get_the_excerpt()); ?></p>
+            <p class="profile-intro"><?php echo esc_html(get_post_field('post_excerpt', $id) !== '' || !ag_meta('handoff_key') ? get_the_excerpt() : 'A recording from ' . (ag_artist_name($id) ?: 'this artist') . '’s curated selection. Explore the sources and continue discovering.'); ?></p>
             </div>
             <?php ag_next_discovery($discovery); ?>
             <div class="song-discovery-actions">
                 <?php if ($discovery) : ?><a class="button button-dark" href="#discover-more" data-discovery-open>Find another song like this <?php echo ag_icon('arrow'); ?></a><?php endif; ?>
                 <?php if ($artist && get_post_status($artist) === 'publish') : ?><a class="text-link" href="<?php echo esc_url(get_permalink($artist) . '#artist-songs'); ?>">More from <?php echo esc_html(get_the_title($artist)); ?> <?php echo ag_icon('diagonal'); ?></a><?php endif; ?>
             </div>
-            <?php if (ag_meta('demo')) : ?><a class="song-review-status" href="#song-notes"><?php echo ag_meta('handoff_key') ? 'Research review pending' : 'Demo listening notes'; ?> · Read the notes</a><?php endif; ?>
+            <?php if (ag_meta('demo')) : ?><a class="song-review-status" href="#song-notes"><?php echo esc_html(ag_research_label($id)); ?> · Read the notes</a><?php endif; ?>
         </div>
     </div>
     <?php ag_discovery_panel($discovery); ?>

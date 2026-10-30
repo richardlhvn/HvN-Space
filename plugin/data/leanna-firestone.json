@@ -1,0 +1,547 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-30",
+  "selection": {
+    "type": "curated",
+    "description": "Ten editorially curated catalogue-backed starter tracks; no popularity ranking asserted.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-001"
+    ],
+    "limitations": [
+      "Not a Spotify Popular ranking.",
+      "Many track-specific Spotify URLs and earliest release dates remain unverified."
+    ]
+  },
+  "artist": {
+    "slug": "leanna-firestone",
+    "name": "Leanna Firestone",
+    "full_name": null,
+    "country": "United States",
+    "place_of_origin": null,
+    "short_description": "Leanna Firestone: an Afterglow editorial discovery candidate in indie pop.",
+    "biography": "Leanna Firestone is an American indie-pop singer-songwriter whose writing is frequently personal, conversational, and self-aware. Her artist biography describes how posting music on social media helped her build an audience before the release of early tracks including “Strawberry Mentos” and “Least Favorite Only Child.” Her catalogue subsequently expanded to “Smitten,” “Diet Coke,” and “You Just Didn’t Like Me That Much,” as well as the later album The Answer. In a firsthand interview with The New Nine, Firestone explained that the idea for “You Just Didn’t Like Me That Much” was prompted by reading an online observation that reframed a painful relationship experience. This interview is a useful source for Afterglow because it explicitly addresses the song’s meaning rather than merely discussing the artist’s wider career. Her songs provide a compelling recommendation path from Sara Kays and Sadie Jean toward writing that is more humorous or sharply phrased without losing its emotional focus. All connections to other artists are Afterglow editorial suggestions, not collaborations or endorsements unless independently documented.",
+    "spotify_url": "https://open.spotify.com/artist/31431J9PD3bfNsPKkezt0d",
+    "official_website": null,
+    "social_profiles": [],
+    "genres": [
+      "indie pop",
+      "singer-songwriter"
+    ],
+    "moods": [
+      "candid",
+      "bittersweet"
+    ],
+    "career_milestones": [],
+    "similar_artists": [
+      {
+        "name": "Sara Kays",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "BLÜ EYES",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Sadie Jean",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "name",
+        "claim": "Leanna Firestone is the identified performing artist.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "The biography is an original synopsis of the career and releases described in the cited artist/catalogue references.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "country",
+        "claim": "Artist is associated with United States.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Verified Spotify artist identity; URL is not a track URL.",
+        "source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No verified commercial reuse license for a standalone artist photograph.",
+      "Legal/expanded full name not independently verified; null retained.",
+      "This is a research starter; all song-level gaps should be reviewed before publication."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "diet-coke",
+      "title": "Diet Coke",
+      "artist_slug": "leanna-firestone",
+      "artist_credits": [
+        "Leanna Firestone"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "smitten",
+      "title": "Smitten",
+      "artist_slug": "leanna-firestone",
+      "artist_credits": [
+        "Leanna Firestone"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "you-just-didn-t-like-me-that-much",
+      "title": "You Just Didn’t Like Me That Much",
+      "artist_slug": "leanna-firestone",
+      "artist_credits": [
+        "Leanna Firestone"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": "Leanna explained that an online observation helped her reframe the end of a relationship as someone simply not liking her enough to date her.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Leanna explained that an online observation helped her reframe the end of a relationship as someone simply not liking her enough to date her.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "suneater",
+      "title": "Suneater",
+      "artist_slug": "leanna-firestone",
+      "artist_credits": [
+        "Leanna Firestone"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "strawberry-mentos",
+      "title": "Strawberry Mentos",
+      "artist_slug": "leanna-firestone",
+      "artist_credits": [
+        "Leanna Firestone"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "least-favorite-only-child",
+      "title": "Least Favorite Only Child",
+      "artist_slug": "leanna-firestone",
+      "artist_credits": [
+        "Leanna Firestone"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "becoming-unbecoming",
+      "title": "Becoming Unbecoming",
+      "artist_slug": "leanna-firestone",
+      "artist_credits": [
+        "Leanna Firestone"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "burnt-out",
+      "title": "Burnt Out",
+      "artist_slug": "leanna-firestone",
+      "artist_credits": [
+        "Leanna Firestone"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "town-ain-t-big-enough",
+      "title": "Town Ain't Big Enough",
+      "artist_slug": "leanna-firestone",
+      "artist_credits": [
+        "Leanna Firestone"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "two-week-notice",
+      "title": "Two Week Notice",
+      "artist_slug": "leanna-firestone",
+      "artist_credits": [
+        "Leanna Firestone"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://open.spotify.com/embed/artist/31431J9PD3bfNsPKkezt0d?theme=0",
+      "title": "Leanna Firestone — top tracks",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Displays identified artist or recording titles, with some release information and performer credits."
+    },
+    {
+      "id": "src-002",
+      "url": "https://lpr.com/lpr_artists/leanna-firestone/",
+      "title": "Leanna Firestone — artist biography",
+      "publisher": "Le Poisson Rouge",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "artist_bio",
+      "access_status": "read",
+      "evidence_summary": "Publisher profile or release announcement supporting identified artist and related repertoire."
+    },
+    {
+      "id": "src-003",
+      "url": "https://thenewnine.com/on-the-rise-leanna-firestone",
+      "title": "On The Rise: Leanna Firestone",
+      "publisher": "The New Nine",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Contains direct artist answers about songs or creative experiences; consult statement-specific claim links."
+    },
+    {
+      "id": "src-004",
+      "url": "https://music.apple.com/us/album/the-answer/1892199835",
+      "title": "The Answer — Apple Music",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Displays identified artist or recording titles, with some release information and performer credits."
+    }
+  ],
+  "outstanding_research": [
+    "Verify missing exact Spotify track URLs and original release edition dates.",
+    "Seek song-specific first-person interview explanations and verify precise inspirations.",
+    "Complete biography fact-check, verified social profiles and commercial-use image rights."
+  ]
+}

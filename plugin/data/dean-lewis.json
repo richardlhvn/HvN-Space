@@ -1,0 +1,588 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-31",
+  "selection": {
+    "type": "curated",
+    "description": "Ten editorially curated catalogue-backed starter tracks; not a Spotify Popular ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-001"
+    ],
+    "limitations": [
+      "No Spotify Popular ranking asserted.",
+      "Unverified original release dates and Spotify recording URLs remain null.",
+      "Some catalogue and collaboration credits require editorial review."
+    ]
+  },
+  "artist": {
+    "slug": "dean-lewis",
+    "name": "Dean Lewis",
+    "full_name": null,
+    "country": "Australia",
+    "place_of_origin": "Sydney, New South Wales",
+    "short_description": "Dean Lewis is an Afterglow discovery artist in the broader emotional-pop and songwriter catalogue.",
+    "biography": "Dean Lewis is an Australian singer-songwriter recognized for emotionally direct pop with acoustic and piano-led roots. His early work included 'Waves' and 'Be Alright,' followed by his debut album A Place We Knew in 2019. He expanded that sound with The Hardest Love in 2022 and later releases including The Epilogue. Lewis has discussed how writing vulnerably can help listeners connect to a song, even when the original story feels highly personal. One of his best documented tracks is 'How Do I Say Goodbye,' which he wrote while his father was seriously ill and he feared losing him. Lewis later described his father's recovery and the experience of sharing the song with him. In other interviews he has explained the relationship contexts behind tracks on The Hardest Love, including 'All For You' and 'Hurtless.' Afterglow can use his catalogue as a reference point for breakup, reconciliation and family-loss material, but should not confuse different songs with similar titles by other artists. Release-year fields should be checked at recording level because some tracks are available on newer compilations.",
+    "spotify_url": null,
+    "official_website": null,
+    "social_profiles": [],
+    "genres": [
+      "pop ballad",
+      "acoustic pop",
+      "singer-songwriter"
+    ],
+    "moods": [
+      "reflective",
+      "vulnerable"
+    ],
+    "career_milestones": [],
+    "similar_artists": [
+      {
+        "name": "Cian Ducrot",
+        "explanation": "Afterglow editorial similarity, based on neighbouring songwriter-pop audience and themes; not an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Caleb Hearn",
+        "explanation": "Afterglow editorial similarity, based on neighbouring songwriter-pop audience and themes; not an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Henry Moodie",
+        "explanation": "Afterglow editorial similarity, based on neighbouring songwriter-pop audience and themes; not an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "name",
+        "claim": "Dean Lewis is the intended performing artist identity.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Original editorial career synopsis based on these cited sources; verify claim-by-claim before publication.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003",
+          "src-004"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Spotify artist identity from matched Spotify / track sources, where available; null means unverified.",
+        "source_ids": []
+      }
+    ],
+    "uncertainties": [
+      "A commercially reusable photograph was not licensed; use abstract artwork.",
+      "Artist biography is a sourced starter draft requiring copy-edit and detailed verification.",
+      "Expanded/legal full name not source-verified; null retained.",
+      "Specific Spotify artist URL still needs verification."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "be-alright",
+      "title": "Be Alright",
+      "artist_slug": "dean-lewis",
+      "artist_credits": [
+        "Dean Lewis"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "waves",
+      "title": "Waves",
+      "artist_slug": "dean-lewis",
+      "artist_credits": [
+        "Dean Lewis"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "7-minutes",
+      "title": "7 Minutes",
+      "artist_slug": "dean-lewis",
+      "artist_credits": [
+        "Dean Lewis"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "half-a-man",
+      "title": "Half a Man",
+      "artist_slug": "dean-lewis",
+      "artist_credits": [
+        "Dean Lewis"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "how-do-i-say-goodbye",
+      "title": "How Do I Say Goodbye",
+      "artist_slug": "dean-lewis",
+      "artist_credits": [
+        "Dean Lewis"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/2NsrnFpAdFV2ItCarE59wc",
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": "Verified recording, compilation context; date not carried over",
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Song has an attributable artist explanation; do not generalize beyond the documented statement.",
+      "editorial_notes_basis": "catalogue listing and attributable artist statement",
+      "editorial_notes_source_ids": [
+        "src-001",
+        "src-002",
+        "src-005"
+      ],
+      "artist_statement_paraphrase": "Lewis says he wrote this when his father was severely ill and he feared having to say goodbye; he later shared the song with his father after treatment.",
+      "artist_statement_source_ids": [
+        "src-002"
+      ],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Specific Spotify track page matched to this song and credited artist.",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "hurtless",
+      "title": "Hurtless",
+      "artist_slug": "dean-lewis",
+      "artist_credits": [
+        "Dean Lewis"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Song has an attributable artist explanation; do not generalize beyond the documented statement.",
+      "editorial_notes_basis": "catalogue listing and attributable artist statement",
+      "editorial_notes_source_ids": [
+        "src-001",
+        "src-004"
+      ],
+      "artist_statement_paraphrase": "Lewis described this as stylistically related to Be Alright, returning to difficult feelings after a relationship.",
+      "artist_statement_source_ids": [
+        "src-004"
+      ],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "looks-like-me",
+      "title": "Looks Like Me",
+      "artist_slug": "dean-lewis",
+      "artist_credits": [
+        "Dean Lewis"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "stay-awake",
+      "title": "Stay Awake",
+      "artist_slug": "dean-lewis",
+      "artist_credits": [
+        "Dean Lewis"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "lose-my-mind",
+      "title": "Lose My Mind",
+      "artist_slug": "dean-lewis",
+      "artist_credits": [
+        "Dean Lewis"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "with-you",
+      "title": "With You",
+      "artist_slug": "dean-lewis",
+      "artist_credits": [
+        "Dean Lewis"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://music.apple.com/us/artist/dean-lewis/779085108",
+      "title": "Dean Lewis catalogue / artist profile",
+      "publisher": "music.apple.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Song titles, associated performer and public discography. For Frawley and Gabrielle Aplin this is AllMusic."
+    },
+    {
+      "id": "src-002",
+      "url": "https://www.abc.net.au/news/2024-10-22/dean-lewis-the-unlikely-pop-star/104504612",
+      "title": "ABC interview with Dean Lewis",
+      "publisher": "www.abc.net.au",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "artist_interview",
+      "access_status": "read",
+      "evidence_summary": "Artist statement on family and songwriting."
+    },
+    {
+      "id": "src-003",
+      "url": "https://1883magazine.com/dean-lewis/",
+      "title": "Dean Lewis 1883 interview",
+      "publisher": "1883magazine.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "artist_interview",
+      "access_status": "read",
+      "evidence_summary": "Firsthand account of How Do I Say Goodbye."
+    },
+    {
+      "id": "src-004",
+      "url": "https://music.apple.com/us/album/how-do-i-say-goodbye/1637361438",
+      "title": "The Hardest Love Apple Music commentary",
+      "publisher": "music.apple.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "artist_interview",
+      "access_status": "read",
+      "evidence_summary": "Track-by-track artist reflections."
+    },
+    {
+      "id": "src-005",
+      "url": "https://open.spotify.com/track/2NsrnFpAdFV2ItCarE59wc",
+      "title": "Dean Lewis — How Do I Say Goodbye Spotify track page",
+      "publisher": "open.spotify.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Verified matching artist and recording page; edition and release dates are not assumed from other versions."
+    }
+  ],
+  "outstanding_research": [
+    {
+      "field": "song.spotify_url",
+      "status": "pending"
+    },
+    {
+      "field": "song.release_date",
+      "status": "pending"
+    },
+    {
+      "field": "song.artist_statement_paraphrase",
+      "status": "pending_optional"
+    },
+    {
+      "field": "artist.image",
+      "status": "use_placeholder"
+    }
+  ]
+}

@@ -1,0 +1,775 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-30",
+  "selection": {
+    "type": "curated",
+    "description": "Ten Avery Lynch recordings selected editorially for Afterglow from catalogues and source-backed release pages; order is not a streaming ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-002"
+    ],
+    "limitations": [
+      "The selections are editorially curated, not an official Spotify Popular top ten or independently audited popularity ranking.",
+      "Any blank Spotify URL must remain null until its precise recording is verified.",
+      "Photo rights were not reviewed; placeholder is mandatory.",
+      "Original release dates versus later editions are not exhaustively established."
+    ]
+  },
+  "artist": {
+    "slug": "avery-lynch",
+    "name": "Avery Lynch",
+    "full_name": null,
+    "country": "United States",
+    "place_of_origin": null,
+    "short_description": "Avery Lynch — an Afterglow editorial selection for listeners exploring piano pop.",
+    "biography": "Avery Lynch is a singer-songwriter whose official website introduces her as someone who finds comfort in sad songs. Her catalogue includes earlier releases such as To Love Someone Else and As Written, Vol. 1, followed by a series of singles that fed into the 2025 project Glad We Met. Among these are ‘Rain’, ‘the boys who don't know what they want’, ‘think about it’, ‘Dead to Me’, ‘Lasting Effects’ and ‘Sweetheart’. In an original interview and release statement, she described the project as a personal sequence that moves through heartbreak, fresh relationships, and eventually a sense of appreciation for meeting someone. She also discussed the creative significance of ‘Rain’ and the way the project developed. In another documented statement, Lynch explained that ‘think about it’ drew from her sister's experience of a breakup. For Afterglow, her work is an excellent bridge between spare piano-driven emotional pop and direct, diary-like storytelling. That is an editorial discovery classification rather than a claim that every song has the same sonic qualities or personal origin.",
+    "spotify_url": "https://open.spotify.com/artist/7aO285xSsCbjy0q9zEqXEk",
+    "official_website": "https://averylynch.com/",
+    "social_profiles": [],
+    "genres": [
+      "piano pop (editorial)",
+      "confessional singer-songwriter pop (editorial)"
+    ],
+    "moods": [
+      "tender",
+      "wistful",
+      "warm"
+    ],
+    "career_milestones": [
+      {
+        "date": "2024",
+        "description": "Released Rain as a single.",
+        "source_ids": [
+          "src-002"
+        ]
+      },
+      {
+        "date": "2025",
+        "description": "Released the nine-song project Glad We Met.",
+        "source_ids": [
+          "src-004"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Rosie Darling",
+        "explanation": "Afterglow editorial connection based on broad songwriting themes and discovery fit; verify musical resemblance independently rather than treating this as an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "name": "Sara Kays",
+        "explanation": "Afterglow editorial connection based on broad songwriting themes and discovery fit; verify musical resemblance independently rather than treating this as an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "name": "Sadie Jean",
+        "explanation": "Afterglow editorial connection based on broad songwriting themes and discovery fit; verify musical resemblance independently rather than treating this as an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "biography",
+        "claim": "Biographical information and main career context are supported by the indicated profile or interview.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "career_milestones",
+        "claim": "Milestones use catalogue, label or interview evidence; dates have the precision supported by those sources.",
+        "source_ids": [
+          "src-002",
+          "src-004"
+        ]
+      },
+      {
+        "field": "genres,moods,similar_artists",
+        "claim": "These are Afterglow editorial navigation tags, not verified quotations or formal artist-provided genre labels.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Artist URL refers to the independently identified Spotify performer.",
+        "source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No commercially licensed artist photo was established in this research batch; retain abstract placeholder.",
+      "Avoid Apple Music artist ID 1822693624; the identity verified via her official site is 1511107715."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "rain",
+      "title": "Rain",
+      "artist_slug": "avery-lynch",
+      "artist_credits": [
+        "Avery Lynch"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2024",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Rain",
+      "release_type": null,
+      "short_description": "A curated Avery Lynch recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": "Lynch discussed how the response to Rain helped shape the development of the Glad We Met project; this does not establish a specific lyrical narrative.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Song-specific artist explanation is paraphrased from the cited interview or statement.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "the-boys-who-don-t-know-what-they-want",
+      "title": "the boys who don’t know what they want",
+      "artist_slug": "avery-lynch",
+      "artist_credits": [
+        "Avery Lynch"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/7ejsOM6vM20LCgU6vyvYkN",
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "the boys who don’t know what they want",
+      "release_type": null,
+      "short_description": "A curated Avery Lynch recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "rain",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Specific track URL is supported by Spotify or a linked contemporaneous publisher source.",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "think-about-it",
+      "title": "think about it",
+      "artist_slug": "avery-lynch",
+      "artist_credits": [
+        "Avery Lynch"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "think about it",
+      "release_type": null,
+      "short_description": "A curated Avery Lynch recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": "Lynch said she wrote this after hearing her sister’s breakup experience, focusing on the unanswered questions left behind.",
+      "artist_statement_source_ids": [
+        "src-005"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "the-boys-who-don-t-know-what-they-want",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Song-specific artist explanation is paraphrased from the cited interview or statement.",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "dead-to-me",
+      "title": "Dead to Me",
+      "artist_slug": "avery-lynch",
+      "artist_credits": [
+        "Avery Lynch"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Glad We Met",
+      "release_type": null,
+      "short_description": "A curated Avery Lynch recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "think-about-it",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "lasting-effects",
+      "title": "Lasting Effects",
+      "artist_slug": "avery-lynch",
+      "artist_credits": [
+        "Avery Lynch"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Glad We Met",
+      "release_type": null,
+      "short_description": "A curated Avery Lynch recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "dead-to-me",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "sweetheart",
+      "title": "Sweetheart",
+      "artist_slug": "avery-lynch",
+      "artist_credits": [
+        "Avery Lynch"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Glad We Met",
+      "release_type": null,
+      "short_description": "A curated Avery Lynch recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "lasting-effects",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "i-m-glad-we-met",
+      "title": "I’m Glad We Met",
+      "artist_slug": "avery-lynch",
+      "artist_credits": [
+        "Avery Lynch"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Glad We Met",
+      "release_type": null,
+      "short_description": "A curated Avery Lynch recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": "Lynch described the project’s title track as a reflection on meeting her partner and the progress of their relationship.",
+      "artist_statement_source_ids": [
+        "src-004"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "sweetheart",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Song-specific artist explanation is paraphrased from the cited interview or statement.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "you-re-just-a-guy",
+      "title": "you’re just a guy",
+      "artist_slug": "avery-lynch",
+      "artist_credits": [
+        "Avery Lynch"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Friction VI",
+      "release_type": null,
+      "short_description": "A curated Avery Lynch recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "i-m-glad-we-met",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "to-love-someone-else",
+      "title": "To Love Someone Else",
+      "artist_slug": "avery-lynch",
+      "artist_credits": [
+        "Avery Lynch"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "To Love Someone Else",
+      "release_type": null,
+      "short_description": "A curated Avery Lynch recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "you-re-just-a-guy",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "all-i-need-the-distance-song",
+      "title": "all i need (the distance song)",
+      "artist_slug": "avery-lynch",
+      "artist_credits": [
+        "Avery Lynch"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/1ZYjhvNnxN6sk6f0SMLcR9",
+      "release_date": "2021",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "As Written, Vol. 1",
+      "release_type": null,
+      "short_description": "A curated Avery Lynch recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "to-love-someone-else",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Specific track URL is supported by Spotify or a linked contemporaneous publisher source.",
+          "source_ids": [
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://averylynch.com/",
+      "title": "Avery Lynch Official Site",
+      "publisher": "Avery Lynch",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_artist_website",
+      "access_status": "read",
+      "evidence_summary": "Self-described singer-songwriter; links to Spotify, Apple Music, songs, merch and social profiles."
+    },
+    {
+      "id": "src-002",
+      "url": "https://music.apple.com/us/artist/avery-lynch/1511107715",
+      "title": "Avery Lynch — Official Apple Music Catalogue",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Correct catalogue ID 1511107715, distinct from another Avery Lynch account; song years and Glad We Met EP."
+    },
+    {
+      "id": "src-003",
+      "url": "https://www.thelunacollective.co/journal/qa-avery-lynch-2025",
+      "title": "Interview with Avery Lynch about Glad We Met",
+      "publisher": "The Luna Collective",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "original_artist_interview",
+      "access_status": "read",
+      "evidence_summary": "Discusses personal story behind Glad We Met EP, Rain and songwriting process."
+    },
+    {
+      "id": "src-004",
+      "url": "https://mp3sandnpcs.com/home/avery-lynch-reveals-glad-we-met-ep",
+      "title": "Avery Lynch announces Glad We Met",
+      "publisher": "MP3s & NPCs",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "artist_release_statement",
+      "access_status": "read",
+      "evidence_summary": "Nine-track project and artist commentary: song arc moves from breakup to a new relationship."
+    },
+    {
+      "id": "src-005",
+      "url": "https://www.pmstudio.com/music/20250307-25174",
+      "title": "Avery Lynch explains Think About It",
+      "publisher": "PM Studio",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "artist_release_statement",
+      "access_status": "read",
+      "evidence_summary": "Artist says it came from her sister’s breakup; March 2025 release."
+    },
+    {
+      "id": "src-006",
+      "url": "https://open.spotify.com/track/7ejsOM6vM20LCgU6vyvYkN",
+      "title": "the boys who don’t know what they want",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Exact track link published in contemporaneous 2025 song review; recording identity should still be previewed before publication."
+    },
+    {
+      "id": "src-007",
+      "url": "https://open.spotify.com/track/1ZYjhvNnxN6sk6f0SMLcR9",
+      "title": "all i need (the distance song)",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Official track URL from artist site, exact title artist recorded."
+    }
+  ],
+  "outstanding_research": [
+    "Verify each null Spotify track URL against the exact recording and credits.",
+    "Audit original release dates, including later EP/album editions and any covers.",
+    "Locate first-person interviews for songs with null artist_statement_paraphrase.",
+    "Only publish photography after a commercial-editorial rights review."
+  ]
+}

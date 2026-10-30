@@ -1,0 +1,582 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-30",
+  "selection": {
+    "type": "curated",
+    "description": "Ten editorially curated catalogue-backed starter tracks; no popularity ranking asserted.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-004"
+    ],
+    "limitations": [
+      "Not a Spotify Popular ranking.",
+      "Many track-specific Spotify URLs and earliest release dates remain unverified."
+    ]
+  },
+  "artist": {
+    "slug": "rosie",
+    "name": "ROSIE",
+    "full_name": null,
+    "country": "United States",
+    "place_of_origin": "Nyack, New York",
+    "short_description": "ROSIE: an Afterglow editorial discovery candidate in emotional pop.",
+    "biography": "ROSIE is an American singer-songwriter from the New York area whose work centers on personal writing and emotionally direct pop. Her official biography identifies “Never the 1” as a breakthrough single and documents her signing to Arista Records and the release of her debut EP, 20mg of Happiness, in 2021. The project addresses the stages of grief after a breakup, a framing she also discussed publicly around its release. A second EP, 5 Songs for Healing, followed in 2023; Sony Music published information about its release and track list. She has also collaborated with Caleb Hearn on “Little Bit Better,” a song released through Nettwerk in 2024, and toured with Chelsea Cutler. For Afterglow, she is a strong bridge between intimate singer-songwriter material and contemporary emotional pop. The themes and similarity descriptions used on the site should be explicitly treated as Afterglow editorial classifications, except when backed by specific firsthand statements. Her identity should remain distinct from Rosie Darling, who is a separate musician already in the catalogue.",
+    "spotify_url": "https://open.spotify.com/artist/2bp65KnFOIsIosBoqPzvNL",
+    "official_website": "https://www.rosiemusicofficial.com/",
+    "social_profiles": [],
+    "genres": [
+      "emotional pop",
+      "acoustic pop",
+      "singer-songwriter"
+    ],
+    "moods": [
+      "vulnerable",
+      "reflective"
+    ],
+    "career_milestones": [],
+    "similar_artists": [
+      {
+        "name": "Caleb Hearn",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Sara Kays",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Chelsea Cutler",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "name",
+        "claim": "ROSIE is the identified performing artist.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "The biography is an original synopsis of the career and releases described in the cited artist/catalogue references.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "country",
+        "claim": "Artist is associated with United States.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "place_of_origin",
+        "claim": "Artist is associated with Nyack, New York.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Verified Spotify artist identity; URL is not a track URL.",
+        "source_ids": [
+          "src-005"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No verified commercial reuse license for a standalone artist photograph.",
+      "Legal/expanded full name not independently verified; null retained.",
+      "This is a research starter; all song-level gaps should be reviewed before publication."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "never-the-1",
+      "title": "Never the 1",
+      "artist_slug": "rosie",
+      "artist_credits": [
+        "ROSIE"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "retail-therapy",
+      "title": "Retail Therapy",
+      "artist_slug": "rosie",
+      "artist_credits": [
+        "ROSIE"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "to-get-over-you",
+      "title": "to get over you",
+      "artist_slug": "rosie",
+      "artist_credits": [
+        "ROSIE"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "sad-sad-sad",
+      "title": "Sad Sad Sad",
+      "artist_slug": "rosie",
+      "artist_credits": [
+        "ROSIE"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "screaming-underwater",
+      "title": "Screaming Underwater",
+      "artist_slug": "rosie",
+      "artist_credits": [
+        "ROSIE"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "next-life",
+      "title": "Next Life",
+      "artist_slug": "rosie",
+      "artist_credits": [
+        "ROSIE"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "someone-you-once-had",
+      "title": "Someone You Once Had",
+      "artist_slug": "rosie",
+      "artist_credits": [
+        "ROSIE"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "i-should-just-go-to-bed",
+      "title": "I Should Just Go to Bed",
+      "artist_slug": "rosie",
+      "artist_credits": [
+        "ROSIE"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "potential",
+      "title": "Potential",
+      "artist_slug": "rosie",
+      "artist_credits": [
+        "ROSIE"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "little-bit-better",
+      "title": "Little Bit Better",
+      "artist_slug": "rosie",
+      "artist_credits": [
+        "Caleb Hearn",
+        "ROSIE"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/7J3ay2nFMDL2rEi3YulAuw",
+      "release_date": "2024-02-23",
+      "release_date_precision": "day",
+      "release_date_context": "Original release described by Nettwerk, not later album edition",
+      "release_title": "Little Bit Better",
+      "release_type": "single",
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Exact track-level Spotify URL confirmed for this song and performer(s).",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Release date for the documented edition/context, not generalized across all reissues.",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": []
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://www.rosiemusicofficial.com/about",
+      "title": "ROSIE — About",
+      "publisher": "ROSIE official website",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "artist_official",
+      "access_status": "read",
+      "evidence_summary": "Official artist background, career overview, or link hub."
+    },
+    {
+      "id": "src-002",
+      "url": "https://www.sonymusic.ca/press_release/singer-songwriter-rosie-releases-5-songs-for-healing-ep",
+      "title": "ROSIE releases 5 Songs For Healing",
+      "publisher": "Sony Music Canada",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "label_press",
+      "access_status": "read",
+      "evidence_summary": "Publisher profile or release announcement supporting identified artist and related repertoire."
+    },
+    {
+      "id": "src-003",
+      "url": "https://www.pmstudio.com/music/20211025-15183",
+      "title": "ROSIE releases debut EP 20mg of Happiness",
+      "publisher": "PM Studio",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "music_press",
+      "access_status": "read",
+      "evidence_summary": "Publisher profile or release announcement supporting identified artist and related repertoire."
+    },
+    {
+      "id": "src-004",
+      "url": "https://nettwerk.com/news/caleb-hearn-and-rosie-unveil-emotionally-charged-single-little-bit-better",
+      "title": "Caleb Hearn and ROSIE release Little Bit Better",
+      "publisher": "Nettwerk Music Group",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "label_press",
+      "access_status": "read",
+      "evidence_summary": "Publisher profile or release announcement supporting identified artist and related repertoire."
+    },
+    {
+      "id": "src-005",
+      "url": "https://open.spotify.com/embed/artist/2bp65KnFOIsIosBoqPzvNL",
+      "title": "ROSIE — top tracks",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Displays identified artist or recording titles, with some release information and performer credits."
+    },
+    {
+      "id": "src-006",
+      "url": "https://open.spotify.com/embed/track/7J3ay2nFMDL2rEi3YulAuw",
+      "title": "Little Bit Better — Spotify track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Evidence for artist identification, song catalogue or cited statements in the linked source; refer to individual claim associations."
+    }
+  ],
+  "outstanding_research": [
+    "Verify missing exact Spotify track URLs and original release edition dates.",
+    "Seek song-specific first-person interview explanations and verify precise inspirations.",
+    "Complete biography fact-check, verified social profiles and commercial-use image rights."
+  ]
+}

@@ -6,10 +6,14 @@ function ag_handoff_assert($value, $message) { if (!$value) { throw new RuntimeE
 try {
     wp_set_current_user(0); ag_handoff_assert(is_wp_error(ag_apply_handoffs()), 'Anonymous imports must be rejected.');
     wp_set_current_user(get_user_by('login', 'editor')->ID);
-    $packs = ag_handoff_packs(); $expected = array_sum(array_map(function ($p) { return 1 + count($p['songs']); }, $packs));
-    ag_handoff_assert(count($packs) === 20 && $expected === 220, 'All twenty registered artist packages must be available.');
+    $packs = ag_handoff_packs(); $expected = array_sum(array_map(function ($p) { return 1 + count($p['songs']); }, $packs)) - count(ag_handoff_aliases());
+    ag_handoff_assert(count($packs) === 53 && $expected === 582, 'Final catalog must contain 53 artists, 529 pages, and one shared selection.');
+    ag_handoff_assert(count(ag_handoff_collection_packs('batch5-7')) === 33 && ag_handoff_catalog()['artist_intake']['status'] === 'paused', 'Final 33-artist intake must be selected together and further intake paused.');
     ag_handoff_assert(count(ag_handoff_collection_packs('2026-10-29')) === 10, 'Latest-date collection must contain both new batches only.');
     ag_handoff_assert(is_wp_error(ag_apply_handoffs(true, ['not-a-package'])), 'Invalid scope must be rejected before importing.');
+    $missing_shared = ag_apply_handoffs(true, array_keys(ag_handoff_collection_packs('batch5-7')));
+    ag_handoff_assert(is_wp_error($missing_shared) && $missing_shared->get_error_code() === 'missing_shared_song', 'A missing earlier shared song must block the final scope before writes.');
+    ag_handoff_assert(!ag_handoff_find('jessica-baio'), 'A failed shared-song preflight must not create partial intake records.');
     ag_import_astrid_research();
     $old_sara = get_page_by_path('sara-kays', OBJECT, 'artist')->ID;
     $old_hurts = get_page_by_path('hurts-so-good', OBJECT, 'song')->ID;
@@ -29,17 +33,25 @@ try {
         ag_handoff_assert(str_contains(preg_replace('/\s+/u', ' ', html_entity_decode(wp_strip_all_tags(get_post($artist_id)->post_content), ENT_QUOTES, 'UTF-8')), preg_replace('/\s+/u', ' ', $pack['artist']['biography'])), 'Biography must be populated.');
         foreach ($pack['songs'] as $song) {
             $id = ag_handoff_find($slug, $song, $artist_id);
+            $alias = ag_handoff_aliases()[ag_handoff_key($slug, $song)] ?? null;
+            if ($alias) {
+                $canonical = array_column($packs['caleb-hearn']['songs'], null, 'slug')['little-bit-better'];
+                ag_handoff_assert($id === ag_handoff_find('caleb-hearn', $canonical, ag_handoff_find('caleb-hearn')), 'ROSIE must reuse the established duet page.');
+                ag_handoff_assert(get_post_meta($id, '_ag_handoff_record', true) === $canonical && ag_meta('spotify', $id) === $canonical['spotify_url'], 'Thin incoming duet metadata and alternate URL must not overwrite stronger canonical research.');
+                ag_handoff_assert(get_post_meta($artist_id, '_ag_handoff_alias_records', true)[ag_handoff_key($slug, $song)]['record'] === $song, 'The full incoming shared-selection record must survive under its own artist scope.');
+                continue;
+            }
             ag_handoff_assert($id && ag_meta('artist_id', $id) === (string)$artist_id, 'Every track must link to its artist.');
             ag_handoff_assert(ag_meta('spotify', $id) === (string)($song['spotify_url'] ?? ''), 'Official recording URL or deliberate null must be mapped.');
             ag_handoff_assert(ag_meta('demo', $id) === '1' && get_post_status($id) === 'publish', 'Preview pages must keep noindex review status.');
             ag_handoff_assert(ag_meta('credits', $id) === implode(', ', $song['artist_credits']), 'Collaborator credits must be retained.');
-            if ($pack['research_date'] === '2026-10-29') {
+            if ($pack['research_date'] >= '2026-10-29') {
                 ag_handoff_assert(get_post_meta($id, '_ag_handoff_record', true) === $song, 'Raw research, nulls, date context, and source references must survive.');
                 ag_handoff_assert(get_post_meta($id, '_ag_source_scope', true) === $slug && get_post_meta($id, '_ag_source_registry', true) === $pack['sources'], 'Source registries must be artist-scoped, never merged by bare source ID.');
                 if ($song['spotify_url'] === null) {
                     ag_handoff_assert(ag_spotify_embed_url($id) === '', 'Missing track URLs must not acquire an embed.');
                     ob_start(); ag_listen($id); $listen = ob_get_clean();
-                    ag_handoff_assert(str_contains($listen, $pack['artist']['spotify_url']) && str_contains($listen, 'Explore artist on Spotify'), 'Missing track must link to its verified artist profile.');
+                    ag_handoff_assert($pack['artist']['spotify_url'] ? (str_contains($listen, $pack['artist']['spotify_url']) && str_contains($listen, 'Explore artist on Spotify')) : (str_contains($listen, 'https://open.spotify.com/search/') && str_contains($listen, 'Find on Spotify')), 'Missing track must offer a verified artist or honestly labeled search.');
                 }
             }
         }
@@ -61,10 +73,21 @@ try {
     $again = ag_apply_handoffs(true);
     ag_handoff_assert(!$again['created'] && !$again['preserved'] && count($again['updated']) === $expected, 'Repeat imports must be safe and duplicate-free.');
     $old_states = [];
-    foreach ($packs as $slug => $p) { if ($p['research_date'] === '2026-10-29') { continue; } $a = ag_handoff_find($slug); $old_states[$a] = ag_handoff_state($a); foreach ($p['songs'] as $s) { $sid = ag_handoff_find($slug, $s, $a); $old_states[$sid] = ag_handoff_state($sid); } }
-    $scoped = ag_apply_handoffs(true, array_keys(ag_handoff_collection_packs('2026-10-29')));
-    ag_handoff_assert(count($scoped['updated']) === 110 && !$scoped['created'] && !$scoped['preserved'], 'Scoped reimport must touch only the 110 new records.');
+    foreach ($packs as $slug => $p) { if ($p['research_date'] >= '2026-10-30') { continue; } $a = ag_handoff_find($slug); $old_states[$a] = ag_handoff_state($a); foreach ($p['songs'] as $s) { $sid = ag_handoff_find($slug, $s, $a); $old_states[$sid] = ag_handoff_state($sid); } }
+    $scoped = ag_apply_handoffs(true, array_keys(ag_handoff_collection_packs('batch5-7')));
+    ag_handoff_assert(count($scoped['updated']) === 362 && !$scoped['created'] && !$scoped['preserved'] && count($scoped['shared']) === 1, 'Scoped reimport must touch only 362 new posts and reuse one original shared song.');
     foreach ($old_states as $sid => $state) { ag_handoff_assert(ag_handoff_state($sid) === $state, 'Scoped import must preserve each previous record.'); }
+    $shared = array_column($packs['caleb-hearn']['songs'], null, 'slug')['little-bit-better'];
+    $shared_id = ag_handoff_find('caleb-hearn', $shared, ag_handoff_find('caleb-hearn')); $shared_body = get_post($shared_id)->post_content;
+    wp_update_post(['ID' => $shared_id, 'post_content' => 'Owner-edited duet notes that must survive the ROSIE selection.']);
+    $protected_shared = ag_apply_handoffs(true, array_keys(ag_handoff_collection_packs('batch5-7')));
+    ag_handoff_assert(count($protected_shared['shared']) === 1 && get_post($shared_id)->post_content === 'Owner-edited duet notes that must survive the ROSIE selection.', 'A shared selection must preserve owner edits to the canonical page.');
+    ag_handoff_assert(ag_meta('spotify', $shared_id) === $shared['spotify_url'], 'An alternate shared recording reference must not replace the owner’s established player.');
+    wp_update_post(['ID' => $shared_id, 'post_content' => wp_slash($shared_body)]);
+    ag_handoff_assert(ag_meta('research_status', ag_handoff_find('rosie')) === 'research_starter_not_publication_ready' && ag_handoff_find('rosie') !== ag_handoff_find('rosie-darling'), 'ROSIE must remain distinct and visibly a research starter.');
+    ag_handoff_assert(ag_meta('research_status', ag_handoff_find('gracie-abrams')) === 'research_starter_not_publication_ready', 'Batch 7 status must not be mistaken for publication-ready research.');
+    ag_handoff_assert($packs['andi']['artist']['spotify_url'] === 'https://open.spotify.com/artist/7fEXIS5LgSLbCdzTePqe0V', 'Andi identity must stay tied to the supplied performer.');
+    ag_handoff_assert(str_contains(wp_json_encode($packs['avery-lynch']['sources']), '1511107715') && !str_contains(wp_json_encode($packs['avery-lynch']['sources']), '1822693624'), 'Avery Lynch must not adopt the unrelated Apple Music identity.');
     $loote = ag_handoff_find('loote'); $loote_songs = array_column($packs['loote']['songs'], null, 'slug');
     $review = ag_handoff_find('loote', $loote_songs['85'], $loote);
     ag_handoff_assert(ag_meta('artist_comment', $review) === '' && ag_meta('meaning_type', $review) === 'editorial', 'A reviewer interpretation without artist-statement sources must remain withheld.');

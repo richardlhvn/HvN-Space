@@ -1,0 +1,571 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-30",
+  "selection": {
+    "type": "curated",
+    "description": "Ten editorially curated catalogue-backed starter tracks; no popularity ranking asserted.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-001"
+    ],
+    "limitations": [
+      "Not a Spotify Popular ranking.",
+      "Many track-specific Spotify URLs and earliest release dates remain unverified."
+    ]
+  },
+  "artist": {
+    "slug": "zoe-wees",
+    "name": "Zoe Wees",
+    "full_name": null,
+    "country": "Germany",
+    "place_of_origin": "Hamburg, Germany",
+    "short_description": "Zoe Wees: an Afterglow editorial discovery candidate in pop.",
+    "biography": "Zoe Wees is a German singer from Hamburg whose pop songs often feature strong, emotive vocals and elements of contemporary R&B and soul. AllMusic identifies “Control” as an early breakthrough and discusses the releases Golden Wings and Therapy. Her Apple Music catalogue includes “Girls Like Us,” “Hold Me Like You Used To,” “Lightning,” and later singles released in 2025. Her music offers a different vocal texture within Afterglow: the connection is emotional subject matter, but the presentation is often bigger and more dramatic than the softer indie-pop work represented by Sara Kays or Rosie Darling. Several popular appearances are collaborations, including “Learn To Love” with Dean Lewis and “That’s How It Goes” featuring 6LACK. The specific credits must be maintained in any WordPress song record, and exact recording identities should be checked before creating Spotify embeds. Her songs can support collections about vulnerability and emotional resilience, but Afterglow should only attribute an individual song’s precise inspiration to her when an original source documents it.",
+    "spotify_url": "https://open.spotify.com/artist/03d2mJXSMtuPI0nIvLnhoS",
+    "official_website": null,
+    "social_profiles": [],
+    "genres": [
+      "pop",
+      "soul-influenced pop"
+    ],
+    "moods": [
+      "intense",
+      "resilient"
+    ],
+    "career_milestones": [],
+    "similar_artists": [
+      {
+        "name": "Sasha Alex Sloan",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Victoria Nadine",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Natalie Jane",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "name",
+        "claim": "Zoe Wees is the identified performing artist.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "The biography is an original synopsis of the career and releases described in the cited artist/catalogue references.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "country",
+        "claim": "Artist is associated with Germany.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "place_of_origin",
+        "claim": "Artist is associated with Hamburg, Germany.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Verified Spotify artist identity; URL is not a track URL.",
+        "source_ids": [
+          "src-002"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No verified commercial reuse license for a standalone artist photograph.",
+      "Legal/expanded full name not independently verified; null retained.",
+      "This is a research starter; all song-level gaps should be reviewed before publication."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "control",
+      "title": "Control",
+      "artist_slug": "zoe-wees",
+      "artist_credits": [
+        "Zoe Wees"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/50Td3qilgs8BLtv8mHyT1t",
+      "release_date": "2020-03-13",
+      "release_date_precision": "day",
+      "release_date_context": "Original standalone single edition",
+      "release_title": "Control",
+      "release_type": "single",
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Exact track-level Spotify URL confirmed for this song and performer(s).",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Release date for the documented edition/context, not generalized across all reissues.",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "ghost",
+      "title": "Ghost",
+      "artist_slug": "zoe-wees",
+      "artist_credits": [
+        "Zoe Wees"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "girls-like-us",
+      "title": "Girls Like Us",
+      "artist_slug": "zoe-wees",
+      "artist_credits": [
+        "Zoe Wees"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "lightning",
+      "title": "Lightning",
+      "artist_slug": "zoe-wees",
+      "artist_credits": [
+        "Zoe Wees"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "learn-to-love",
+      "title": "Learn To Love",
+      "artist_slug": "zoe-wees",
+      "artist_credits": [
+        "Zoe Wees",
+        "Dean Lewis"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "that-s-how-it-goes-feat-6lack",
+      "title": "That's How It Goes (feat. 6LACK)",
+      "artist_slug": "zoe-wees",
+      "artist_credits": [
+        "Zoe Wees",
+        "6LACK"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "hold-me-like-you-used-to",
+      "title": "Hold Me Like You Used To",
+      "artist_slug": "zoe-wees",
+      "artist_credits": [
+        "Zoe Wees"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "daddy-s-eyes",
+      "title": "Daddy's Eyes",
+      "artist_slug": "zoe-wees",
+      "artist_credits": [
+        "Zoe Wees"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "dead-to-me",
+      "title": "Dead To Me",
+      "artist_slug": "zoe-wees",
+      "artist_credits": [
+        "Zoe Wees"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "mountains",
+      "title": "Mountains",
+      "artist_slug": "zoe-wees",
+      "artist_credits": [
+        "Zoe Wees"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://music.apple.com/us/artist/zoe-wees/1470589518",
+      "title": "Zoe Wees — Apple Music",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Displays identified artist or recording titles, with some release information and performer credits."
+    },
+    {
+      "id": "src-002",
+      "url": "https://open.spotify.com/embed/artist/03d2mJXSMtuPI0nIvLnhoS",
+      "title": "Zoe Wees — top tracks",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Displays identified artist or recording titles, with some release information and performer credits."
+    },
+    {
+      "id": "src-003",
+      "url": "https://www.allmusic.com/artist/zoe-wees-mn0003883484",
+      "title": "Zoe Wees biography",
+      "publisher": "AllMusic",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "music_reference",
+      "access_status": "read",
+      "evidence_summary": "Publisher profile or release announcement supporting identified artist and related repertoire."
+    },
+    {
+      "id": "src-004",
+      "url": "https://open.spotify.com/track/50Td3qilgs8BLtv8mHyT1t",
+      "title": "Control — original single recording",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Displays identified artist or recording titles, with some release information and performer credits."
+    },
+    {
+      "id": "src-005",
+      "url": "https://open.spotify.com/track/50Td3qilgs8BLtv8mHyT1t",
+      "title": "Control — original 2020 single track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Evidence for artist identification, song catalogue or cited statements in the linked source; refer to individual claim associations."
+    }
+  ],
+  "outstanding_research": [
+    "Verify missing exact Spotify track URLs and original release edition dates.",
+    "Seek song-specific first-person interview explanations and verify precise inspirations.",
+    "Complete biography fact-check, verified social profiles and commercial-use image rights."
+  ]
+}

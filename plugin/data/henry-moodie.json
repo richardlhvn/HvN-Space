@@ -1,0 +1,591 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-30",
+  "selection": {
+    "type": "curated",
+    "description": "Ten editorially curated catalogue-backed starter tracks; no popularity ranking asserted.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-001"
+    ],
+    "limitations": [
+      "Not a Spotify Popular ranking.",
+      "Many track-specific Spotify URLs and earliest release dates remain unverified."
+    ]
+  },
+  "artist": {
+    "slug": "henry-moodie",
+    "name": "Henry Moodie",
+    "full_name": null,
+    "country": "United Kingdom",
+    "place_of_origin": null,
+    "short_description": "Henry Moodie: an Afterglow editorial discovery candidate in pop.",
+    "biography": "Henry Moodie is a British pop singer-songwriter known for intimate, diary-like relationship songs and emotionally direct ballads. His breakout catalogue includes “you were there for me,” “drunk text,” “pick up the phone,” and “closure,” with later projects including good old days and mood swings. In interviews with GEM and EUPHORIA, Moodie discussed the writing process behind “drunk text” and explained that the song deals with feelings for a person who did not know he wanted to be more than friends. He has separately described “you were there for me” as a song about his best friend, and “eighteen” as a reflection on an uncertain stage of early adulthood. These are unusually useful firsthand references for Afterglow’s song-storytelling feature. His tracks can connect listeners of Etham and Alex Sampson to more piano-led emotional-pop material. Editorial mood tags can help visitors find his songs, but interpretations should never be substituted for his own confirmed explanations.",
+    "spotify_url": "https://open.spotify.com/artist/7hr9W3IjXcm3UlLY7guLk5",
+    "official_website": null,
+    "social_profiles": [],
+    "genres": [
+      "pop",
+      "singer-songwriter",
+      "piano pop"
+    ],
+    "moods": [
+      "longing",
+      "hopeful",
+      "reflective"
+    ],
+    "career_milestones": [],
+    "similar_artists": [
+      {
+        "name": "Etham",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Alex Sampson",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Anson Seabra",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "name",
+        "claim": "Henry Moodie is the identified performing artist.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "The biography is an original synopsis of the career and releases described in the cited artist/catalogue references.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "country",
+        "claim": "Artist is associated with United Kingdom.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Verified Spotify artist identity; URL is not a track URL.",
+        "source_ids": [
+          "src-002"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No verified commercial reuse license for a standalone artist photograph.",
+      "Legal/expanded full name not independently verified; null retained.",
+      "This is a research starter; all song-level gaps should be reviewed before publication."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "drunk-text",
+      "title": "drunk text",
+      "artist_slug": "henry-moodie",
+      "artist_credits": [
+        "Henry Moodie"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6EIMUjQ7Q8Zr2VtIUik4He",
+      "release_date": "2023-01-26",
+      "release_date_precision": "day",
+      "release_date_context": "Original 2023 Spotify single edition",
+      "release_title": "drunk text",
+      "release_type": "single",
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": "Henry described a crush he was unwilling to confess and a message he nearly sent but deleted.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Exact track-level Spotify URL confirmed for this song and performer(s).",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Release date for the documented edition/context, not generalized across all reissues.",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Henry described a crush he was unwilling to confess and a message he nearly sent but deleted.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "pick-up-the-phone",
+      "title": "pick up the phone",
+      "artist_slug": "henry-moodie",
+      "artist_credits": [
+        "Henry Moodie"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "right-person-wrong-time",
+      "title": "right person, wrong time",
+      "artist_slug": "henry-moodie",
+      "artist_credits": [
+        "Henry Moodie"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "you-were-there-for-me",
+      "title": "you were there for me",
+      "artist_slug": "henry-moodie",
+      "artist_credits": [
+        "Henry Moodie"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": "Henry explained that he wrote this song about his best friend.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Henry explained that he wrote this song about his best friend.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "ten-years-time",
+      "title": "ten years time",
+      "artist_slug": "henry-moodie",
+      "artist_credits": [
+        "Henry Moodie"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "closure",
+      "title": "closure",
+      "artist_slug": "henry-moodie",
+      "artist_credits": [
+        "Henry Moodie"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "indigo",
+      "title": "indigo",
+      "artist_slug": "henry-moodie",
+      "artist_credits": [
+        "Henry Moodie"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "miss-u",
+      "title": "MISS U",
+      "artist_slug": "henry-moodie",
+      "artist_credits": [
+        "Henry Moodie"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "eighteen",
+      "title": "eighteen",
+      "artist_slug": "henry-moodie",
+      "artist_credits": [
+        "Henry Moodie"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "mood-swings",
+      "title": "mood swings",
+      "artist_slug": "henry-moodie",
+      "artist_credits": [
+        "Henry Moodie"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://music.apple.com/us/artist/henry-moodie/1632006177",
+      "title": "Henry Moodie — Apple Music",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Displays identified artist or recording titles, with some release information and performer credits."
+    },
+    {
+      "id": "src-002",
+      "url": "https://open.spotify.com/embed/artist/7hr9W3IjXcm3UlLY7guLk5",
+      "title": "Henry Moodie — top tracks",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Displays identified artist or recording titles, with some release information and performer credits."
+    },
+    {
+      "id": "src-003",
+      "url": "https://read-gem.com/2023/10/27/interview-with-henry-moodie/",
+      "title": "Henry Moodie interview",
+      "publisher": "GEM Magazine",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Contains direct artist answers about songs or creative experiences; consult statement-specific claim links."
+    },
+    {
+      "id": "src-004",
+      "url": "https://www.euphoriazine.com/blog/2023/04/introducing-introducing-henry-moodie/",
+      "title": "Introducing Henry Moodie",
+      "publisher": "EUPHORIA",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Contains direct artist answers about songs or creative experiences; consult statement-specific claim links."
+    },
+    {
+      "id": "src-005",
+      "url": "https://open.spotify.com/album/0lcfkucXPJH7zGSHbUXUjZ",
+      "title": "drunk text — official Spotify single",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Displays identified artist or recording titles, with some release information and performer credits."
+    },
+    {
+      "id": "src-006",
+      "url": "https://open.spotify.com/embed/track/6EIMUjQ7Q8Zr2VtIUik4He?theme=0",
+      "title": "drunk text - official Spotify track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Evidence for artist identification, song catalogue or cited statements in the linked source; refer to individual claim associations."
+    }
+  ],
+  "outstanding_research": [
+    "Verify missing exact Spotify track URLs and original release edition dates.",
+    "Seek song-specific first-person interview explanations and verify precise inspirations.",
+    "Complete biography fact-check, verified social profiles and commercial-use image rights."
+  ]
+}

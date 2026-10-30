@@ -19,7 +19,7 @@
     },
     {
       "id": "batch3",
-      "label": "Batch 3 \u2014 29 October 2026",
+      "label": "Batch 3 — 29 October 2026",
       "slugs": [
         "sadie-jean",
         "lyn-lapid",
@@ -30,7 +30,7 @@
     },
     {
       "id": "batch4",
-      "label": "Batch 4 \u2014 29 October 2026",
+      "label": "Batch 4 — 29 October 2026",
       "slugs": [
         "hanniou",
         "loote",
@@ -38,6 +38,77 @@
         "neriah",
         "fly-by-midnight"
       ]
+    },
+    {
+      "id": "batch5",
+      "label": "Batch 5 — 2026-10-30",
+      "status": "research_draft_pending_review",
+      "slugs": [
+        "jessica-baio",
+        "alex-sampson",
+        "cole-norton",
+        "etham",
+        "avery-lynch",
+        "katelyn-tarver",
+        "sody",
+        "emily-james",
+        "victoria-nadine",
+        "andi"
+      ]
+    },
+    {
+      "id": "batch6",
+      "label": "Batch 6 — 2026-10-30",
+      "status": "research_starter_not_publication_ready",
+      "slugs": [
+        "rosie",
+        "nina-nesbitt",
+        "henry-moodie",
+        "jamie-miller",
+        "natalie-jane",
+        "zoe-wees",
+        "leanna-firestone",
+        "jillian-rossi",
+        "sarah-barrios",
+        "lauren-aquilina"
+      ]
+    },
+    {
+      "id": "batch7",
+      "label": "Batch 7 — 2026-10-31",
+      "status": "research_starter_not_publication_ready",
+      "slugs": [
+        "gracie-abrams",
+        "lizzy-mcalpine",
+        "maisie-peters",
+        "holly-humberstone",
+        "ashley-kutcher",
+        "vaultboy",
+        "dylan-conrique",
+        "cian-ducrot",
+        "dean-lewis",
+        "em-beihold",
+        "frawley",
+        "fletcher",
+        "gabrielle-aplin"
+      ]
     }
-  ]
+  ],
+  "collections": [
+    {
+      "id": "batch5-7",
+      "label": "Final artist intake — batches 5–7 (33 artists)",
+      "batch_ids": [
+        "batch5",
+        "batch6",
+        "batch7"
+      ]
+    }
+  ],
+  "default_collection": "batch5-7",
+  "artist_intake": {
+    "status": "paused",
+    "artist_count": 53,
+    "note": "Owner paused artist additions after batches 5–7; focus on verification and completion."
+  }
 }

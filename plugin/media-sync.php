@@ -116,12 +116,13 @@ function ag_sync_media($dry_run = true) {
 function ag_sync_media_run($dry_run = true) {
     if (!current_user_can('manage_options')) { return new WP_Error('forbidden', 'Administrator access is required.'); }
     $manifest = ag_media_manifest(); $packs = ag_handoff_packs(); $reviews = ag_media_reviews();
-    $report = ['dry_run' => $dry_run, 'matched' => 0, 'missing' => [], 'preserved' => [], 'record_metadata_updates' => 0, 'source_registry_updates' => 0, 'embed_updates' => 0, 'photos_imported' => [], 'photos_reused' => [], 'photos_ready' => [], 'photos_pending' => [], 'placeholders' => [], 'credits_page' => 'unchanged'];
+    $report = ['dry_run' => $dry_run, 'matched' => 0, 'shared_selections' => [], 'missing' => [], 'preserved' => [], 'record_metadata_updates' => 0, 'source_registry_updates' => 0, 'embed_updates' => 0, 'photos_imported' => [], 'photos_reused' => [], 'photos_ready' => [], 'photos_pending' => [], 'placeholders' => [], 'credits_page' => 'unchanged'];
     foreach ($packs as $slug => $pack) {
         $artist = ag_handoff_find($slug);
         $records = [['record' => $pack['artist'], 'id' => $artist, 'key' => $slug . '/profile']];
         foreach ($pack['songs'] as $song) { $records[] = ['record' => $song, 'id' => ag_handoff_find($slug, $song, $artist), 'key' => $slug . '/' . $song['slug']]; }
         foreach ($records as $row) {
+            if (isset(ag_handoff_aliases()[$row['key']])) { $report['shared_selections'][] = $row['key']; continue; }
             $id = $row['id']; if (!$id) { $report['missing'][] = $row['key']; continue; } $report['matched']++;
             if (!ag_handoff_can_update($id, $row['key'])) { $report['preserved'][] = $row['key']; continue; }
             if (get_post_meta($id, '_ag_handoff_record', true) !== $row['record']) {
@@ -172,7 +173,7 @@ add_action('admin_menu', function () { add_submenu_page('edit.php?post_type=arti
 function ag_media_page() {
     if (!current_user_can('manage_options')) { return; }
     $report = ag_sync_media(true); if (is_wp_error($report)) { return; }
-    echo '<div class="wrap"><h1>Media and embeds</h1><p>Dry run: ' . esc_html($report['matched']) . ' existing records matched; ' . count($report['missing']) . ' missing; ' . count($report['preserved']) . ' edited records preserved. ' . esc_html($report['embed_updates']) . ' embed mappings and ' . esc_html($report['record_metadata_updates']) . ' supplied-record metadata updates planned.</p><p>Sync does not replace biographies, publish research drafts, download covers, or approve candidate photographs. ' . count($report['placeholders']) . ' artists retain placeholders pending separately verified photo permissions. Missing track links do not produce embeds.</p><table class="widefat striped"><thead><tr><th>Artist</th><th>Permission status</th><th>Candidate license</th></tr></thead><tbody>';
+    echo '<div class="wrap"><h1>Media and embeds</h1><p>Dry run: ' . esc_html($report['matched']) . ' existing records matched; ' . count($report['missing']) . ' missing; ' . count($report['preserved']) . ' edited records preserved. Shared selections reused: ' . count($report['shared_selections']) . '. ' . esc_html($report['embed_updates']) . ' embed mappings and ' . esc_html($report['record_metadata_updates']) . ' supplied-record metadata updates planned.</p><p>Sync does not replace biographies, publish research drafts, download covers, or approve candidate photographs. ' . count($report['placeholders']) . ' artists retain placeholders pending separately verified photo permissions. Missing track links do not produce embeds.</p><table class="widefat striped"><thead><tr><th>Artist</th><th>Permission status</th><th>Candidate license</th></tr></thead><tbody>';
     $reviews = ag_media_reviews();
     $status_labels = ['live_verified' => 'Live copyright license verified', 'pending_live_verification' => 'Live source review pending', 'placeholder_permission_unresolved' => 'Permission unresolved — keep placeholder'];
     $candidates = array_column(ag_media_manifest()['artists'], null, 'artist_slug');

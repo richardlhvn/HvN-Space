@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Afterglow Core
  * Description: Artist and song records, curated relationships, and source-aware editorial fields.
- * Version: 0.7.0
+ * Version: 0.8.0
  * Requires at least: 6.6
  * Requires PHP: 8.1
  * License: GPL-2.0-or-later

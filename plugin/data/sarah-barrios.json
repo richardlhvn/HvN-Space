@@ -1,0 +1,579 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-30",
+  "selection": {
+    "type": "curated",
+    "description": "Ten editorially curated catalogue-backed starter tracks; no popularity ranking asserted.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-004"
+    ],
+    "limitations": [
+      "Not a Spotify Popular ranking.",
+      "Many track-specific Spotify URLs and earliest release dates remain unverified."
+    ]
+  },
+  "artist": {
+    "slug": "sarah-barrios",
+    "name": "Sarah Barrios",
+    "full_name": null,
+    "country": "United States",
+    "place_of_origin": null,
+    "short_description": "Sarah Barrios: an Afterglow editorial discovery candidate in pop.",
+    "biography": "Sarah Barrios is an American singer-songwriter associated with melodic pop and direct storytelling. Her catalogue includes “Have We Met Before,” a 2021 release with Eric Nam, and “Thank God You Introduced Me to Your Sister,” released later that year. Apple Music provides release-level confirmation for both songs, while Spotify and other catalogue listings document additional tracks such as “I H8 EVERY1,” “Make Me Your Villain,” and “Mourn The Living.” Her work is useful to Afterglow because it bridges softer singer-songwriter writing and brighter, hook-driven pop. She can be recommended alongside Chelsea Cutler or Loote as an editorial similarity, but that relationship is not a verified collaboration. Because this is a research starter rather than a completed publication profile, some background details and firsthand song explanations still require stronger evidence. In particular, a song title or a general artist biography is not sufficient proof of the specific experiences that inspired the track. Those fields are deliberately left unfilled until original interviews or artist commentary can be located.",
+    "spotify_url": "https://open.spotify.com/artist/0HJsX1aTdgG1VDIRDiseSJ",
+    "official_website": null,
+    "social_profiles": [],
+    "genres": [
+      "pop",
+      "indie pop"
+    ],
+    "moods": [
+      "romantic",
+      "reflective"
+    ],
+    "career_milestones": [],
+    "similar_artists": [
+      {
+        "name": "Chelsea Cutler",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Loote",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Alexander 23",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "name",
+        "claim": "Sarah Barrios is the identified performing artist.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "The biography is an original synopsis of the career and releases described in the cited artist/catalogue references.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "country",
+        "claim": "Artist is associated with United States.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Verified Spotify artist identity; URL is not a track URL.",
+        "source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No verified commercial reuse license for a standalone artist photograph.",
+      "Legal/expanded full name not independently verified; null retained.",
+      "This is a research starter; all song-level gaps should be reviewed before publication."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "have-we-met-before-with-eric-nam",
+      "title": "Have We Met Before (with Eric Nam)",
+      "artist_slug": "sarah-barrios",
+      "artist_credits": [
+        "Sarah Barrios",
+        "Eric Nam"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/7eCpXVlWnTVEE8twb3P8m5",
+      "release_date": "2021-04-30",
+      "release_date_precision": "day",
+      "release_date_context": "Original standalone single edition",
+      "release_title": "Have We Met Before (with Eric Nam)",
+      "release_type": "single",
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Exact track-level Spotify URL confirmed for this song and performer(s).",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Release date for the documented edition/context, not generalized across all reissues.",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "thank-god-you-introduced-me-to-your-sister",
+      "title": "Thank God You Introduced Me to Your Sister",
+      "artist_slug": "sarah-barrios",
+      "artist_credits": [
+        "Sarah Barrios"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2021-07-23",
+      "release_date_precision": "day",
+      "release_date_context": "Original standalone single edition",
+      "release_title": "Thank God You Introduced Me to Your Sister",
+      "release_type": "single",
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Release date for the documented edition/context, not generalized across all reissues.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified."
+      ]
+    },
+    {
+      "slug": "ih8every1",
+      "title": "IH8EVERY1",
+      "artist_slug": "sarah-barrios",
+      "artist_credits": [
+        "Sarah Barrios"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "she-s-so-cool",
+      "title": "She's So Cool",
+      "artist_slug": "sarah-barrios",
+      "artist_credits": [
+        "Sarah Barrios"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "teenage-rebellion",
+      "title": "Teenage Rebellion",
+      "artist_slug": "sarah-barrios",
+      "artist_credits": [
+        "Sarah Barrios"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "all-my-sins-feat-syd-hartha",
+      "title": "All My Sins (feat. syd hartha)",
+      "artist_slug": "sarah-barrios",
+      "artist_credits": [
+        "Sarah Barrios",
+        "syd hartha"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "make-me-your-villain",
+      "title": "Make Me Your Villain",
+      "artist_slug": "sarah-barrios",
+      "artist_credits": [
+        "Sarah Barrios"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "mourn-the-living",
+      "title": "Mourn The Living",
+      "artist_slug": "sarah-barrios",
+      "artist_credits": [
+        "Sarah Barrios"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "we-don-t-have-to-die",
+      "title": "We Don't Have To Die",
+      "artist_slug": "sarah-barrios",
+      "artist_credits": [
+        "Sarah Barrios"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "healing-in-a-parking-lot",
+      "title": "Healing in a Parking Lot",
+      "artist_slug": "sarah-barrios",
+      "artist_credits": [
+        "Sarah Barrios"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://open.spotify.com/intl-de/artist/0HJsX1aTdgG1VDIRDiseSJ",
+      "title": "Sarah Barrios — Spotify",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Displays identified artist or recording titles, with some release information and performer credits."
+    },
+    {
+      "id": "src-002",
+      "url": "https://music.apple.com/us/song/1563302138",
+      "title": "Have We Met Before — Apple Music",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Displays identified artist or recording titles, with some release information and performer credits."
+    },
+    {
+      "id": "src-003",
+      "url": "https://music.apple.com/us/album/thank-god-you-introduced-me-to-your-sister-single/1575593047",
+      "title": "Thank God You Introduced Me to Your Sister — Apple Music",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Displays identified artist or recording titles, with some release information and performer credits."
+    },
+    {
+      "id": "src-004",
+      "url": "https://volt.fm/artist/41797/sarah-barrios",
+      "title": "Sarah Barrios song catalogue",
+      "publisher": "volt.fm",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "catalogue_aggregator",
+      "access_status": "read",
+      "evidence_summary": "Publisher profile or release announcement supporting identified artist and related repertoire."
+    },
+    {
+      "id": "src-005",
+      "url": "https://open.spotify.com/track/7eCpXVlWnTVEE8twb3P8m5",
+      "title": "Have We Met Before — original track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Displays identified artist or recording titles, with some release information and performer credits."
+    },
+    {
+      "id": "src-006",
+      "url": "https://open.spotify.com/track/7eCpXVlWnTVEE8twb3P8m5",
+      "title": "Have We Met Before — official track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Evidence for artist identification, song catalogue or cited statements in the linked source; refer to individual claim associations."
+    }
+  ],
+  "outstanding_research": [
+    "Verify missing exact Spotify track URLs and original release edition dates.",
+    "Seek song-specific first-person interview explanations and verify precise inspirations.",
+    "Complete biography fact-check, verified social profiles and commercial-use image rights."
+  ]
+}

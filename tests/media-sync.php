@@ -6,8 +6,9 @@ function ag_media_assert($ok, $message) { if (!$ok) { throw new RuntimeException
 try {
     wp_set_current_user(0); ag_media_assert(is_wp_error(ag_sync_media()), 'Anonymous sync must be forbidden.');
     wp_set_current_user(get_user_by('login', 'editor')->ID);
-    $packs = ag_handoff_packs(); $expected = array_sum(array_map(function ($p) { return 1 + count($p['songs']); }, $packs));
-    $expected_embeds = array_sum(array_map(function ($p) { return count(array_filter($p['songs'], function ($s) { return (bool)$s['spotify_url']; })); }, $packs));
+    $packs = ag_handoff_packs(); $expected = array_sum(array_map(function ($p) { return 1 + count($p['songs']); }, $packs)) - count(ag_handoff_aliases());
+    $expected_embeds = 0;
+    foreach ($packs as $slug => $pack) { foreach ($pack['songs'] as $song) { if ($song['spotify_url'] && !isset(ag_handoff_aliases()[ag_handoff_key($slug, $song)])) { $expected_embeds++; } } }
     // Exercise the blocked/unverified state independently of the live review register.
     add_filter('ag_media_reviews', function ($reviews) { foreach ($reviews as &$r) { $r['status'] = 'pending_live_verification'; } return $reviews; });
     ag_media_assert(is_wp_error(ag_sync_media(false)), 'Missing catalog must prevent writes.');
@@ -16,9 +17,11 @@ try {
     $dry = ag_sync_media(true);
     ag_media_assert($dry['matched'] === $expected && !$dry['missing'], 'Dry run must match all registered records.');
     ag_media_assert($before === $wpdb->get_var("SELECT COUNT(*) FROM {$wpdb->posts}"), 'Dry run must not create records.');
-    ag_media_assert(count($dry['photos_pending']) === 6 && count($dry['placeholders']) === 14, 'Original photo gates and all fourteen placeholders must remain protected.');
-    ag_media_assert($dry['embed_updates'] === $expected_embeds && $expected_embeds === 142, 'Only exact verified recording mappings may be planned.');
+    ag_media_assert(count($dry['photos_pending']) === 6 && count($dry['placeholders']) === 47, 'Original photo gates and all forty-seven placeholders must remain protected.');
+    ag_media_assert($dry['embed_updates'] === $expected_embeds && $expected_embeds === 174 && count($dry['shared_selections']) === 1, 'Exact canonical players must be mapped once, keeping alternate selection references separate.');
     $apply = ag_sync_media(false);
+    $shared_id = ag_handoff_find('rosie', array_column($packs['rosie']['songs'], null, 'slug')['little-bit-better']);
+    ag_media_assert(get_post_meta($shared_id, '_ag_handoff_record', true) === array_column($packs['caleb-hearn']['songs'], null, 'slug')['little-bit-better'], 'Media sync must not overwrite the shared canonical record with a thinner alias.');
     ag_media_assert(!is_wp_error($apply) && !$apply['photos_imported'], 'Unverified photos must never be imported.');
     ag_media_assert((int)$wpdb->get_var("SELECT COUNT(*) FROM {$wpdb->posts} WHERE post_type='attachment'") === 0, 'No artist binaries may be uploaded without verification.');
     foreach (ag_handoff_packs() as $slug => $pack) {

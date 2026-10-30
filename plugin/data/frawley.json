@@ -1,0 +1,605 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-31",
+  "selection": {
+    "type": "curated",
+    "description": "Ten editorially curated catalogue-backed starter tracks; not a Spotify Popular ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-001"
+    ],
+    "limitations": [
+      "No Spotify Popular ranking asserted.",
+      "Unverified original release dates and Spotify recording URLs remain null.",
+      "Some catalogue and collaboration credits require editorial review."
+    ]
+  },
+  "artist": {
+    "slug": "frawley",
+    "name": "Frawley",
+    "full_name": "Lauren Elisabeth Frawley",
+    "country": "United States",
+    "place_of_origin": "New Jersey",
+    "short_description": "Frawley is an Afterglow discovery artist in the broader emotional-pop and songwriter catalogue.",
+    "biography": "Frawley is an American pop singer-songwriter who first attracted attention for her online covers as a teenager before building a catalogue of original recordings. Her early release 'Hard Boy' was followed by more emotionally candid songs such as 'No One Can Fix Me,' 'If I Don't Laugh, I'll Cry' and 'Crying My Eyes Out.' In interviews, she has discussed writing for other performers as well as her solo work and wanting listeners to feel understood rather than isolated by experiences of heartbreak. She described 'Crying My Eyes Out' as a change in approach: compared with earlier production-heavy songs, she wanted her writing and vocal performance to take the foreground. 'Figure You Out' offers a contrasting, more energetic pop direction. She has also co-written songs in the wider pop industry. For Afterglow she is a natural bridge between Ashley Kutcher, Sody and the more radio-facing side of emotional pop. Her songs are best presented with first-person sources where available; genre, mood and narrative labels for the other selections should be treated as editorial work pending listening or further documentation.",
+    "spotify_url": "https://open.spotify.com/artist/0Ey8TMIVvT6OSYiblEuyMh",
+    "official_website": null,
+    "social_profiles": [],
+    "genres": [
+      "pop",
+      "emotional pop",
+      "singer-songwriter"
+    ],
+    "moods": [
+      "reflective",
+      "vulnerable"
+    ],
+    "career_milestones": [],
+    "similar_artists": [
+      {
+        "name": "Ashley Kutcher",
+        "explanation": "Afterglow editorial similarity, based on neighbouring songwriter-pop audience and themes; not an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Sody",
+        "explanation": "Afterglow editorial similarity, based on neighbouring songwriter-pop audience and themes; not an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Sara Kays",
+        "explanation": "Afterglow editorial similarity, based on neighbouring songwriter-pop audience and themes; not an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "name",
+        "claim": "Frawley is the intended performing artist identity.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Original editorial career synopsis based on these cited sources; verify claim-by-claim before publication.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003",
+          "src-004",
+          "src-005"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Spotify artist identity from matched Spotify / track sources, where available; null means unverified.",
+        "source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "A commercially reusable photograph was not licensed; use abstract artwork.",
+      "Artist biography is a sourced starter draft requiring copy-edit and detailed verification."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "if-i-don-t-laugh-i-ll-cry",
+      "title": "If I Don't Laugh, I'll Cry",
+      "artist_slug": "frawley",
+      "artist_credits": [
+        "Frawley"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "no-one-can-fix-me",
+      "title": "No One Can Fix Me",
+      "artist_slug": "frawley",
+      "artist_credits": [
+        "Frawley"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/4h60jyYhzyG060iYvtaQd1",
+      "release_date": "2021-09-03",
+      "release_date_precision": "day",
+      "release_date_context": "Spotify original single edition",
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001",
+        "src-006"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Specific Spotify track page matched to this song and credited artist.",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Date applies to the exact cited release edition, not necessarily earliest performance.",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "hard-boy",
+      "title": "Hard Boy",
+      "artist_slug": "frawley",
+      "artist_credits": [
+        "Frawley"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "just-like-that",
+      "title": "Just Like That",
+      "artist_slug": "frawley",
+      "artist_credits": [
+        "Frawley"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "austin-s-song",
+      "title": "Austin's Song",
+      "artist_slug": "frawley",
+      "artist_credits": [
+        "Frawley"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "knocking-on-my-heart",
+      "title": "Knocking On My Heart",
+      "artist_slug": "frawley",
+      "artist_credits": [
+        "Frawley"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "crying-my-eyes-out",
+      "title": "Crying My Eyes Out",
+      "artist_slug": "frawley",
+      "artist_credits": [
+        "Frawley"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Song has an attributable artist explanation; do not generalize beyond the documented statement.",
+      "editorial_notes_basis": "catalogue listing and attributable artist statement",
+      "editorial_notes_source_ids": [
+        "src-001",
+        "src-003"
+      ],
+      "artist_statement_paraphrase": "Frawley said the song deliberately emphasizes its lyric and vocal performance over the heavier production of some earlier releases.",
+      "artist_statement_source_ids": [
+        "src-003"
+      ],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "kiss-and-tell",
+      "title": "Kiss and Tell",
+      "artist_slug": "frawley",
+      "artist_credits": [
+        "Frawley"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "figure-you-out",
+      "title": "Figure You Out",
+      "artist_slug": "frawley",
+      "artist_credits": [
+        "Frawley"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Song has an attributable artist explanation; do not generalize beyond the documented statement.",
+      "editorial_notes_basis": "catalogue listing and attributable artist statement",
+      "editorial_notes_source_ids": [
+        "src-001",
+        "src-004"
+      ],
+      "artist_statement_paraphrase": "Frawley discussed the writing and new musical direction of this upbeat but emotionally complicated single.",
+      "artist_statement_source_ids": [
+        "src-004"
+      ],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "i-broke-my-heart-for-the-plot",
+      "title": "I Broke My Heart For The Plot",
+      "artist_slug": "frawley",
+      "artist_credits": [
+        "Frawley"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://www.allmusic.com/artist/frawley-mn0003840640",
+      "title": "Frawley catalogue / artist profile",
+      "publisher": "www.allmusic.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Song titles, associated performer and public discography. For Frawley and Gabrielle Aplin this is AllMusic."
+    },
+    {
+      "id": "src-002",
+      "url": "https://kworb.net/spotify/artist/0Ey8TMIVvT6OSYiblEuyMh_songs.html",
+      "title": "Frawley Spotify catalogue statistics",
+      "publisher": "kworb.net",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Track names and exact artist identity; selection is not a popularity ranking."
+    },
+    {
+      "id": "src-003",
+      "url": "https://www.jadedproductions.org/justjaded/rcdpdm84lx9dyzdzrp5lz4tj67tacb",
+      "title": "Frawley original interview",
+      "publisher": "www.jadedproductions.org",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "artist_interview",
+      "access_status": "read",
+      "evidence_summary": "Explanation of Crying My Eyes Out and career."
+    },
+    {
+      "id": "src-004",
+      "url": "https://thejuiceboxpress.com/exclusive-frawley-chats-figure-you-out/",
+      "title": "Frawley Figure You Out interview",
+      "publisher": "thejuiceboxpress.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "artist_interview",
+      "access_status": "read",
+      "evidence_summary": "Song writing and 2023 creative direction."
+    },
+    {
+      "id": "src-005",
+      "url": "https://open.spotify.com/intl-es/track/4h60jyYhzyG060iYvtaQd1",
+      "title": "Frawley No One Can Fix Me Spotify recording",
+      "publisher": "open.spotify.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Verified original single recording and date."
+    },
+    {
+      "id": "src-006",
+      "url": "https://open.spotify.com/track/4h60jyYhzyG060iYvtaQd1",
+      "title": "Frawley — No One Can Fix Me Spotify track page",
+      "publisher": "open.spotify.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Verified matching artist and recording page; edition and release dates are not assumed from other versions."
+    }
+  ],
+  "outstanding_research": [
+    {
+      "field": "song.spotify_url",
+      "status": "pending"
+    },
+    {
+      "field": "song.release_date",
+      "status": "pending"
+    },
+    {
+      "field": "song.artist_statement_paraphrase",
+      "status": "pending_optional"
+    },
+    {
+      "field": "artist.image",
+      "status": "use_placeholder"
+    }
+  ]
+}

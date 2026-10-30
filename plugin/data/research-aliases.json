@@ -1,0 +1,12 @@
+{
+  "schema_version": "afterglow.aliases.v1",
+  "records": {
+    "rosie/little-bit-better": {
+      "canonical_key": "caleb-hearn/little-bit-better",
+      "reason": "Both packages document the Caleb Hearn / ROSIE duet and the 2024-02-23 single. Reuse the established editorial song page, preserving its richer research and player. The new Spotify ID is retained as an alternate supplied recording reference; identical masters are not asserted.",
+      "canonical_spotify_url": "https://open.spotify.com/track/0GMs3jq70wmCo12pavj4st",
+      "incoming_spotify_url": "https://open.spotify.com/track/7J3ay2nFMDL2rEi3YulAuw",
+      "edition_status": "alternate_recording_identity_requires_review"
+    }
+  }
+}

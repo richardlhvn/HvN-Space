@@ -1,0 +1,753 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-30",
+  "selection": {
+    "type": "curated",
+    "description": "Ten Victoria Nadine recordings selected editorially for Afterglow from catalogues and source-backed release pages; order is not a streaming ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-002"
+    ],
+    "limitations": [
+      "The selections are editorially curated, not an official Spotify Popular top ten or independently audited popularity ranking.",
+      "Any blank Spotify URL must remain null until its precise recording is verified.",
+      "Photo rights were not reviewed; placeholder is mandatory.",
+      "Original release dates versus later editions are not exhaustively established."
+    ]
+  },
+  "artist": {
+    "slug": "victoria-nadine",
+    "name": "Victoria Nadine",
+    "full_name": "Victoria Karlskås Andersen",
+    "country": "Norway",
+    "place_of_origin": "Skien, Norway",
+    "short_description": "Victoria Nadine — an Afterglow editorial selection for listeners exploring Norwegian pop.",
+    "biography": "Victoria Nadine is the professional name of Norwegian pop singer Victoria Karlskås Andersen, from Skien. A Universal Music Norway release biography records her participation in Idol as a teenager and identifies her 2020 single ‘Be Okay’ as a breakthrough. Her later Norwegian chart history includes ‘Nerve’, ‘hope ur miserable’, ‘Summer Rain’ and ‘Saw It Coming’. She has also worked with other performers on records such as ‘Feel This Way’ and ‘Favorite Mistakes’. In 2025, her music reached a wider international audience through ‘Can't Get Enough’, a collaboration with Kygo, alongside singles including ‘Real To Me’ and ‘Cherry’. The official label account of her career is useful evidence for milestones; however, it does not automatically establish an emotional or biographical explanation for each song. Within Afterglow, Nadine can connect listeners who enjoy Astrid S and Clara Mae to a somewhat more upbeat Scandinavian pop sound with relationship-oriented material. That last comparison is editorial rather than an endorsed association between the artists.",
+    "spotify_url": "https://open.spotify.com/artist/1gQN3Xvp1rBhu4JVzmkrBJ",
+    "official_website": null,
+    "social_profiles": [],
+    "genres": [
+      "Norwegian pop (documented by national label)",
+      "emotional pop (editorial)"
+    ],
+    "moods": [
+      "melodic",
+      "bittersweet",
+      "energetic"
+    ],
+    "career_milestones": [
+      {
+        "date": "2020",
+        "description": "Broke through with Be Okay.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "date": "2022",
+        "description": "Released Nerve, later appearing on Norwegian charts.",
+        "source_ids": [
+          "src-003"
+        ]
+      },
+      {
+        "date": "2025",
+        "description": "Released Can’t Get Enough with Kygo and Cherry.",
+        "source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Astrid S",
+        "explanation": "Afterglow editorial connection based on broad songwriting themes and discovery fit; verify musical resemblance independently rather than treating this as an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "name": "Clara Mae",
+        "explanation": "Afterglow editorial connection based on broad songwriting themes and discovery fit; verify musical resemblance independently rather than treating this as an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "name": "SHY Martin",
+        "explanation": "Afterglow editorial connection based on broad songwriting themes and discovery fit; verify musical resemblance independently rather than treating this as an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "biography",
+        "claim": "Biographical information and main career context are supported by the indicated profile or interview.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "career_milestones",
+        "claim": "Milestones use catalogue, label or interview evidence; dates have the precision supported by those sources.",
+        "source_ids": [
+          "src-003",
+          "src-001"
+        ]
+      },
+      {
+        "field": "genres,moods,similar_artists",
+        "claim": "These are Afterglow editorial navigation tags, not verified quotations or formal artist-provided genre labels.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Artist URL refers to the independently identified Spotify performer.",
+        "source_ids": [
+          "src-002"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No commercially licensed artist photo was established in this research batch; retain abstract placeholder."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "be-okay",
+      "title": "Be Okay",
+      "artist_slug": "victoria-nadine",
+      "artist_credits": [
+        "Victoria Nadine"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2020",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Be Okay",
+      "release_type": null,
+      "short_description": "A curated Victoria Nadine recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "Norwegian pop (documented by national label)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "nerve",
+      "title": "Nerve",
+      "artist_slug": "victoria-nadine",
+      "artist_credits": [
+        "Victoria Nadine"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/3jsYKVxT5ljGkexU531DpF",
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Nerve",
+      "release_type": null,
+      "short_description": "A curated Victoria Nadine recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "Norwegian pop (documented by national label)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "be-okay",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Specific track URL is supported by Spotify or a linked contemporaneous publisher source.",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "du-er-ikke-alene",
+      "title": "Du er ikke alene",
+      "artist_slug": "victoria-nadine",
+      "artist_credits": [
+        "Victoria Nadine"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2021",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Du er ikke alene",
+      "release_type": null,
+      "short_description": "A curated Victoria Nadine recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "Norwegian pop (documented by national label)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "nerve",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "hope-ur-miserable",
+      "title": "hope ur miserable",
+      "artist_slug": "victoria-nadine",
+      "artist_credits": [
+        "Victoria Nadine"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "hope ur miserable",
+      "release_type": null,
+      "short_description": "A curated Victoria Nadine recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "Norwegian pop (documented by national label)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "du-er-ikke-alene",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "summer-rain",
+      "title": "Summer Rain",
+      "artist_slug": "victoria-nadine",
+      "artist_credits": [
+        "Victoria Nadine"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Summer Rain",
+      "release_type": null,
+      "short_description": "A curated Victoria Nadine recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "Norwegian pop (documented by national label)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "hope-ur-miserable",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "feel-this-way",
+      "title": "Feel This Way",
+      "artist_slug": "victoria-nadine",
+      "artist_credits": [
+        "R3HAB",
+        "Victoria Nadine"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2024",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Feel This Way",
+      "release_type": null,
+      "short_description": "A curated Victoria Nadine recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "Norwegian pop (documented by national label)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "summer-rain",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "favorite-mistakes",
+      "title": "Favorite Mistakes",
+      "artist_slug": "victoria-nadine",
+      "artist_credits": [
+        "HEDEGAARD",
+        "Martin Jensen",
+        "Victoria Nadine"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2024",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Favorite Mistakes",
+      "release_type": null,
+      "short_description": "A curated Victoria Nadine recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "Norwegian pop (documented by national label)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "feel-this-way",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "can-t-get-enough",
+      "title": "Can’t Get Enough",
+      "artist_slug": "victoria-nadine",
+      "artist_credits": [
+        "Kygo",
+        "Victoria Nadine"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Can’t Get Enough",
+      "release_type": null,
+      "short_description": "A curated Victoria Nadine recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "Norwegian pop (documented by national label)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "favorite-mistakes",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "real-to-me",
+      "title": "Real To Me",
+      "artist_slug": "victoria-nadine",
+      "artist_credits": [
+        "Victoria Nadine"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/5mThLXcmnbDgoudfO6HBNm",
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Real To Me",
+      "release_type": null,
+      "short_description": "A curated Victoria Nadine recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "Norwegian pop (documented by national label)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "can-t-get-enough",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-006"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Specific track URL is supported by Spotify or a linked contemporaneous publisher source.",
+          "source_ids": [
+            "src-006"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "cherry",
+      "title": "Cherry",
+      "artist_slug": "victoria-nadine",
+      "artist_credits": [
+        "Victoria Nadine"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/2TudsWFxqQy4fJRkMO7TQF",
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Cherry",
+      "release_type": null,
+      "short_description": "A curated Victoria Nadine recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "Norwegian pop (documented by national label)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "real-to-me",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Specific track URL is supported by Spotify or a linked contemporaneous publisher source.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://kommunikasjon.ntb.no/pressemelding/18595142/victoria-nadine-slipper-ny-lat-cherry?lang=no&publisherId=6987388",
+      "title": "Victoria Nadine new single Cherry",
+      "publisher": "Universal Music Norway",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_label_release",
+      "access_status": "read",
+      "evidence_summary": "Confirms full name Victoria Karlskås Andersen, home town Skien, Idol background and career milestones."
+    },
+    {
+      "id": "src-002",
+      "url": "https://open.spotify.com/artist/1gQN3Xvp1rBhu4JVzmkrBJ",
+      "title": "Victoria Nadine — Spotify Artist",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Identifies main artist, 2020 Be Okay, 2022 Nerve, 2025 Can’t Get Enough, 2024 collaborations, 2025 Real to Me."
+    },
+    {
+      "id": "src-003",
+      "url": "https://www.vglista.no/artister/victoria-nadine/",
+      "title": "Victoria Nadine — Norwegian Charts",
+      "publisher": "VG-lista",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_chart",
+      "access_status": "read",
+      "evidence_summary": "Chart records for Be Okay, Du er ikke alene, Nerve, hope ur miserable, Summer Rain, Saw It Coming."
+    },
+    {
+      "id": "src-004",
+      "url": "https://open.spotify.com/track/2TudsWFxqQy4fJRkMO7TQF",
+      "title": "Cherry — Victoria Nadine",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Official 2025 standalone single with release date July 11, 2025."
+    },
+    {
+      "id": "src-005",
+      "url": "https://open.spotify.com/intl-ja/track/3jsYKVxT5ljGkexU531DpF",
+      "title": "Nerve — Victoria Nadine official 2022 single",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "November 4 2022 standalone single credited to Victoria Nadine; not later compilation edition."
+    },
+    {
+      "id": "src-006",
+      "url": "https://open.spotify.com/intl-it/track/5mThLXcmnbDgoudfO6HBNm",
+      "title": "Real To Me — Victoria Nadine official single",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "November 7 2025 standalone single and credited performer."
+    }
+  ],
+  "outstanding_research": [
+    "Verify each null Spotify track URL against the exact recording and credits.",
+    "Audit original release dates, including later EP/album editions and any covers.",
+    "Locate first-person interviews for songs with null artist_statement_paraphrase.",
+    "Only publish photography after a commercial-editorial rights review."
+  ]
+}

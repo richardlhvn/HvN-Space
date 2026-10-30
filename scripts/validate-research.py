@@ -11,6 +11,9 @@ slugs = [slug for batch in catalog['batches'] for slug in batch['slugs']]
 assert len(slugs) == len(set(slugs)), 'Duplicate catalog artist'
 tracks = {}
 summary = []
+records = {}
+aliases = json.loads((root / 'plugin/data/research-aliases.json').read_text())
+assert aliases['schema_version'] == 'afterglow.aliases.v1'
 for slug in slugs:
     assert re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', slug)
     pack = json.loads((root / f'plugin/data/{slug}.json').read_text())
@@ -38,6 +41,7 @@ for slug in slugs:
     assert artist_url is None or re.fullmatch(r'https://open\.spotify\.com/artist/[A-Za-z0-9]{22}', artist_url)
     for song in pack['songs']:
         key = slug + '/' + song['slug']
+        records[key] = song
         assert song['artist_slug'] == slug
         assert re.fullmatch(r'[a-z0-9]+(?:-[a-z0-9]+)*', song['slug'])
         assert all(row['song_slug'] in song_slugs for row in song['related_songs']), key
@@ -49,9 +53,16 @@ for slug in slugs:
             assert re.fullmatch(r'https://open\.spotify\.com/track/[A-Za-z0-9]{22}', song['spotify_url']), key
             assert song['spotify_url'] not in tracks, f'Shared recording requires review: {key}'
             tracks[song['spotify_url']] = key
-        if pack['research_date'] == '2026-10-29':
+        if pack['research_date'] >= '2026-10-29':
             assert song['position'] is None, key
             assert pack['artist']['image']['use_placeholder'] is True
             assert pack['artist']['image']['url'] is None
     summary.append({'slug': slug, 'songs': len(pack['songs']), 'exact_track_links': sum(bool(s['spotify_url']) for s in pack['songs'])})
-print(json.dumps({'artists': len(summary), 'curated_songs': sum(row['songs'] for row in summary), 'unique_track_links': len(tracks), 'unresolved_track_links': sum(row['songs'] - row['exact_track_links'] for row in summary), 'packages': summary}, indent=2))
+for key, alias in aliases['records'].items():
+    assert key in records and alias['canonical_key'] in records and alias['canonical_key'] not in aliases['records']
+    a, b = records[key], records[alias['canonical_key']]
+    assert a['title'].casefold() == b['title'].casefold() and a['artist_credits'] == b['artist_credits']
+    assert a['spotify_url'] == alias['incoming_spotify_url'] and b['spotify_url'] == alias['canonical_spotify_url']
+    assert a['release_date'] == b['release_date'] and a['release_date_precision'] == b['release_date_precision']
+canonical = {key: record for key, record in records.items() if key not in aliases['records']}
+print(json.dumps({'artists': len(summary), 'curated_song_selections': len(records), 'distinct_song_pages': len(canonical), 'shared_selections': len(aliases['records']), 'supplied_track_urls': len(tracks), 'active_track_mappings': sum(bool(s['spotify_url']) for s in canonical.values()), 'unresolved_track_links': sum(not s['spotify_url'] for s in canonical.values()), 'intake_status': catalog.get('artist_intake', {}).get('status', 'open'), 'packages': summary}, indent=2))

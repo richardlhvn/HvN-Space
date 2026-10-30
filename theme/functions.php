@@ -88,7 +88,15 @@ function ag_section_heading($eyebrow, $title, $link = '', $label = '') {
     if ($link) { echo '<a class="text-link" href="' . esc_url($link) . '">' . esc_html($label) . ag_icon('arrow') . '</a>'; }
     echo '</div>';
 }
+function ag_research_label($id) {
+    if (ag_meta('research_status', $id) === 'research_starter_not_publication_ready') { return 'Research starter — not publication ready'; }
+    return ag_meta('handoff_key', $id) ? 'Research review pending' : 'Demo listening notes';
+}
 function ag_demo_notice($id) {
+    if (ag_meta('demo', $id) && ag_meta('research_status', $id) === 'research_starter_not_publication_ready') {
+        echo '<aside class="editorial-notice"><strong>Research starter — not publication ready.</strong> This biography and song selection are provisional. Track links, original release dates, and song-specific explanations remain incomplete. Review the scoped sources and open questions before publication. This page stays out of search-engine indexes.</aside>';
+        return;
+    }
     if (ag_meta('demo', $id) && ag_meta('handoff_key', $id)) {
         echo '<aside class="editorial-notice"><strong>Research review pending.</strong> This page uses supplied source-linked research. Open questions are listed below; some source pages have not been independently rechecked. This page stays out of search-engine indexes until editorial review.</aside>';
         return;

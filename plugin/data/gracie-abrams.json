@@ -1,0 +1,613 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-31",
+  "selection": {
+    "type": "curated",
+    "description": "Ten editorially curated catalogue-backed starter tracks; not a Spotify Popular ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-001"
+    ],
+    "limitations": [
+      "No Spotify Popular ranking asserted.",
+      "Unverified original release dates and Spotify recording URLs remain null.",
+      "Some catalogue and collaboration credits require editorial review."
+    ]
+  },
+  "artist": {
+    "slug": "gracie-abrams",
+    "name": "Gracie Abrams",
+    "full_name": "Gracie Madigan Abrams",
+    "country": "United States",
+    "place_of_origin": "Los Angeles, California",
+    "short_description": "Gracie Abrams is an Afterglow discovery artist in the broader emotional-pop and songwriter catalogue.",
+    "biography": "Gracie Abrams is an American singer-songwriter whose intimate writing has made her an important reference point for contemporary confessional pop. Her early releases, including the minor EP and This Is What It Feels Like, led into her debut album Good Riddance in 2023. The Secret of Us followed in 2024 and brought a broader, more rhythmically direct approach while retaining her close-up emotional narratives. The album featured a collaboration with Taylor Swift on 'us.' and included songs such as 'Risk,' 'Close To You' and 'I Love You, I'm Sorry.' In interviews and the Song Exploder discussion of 'I Love You, I'm Sorry,' Abrams describes how writing with trusted collaborators helped her place complicated emotions into a song. Her 2026 album Daughter from Hell belongs to the later catalogue and should not be conflated with the release chronology of the older songs. For Afterglow, the editorial connection is her ability to make shame, affection, memory and incomplete closure feel conversational. Those are broad editorial observations, not a claim that every chosen track is autobiographical; each song-specific claim needs its own evidence.",
+    "spotify_url": "https://open.spotify.com/artist/4tuJ0bMpJh08umKkEXKUI5",
+    "official_website": "https://www.gracieabrams.com/",
+    "social_profiles": [],
+    "genres": [
+      "indie pop",
+      "emotional pop",
+      "singer-songwriter"
+    ],
+    "moods": [
+      "reflective",
+      "vulnerable"
+    ],
+    "career_milestones": [],
+    "similar_artists": [
+      {
+        "name": "Lizzy McAlpine",
+        "explanation": "Afterglow editorial similarity, based on neighbouring songwriter-pop audience and themes; not an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Maisie Peters",
+        "explanation": "Afterglow editorial similarity, based on neighbouring songwriter-pop audience and themes; not an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Holly Humberstone",
+        "explanation": "Afterglow editorial similarity, based on neighbouring songwriter-pop audience and themes; not an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "name",
+        "claim": "Gracie Abrams is the intended performing artist identity.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Original editorial career synopsis based on these cited sources; verify claim-by-claim before publication.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003",
+          "src-004",
+          "src-005",
+          "src-006"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Spotify artist identity from matched Spotify / track sources, where available; null means unverified.",
+        "source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "A commercially reusable photograph was not licensed; use abstract artwork.",
+      "Artist biography is a sourced starter draft requiring copy-edit and detailed verification."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "i-miss-you-i-m-sorry",
+      "title": "I miss you, I'm sorry",
+      "artist_slug": "gracie-abrams",
+      "artist_credits": [
+        "Gracie Abrams"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Song has an attributable artist explanation; do not generalize beyond the documented statement.",
+      "editorial_notes_basis": "catalogue listing and attributable artist statement",
+      "editorial_notes_source_ids": [
+        "src-001",
+        "src-005"
+      ],
+      "artist_statement_paraphrase": "Abrams wrote the song with Sarah Aarons; her release note identifies its personal context and describes working with Blake Slatkin, without reducing it to a general lyric interpretation.",
+      "artist_statement_source_ids": [
+        "src-005"
+      ],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "i-love-you-i-m-sorry",
+      "title": "I Love You, I'm Sorry",
+      "artist_slug": "gracie-abrams",
+      "artist_credits": [
+        "Gracie Abrams"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/7lds2u3vnXRR23K4llVwmm",
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": "2024 album edition; no standalone-original date asserted",
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Song has an attributable artist explanation; do not generalize beyond the documented statement.",
+      "editorial_notes_basis": "catalogue listing and attributable artist statement",
+      "editorial_notes_source_ids": [
+        "src-001",
+        "src-004",
+        "src-007"
+      ],
+      "artist_statement_paraphrase": "Abrams explained that the song imagined a calmer and more forgiving future relationship with someone from her past; the process was explored in Song Exploder.",
+      "artist_statement_source_ids": [
+        "src-004"
+      ],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Specific Spotify track page matched to this song and credited artist.",
+          "source_ids": [
+            "src-007"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "that-s-so-true",
+      "title": "That's So True",
+      "artist_slug": "gracie-abrams",
+      "artist_credits": [
+        "Gracie Abrams"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "close-to-you",
+      "title": "Close To You",
+      "artist_slug": "gracie-abrams",
+      "artist_credits": [
+        "Gracie Abrams"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "risk",
+      "title": "Risk",
+      "artist_slug": "gracie-abrams",
+      "artist_credits": [
+        "Gracie Abrams"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "21",
+      "title": "21",
+      "artist_slug": "gracie-abrams",
+      "artist_credits": [
+        "Gracie Abrams"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "mess-it-up",
+      "title": "Mess It Up",
+      "artist_slug": "gracie-abrams",
+      "artist_credits": [
+        "Gracie Abrams"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "where-do-we-go-now",
+      "title": "Where do we go now?",
+      "artist_slug": "gracie-abrams",
+      "artist_credits": [
+        "Gracie Abrams"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "i-know-it-won-t-work",
+      "title": "I know it won't work",
+      "artist_slug": "gracie-abrams",
+      "artist_credits": [
+        "Gracie Abrams"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "us-feat-taylor-swift",
+      "title": "us. (feat. Taylor Swift)",
+      "artist_slug": "gracie-abrams",
+      "artist_credits": [
+        "Gracie Abrams",
+        "Taylor Swift"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://music.apple.com/us/artist/gracie-abrams/1450554836",
+      "title": "Gracie Abrams catalogue / artist profile",
+      "publisher": "music.apple.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Song titles, associated performer and public discography. For Frawley and Gabrielle Aplin this is AllMusic."
+    },
+    {
+      "id": "src-002",
+      "url": "https://interscope.com/pages/artist/gracie-abrams",
+      "title": "Gracie Abrams label biography",
+      "publisher": "interscope.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "label_catalog",
+      "access_status": "read",
+      "evidence_summary": "Verified expanded name and releases."
+    },
+    {
+      "id": "src-003",
+      "url": "https://www.officialcharts.com/artist/59175/gracie-abrams/",
+      "title": "Official Charts artist biography and career milestones",
+      "publisher": "www.officialcharts.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "industry_profile",
+      "access_status": "read",
+      "evidence_summary": "Debut and second album and UK chart milestones."
+    },
+    {
+      "id": "src-004",
+      "url": "https://songexploder.net/gracie-abrams",
+      "title": "Song Exploder: Gracie Abrams",
+      "publisher": "songexploder.net",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "artist_interview",
+      "access_status": "read",
+      "evidence_summary": "Firsthand explanation of I Love You, I’m Sorry."
+    },
+    {
+      "id": "src-005",
+      "url": "https://www.coupdemainmagazine.com/gracie-abrams/16557",
+      "title": "Gracie Abrams on I Miss You, I’m Sorry",
+      "publisher": "www.coupdemainmagazine.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "artist_statement",
+      "access_status": "read",
+      "evidence_summary": "Statement accompanying early song release."
+    },
+    {
+      "id": "src-006",
+      "url": "https://music.apple.com/us/album/the-secret-of-us-deluxe/1773473685",
+      "title": "The Secret of Us (Deluxe) editorial notes",
+      "publisher": "music.apple.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Album-level remarks and collaborators."
+    },
+    {
+      "id": "src-007",
+      "url": "https://open.spotify.com/track/7lds2u3vnXRR23K4llVwmm",
+      "title": "Gracie Abrams — I Love You, I'm Sorry Spotify track page",
+      "publisher": "open.spotify.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Verified matching artist and recording page; edition and release dates are not assumed from other versions."
+    }
+  ],
+  "outstanding_research": [
+    {
+      "field": "song.spotify_url",
+      "status": "pending"
+    },
+    {
+      "field": "song.release_date",
+      "status": "pending"
+    },
+    {
+      "field": "song.artist_statement_paraphrase",
+      "status": "pending_optional"
+    },
+    {
+      "field": "artist.image",
+      "status": "use_placeholder"
+    }
+  ]
+}

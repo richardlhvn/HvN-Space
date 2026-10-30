@@ -1,0 +1,67 @@
+{
+  "schema_version": "afterglow.provenance.v1",
+  "batches": [
+    {
+      "batch": "batch5",
+      "source_file": "afterglow_batch5_combined_2026-10-30.json",
+      "source_sha256": "46da46e04deaac5eb6dc5eae1a7f74ba10aab6290e083e4e56adb209c87c7fca",
+      "artists": 10,
+      "song_selections": 100,
+      "track_urls": 20,
+      "artist_spotify_urls": 8,
+      "status": "research_draft_pending_review",
+      "archive_file": "afterglow_batch5_ten_artists_2026-10-30.zip",
+      "archive_sha256": "fd540e5654de7f492716a336254aed10fc09d4d7920a3b5ecbf0c2b970b3f8ef",
+      "archive_integrity": "CRC checks passed"
+    },
+    {
+      "batch": "batch6",
+      "source_file": "afterglow_batch6_combined_2026-10-30.json",
+      "source_sha256": "8e5b4c86791602d0d2dc99747abb0a15a8a5649969808ca46019d5391303417a",
+      "artists": 10,
+      "song_selections": 100,
+      "track_urls": 6,
+      "artist_spotify_urls": 9,
+      "status": "research_starter_not_publication_ready",
+      "archive_file": "Afterglow_Batch6_10_Artists_Research_Starter_2026-10-30.zip",
+      "archive_sha256": "b5da096b8021ff8d5d2400c5a88a00e2e3bac558424152a8e5db46f5b2863b72",
+      "archive_integrity": "CRC checks passed"
+    },
+    {
+      "batch": "batch7",
+      "source_file": "afterglow_batch7_13_artists_2026-10-31.json",
+      "source_sha256": "ecd5c96ba65a1aaf2e0450d278067f2ab2e7d28f67860df34eb829fd9aa7ac42",
+      "artists": 13,
+      "song_selections": 130,
+      "track_urls": 7,
+      "artist_spotify_urls": 7,
+      "status": "research_starter_not_publication_ready",
+      "archive_file": "Afterglow_Batch7_Complete_Package_REDOWNLOAD.zip",
+      "archive_sha256": "6ee3a46a9cdc4bebbbb4d24af5a4cb946df809d4de9a878866bacd14feef9b4b",
+      "archive_integrity": "CRC checks passed"
+    }
+  ],
+  "review_files": [
+    {
+      "file": "docs/research-review/BATCH6_REVIEW.csv",
+      "source_sha256": "a3bd6396c130448b6ca0f86d626262bb5c529ec3a50da6cce3f9d4778ce9889e",
+      "repository_sha256": "896b8f34edbff8d1155eab276306be438f02a225cada2707e6387e126b5332b8",
+      "cell_values_unchanged": true,
+      "line_endings": "LF; original UTF-8 BOM retained"
+    },
+    {
+      "file": "docs/research-review/BATCH7_REVIEW.csv",
+      "source_sha256": "196a5428904ad5242fb0c185f94d116f0ecebdc5b7f2fd85ea13a3ed6ea049fc",
+      "repository_sha256": "f133a7bee5a86f4de346859c28dee6ba6feaef0ceb406a19cbb94e6daa5a200d",
+      "cell_values_unchanged": true,
+      "line_endings": "LF; original UTF-8 BOM retained"
+    },
+    {
+      "file": "docs/research-review/BATCH7_RESEARCH_QUEUE.csv",
+      "source_sha256": "cf4e90ae6c773f297a92e13b9eca744807bc7363ea1e8c421ed5897a2fcc3ffc",
+      "repository_sha256": "abc02caa5f52bf9278e4a9468dac77cd3c17e5ce825b9714d5e4f8077c974cb9",
+      "cell_values_unchanged": true,
+      "line_endings": "LF; original UTF-8 BOM retained"
+    }
+  ]
+}

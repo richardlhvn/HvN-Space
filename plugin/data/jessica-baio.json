@@ -1,0 +1,741 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-30",
+  "selection": {
+    "type": "curated",
+    "description": "Ten Jessica Baio recordings selected editorially for Afterglow from catalogues and source-backed release pages; order is not a streaming ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-002"
+    ],
+    "limitations": [
+      "The selections are editorially curated, not an official Spotify Popular top ten or independently audited popularity ranking.",
+      "Any blank Spotify URL must remain null until its precise recording is verified.",
+      "Photo rights were not reviewed; placeholder is mandatory.",
+      "Original release dates versus later editions are not exhaustively established."
+    ]
+  },
+  "artist": {
+    "slug": "jessica-baio",
+    "name": "Jessica Baio",
+    "full_name": null,
+    "country": "United States",
+    "place_of_origin": "California, United States",
+    "short_description": "Jessica Baio — an Afterglow editorial selection for listeners exploring emotional pop.",
+    "biography": "Jessica Baio is an American singer-songwriter whose own website describes her as California-born and Utah-based. She developed an online audience by sharing covers while still a teenager, before shifting increasingly toward original material. Her official biography highlights the 2022 singles ‘at least’ and ‘trust issues’ as important in expanding that audience. Subsequent releases include the projects catalyst and petals, with songs such as ‘someday’ and ‘he loves me, he loves me not’. The same biography identifies UNSAID, released in November 2024 through 10K Projects, as her debut full-length album. It also describes a 2025 North American headline tour. For Afterglow, Baio belongs in a strand of emotional pop that emphasizes direct storytelling about relationships, doubt, and personal change. That genre description is editorial, not an official classification of every song. Her catalogue offers a range of short, memorable songs that can serve as entry points into deeper writing about individual experiences. Any statement about a particular song's meaning should rely on a song-specific source rather than this broader overview.",
+    "spotify_url": "https://open.spotify.com/artist/0VMFTqmv0hYlWruyBERT95",
+    "official_website": "https://jessicabaio.com/",
+    "social_profiles": [],
+    "genres": [
+      "emotional pop (editorial)",
+      "confessional pop (editorial)"
+    ],
+    "moods": [
+      "heartfelt",
+      "introspective",
+      "romantic"
+    ],
+    "career_milestones": [
+      {
+        "date": "2022",
+        "description": "The singles at least and trust issues gained traction online.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "date": "2024-11",
+        "description": "Released debut album UNSAID through 10K Projects.",
+        "source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "similar_artists": [
+      {
+        "name": "Sara Kays",
+        "explanation": "Afterglow editorial connection based on broad songwriting themes and discovery fit; verify musical resemblance independently rather than treating this as an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "name": "Rachel Grae",
+        "explanation": "Afterglow editorial connection based on broad songwriting themes and discovery fit; verify musical resemblance independently rather than treating this as an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "name": "Andi",
+        "explanation": "Afterglow editorial connection based on broad songwriting themes and discovery fit; verify musical resemblance independently rather than treating this as an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "biography",
+        "claim": "Biographical information and main career context are supported by the indicated profile or interview.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "career_milestones",
+        "claim": "Milestones use catalogue, label or interview evidence; dates have the precision supported by those sources.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "genres,moods,similar_artists",
+        "claim": "These are Afterglow editorial navigation tags, not verified quotations or formal artist-provided genre labels.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Artist URL refers to the independently identified Spotify performer.",
+        "source_ids": [
+          "src-003"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No commercially licensed artist photo was established in this research batch; retain abstract placeholder."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "at-least",
+      "title": "at least",
+      "artist_slug": "jessica-baio",
+      "artist_credits": [
+        "Jessica Baio"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "at least",
+      "release_type": null,
+      "short_description": "A curated Jessica Baio recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "trust-issues",
+      "title": "trust issues",
+      "artist_slug": "jessica-baio",
+      "artist_credits": [
+        "Jessica Baio"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/2Mg90m4xDJBdG4vx5Ml2tk",
+      "release_date": "2022",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "trust issues",
+      "release_type": null,
+      "short_description": "A curated Jessica Baio recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "at-least",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-005"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Specific track URL is supported by Spotify or a linked contemporaneous publisher source.",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "someday",
+      "title": "someday",
+      "artist_slug": "jessica-baio",
+      "artist_credits": [
+        "Jessica Baio"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "catalyst",
+      "release_type": null,
+      "short_description": "A curated Jessica Baio recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": "Her official biography describes this song as written for her husband Sam.",
+      "artist_statement_source_ids": [
+        "src-001"
+      ],
+      "related_songs": [
+        {
+          "song_slug": "trust-issues",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-004"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Song-specific artist explanation is paraphrased from the cited interview or statement.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "he-loves-me-he-loves-me-not",
+      "title": "he loves me, he loves me not",
+      "artist_slug": "jessica-baio",
+      "artist_credits": [
+        "Jessica Baio"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2023",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "petals",
+      "release_type": null,
+      "short_description": "A curated Jessica Baio recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "someday",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "break-up-with-me",
+      "title": "break up with me",
+      "artist_slug": "jessica-baio",
+      "artist_credits": [
+        "Jessica Baio"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2024",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "break up with me",
+      "release_type": null,
+      "short_description": "A curated Jessica Baio recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "he-loves-me-he-loves-me-not",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "bite-the-bullet",
+      "title": "bite the bullet",
+      "artist_slug": "jessica-baio",
+      "artist_credits": [
+        "Jessica Baio"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2024",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "bite the bullet",
+      "release_type": null,
+      "short_description": "A curated Jessica Baio recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "break-up-with-me",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "love-me-less",
+      "title": "love me less",
+      "artist_slug": "jessica-baio",
+      "artist_credits": [
+        "Jessica Baio"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "love me less",
+      "release_type": null,
+      "short_description": "A curated Jessica Baio recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "bite-the-bullet",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-002"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-002"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "all-i-saw-was-you-feat-jessica-baio",
+      "title": "ALL I SAW WAS YOU (feat. Jessica Baio)",
+      "artist_slug": "jessica-baio",
+      "artist_credits": [
+        "Johnny Huynh",
+        "Jessica Baio"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2025",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "ALL I SAW WAS YOU",
+      "release_type": null,
+      "short_description": "A curated Jessica Baio recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "love-me-less",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "save-a-little-love",
+      "title": "Save A Little Love",
+      "artist_slug": "jessica-baio",
+      "artist_credits": [
+        "Two Friends",
+        "Dustin Lynch",
+        "Jessica Baio"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2026",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "Big Boots",
+      "release_type": null,
+      "short_description": "A curated Jessica Baio recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "all-i-saw-was-you-feat-jessica-baio",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    },
+    {
+      "slug": "from-scratch",
+      "title": "from scratch",
+      "artist_slug": "jessica-baio",
+      "artist_credits": [
+        "Jessica Baio"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": "2026",
+      "release_date_precision": "year",
+      "release_date_context": "Year of a traceable music-service release/edition; may not be the original release.",
+      "release_title": "from scratch",
+      "release_type": null,
+      "short_description": "A curated Jessica Baio recording selected for Afterglow's emotional-pop discovery catalogue.",
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [
+        {
+          "song_slug": "save-a-little-love",
+          "explanation": "Another track in Afterglow’s curated introduction to this artist; thematic and sonic similarity not independently established.",
+          "attribution": "editorial"
+        }
+      ],
+      "supported_claims": [
+        {
+          "field": "title,artist_credits,release_title",
+          "claim": "The selected song and named recording/release appear in the cited music-service catalogue.",
+          "source_ids": [
+            "src-003"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "The release year reflects the cited catalogue edition or contemporaneous release page; not necessarily earliest recording.",
+          "source_ids": [
+            "src-003"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Spotify recording-specific track URL not independently verified; null prevents a wrong embed.",
+        "Catalogued release year is not proof of first-ever publication or that all similarly titled recordings have identical master audio."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://jessicabaio.com/about",
+      "title": "About | Jessica Baio",
+      "publisher": "Jessica Baio",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_artist_biography",
+      "access_status": "read",
+      "evidence_summary": "Artist-authored site: California-born, Utah-based, early online covers, 2022 singles, 2023 projects, debut UNSAID in 2024."
+    },
+    {
+      "id": "src-002",
+      "url": "https://music.apple.com/dk/artist/jessica-baio/995025838?l=en-GB",
+      "title": "Jessica Baio — Artist Catalogue",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Top Songs list includes at least, trust issues, someday, he loves me he loves me not, break up with me, bite the bullet, love me less and a 2026 collaboration."
+    },
+    {
+      "id": "src-003",
+      "url": "https://open.spotify.com/embed/artist/0VMFTqmv0hYlWruyBERT95",
+      "title": "Jessica Baio — Spotify Artist Embed",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Confirms exact artist identity, top-track credits including Johnny Huynh and Two Friends collaborations."
+    },
+    {
+      "id": "src-004",
+      "url": "https://open.spotify.com/album/60GQxKPzuSR9lkCBTlfVOH",
+      "title": "catalyst — Jessica Baio",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "March 10 2023 edition contains someday and trust issues, among seven listed tracks."
+    },
+    {
+      "id": "src-005",
+      "url": "https://open.spotify.com/embed/track/2Mg90m4xDJBdG4vx5Ml2tk",
+      "title": "trust issues — Spotify Track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Embedded exact Jessica Baio recording titled trust issues; alternate reissued recording also exists."
+    },
+    {
+      "id": "src-006",
+      "url": "https://open.spotify.com/track/0GcLkedOfpccI5VpIHhWUx",
+      "title": "ghost — Spotify Track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "official_music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Track identity Jessica Baio, 2023; does not substantiate other song histories."
+    }
+  ],
+  "outstanding_research": [
+    "Verify each null Spotify track URL against the exact recording and credits.",
+    "Audit original release dates, including later EP/album editions and any covers.",
+    "Locate first-person interviews for songs with null artist_statement_paraphrase.",
+    "Only publish photography after a commercial-editorial rights review."
+  ]
+}

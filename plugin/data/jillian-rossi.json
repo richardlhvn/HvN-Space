@@ -1,0 +1,611 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-30",
+  "selection": {
+    "type": "curated",
+    "description": "Ten editorially curated catalogue-backed starter tracks; no popularity ranking asserted.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-001"
+    ],
+    "limitations": [
+      "Not a Spotify Popular ranking.",
+      "Many track-specific Spotify URLs and earliest release dates remain unverified."
+    ]
+  },
+  "artist": {
+    "slug": "jillian-rossi",
+    "name": "Jillian Rossi",
+    "full_name": null,
+    "country": "United States",
+    "place_of_origin": "Long Island, New York",
+    "short_description": "Jillian Rossi: an Afterglow editorial discovery candidate in pop.",
+    "biography": "Jillian Rossi is an American pop singer-songwriter from Long Island, New York, known for emotionally direct vocal performances and songs drawn from relationship experiences. Her early releases include “So What,” “Fever Dream,” and “Give Me a Reason,” while her catalogue later expanded through the album Never Fully Loved and subsequent singles. Apple Music lists those songs and projects under her recording-artist identity, which must not be confused with another artist of the same name. Her interviews are particularly useful for Afterglow: in a conversation with Backward Noise, she described how “Fever Dream” drew from a difficult relationship; in Flaunt she discussed “Give Me a Reason” in relation to an earlier long-distance situation. Because these are direct explanations, the site can accurately distinguish the artist’s account from its own editorial assessment of the songs. Her catalogue connects naturally to Rachel Grae, Andi, and Jessica Baio for discovery purposes, although those similarities are suggestions made by Afterglow and not a statement of endorsement.",
+    "spotify_url": "https://open.spotify.com/artist/2u2MvYsk6gZY0Khn9SAMeO",
+    "official_website": "https://www.jillianrossi.com/",
+    "social_profiles": [],
+    "genres": [
+      "pop",
+      "confessional pop"
+    ],
+    "moods": [
+      "heartbroken",
+      "dramatic"
+    ],
+    "career_milestones": [],
+    "similar_artists": [
+      {
+        "name": "Rachel Grae",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Andi",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Jessica Baio",
+        "explanation": "Afterglow editorial suggestion based on overlap in emotional-pop and songwriting approach; not a verified artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "name",
+        "claim": "Jillian Rossi is the identified performing artist.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "The biography is an original synopsis of the career and releases described in the cited artist/catalogue references.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "country",
+        "claim": "Artist is associated with United States.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "place_of_origin",
+        "claim": "Artist is associated with Long Island, New York.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Verified Spotify artist identity; URL is not a track URL.",
+        "source_ids": [
+          "src-002"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "No verified commercial reuse license for a standalone artist photograph.",
+      "Legal/expanded full name not independently verified; null retained.",
+      "This is a research starter; all song-level gaps should be reviewed before publication."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "fever-dream",
+      "title": "Fever Dream",
+      "artist_slug": "jillian-rossi",
+      "artist_credits": [
+        "Jillian Rossi"
+      ],
+      "position": null,
+      "spotify_url": "https://open.spotify.com/track/6YNdQ5utvFnK4CTAnBga06",
+      "release_date": "2021-04-28",
+      "release_date_precision": "day",
+      "release_date_context": "Original standalone single edition",
+      "release_title": "Fever Dream",
+      "release_type": "single",
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": "Jillian described the song as being inspired by experiences with the same former partner referenced in an earlier song.",
+      "artist_statement_source_ids": [
+        "src-005"
+      ],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "spotify_url",
+          "claim": "Exact track-level Spotify URL confirmed for this song and performer(s).",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "release_date",
+          "claim": "Release date for the documented edition/context, not generalized across all reissues.",
+          "source_ids": [
+            "src-007"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Jillian described the song as being inspired by experiences with the same former partner referenced in an earlier song.",
+          "source_ids": [
+            "src-005"
+          ]
+        }
+      ],
+      "uncertainties": []
+    },
+    {
+      "slug": "forever-start",
+      "title": "Forever Start",
+      "artist_slug": "jillian-rossi",
+      "artist_credits": [
+        "Ryan Nealon",
+        "Jillian Rossi"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "give-me-a-reason",
+      "title": "Give Me a Reason",
+      "artist_slug": "jillian-rossi",
+      "artist_credits": [
+        "Jillian Rossi"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": "Jillian connected the song to a long-distance relationship in which she wanted a reason to stay.",
+      "artist_statement_source_ids": [
+        "src-004"
+      ],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        },
+        {
+          "field": "artist_statement_paraphrase",
+          "claim": "Jillian connected the song to a long-distance relationship in which she wanted a reason to stay.",
+          "source_ids": [
+            "src-004"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "under-the-weather",
+      "title": "Under the Weather",
+      "artist_slug": "jillian-rossi",
+      "artist_credits": [
+        "Jillian Rossi",
+        "Caleb Hearn"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "hurt-again",
+      "title": "Hurt Again",
+      "artist_slug": "jillian-rossi",
+      "artist_credits": [
+        "Jillian Rossi"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "bare-minimum",
+      "title": "Bare Minimum",
+      "artist_slug": "jillian-rossi",
+      "artist_credits": [
+        "Jillian Rossi"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "not-used-to-normal",
+      "title": "Not Used To Normal",
+      "artist_slug": "jillian-rossi",
+      "artist_credits": [
+        "Jillian Rossi"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "like-a-boy",
+      "title": "Like a Boy",
+      "artist_slug": "jillian-rossi",
+      "artist_credits": [
+        "Jillian Rossi"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "so-what",
+      "title": "So What",
+      "artist_slug": "jillian-rossi",
+      "artist_credits": [
+        "Jillian Rossi"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    },
+    {
+      "slug": "18",
+      "title": "18",
+      "artist_slug": "jillian-rossi",
+      "artist_credits": [
+        "Jillian Rossi"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": null,
+      "editorial_notes_basis": null,
+      "editorial_notes_source_ids": [],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Track title and associated recording artist shown in identified music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date unverified; do not infer it from a later collection."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://music.apple.com/us/artist/jillian-rossi/1326563285",
+      "title": "Jillian Rossi — Apple Music",
+      "publisher": "Apple Music",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Displays identified artist or recording titles, with some release information and performer credits."
+    },
+    {
+      "id": "src-002",
+      "url": "https://open.spotify.com/embed/artist/2u2MvYsk6gZY0Khn9SAMeO?locale=en",
+      "title": "Jillian Rossi — top tracks",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Displays identified artist or recording titles, with some release information and performer credits."
+    },
+    {
+      "id": "src-003",
+      "url": "https://www.jillianrossi.com/",
+      "title": "Jillian Rossi — Official Website",
+      "publisher": "Jillian Rossi",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "artist_official",
+      "access_status": "read",
+      "evidence_summary": "Official artist background, career overview, or link hub."
+    },
+    {
+      "id": "src-004",
+      "url": "https://www.flaunt.com/blog/jillian-rossi",
+      "title": "Jillian Rossi interview",
+      "publisher": "Flaunt",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Contains direct artist answers about songs or creative experiences; consult statement-specific claim links."
+    },
+    {
+      "id": "src-005",
+      "url": "https://www.backwardnoise.com/artist-of-the-week/jillian-rossi",
+      "title": "Jillian Rossi interview — Fever Dream",
+      "publisher": "Backward Noise",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "original_interview",
+      "access_status": "read",
+      "evidence_summary": "Contains direct artist answers about songs or creative experiences; consult statement-specific claim links."
+    },
+    {
+      "id": "src-006",
+      "url": "https://open.spotify.com/track/6YNdQ5utvFnK4CTAnBga06",
+      "title": "Fever Dream official track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Displays identified artist or recording titles, with some release information and performer credits."
+    },
+    {
+      "id": "src-007",
+      "url": "https://open.spotify.com/track/6YNdQ5utvFnK4CTAnBga06",
+      "title": "Fever Dream — official track",
+      "publisher": "Spotify",
+      "published_date": null,
+      "accessed_date": "2026-10-30",
+      "source_type": "streaming_catalogue",
+      "access_status": "read",
+      "evidence_summary": "Evidence for artist identification, song catalogue or cited statements in the linked source; refer to individual claim associations."
+    }
+  ],
+  "outstanding_research": [
+    "Verify missing exact Spotify track URLs and original release edition dates.",
+    "Seek song-specific first-person interview explanations and verify precise inspirations.",
+    "Complete biography fact-check, verified social profiles and commercial-use image rights."
+  ]
+}

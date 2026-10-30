@@ -2,7 +2,9 @@
 
 A working WordPress MVP for independent emotional-pop discovery. The name is a starting point: change it in **Settings → General**, and change the site’s tagline and public contact email in **Appearance → Customize → Afterglow identity**.
 
-The site includes a designed homepage, artist and song directories, name/genre/mood/country filters, individual profiles, manually curated relationships, global search, an editorial journal, and a collection saved in the visitor’s browser. No music, downloaded album covers, analytics, or advertisements are bundled. Six separately licensed artist photographs are included with their own attribution and license records; fourteen artists retain abstract placeholders.
+The site includes a designed homepage, artist and song directories, name/genre/mood/country filters, individual profiles, manually curated relationships, global search, an editorial journal, and a collection saved in the visitor’s browser. No music, downloaded album covers, analytics, or advertisements are bundled. Six separately licensed artist photographs are included with their own attribution and license records; forty-seven artists retain abstract placeholders.
+
+**Core 0.8 / final artist intake:** [batches 5–7](docs/FINAL_ARTIST_INTAKE_2026-10-31.md) add 33 distinct artists, bringing the catalog to **53 artists and 530 curated song selections across 529 song pages**. The shared Caleb Hearn / ROSIE duet reuses its richer existing page. Choose **Final artist intake — batches 5–7 (33 artists)** in **Artists → Import supplied research** to apply only these additions. Batches 6/7 remain explicitly labeled research starters, not publication-ready. Further artist additions are **paused at the owner's request**; the next work is verification and completing this catalog.
 
 **New in Core 0.7 / Theme 0.2:** [listening and discovery](docs/LISTENING_AND_DISCOVERY.md) gives song pages a complete visual before Spotify loads, a prominent next discovery, and inline feeling/theme suggestions. Filters keep a loaded player intact, recent discoveries avoid immediate repeats, and volume help explains device/browser controls. It works with the current catalog and was checked against a 500-song synthetic catalog. Update both the plugin and theme; no research reimport or database migration is needed.
 
@@ -53,12 +55,12 @@ To choose a different port, add `PORT=8081` to `.env` **before the first setup**
 npm test                         # 40 functional checks in Chromium; writes screenshots
 bash scripts/test-editorial.sh   # 16 permission, validation, and editorial-integrity checks
 bash scripts/test-research.sh    # 39 import safety checks in a disposable DB namespace
-bash scripts/test-handoffs.sh    # 1,310 supplied-research checks in a disposable DB namespace
+bash scripts/test-handoffs.sh    # 4,099 supplied-research checks in a disposable DB namespace
 python3 scripts/validate-research.py # Catalog, nulls, source references, dates, and duplicate recordings
 bash scripts/backup.sh           # Private database backup before content updates
 npm run test:a11y                # Automated WCAG checks on representative templates
-bash scripts/test-media.sh       # 243 media sync and permission-gate checks
-node tests/media-browser.mjs      # All 200 song pages, real photos, credits, embeds, and null-track fallbacks
+bash scripts/test-media.sh       # 607 media sync and permission-gate checks
+node tests/media-browser.mjs      # All 529 selected song pages, 53 profiles, credits, embeds, and safe fallbacks
 node tests/research-admin.mjs     # Research collection selection and protected admin import
 bash scripts/test-discovery.sh    # Recommendation safety, truthful filters, and a 500-song scale check
 node tests/discovery-browser.mjs  # Listening visuals, filters, playback preservation, keyboard, and no-JS paths
@@ -72,7 +74,7 @@ See [Hostinger deployment](docs/HOSTINGER.md), [editorial workflow](docs/EDITORI
 
 ## Content status
 
-The twenty artist profiles and two hundred selected song pages use supplied source-linked research and remain **noindex pending editorial review**. Mood/genre labels and recommendations are editorial choices. Exact recording links are present for 142 selections; 58 remain deliberately missing. Release precision, edition context, uncertainties, source provenance, and missing artist statements are retained. One legacy starter song and five older research drafts remain rather than being deleted to force a raw post count of 200. Review-flagged records are excluded from WordPress’s post sitemap, even after public indexing is enabled.
+The fifty-three artist profiles and 530 curated song selections use supplied source-linked research and remain **noindex pending editorial review**. They resolve to 529 distinct selected song pages because one duet appears in two artist selections. Mood/genre labels and recommendations are editorial choices. There are 174 active exact track mappings and 355 deliberately missing track links; the additional supplied Spotify ID for the shared duet is retained for edition/recording review. Release precision, context, uncertainties, source provenance, and missing artist statements are retained. Batches 6/7 are research starters, not launch-ready content. One legacy starter song and five older research drafts remain; raw WordPress counts include those legacy records. Review-flagged records remain excluded from WordPress’s post sitemap.
 
 Three original journal articles discuss listening and editorial practice. Legal/contact pages are pre-launch templates requiring the owner’s details and appropriate review. Before launch, replace or finish the sample records, verify links and claims, document artwork rights, and complete contact/privacy information. Local WordPress additionally has **Discourage search engines** enabled.
 

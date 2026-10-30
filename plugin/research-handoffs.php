@@ -1,9 +1,25 @@
 <?php
 defined('ABSPATH') || exit;
 
-function ag_handoff_packs() {
-    $catalog = json_decode(file_get_contents(__DIR__ . '/data/research-catalog.json'), true);
+function ag_handoff_catalog() {
+    static $catalog;
+    if (!$catalog) { $catalog = json_decode(file_get_contents(__DIR__ . '/data/research-catalog.json'), true); }
     if (($catalog['schema_version'] ?? '') !== 'afterglow.catalog.v1') { throw new RuntimeException('Invalid research catalog.'); }
+    return $catalog;
+}
+
+function ag_handoff_aliases() {
+    static $data;
+    if ($data === null) { $data = json_decode(file_get_contents(__DIR__ . '/data/research-aliases.json'), true); }
+    if (($data['schema_version'] ?? '') !== 'afterglow.aliases.v1' || !is_array($data['records'] ?? null)) { throw new RuntimeException('Invalid shared-song registry.'); }
+    foreach ($data['records'] as $key => $alias) {
+        if (!preg_match('~^[a-z0-9-]+/[a-z0-9-]+$~D', $key) || !preg_match('~^[a-z0-9-]+/[a-z0-9-]+$~D', $alias['canonical_key'] ?? '') || isset($data['records'][$alias['canonical_key']])) { throw new RuntimeException('Invalid or chained shared-song key.'); }
+    }
+    return $data['records'];
+}
+
+function ag_handoff_packs() {
+    $catalog = ag_handoff_catalog();
     $slugs = array_merge(...array_column($catalog['batches'], 'slugs'));
     if (count($slugs) !== count(array_unique($slugs))) { throw new RuntimeException('Duplicate catalog artist.'); }
     $packs = []; $recordings = [];
@@ -39,12 +55,26 @@ function ag_handoff_packs() {
         }
         $packs[$slug] = $data;
     }
+    foreach (ag_handoff_aliases() as $key => $alias) {
+        [$slug, $song_slug] = explode('/', $key); [$target_slug, $target_song] = explode('/', $alias['canonical_key']);
+        $incoming = array_column($packs[$slug]['songs'] ?? [], null, 'slug')[$song_slug] ?? null;
+        $canonical = array_column($packs[$target_slug]['songs'] ?? [], null, 'slug')[$target_song] ?? null;
+        if (!$incoming || !$canonical || sanitize_title($incoming['title']) !== sanitize_title($canonical['title']) || $incoming['artist_credits'] !== $canonical['artist_credits'] || $incoming['spotify_url'] !== $alias['incoming_spotify_url'] || $canonical['spotify_url'] !== $alias['canonical_spotify_url']) { throw new RuntimeException('Shared-song evidence does not match the supplied records.'); }
+    }
     return $packs;
 }
 
 function ag_handoff_collection_packs($collection) {
     $packs = ag_handoff_packs();
-    return $collection === 'all' ? $packs : array_filter($packs, function ($pack) use ($collection) { return $pack['research_date'] === $collection; });
+    if ($collection === 'all') { return $packs; }
+    $catalog = ag_handoff_catalog();
+    foreach ($catalog['collections'] ?? [] as $group) {
+        if ($group['id'] !== $collection) { continue; }
+        $slugs = [];
+        foreach ($catalog['batches'] as $batch) { if (in_array($batch['id'], $group['batch_ids'], true)) { $slugs = array_merge($slugs, $batch['slugs']); } }
+        return array_intersect_key($packs, array_fill_keys($slugs, true));
+    }
+    return array_filter($packs, function ($pack) use ($collection) { return $pack['research_date'] === $collection; });
 }
 
 function ag_handoff_state($id) {
@@ -70,6 +100,13 @@ function ag_handoff_state($id) {
 
 function ag_handoff_key($slug, $song = null) { return $slug . '/' . ($song ? $song['slug'] : 'profile'); }
 function ag_handoff_find($slug, $song = null, $artist_id = 0) {
+    $alias = $song ? (ag_handoff_aliases()[ag_handoff_key($slug, $song)] ?? null) : null;
+    if ($alias) {
+        [$target_slug, $target_song] = explode('/', $alias['canonical_key']);
+        $pack = json_decode(file_get_contents(__DIR__ . '/data/' . $target_slug . '.json'), true);
+        $record = array_column($pack['songs'], null, 'slug')[$target_song];
+        return ag_handoff_find($target_slug, $record, ag_handoff_find($target_slug));
+    }
     $type = $song ? 'song' : 'artist';
     $args = ['post_type' => $type, 'post_status' => ['publish', 'draft', 'private', 'pending', 'future', 'trash'], 'numberposts' => -1];
     $owned = get_posts($args + ['meta_key' => '_ag_handoff_key', 'meta_value' => ag_handoff_key($slug, $song)]);
@@ -175,6 +212,12 @@ function ag_handoff_save($id, $pack, $record, $artist, $artist_id, $publish) {
     // Source IDs restart inside each artist package. Never merge bare src-001 identities.
     update_post_meta($id, '_ag_source_scope', $pack['artist']['slug']);
     update_post_meta($id, '_ag_source_registry', $pack['sources']);
+    foreach (ag_handoff_catalog()['batches'] as $batch) {
+        if (in_array($pack['artist']['slug'], $batch['slugs'], true) && isset($batch['status'])) {
+            update_post_meta($id, '_ag_research_status', $batch['status']);
+            update_post_meta($id, '_ag_research_batch', $batch['id']);
+        }
+    }
     return $id;
 }
 
@@ -185,8 +228,15 @@ function ag_apply_handoffs($publish = true, $slugs = null) {
         if (!is_array($slugs) || !$slugs || array_diff($slugs, array_keys($packs))) { return new WP_Error('invalid_collection', 'Choose an existing research collection.'); }
         $packs = array_intersect_key($packs, array_fill_keys($slugs, true));
     }
+    $aliases = ag_handoff_aliases();
+    foreach ($packs as $slug => $pack) {
+        foreach ($pack['songs'] as $song) {
+            $alias = $aliases[ag_handoff_key($slug, $song)] ?? null;
+            if ($alias && !ag_handoff_find($slug, $song) && !isset($packs[explode('/', $alias['canonical_key'])[0]])) { return new WP_Error('missing_shared_song', 'Import the earlier research containing the shared song first. No changes were made.'); }
+        }
+    }
     if (!add_option('ag_handoff_lock', time(), '', false)) { return new WP_Error('busy', 'An import is running. If it was interrupted, an administrator can clear its import lock after inspection.'); }
-    $report = ['updated' => [], 'created' => [], 'preserved' => []]; $editable = []; $maps = [];
+    $report = ['updated' => [], 'created' => [], 'preserved' => [], 'shared' => []]; $editable = []; $maps = [];
     try {
         foreach ($packs as $slug => $pack) {
             $artist_id = ag_handoff_find($slug); $key = ag_handoff_key($slug);
@@ -198,6 +248,10 @@ function ag_apply_handoffs($publish = true, $slugs = null) {
             $maps[$slug] = ['artist' => $artist_id, 'songs' => []];
             foreach ($pack['songs'] as $song) {
                 $key = ag_handoff_key($slug, $song); $id = ag_handoff_find($slug, $song, $artist_id);
+                if (isset($aliases[$key])) {
+                    if (!$id) { return new WP_Error('missing_shared_song', 'The canonical shared song could not be resolved.'); }
+                    $report['shared'][] = $key; $maps[$slug]['songs'][$song['slug']] = $id; continue;
+                }
                 if (ag_handoff_can_update($id, $key)) {
                     $old = $id; $id = ag_handoff_save($id, $pack, $song, false, $artist_id, $publish);
                     if (is_wp_error($id)) { return $id; }
@@ -210,6 +264,12 @@ function ag_apply_handoffs($publish = true, $slugs = null) {
             $key = ag_handoff_key($slug); $map = $maps[$slug];
             if (isset($editable[$key])) {
                 update_post_meta($map['artist'], '_ag_recommended', implode(',', $map['songs']));
+                $shared_records = [];
+                foreach ($pack['songs'] as $song) {
+                    $song_key = ag_handoff_key($slug, $song);
+                    if (isset($aliases[$song_key])) { $shared_records[$song_key] = ['record' => $song, 'canonical_id' => $map['songs'][$song['slug']], 'canonical_key' => $aliases[$song_key]['canonical_key'], 'source_scope' => $slug]; }
+                }
+                if ($shared_records) { update_post_meta($map['artist'], '_ag_handoff_alias_records', $shared_records); }
                 $related = []; $notes = [];
                 foreach ($pack['artist']['similar_artists'] as $similar) {
                     $posts = get_posts(['post_type' => 'artist', 'post_status' => ['publish', 'draft'], 'title' => $similar['name'], 'numberposts' => 1]);
@@ -237,22 +297,28 @@ add_action('admin_menu', function () {
 function ag_handoff_page() {
     if (!current_user_can('manage_options')) { return; }
     $all = ag_handoff_packs(); $dates = array_unique(array_column($all, 'research_date')); rsort($dates);
-    $collection = isset($_GET['collection']) && is_string($_GET['collection']) ? sanitize_text_field(wp_unslash($_GET['collection'])) : $dates[0];
-    if ($collection !== 'all' && !in_array($collection, $dates, true)) { $collection = $dates[0]; }
+    $catalog = ag_handoff_catalog(); $options = [];
+    foreach ($catalog['collections'] ?? [] as $group) { $options[$group['id']] = $group['label']; }
+    foreach ($dates as $date) { $options[$date] = $date; } $options['all'] = 'All research';
+    $default = $catalog['default_collection'] ?? $dates[0];
+    $collection = isset($_GET['collection']) && is_string($_GET['collection']) ? sanitize_text_field(wp_unslash($_GET['collection'])) : $default;
+    if (!isset($options[$collection])) { $collection = $default; }
     $packs = ag_handoff_collection_packs($collection);
-    echo '<div class="wrap"><h1>Import supplied research</h1><p>' . count($all) . ' bundled artist packages, each containing ten curated songs. These are editorial selections, not popularity rankings. The newest research date is selected by default; choose All research only when you intend to synchronize earlier packages too.</p><p>Edited records and records in Trash are preserved. New pages remain noindex pending review. No photographs are imported here. Missing track links stay missing and use a verified artist profile when available. Full source registries remain scoped to each artist. Clara Mae’s former website and the unconfirmed automatic-transcript statement remain excluded.</p>';
+    echo '<div class="wrap"><h1>Import supplied research</h1><p>' . count($all) . ' bundled artist packages, each containing ten curated song selections. Shared collaborations reuse existing pages. These are editorial selections, not popularity rankings. The current intake collection is selected by default; choose All research only when you intend to synchronize earlier packages too.</p><p>Edited records and records in Trash are preserved. New pages remain noindex pending review, with research starters explicitly labeled. No photographs are imported here. Missing track links stay missing and use a verified artist profile when available, otherwise a labeled Spotify search. Full source registries remain scoped to each artist.</p>';
+    if (($catalog['artist_intake']['status'] ?? '') === 'paused') { echo '<div class="notice notice-info inline"><p><strong>Artist intake paused at ' . count($all) . ' artists.</strong> Focus on source verification and completing this catalog before adding more artists.</p></div>'; }
     echo '<form method="get" action="' . esc_url(admin_url('edit.php')) . '"><input type="hidden" name="post_type" value="artist"><input type="hidden" name="page" value="ag-handoffs"><label for="ag-research-collection">Research collection </label><select id="ag-research-collection" name="collection">';
-    foreach (array_merge($dates, ['all']) as $date) { echo '<option value="' . esc_attr($date) . '" ' . selected($collection, $date, false) . '>' . esc_html($date === 'all' ? 'All research' : $date) . '</option>'; }
+    foreach ($options as $value => $label) { echo '<option value="' . esc_attr($value) . '" ' . selected($collection, $value, false) . '>' . esc_html($label) . '</option>'; }
     echo '</select> <button class="button" type="submit">Review collection</button></form><p>Selected: ' . count($packs) . ' artists and ' . array_sum(array_map(function ($p) { return count($p['songs']); }, $packs)) . ' curated songs.</p>';
     $report = get_option('ag_handoff_last_report');
-    if ($report) { echo '<div class="notice notice-info inline"><p>Last import: ' . count($report['created']) . ' created, ' . count($report['updated']) . ' updated, ' . count($report['preserved']) . ' preserved.</p></div>'; }
+    if ($report) { echo '<div class="notice notice-info inline ag-import-report"><p>Last import: ' . count($report['created']) . ' created, ' . count($report['updated']) . ' updated, ' . count($report['preserved']) . ' preserved, ' . count($report['shared'] ?? []) . ' shared selections reused.</p></div>'; }
     echo '<table class="widefat striped"><thead><tr><th>Record</th><th>Action</th></tr></thead><tbody>';
     foreach ($packs as $slug => $pack) {
         $artist_id = ag_handoff_find($slug);
         $records = [[$pack['artist']['name'], ag_handoff_key($slug), $artist_id]];
         foreach ($pack['songs'] as $song) { $records[] = [$song['title'], ag_handoff_key($slug, $song), ag_handoff_find($slug, $song, $artist_id)]; }
         foreach ($records as [$title, $key, $id]) {
-            echo '<tr><td>' . esc_html($title) . '</td><td>' . esc_html(!$id ? 'Create' : (ag_handoff_can_update($id, $key) ? 'Update unchanged record' : 'Preserve your edits / trash'));
+            $action = isset(ag_handoff_aliases()[$key]) ? ($id ? 'Reuse existing shared song; preserve richer content' : 'Earlier shared song is missing — import earlier research first') : (!$id ? 'Create' : (ag_handoff_can_update($id, $key) ? 'Update unchanged record' : 'Preserve your edits / trash'));
+            echo '<tr><td>' . esc_html($title) . '</td><td>' . esc_html($action);
             if ($id) { echo ' · <a href="' . esc_url(get_edit_post_link($id)) . '">Open record</a>'; } echo '</td></tr>';
         }
     }

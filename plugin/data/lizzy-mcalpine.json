@@ -1,0 +1,580 @@
+{
+  "schema_version": "afterglow.research.v1",
+  "research_date": "2026-10-31",
+  "selection": {
+    "type": "curated",
+    "description": "Ten editorially curated catalogue-backed starter tracks; not a Spotify Popular ranking.",
+    "ranking_basis": null,
+    "market": null,
+    "retrieved_at": null,
+    "source_ids": [
+      "src-001"
+    ],
+    "limitations": [
+      "No Spotify Popular ranking asserted.",
+      "Unverified original release dates and Spotify recording URLs remain null.",
+      "Some catalogue and collaboration credits require editorial review."
+    ]
+  },
+  "artist": {
+    "slug": "lizzy-mcalpine",
+    "name": "Lizzy McAlpine",
+    "full_name": "Elizabeth Catherine McAlpine",
+    "country": "United States",
+    "place_of_origin": "Philadelphia, Pennsylvania",
+    "short_description": "Lizzy McAlpine is an Afterglow discovery artist in the broader emotional-pop and songwriter catalogue.",
+    "biography": "Lizzy McAlpine is an American singer-songwriter associated with detailed storytelling, acoustic arrangements and an increasingly expansive alternative-pop and folk sound. She released Give Me a Minute in 2020, then reached a wider audience through 2022's five seconds flat and the renewed attention around 'ceilings.' The 2024 album Older represented a deliberate change in her recording and performance priorities, emphasizing a more live, organic atmosphere and lyrics that look at personal responsibility as well as hurt. Her later catalogue includes Older (and Wiser) and the 2026 album Angel. In interviews, McAlpine has discussed both the mixed experience of a viral song and the importance of making music that feels personally authentic. Her comments on 'ceilings' specifically connect the song to the memory of an ended relationship. For Afterglow, this is a particularly suitable bridge between quiet singer-songwriter material and the heightened storytelling of emotional pop. The curated songs here draw from several album eras; track-specific release dates should be distinguished from reissues, album placements and viral rediscovery.",
+    "spotify_url": "https://open.spotify.com/artist/1GmsPCcpKgF9OhlNXjOsbS",
+    "official_website": "https://www.lizzymcalpine.com/",
+    "social_profiles": [],
+    "genres": [
+      "indie folk",
+      "singer-songwriter",
+      "emotional pop"
+    ],
+    "moods": [
+      "reflective",
+      "vulnerable"
+    ],
+    "career_milestones": [],
+    "similar_artists": [
+      {
+        "name": "Gracie Abrams",
+        "explanation": "Afterglow editorial similarity, based on neighbouring songwriter-pop audience and themes; not an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Gabrielle Aplin",
+        "explanation": "Afterglow editorial similarity, based on neighbouring songwriter-pop audience and themes; not an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      },
+      {
+        "name": "Holly Humberstone",
+        "explanation": "Afterglow editorial similarity, based on neighbouring songwriter-pop audience and themes; not an artist endorsement.",
+        "attribution": "editorial",
+        "basis_source_ids": []
+      }
+    ],
+    "image": {
+      "use_placeholder": true,
+      "url": null,
+      "license": null,
+      "credit": null,
+      "permission_source_ids": []
+    },
+    "supported_claims": [
+      {
+        "field": "name",
+        "claim": "Lizzy McAlpine is the intended performing artist identity.",
+        "source_ids": [
+          "src-001"
+        ]
+      },
+      {
+        "field": "biography",
+        "claim": "Original editorial career synopsis based on these cited sources; verify claim-by-claim before publication.",
+        "source_ids": [
+          "src-001",
+          "src-002",
+          "src-003",
+          "src-004",
+          "src-005"
+        ]
+      },
+      {
+        "field": "spotify_url",
+        "claim": "Spotify artist identity from matched Spotify / track sources, where available; null means unverified.",
+        "source_ids": [
+          "src-001"
+        ]
+      }
+    ],
+    "uncertainties": [
+      "A commercially reusable photograph was not licensed; use abstract artwork.",
+      "Artist biography is a sourced starter draft requiring copy-edit and detailed verification."
+    ]
+  },
+  "songs": [
+    {
+      "slug": "ceilings",
+      "title": "ceilings",
+      "artist_slug": "lizzy-mcalpine",
+      "artist_credits": [
+        "Lizzy McAlpine"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Song has an attributable artist explanation; do not generalize beyond the documented statement.",
+      "editorial_notes_basis": "catalogue listing and attributable artist statement",
+      "editorial_notes_source_ids": [
+        "src-001",
+        "src-004"
+      ],
+      "artist_statement_paraphrase": "McAlpine described the song as looking back on a relationship that had ended, remembering what felt good while acknowledging the separation.",
+      "artist_statement_source_ids": [
+        "src-004"
+      ],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "doomsday",
+      "title": "doomsday",
+      "artist_slug": "lizzy-mcalpine",
+      "artist_credits": [
+        "Lizzy McAlpine"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "erase-me-feat-jacob-collier",
+      "title": "erase me (feat. Jacob Collier)",
+      "artist_slug": "lizzy-mcalpine",
+      "artist_credits": [
+        "Lizzy McAlpine",
+        "Jacob Collier"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "all-my-ghosts",
+      "title": "all my ghosts",
+      "artist_slug": "lizzy-mcalpine",
+      "artist_credits": [
+        "Lizzy McAlpine"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "older",
+      "title": "older",
+      "artist_slug": "lizzy-mcalpine",
+      "artist_credits": [
+        "Lizzy McAlpine"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "staying",
+      "title": "Staying",
+      "artist_slug": "lizzy-mcalpine",
+      "artist_credits": [
+        "Lizzy McAlpine"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "pushing-it-down-and-praying",
+      "title": "Pushing It Down and Praying",
+      "artist_slug": "lizzy-mcalpine",
+      "artist_credits": [
+        "Lizzy McAlpine"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "spring-into-summer",
+      "title": "Spring Into Summer",
+      "artist_slug": "lizzy-mcalpine",
+      "artist_credits": [
+        "Lizzy McAlpine"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "pancakes-for-dinner",
+      "title": "Pancakes for Dinner",
+      "artist_slug": "lizzy-mcalpine",
+      "artist_credits": [
+        "Lizzy McAlpine"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    },
+    {
+      "slug": "apple-pie",
+      "title": "Apple Pie",
+      "artist_slug": "lizzy-mcalpine",
+      "artist_credits": [
+        "Lizzy McAlpine"
+      ],
+      "position": null,
+      "spotify_url": null,
+      "release_date": null,
+      "release_date_precision": null,
+      "release_date_context": null,
+      "release_title": null,
+      "release_type": null,
+      "short_description": null,
+      "genres": [],
+      "moods": [],
+      "themes": [],
+      "editorial_notes": "Curated catalogue candidate; song-level narrative and mood await editorial listening/research.",
+      "editorial_notes_basis": "catalogue listing only",
+      "editorial_notes_source_ids": [
+        "src-001"
+      ],
+      "artist_statement_paraphrase": null,
+      "artist_statement_source_ids": [],
+      "related_songs": [],
+      "supported_claims": [
+        {
+          "field": "title",
+          "claim": "Selected recording/title appears in performer music catalogue.",
+          "source_ids": [
+            "src-001"
+          ]
+        }
+      ],
+      "uncertainties": [
+        "Recording-specific Spotify URL not yet verified.",
+        "Original release date not reliably established."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-001",
+      "url": "https://music.apple.com/us/artist/lizzy-mcalpine/1350245112",
+      "title": "Lizzy McAlpine catalogue / artist profile",
+      "publisher": "music.apple.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "music_catalog",
+      "access_status": "read",
+      "evidence_summary": "Song titles, associated performer and public discography. For Frawley and Gabrielle Aplin this is AllMusic."
+    },
+    {
+      "id": "src-002",
+      "url": "https://musicbrainz.org/artist/ee0b11de-0c8a-4267-9886-198f4579e1db",
+      "title": "Lizzy McAlpine MusicBrainz identity",
+      "publisher": "musicbrainz.org",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "music_database",
+      "access_status": "read",
+      "evidence_summary": "Confirmed legal name and album chronology."
+    },
+    {
+      "id": "src-003",
+      "url": "https://www.lizzymcalpine.com/music/",
+      "title": "Lizzy McAlpine official music releases",
+      "publisher": "www.lizzymcalpine.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "artist_official",
+      "access_status": "read",
+      "evidence_summary": "Official album and single chronology."
+    },
+    {
+      "id": "src-004",
+      "url": "https://www.bostonglobe.com/2023/04/26/arts/lizzy-mcalpine-sings-about-heartbreak-says-we-still-look-love-need-that/",
+      "title": "Lizzy McAlpine Boston Globe interview",
+      "publisher": "www.bostonglobe.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "artist_interview",
+      "access_status": "read",
+      "evidence_summary": "McAlpine explains the source of ceilings."
+    },
+    {
+      "id": "src-005",
+      "url": "https://www.teenvogue.com/story/lizzy-mcalpine-on-getting-and-making-older-interview",
+      "title": "Lizzy McAlpine on making Older",
+      "publisher": "www.teenvogue.com",
+      "published_date": null,
+      "accessed_date": "2026-10-31",
+      "source_type": "artist_interview",
+      "access_status": "read",
+      "evidence_summary": "Creative direction of Older."
+    }
+  ],
+  "outstanding_research": [
+    {
+      "field": "song.spotify_url",
+      "status": "pending"
+    },
+    {
+      "field": "song.release_date",
+      "status": "pending"
+    },
+    {
+      "field": "song.artist_statement_paraphrase",
+      "status": "pending_optional"
+    },
+    {
+      "field": "artist.image",
+      "status": "use_placeholder"
+    }
+  ]
+}
