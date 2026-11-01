@@ -1,5 +1,7 @@
 # Listening and discovery — 29 October 2026
 
+**Layout update, 2 November 2026:** [Theme 0.3](SONG_INFORMATION_LAYOUT.md) moves listening notes and the attributed artist explanation beside Spotify, with the next-song card in the recommendations below. The interaction and recommendation behavior described here is retained; the original placement described below is historical.
+
 Core 0.7 and Theme 0.2 implement the discussed discovery direction in the existing WordPress architecture. This is a source update: no research data, featured images, rights decisions, biographies, song explanations, or publication statuses are rewritten.
 
 ## Visitor experience

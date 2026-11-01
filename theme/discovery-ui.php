@@ -1,6 +1,35 @@
 <?php
 defined('ABSPATH') || exit;
 
+function ag_song_story_sections($content, $is_research = false) {
+    // Separate presentation only: render the current editor content, never the
+    // imported JSON, so later editorial changes remain visible without a reimport.
+    $sections = ['listening' => $content, 'research' => ''];
+    if (!$is_research || !class_exists('DOMDocument')) { return $sections; }
+    $document = new DOMDocument('1.0', 'UTF-8');
+    $previous = libxml_use_internal_errors(true);
+    $loaded = $document->loadHTML('<?xml encoding="UTF-8"><div id="ag-song-story">' . $content . '</div>', LIBXML_NONET);
+    libxml_clear_errors();
+    libxml_use_internal_errors($previous);
+    $root = $loaded ? $document->getElementById('ag-song-story') : null;
+    if (!$root) { return $sections; }
+    $sections = ['listening' => '', 'research' => ''];
+    $section = 'listening';
+    foreach ($root->childNodes as $node) {
+        $text = trim(preg_replace('/\s+/u', ' ', $node->textContent));
+        if ($node->nodeName === 'h2') {
+            if ($text === 'Listening notes') { $section = 'listening'; continue; }
+            if (in_array($text, ['Release information', 'Research notes'], true)) { $section = 'research'; }
+        }
+        $metadata = $node->nodeName === 'p' && (
+            preg_match('/^Basis:\s/u', $text) ||
+            str_starts_with($text, 'Based on the supplied research dated ')
+        );
+        $sections[$metadata ? 'research' : $section] .= $document->saveHTML($node);
+    }
+    return $sections;
+}
+
 function ag_song_listening_panel($id) {
     $artist = absint(ag_meta('artist_id', $id));
     $photo = $artist && get_post_status($artist) === 'publish' && function_exists('ag_media_credit') && ag_media_credit($artist);
@@ -44,7 +73,9 @@ function ag_next_discovery($context) {
 function ag_discovery_panel($context) {
     if (!$context) { return; }
     $count = count($context['results']); $filtered = isset($_GET['ag_feeling']) || isset($_GET['ag_theme']);
-    echo '<section class="discovery-explore section" id="discover-more" aria-labelledby="discovery-heading"><div class="discovery-heading"><div><p class="eyebrow">FOLLOW YOUR CURIOSITY</p><h2 id="discovery-heading">Where do you want to go next?</h2><p>Stay with a feeling, follow a theme, or meet another artist.</p></div></div><details class="discovery-controls"' . ($filtered ? ' open' : '') . '><summary>Change the feeling or theme ' . ag_icon('arrow') . '</summary><form class="discovery-form" action="' . esc_url(get_permalink($context['current']['id'])) . '#discover-more" method="get">';
+    echo '<section class="discovery-explore section" id="discover-more" aria-labelledby="discovery-heading"><div class="discovery-heading"><div><p class="eyebrow">FOLLOW YOUR CURIOSITY</p><h2 id="discovery-heading">Where do you want to go next?</h2><p>Stay with a feeling, follow a theme, or meet another artist.</p></div>';
+    ag_next_discovery($context);
+    echo '</div><details class="discovery-controls"' . ($filtered ? ' open' : '') . '><summary>Change the feeling or theme ' . ag_icon('arrow') . '</summary><form class="discovery-form" action="' . esc_url(get_permalink($context['current']['id'])) . '#discover-more" method="get">';
     if ($context['trail']) { echo '<input type="hidden" name="ag_trail" value="' . esc_attr(implode(',', $context['trail'])) . '">'; }
     foreach (['feeling' => 'moods', 'theme' => 'themes'] as $filter => $field) {
         echo '<div class="discovery-field"><label for="discovery-' . $filter . '">' . ucfirst($filter) . '</label><select id="discovery-' . $filter . '" name="ag_' . $filter . '">';

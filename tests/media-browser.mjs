@@ -69,7 +69,8 @@ try{
  await page.setViewportSize({width:390,height:844});
  for(const path of ['/artists/','/artists/shy-martin/','/songs/hurts-so-good/','/media-credits/']){await page.goto(new URL(path,base).href);check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'No mobile overflow');}
  await page.goto(catalog.songs[0].url);const mobileMedia=await page.locator('.spotify-player').boundingBox(),mobileIntro=await page.locator('.song-introduction').boundingBox(),mobileNext=await page.locator('.next-discovery').boundingBox();
- check(mobileMedia.y>=mobileIntro.y+mobileIntro.height&&mobileMedia.y+mobileMedia.height<=mobileNext.y,'Mobile order is introduction, listening, then next discovery');
+ const mobileNotes=await page.locator('.song-insights').boundingBox();
+ check(mobileMedia.y>=mobileIntro.y+mobileIntro.height&&mobileMedia.y+mobileMedia.height<=mobileNotes.y&&mobileNotes.y+mobileNotes.height<=mobileNext.y,'Mobile order is introduction, listening, song information, then next discovery');
  await page.locator('.spotify-load').click();await page.frameLocator('.spotify-player iframe').locator('body').waitFor();
  check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Loaded mobile player has no horizontal overflow');
  await page.goto(new URL('/artists/shy-martin/',base).href);await page.screenshot({path:'test-results/media-artist-mobile.png',fullPage:true});

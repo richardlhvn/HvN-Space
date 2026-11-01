@@ -16,7 +16,12 @@ try {
  check(await page.locator('.listening-portrait img').evaluate(async img=>{await img.decode();return img.naturalWidth>0;}),'Licensed preview photo must decode');
  check((await page.locator('.listening-photo-credit').textContent()).includes('CC BY-SA 4.0'),'ShareAlike attribution must accompany the portrait');
  check(await page.locator('iframe').count()===0&&external.length===0,'No Spotify or other third-party resource before choice');
- check((await page.locator('.next-discovery').boundingBox()).y<1050,'Next discovery must appear in the initial desktop viewport');
+ const hero=await page.locator('.song-discovery-hero').boundingBox(),insights=await page.locator('.song-insights').boundingBox(),listen=await page.locator('.song-listening-panel').boundingBox();
+ check(insights.x>listen.x&&insights.y<listen.y+listen.height,'Listening notes and artist explanation sit beside the listening panel');
+ check((await page.locator('.next-discovery').boundingBox()).y>=hero.y+hero.height,'Next discovery follows the song information');
+ check(await page.locator('.song-insights #listening-notes-heading').count()===1&&await page.locator('.song-insights #artist-words-heading').count()===1,'Both song-information sections appear in the main view');
+ check((await page.locator('.song-insights').textContent()).includes('The artist said the song revisits a past relationship'),'The current attributed artist paraphrase appears beside the player');
+ check(!/Release information|Based on the supplied research|No independent audio listening is claimed/.test(await page.locator('.song-insights').textContent()),'Research and basis details stay outside the main song information');
  check(await page.locator('.next-artist a').getAttribute('href')!==await page.locator('.artist-byline').getAttribute('href'),'A matching different artist is featured');
  check((await page.locator('.discovery-results').boundingBox()).y<(await page.locator('.song-story').boundingBox()).y,'Suggestions precede the longer research notes');
  await page.locator('.volume-help summary').click();
@@ -31,6 +36,7 @@ try {
  check(!((await page.locator('iframe').getAttribute('src')).includes('autoplay')),'No autoplay parameter is added');
  check(await page.locator('.spotify-player>.fine-print a').isVisible(),'Direct fallback stays usable when the embed is blocked');
  await page.evaluate(()=>window.testSpotifyFrame=document.querySelector('.spotify-player iframe'));
+ await page.evaluate(()=>window.testSongInsights=document.querySelector('.song-insights'));
  await page.locator('.song-discovery-actions [data-discovery-open]').click();
  check(await page.locator('.discovery-controls').evaluate(d=>d.open),'Find another song opens the inline controls');
  check(await page.locator('#discovery-feeling').evaluate(e=>e===document.activeElement),'Opening controls gives keyboard users a useful focus target');
@@ -43,6 +49,7 @@ try {
  check(await page.locator('.discovery-card').count()>0,'Selecting hopeful produces real matching suggestions');
  for(const reason of await page.locator('.discovery-card .discovery-reason').allTextContents()){check(/hopeful/i.test(reason),'Reasons reflect the selected feeling');}
  check(await page.evaluate(()=>window.testSpotifyFrame===document.querySelector('.spotify-player iframe')),'Filtering must not replace the loaded Spotify iframe');
+ check(await page.evaluate(()=>window.testSongInsights===document.querySelector('.song-insights')),'Filtering preserves the song-information sections');
  check(new URL(page.url()).searchParams.get('ag_feeling')==='hopeful','Filter state remains in the shareable page URL');
  const save=page.locator('.discovery-card [data-save]').first(),savedId=await save.getAttribute('data-save');await save.click();
  check(await save.getAttribute('aria-pressed')==='true','Suggested songs can be saved');
@@ -66,14 +73,19 @@ try {
  check(await page.locator('.spotify-load,iframe').count()===0,'A missing track link never produces a fake listening player');
  check((await page.locator('.song-listening-fallback .spotify-button').getAttribute('href')).startsWith('https://open.spotify.com/artist/'),'Missing track retains its verified artist-profile fallback');
  await page.screenshot({path:'test-results/discovery-abstract-desktop.png',fullPage:true});
+ await page.goto(new URL('/songs/rosie-never-the-1/',base).href);
+ check((await page.locator('.song-artist-statement').textContent()).includes('No verified artist explanation'),'A missing artist statement has an honest main-view empty state');
+ check(await page.locator('.song-artist-statement .attribution-label').count()===0,'An unfinished statement never receives an attribution label');
+ check((await page.locator('.song-review-status').textContent()).includes('Research starter'),'The main view retains the starter research status');
+ check((await page.locator('.song-story').textContent()).includes('Original release date unverified'),'Unresolved research questions remain below the recommendations');
  await page.goto(new URL(song+'?ag_feeling[]=hopeful&ag_theme=%3Cscript%3Ealert(1)%3C/script%3E',base).href);
  check((await page.locator('.discovery-status').textContent()).includes('unavailable'),'Malformed filters are handled as safe defaults');
  for(const width of [320,390,768]){
   await page.setViewportSize({width,height:844});await page.goto(new URL(song,base).href);
   check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`No page overflow at ${width}px`);
   if(width===390){
-   const intro=await page.locator('.song-introduction').boundingBox(),listen=await page.locator('.song-listening-panel').boundingBox(),next=await page.locator('.next-discovery').boundingBox();
-   check(intro.y+intro.height<=listen.y&&listen.y+listen.height<=next.y,'Mobile order is introduction, listening, then next discovery');
+   const intro=await page.locator('.song-introduction').boundingBox(),listen=await page.locator('.song-listening-panel').boundingBox(),notes=await page.locator('.song-insights').boundingBox(),next=await page.locator('.next-discovery').boundingBox();
+   check(intro.y+intro.height<=listen.y&&listen.y+listen.height<=notes.y&&notes.y+notes.height<=next.y,'Mobile order is introduction, listening, song information, then next discovery');
    await page.screenshot({path:'test-results/discovery-mobile.png',fullPage:true});
    await page.locator('.spotify-load').focus();await page.keyboard.press('Enter');
    check(await page.locator('iframe').count()===1&&await page.locator('.spotify-preview').isHidden(),'Keyboard listening activation works on mobile');

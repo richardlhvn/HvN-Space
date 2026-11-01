@@ -50,6 +50,17 @@
 .song-listening-fallback .spotify-button{width:100%}
 .song-discovery-hero{align-items:start}
 .song-introduction>.eyebrow{color:#705679;margin-top:8px;margin-bottom:16px;font-size:9px}
+.song-insights{margin-top:26px;border-top:1px solid var(--line);padding-top:23px}
+.song-insights h2{font-size:28px;letter-spacing:-.03em;margin-bottom:10px}
+.song-insights .meaning-label{font-size:11px;margin:0 0 10px}
+.song-listening-notes>.fine-print{font-size:10px;line-height:1.7}
+.song-listening-notes>.prose{margin-top:14px;font-size:14px;line-height:1.85}
+.song-listening-notes>.prose>:first-child{margin-top:0}
+.song-listening-notes>.prose>:last-child{margin-bottom:0}
+.song-artist-statement.profile-section{margin-top:22px;padding-top:20px;font-size:13px;line-height:1.85}
+.song-artist-statement .attribution-label{margin-top:0;margin-bottom:9px;font-size:10px}
+.song-citation-link{display:inline-block;margin-top:10px;font-size:11px;text-decoration:underline;text-underline-offset:3px}
+.song-citation-link:hover{color:var(--purple)}
 .next-discovery{margin-top:27px;padding:22px 24px;border-left:3px solid #8b7490;background:#eee9ee;border-radius:0 6px 6px 0}
 .next-discovery>.eyebrow{font-size:9px;color:#705679;margin-bottom:10px}
 .next-discovery h2{font-size:30px;letter-spacing:-.035em;overflow-wrap:anywhere}
@@ -63,7 +74,9 @@
 .song-discovery-actions>.text-link{font-size:11px}
 .song-review-status{display:inline-block;margin-top:18px;font-size:11px;color:var(--muted);text-decoration:underline;text-underline-offset:3px}
 .discovery-explore{border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:26px}
-.discovery-heading h2{font-size:40px;margin-top:12px}
+.discovery-heading{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:40px}
+.discovery-heading>.next-discovery{margin-top:0}
+.discovery-heading>div h2{font-size:40px;margin-top:12px}
 .discovery-heading>div>p:not(.eyebrow){font-size:14px;color:var(--muted);margin-top:14px}
 .discovery-controls{margin-top:24px;padding:18px 22px;border:1px solid var(--line);border-radius:6px;background:#fffcf8}
 .discovery-controls>summary{display:flex;justify-content:space-between;align-items:center;gap:15px;font-size:13px;cursor:pointer;list-style:none}
@@ -92,6 +105,8 @@
 .discovery-empty h3{font-family:var(--serif);font-size:28px}
 .discovery-empty p{font-size:14px;margin:12px 0}
 .song-story{max-width:840px;margin-inline:auto;padding:35px 0 75px}
+.song-story>.eyebrow{font-size:9px;color:#705679;margin-bottom:12px}
+.song-story>h2{font-size:34px}
 .song-story>.prose{margin-top:28px}
 .song-story>.recording-credits{margin-top:24px}
 @media(max-width:900px){.discovery-results{gap:14px}.discovery-card{padding:20px}.discovery-card h3{font-size:25px}.discovery-form{flex-wrap:wrap}.discovery-form>.button{flex-basis:100%}}
@@ -99,7 +114,7 @@
  .song-profile .profile-art-column{display:block;order:1}
  .song-profile .profile-copy{display:contents}
  .song-introduction{order:0}
- .song-profile .next-discovery{order:2;margin-top:0}
+ .song-insights{order:2;margin-top:0}
  .song-profile .song-discovery-actions{order:3;margin-top:0}
  .song-profile .song-review-status{order:4;margin-top:0}
  .song-listening-panel{padding:20px}
@@ -111,7 +126,8 @@
  .song-discovery-actions>.button{width:100%;font-size:11px;justify-content:space-between}
  .song-review-status{font-size:10px}
  .discovery-explore{margin-top:16px;padding-block:35px}
- .discovery-heading h2{font-size:32px}
+ .discovery-heading{grid-template-columns:1fr;gap:25px}
+ .discovery-heading>div h2{font-size:32px}
  .discovery-heading>div>p:not(.eyebrow){font-size:12px}
  .discovery-controls{padding:16px}
  .discovery-form{gap:14px}

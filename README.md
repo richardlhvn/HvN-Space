@@ -1,5 +1,7 @@
 # Afterglow
 
+**Theme 0.3 — song information first:** [Listening notes and attributed artist explanations](docs/SONG_INFORMATION_LAYOUT.md) now sit beside the Spotify player, followed by recommendations, with research details and citations below. Update only the theme for this layout change; no data reimport is needed.
+
 A working WordPress MVP for independent emotional-pop discovery. The name is a starting point: change it in **Settings → General**, and change the site’s tagline and public contact email in **Appearance → Customize → Afterglow identity**.
 
 The site includes a designed homepage, artist and song directories, name/genre/mood/country filters, individual profiles, manually curated relationships, global search, an editorial journal, and a collection saved in the visitor’s browser. No music, downloaded album covers, analytics, or advertisements are bundled. Six separately licensed artist photographs are included with their own attribution and license records; forty-seven artists retain abstract placeholders.
