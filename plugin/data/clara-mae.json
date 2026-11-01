@@ -668,7 +668,19 @@
       ],
       "uncertainties": [
         "No song-specific lyric meaning sourced; KREAM interview only explains production."
-      ]
+      ],
+      "about_song": "KREAM described building the electronic production of Taped Up Heart remotely around a vocal submitted by Clara Mae.",
+      "about_song_type": [
+        "collaboration",
+        "creative-process"
+      ],
+      "about_song_source_ids": [
+        "src-007"
+      ],
+      "about_song_source_urls": [
+        "https://splice.com/blog/kream-producing-collaborating-taped-up-heart/"
+      ],
+      "about_song_attribution": "artist_statement"
     },
     {
       "slug": "loved-you-once",

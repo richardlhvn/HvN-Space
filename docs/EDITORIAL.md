@@ -18,6 +18,8 @@ Save a draft, preview it, and verify the layout and links before publishing. Rev
 
 ## Songs
 
+**Current workflow:** [About the Song](ABOUT_THE_SONG.md) accepts meaning, collaboration, creative process, artist feelings, inspiration, background or other verified facts. Use the optional About fields in the editorial details panel; categories may overlap and stay metadata. Cite the exact supporting sources and distinguish artist statements, reporting and Afterglow interpretation. Leave the narrative blank if evidence is unavailable: the frontend hides the empty section. The older meaning/artist-statement fields described below remain supported for backward compatibility.
+
 Create the artist first, then open **Songs → Add Song** and select that artist. Add the title, original excerpt, and main listening notes in the editor. Choose moods/genres and add the following:
 
 - A verified Spotify track URL, or leave it blank for labeled search. Canonical `/track/…` and `/artist/…` URLs are accepted; remove tracking parameters if desired. No music is uploaded or downloaded.

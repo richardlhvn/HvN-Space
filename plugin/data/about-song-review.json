@@ -1,0 +1,25 @@
+{
+  "schema_version": "afterglow.about-review.v1",
+  "review_date": "2026-11-02",
+  "proposals": [
+    {
+      "artist_slug": "shy-martin",
+      "song_slug": "forget-to-forget",
+      "status": "source_verification_pending",
+      "about_song": "SHY Martin described repeatedly returning to a relationship despite knowing it was a bad idea; the positive moments made it difficult for both people to recognize why they should not be together.",
+      "about_song_type": ["song-meaning", "artist-feelings"],
+      "about_song_source_urls": ["https://www.billboard.com/music/pop/shy-martin-forget-to-forget-video-8459467/"],
+      "about_song_attribution": "artist_statement",
+      "provenance": "Paraphrased from the owner's 2 November request; not independently verified against the article.",
+      "blocker": "Source request failed at the environment proxy with CONNECT 403. Not imported or displayed as an established artist statement."
+    },
+    {
+      "artist_slug": "clara-mae",
+      "song_slug": "taped-up-heart-feat-clara-mae",
+      "status": "additional_detail_verification_pending",
+      "proposal": "Check Clara Mae's comments about the piano-and-vocal demo and her impressions of KREAM.",
+      "source_url": "https://www.euphoriazine.com/blog/2018/11/interviews-clara-mae-interview/",
+      "blocker": "Proxy CONNECT 403; retain the narrower producer-interview-backed background already in the supplied research."
+    }
+  ]
+}

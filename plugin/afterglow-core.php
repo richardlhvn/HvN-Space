@@ -2,12 +2,13 @@
 /**
  * Plugin Name: Afterglow Core
  * Description: Artist and song records, curated relationships, and source-aware editorial fields.
- * Version: 0.8.0
+ * Version: 0.9.0
  * Requires at least: 6.6
  * Requires PHP: 8.1
  * License: GPL-2.0-or-later
  */
 defined('ABSPATH') || exit;
+require_once __DIR__ . '/about-song.php';
 require_once __DIR__ . '/research-collections.php';
 require_once __DIR__ . '/research-handoffs.php';
 require_once __DIR__ . '/media-sync.php';
@@ -62,7 +63,12 @@ function ag_field_definitions($type) {
             'credits' => ['label' => 'Recording artist credits (include collaborators)', 'type' => 'text'],
             'release' => ['label' => 'Verified release date (YYYY-MM-DD; cite a source)', 'type' => 'date'],
             'themes' => ['label' => 'Lyrical themes (editorial tags, comma separated)', 'type' => 'text'],
-            'meaning_type' => ['label' => 'Meaning attribution', 'type' => 'meaning'],
+            'about_song' => ['label' => 'About the Song (optional original narrative; meaning, creation, collaboration or documented background)', 'type' => 'textarea'],
+            'about_song_type' => ['label' => 'About the Song categories (comma/newline separated: song-meaning, creative-process, artist-feelings, collaboration, inspiration, song-background, interesting-facts)', 'type' => 'textarea'],
+            'about_song_source_ids' => ['label' => 'About the Song source IDs (one per line; scoped to this artist’s source registry)', 'type' => 'textarea'],
+            'about_song_source_urls' => ['label' => 'About the Song source URLs (one HTTPS URL per line; verify the exact supporting passage)', 'type' => 'textarea'],
+            'about_song_attribution' => ['label' => 'About the Song attribution (mixed narratives must name the speaker/source in each paragraph)', 'type' => 'about_attribution'],
+            'meaning_type' => ['label' => 'Legacy artist-statement attribution (preserved for older research)', 'type' => 'meaning'],
             'artist_comment' => ['label' => 'Sourced artist statement (short paraphrase; link the original interview in Sources)', 'type' => 'textarea'],
             'related' => ['label' => 'Similar songs', 'type' => 'song_multiple'],
         ];
@@ -97,8 +103,8 @@ function ag_editor_fields($post) {
             echo '<textarea rows="3" style="width:100%" id="ag-' . esc_attr($key) . '" name="' . esc_attr($name) . '">' . esc_textarea($value) . '</textarea>';
         } elseif ($field['type'] === 'checkbox') {
             echo '<input type="checkbox" id="ag-' . esc_attr($key) . '" name="' . esc_attr($name) . '" value="1" ' . checked($value, '1', false) . '> Keep checked until fact-checking and rights review are complete.';
-        } elseif (in_array($field['type'], ['meaning', 'palette'], true)) {
-            $choices = $field['type'] === 'meaning' ? ['editorial' => 'Editorial interpretation (not an artist statement)', 'sourced' => 'Artist explanation — original source required'] : ['lilac' => 'Lilac', 'rose' => 'Rose', 'sage' => 'Sage', 'sand' => 'Sand', 'blue' => 'Blue', 'peach' => 'Peach'];
+        } elseif (in_array($field['type'], ['meaning', 'palette', 'about_attribution'], true)) {
+            $choices = $field['type'] === 'about_attribution' ? ['' => 'Choose when adding a new narrative', 'artist_statement' => 'Artist statement — paraphrased', 'third_party_reporting' => 'Third-party reporting', 'afterglow_editorial' => 'Afterglow editorial interpretation', 'mixed' => 'Mixed — identify attribution in each paragraph'] : ($field['type'] === 'meaning' ? ['editorial' => 'Editorial interpretation (not an artist statement)', 'sourced' => 'Artist explanation — original source required'] : ['lilac' => 'Lilac', 'rose' => 'Rose', 'sage' => 'Sage', 'sand' => 'Sand', 'blue' => 'Blue', 'peach' => 'Peach']);
             echo '<select id="ag-' . esc_attr($key) . '" name="' . esc_attr($name) . '">';
             foreach ($choices as $v => $label) { echo '<option value="' . esc_attr($v) . '" ' . selected($value, $v, false) . '>' . esc_html($label) . '</option>'; }
             echo '</select>';
@@ -126,6 +132,9 @@ add_action('save_post', function ($id, $post) {
     $input = isset($_POST['ag']) && is_array($_POST['ag']) ? wp_unslash($_POST['ag']) : [];
     foreach (ag_field_definitions($post->post_type) as $key => $field) {
         $raw = $input[$key] ?? '';
+        // Merely opening/saving an older record must not create an explicit
+        // blank override that suppresses its backwards-compatible mapping.
+        if (in_array($key, ag_about_fields(), true) && !metadata_exists('post', $id, '_ag_' . $key) && empty($raw)) { continue; }
         if (str_contains($field['type'], '_multiple') || str_contains($field['type'], '_single')) {
             $target = explode('_', $field['type'])[0];
             $ids = array_unique(array_filter(array_map('absint', (array) $raw), function ($related) use ($target, $id) { return $related !== $id && get_post_type($related) === $target; }));
@@ -139,6 +148,10 @@ add_action('save_post', function ($id, $post) {
             if ($field['type'] === 'checkbox') { $value = $raw === '1' ? '1' : ''; }
             if ($key === 'palette' && !in_array($value, ['lilac', 'rose', 'sage', 'sand', 'blue', 'peach'], true)) { $value = 'lilac'; }
             if ($key === 'meaning_type') { $value = $value === 'sourced' ? 'sourced' : 'editorial'; }
+            if ($key === 'about_song_attribution') { $value = in_array($value, ag_about_attributions(), true) ? $value : ''; }
+            if ($key === 'about_song_type') { $value = implode("\n", array_intersect(ag_about_values($raw), ag_about_types())); }
+            if ($key === 'about_song_source_ids') { $value = implode("\n", array_map('sanitize_text_field', ag_about_values($raw))); }
+            if ($key === 'about_song_source_urls') { $value = implode("\n", array_filter(ag_about_values($raw), 'ag_about_https')); }
             if ($key === 'release' && $value) {
                 $date = DateTime::createFromFormat('!Y-m-d', $value);
                 if (!$date || $date->format('Y-m-d') !== $value) { $value = ''; }

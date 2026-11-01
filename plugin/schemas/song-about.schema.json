@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:afterglow:song-about:v1",
+  "title": "Optional About the Song extension for afterglow.research.v1 song records",
+  "type": "object",
+  "properties": {
+    "about_song": {"type": ["string", "null"]},
+    "about_song_type": {
+      "type": "array", "uniqueItems": true,
+      "items": {"enum": ["song-meaning", "creative-process", "artist-feelings", "collaboration", "inspiration", "song-background", "interesting-facts"]}
+    },
+    "about_song_source_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "about_song_source_urls": {"type": "array", "uniqueItems": true, "items": {"type": "string", "format": "uri", "pattern": "^https://"}},
+    "about_song_attribution": {"enum": ["artist_statement", "third_party_reporting", "afterglow_editorial", "mixed", "", null]}
+  },
+  "allOf": [
+    {
+      "if": {"anyOf": [{"required": ["about_song_type"]}, {"required": ["about_song_source_ids"]}, {"required": ["about_song_source_urls"]}, {"required": ["about_song_attribution"]}]},
+      "then": {"required": ["about_song"]}
+    },
+    {
+      "if": {"required": ["about_song"], "properties": {"about_song": {"type": "string", "minLength": 1}}},
+      "then": {
+        "required": ["about_song_attribution"],
+        "properties": {"about_song_attribution": {"enum": ["artist_statement", "third_party_reporting", "afterglow_editorial", "mixed"]}},
+        "allOf": [{
+          "if": {"properties": {"about_song_attribution": {"enum": ["artist_statement", "third_party_reporting", "mixed"]}}},
+          "then": {"required": ["about_song_source_ids"], "properties": {"about_song_source_ids": {"minItems": 1}}}
+        }]
+      }
+    }
+  ],
+  "additionalProperties": true,
+  "$comment": "Source IDs must resolve within the same artist package; factual imports require usable read sources, matching URLs and original evidence. Runtime/Python validators enforce these cross-record rules. Existing research fields remain untouched."
+}

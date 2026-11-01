@@ -1,5 +1,7 @@
 # Song information layout — 2 November 2026
 
+**Superseded editorial section:** [Core 0.9 / Theme 0.4 — About the Song](ABOUT_THE_SONG.md) now combines supported song information into one optional narrative. Its update requires both plugin and theme, with an additive two-song background update. The placement and interaction work described below is retained; the two separate information headings are historical.
+
 Theme **0.3.0** puts the current song's listening notes and attributed artist explanation beside the Spotify listening panel. Recommendations immediately follow this main section; release context, research questions, the full review notice and source citations come afterwards. The small research-status link remains visible in the main view.
 
 The main view distinguishes **Afterglow interpretation** from **Artist statement · editorial paraphrase, not a direct quotation**. Missing supported artist comments have an explicit empty state. The existing importer continues to withhold unconfirmed transcript-only statements and interpretations from reviewers. The supporting-sources link jumps to the citations below.

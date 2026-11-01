@@ -52,13 +52,13 @@
 .song-introduction>.eyebrow{color:#705679;margin-top:8px;margin-bottom:16px;font-size:9px}
 .song-insights{margin-top:26px;border-top:1px solid var(--line);padding-top:23px}
 .song-insights h2{font-size:28px;letter-spacing:-.03em;margin-bottom:10px}
-.song-insights .meaning-label{font-size:11px;margin:0 0 10px}
-.song-listening-notes>.fine-print{font-size:10px;line-height:1.7}
-.song-listening-notes>.prose{margin-top:14px;font-size:14px;line-height:1.85}
-.song-listening-notes>.prose>:first-child{margin-top:0}
-.song-listening-notes>.prose>:last-child{margin-bottom:0}
-.song-artist-statement.profile-section{margin-top:22px;padding-top:20px;font-size:13px;line-height:1.85}
-.song-artist-statement .attribution-label{margin-top:0;margin-bottom:9px;font-size:10px}
+.song-about>.prose{margin-top:14px;font-size:14px;line-height:1.85}
+.song-about>.prose>:first-child{margin-top:0}
+.song-about>.prose>:last-child{margin-bottom:0}
+.song-about .about-attribution{margin:0;font-size:11px;line-height:1.7;color:var(--muted)}
+.about-source-links{list-style:none;padding:0;margin:12px 0 0;font-size:11px;line-height:1.8;overflow-wrap:anywhere}
+.about-source-links li+li{margin-top:6px}
+.about-source-links a{text-decoration:underline;text-underline-offset:3px}
 .song-citation-link{display:inline-block;margin-top:10px;font-size:11px;text-decoration:underline;text-underline-offset:3px}
 .song-citation-link:hover{color:var(--purple)}
 .next-discovery{margin-top:27px;padding:22px 24px;border-left:3px solid #8b7490;background:#eee9ee;border-radius:0 6px 6px 0}

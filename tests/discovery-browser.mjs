@@ -19,7 +19,7 @@ try {
  const hero=await page.locator('.song-discovery-hero').boundingBox(),insights=await page.locator('.song-insights').boundingBox(),listen=await page.locator('.song-listening-panel').boundingBox();
  check(insights.x>listen.x&&insights.y<listen.y+listen.height,'Listening notes and artist explanation sit beside the listening panel');
  check((await page.locator('.next-discovery').boundingBox()).y>=hero.y+hero.height,'Next discovery follows the song information');
- check(await page.locator('.song-insights #listening-notes-heading').count()===1&&await page.locator('.song-insights #artist-words-heading').count()===1,'Both song-information sections appear in the main view');
+ check(await page.locator('.song-insights #about-song-heading').count()===1,'One About the Song narrative appears in the main view');
  check((await page.locator('.song-insights').textContent()).includes('The artist said the song revisits a past relationship'),'The current attributed artist paraphrase appears beside the player');
  check(!/Release information|Based on the supplied research|No independent audio listening is claimed/.test(await page.locator('.song-insights').textContent()),'Research and basis details stay outside the main song information');
  check(await page.locator('.next-artist a').getAttribute('href')!==await page.locator('.artist-byline').getAttribute('href'),'A matching different artist is featured');
@@ -74,8 +74,8 @@ try {
  check((await page.locator('.song-listening-fallback .spotify-button').getAttribute('href')).startsWith('https://open.spotify.com/artist/'),'Missing track retains its verified artist-profile fallback');
  await page.screenshot({path:'test-results/discovery-abstract-desktop.png',fullPage:true});
  await page.goto(new URL('/songs/rosie-never-the-1/',base).href);
- check((await page.locator('.song-artist-statement').textContent()).includes('No verified artist explanation'),'A missing artist statement has an honest main-view empty state');
- check(await page.locator('.song-artist-statement .attribution-label').count()===0,'An unfinished statement never receives an attribution label');
+ check(await page.locator('.song-about').count()===0,'A missing supported story does not create an empty About the Song section');
+ check(await page.locator('.attribution-label').count()===0,'An unfinished statement never receives an attribution label');
  check((await page.locator('.song-review-status').textContent()).includes('Research starter'),'The main view retains the starter research status');
  check((await page.locator('.song-story').textContent()).includes('Original release date unverified'),'Unresolved research questions remain below the recommendations');
  await page.goto(new URL(song+'?ag_feeling[]=hopeful&ag_theme=%3Cscript%3Ealert(1)%3C/script%3E',base).href);

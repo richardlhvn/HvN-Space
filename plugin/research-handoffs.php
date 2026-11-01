@@ -45,6 +45,7 @@ function ag_handoff_packs() {
         $song_slugs = array_column($data['songs'], 'slug');
         if (count($song_slugs) !== count(array_unique($song_slugs))) { throw new RuntimeException('Duplicate song slug in artist package.'); }
         foreach ($data['songs'] as $song) {
+            ag_about_validate($song, $data);
             if (($song['artist_slug'] ?? '') !== $slug || !preg_match('/^[a-z0-9]+(?:-[a-z0-9]+)*$/D', $song['slug'])) { throw new RuntimeException('Invalid artist-scoped song key.'); }
             if ($song['spotify_url'] !== null) {
                 if (!preg_match('~^https://open\.spotify\.com/track/[A-Za-z0-9]{22}$~D', $song['spotify_url'])) { throw new RuntimeException('Invalid Spotify recording URL.'); }
@@ -82,6 +83,9 @@ function ag_handoff_state($id) {
     $state = ['title' => $post->post_title, 'content' => $post->post_content, 'excerpt' => $post->post_excerpt, 'status' => $post->post_status, 'meta' => [], 'terms' => []];
     foreach (ag_field_definitions($post->post_type) as $key => $field) {
         $value = (string)get_post_meta($id, '_ag_' . $key, true);
+        // Empty optional additions must not invalidate any historic import or
+        // starter baseline; nonempty values still protect editor changes.
+        if (in_array($key, ag_about_fields(), true) && $value === '' && !metadata_exists('post', $id, '_ag_' . $key)) { continue; }
         if (in_array($key, ['artist_id', 'related', 'recommended'], true)) {
             $value = array_map(function ($target) { $p = get_post(absint($target)); return $p ? $p->post_type . ':' . $p->post_name : 'missing'; }, array_filter(explode(',', $value)));
         }
@@ -144,7 +148,7 @@ function ag_handoff_sources($pack, $ids) {
 function ag_handoff_claim_ids($record) {
     $ids = [];
     foreach ($record['supported_claims'] ?? [] as $claim) { $ids = array_merge($ids, $claim['source_ids'] ?? []); }
-    return array_unique(array_merge($ids, $record['editorial_notes_source_ids'] ?? [], $record['artist_statement_source_ids'] ?? []));
+    return array_unique(array_merge($ids, $record['editorial_notes_source_ids'] ?? [], $record['artist_statement_source_ids'] ?? [], $record['about_song_source_ids'] ?? []));
 }
 function ag_handoff_links($pack, $record) {
     $lines = [];
@@ -204,6 +208,7 @@ function ag_handoff_save($id, $pack, $record, $artist, $artist_id, $publish) {
         $meta += ['artist_id' => (string)$artist_id, 'credits' => implode(', ', $record['artist_credits']), 'themes' => implode(', ', $record['themes']), 'artist_comment' => $comment, 'meaning_type' => $comment ? 'sourced' : 'editorial', 'release' => $record['release_date_precision'] === 'day' ? $record['release_date'] : ''];
     }
     foreach ($meta as $field => $value) { update_post_meta($id, '_ag_' . $field, $value); }
+    if (!$artist) { ag_about_import_meta($id, $record); }
     if (!get_post_meta($id, '_ag_palette', true)) { update_post_meta($id, '_ag_palette', $artist ? 'sand' : 'blue'); }
     foreach (['genre' => 'genres', 'mood' => 'moods'] as $tax => $field) { wp_set_object_terms($id, ag_handoff_tags($record[$field]), $tax); }
     update_post_meta($id, '_ag_handoff_key', $key);

@@ -63,8 +63,8 @@ try {
   const songTotal = Number((await page.locator('.results-heading').textContent()).match(/\d+/)[0]);
   check(songTotal >= 6 && await page.locator('.music-card').count() === Math.min(12, songTotal), 'Song directory renders its reported result count');
   await page.goto(route('/songs/coping/'));
-  check(await page.locator('.meaning-label').textContent().then(t => t.includes('Afterglow interpretation')), 'Interpretation is labeled');
-  const intentText = await page.locator('.song-artist-statement').textContent();
+  check(await page.locator('.about-attribution').textContent().then(t => t.includes('Artist statement') || t.includes('Afterglow interpretation')), 'About the Song attribution is labeled');
+  const intentText = await page.locator('.song-about').textContent();
   const attributed = await page.locator('.attribution-label').count();
   check(intentText.includes('No verified artist explanation') || (attributed === 1 && await page.locator('.source-list a').count() > 0), 'Artist commentary has attribution and sources, or missing intent is disclosed');
   check(await page.locator('.artist-byline').textContent().then(t => t.includes('Rosie Darling')), 'Song links its artist');

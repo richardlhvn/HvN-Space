@@ -849,7 +849,21 @@
       ],
       "uncertainties": [
         "No sufficiently explicit Astrid S song-meaning statement was verified; leave the artist-statement field null."
-      ]
+      ],
+      "about_song": "In an interview about I Don't Know Why, NOTD described how their collaboration with Astrid S came together and how she recorded the vocal topline. The recording pairs NOTD’s production with Astrid’s vocals.",
+      "about_song_type": [
+        "collaboration",
+        "creative-process"
+      ],
+      "about_song_source_ids": [
+        "src-035",
+        "src-023"
+      ],
+      "about_song_source_urls": [
+        "https://dancingastronaut.com/2020/05/notd-expand-on-collaboration-long-in-the-making-i-dont-know-why-qa/",
+        "https://music.apple.com/us/song/1510334388"
+      ],
+      "about_song_attribution": "artist_statement"
     },
     {
       "slug": "two-hands",
