@@ -1,5 +1,7 @@
 # Afterglow
 
+**Continuing in a new chat:** read the [complete project handoff](docs/CONTINUATION_HANDOFF_2026-11-02.md) and use the [new-chat prompt](docs/NEW_CHAT_PROMPT.md). These capture current decisions, versions, research gaps and owner preferences; old release reports below remain historical.
+
 **Theme 0.5 — artist listening panel:** [One listening panel beside the artist introduction](docs/ARTIST_LISTENING_LAYOUT.md) replaces the separate artwork/link/player blocks. Three existing starter songs appear directly below, with the complete biography and selection retained further down. Six cleared portraits move beside artist names. Update the theme only; no data reimport is needed.
 
 **Core 0.9 / Theme 0.4 — About the Song:** [meaning, creation, collaboration and sourced background](docs/ABOUT_THE_SONG.md) share one optional editorial section. Older supported artist statements map automatically; **Songs → About the Song** previews two additive background updates. Update both plugin and theme; existing records, source references and editor changes are protected. The new SHY Martin meaning proposal still needs its source checked.
