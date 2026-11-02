@@ -55,9 +55,9 @@ try {
   check(await page.locator('.editorial-notice').textContent().then(t => t.includes('demo collection') || t.includes('Research review pending')), 'Demo is labeled');
   check(await page.locator('meta[name=robots]').getAttribute('content').then(t => t.includes('noindex')), 'Demo has noindex');
   check(await page.locator('.related-grid .music-card').count() === 2, 'Curated artist relationships render');
-  const spotifyLink = page.locator('.spotify-button');
+  const spotifyLink = page.locator('.artist-listening-panel a[href^="https://open.spotify.com/"]');
   const spotifyHref = await spotifyLink.getAttribute('href');
-  check(spotifyHref.startsWith('https://open.spotify.com/search/') ? (await spotifyLink.textContent()).includes('Find on Spotify') : /^https:\/\/open\.spotify\.com\/artist\/[A-Za-z0-9]{22}$/.test(spotifyHref) && (await spotifyLink.textContent()).includes('Open in Spotify'), 'Spotify link and its label match verified artist or search fallback');
+  check(spotifyHref.startsWith('https://open.spotify.com/search/') ? (await spotifyLink.textContent()).includes('Find on Spotify') : /^https:\/\/open\.spotify\.com\/artist\/[A-Za-z0-9]{22}$/.test(spotifyHref) && (await spotifyLink.textContent()).includes('Open directly in Spotify'), 'Spotify link and its label match verified artist or search fallback');
   await page.screenshot({path:'test-results/artist-desktop.png', fullPage:true});
   await page.goto(route('/songs/'));
   const songTotal = Number((await page.locator('.results-heading').textContent()).match(/\d+/)[0]);

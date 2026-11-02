@@ -1,5 +1,7 @@
 # Afterglow
 
+**Theme 0.5 — artist listening panel:** [One listening panel beside the artist introduction](docs/ARTIST_LISTENING_LAYOUT.md) replaces the separate artwork/link/player blocks. Three existing starter songs appear directly below, with the complete biography and selection retained further down. Six cleared portraits move beside artist names. Update the theme only; no data reimport is needed.
+
 **Core 0.9 / Theme 0.4 — About the Song:** [meaning, creation, collaboration and sourced background](docs/ABOUT_THE_SONG.md) share one optional editorial section. Older supported artist statements map automatically; **Songs → About the Song** previews two additive background updates. Update both plugin and theme; existing records, source references and editor changes are protected. The new SHY Martin meaning proposal still needs its source checked.
 
 **Theme 0.3 — song information first:** [Listening notes and attributed artist explanations](docs/SONG_INFORMATION_LAYOUT.md) now sit beside the Spotify player, followed by recommendations, with research details and citations below. Update only the theme for this layout change; no data reimport is needed.

@@ -33,7 +33,7 @@ try{
   for(const photo of await page.locator('.licensed-photo img').all()){await photo.scrollIntoViewIfNeeded();check(await photo.evaluate(async image=>{await image.decode();return image.naturalWidth>0;}),'Licensed photo on paginated directory must decode');}
  }
  check(photoCount===6&&creditCount===6,'Pagination retains exactly six licensed photos, each credited');
- for(const artist of catalog.artists){await page.goto(artist.url);check(await page.locator('.curated-song-section .song-row').count()===10,'Ten curated selections per artist, including a reused duet');check(await page.locator('.profile-art.licensed-photo').count()===(artist.photo?1:0),'Six approved photos and forty-seven placeholders must match');}
+ for(const artist of catalog.artists){await page.goto(artist.url);check(await page.locator('.curated-song-section .song-row').count()===10,'Ten curated selections per artist, including a reused duet');check(await page.locator('.artist-identity-portrait.licensed-photo').count()===(artist.photo?1:0),'Six approved identity portraits and forty-seven profiles without photos must match');}
  await page.goto(new URL('/artists/shy-martin/',base).href);check((await page.locator('.art-credit').textContent()).includes('CC BY-SA 4.0'),'ShareAlike credit visible near photo');
  await page.screenshot({path:'test-results/media-artist-desktop.png',fullPage:true});
  await page.goto(new URL('/songs/sad-songs/',base).href);

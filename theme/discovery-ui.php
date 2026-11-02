@@ -1,6 +1,40 @@
 <?php
 defined('ABSPATH') || exit;
 
+function ag_artist_listening_panel($id) {
+    $url = function_exists('ag_spotify_embed_url') ? ag_spotify_embed_url($id) : '';
+    $name = get_the_title($id);
+    echo '<section class="artist-listening-panel' . ($url ? ' spotify-player' : '') . '" aria-label="' . esc_attr('Listen to ' . $name) . '"' . ($url ? ' data-spotify-embed="' . esc_url($url) . '" data-player-title="' . esc_attr('Spotify artist player: ' . $name) . '"' : '') . '><p class="eyebrow">A LITTLE CLOSER TO THE MUSIC</p><div class="artist-spotify-stage"><div class="spotify-preview artist-listening-preview">';
+    ag_art($id, 'artist-listening-art', true, true);
+    echo '<div class="artist-listening-caption"><p class="eyebrow">MEET THE ARTIST</p><p>' . esc_html($name) . '</p><span>Find your first favourite.</span></div></div>';
+    if ($url) { echo '<div class="spotify-frame-slot" aria-live="polite"></div>'; }
+    echo '</div>';
+    if ($url) {
+        echo '<div class="listening-actions"><button type="button" class="button button-dark spotify-load">' . ag_icon('play') . 'Listen to ' . esc_html($name) . '</button><details class="volume-help"><summary>' . ag_icon('volume') . '<span>Volume help</span></summary><p>Use your phone’s volume buttons or your computer’s volume controls. On Windows, Volume Mixer lets you adjust your browser separately.</p></details></div><p class="player-disclosure">Loads Spotify’s official artist player here; press play inside to listen. <a href="https://www.spotify.com/legal/privacy-policy/" target="_blank" rel="noopener noreferrer">Spotify’s privacy policy</a> applies.</p><p class="fine-print"><a href="' . esc_url(ag_meta('spotify', $id)) . '" target="_blank" rel="noopener noreferrer">Open directly in Spotify ↗</a> · This link stays available if the player cannot load.</p><noscript><p>Use the Spotify link above to listen.</p></noscript>';
+    } else {
+        echo '<div class="artist-listening-fallback">'; ag_listen($id); echo '</div>';
+    }
+    echo '<p class="artist-art-disclosure">Original Afterglow artwork · Not an artist photograph</p></section>';
+}
+
+function ag_artist_starter_note($id) {
+    $description = trim((string) get_post_field('post_excerpt', $id));
+    if ($description && !preg_match('/not yet|not established|not been established|no verified|curated (selection|candidate)|awaiting|specific autobiographical meaning/i', $description)) { return wp_trim_words($description, 28); }
+    $themes = array_slice(array_filter(array_map('trim', explode(',', ag_meta('themes', $id)))), 0, 2);
+    if ($themes) { return 'Afterglow themes: ' . implode(' · ', $themes) . '.'; }
+    $moods = ag_terms_text($id, 'mood');
+    return $moods ? 'Afterglow feelings: ' . $moods . '.' : 'A starting point from this artist’s Afterglow selection.';
+}
+
+function ag_artist_starter_songs($songs) {
+    if (!$songs) { return; }
+    echo '<section class="artist-starters section" id="artist-start" aria-labelledby="artist-starters-heading"><div class="section-heading"><div><p class="eyebrow">YOUR WAY IN</p><h2 id="artist-starters-heading">Start with these songs.</h2></div><a class="text-link" href="#artist-songs">Explore the full selection ' . ag_icon('arrow') . '</a></div><p class="section-intro">A few introductions from our curated selection.</p><div class="artist-starter-grid">';
+    foreach (array_slice($songs, 0, 3) as $index => $song) {
+        echo '<article class="artist-starter-card"><span class="artist-starter-number">' . esc_html(sprintf('%02d', $index + 1)) . '</span><h3><a href="' . esc_url(get_permalink($song)) . '">' . esc_html(get_the_title($song)) . '</a></h3><p class="artist-starter-note">' . esc_html(ag_artist_starter_note($song)) . '</p><div class="discovery-card-actions"><a class="text-link" href="' . esc_url(get_permalink($song)) . '">Explore this song ' . ag_icon('arrow') . '</a>'; ag_save_button($song); echo '</div></article>';
+    }
+    echo '</div></section>';
+}
+
 function ag_song_story_sections($content, $is_research = false) {
     // Separate presentation only: render the current editor content, never the
     // imported JSON, so later editorial changes remain visible without a reimport.
