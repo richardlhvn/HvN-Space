@@ -1,5 +1,7 @@
 # Afterglow
 
+**Download the saved continuation ZIP:** [Afterglow handoff bundle (22.6 MB)](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/handoff-download-2026-11-02/downloads/Afterglow_continuation_bundle_2026-11-02.zip). If that opens a file page, use [the GitHub file page](https://github.com/richardlhvn/HvN-Space/blob/handoff-download-2026-11-02/downloads/Afterglow_continuation_bundle_2026-11-02.zip) and click **Download raw file** (the down-arrow in the file toolbar). The download lives on a dedicated handoff branch; continue development on `main`.
+
 **Continuing in a new chat:** read the [complete project handoff](docs/CONTINUATION_HANDOFF_2026-11-02.md) and use the [new-chat prompt](docs/NEW_CHAT_PROMPT.md). These capture current decisions, versions, research gaps and owner preferences; old release reports below remain historical.
 
 **Theme 0.5 — artist listening panel:** [One listening panel beside the artist introduction](docs/ARTIST_LISTENING_LAYOUT.md) replaces the separate artwork/link/player blocks. Three existing starter songs appear directly below, with the complete biography and selection retained further down. Six cleared portraits move beside artist names. Update the theme only; no data reimport is needed.
