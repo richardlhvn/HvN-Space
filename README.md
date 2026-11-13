@@ -1,102 +1,19 @@
-# Afterglow
+# Afterglow local update — ten-artist core catalog
 
-**Download the saved continuation ZIP:** [Afterglow handoff bundle (22.6 MB)](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/handoff-download-2026-11-02/downloads/Afterglow_continuation_bundle_2026-11-02.zip). If that opens a file page, use [the GitHub file page](https://github.com/richardlhvn/HvN-Space/blob/handoff-download-2026-11-02/downloads/Afterglow_continuation_bundle_2026-11-02.zip) and click **Download raw file** (the down-arrow in the file toolbar). The download lives on a dedicated handoff branch; continue development on `main`.
+**Core 0.10.1 / Theme 0.5.1**
 
-**Continuing in a new chat:** read the [complete project handoff](docs/CONTINUATION_HANDOFF_2026-11-02.md) and use the [new-chat prompt](docs/NEW_CHAT_PROMPT.md). These capture current decisions, versions, research gaps and owner preferences; old release reports below remain historical.
+[Download the local-update ZIP](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/local-update-2026-11-13/downloads/Afterglow_local_update_Core_0.10.1_Theme_0.5.1.zip)
 
-**Theme 0.5 — artist listening panel:** [One listening panel beside the artist introduction](docs/ARTIST_LISTENING_LAYOUT.md) replaces the separate artwork/link/player blocks. Three existing starter songs appear directly below, with the complete biography and selection retained further down. Six cleared portraits move beside artist names. Update the theme only; no data reimport is needed.
+[Open the GitHub file page](downloads/Afterglow_local_update_Core_0.10.1_Theme_0.5.1.zip) and use **Download raw file** (the down-arrow) if needed.
 
-**Core 0.9 / Theme 0.4 — About the Song:** [meaning, creation, collaboration and sourced background](docs/ABOUT_THE_SONG.md) share one optional editorial section. Older supported artist statements map automatically; **Songs → About the Song** previews two additive background updates. Update both plugin and theme; existing records, source references and editor changes are protected. The new SHY Martin meaning proposal still needs its source checked.
+This branch hosts the packaged update for the existing Windows/WSL/Docker project. The ZIP contains updated `plugin`, `theme`, and helper `scripts` folders plus `LOCAL_UPDATE_README.txt` with step-by-step local instructions.
 
-**Theme 0.3 — song information first:** [Listening notes and attributed artist explanations](docs/SONG_INFORMATION_LAYOUT.md) now sit beside the Spotify player, followed by recommendations, with research details and citations below. Update only the theme for this layout change; no data reimport is needed.
+The public catalog shows ten core artists and 128 reviewed songs. The full catalog remains stored for later expansion. Artists → Public catalog controls gradual additions.
 
-A working WordPress MVP for independent emotional-pop discovery. The name is a starting point: change it in **Settings → General**, and change the site’s tagline and public contact email in **Appearance → Customize → Afterglow identity**.
+Back up your existing local database before applying. Merge the update folders into your existing project and replace matching source files. Retain `.env`, `.runtime`, uploads and Docker database volumes. Credentials and database contents are excluded from this archive. No production deployment is performed by downloading it.
 
-The site includes a designed homepage, artist and song directories, name/genre/mood/country filters, individual profiles, manually curated relationships, global search, an editorial journal, and a collection saved in the visitor’s browser. No music, downloaded album covers, analytics, or advertisements are bundled. Six separately licensed artist photographs are included with their own attribution and license records; forty-seven artists retain abstract placeholders.
+After copying and restarting WordPress, apply **Artists → Reviewed workbook enrichment** with new pages shown locally, then choose **Artists → Public catalog → Use ten-artist core catalog**. Review any import conflicts before applying. Full instructions are inside the ZIP.
 
-**Core 0.8 / final artist intake:** [batches 5–7](docs/FINAL_ARTIST_INTAKE_2026-10-31.md) add 33 distinct artists, bringing the catalog to **53 artists and 530 curated song selections across 529 song pages**. The shared Caleb Hearn / ROSIE duet reuses its richer existing page. Choose **Final artist intake — batches 5–7 (33 artists)** in **Artists → Import supplied research** to apply only these additions. Batches 6/7 remain explicitly labeled research starters, not publication-ready. Further artist additions are **paused at the owner's request**; the next work is verification and completing this catalog.
-
-**New in Core 0.7 / Theme 0.2:** [listening and discovery](docs/LISTENING_AND_DISCOVERY.md) gives song pages a complete visual before Spotify loads, a prominent next discovery, and inline feeling/theme suggestions. Filters keep a loaded player intact, recent discoveries avoid immediate repeats, and volume help explains device/browser controls. It works with the current catalog and was checked against a 500-song synthetic catalog. Update both the plugin and theme; no research reimport or database migration is needed.
-
-**New in Core 0.6:** [research batches 3 and 4](docs/RESEARCH-UPDATE-2026-10-29.md) add Sadie Jean, Lyn Lapid, Alexander 23, Anson Seabra, BLÜ EYES, Hanniou, Loote, Rachel Grae, NERIAH, and Fly By Midnight. The catalog now contains **20 artists and 200 curated songs**. In **Artists → Import supplied research**, review the **2026-10-29** collection to import only these ten artists and their hundred songs. Forty-two new exact track links support official players; 58 deliberately missing track links use verified artist-profile fallbacks. Original records and photo-rights files are preserved. Linked collaboration credits share existing song pages rather than create duplicate recordings. Imports remain noindex pending editorial review.
-
-**New in Core 0.4:** [seven additional supplied research collections](docs/RESEARCH-UPDATE-2026-10-27.md) bring the bundled catalog to **ten artists and 100 curated songs**. Use the same **Artists → Import supplied research** screen after updating the code. Edited records remain protected, and imported pages remain noindex pending review. The former Clara Mae website is excluded from public links.
-
-**New in Core 0.3:** [apply the supplied research update](docs/RESEARCH-UPDATE.md) for Astrid S, Sara Kays, and Caleb Hearn (three artist profiles and thirty curated songs). Update the plugin/theme/scripts and use **Artists → Import supplied research**. Existing edits are protected and imports remain noindex pending editorial review. The older 0.2 draft queue below is retained for compatibility.
-
-Afterglow Core 0.2 adds **Artists → Research collections**, an explicit, draft-only import for a provisional Astrid S ten-song research queue. It retains existing records and edits. The titles are unranked candidates; live source verification is blocked by the cloud network policy and remains outstanding. See [Astrid S research status and local import instructions](docs/ASTRID-S-RESEARCH.md). Nothing is imported automatically when updating the plugin.
-
-**Core 0.5 media update:** see [the local update instructions](docs/LOCAL_MEDIA_UPDATE.md), [implementation and rights report](docs/MEDIA_SYNC_REPORT.md), and [Hostinger media release checklist](docs/HOSTINGER_MEDIA_RELEASE.md). It adds six source-verified portraits, complete credits, and 100 click-to-load official track embed mappings. Use **Artists → Media and embeds** after the catalog is imported. The owner approved publishing this reviewed source update to GitHub; production deployment still requires separate approval.
-
-On song pages with an exact track link, the official Spotify player occupies the main artwork position. Click **Load Spotify player** to show Spotify's cover and playback controls together. Directory cards retain original abstract artwork; songs without an exact track link retain their artwork and offer the artist's verified Spotify profile, or a labeled search when no verified profile exists. No cover image is copied into WordPress.
-
-## Why WordPress
-
-WordPress fits Hostinger’s managed WordPress/PHP hosting and lets an editor maintain structured artist/song records without coding. The custom theme provides the design; the companion plugin owns the content models so records survive theme changes. MariaDB stores content. No build framework, music API, paid plugin, or subscription is required to run the site.
-
-The tradeoff is normal WordPress maintenance: core/plugin updates, backups, caching, and editorial review. Manually curated relationships are appropriate for a small launch catalog; a future recommendation service can read the same post IDs and taxonomy data. At a substantially larger scale, replace the comma-separated relationship metadata with a dedicated indexed relationship table while retaining the public records and URLs.
-
-## Run locally
-
-Prerequisites: Docker Engine with Docker Compose v2, Node.js 20+ and npm. Chromium is needed only for browser tests. The tested container images are pinned by digest in `compose.yaml` (WordPress 7.1.3, PHP 8.3, MariaDB 11.4). Check for patched upstream images regularly; update the digests deliberately and re-test.
-
-```bash
-cd /workspace/HvN-Space
-npm ci --cache /tmp/afterglow-npm
-npm run setup
-```
-
-Open the local site on port **8080** in your own development environment. WordPress administration is at `/wp-admin/`. The local administrator username is `editor`. Read `AFTERGLOW_ADMIN_PASSWORD` privately from the generated `.env` file; do not share or commit it. The file also contains randomly generated local database passwords. No public service credentials are required.
-
-The cloud onboarding interface does not provide a browser preview link for this local server. The included screenshots in `test-results/` show the locally tested site. To interact with it on your computer, clone/download the repository and run the commands above. If an existing Git checkout has no commit yet, download the working files before moving to another machine.
-
-```bash
-npm start     # Restart services; retains database content
-npm run stop # Stop this project's services; retains volumes
-```
-
-To choose a different port, add `PORT=8081` to `.env` **before the first setup**, then use that port in your browser and tests. If changing an existing installation’s port, update both WordPress `home` and `siteurl` with WP-CLI and search-replace the old local URL in the database. Do not delete the database to change a URL.
-
-`setup` is repeatable: it retains the existing administrator and edited content. The demo seed runs once and skips pre-existing matching slugs. Docker named volumes persist the database and WordPress runtime, while theme/plugin source is mounted read-only. Never use `docker compose down -v` unless you intend to permanently delete the local database and uploads. Back up valuable work first. Live containers and Docker volumes are not assumed to survive a new cloud machine; run setup if they are missing.
-
-## Tests and packages
-
-```bash
-npm test                         # 40 functional checks in Chromium; writes screenshots
-bash scripts/test-editorial.sh   # 16 permission, validation, and editorial-integrity checks
-bash scripts/test-research.sh    # 39 import safety checks in a disposable DB namespace
-bash scripts/test-handoffs.sh    # 4,099 supplied-research checks in a disposable DB namespace
-python3 scripts/validate-research.py # Catalog, nulls, source references, dates, and duplicate recordings
-bash scripts/backup.sh           # Private database backup before content updates
-npm run test:a11y                # Automated WCAG checks on representative templates
-bash scripts/test-media.sh       # 607 media sync and permission-gate checks
-node tests/media-browser.mjs      # All 529 selected song pages, 53 profiles, credits, embeds, and safe fallbacks
-node tests/research-admin.mjs     # Research collection selection and protected admin import
-bash scripts/test-discovery.sh    # Recommendation safety, truthful filters, and a 500-song scale check
-node tests/discovery-browser.mjs  # Listening visuals, filters, playback preservation, keyboard, and no-JS paths
-npm run test:admin               # Save structured fields through WordPress administration
-npm run package                  # Creates dist/afterglow.zip and dist/afterglow-core.zip
-```
-
-Browser tests use `/usr/bin/chromium` by default. Set `CHROMIUM_PATH` to your Chromium/Chrome executable and `TEST_URL` if using another port. Install a current Chromium through your system package manager if needed. Packaging uses Python 3’s standard library. Tests require the demo content and are intended for this local/staging installation, not an edited public production database. The PHP test creates temporary draft records and a subscriber and removes them in `finally`.
-
-See [Hostinger deployment](docs/HOSTINGER.md), [editorial workflow](docs/EDITORIAL.md), and [architecture](docs/ARCHITECTURE.md). No deployment or purchase has been performed.
-
-## Content status
-
-The fifty-three artist profiles and 530 curated song selections use supplied source-linked research and remain **noindex pending editorial review**. They resolve to 529 distinct selected song pages because one duet appears in two artist selections. Mood/genre labels and recommendations are editorial choices. There are 174 active exact track mappings and 355 deliberately missing track links; the additional supplied Spotify ID for the shared duet is retained for edition/recording review. Release precision, context, uncertainties, source provenance, and missing artist statements are retained. Batches 6/7 are research starters, not launch-ready content. One legacy starter song and five older research drafts remain; raw WordPress counts include those legacy records. Review-flagged records remain excluded from WordPress’s post sitemap.
-
-Three original journal articles discuss listening and editorial practice. Legal/contact pages are pre-launch templates requiring the owner’s details and appropriate review. Before launch, replace or finish the sample records, verify links and claims, document artwork rights, and complete contact/privacy information. Local WordPress additionally has **Discourage search engines** enabled.
-
-## Source layout
-
-```text
-theme/       Installable Afterglow classic theme; local fonts, original abstract artwork
-plugin/      Afterglow Core: data models, editor fields, validation, optional demo seed
-scripts/     Local Docker setup, bootstrap, packaging, and test helpers
-tests/       Browser, accessibility, and WordPress editorial tests
-docs/        Hosting, editorial, and architecture guides
-compose.yaml Local-only WordPress / MariaDB / WP-CLI stack
-```
-
-Source code and original design assets are licensed under GPL-2.0-or-later. Bundled DM Sans and DM Serif Display font files retain their SIL Open Font License notices in `theme/assets/fonts/`. Third-party photographs are excluded from the code/design GPL grant; their respective CC BY, CC BY-SA, or public-domain terms and attribution are documented in plugin/media-assets/ATTRIBUTION.md and the site’s Media Credits page. Artist names and song titles identify editorial subjects and imply no affiliation or endorsement.
+Archive: `Afterglow_local_update_Core_0.10.1_Theme_0.5.1.zip`  
+Size: 19,197,893 bytes  
+SHA-256: `36158b2187cebdb2a931ff0acfc980dcadc8307175310d201cf2bd484d2269ab`
