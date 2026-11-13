@@ -1,0 +1,44 @@
+{
+  "schema_version": "afterglow.canonical-source.v1",
+  "spreadsheet_id": "1CBJWklaLjymaRVw_wiPcmRMsumhfr_VUQheJeI7PvcI",
+  "url": "https://docs.google.com/spreadsheets/d/1CBJWklaLjymaRVw_wiPcmRMsumhfr_VUQheJeI7PvcI/edit",
+  "declared_on": "2026-11-14",
+  "approval_tab": "Review 10 Artists",
+  "approval_key": [
+    "artist_slug",
+    "song_slug"
+  ],
+  "expected_artists": 10,
+  "expected_selections": 128,
+  "internal_qa_tabs": [
+    "Cleanup Log",
+    "Unresolved QA",
+    "Core 128 QA Audit",
+    "Cleanup Readiness"
+  ],
+  "release_date_policy": "Preserve original documented song-release dates and their precision; never substitute a later Spotify album or EP edition date.",
+  "spotify_links": {
+    "count": 128,
+    "approval": "owner_checked_and_approved",
+    "declared_on": "2026-11-14"
+  },
+  "placeholder_artists": [
+    "caleb-hearn",
+    "chelsea-cutler",
+    "elina",
+    "mokita"
+  ],
+  "preserve": [
+    "approved wording",
+    "Spotify URLs",
+    "artist-scoped sources",
+    "image permissions",
+    "existing IDs and slugs",
+    "editor changes"
+  ],
+  "prepared_snapshot": "reviewed-2026-11-14.json",
+  "snapshot_status": "staging_imported_and_functionally_validated",
+  "superseded_snapshot": "reviewed-2026-11-13.json",
+  "export_file_name": "Afterglow_Master_Worksheet_CLEANUP_2026-11-14.xlsx",
+  "export_sha256": "3af624d6abf0b51cfb2cdf9905f9037e8cd883c62a5e6fbc2858d71759ded8b7"
+}

@@ -59,6 +59,10 @@ function ag_about_import_meta($id, $record) {
     }
 }
 function ag_about_source_links($id, $ids, $urls) {
+    if (function_exists('ag_reviewed_source_links')) {
+        $reviewed = ag_reviewed_source_links($id, $ids, $urls);
+        if ($reviewed !== null) { return $reviewed; }
+    }
     $links = []; $resolved = []; $registry = get_post_meta($id, '_ag_source_registry', true);
     // Early catalog imports kept the full registry on the artist. Resolve only
     // that matching scope; src-001 on a different artist is never equivalent.
@@ -95,7 +99,7 @@ function ag_about_song($id, $editorial_html = '') {
         $attribution = get_post_meta($id, '_ag_about_song_attribution', true);
         $sources = ag_about_source_links($id, ag_about_values(get_post_meta($id, '_ag_about_song_source_ids', true)), ag_about_values(get_post_meta($id, '_ag_about_song_source_urls', true)));
         if (!$text || !in_array($attribution, ag_about_attributions(), true) || ($attribution !== 'afterglow_editorial' && !$sources)) { return $empty; }
-        if ($attribution === 'artist_statement' && array_filter($sources, function ($s) { return str_contains(strtolower($s['type']), 'transcript'); })) { return $empty; }
+        if ($attribution === 'artist_statement' && array_filter($sources, function ($s) { return str_contains(strtolower($s['type']), 'transcript') && empty($s['editor_reviewed']); })) { return $empty; }
         return ['text' => $text, 'types' => array_values(array_intersect(ag_about_values(get_post_meta($id, '_ag_about_song_type', true)), ag_about_types())), 'attribution' => $attribution, 'sources' => $sources, 'origin' => 'explicit'];
     }
     $sources = [];

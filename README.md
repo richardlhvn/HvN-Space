@@ -1,5 +1,23 @@
 # Afterglow local downloads
 
+## Latest: cleaned canonical workbook — Core 0.11.0 / Theme 0.5.3
+
+[Download the complete local update](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/local-update-2026-11-13/downloads/Afterglow_local_update_Core_0.11.0_Theme_0.5.3.zip) · [GitHub file page](downloads/Afterglow_local_update_Core_0.11.0_Theme_0.5.3.zip)
+
+[Read local update instructions](downloads/README_CLEANED_CANONICAL_UPDATE.md) · [Source and staging QA report](docs/CANONICAL_RESEARCH_SOURCE.md)
+
+Use this update for the owner’s cleaned 14 November canonical workbook. It supersedes the older full update for future research imports. Keep the current site design; merge plugin/theme/scripts into the existing project, preserve .env/uploads/volumes, and apply the protected reviewed import locally. Do not replace the whole project or restore the cloud database.
+
+The public selection remains exactly **10 artists / 128 verified songs**. Same approved Spotify URLs and image permissions; five original-release date/precision corrections and 21 additional scoped sources. Four intentional placeholders stay. Internal cleanup tabs and the full master workbook are not in this download.
+
+Cloud staging import: 138 existing records updated, zero created/conflicted, repeat import zero changes. All IDs/slugs/statuses, 475 unrelated records, image credits, pages and settings were retained. All approved song pages, public API/RSS QA separation, hidden URLs, fresh/repeat setup and automated accessibility passed. No production deployment or indexing change occurred.
+
+ZIP SHA-256: `9d9ff89b83a4635b7a148fe759464e250eb872abbcc20d4958a658f2728f655b`
+
+## Archived downloads and earlier research references
+
+The sections below record earlier work. Use the new cleaned update above for implementation. The earlier QA map/helper pack references the superseded master and is historical context, not the current import authority.
+
 ## Research cleanup handoff
 
 [Download the cleanup helper pack](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/local-update-2026-11-13/downloads/Afterglow_cleanup_helper_pack_2026-11-13.zip)
@@ -10,7 +28,7 @@ Give another research assistant your **latest Afterglow_Master_Worksheet.xlsx** 
 
 Scope: clean supporting research for the approved ten artists / 128 selections, preserving approved About wording, IDs, source scope, later edits and the hidden larger catalog. Resolve only evidence-supported contradictions; keep unresolved QA internal. No deployment or automatic imports.
 
-## Latest: Theme 0.5.3 — public details, internal QA
+## Earlier: Theme 0.5.3 — public details, internal QA
 
 [Download Theme 0.5.3](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/local-update-2026-11-13/downloads/Afterglow_theme_update_0.5.3.zip) · [GitHub file page](downloads/Afterglow_theme_update_0.5.3.zip)
 
@@ -48,4 +66,4 @@ QA map SHA-256: `cabea2492cac7ed276480e3b9a2b825a2fb175c767dc8894ce1fdb41b4d4d76
 
 [Full local update — Core 0.10.1 / Theme 0.5.1](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/local-update-2026-11-13/downloads/Afterglow_local_update_Core_0.10.1_Theme_0.5.1.zip)
 
-Use the full update first if the reviewed ten-artist catalog is not installed locally yet, then apply the latest theme update above. The full package contains plugin, theme, helper scripts and local instructions. Back up before applying data changes and review import conflicts. These downloads do not deploy a production website.
+The old full update is superseded for new imports. Use the cleaned canonical update at the top of this page. The full package contains plugin, theme, helper scripts and local instructions. Back up before applying data changes and review import conflicts. These downloads do not deploy a production website.

@@ -1,5 +1,11 @@
 # Afterglow continuation handoff — 2 November 2026
 
+**Current authority:** [the cleaned canonical Google Sheet designated on 14 November 2026](CANONICAL_RESEARCH_SOURCE.md) supersedes older workbooks for all future imports. Its supplied XLSX export has been validated and applied to staging with Core 0.11.0 / Theme 0.5.3; do not fall back to the historical snapshot. Read the linked current report before continuing. All 128 Spotify links are now owner-checked and approved; earlier Sidelove approval caveats are historical. Runtime playback QA is separate.
+
+**Current public scope:** [ten core artists / 128 reviewed songs](CORE_CATALOG_LAUNCH.md), with all 53 artists retained privately in the working catalog. Core 0.10.1 / Theme 0.5.1 add reversible public visibility and gradual expansion controls. Do not restore full public visibility merely to load context.
+
+**Later update, 13 November 2026:** read [the reviewed workbook enrichment report](REVIEWED_WORKBOOK_ENRICHMENT_2026-11-13.md) for Core 0.10.0, the 128 reviewed selections and the preserved catalog's new totals (53 artists / 560 selections / 559 selected pages). The rest of this dated handoff records the earlier baseline.
+
 This is the durable project context for continuing in a new chat. It summarizes the decisions, implementation, research, constraints and open work; it is not a word-for-word chat transcript. Read this before changing the site. Inspect the current repository and local state because this document is a dated snapshot, not proof that the owner's PC has every update installed.
 
 **Download added at the owner's request:** the [portable continuation ZIP](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/handoff-download-2026-11-02/downloads/Afterglow_continuation_bundle_2026-11-02.zip) is now stored on GitHub's `handoff-download-2026-11-02` branch. It contains source/research/workbooks/previews, not credentials or database snapshots. Its source snapshot remains `2fa31b0`; later documentation adds this download link. Continue development on `main`.

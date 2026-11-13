@@ -6,6 +6,14 @@ import fs from 'node:fs/promises';
 const base=process.env.TEST_URL||'http://localhost:8080';
 const expression=`$out=[];foreach(ag_handoff_packs() as $slug=>$pack){$id=ag_handoff_find($slug);$GLOBALS['post']=get_post($id);setup_postdata($GLOBALS['post']);$songs=ag_related_ids($id,'recommended');$out[]=['slug'=>$slug,'url'=>get_permalink($id),'embed'=>ag_spotify_embed_url($id),'source'=>ag_meta('spotify',$id),'photo'=>(bool)ag_media_credit($id),'first'=>array_map(function($song){return html_entity_decode(get_the_title($song),ENT_QUOTES|ENT_HTML5,'UTF-8');},array_slice($songs,0,3)),'biography'=>html_entity_decode(wp_strip_all_tags(apply_filters('the_content',get_post_field('post_content',$id))),ENT_QUOTES|ENT_HTML5,'UTF-8')];}wp_reset_postdata();WP_CLI::line(wp_json_encode($out));`;
 const artists=JSON.parse(execFileSync('docker',['compose','run','--rm','cli','wp','eval',expression],{encoding:'utf8'}));
+// The reviewed workbook enriches ten artists beyond the historic ten-song
+// selections. Both the approved additions and retained older picks must render.
+const reviewed=JSON.parse(await fs.readFile('plugin/data/reviewed-2026-11-13.json','utf8'));
+const expectedCounts={};
+for(const artist of artists){
+ const original=JSON.parse(await fs.readFile(`plugin/data/${artist.slug}.json`,'utf8'));
+ expectedCounts[artist.slug]=new Set([...original.songs,...(reviewed.packs[artist.slug]?.songs||[])].map(s=>s.slug)).size;
+}
 const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']});
 let checks=0;const check=(v,m)=>{assert.ok(v,m);checks++;};
 const normalize=s=>s.replace(/\s+/g,' ').trim();
@@ -21,7 +29,7 @@ try{
   check(await page.locator('iframe').count()===0,'Artist embeds never load before choice');
   check(await page.locator('.artist-listening-preview').isVisible(),'Original artist-name preview fills the listening stage');
   assert.deepEqual(await page.locator('.artist-starter-card h3').allTextContents(),artist.first);checks++;
-  check(await page.locator('.curated-song-section .song-row').count()===10,'Full ten-song selection is preserved');
+  check(await page.locator('.curated-song-section .song-row').count()===expectedCounts[artist.slug],'Full original selection and reviewed additions are preserved');
   check(normalize(await page.locator('.artist-full-biography .prose').textContent())===normalize(artist.biography),'Full current editor biography and research text remain intact');
   check(await page.locator('.artist-identity-portrait.licensed-photo').count()===(artist.photo?1:0),'Only six cleared portraits appear near artist names');
   if(artist.photo){check(await page.locator('.artist-identity-portrait img').evaluate(async img=>{await img.decode();return img.naturalWidth>0;}),'Cleared identity portrait decodes');check(await page.locator('.artist-identity-credit a').count()>=2,'Portrait retains license and full-credit links');}

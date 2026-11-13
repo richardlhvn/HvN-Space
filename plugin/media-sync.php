@@ -54,7 +54,8 @@ function ag_import_verified_photo($artist_id, $candidate, $review, $path) {
     $existing = get_posts(['post_type' => 'attachment', 'post_status' => 'inherit', 'meta_key' => '_ag_media_identity', 'meta_value' => $identity, 'numberposts' => 1]);
     $thumb = get_post_thumbnail_id($artist_id);
     if ($thumb && (!$existing || $thumb !== $existing[0]->ID)) { return new WP_Error('preserved_photo', 'An existing photograph was preserved.'); }
-    if (!ag_handoff_can_update($artist_id, $candidate['artist_slug'] . '/profile')) { return new WP_Error('preserved_record', 'The edited artist record was preserved.'); }
+    $key = $candidate['artist_slug'] . '/profile';
+    if (!ag_handoff_can_update($artist_id, $key) && !(function_exists('ag_reviewed_can_update') && ag_reviewed_can_update($artist_id, $key))) { return new WP_Error('preserved_record', 'The edited artist record was preserved.'); }
     $attachment = $existing ? $existing[0]->ID : 0;
     if (!$attachment || !is_readable(get_attached_file($attachment))) {
         require_once ABSPATH . 'wp-admin/includes/image.php';
@@ -77,10 +78,12 @@ function ag_import_verified_photo($artist_id, $candidate, $review, $path) {
     set_post_thumbnail($artist_id, $attachment);
     update_post_meta($artist_id, '_ag_artwork_credit', $credit['credit'] . ' · ' . $credit['changes']);
     update_post_meta($artist_id, '_ag_handoff_baseline', ag_handoff_state($artist_id));
+    if (get_post_meta($artist_id, '_ag_reviewed_payload_hash', true)) { update_post_meta($artist_id, '_ag_reviewed_baseline', wp_slash(ag_reviewed_state($artist_id))); }
     return $attachment;
 }
 
 function ag_media_credit($artist_id) {
+    if (!$artist_id || get_post_type($artist_id) !== 'artist') { return []; }
     $id = get_post_thumbnail_id($artist_id);
     if (!$id || get_post_meta($id, '_ag_media_verified', true) !== '1') { return []; }
     return get_post_meta($id, '_ag_media_credit', true) ?: [];

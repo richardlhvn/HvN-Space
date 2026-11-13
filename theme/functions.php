@@ -103,12 +103,128 @@ function ag_demo_notice($id) {
     }
     if (ag_meta('demo', $id)) { echo '<aside class="editorial-notice"><strong>From the demo collection.</strong> This is a starter editorial page, not a fact-checked artist biography or an artist-endorsed explanation. Abstract artwork is a placeholder. This page is excluded from search-engine indexing.</aside>'; }
 }
+// Internal evidence status stays in the worksheet/admin, while visitors retain
+// article titles, attribution and links. This changes labels, never source data.
+function ag_public_source_label($label) {
+    $label = str_replace([
+        ' (editor-reviewed evidence; independent check pending)',
+        ' · Editor-reviewed evidence; independent check pending',
+        ' · Transcript; primary-audio verification pending',
+        ' · Editor-supplied reference; source metadata pending',
+        ' — editor-supplied reference; source metadata pending',
+    ], '', $label);
+    if (preg_match('/Reviewer-supplied research link for/i', $label)) {
+        $label = preg_replace('/^.*?Reviewer-supplied research link for\s*/i', 'Source reference: ', $label);
+    }
+    return $label;
+}
+
+function ag_public_research_content($content) {
+    // Only known importer-generated QA sections/paragraphs are removed. Editor
+    // biographies and other headings remain stored and displayed as written.
+    $content = preg_replace('~<h2[^>]*>\s*Research notes\s*</h2>.*?(?=<h2\b|$)~si', '', $content);
+    return preg_replace('~<p\b[^>]*>\s*(?:<small\b[^>]*>)?\s*(?:<strong\b[^>]*>)?\s*(?:Basis:|Based on the supplied research dated\s).*?</p>~si', '', $content);
+}
+
+function ag_release_date_label($date, $precision) {
+    $patterns = ['day' => ['Y-m-d', 'j F Y'], 'month' => ['Y-m', 'F Y'], 'year' => ['Y', 'Y']];
+    if (is_string($date) && $date !== '' && is_string($precision) && isset($patterns[$precision])) {
+        [$input, $output] = $patterns[$precision];
+        $parsed = DateTimeImmutable::createFromFormat('!' . $input, $date, new DateTimeZone('UTC'));
+        if ($parsed && $parsed->format($input) === $date) { return wp_date($output, $parsed->getTimestamp(), new DateTimeZone('UTC')); }
+    }
+    return '';
+}
+
+function ag_public_release_details($id) {
+    $record = get_post_meta($id, '_ag_handoff_record', true);
+    $record = is_array($record) ? $record : [];
+    $date = ag_release_date_label($record['release_date'] ?? ag_meta('release', $id), $record['release_date_precision'] ?? 'day');
+    $out = $date !== '' ? ['Release date' => $date] : [];
+    if (!empty($record['release_title'])) { $out['Release'] = $record['release_title']; }
+    if (!empty($record['release_type'])) { $out['Format'] = strtoupper($record['release_type']) === 'EP' ? 'EP' : ucfirst($record['release_type']); }
+    return $out;
+}
+
+function ag_public_song_document($id, $fallback) {
+    $about = function_exists('ag_about_song') ? ag_about_song($id) : [];
+    $html = ag_public_research_content($fallback);
+    if (!empty($about['text'])) {
+        $labels = ['artist_statement' => 'Artist statement · paraphrased', 'third_party_reporting' => 'Reported song background', 'afterglow_editorial' => 'Afterglow interpretation · not an artist statement', 'mixed' => 'Multiple perspectives · attributed in the text'];
+        $html = '<h2>About the Song</h2><p>' . esc_html($labels[$about['attribution']] ?? '') . '</p>' . wpautop(esc_html($about['text']));
+    }
+    $details = ag_public_release_details($id);
+    if ($details) {
+        $html .= '<h2>Release information</h2><dl>';
+        foreach ($details as $label => $value) { $html .= '<dt>' . esc_html($label) . '</dt><dd>' . esc_html($value) . '</dd>'; }
+        $html .= '</dl>';
+    }
+    $sources = ag_source_links($id);
+    foreach ($about['sources'] ?? [] as $source) { if (!in_array($source['url'], array_column($sources, 1), true)) { $sources[] = [ag_public_source_label($source['label']), $source['url']]; } }
+    if ($sources) {
+        $html .= '<h2>Sources &amp; further reading</h2><ul>';
+        foreach ($sources as $source) { $html .= '<li><a href="' . esc_url($source[1]) . '">' . esc_html($source[0]) . '</a></li>'; }
+        $html .= '</ul>';
+    }
+    return $html;
+}
+
+// The public REST representation must not expose the working research body
+// that the reader template deliberately omits. Editors keep content.raw in
+// authenticated context=edit responses through WordPress's normal permissions.
+foreach (['artist', 'song'] as $type) {
+    add_filter('rest_prepare_' . $type, function ($response, $post, $request) {
+        if ($request->get_param('context') === 'edit' && current_user_can('edit_post', $post->ID)) { return $response; }
+        $data = $response->get_data();
+        if (isset($data['content']['rendered'])) {
+            if ($post->post_type === 'artist') {
+                $data['content']['rendered'] = ag_public_research_content($data['content']['rendered']);
+            } else {
+                $about = function_exists('ag_about_song') ? ag_about_song($post->ID) : [];
+                if (!empty($about['text']) && isset($data['excerpt']['rendered'])) { $data['excerpt']['rendered'] = wpautop(esc_html(wp_trim_words($about['text'], 35, '…'))); }
+                $data['content']['rendered'] = ag_public_song_document($post->ID, $data['content']['rendered']);
+            }
+        }
+        $response->set_data($data);
+        return $response;
+    }, 10, 3);
+}
+add_filter('the_content_feed', function ($content) {
+    return get_post_type() === 'song' ? ag_public_song_document(get_the_ID(), $content) : (get_post_type() === 'artist' ? ag_public_research_content($content) : $content);
+});
+add_filter('the_excerpt_rss', function ($excerpt) {
+    if (get_post_type() !== 'song' || !function_exists('ag_about_song')) { return $excerpt; }
+    $about = ag_about_song(get_the_ID());
+    return !empty($about['text']) ? esc_html(wp_trim_words($about['text'], 35, '…')) : $excerpt;
+});
+
+// A read-only editor view preserves QA evidence without putting it in public
+// page HTML. No save handler, flags, source status or indexing setting changes.
+add_action('add_meta_boxes', function () {
+    foreach (['artist', 'song'] as $type) {
+        add_meta_box('ag-internal-research', 'Internal research and QA — not shown to visitors', function ($post) {
+            if (!current_user_can('edit_post', $post->ID)) { return; }
+            $record = get_post_meta($post->ID, '_ag_handoff_record', true);
+            $record = is_array($record) ? $record : [];
+            $approval = get_post_meta($post->ID, '_ag_reviewed_approval', true);
+            $provenance = get_post_meta($post->ID, '_ag_reviewed_provenance', true);
+            echo '<p>Keep these fields for editorial verification. Their absence from the public page does not resolve open questions or change search-engine indexing.</p><dl>';
+            $items = ['Research status' => ag_meta('research_status', $post->ID), 'Review/indexing flag' => ag_meta('demo', $post->ID), 'Basis' => $record['editorial_notes_basis'] ?? '', 'Release context' => $record['release_date_context'] ?? '', 'Open questions / uncertainties' => $record['uncertainties'] ?? [], 'Supported claims' => $record['supported_claims'] ?? [], 'Workbook approval' => $approval, 'Workbook provenance' => $provenance, 'Source registry and access status' => get_post_meta($post->ID, '_ag_source_registry', true)];
+            foreach ($items as $label => $value) {
+                if ($value === '' || $value === [] || $value === null) { continue; }
+                echo '<dt><strong>' . esc_html($label) . '</strong></dt><dd><pre style="white-space:pre-wrap;overflow-wrap:anywhere;max-height:320px;overflow:auto">' . esc_html(is_array($value) ? wp_json_encode($value, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) : (string)$value) . '</pre></dd>';
+            }
+            echo '</dl><details><summary>Original editor content (including retained research notes)</summary><pre style="white-space:pre-wrap;overflow-wrap:anywhere">' . esc_html($post->post_content) . '</pre></details>';
+        }, $type, 'normal', 'low');
+    }
+});
+
 function ag_source_links($id, $key = 'sources') {
     $rows = explode("\n", ag_meta($key, $id));
     $links = [];
     foreach ($rows as $row) {
         $p = array_map('trim', explode('|', $row, 2));
-        if (count($p) === 2 && filter_var($p[1], FILTER_VALIDATE_URL) && wp_parse_url($p[1], PHP_URL_SCHEME) === 'https') { $links[] = $p; }
+        if (count($p) === 2 && filter_var($p[1], FILTER_VALIDATE_URL) && wp_parse_url($p[1], PHP_URL_SCHEME) === 'https') { $p[0] = ag_public_source_label($p[0]); $links[] = $p; }
     }
     return $links;
 }
@@ -146,7 +262,7 @@ function ag_collaboration_ids($artist) {
     return $ids;
 }
 function ag_related_ids($id, $key = 'related') {
-    return array_values(array_filter(array_map('absint', explode(',', ag_meta($key, $id))), function ($v) { return get_post_status($v) === 'publish'; }));
+    return array_values(array_filter(array_map('absint', explode(',', ag_meta($key, $id))), function ($v) { return get_post_status($v) === 'publish' && (!function_exists('ag_public_catalog_visible') || !ag_public_catalog_context() || ag_public_catalog_visible($v)); }));
 }
 function ag_photo_credit_html($id, $compact = false) {
     $credit = function_exists('ag_media_credit') ? ag_media_credit($id) : [];
@@ -176,7 +292,8 @@ function ag_filters() {
 add_filter('pre_get_document_title', function ($title) { return is_singular() && ag_meta('meta_title', get_queried_object_id()) ? ag_meta('meta_title', get_queried_object_id()) : $title; });
 add_action('wp_head', function () {
     $id = get_queried_object_id();
-    $description = is_singular() ? (ag_meta('meta_description', $id) ?: wp_strip_all_tags(get_the_excerpt($id))) : 'Find your next favorite artist. Thoughtful discoveries, song stories, and music for the way you feel.';
+    $song_about = is_singular('song') && function_exists('ag_about_song') ? ag_about_song($id) : [];
+    $description = is_singular() ? (ag_meta('meta_description', $id) ?: wp_strip_all_tags(($song_about['text'] ?? '') ?: get_the_excerpt($id))) : 'Find your next favorite artist. Thoughtful discoveries, song stories, and music for the way you feel.';
     if ($description) { echo '<meta name="description" content="' . esc_attr(wp_trim_words($description, 35, '…')) . '">' . "\n"; }
     if (is_singular()) {
         echo '<meta property="og:title" content="' . esc_attr(get_the_title($id)) . '"><meta property="og:description" content="' . esc_attr($description) . '"><meta property="og:url" content="' . esc_url(get_permalink($id)) . '"><meta property="og:type" content="article">' . "\n";

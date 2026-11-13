@@ -130,6 +130,7 @@ function ag_handoff_find($slug, $song = null, $artist_id = 0) {
 
 function ag_handoff_can_update($id, $key) {
     if (!$id) { return true; }
+    if (get_post_meta($id, '_ag_reviewed_payload_hash', true)) { return false; }
     if (get_post_status($id) === 'trash') { return false; }
     $state = ag_handoff_state($id);
     $last = get_post_meta($id, '_ag_handoff_baseline', true);
@@ -228,6 +229,9 @@ function ag_handoff_save($id, $pack, $record, $artist, $artist_id, $publish) {
 
 function ag_apply_handoffs($publish = true, $slugs = null) {
     if (!current_user_can('manage_options')) { return new WP_Error('forbidden', 'Administrator access is required.'); }
+    if (file_exists(__DIR__ . '/data/canonical-research-source.json')) {
+        return new WP_Error('superseded_research', 'Historical research imports have been superseded by the cleaned canonical workbook. Use the reviewed workbook import after its new snapshot is prepared. Existing stored records are retained.');
+    }
     $packs = ag_handoff_packs();
     if ($slugs !== null) {
         if (!is_array($slugs) || !$slugs || array_diff($slugs, array_keys($packs))) { return new WP_Error('invalid_collection', 'Choose an existing research collection.'); }

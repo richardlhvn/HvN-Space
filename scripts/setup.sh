@@ -14,6 +14,6 @@ for attempt in {1..40}; do
   sleep 1
 done
 docker compose run --rm cli wp eval-file /scripts/bootstrap.php --skip-wordpress
-docker compose run --rm cli wp eval-file /scripts/install.php
+docker compose run --rm cli wp eval-file /scripts/install-canonical.php
 docker compose run --rm cli wp rewrite flush
 printf '\nAfterglow is running on local port %s. Admin user: editor.\nThe generated admin password is stored in .env (never commit it).\n' "${PORT:-8080}"

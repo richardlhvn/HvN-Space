@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Afterglow Core
  * Description: Artist and song records, curated relationships, and source-aware editorial fields.
- * Version: 0.9.0
+ * Version: 0.11.0
  * Requires at least: 6.6
  * Requires PHP: 8.1
  * License: GPL-2.0-or-later
@@ -11,8 +11,10 @@ defined('ABSPATH') || exit;
 require_once __DIR__ . '/about-song.php';
 require_once __DIR__ . '/research-collections.php';
 require_once __DIR__ . '/research-handoffs.php';
+require_once __DIR__ . '/reviewed-research.php';
 require_once __DIR__ . '/media-sync.php';
 require_once __DIR__ . '/discovery.php';
+require_once __DIR__ . '/public-catalog.php';
 
 function ag_register_content() {
     foreach (['artist' => ['Artists', 'Artist', 'artists', 'dashicons-groups'], 'song' => ['Songs', 'Song', 'songs', 'dashicons-format-audio']] as $type => $labels) {

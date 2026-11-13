@@ -14,6 +14,7 @@ function ag_seed_record($type, $slug, $title, $excerpt, $content, $meta = [], $t
     foreach ($terms as $tax => $names) { wp_set_object_terms($id, $names, $tax); }
     return $id;
 }
+if (!defined('AG_SITE_PAGES_ONLY') || !AG_SITE_PAGES_ONLY) {
 $artists = [
     ['sara-kays', 'Sara Kays', 'For the moments you wish you could put into words.', 'lilac', ['Reflective', 'Heartbreak'], 'Try this listening route when you want an intimate, reflective corner of pop. Start with a single song, notice the details that catch your attention, and follow the recommendations at your own pace.'],
     ['rosie-darling', 'Rosie Darling', 'A softer place to land when everything feels a little loud.', 'rose', ['Heartbreak', 'Late night'], 'Our proposed route into this profile starts with the feeling of needing a little space. Pair it with a quiet evening and listen for the moments that make you want to pause and return.'],
@@ -63,6 +64,7 @@ foreach ($relations as $slug => $others) {
 $all_songs = array_values($song_ids);
 foreach ($all_songs as $i => $id) {
     if (in_array($id, $GLOBALS['ag_seed_created'], true)) { update_post_meta($id, '_ag_related', implode(',', [$all_songs[($i+1)%count($all_songs)], $all_songs[($i+2)%count($all_songs)]])); }
+}
 }
 $articles = [
     ['how-to-find-your-next-favorite-artist', 'Your next favorite artist is one small detour away.', 'A slower, more curious approach to finding music that feels like yours.', '<p>Discovery does not have to begin with an endless feed. Sometimes the best starting point is a single song you already love, and one honest question: what is it about this that keeps bringing me back?</p><h2>Name the thing you are listening for.</h2><p>It might be a voice that feels close, a melody that opens up at just the right moment, or the space around a quiet line. Try naming one quality rather than looking for an exact replacement. You are giving your curiosity a direction, not setting a rule.</p><h2>Take one small detour.</h2><p>Choose one artist connection and give it a few minutes of your attention. Read why the curator made the pairing, then decide whether that reasoning matches what you hear. Disagreeing is useful too: it helps you understand your own taste.</p><h2>Leave room for a second listen.</h2><p>First impressions can depend on where you are, what you are doing, and how your day has been. Save something that interests you, then return to it in a different setting. A song does not need to become a favorite immediately to be worth your time.</p><p><a href="/artists/">Start with the artist directory</a> and follow one connection. No hurry, no homework.</p>'],

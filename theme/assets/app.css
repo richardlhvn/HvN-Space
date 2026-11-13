@@ -199,3 +199,5 @@
  .discovery-card h3{font-size:29px}
  .song-story{padding:25px 0 45px}
 }
+
+.song-release-details{margin-top:16px;font-size:13px;line-height:1.7}.song-release-details>div{display:grid;grid-template-columns:110px minmax(0,1fr);gap:14px;margin:8px 0}.song-release-details dt{color:var(--muted)}.song-release-details dd{margin:0;overflow-wrap:anywhere}@media(max-width:640px){.song-release-details>div{grid-template-columns:90px minmax(0,1fr);gap:10px}}
