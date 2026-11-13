@@ -1,5 +1,15 @@
 # Afterglow local downloads
 
+## Research cleanup handoff
+
+[Download the cleanup helper pack](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/local-update-2026-11-13/downloads/Afterglow_cleanup_helper_pack_2026-11-13.zip)
+
+[Read/copy the full cleanup prompt](downloads/Afterglow_research_cleanup_prompt.md)
+
+Give another research assistant your **latest Afterglow_Master_Worksheet.xlsx** plus this helper ZIP, then use the included `PROMPT_CLEANUP.md`. The full master workbook is not included or replaced. The pack contains the QA map, actual example fields and evidence references, a worked-review guide, correction/unresolved/readiness templates, and reference handoff documents. It contains no executable setup scripts or credentials.
+
+Scope: clean supporting research for the approved ten artists / 128 selections, preserving approved About wording, IDs, source scope, later edits and the hidden larger catalog. Resolve only evidence-supported contradictions; keep unresolved QA internal. No deployment or automatic imports.
+
 ## Latest: Theme 0.5.3 — public details, internal QA
 
 [Download Theme 0.5.3](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/local-update-2026-11-13/downloads/Afterglow_theme_update_0.5.3.zip) · [GitHub file page](downloads/Afterglow_theme_update_0.5.3.zip)
