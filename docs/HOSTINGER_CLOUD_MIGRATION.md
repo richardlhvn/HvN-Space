@@ -4,6 +4,8 @@ The owner selected the cloud installation as the migration source. The desktop/l
 
 The source has 53 stored artists and 560 song posts. The public selection remains ten artists / 128 songs, with 475 artist/song records excluded. These are database counts, distinct from the 558 selected song rows in the master workbook. Current code is Core 0.15.0 / Theme 0.9.0. The source WordPress core is 7.1.3; the destination's newer core is retained.
 
+**Deployment status, 15 November 2026 (Asia/Jakarta):** The owner completed the cloud-to-Hostinger transfer. Both preservation checks matched all 1419 post/meta/relationship fingerprints, with the catalog/theme/taxonomy/visibility checks passing. The destination is WordPress 7.1.4 / PHP 8.3.36. The owner signed in with the new production account, selected Post name permalinks, and supplied a public homepage screenshot showing the correct design. Search indexing remains disabled; hosted public HTTP/browser checks and final public-page details remain to be completed. The owner selected `contact@tunetofond.com`; mailbox creation and send/receive testing are pending, so do not yet claim it is working or substitute the private administrator email.
+
 ## Destination preparation
 
 1. Use the fresh WordPress installation already created for `tunetofond.com`. In WordPress, open **Settings → Reading**, select **Discourage search engines**, and save. This prevents indexing requests; it is not an access restriction. Use the host's staging/access controls if a private preview is needed.
@@ -43,6 +45,8 @@ The source-only cloud account's passwords, sessions and application passwords ar
 An error after database import triggers restoration of the destination's original configuration/database. When the prefix changes, only the exact newly introduced source tables are removed after the original configuration is restored. Copied custom files remain inactive after rollback. Review any rollback errors before retrying rather than deleting a database. Re-running a successful exact migration exits without overwriting later work.
 
 ## Verify the hosted result
+
+Run `scripts/hosting/check-public.sh` on the hosting account (default base URL `https://tunetofond.com`). It makes anonymous GET requests only: core page routes, a retained artist that must remain 404, exact REST totals of ten artists / 128 songs, and the homepage's pre-launch noindex marker. It does not change files, content or indexing. It has been checked against the cloud fixture; the real-host result must be supplied by the owner because this execution environment cannot reach the hosting endpoints. It does not test JavaScript, audio, mobile rendering or the completeness of legal/contact text.
 
 - Verify HTTPS, canonical `.com` URLs and the homepage, artist/song directories, an artist page, a song page, source links and photo credits.
 - In WordPress **Settings → Permalinks**, confirm **Post name** and save once if the CLI reports that regenerating `.htaccess` needs server configuration. This uses the actual web-server context while retaining Hostinger's own directives.
