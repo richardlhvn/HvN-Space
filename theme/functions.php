@@ -50,7 +50,7 @@ function ag_url($path = '') { return home_url('/' . trim($path, '/') . '/'); }
 function ag_display_terms($id, $taxonomy) {
     $terms = get_the_terms($id, $taxonomy);
     if (!$terms || is_wp_error($terms)) { return []; }
-    return $taxonomy === 'genre' && function_exists('ag_genre_family_terms') ? ag_genre_family_terms($terms) : $terms;
+    return in_array($taxonomy, ['genre','mood'], true) && function_exists('ag_taxonomy_family_terms') ? ag_taxonomy_family_terms($taxonomy, $terms) : $terms;
 }
 function ag_terms_text($id, $taxonomy) {
     return implode(' · ', wp_list_pluck(ag_display_terms($id, $taxonomy), 'name'));
@@ -291,10 +291,10 @@ function ag_filters() {
     echo '<form class="filter-bar" action="' . esc_url($action) . '" method="get"><div class="filter-search">' . ag_icon('search') . '<label class="sr-only" for="directory-search">Search this directory</label><input id="directory-search" type="search" name="q" placeholder="Find your next favorite…" value="' . esc_attr(isset($_GET['q']) && is_string($_GET['q']) ? sanitize_text_field(wp_unslash($_GET['q'])) : '') . '"></div>';
     foreach (['genre' => 'All genres', 'mood' => 'All moods', 'country' => 'All countries'] as $tax => $label) {
         echo '<label class="sr-only" for="filter-' . esc_attr($tax) . '">' . esc_html($label) . '</label><select id="filter-' . esc_attr($tax) . '" name="filter_' . esc_attr($tax) . '"><option value="">' . esc_html($label) . '</option>';
-        $terms = $tax === 'genre' && function_exists('ag_genre_family_options') ? ag_genre_family_options(is_post_type_archive('song') ? 'song' : 'artist') : get_terms(['taxonomy' => $tax, 'hide_empty' => true]);
+        $terms = in_array($tax, ['genre','mood'], true) && function_exists('ag_taxonomy_family_options') ? ag_taxonomy_family_options($tax, is_post_type_archive('song') ? 'song' : 'artist') : get_terms(['taxonomy' => $tax, 'hide_empty' => true]);
         $current = isset($_GET['filter_' . $tax]) && is_string($_GET['filter_' . $tax]) ? sanitize_title(wp_unslash($_GET['filter_' . $tax])) : '';
-        if ($tax === 'genre' && $current !== '' && function_exists('ag_genre_group_slug')) { $current = ag_genre_group_slug($current) ?: $current; }
-        if ($tax === 'genre' && function_exists('ag_genre_groups') && isset(ag_genre_groups()[$current]) && !in_array($current, wp_list_pluck($terms, 'slug'), true)) { $terms[] = (object)['slug'=>$current, 'name'=>ag_genre_groups()[$current]['name']]; }
+        if (in_array($tax, ['genre','mood'], true) && $current !== '' && function_exists('ag_taxonomy_group_slug')) { $current = ag_taxonomy_group_slug($tax, $current) ?: $current; }
+        if (in_array($tax, ['genre','mood'], true) && function_exists('ag_taxonomy_groups') && isset(ag_taxonomy_groups($tax)[$current]) && !in_array($current, wp_list_pluck($terms, 'slug'), true)) { $terms[] = (object)['slug'=>$current, 'name'=>ag_taxonomy_groups($tax)[$current]['name']]; }
         foreach (is_wp_error($terms) ? [] : $terms as $term) { echo '<option value="' . esc_attr($term->slug) . '" ' . selected($current, $term->slug, false) . '>' . esc_html($term->name) . '</option>'; }
         echo '</select>';
     }

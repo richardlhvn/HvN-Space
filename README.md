@@ -1,6 +1,12 @@
 # tunetofond
 
-## Current: simpler genre groups — Core 0.13.0 / Theme 0.7.0
+## Current: emotional moods and simpler genres — Core 0.14.0 / Theme 0.8.0
+
+[Download the combined mood update](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/tunetofond-mood-groups-2026-11-14/downloads/tunetofond_mood_update_Core_0.14.0_Theme_0.8.0.zip) · [Local update steps](downloads/README_MOOD_GROUPS_UPDATE.md) · [Emotion mapping, validation and screenshots](docs/MOOD_GROUPS.md)
+
+Browse by **20 emotional moods**, including Heartbreak, Reflection, Playful, Hopeful and Bittersweet. All 64 public mood labels map to these shared groups across directories, profile tags, homepage feeling links and song discovery. The **15 genre families** and reader cleanup are retained. Original research/taxonomy assignments stay unchanged, and optional mood mappings live under **Artists → Mood groups**. Merge **plugin** and **theme**, restart WordPress and refresh; **no import or migration is needed**. This package includes the prior genre update.
+
+## Previous: simpler genre groups — Core 0.13.0 / Theme 0.7.0
 
 [Download the genre update](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/tunetofond-genre-groups-2026-11-14/downloads/tunetofond_genre_update_Core_0.13.0_Theme_0.7.0.zip) · [Local update steps](downloads/README_GENRE_GROUPS_UPDATE.md) · [Grouping table, validation and screenshots](docs/GENRE_GROUPS.md)
 

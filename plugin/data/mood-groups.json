@@ -1,0 +1,180 @@
+{
+  "schema_version": "afterglow.mood-groups.v1",
+  "policy": "Emotion navigation derived only from existing mood labels. Retain original research and taxonomy assignments; do not infer feelings from genres, sound, unverified listening or biography.",
+  "unmapped_context_descriptors": [
+    "atmospheric",
+    "melodic",
+    "late-night"
+  ],
+  "groups": {
+    "heartbreak": {
+      "name": "Heartbreak",
+      "aliases": [
+        "heartbreak",
+        "heartbroken",
+        "hurt"
+      ]
+    },
+    "reflection": {
+      "name": "Reflection",
+      "aliases": [
+        "reflective",
+        "introspective",
+        "self-aware",
+        "confessional",
+        "candid",
+        "regretful"
+      ]
+    },
+    "playful": {
+      "name": "Playful",
+      "aliases": [
+        "playful",
+        "cheeky",
+        "wry",
+        "carefree"
+      ]
+    },
+    "hopeful": {
+      "name": "Hopeful",
+      "aliases": [
+        "hopeful",
+        "uplifting"
+      ]
+    },
+    "nostalgia": {
+      "name": "Nostalgia",
+      "aliases": [
+        "nostalgic",
+        "wistful"
+      ]
+    },
+    "love-affection": {
+      "name": "Love & Affection",
+      "aliases": [
+        "romantic",
+        "affectionate",
+        "tender",
+        "warm",
+        "appreciative"
+      ]
+    },
+    "longing": {
+      "name": "Longing",
+      "aliases": [
+        "longing",
+        "romantic-longing",
+        "yearning"
+      ]
+    },
+    "melancholy": {
+      "name": "Melancholy",
+      "aliases": [
+        "sad",
+        "melancholic",
+        "somber",
+        "sorrowful",
+        "grieving",
+        "lonely",
+        "excluded"
+      ]
+    },
+    "vulnerability": {
+      "name": "Vulnerability",
+      "aliases": [
+        "vulnerable",
+        "raw",
+        "intimate",
+        "heartfelt"
+      ]
+    },
+    "comfort": {
+      "name": "Comfort",
+      "aliases": [
+        "comforting",
+        "reassuring",
+        "compassionate",
+        "empathetic"
+      ]
+    },
+    "confidence": {
+      "name": "Confidence",
+      "aliases": [
+        "confident",
+        "assertive",
+        "bold",
+        "defiant"
+      ]
+    },
+    "anxiety": {
+      "name": "Anxiety",
+      "aliases": [
+        "anxious",
+        "uneasy",
+        "unsettled",
+        "restless",
+        "self-conscious",
+        "cautious"
+      ]
+    },
+    "mixed-feelings": {
+      "name": "Mixed Feelings",
+      "aliases": [
+        "conflicted",
+        "uncertain",
+        "hesitant"
+      ]
+    },
+    "resilience": {
+      "name": "Resilience",
+      "aliases": [
+        "resilient",
+        "resolute",
+        "determined"
+      ]
+    },
+    "letting-go": {
+      "name": "Letting Go",
+      "aliases": [
+        "accepting",
+        "resigned",
+        "cathartic"
+      ]
+    },
+    "calm": {
+      "name": "Calm",
+      "aliases": [
+        "calm",
+        "restrained"
+      ]
+    },
+    "dreamy": {
+      "name": "Dreamy",
+      "aliases": [
+        "dreamy"
+      ]
+    },
+    "energetic": {
+      "name": "Energetic",
+      "aliases": [
+        "energetic",
+        "upbeat",
+        "euphoric",
+        "summer-energy"
+      ]
+    },
+    "intense": {
+      "name": "Intense",
+      "aliases": [
+        "intense",
+        "dramatic"
+      ]
+    },
+    "bittersweet": {
+      "name": "Bittersweet",
+      "aliases": [
+        "bittersweet"
+      ]
+    }
+  }
+}

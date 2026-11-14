@@ -1,8 +1,8 @@
 # Continue tunetofond development
 
-Continue my existing **tunetofond** music-discovery website in `richardlhvn/HvN-Space`, using the current `tunetofond-genre-groups-2026-11-14` source branch or a later legitimate successor. Do not assume main is current or reset later work. Inspect HEAD, working files and any AGENTS.md first.
+Continue my existing **tunetofond** music-discovery website in `richardlhvn/HvN-Space`, using the current `tunetofond-mood-groups-2026-11-14` source branch or a later legitimate successor. Do not assume main is current or reset later work. Inspect HEAD, working files and any AGENTS.md first.
 
-Read `docs/GENRE_GROUPS.md`, `docs/READER_PRESENTATION_0.6.1.md`, `docs/TUNETOFOND_REBRAND.md`, `docs/CANONICAL_RESEARCH_SOURCE.md`, the current README and `downloads/README_TUNETOFOND_UPDATE.md`. The current release is Core 0.13.0 / Theme 0.7.0, with the full lowercase tunetofond identity. Historical Afterglow documents retain original source/release names.
+Read `docs/MOOD_GROUPS.md`, `docs/GENRE_GROUPS.md`, `docs/READER_PRESENTATION_0.6.1.md`, `docs/TUNETOFOND_REBRAND.md`, `docs/CANONICAL_RESEARCH_SOURCE.md`, the current README and `downloads/README_TUNETOFOND_UPDATE.md`. The current release is Core 0.14.0 / Theme 0.8.0, with the full lowercase tunetofond identity. Historical Afterglow documents retain original source/release names.
 
 Preserve the design, architecture, research wording (apart from the owner-authorized tunetofond brand references), scoped sources, owner-approved Spotify links, date precision, six portraits/licenses, IDs/slugs, later editor work and compatibility keys. Public launch scope is exactly ten artists / 128 songs. Other retained artists stay hidden; never import them to make a fixture pass. A fresh canonical database contains only ten/128. Artist intake is paused.
 

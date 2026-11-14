@@ -1,3 +1,5 @@
+**Later combined update:** [Core 0.14.0 / Theme 0.8.0](MOOD_GROUPS.md) adds emotional mood groups and retains all 15 genre families, existing helper interfaces and optional overrides. The report below records the original genre release.
+
 # Shared genre families — Core 0.13.0 / Theme 0.7.0
 
 Source: [`tunetofond-genre-groups-2026-11-14`](https://github.com/richardlhvn/HvN-Space/tree/tunetofond-genre-groups-2026-11-14), based on `5ff38bb`.

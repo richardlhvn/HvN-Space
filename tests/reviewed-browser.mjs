@@ -53,7 +53,7 @@ try{
  check(await page.locator('.song-listening-panel a[href^="https://open.spotify.com/track/"]').isVisible(),'Blocked embed retains direct Spotify fallback');
  await page.evaluate(()=>window.reviewedFrame=document.querySelector('iframe'));
  await page.locator('.discovery-controls summary').click();
- await page.selectOption('[name=ag_feeling]','reflective');
+ await page.selectOption('[name=ag_feeling]','reflection');
  await page.locator('.discovery-controls button[type=submit]').click();
  await page.waitForFunction(()=>!document.querySelector('[data-discovery-results]')?.getAttribute('aria-busy'));
  check(await page.evaluate(()=>window.reviewedFrame===document.querySelector('iframe')),'Discovery filters preserve the loaded player');

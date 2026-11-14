@@ -17,6 +17,7 @@ function ag_discovery_catalog() {
         }
         $moods = [];
         $terms = get_the_terms($post->ID, 'mood');
+        if ($terms && !is_wp_error($terms)) { $terms = ag_mood_family_terms($terms); }
         foreach ($terms && !is_wp_error($terms) ? $terms : [] as $term) { $moods[$term->slug] = $term->name; }
         $catalog[$post->ID] = ['id' => $post->ID, 'artist' => $artist, 'themes' => $themes, 'moods' => $moods];
     }
@@ -103,6 +104,7 @@ function ag_discovery_context($id, $input = []) {
     foreach (['feeling' => 'moods', 'theme' => 'themes'] as $filter => $field) {
         if (!isset($input['ag_' . $filter])) { continue; }
         $raw = $input['ag_' . $filter];
+        if ($filter === 'feeling' && is_string($raw) && strlen($raw) <= 160 && !in_array($raw, ['any','same'], true)) { $raw = ag_mood_group_slug($raw) ?: $raw; }
         if (!is_string($raw) || strlen($raw) > 160 || ($raw !== 'any' && !($raw === 'same' && $current[$field]) && !isset($choices[$filter][$raw]))) { $invalid = true; continue; }
         $preferences[$filter] = $raw;
     }
