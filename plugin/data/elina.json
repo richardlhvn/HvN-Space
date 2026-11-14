@@ -39,14 +39,14 @@
       }
     ],
     "genres": [
-      "singer-songwriter (source described)",
-      "folk-pop (source described)",
-      "emotional pop (editorial)"
+      "Singer-Songwriter",
+      "Folk Pop",
+      "Pop"
     ],
     "moods": [
-      "tender (editorial)",
-      "wistful (editorial)",
-      "reflective (editorial)"
+      "Love & Affection",
+      "Nostalgia",
+      "Reflection"
     ],
     "career_milestones": [
       {
@@ -214,15 +214,15 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Elina's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "singer-songwriter (source described)"
+        "Singer-Songwriter"
       ],
       "moods": [
-        "vulnerable (editorial)",
-        "determined (editorial)"
+        "Vulnerability",
+        "Resilience"
       ],
       "themes": [
-        "self-doubt (editorial)",
-        "self-belief (editorial)"
+        "Self-Worth & Body Image",
+        "Independence & Self-Belief"
       ],
       "editorial_notes": "A strong introductory example of personal, clearly documented songwriting.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -302,7 +302,7 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Elina's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "singer-songwriter (source described)"
+        "Singer-Songwriter"
       ],
       "moods": [],
       "themes": [],
@@ -367,7 +367,7 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Elina's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "singer-songwriter (source described)"
+        "Singer-Songwriter"
       ],
       "moods": [],
       "themes": [],
@@ -432,16 +432,16 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Elina's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "singer-songwriter (source described)"
+        "Singer-Songwriter"
       ],
       "moods": [
-        "reflective (editorial)",
-        "wistful (editorial)"
+        "Reflection",
+        "Nostalgia"
       ],
       "themes": [
-        "letting go (editorial)",
-        "happiness (editorial)",
-        "doubt (editorial)"
+        "Moving On & Closure",
+        "Life & Purpose",
+        "Relationships"
       ],
       "editorial_notes": "An opening into the larger Remember EP narrative about moving forward.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -516,16 +516,16 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Elina's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "singer-songwriter (source described)"
+        "Singer-Songwriter"
       ],
       "moods": [
-        "tender (editorial)",
-        "accepting (editorial)"
+        "Love & Affection",
+        "Letting Go"
       ],
       "themes": [
-        "love (editorial)",
-        "separation (editorial)",
-        "goodwill (editorial)"
+        "Love & Romance",
+        "Heartbreak & Breakups",
+        "Support & Kindness"
       ],
       "editorial_notes": "A distinctive, empathetic perspective on a breakup outside the singer’s own romance.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -605,16 +605,15 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Elina's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "singer-songwriter (source described)"
+        "Singer-Songwriter"
       ],
       "moods": [
-        "calm (editorial)",
-        "reflective (editorial)"
+        "Calm",
+        "Reflection"
       ],
       "themes": [
-        "acceptance (editorial)",
-        "change (editorial)",
-        "growth (editorial)"
+        "Moving On & Closure",
+        "Growing Up & Change"
       ],
       "editorial_notes": "Pairs with Paper Planes as an Afterglow theme of compassionate release.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -694,16 +693,15 @@
       "release_type": "EP",
       "short_description": "Afterglow editor's pick from Elina's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "singer-songwriter (source described)"
+        "Singer-Songwriter"
       ],
       "moods": [
-        "comforting (editorial)",
-        "tender (editorial)"
+        "Comfort",
+        "Love & Affection"
       ],
       "themes": [
-        "self-worth (editorial)",
-        "empathy (editorial)",
-        "support (editorial)"
+        "Self-Worth & Body Image",
+        "Support & Kindness"
       ],
       "editorial_notes": "A clear example of emotional pop as support rather than romantic longing.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -778,15 +776,15 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Elina's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "singer-songwriter (source described)"
+        "Singer-Songwriter"
       ],
       "moods": [
-        "longing (editorial)",
-        "reflective (editorial)"
+        "Longing",
+        "Reflection"
       ],
       "themes": [
-        "nostalgia (editorial)",
-        "resistance to change (editorial)"
+        "Memories & Nostalgia",
+        "Growing Up & Change"
       ],
       "editorial_notes": "The emotionally unsettled counterpart to the acceptance described in Blue.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -866,16 +864,16 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Elina's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "singer-songwriter (source described)"
+        "Singer-Songwriter"
       ],
       "moods": [
-        "hopeful (editorial)",
-        "resolute (editorial)"
+        "Hopeful",
+        "Resilience"
       ],
       "themes": [
-        "personal growth (editorial)",
-        "letting go (editorial)",
-        "self-worth (editorial)"
+        "Growing Up & Change",
+        "Moving On & Closure",
+        "Self-Worth & Body Image"
       ],
       "editorial_notes": null,
       "editorial_notes_basis": null,
@@ -938,7 +936,7 @@
       "release_type": "album",
       "short_description": "Afterglow editor's pick from Elina's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "singer-songwriter (source described)"
+        "Singer-Songwriter"
       ],
       "moods": [],
       "themes": [],

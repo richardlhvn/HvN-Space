@@ -1,0 +1,270 @@
+{
+  "schema_version": "afterglow.theme-groups.v1",
+  "groups": {
+    "love-romance": {
+      "name": "Love & Romance",
+      "aliases": [
+        "love",
+        "early-romance",
+        "first-meeting",
+        "infatuation",
+        "romantic-attraction",
+        "romantic-confidence",
+        "short-lived-romance",
+        "unexpected-encounter",
+        "unexpected-encounters",
+        "unspoken-romantic-attraction",
+        "unspoken-romantic-attraction-press-release-characterization"
+      ]
+    },
+    "relationships": {
+      "name": "Relationships",
+      "aliases": [
+        "relationships",
+        "relationships-and-personal-reflection",
+        "being-a-second-choice",
+        "conflicted-attraction",
+        "dating",
+        "dating-ambiguity",
+        "doubt",
+        "emotional-detachment",
+        "emotional-disconnection",
+        "falling-out-of-love",
+        "jealousy",
+        "manipulation-in-a-relationship",
+        "new-relationships",
+        "one-sided-relationships",
+        "painful-attraction",
+        "past-relationships",
+        "push-pull-relationships",
+        "relationship-comparison",
+        "relationship-deterioration",
+        "relationship-timing",
+        "repeated-relationship-mistakes",
+        "timing",
+        "uncertainty",
+        "unequal-commitment",
+        "unhealthy-attachment",
+        "unreciprocated-affection"
+      ]
+    },
+    "heartbreak-breakups": {
+      "name": "Heartbreak & Breakups",
+      "aliases": [
+        "breakup",
+        "breakups",
+        "heartbreak",
+        "separation"
+      ]
+    },
+    "longing-distance": {
+      "name": "Longing & Distance",
+      "aliases": [
+        "distance",
+        "emotional-distance",
+        "lingering-attachment",
+        "lingering-feelings",
+        "lingering-love",
+        "missed-connection"
+      ]
+    },
+    "memories-nostalgia": {
+      "name": "Memories & Nostalgia",
+      "aliases": [
+        "breakup-memories",
+        "idealizing-the-past",
+        "lost-familiarity",
+        "memory",
+        "nostalgia",
+        "photos",
+        "post-breakup-memories",
+        "preserving-memories"
+      ]
+    },
+    "moving-on-closure": {
+      "name": "Moving On & Closure",
+      "aliases": [
+        "acceptance",
+        "closure",
+        "letting-go",
+        "moving-on",
+        "starting-over",
+        "uncertain-closure"
+      ]
+    },
+    "trust-commitment": {
+      "name": "Trust & Commitment",
+      "aliases": [
+        "choosing-love-despite-uncertainty",
+        "commitment",
+        "emotional-certainty",
+        "emotional-clarity",
+        "mutual-respect",
+        "secure-commitment",
+        "trust-in-love",
+        "unconditional-love"
+      ]
+    },
+    "communication-conflict": {
+      "name": "Communication & Conflict",
+      "aliases": [
+        "arguments",
+        "avoidance",
+        "communication",
+        "different-viewpoints",
+        "frustration",
+        "guilt",
+        "regret",
+        "self-blame"
+      ]
+    },
+    "friendship": {
+      "name": "Friendship",
+      "aliases": [
+        "companionship",
+        "friendship",
+        "friendship-changes",
+        "lost-friendship",
+        "old-friends",
+        "post-breakup-friendship",
+        "summer-reunions",
+        "unequal-friendship"
+      ]
+    },
+    "family-childhood": {
+      "name": "Family & Childhood",
+      "aliases": [
+        "childhood",
+        "childhood-home",
+        "family",
+        "family-changes"
+      ]
+    },
+    "growing-up-change": {
+      "name": "Growing Up & Change",
+      "aliases": [
+        "adolescence",
+        "change",
+        "growing-up",
+        "growth",
+        "lost-innocence",
+        "personal-growth",
+        "resistance-to-change"
+      ]
+    },
+    "identity-belonging": {
+      "name": "Identity & Belonging",
+      "aliases": [
+        "belonging",
+        "feeling-overlooked",
+        "gender-stereotypes",
+        "identity-in-relationships",
+        "isolation",
+        "social-displacement",
+        "social-exclusion"
+      ]
+    },
+    "self-worth": {
+      "name": "Self-Worth & Body Image",
+      "aliases": [
+        "body-image",
+        "feeling-insufficient",
+        "imperfection",
+        "insecurity",
+        "self-acceptance",
+        "self-acceptance-struggles",
+        "self-comparison",
+        "self-criticism",
+        "self-doubt",
+        "self-image",
+        "self-worth"
+      ]
+    },
+    "mental-health": {
+      "name": "Mental Health & Anxiety",
+      "aliases": [
+        "anxiety",
+        "concealed-emotional-pain",
+        "depression",
+        "emotional-distress",
+        "emotional-numbness",
+        "emotional-overwhelm",
+        "existential-unease",
+        "helplessness",
+        "mental-health",
+        "mental-wellness",
+        "overwhelm",
+        "overwhelming-moments",
+        "panic",
+        "relationship-anxiety",
+        "searching-for-relief"
+      ]
+    },
+    "grief-loss": {
+      "name": "Grief & Loss",
+      "aliases": [
+        "bereavement",
+        "grief",
+        "loss",
+        "loss-of-a-partner",
+        "remembering-a-friend",
+        "renewed-grief"
+      ]
+    },
+    "healing-recovery": {
+      "name": "Healing & Recovery",
+      "aliases": [
+        "love-after-heartbreak",
+        "past-relationship-wounds",
+        "personal-recovery",
+        "processing-hurt",
+        "recovery",
+        "writing-to-heal"
+      ]
+    },
+    "support-kindness": {
+      "name": "Support & Kindness",
+      "aliases": [
+        "emotional-reassurance",
+        "emotional-support",
+        "empathy",
+        "encouragement",
+        "goodwill",
+        "mutual-support",
+        "support",
+        "support-through-hardship",
+        "wishing-someone-well"
+      ]
+    },
+    "independence": {
+      "name": "Independence & Self-Belief",
+      "aliases": [
+        "independence",
+        "self-belief"
+      ]
+    },
+    "vulnerability": {
+      "name": "Vulnerability",
+      "aliases": [
+        "emotional-risk",
+        "fear-of-vulnerability",
+        "risking-love-again",
+        "vulnerability"
+      ]
+    },
+    "life-purpose": {
+      "name": "Life & Purpose",
+      "aliases": [
+        "escapism",
+        "happiness",
+        "living-in-the-moment",
+        "meaning",
+        "pandemic-experience",
+        "purpose",
+        "reflection",
+        "shared-routines",
+        "world-events"
+      ]
+    }
+  }
+}

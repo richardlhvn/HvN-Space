@@ -10,11 +10,7 @@ function ag_discovery_catalog() {
     foreach ($posts as $post) {
         $artist = absint(get_post_meta($post->ID, '_ag_artist_id', true));
         if (!isset($artist_ids[$artist]) || (get_post_meta($post->ID, '_ag_demo', true) && !get_post_meta($post->ID, '_ag_handoff_key', true))) { continue; }
-        $themes = [];
-        foreach (explode(',', (string)get_post_meta($post->ID, '_ag_themes', true)) as $label) {
-            $label = trim(preg_replace('/\s*\(editorial\)/iu', '', $label));
-            if ($label !== '' && ($key = sanitize_title($label))) { $themes[$key] = $label; }
-        }
+        $themes = ag_theme_labels((string)get_post_meta($post->ID, '_ag_themes', true));
         $moods = [];
         $terms = get_the_terms($post->ID, 'mood');
         if ($terms && !is_wp_error($terms)) { $terms = ag_mood_family_terms($terms); }
@@ -105,6 +101,7 @@ function ag_discovery_context($id, $input = []) {
         if (!isset($input['ag_' . $filter])) { continue; }
         $raw = $input['ag_' . $filter];
         if ($filter === 'feeling' && is_string($raw) && strlen($raw) <= 160 && !in_array($raw, ['any','same'], true)) { $raw = ag_mood_group_slug($raw) ?: $raw; }
+        if ($filter === 'theme' && is_string($raw) && strlen($raw) <= 160 && !in_array($raw, ['any','same'], true)) { $raw = ag_taxonomy_group_slug('theme', $raw) ?: $raw; }
         if (!is_string($raw) || strlen($raw) > 160 || ($raw !== 'any' && !($raw === 'same' && $current[$field]) && !isset($choices[$filter][$raw]))) { $invalid = true; continue; }
         $preferences[$filter] = $raw;
     }

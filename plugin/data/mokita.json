@@ -30,14 +30,14 @@
     "official_website": null,
     "social_profiles": [],
     "genres": [
-      "chill pop (source described)",
-      "electronic pop (source described)",
-      "singer-songwriter pop (editorial)"
+      "Chill Pop",
+      "Electronic",
+      "Singer-Songwriter"
     ],
     "moods": [
-      "introspective (editorial)",
-      "warm (editorial)",
-      "melancholic (editorial)"
+      "Reflection",
+      "Love & Affection",
+      "Melancholy"
     ],
     "career_milestones": [
       {
@@ -204,16 +204,16 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Mokita's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "chill pop (source described)"
+        "Chill Pop"
       ],
       "moods": [
-        "melancholic (editorial)",
-        "vulnerable (editorial)"
+        "Melancholy",
+        "Vulnerability"
       ],
       "themes": [
-        "depression (editorial)",
-        "communication (editorial)",
-        "isolation (editorial)"
+        "Mental Health & Anxiety",
+        "Communication & Conflict",
+        "Identity & Belonging"
       ],
       "editorial_notes": null,
       "editorial_notes_basis": null,
@@ -276,7 +276,7 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Mokita's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "chill pop (source described)"
+        "Chill Pop"
       ],
       "moods": [],
       "themes": [],
@@ -341,7 +341,7 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Mokita's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "chill pop (source described)"
+        "Chill Pop"
       ],
       "moods": [],
       "themes": [],
@@ -406,7 +406,7 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Mokita's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "chill pop (source described)"
+        "Chill Pop"
       ],
       "moods": [],
       "themes": [],
@@ -471,7 +471,7 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Mokita's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "chill pop (source described)"
+        "Chill Pop"
       ],
       "moods": [],
       "themes": [],
@@ -536,15 +536,15 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Mokita's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "chill pop (source described)"
+        "Chill Pop"
       ],
       "moods": [
-        "hesitant (editorial)",
-        "vulnerable (editorial)"
+        "Mixed Feelings",
+        "Vulnerability"
       ],
       "themes": [
-        "relationship anxiety (editorial)",
-        "emotional risk (editorial)"
+        "Mental Health & Anxiety",
+        "Vulnerability"
       ],
       "editorial_notes": "An accessible pairing with colorblind for direct, first-person emotional writing.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -624,7 +624,7 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Mokita's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "chill pop (source described)"
+        "Chill Pop"
       ],
       "moods": [],
       "themes": [],
@@ -689,7 +689,7 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Mokita's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "chill pop (source described)"
+        "Chill Pop"
       ],
       "moods": [],
       "themes": [],
@@ -754,7 +754,7 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Mokita's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "chill pop (source described)"
+        "Chill Pop"
       ],
       "moods": [],
       "themes": [],
@@ -819,15 +819,14 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Mokita's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "chill pop (source described)"
+        "Chill Pop"
       ],
       "moods": [
-        "reflective (editorial)"
+        "Reflection"
       ],
       "themes": [
-        "timing (editorial)",
-        "emotional clarity (editorial)",
-        "relationships (editorial)"
+        "Relationships",
+        "Trust & Commitment"
       ],
       "editorial_notes": null,
       "editorial_notes_basis": null,

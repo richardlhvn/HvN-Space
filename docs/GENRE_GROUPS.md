@@ -1,3 +1,5 @@
+**Current policy:** [Core 0.15.0 / Theme 0.9.0](TAG_SYNC.md) normalizes stored genre/mood/theme tags and active source arrays, following the owner’s later instruction. The Sheet/XLSX update is deferred. The report below describes its original release.
+
 **Later combined update:** [Core 0.14.0 / Theme 0.8.0](MOOD_GROUPS.md) adds emotional mood groups and retains all 15 genre families, existing helper interfaces and optional overrides. The report below records the original genre release.
 
 # Shared genre families — Core 0.13.0 / Theme 0.7.0

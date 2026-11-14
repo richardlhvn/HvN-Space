@@ -21,7 +21,7 @@ function ag_artist_starter_note($id) {
     $description = trim((string) get_post_field('post_excerpt', $id));
     if (preg_match('/^(?:tunetofond|Afterglow) editor[\'’]s pick/u', $description)) { $description = ''; }
     if ($description && !preg_match('/not yet|not established|not been established|no verified|curated (selection|candidate)|awaiting|specific autobiographical meaning/i', $description)) { return ag_public_brand_text(wp_trim_words($description, 28)); }
-    $themes = array_slice(array_filter(array_map('trim', explode(',', ag_meta('themes', $id)))), 0, 2);
+    $themes = array_slice(array_values(ag_theme_labels(ag_meta('themes', $id))), 0, 2);
     if ($themes) { return implode(' · ', $themes) . '.'; }
     $moods = ag_terms_text($id, 'mood');
     return $moods ? $moods . '.' : 'A song from this artist’s selection.';

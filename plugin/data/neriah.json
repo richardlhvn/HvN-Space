@@ -29,14 +29,13 @@
     "official_website": null,
     "social_profiles": [],
     "genres": [
-      "pop (documented)",
-      "alt-pop (editorial)",
-      "confessional pop (editorial)"
+      "Pop",
+      "Alternative Pop"
     ],
     "moods": [
-      "candid (editorial)",
-      "defiant (editorial)",
-      "heartbroken (editorial)"
+      "Reflection",
+      "Confidence",
+      "Heartbreak"
     ],
     "career_milestones": [
       {
@@ -151,7 +150,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to Lego Blocks by NERIAH.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -212,7 +211,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to Unfinished Business by NERIAH.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -278,7 +277,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to SH!TSHOW by NERIAH.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -338,7 +337,7 @@
       "release_type": "EP",
       "short_description": "An Afterglow curated introduction to AT LEAST I'M GOOD AT IT by NERIAH.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -401,7 +400,7 @@
       "release_type": "album",
       "short_description": "An Afterglow curated introduction to FALLING 4 SOMEBODY by NERIAH.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -464,7 +463,7 @@
       "release_type": "EP",
       "short_description": "An Afterglow curated introduction to Fuck You Matthew by NERIAH.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -527,7 +526,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to Driving Weather by NERIAH.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -590,7 +589,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to Red Flag by NERIAH.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -650,7 +649,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to Out of Your League by NERIAH.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -713,7 +712,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to Not Tonight by NERIAH.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],

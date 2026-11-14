@@ -35,8 +35,8 @@ try {
     ag_discovery_assert($context['results'][0]['artist'] !== $artists[0], 'A genuine matching different artist should be the next discovery.');
     ag_discovery_assert(count(array_unique(array_column($context['results'], 'artist'))) === 3, 'Results should diversify artists when possible.');
     foreach ($context['results'] as $row) {
-        ag_discovery_assert($row['id'] !== $current && isset($row['themes']['breakup']), 'Recommendations must exclude the current track and honor its theme.');
-        ag_discovery_assert(str_contains($row['reason'], 'breakup'), 'Each themed result must explain its actual editorial match.');
+        ag_discovery_assert($row['id'] !== $current && isset($row['themes']['heartbreak-breakups']), 'Recommendations must exclude the current track and honor its grouped theme.');
+        ag_discovery_assert(stripos($row['reason'], 'breakup') !== false, 'Each themed result must explain its actual editorial match.');
     }
     $filtered = ag_discovery_context($current, ['ag_feeling' => 'hopeful', 'ag_theme' => 'moving-on']);
     ag_discovery_assert(array_column($filtered['results'], 'id') === [$hopeful], 'Explicit filters must intersect and must not be silently broadened.');

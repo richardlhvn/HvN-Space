@@ -29,15 +29,14 @@
     "official_website": null,
     "social_profiles": [],
     "genres": [
-      "pop (documented)",
-      "bedroom pop (distributor description)",
-      "singer-songwriter (documented)",
-      "emotional pop (Afterglow editorial)"
+      "Pop",
+      "Bedroom Pop",
+      "Singer-Songwriter"
     ],
     "moods": [
-      "vulnerable (editorial)",
-      "wistful (editorial)",
-      "reflective (editorial)"
+      "Vulnerability",
+      "Nostalgia",
+      "Reflection"
     ],
     "career_milestones": [
       {
@@ -148,7 +147,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to heartbeats by Hanniou.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -203,7 +202,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to what do i do now by Hanniou.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -273,7 +272,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to unanswered by Hanniou.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -333,7 +332,7 @@
       "release_type": "EP",
       "short_description": "An Afterglow curated introduction to terrified by Hanniou.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -399,7 +398,7 @@
       "release_type": "EP",
       "short_description": "An Afterglow curated introduction to losing you by Hanniou.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -462,7 +461,7 @@
       "release_type": "EP",
       "short_description": "An Afterglow curated introduction to In Case You Come Home by Hanniou.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -525,7 +524,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to just a name by Hanniou.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -586,7 +585,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to heartbeats duet by Hanniou, James TW.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -649,7 +648,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to just a boy by Hanniou.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -719,7 +718,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to retrograde by Hanniou.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],

@@ -29,14 +29,12 @@
     "official_website": "https://www.rachelgrae.com/",
     "social_profiles": [],
     "genres": [
-      "pop (documented)",
-      "singer-songwriter pop (editorial)",
-      "emotional pop (Afterglow editorial)"
+      "Pop",
+      "Singer-Songwriter"
     ],
     "moods": [
-      "confessional (editorial)",
-      "hopeful (editorial)",
-      "reflective (editorial)"
+      "Reflection",
+      "Hopeful"
     ],
     "career_milestones": [
       {
@@ -153,7 +151,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to Bad Timing by Rachel Grae.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -211,7 +209,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to How to Be Alone by Rachel Grae.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -277,7 +275,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to Outsider by Rachel Grae.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -340,11 +338,11 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to Friend Like Me by Rachel Grae.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [
-        "unequal friendship"
+        "Friendship"
       ],
       "editorial_notes": "This introductory note uses the artist’s own discussion of the song, summarized without a direct quotation.",
       "editorial_notes_basis": "artist interview/official biography",
@@ -411,7 +409,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to Hope You're Proud by Rachel Grae.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -477,11 +475,11 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to Right Person Right Time by Rachel Grae.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [
-        "relationship timing"
+        "Relationships"
       ],
       "editorial_notes": "This introductory note uses the artist’s own discussion of the song, summarized without a direct quotation.",
       "editorial_notes_basis": "artist interview/official biography",
@@ -548,7 +546,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to Daughter by Rachel Grae.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -608,7 +606,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to Colorblind by Rachel Grae.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -674,11 +672,11 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to Raised By A Woman by Rachel Grae.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [
-        "mutual respect"
+        "Trust & Commitment"
       ],
       "editorial_notes": "This introductory note uses the artist’s own discussion of the song, summarized without a direct quotation.",
       "editorial_notes_basis": "artist interview/official biography",
@@ -737,7 +735,7 @@
       "release_type": "album",
       "short_description": "An Afterglow curated introduction to Love I’ve Been Jealous Of by Rachel Grae.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],

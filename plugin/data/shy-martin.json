@@ -56,14 +56,13 @@
       }
     ],
     "genres": [
-      "pop",
-      "electropop",
-      "emotional pop (editorial)"
+      "Pop",
+      "Electronic"
     ],
     "moods": [
-      "bittersweet (editorial)",
-      "reflective (editorial)",
-      "vulnerable (editorial)"
+      "Bittersweet",
+      "Reflection",
+      "Vulnerability"
     ],
     "career_milestones": [
       {
@@ -308,16 +307,16 @@
       "release_type": "single",
       "short_description": "An emotionally direct portrait of losing a friendship while ending a relationship.",
       "genres": [
-        "pop"
+        "Pop"
       ],
       "moods": [
-        "bittersweet",
-        "reflective"
+        "Bittersweet",
+        "Reflection"
       ],
       "themes": [
-        "heartbreak",
-        "regret",
-        "lost friendship"
+        "Heartbreak & Breakups",
+        "Communication & Conflict",
+        "Friendship"
       ],
       "editorial_notes": "An emotionally direct portrait of losing a friendship while ending a relationship.",
       "editorial_notes_basis": "Artist first-person breakdown in PAPER; the earlier November 2019 release is documented in The Line of Best Fit. The Spotify URL here resolves to the standalone song.",
@@ -396,17 +395,17 @@
       "release_type": "single",
       "short_description": "A transition song about learning not to carry the weight of an old relationship into a new one.",
       "genres": [
-        "pop"
+        "Pop"
       ],
       "moods": [
-        "cautious",
-        "hopeful",
-        "reflective"
+        "Anxiety",
+        "Hopeful",
+        "Reflection"
       ],
       "themes": [
-        "past relationship wounds",
-        "new relationships",
-        "vulnerability"
+        "Healing & Recovery",
+        "Relationships",
+        "Vulnerability"
       ],
       "editorial_notes": "A transition song about learning not to carry the weight of an old relationship into a new one.",
       "editorial_notes_basis": "Artist explained its origin and subject in PAPER; Spotify identifies a January 10, 2020 original single.",
@@ -483,16 +482,14 @@
       "release_type": "ep",
       "short_description": "A personal account of struggling to respond to others while dealing with anxiety.",
       "genres": [
-        "pop"
+        "Pop"
       ],
       "moods": [
-        "vulnerable",
-        "introspective"
+        "Vulnerability",
+        "Reflection"
       ],
       "themes": [
-        "anxiety",
-        "emotional overwhelm",
-        "mental health"
+        "Mental Health & Anxiety"
       ],
       "editorial_notes": "A personal account of struggling to respond to others while dealing with anxiety.",
       "editorial_notes_basis": "PAPER carries the artist statement; the linked Spotify recording is from Sad Songs, not independently verified as the earliest single master.",
@@ -570,16 +567,15 @@
       "release_type": "single",
       "short_description": "A breakup perspective focused on how people must divide a shared life and everyday routines.",
       "genres": [
-        "pop"
+        "Pop"
       ],
       "moods": [
-        "melancholic",
-        "reflective"
+        "Melancholy",
+        "Reflection"
       ],
       "themes": [
-        "breakup",
-        "shared routines",
-        "separation"
+        "Heartbreak & Breakups",
+        "Life & Purpose"
       ],
       "editorial_notes": "A breakup perspective focused on how people must divide a shared life and everyday routines.",
       "editorial_notes_basis": "First-person PAPER description and Spotify release page for standalone single.",
@@ -656,16 +652,15 @@
       "release_type": "ep",
       "short_description": "A counterpart to Make us never happen that moves from wishing away a past relationship toward appreciating what it meant.",
       "genres": [
-        "pop"
+        "Pop"
       ],
       "moods": [
-        "wistful",
-        "accepting"
+        "Nostalgia",
+        "Letting Go"
       ],
       "themes": [
-        "acceptance",
-        "past relationships",
-        "closure"
+        "Moving On & Closure",
+        "Relationships"
       ],
       "editorial_notes": "A counterpart to Make us never happen that moves from wishing away a past relationship toward appreciating what it meant.",
       "editorial_notes_basis": "Artist directly connected the two songs in Out Now interview and PAPER; Spotify EP edition dated August 7, 2020.",
@@ -741,7 +736,7 @@
       "release_type": "single",
       "short_description": "A recommended entry point into SHY Martins early 2018 releases; a specific autobiographical meaning has not been established.",
       "genres": [
-        "pop"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -812,7 +807,7 @@
       "release_type": "single",
       "short_description": "An early SHY Martin single later collected on Overthinking. The artist has called its lyrics personally special, but did not give a specific song narrative in the checked interview.",
       "genres": [
-        "pop"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -892,11 +887,11 @@
       "release_type": "single",
       "short_description": "A collaborative electronic-pop single connecting SHY Martins songwriting and vocals with Swedish production duo NOTD.",
       "genres": [
-        "pop",
-        "electropop"
+        "Pop",
+        "Electronic"
       ],
       "moods": [
-        "energetic"
+        "Energetic"
       ],
       "themes": [],
       "editorial_notes": "A collaborative electronic-pop single connecting SHY Martins songwriting and vocals with Swedish production duo NOTD.",
@@ -976,11 +971,11 @@
       "release_type": "single",
       "short_description": "A stripped-back entry into her late night thoughts period, important to the artist as a creative reset.",
       "genres": [
-        "pop"
+        "Pop"
       ],
       "moods": [
-        "intimate",
-        "reflective"
+        "Vulnerability",
+        "Reflection"
       ],
       "themes": [],
       "editorial_notes": "A stripped-back entry into her late night thoughts period, important to the artist as a creative reset.",
@@ -1056,16 +1051,15 @@
       "release_type": "single",
       "short_description": "A personal confession connected to a difficult period of mental health and changing emotional experience.",
       "genres": [
-        "pop"
+        "Pop"
       ],
       "moods": [
-        "vulnerable",
-        "introspective"
+        "Vulnerability",
+        "Reflection"
       ],
       "themes": [
-        "mental health",
-        "emotional numbness",
-        "recovery"
+        "Mental Health & Anxiety",
+        "Healing & Recovery"
       ],
       "editorial_notes": "A personal confession connected to a difficult period of mental health and changing emotional experience.",
       "editorial_notes_basis": "Official publicist statement reproduced by Prelude Press and music release listing; avoid generalizing the artist disclosure beyond the song.",

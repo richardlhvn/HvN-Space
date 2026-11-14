@@ -41,7 +41,7 @@ try {
  await page.goto(`${base}/wp-login.php`);await page.locator('#user_login').fill('editor');await page.locator('#user_pass').fill(password);await page.locator('#wp-submit').click();await page.waitForURL('**/wp-admin/');
  await page.goto(`${base}/wp-admin/plugins.php`);
  check((await page.locator('[data-plugin="afterglow-core/afterglow-core.php"]').innerText()).includes('tunetofond Core'),'Plugin display identity');
- check((await page.locator('[data-plugin="afterglow-core/afterglow-core.php"]').innerText()).includes('0.14.0'),'Plugin version');
+ check((await page.locator('[data-plugin="afterglow-core/afterglow-core.php"]').innerText()).includes('0.15.0'),'Plugin version');
  await page.goto(`${base}/wp-admin/themes.php`);
  check((await page.locator('[data-slug="afterglow"] .theme-name').innerText()).includes('tunetofond'),'Theme display identity with compatible slug');
  await page.goto(`${base}/wp-admin/edit.php?post_type=artist&page=ag-guide`);

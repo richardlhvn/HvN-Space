@@ -1,3 +1,5 @@
+**Current policy:** [Core 0.15.0 / Theme 0.9.0](TAG_SYNC.md) normalizes stored genre/mood/theme tags and active source arrays, following the owner’s later instruction. The Sheet/XLSX update is deferred. The report below describes its original release.
+
 **Later reader update:** [Theme 0.6.1](READER_PRESENTATION_0.6.1.md) omits the public editorial notes/attribution badges and uses sparkle recommendation tags. Stored research and attribution enums remain. The report below records the completed rebrand.
 
 # tunetofond — Core 0.12.0 / Theme 0.6.0

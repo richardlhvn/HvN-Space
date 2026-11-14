@@ -51,8 +51,10 @@ function ag_migrate_research_branding($dry_run = true) {
     if (!current_user_can('manage_options')) { return new WP_Error('forbidden', 'Administrator access is required.'); }
     $original = json_decode(file_get_contents(__DIR__ . '/data/reviewed-2026-11-14.json'), true, 512, JSON_THROW_ON_ERROR);
     $current = ag_reviewed_data();
-    if ($current['packs'] !== ag_branding_normalize($original['packs']) || $current['provenance'] !== $original['provenance']) {
-        return new WP_Error('branding_source_mismatch', 'The branding dataset must differ from the cleaned source only by the approved brand references.');
+    $expected = ag_branding_normalize($original['packs']);
+    if (isset($current['tag_adjustment'])) { $expected = ag_tag_normalize_packs($expected); }
+    if ($current['packs'] !== $expected || $current['provenance'] !== $original['provenance']) {
+        return new WP_Error('branding_source_mismatch', 'The dataset must match the cleaned source with only the owner-authorized branding and tag adjustments.');
     }
     $has_catalog = false;
     foreach ($current['packs'] as $slug => $pack) { if (ag_reviewed_find($slug)) { $has_catalog = true; break; } }
@@ -63,9 +65,10 @@ function ag_migrate_research_branding($dry_run = true) {
     foreach ($plan['updated'] as $key) {
         [$slug, $record_key] = explode('/', $key, 2);
         $old = $record_key === 'profile' ? $original['packs'][$slug]['artist'] : array_column($original['packs'][$slug]['songs'], null, 'slug')[$record_key];
+        if (isset($current['tag_adjustment'])) { $old = ag_tag_normalize_record($old); }
         $id = $plan['ids'][$key];
         if (get_post_meta($id, '_ag_handoff_record', true) !== $old || get_post_meta($id, '_ag_source_registry', true) !== $original['packs'][$slug]['sources']) {
-            return new WP_Error('canonical_required', 'Existing research is not the cleaned canonical baseline: ' . $key . '. Review the separate canonical update first. Branding never imports unrelated factual changes.');
+            return new WP_Error('canonical_required', 'Existing research is not the current canonical baseline: ' . $key . '. Run the protected tag-sync migration first if tags have not been updated; otherwise review the separate canonical update. Branding never imports unrelated factual or tag changes.');
         }
     }
     // Reuse the transactional importer and its edit-conflict/baseline protection.

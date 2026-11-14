@@ -1,0 +1,5030 @@
+{
+  "original_commit": "42324ecfa865a57ad7ca7748e2d5c58ef0188080",
+  "files": [
+    "alex-sampson.json",
+    "alexander-23.json",
+    "andi.json",
+    "anson-seabra.json",
+    "ashley-kutcher.json",
+    "astrid-s.json",
+    "avery-lynch.json",
+    "blu-eyes.json",
+    "caleb-hearn.json",
+    "chelsea-cutler.json",
+    "cian-ducrot.json",
+    "clara-mae.json",
+    "cole-norton.json",
+    "dean-lewis.json",
+    "dylan-conrique.json",
+    "elina.json",
+    "em-beihold.json",
+    "emily-james.json",
+    "etham.json",
+    "fletcher.json",
+    "fly-by-midnight.json",
+    "frawley.json",
+    "gabrielle-aplin.json",
+    "gracie-abrams.json",
+    "hanniou.json",
+    "henry-moodie.json",
+    "holly-humberstone.json",
+    "jamie-miller.json",
+    "jessica-baio.json",
+    "jillian-rossi.json",
+    "katelyn-tarver.json",
+    "lauren-aquilina.json",
+    "leanna-firestone.json",
+    "lizzy-mcalpine.json",
+    "loote.json",
+    "lyn-lapid.json",
+    "maisie-peters.json",
+    "mokita.json",
+    "natalie-jane.json",
+    "neriah.json",
+    "nina-nesbitt.json",
+    "rachel-grae.json",
+    "rosie-darling.json",
+    "rosie.json",
+    "sadie-jean.json",
+    "sara-kays.json",
+    "sarah-barrios.json",
+    "sasha-alex-sloan.json",
+    "shy-martin.json",
+    "sody.json",
+    "vaultboy.json",
+    "victoria-nadine.json",
+    "zoe-wees.json"
+  ],
+  "original_tags": {
+    "alex-sampson.json:alex-sampson/profile": {
+      "genres": [
+        "romantic pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "romantic",
+        "yearning",
+        "hopeful"
+      ]
+    },
+    "alex-sampson.json:alex-sampson/pretty-baby": {
+      "genres": [
+        "romantic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "alex-sampson.json:alex-sampson/play-pretend": {
+      "genres": [
+        "romantic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "alex-sampson.json:alex-sampson/like-the-rain": {
+      "genres": [
+        "romantic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "alex-sampson.json:alex-sampson/blind": {
+      "genres": [
+        "romantic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "alex-sampson.json:alex-sampson/there-she-goes": {
+      "genres": [
+        "romantic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "alex-sampson.json:alex-sampson/misery": {
+      "genres": [
+        "romantic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "alex-sampson.json:alex-sampson/how-lucky-am-i": {
+      "genres": [
+        "romantic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "alex-sampson.json:alex-sampson/not-even-gone": {
+      "genres": [
+        "romantic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "alex-sampson.json:alex-sampson/thank-you-for-loving-me": {
+      "genres": [
+        "romantic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "alex-sampson.json:alex-sampson/growing-pains": {
+      "genres": [
+        "romantic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "alexander-23.json:alexander-23/profile": {
+      "genres": [
+        "emotional pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "introspective (editorial)",
+        "bittersweet (editorial)"
+      ]
+    },
+    "alexander-23.json:alexander-23/idk-you-yet": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "alexander-23.json:alexander-23/cry-over-boys": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "alexander-23.json:alexander-23/brainstorm": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "alexander-23.json:alexander-23/hate-me-if-it-helps": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "alexander-23.json:alexander-23/the-hardest-part": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "alexander-23.json:alexander-23/crash": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "alexander-23.json:alexander-23/somebodys-nobody": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "alexander-23.json:alexander-23/dirty-af1s": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "alexander-23.json:alexander-23/lucky": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "alexander-23.json:alexander-23/everythings-fine": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "andi.json:andi/profile": {
+      "genres": [
+        "alternative pop (editorial)",
+        "confessional pop (editorial)"
+      ],
+      "moods": [
+        "candid",
+        "melancholic",
+        "bold"
+      ]
+    },
+    "andi.json:andi/made-up-story": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "andi.json:andi/devil-s-work": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "andi.json:andi/crazier-best-friend": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "andi.json:andi/one-man-show": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "andi.json:andi/house-on-fire": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "andi.json:andi/wish-we-were-strangers": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "andi.json:andi/over": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "andi.json:andi/can-t-break-up": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "andi.json:andi/convince-myself": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "andi.json:andi/strangers-by-march": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "anson-seabra.json:anson-seabra/profile": {
+      "genres": [
+        "piano pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "introspective (editorial)",
+        "bittersweet (editorial)"
+      ]
+    },
+    "anson-seabra.json:anson-seabra/welcome-to-wonderland": {
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "anson-seabra.json:anson-seabra/trying-my-best": {
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "anson-seabra.json:anson-seabra/walked-through-hell": {
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "anson-seabra.json:anson-seabra/peter-pan-was-right": {
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "anson-seabra.json:anson-seabra/robin-hood": {
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "anson-seabra.json:anson-seabra/keep-your-head-up-princess": {
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "anson-seabra.json:anson-seabra/i-cant-carry-this-anymore": {
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "anson-seabra.json:anson-seabra/broken": {
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "anson-seabra.json:anson-seabra/unloving-you": {
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "anson-seabra.json:anson-seabra/lucky-charms": {
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "ashley-kutcher.json:ashley-kutcher/profile": {
+      "genres": [
+        "emotional pop",
+        "acoustic pop",
+        "country pop"
+      ],
+      "moods": [
+        "reflective",
+        "vulnerable"
+      ]
+    },
+    "astrid-s.json:astrid-s/profile": {
+      "genres": [
+        "pop",
+        "electropop (editorial tag informed by MusicBrainz)",
+        "R&B influence"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "reflective (editorial)",
+        "heartbreak (editorial)",
+        "playful (editorial)"
+      ]
+    },
+    "astrid-s.json:astrid-s/hurts-so-good": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "yearning",
+        "bittersweet"
+      ],
+      "themes": [
+        "painful attraction",
+        "push-pull relationships"
+      ]
+    },
+    "astrid-s.json:astrid-s/think-before-i-talk": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "regretful",
+        "reflective"
+      ],
+      "themes": [
+        "arguments",
+        "regret",
+        "communication"
+      ]
+    },
+    "astrid-s.json:astrid-s/its-ok-if-you-forget-me": {
+      "genres": [
+        "pop (editorial)",
+        "acoustic-influenced pop (editorial)"
+      ],
+      "moods": [
+        "wistful",
+        "restrained"
+      ],
+      "themes": [
+        "breakup",
+        "emotional detachment",
+        "uncertain closure"
+      ]
+    },
+    "astrid-s.json:astrid-s/i-do": {
+      "genres": [
+        "pop (catalog)",
+        "country-pop influence (editorial)"
+      ],
+      "moods": [
+        "longing",
+        "conflicted"
+      ],
+      "themes": [
+        "lingering love",
+        "breakup"
+      ]
+    },
+    "astrid-s.json:astrid-s/favorite-part-of-me": {
+      "genres": [
+        "stripped-back pop (editorial)"
+      ],
+      "moods": [
+        "warm",
+        "appreciative"
+      ],
+      "themes": [
+        "friendship",
+        "family",
+        "self-acceptance"
+      ]
+    },
+    "astrid-s.json:astrid-s/breathe": {
+      "genres": [
+        "pop (catalog)"
+      ],
+      "moods": [
+        "euphoric",
+        "romantic"
+      ],
+      "themes": [
+        "infatuation",
+        "overwhelming moments"
+      ]
+    },
+    "astrid-s.json:astrid-s/such-a-boy": {
+      "genres": [
+        "pop (catalog)"
+      ],
+      "moods": [
+        "assertive",
+        "playful"
+      ],
+      "themes": [
+        "gender stereotypes",
+        "dating ambiguity"
+      ]
+    },
+    "astrid-s.json:astrid-s/i-dont-know-why": {
+      "genres": [
+        "pop (catalog)",
+        "electronic-pop (editorial)"
+      ],
+      "moods": [
+        "upbeat (reviewer characterization)"
+      ],
+      "themes": []
+    },
+    "astrid-s.json:astrid-s/two-hands": {
+      "genres": [
+        "pop (catalog)",
+        "country-tinged pop (editorial)"
+      ],
+      "moods": [
+        "cheeky",
+        "self-aware"
+      ],
+      "themes": [
+        "dating",
+        "imperfection",
+        "self-acceptance"
+      ]
+    },
+    "astrid-s.json:astrid-s/joyride": {
+      "genres": [
+        "pop (catalog)"
+      ],
+      "moods": [
+        "carefree",
+        "bittersweet"
+      ],
+      "themes": [
+        "short-lived romance",
+        "living in the moment"
+      ]
+    },
+    "avery-lynch.json:avery-lynch/profile": {
+      "genres": [
+        "piano pop (editorial)",
+        "confessional singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "tender",
+        "wistful",
+        "warm"
+      ]
+    },
+    "avery-lynch.json:avery-lynch/rain": {
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "avery-lynch.json:avery-lynch/the-boys-who-don-t-know-what-they-want": {
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "avery-lynch.json:avery-lynch/think-about-it": {
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "avery-lynch.json:avery-lynch/dead-to-me": {
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "avery-lynch.json:avery-lynch/lasting-effects": {
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "avery-lynch.json:avery-lynch/sweetheart": {
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "avery-lynch.json:avery-lynch/i-m-glad-we-met": {
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "avery-lynch.json:avery-lynch/you-re-just-a-guy": {
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "avery-lynch.json:avery-lynch/to-love-someone-else": {
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "avery-lynch.json:avery-lynch/all-i-need-the-distance-song": {
+      "genres": [
+        "piano pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "blu-eyes.json:blu-eyes/profile": {
+      "genres": [
+        "alternative pop (editorial)",
+        "confessional pop (editorial)"
+      ],
+      "moods": [
+        "introspective (editorial)",
+        "bittersweet (editorial)"
+      ]
+    },
+    "blu-eyes.json:blu-eyes/youd-never-know": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "blu-eyes.json:blu-eyes/healing-hurts": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "blu-eyes.json:blu-eyes/stuck-in-my-head": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "blu-eyes.json:blu-eyes/the-last-song": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "blu-eyes.json:blu-eyes/break-up-with-a-friend": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "blu-eyes.json:blu-eyes/dear-anxiety": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "blu-eyes.json:blu-eyes/gaslight": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "blu-eyes.json:blu-eyes/two-people-at-once": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "blu-eyes.json:blu-eyes/29": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "blu-eyes.json:blu-eyes/wish-we-never-happened": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "caleb-hearn.json:caleb-hearn/profile": {
+      "genres": [
+        "folk-pop (editorial)",
+        "singer-songwriter pop (editorial)",
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)",
+        "tender (editorial)",
+        "nostalgic (editorial)",
+        "hopeful (editorial)"
+      ]
+    },
+    "caleb-hearn.json:caleb-hearn/always-be-2-0": {
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "grieving (editorial)",
+        "cathartic (editorial)"
+      ],
+      "themes": [
+        "friendship (editorial)",
+        "bereavement (editorial)",
+        "remembering a friend (editorial)"
+      ]
+    },
+    "caleb-hearn.json:caleb-hearn/brown-eyes-brown-hair": {
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "empathetic (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "concealed emotional pain (editorial)",
+        "encouragement (editorial)",
+        "self-acceptance (editorial)"
+      ]
+    },
+    "caleb-hearn.json:caleb-hearn/its-always-been-you": {
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "caleb-hearn.json:caleb-hearn/where-do-we-go-from-here": {
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "heartbroken (editorial)",
+        "compassionate (editorial)"
+      ],
+      "themes": [
+        "bereavement (editorial)",
+        "loss of a partner (editorial)",
+        "family (editorial)"
+      ]
+    },
+    "caleb-hearn.json:caleb-hearn/it-wasnt-me-at-all": {
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "hurt (editorial)",
+        "resolute (editorial)"
+      ],
+      "themes": [
+        "manipulation in a relationship (editorial)",
+        "self-blame (editorial)",
+        "breakup (editorial)"
+      ]
+    },
+    "caleb-hearn.json:caleb-hearn/1200-sq-ft": {
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "nostalgic (editorial)",
+        "tender (editorial)",
+        "bittersweet (editorial)"
+      ],
+      "themes": [
+        "childhood home (editorial)",
+        "family changes (editorial)",
+        "memory (editorial)"
+      ]
+    },
+    "caleb-hearn.json:caleb-hearn/little-bit-better": {
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "comforting (editorial)",
+        "hopeful (editorial)",
+        "romantic (editorial)"
+      ],
+      "themes": [
+        "mutual support (editorial)",
+        "love (editorial)",
+        "emotional reassurance (editorial)"
+      ]
+    },
+    "caleb-hearn.json:caleb-hearn/klonopin": {
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "intense (editorial)",
+        "vulnerable (editorial)",
+        "anxious (editorial)"
+      ],
+      "themes": [
+        "panic (editorial)",
+        "mental wellness (editorial)",
+        "searching for relief (editorial)"
+      ]
+    },
+    "caleb-hearn.json:caleb-hearn/the-lows": {
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "reassuring (editorial)",
+        "warm (editorial)"
+      ],
+      "themes": [
+        "unconditional love (editorial)",
+        "friendship (editorial)",
+        "support through hardship (editorial)"
+      ]
+    },
+    "caleb-hearn.json:caleb-hearn/green-eyed-heart-attack": {
+      "genres": [
+        "folk-pop (editorial)"
+      ],
+      "moods": [
+        "playful (editorial)",
+        "affectionate (editorial)"
+      ],
+      "themes": [
+        "first meeting (editorial)",
+        "romantic attraction (editorial)",
+        "memory (editorial)"
+      ]
+    },
+    "chelsea-cutler.json:chelsea-cutler/profile": {
+      "genres": [
+        "indie pop (editorial)",
+        "electronic pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "confessional (editorial)",
+        "wistful (editorial)",
+        "warm (editorial)"
+      ]
+    },
+    "chelsea-cutler.json:chelsea-cutler/your-shirt": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "chelsea-cutler.json:chelsea-cutler/sixteen": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "chelsea-cutler.json:chelsea-cutler/how-to-be-human": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "introspective (editorial)"
+      ],
+      "themes": []
+    },
+    "chelsea-cutler.json:chelsea-cutler/forever": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "chelsea-cutler.json:chelsea-cutler/men-on-the-moon": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "chelsea-cutler.json:chelsea-cutler/i-don-t-feel-alive": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "introspective (editorial)"
+      ],
+      "themes": [
+        "feeling insufficient (editorial)"
+      ]
+    },
+    "chelsea-cutler.json:chelsea-cutler/your-bones": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "warm (editorial)",
+        "affectionate (editorial)"
+      ],
+      "themes": [
+        "love (editorial)",
+        "vulnerability (editorial)"
+      ]
+    },
+    "chelsea-cutler.json:chelsea-cutler/you-re-all-i-ever-dreamed-of": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "tender (editorial)",
+        "hopeful (editorial)"
+      ],
+      "themes": [
+        "early romance (editorial)",
+        "vulnerability (editorial)"
+      ]
+    },
+    "chelsea-cutler.json:chelsea-cutler/sad-tonight": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "chelsea-cutler.json:chelsea-cutler/easy": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "cian-ducrot.json:cian-ducrot/profile": {
+      "genres": [
+        "pop ballad",
+        "singer-songwriter",
+        "emotional pop"
+      ],
+      "moods": [
+        "reflective",
+        "vulnerable"
+      ]
+    },
+    "clara-mae.json:clara-mae/profile": {
+      "genres": [
+        "pop (catalogued)",
+        "Swedish pop (editorial)",
+        "electropop (editorial)",
+        "country-influenced pop (later work; editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "heartbroken (editorial)",
+        "reflective (editorial)",
+        "hopeful (editorial)"
+      ]
+    },
+    "clara-mae.json:clara-mae/im-not-her": {
+      "genres": [
+        "pop (catalogued)",
+        "electropop (editorial)"
+      ],
+      "moods": [
+        "defiant",
+        "vulnerable"
+      ],
+      "themes": [
+        "self-comparison",
+        "self-worth",
+        "breakups"
+      ]
+    },
+    "clara-mae.json:clara-mae/i-forgot": {
+      "genres": [
+        "pop (catalogued)",
+        "electropop (editorial)"
+      ],
+      "moods": [
+        "wistful",
+        "unsettled"
+      ],
+      "themes": [
+        "unexpected encounters",
+        "lingering attachment",
+        "breakups"
+      ]
+    },
+    "clara-mae.json:clara-mae/sorry-for-writing-all-the-songs-about-you": {
+      "genres": [
+        "pop (catalogued)",
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective",
+        "resolute"
+      ],
+      "themes": [
+        "writing to heal",
+        "closure",
+        "breakups"
+      ]
+    },
+    "clara-mae.json:clara-mae/better-me-better-you": {
+      "genres": [
+        "pop (catalogued)",
+        "duet pop (editorial)"
+      ],
+      "moods": [
+        "conflicted",
+        "nostalgic"
+      ],
+      "themes": [
+        "idealizing the past",
+        "relationship comparison"
+      ]
+    },
+    "clara-mae.json:clara-mae/taped-up-heart-feat-clara-mae": {
+      "genres": [
+        "dance-pop (licensed catalogue)",
+        "electronic (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "clara-mae.json:clara-mae/loved-you-once": {
+      "genres": [
+        "pop (catalogued)",
+        "ballad (editorial)"
+      ],
+      "moods": [
+        "wistful",
+        "melancholic"
+      ],
+      "themes": [
+        "unexpected encounter",
+        "lost familiarity",
+        "breakups"
+      ]
+    },
+    "clara-mae.json:clara-mae/overused-feat-gnash": {
+      "genres": [
+        "pop (catalogued)",
+        "pop duet (editorial)"
+      ],
+      "moods": [
+        "bittersweet",
+        "conflicted"
+      ],
+      "themes": [
+        "relationship deterioration",
+        "preserving memories",
+        "separation"
+      ]
+    },
+    "clara-mae.json:clara-mae/alright-feat-russell-dickerson": {
+      "genres": [
+        "pop (catalogued)",
+        "country-influenced pop (editorial)"
+      ],
+      "moods": [
+        "tender",
+        "bittersweet"
+      ],
+      "themes": [
+        "different viewpoints",
+        "breakups",
+        "wishing someone well"
+      ]
+    },
+    "clara-mae.json:clara-mae/not-sad-anymore": {
+      "genres": [
+        "pop (catalogued)",
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "uplifting",
+        "hopeful"
+      ],
+      "themes": [
+        "independence",
+        "recovery",
+        "moving on"
+      ]
+    },
+    "clara-mae.json:clara-mae/no-jolene": {
+      "genres": [
+        "pop (catalogued)",
+        "country-influenced pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "cole-norton.json:cole-norton/profile": {
+      "genres": [
+        "acoustic pop (editorial)",
+        "pop ballads (editorial)"
+      ],
+      "moods": [
+        "tender",
+        "melancholic",
+        "romantic"
+      ]
+    },
+    "cole-norton.json:cole-norton/nobody-else": {
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "cole-norton.json:cole-norton/perfect": {
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "cole-norton.json:cole-norton/malibu-nights": {
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "cole-norton.json:cole-norton/falling-like-the-stars": {
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "cole-norton.json:cole-norton/someone-you-loved": {
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "cole-norton.json:cole-norton/when-the-party-s-over": {
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "cole-norton.json:cole-norton/run": {
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "cole-norton.json:cole-norton/chances": {
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "cole-norton.json:cole-norton/just-go": {
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "cole-norton.json:cole-norton/the-me-i-used-to-know": {
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "dean-lewis.json:dean-lewis/profile": {
+      "genres": [
+        "pop ballad",
+        "acoustic pop",
+        "singer-songwriter"
+      ],
+      "moods": [
+        "reflective",
+        "vulnerable"
+      ]
+    },
+    "dylan-conrique.json:dylan-conrique/profile": {
+      "genres": [
+        "emotional pop",
+        "singer-songwriter",
+        "pop"
+      ],
+      "moods": [
+        "reflective",
+        "vulnerable"
+      ]
+    },
+    "elina.json:elina/profile": {
+      "genres": [
+        "singer-songwriter (source described)",
+        "folk-pop (source described)",
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "tender (editorial)",
+        "wistful (editorial)",
+        "reflective (editorial)"
+      ]
+    },
+    "elina.json:elina/wild-enough": {
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "vulnerable (editorial)",
+        "determined (editorial)"
+      ],
+      "themes": [
+        "self-doubt (editorial)",
+        "self-belief (editorial)"
+      ]
+    },
+    "elina.json:elina/here-with-me": {
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "elina.json:elina/champion": {
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "elina.json:elina/free": {
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "reflective (editorial)",
+        "wistful (editorial)"
+      ],
+      "themes": [
+        "letting go (editorial)",
+        "happiness (editorial)",
+        "doubt (editorial)"
+      ]
+    },
+    "elina.json:elina/paper-planes": {
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "tender (editorial)",
+        "accepting (editorial)"
+      ],
+      "themes": [
+        "love (editorial)",
+        "separation (editorial)",
+        "goodwill (editorial)"
+      ]
+    },
+    "elina.json:elina/blue": {
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "calm (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "acceptance (editorial)",
+        "change (editorial)",
+        "growth (editorial)"
+      ]
+    },
+    "elina.json:elina/remember": {
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "comforting (editorial)",
+        "tender (editorial)"
+      ],
+      "themes": [
+        "self-worth (editorial)",
+        "empathy (editorial)",
+        "support (editorial)"
+      ]
+    },
+    "elina.json:elina/another-round": {
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "longing (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "nostalgia (editorial)",
+        "resistance to change (editorial)"
+      ]
+    },
+    "elina.json:elina/apologize": {
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "hopeful (editorial)",
+        "resolute (editorial)"
+      ],
+      "themes": [
+        "personal growth (editorial)",
+        "letting go (editorial)",
+        "self-worth (editorial)"
+      ]
+    },
+    "elina.json:elina/you-make-me-think-of-fire": {
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "em-beihold.json:em-beihold/profile": {
+      "genres": [
+        "pop",
+        "indie pop",
+        "singer-songwriter"
+      ],
+      "moods": [
+        "reflective",
+        "vulnerable"
+      ]
+    },
+    "emily-james.json:emily-james/profile": {
+      "genres": [
+        "indie-pop (editorial)",
+        "folk-influenced singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "nostalgic",
+        "warm",
+        "bittersweet"
+      ]
+    },
+    "emily-james.json:emily-james/song-for-bryan": {
+      "genres": [
+        "indie-pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "emily-james.json:emily-james/brooklyn": {
+      "genres": [
+        "indie-pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "emily-james.json:emily-james/that-was-then": {
+      "genres": [
+        "indie-pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "emily-james.json:emily-james/for-an-evening": {
+      "genres": [
+        "indie-pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "emily-james.json:emily-james/suburbia": {
+      "genres": [
+        "indie-pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "emily-james.json:emily-james/summer-on-ice": {
+      "genres": [
+        "indie-pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "emily-james.json:emily-james/uncommon-sense": {
+      "genres": [
+        "indie-pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "emily-james.json:emily-james/pretty-4ever": {
+      "genres": [
+        "indie-pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "emily-james.json:emily-james/oranges": {
+      "genres": [
+        "indie-pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "emily-james.json:emily-james/tommy": {
+      "genres": [
+        "indie-pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "etham.json:etham/profile": {
+      "genres": [
+        "acoustic pop (editorial)",
+        "soul-influenced singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "heartbroken",
+        "intimate",
+        "reflective"
+      ]
+    },
+    "etham.json:etham/12-45-stripped": {
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "etham.json:etham/i-wish-it-was-me": {
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "etham.json:etham/purpose-stripped": {
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "etham.json:etham/before-i-lose-my-mind-stripped": {
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "etham.json:etham/you-re-the-reason": {
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "etham.json:etham/waiting-for-you": {
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "etham.json:etham/guilty": {
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "etham.json:etham/there-for-you": {
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "etham.json:etham/still-can-t-move-on": {
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "etham.json:etham/now-that-you-re-gone": {
+      "genres": [
+        "acoustic pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "fletcher.json:fletcher/profile": {
+      "genres": [
+        "pop",
+        "alternative pop",
+        "emotional pop"
+      ],
+      "moods": [
+        "reflective",
+        "vulnerable"
+      ]
+    },
+    "fly-by-midnight.json:fly-by-midnight/profile": {
+      "genres": [
+        "pop (documented)",
+        "indie pop (documented)",
+        "synth-pop (editorial)",
+        "emotional electronic pop (Afterglow editorial)"
+      ],
+      "moods": [
+        "nostalgic (editorial)",
+        "atmospheric (editorial)",
+        "romantic (editorial)"
+      ]
+    },
+    "fly-by-midnight.json:fly-by-midnight/no-choice": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "fly-by-midnight.json:fly-by-midnight/in-the-night": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "fly-by-midnight.json:fly-by-midnight/infinitely-falling": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "fly-by-midnight.json:fly-by-midnight/what-if-i-wasn-t-done-loving-you": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "fly-by-midnight.json:fly-by-midnight/different-lives-feat-rachel-grae": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "fly-by-midnight.json:fly-by-midnight/automatic": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "fly-by-midnight.json:fly-by-midnight/better-late-than-sooner": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "fly-by-midnight.json:fly-by-midnight/borrow-your-time": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "fly-by-midnight.json:fly-by-midnight/the-weather": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "fly-by-midnight.json:fly-by-midnight/love-me-like-a-friend": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "frawley.json:frawley/profile": {
+      "genres": [
+        "pop",
+        "emotional pop",
+        "singer-songwriter"
+      ],
+      "moods": [
+        "reflective",
+        "vulnerable"
+      ]
+    },
+    "gabrielle-aplin.json:gabrielle-aplin/profile": {
+      "genres": [
+        "folk pop",
+        "singer-songwriter",
+        "emotional pop"
+      ],
+      "moods": [
+        "reflective",
+        "vulnerable"
+      ]
+    },
+    "gracie-abrams.json:gracie-abrams/profile": {
+      "genres": [
+        "indie pop",
+        "emotional pop",
+        "singer-songwriter"
+      ],
+      "moods": [
+        "reflective",
+        "vulnerable"
+      ]
+    },
+    "hanniou.json:hanniou/profile": {
+      "genres": [
+        "pop (documented)",
+        "bedroom pop (distributor description)",
+        "singer-songwriter (documented)",
+        "emotional pop (Afterglow editorial)"
+      ],
+      "moods": [
+        "vulnerable (editorial)",
+        "wistful (editorial)",
+        "reflective (editorial)"
+      ]
+    },
+    "hanniou.json:hanniou/heartbeats": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "hanniou.json:hanniou/what-do-i-do-now": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "hanniou.json:hanniou/unanswered": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "hanniou.json:hanniou/terrified": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "hanniou.json:hanniou/losing-you": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "hanniou.json:hanniou/in-case-you-come-home": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "hanniou.json:hanniou/just-a-name": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "hanniou.json:hanniou/heartbeats-duet": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "hanniou.json:hanniou/just-a-boy": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "hanniou.json:hanniou/retrograde": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "henry-moodie.json:henry-moodie/profile": {
+      "genres": [
+        "pop",
+        "singer-songwriter",
+        "piano pop"
+      ],
+      "moods": [
+        "longing",
+        "hopeful",
+        "reflective"
+      ]
+    },
+    "holly-humberstone.json:holly-humberstone/profile": {
+      "genres": [
+        "indie pop",
+        "alternative pop",
+        "singer-songwriter"
+      ],
+      "moods": [
+        "reflective",
+        "vulnerable"
+      ]
+    },
+    "jamie-miller.json:jamie-miller/profile": {
+      "genres": [
+        "pop",
+        "soul-influenced pop",
+        "ballad"
+      ],
+      "moods": [
+        "heartbroken",
+        "hopeful"
+      ]
+    },
+    "jessica-baio.json:jessica-baio/profile": {
+      "genres": [
+        "emotional pop (editorial)",
+        "confessional pop (editorial)"
+      ],
+      "moods": [
+        "heartfelt",
+        "introspective",
+        "romantic"
+      ]
+    },
+    "jessica-baio.json:jessica-baio/at-least": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "jessica-baio.json:jessica-baio/trust-issues": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "jessica-baio.json:jessica-baio/someday": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "jessica-baio.json:jessica-baio/he-loves-me-he-loves-me-not": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "jessica-baio.json:jessica-baio/break-up-with-me": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "jessica-baio.json:jessica-baio/bite-the-bullet": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "jessica-baio.json:jessica-baio/love-me-less": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "jessica-baio.json:jessica-baio/all-i-saw-was-you-feat-jessica-baio": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "jessica-baio.json:jessica-baio/save-a-little-love": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "jessica-baio.json:jessica-baio/from-scratch": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "jillian-rossi.json:jillian-rossi/profile": {
+      "genres": [
+        "pop",
+        "confessional pop"
+      ],
+      "moods": [
+        "heartbroken",
+        "dramatic"
+      ]
+    },
+    "katelyn-tarver.json:katelyn-tarver/profile": {
+      "genres": [
+        "indie pop (editorial)",
+        "alternative singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "reflective",
+        "resilient",
+        "bittersweet"
+      ]
+    },
+    "katelyn-tarver.json:katelyn-tarver/you-don-t-know": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "katelyn-tarver.json:katelyn-tarver/nicer": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "katelyn-tarver.json:katelyn-tarver/shit-happens": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "katelyn-tarver.json:katelyn-tarver/year-from-now": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "katelyn-tarver.json:katelyn-tarver/glad-i-got-you": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "katelyn-tarver.json:katelyn-tarver/strange-weather": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "katelyn-tarver.json:katelyn-tarver/the-price": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "katelyn-tarver.json:katelyn-tarver/idgaf": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "katelyn-tarver.json:katelyn-tarver/so-am-i": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "katelyn-tarver.json:katelyn-tarver/right-for-me": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "lauren-aquilina.json:lauren-aquilina/profile": {
+      "genres": [
+        "singer-songwriter",
+        "pop",
+        "piano pop"
+      ],
+      "moods": [
+        "reflective",
+        "hopeful"
+      ]
+    },
+    "leanna-firestone.json:leanna-firestone/profile": {
+      "genres": [
+        "indie pop",
+        "singer-songwriter"
+      ],
+      "moods": [
+        "candid",
+        "bittersweet"
+      ]
+    },
+    "lizzy-mcalpine.json:lizzy-mcalpine/profile": {
+      "genres": [
+        "indie folk",
+        "singer-songwriter",
+        "emotional pop"
+      ],
+      "moods": [
+        "reflective",
+        "vulnerable"
+      ]
+    },
+    "loote.json:loote/profile": {
+      "genres": [
+        "pop (documented)",
+        "dance-pop (documented)",
+        "indie pop (documented)",
+        "electronic emotional pop (Afterglow editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "energetic (editorial)",
+        "romantic (editorial)"
+      ]
+    },
+    "loote.json:loote/high-without-your-love": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "loote.json:loote/your-side-of-the-bed": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "loote.json:loote/wish-i-never-met-you": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "loote.json:loote/tomorrow-tonight": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "loote.json:loote/85": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "loote.json:loote/she-s-all-yours": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "loote.json:loote/better-when-you-re-gone": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "loote.json:loote/friends": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "loote.json:loote/somebody-else": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "loote.json:loote/this-is-the-last-song-about-you": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "lyn-lapid.json:lyn-lapid/profile": {
+      "genres": [
+        "indie pop (editorial)",
+        "alternative R&B (editorial)"
+      ],
+      "moods": [
+        "introspective (editorial)",
+        "bittersweet (editorial)"
+      ]
+    },
+    "lyn-lapid.json:lyn-lapid/producer-man": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "lyn-lapid.json:lyn-lapid/in-my-mind": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "lyn-lapid.json:lyn-lapid/when-she-loved-me": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "lyn-lapid.json:lyn-lapid/poster-boy": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "lyn-lapid.json:lyn-lapid/do-u-really": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "lyn-lapid.json:lyn-lapid/detached": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "lyn-lapid.json:lyn-lapid/i-guess-that-was-goodbye": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "lyn-lapid.json:lyn-lapid/buzzkill": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "lyn-lapid.json:lyn-lapid/floater-friend": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "lyn-lapid.json:lyn-lapid/it-doesnt-kill-me-anymore": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "maisie-peters.json:maisie-peters/profile": {
+      "genres": [
+        "pop",
+        "indie pop",
+        "singer-songwriter"
+      ],
+      "moods": [
+        "reflective",
+        "vulnerable"
+      ]
+    },
+    "mokita.json:mokita/profile": {
+      "genres": [
+        "chill pop (source described)",
+        "electronic pop (source described)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "introspective (editorial)",
+        "warm (editorial)",
+        "melancholic (editorial)"
+      ]
+    },
+    "mokita.json:mokita/colorblind": {
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [
+        "melancholic (editorial)",
+        "vulnerable (editorial)"
+      ],
+      "themes": [
+        "depression (editorial)",
+        "communication (editorial)",
+        "isolation (editorial)"
+      ]
+    },
+    "mokita.json:mokita/london": {
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "mokita.json:mokita/with-you": {
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "mokita.json:mokita/lonely-city": {
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "mokita.json:mokita/down": {
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "mokita.json:mokita/love-alone": {
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [
+        "hesitant (editorial)",
+        "vulnerable (editorial)"
+      ],
+      "themes": [
+        "relationship anxiety (editorial)",
+        "emotional risk (editorial)"
+      ]
+    },
+    "mokita.json:mokita/more-than-friends": {
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "mokita.json:mokita/ready-yet": {
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "mokita.json:mokita/happiness": {
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "mokita.json:mokita/easy-come-easy-go": {
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "timing (editorial)",
+        "emotional clarity (editorial)",
+        "relationships (editorial)"
+      ]
+    },
+    "natalie-jane.json:natalie-jane/profile": {
+      "genres": [
+        "pop",
+        "confessional pop"
+      ],
+      "moods": [
+        "dramatic",
+        "intense"
+      ]
+    },
+    "neriah.json:neriah/profile": {
+      "genres": [
+        "pop (documented)",
+        "alt-pop (editorial)",
+        "confessional pop (editorial)"
+      ],
+      "moods": [
+        "candid (editorial)",
+        "defiant (editorial)",
+        "heartbroken (editorial)"
+      ]
+    },
+    "neriah.json:neriah/lego-blocks": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "neriah.json:neriah/unfinished-business": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "neriah.json:neriah/sh-tshow": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "neriah.json:neriah/at-least-i-m-good-at-it": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "neriah.json:neriah/falling-4-somebody": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "neriah.json:neriah/fuck-you-matthew": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "neriah.json:neriah/driving-weather": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "neriah.json:neriah/red-flag": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "neriah.json:neriah/out-of-your-league": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "neriah.json:neriah/not-tonight": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "nina-nesbitt.json:nina-nesbitt/profile": {
+      "genres": [
+        "pop",
+        "singer-songwriter",
+        "folk-pop"
+      ],
+      "moods": [
+        "reflective",
+        "bittersweet"
+      ]
+    },
+    "rachel-grae.json:rachel-grae/profile": {
+      "genres": [
+        "pop (documented)",
+        "singer-songwriter pop (editorial)",
+        "emotional pop (Afterglow editorial)"
+      ],
+      "moods": [
+        "confessional (editorial)",
+        "hopeful (editorial)",
+        "reflective (editorial)"
+      ]
+    },
+    "rachel-grae.json:rachel-grae/bad-timing": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "rachel-grae.json:rachel-grae/how-to-be-alone": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "rachel-grae.json:rachel-grae/outsider": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "rachel-grae.json:rachel-grae/friend-like-me": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [
+        "unequal friendship"
+      ]
+    },
+    "rachel-grae.json:rachel-grae/hope-you-re-proud": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "rachel-grae.json:rachel-grae/right-person-right-time": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [
+        "relationship timing"
+      ]
+    },
+    "rachel-grae.json:rachel-grae/daughter": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "rachel-grae.json:rachel-grae/colorblind": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "rachel-grae.json:rachel-grae/raised-by-a-woman": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": [
+        "mutual respect"
+      ]
+    },
+    "rachel-grae.json:rachel-grae/love-i-ve-been-jealous-of": {
+      "genres": [
+        "pop (artist-level; not independently classified for this track)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "rosie-darling.json:rosie-darling/profile": {
+      "genres": [
+        "indie pop (editorial)",
+        "confessional pop (editorial)"
+      ],
+      "moods": [
+        "introspective (editorial)",
+        "bittersweet (editorial)",
+        "vulnerable (editorial)"
+      ]
+    },
+    "rosie-darling.json:rosie-darling/coping": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "heartbroken (editorial)",
+        "nostalgic (editorial)"
+      ],
+      "themes": [
+        "post-breakup memories (editorial)",
+        "loss (editorial)"
+      ]
+    },
+    "rosie-darling.json:rosie-darling/witness": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "rosie-darling.json:rosie-darling/reruns": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "rosie-darling.json:rosie-darling/say-less": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "restless (editorial)",
+        "introspective (editorial)"
+      ],
+      "themes": [
+        "frustration (editorial)",
+        "meaning (editorial)",
+        "overwhelm (editorial)"
+      ]
+    },
+    "rosie-darling.json:rosie-darling/golden-age": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)",
+        "wistful (editorial)"
+      ],
+      "themes": [
+        "grief (editorial)",
+        "isolation (editorial)",
+        "pandemic experience (editorial)"
+      ]
+    },
+    "rosie-darling.json:rosie-darling/always-almost": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "melancholic (editorial)",
+        "nostalgic (editorial)"
+      ],
+      "themes": [
+        "missed connection (editorial)",
+        "regret (editorial)"
+      ]
+    },
+    "rosie-darling.json:rosie-darling/lost-on-you": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "rosie-darling.json:rosie-darling/boxes": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "vulnerable (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "personal recovery (editorial)",
+        "processing hurt (editorial)"
+      ]
+    },
+    "rosie-darling.json:rosie-darling/joanna": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "rosie-darling.json:rosie-darling/this-is-me-letting-you-go": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "rosie.json:rosie/profile": {
+      "genres": [
+        "emotional pop",
+        "acoustic pop",
+        "singer-songwriter"
+      ],
+      "moods": [
+        "vulnerable",
+        "reflective"
+      ]
+    },
+    "sadie-jean.json:sadie-jean/profile": {
+      "genres": [
+        "emotional pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "introspective (editorial)",
+        "bittersweet (editorial)"
+      ]
+    },
+    "sadie-jean.json:sadie-jean/wyd-now": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "sadie-jean.json:sadie-jean/locksmith": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "sadie-jean.json:sadie-jean/just-because": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "sadie-jean.json:sadie-jean/october-25th": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "sadie-jean.json:sadie-jean/simple-like-17": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "sadie-jean.json:sadie-jean/slow-burn": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "sadie-jean.json:sadie-jean/move-on-first": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "sadie-jean.json:sadie-jean/i-tried": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "sadie-jean.json:sadie-jean/the-one-that-i-want-but-i-dont-know-why": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "sadie-jean.json:sadie-jean/know-you-forever": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "sara-kays.json:sara-kays/profile": {
+      "genres": [
+        "alternative pop (documented music press)",
+        "singer-songwriter (documented artist description)",
+        "indie pop (editorial)",
+        "emotional pop (editorial Afterglow taxonomy)"
+      ],
+      "moods": [
+        "introspective (editorial)",
+        "bittersweet (editorial)",
+        "vulnerable (editorial)",
+        "nostalgic (editorial)"
+      ]
+    },
+    "sara-kays.json:sara-kays/remember-that-night": {
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "heartbroken",
+        "nostalgic"
+      ],
+      "themes": [
+        "renewed grief",
+        "breakup memories",
+        "moving on"
+      ]
+    },
+    "sara-kays.json:sara-kays/smaller-than-this": {
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "vulnerable",
+        "introspective"
+      ],
+      "themes": [
+        "body image",
+        "self-criticism",
+        "self-acceptance struggles"
+      ]
+    },
+    "sara-kays.json:sara-kays/chosen-last": {
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "lonely",
+        "self-conscious"
+      ],
+      "themes": [
+        "social exclusion",
+        "feeling overlooked"
+      ]
+    },
+    "sara-kays.json:sara-kays/home-for-the-summer": {
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "nostalgic",
+        "wistful"
+      ],
+      "themes": [
+        "old friends",
+        "distance",
+        "summer reunions"
+      ]
+    },
+    "sara-kays.json:sara-kays/no-matter-the-season": {
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "raw",
+        "reflective"
+      ],
+      "themes": [
+        "body image",
+        "belonging",
+        "insecurity"
+      ]
+    },
+    "sara-kays.json:sara-kays/traffic-lights": {
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "uneasy",
+        "bittersweet"
+      ],
+      "themes": [
+        "emotional distance",
+        "falling out of love",
+        "communication"
+      ]
+    },
+    "sara-kays.json:sara-kays/backseat-rider": {
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "excluded",
+        "sad"
+      ],
+      "themes": [
+        "friendship changes",
+        "social displacement",
+        "jealousy"
+      ]
+    },
+    "sara-kays.json:sara-kays/struck-by-lightning-feat-cavetown": {
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "compassionate",
+        "somber"
+      ],
+      "themes": [
+        "support",
+        "friendship",
+        "emotional distress"
+      ]
+    },
+    "sara-kays.json:sara-kays/picture-of-you": {
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "reflective",
+        "vulnerable"
+      ],
+      "themes": [
+        "photos",
+        "self-image",
+        "memory"
+      ]
+    },
+    "sara-kays.json:sara-kays/bench-sitter": {
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "sarah-barrios.json:sarah-barrios/profile": {
+      "genres": [
+        "pop",
+        "indie pop"
+      ],
+      "moods": [
+        "romantic",
+        "reflective"
+      ]
+    },
+    "sasha-alex-sloan.json:sasha-alex-sloan/profile": {
+      "genres": [
+        "alternative pop (editorial)",
+        "confessional pop (editorial)",
+        "singer-songwriter (editorial)"
+      ],
+      "moods": [
+        "melancholic (editorial)",
+        "introspective (editorial)",
+        "wry (editorial)"
+      ]
+    },
+    "sasha-alex-sloan.json:sasha-alex-sloan/dancing-with-your-ghost": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "melancholic (editorial)",
+        "tender (editorial)"
+      ],
+      "themes": [
+        "grief (editorial)",
+        "bereavement (editorial)"
+      ]
+    },
+    "sasha-alex-sloan.json:sasha-alex-sloan/older": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "sasha-alex-sloan.json:sasha-alex-sloan/matter-to-you": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "existential unease (editorial)",
+        "love (editorial)",
+        "purpose (editorial)"
+      ]
+    },
+    "sasha-alex-sloan.json:sasha-alex-sloan/only-child": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "nostalgic (editorial)",
+        "introspective (editorial)"
+      ],
+      "themes": [
+        "childhood (editorial)",
+        "isolation (editorial)",
+        "family (editorial)"
+      ]
+    },
+    "sasha-alex-sloan.json:sasha-alex-sloan/house-with-no-mirrors": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "vulnerable (editorial)",
+        "introspective (editorial)"
+      ],
+      "themes": [
+        "body image (editorial)",
+        "self-acceptance (editorial)",
+        "vulnerability (editorial)"
+      ]
+    },
+    "sasha-alex-sloan.json:sasha-alex-sloan/santa-s-real": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "wistful (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "lost innocence (editorial)",
+        "growing up (editorial)",
+        "world events (editorial)"
+      ]
+    },
+    "sasha-alex-sloan.json:sasha-alex-sloan/someone-you-hate": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "regretful (editorial)",
+        "heartbroken (editorial)"
+      ],
+      "themes": [
+        "breakup (editorial)",
+        "guilt (editorial)",
+        "friendship (editorial)"
+      ]
+    },
+    "sasha-alex-sloan.json:sasha-alex-sloan/until-it-happens-to-you": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "tender (editorial)",
+        "sorrowful (editorial)"
+      ],
+      "themes": [
+        "grief (editorial)",
+        "empathy (editorial)",
+        "helplessness (editorial)"
+      ]
+    },
+    "sasha-alex-sloan.json:sasha-alex-sloan/high-school-me": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "nostalgic (editorial)",
+        "reassuring (editorial)"
+      ],
+      "themes": [
+        "adolescence (editorial)",
+        "self-acceptance (editorial)",
+        "growth (editorial)"
+      ]
+    },
+    "sasha-alex-sloan.json:sasha-alex-sloan/lie": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "heartbroken (editorial)"
+      ],
+      "themes": [
+        "breakup (editorial)",
+        "empathy (editorial)",
+        "guilt (editorial)"
+      ]
+    },
+    "shy-martin.json:shy-martin/profile": {
+      "genres": [
+        "pop",
+        "electropop",
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "reflective (editorial)",
+        "vulnerable (editorial)"
+      ]
+    },
+    "shy-martin.json:shy-martin/make-us-never-happen": {
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "bittersweet",
+        "reflective"
+      ],
+      "themes": [
+        "heartbreak",
+        "regret",
+        "lost friendship"
+      ]
+    },
+    "shy-martin.json:shy-martin/slow": {
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "cautious",
+        "hopeful",
+        "reflective"
+      ],
+      "themes": [
+        "past relationship wounds",
+        "new relationships",
+        "vulnerability"
+      ]
+    },
+    "shy-martin.json:shy-martin/can-i-call-you-back": {
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "vulnerable",
+        "introspective"
+      ],
+      "themes": [
+        "anxiety",
+        "emotional overwhelm",
+        "mental health"
+      ]
+    },
+    "shy-martin.json:shy-martin/nobody-likes-moving-on": {
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "melancholic",
+        "reflective"
+      ],
+      "themes": [
+        "breakup",
+        "shared routines",
+        "separation"
+      ]
+    },
+    "shy-martin.json:shy-martin/are-you-happy": {
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "wistful",
+        "accepting"
+      ],
+      "themes": [
+        "acceptance",
+        "past relationships",
+        "closure"
+      ]
+    },
+    "shy-martin.json:shy-martin/forget-to-forget": {
+      "genres": [
+        "pop"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "shy-martin.json:shy-martin/lose-you-too": {
+      "genres": [
+        "pop"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "shy-martin.json:shy-martin/keep-you-mine": {
+      "genres": [
+        "pop",
+        "electropop"
+      ],
+      "moods": [
+        "energetic"
+      ],
+      "themes": []
+    },
+    "shy-martin.json:shy-martin/wish-i-didnt-know-you": {
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "intimate",
+        "reflective"
+      ],
+      "themes": []
+    },
+    "shy-martin.json:shy-martin/glued-to-the-floor": {
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "vulnerable",
+        "introspective"
+      ],
+      "themes": [
+        "mental health",
+        "emotional numbness",
+        "recovery"
+      ]
+    },
+    "sody.json:sody/profile": {
+      "genres": [
+        "emotional pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "vulnerable",
+        "heartbroken",
+        "nostalgic"
+      ]
+    },
+    "sody.json:sody/maybe-it-was-me": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "sody.json:sody/what-we-had": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "sody.json:sody/reason-to-stay": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "sody.json:sody/love-s-a-waste": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "sody.json:sody/bedroom-ceiling": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "sody.json:sody/is-your-bedroom-ceiling-bored-feat-cavetown": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "sody.json:sody/butterfly": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "sody.json:sody/bitch-i-said-it": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "sody.json:sody/missing-me": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "sody.json:sody/you-already-know": {
+      "genres": [
+        "emotional pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "vaultboy.json:vaultboy/profile": {
+      "genres": [
+        "pop",
+        "emotional pop",
+        "bedroom pop"
+      ],
+      "moods": [
+        "reflective",
+        "vulnerable"
+      ]
+    },
+    "victoria-nadine.json:victoria-nadine/profile": {
+      "genres": [
+        "Norwegian pop (documented by national label)",
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "melodic",
+        "bittersweet",
+        "energetic"
+      ]
+    },
+    "victoria-nadine.json:victoria-nadine/be-okay": {
+      "genres": [
+        "Norwegian pop (documented by national label)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "victoria-nadine.json:victoria-nadine/nerve": {
+      "genres": [
+        "Norwegian pop (documented by national label)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "victoria-nadine.json:victoria-nadine/du-er-ikke-alene": {
+      "genres": [
+        "Norwegian pop (documented by national label)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "victoria-nadine.json:victoria-nadine/hope-ur-miserable": {
+      "genres": [
+        "Norwegian pop (documented by national label)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "victoria-nadine.json:victoria-nadine/summer-rain": {
+      "genres": [
+        "Norwegian pop (documented by national label)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "victoria-nadine.json:victoria-nadine/feel-this-way": {
+      "genres": [
+        "Norwegian pop (documented by national label)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "victoria-nadine.json:victoria-nadine/favorite-mistakes": {
+      "genres": [
+        "Norwegian pop (documented by national label)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "victoria-nadine.json:victoria-nadine/can-t-get-enough": {
+      "genres": [
+        "Norwegian pop (documented by national label)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "victoria-nadine.json:victoria-nadine/real-to-me": {
+      "genres": [
+        "Norwegian pop (documented by national label)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "victoria-nadine.json:victoria-nadine/cherry": {
+      "genres": [
+        "Norwegian pop (documented by national label)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "zoe-wees.json:zoe-wees/profile": {
+      "genres": [
+        "pop",
+        "soul-influenced pop"
+      ],
+      "moods": [
+        "intense",
+        "resilient"
+      ]
+    },
+    "canonical:astrid-s/profile": {
+      "genres": [
+        "pop",
+        "electropop (editorial tag informed by MusicBrainz)",
+        "R&B influence"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "reflective (editorial)",
+        "heartbreak (editorial)",
+        "playful (editorial)"
+      ]
+    },
+    "canonical:astrid-s/hurts-so-good": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "yearning",
+        "bittersweet"
+      ],
+      "themes": [
+        "painful attraction",
+        "push-pull relationships"
+      ]
+    },
+    "canonical:astrid-s/think-before-i-talk": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "regretful",
+        "reflective"
+      ],
+      "themes": [
+        "arguments",
+        "regret",
+        "communication"
+      ]
+    },
+    "canonical:astrid-s/its-ok-if-you-forget-me": {
+      "genres": [
+        "pop (editorial)",
+        "acoustic-influenced pop (editorial)"
+      ],
+      "moods": [
+        "wistful",
+        "restrained"
+      ],
+      "themes": [
+        "breakup",
+        "emotional detachment",
+        "uncertain closure"
+      ]
+    },
+    "canonical:astrid-s/i-do": {
+      "genres": [
+        "pop (catalog)",
+        "country-pop influence (editorial)"
+      ],
+      "moods": [
+        "longing",
+        "conflicted"
+      ],
+      "themes": [
+        "lingering love",
+        "breakup"
+      ]
+    },
+    "canonical:astrid-s/favorite-part-of-me": {
+      "genres": [
+        "stripped-back pop (editorial)"
+      ],
+      "moods": [
+        "warm",
+        "appreciative"
+      ],
+      "themes": [
+        "friendship",
+        "family",
+        "self-acceptance"
+      ]
+    },
+    "canonical:astrid-s/breathe": {
+      "genres": [
+        "pop (catalog)"
+      ],
+      "moods": [
+        "euphoric",
+        "romantic"
+      ],
+      "themes": [
+        "infatuation",
+        "overwhelming moments"
+      ]
+    },
+    "canonical:astrid-s/such-a-boy": {
+      "genres": [
+        "pop (catalog)"
+      ],
+      "moods": [
+        "assertive",
+        "playful"
+      ],
+      "themes": [
+        "gender stereotypes",
+        "dating ambiguity"
+      ]
+    },
+    "canonical:astrid-s/i-dont-know-why": {
+      "genres": [
+        "pop (catalog)",
+        "electronic-pop (editorial)"
+      ],
+      "moods": [
+        "upbeat (reviewer characterization)",
+        "summer energy (artist comment)",
+        "romantic longing (press-release characterization)"
+      ],
+      "themes": [
+        "unspoken romantic attraction (press-release characterization)",
+        "uncertainty (editorial)"
+      ]
+    },
+    "canonical:astrid-s/two-hands": {
+      "genres": [
+        "pop (catalog)",
+        "country-tinged pop (editorial)"
+      ],
+      "moods": [
+        "cheeky",
+        "self-aware"
+      ],
+      "themes": [
+        "dating",
+        "imperfection",
+        "self-acceptance"
+      ]
+    },
+    "canonical:astrid-s/joyride": {
+      "genres": [
+        "pop (catalog)"
+      ],
+      "moods": [
+        "carefree",
+        "bittersweet"
+      ],
+      "themes": [
+        "short-lived romance",
+        "living in the moment"
+      ]
+    },
+    "canonical:astrid-s/dance-dance-dance": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:astrid-s/leave-it-beautiful": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:astrid-s/pretty-with-dagny": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:astrid-s/sidelove": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:caleb-hearn/profile": {
+      "genres": [
+        "folk-pop (editorial)",
+        "singer-songwriter pop (editorial)",
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)",
+        "tender (editorial)",
+        "nostalgic (editorial)",
+        "hopeful (editorial)"
+      ]
+    },
+    "canonical:caleb-hearn/always-be-2-0": {
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "grieving (editorial)",
+        "cathartic (editorial)"
+      ],
+      "themes": [
+        "friendship (editorial)",
+        "bereavement (editorial)",
+        "remembering a friend (editorial)"
+      ]
+    },
+    "canonical:caleb-hearn/brown-eyes-brown-hair": {
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "empathetic (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "concealed emotional pain (editorial)",
+        "encouragement (editorial)",
+        "self-acceptance (editorial)"
+      ]
+    },
+    "canonical:caleb-hearn/its-always-been-you": {
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "canonical:caleb-hearn/where-do-we-go-from-here": {
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "heartbroken (editorial)",
+        "compassionate (editorial)"
+      ],
+      "themes": [
+        "bereavement (editorial)",
+        "loss of a partner (editorial)",
+        "family (editorial)"
+      ]
+    },
+    "canonical:caleb-hearn/it-wasnt-me-at-all": {
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "hurt (editorial)",
+        "resolute (editorial)"
+      ],
+      "themes": [
+        "manipulation in a relationship (editorial)",
+        "self-blame (editorial)",
+        "breakup (editorial)"
+      ]
+    },
+    "canonical:caleb-hearn/1200-sq-ft": {
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "nostalgic (editorial)",
+        "tender (editorial)",
+        "bittersweet (editorial)"
+      ],
+      "themes": [
+        "childhood home (editorial)",
+        "family changes (editorial)",
+        "memory (editorial)"
+      ]
+    },
+    "canonical:caleb-hearn/little-bit-better": {
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "comforting (editorial)",
+        "hopeful (editorial)",
+        "romantic (editorial)"
+      ],
+      "themes": [
+        "mutual support (editorial)",
+        "love (editorial)",
+        "emotional reassurance (editorial)"
+      ]
+    },
+    "canonical:caleb-hearn/klonopin": {
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "intense (editorial)",
+        "vulnerable (editorial)",
+        "anxious (editorial)"
+      ],
+      "themes": [
+        "panic (editorial)",
+        "mental wellness (editorial)",
+        "searching for relief (editorial)"
+      ]
+    },
+    "canonical:caleb-hearn/the-lows": {
+      "genres": [
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "reassuring (editorial)",
+        "warm (editorial)"
+      ],
+      "themes": [
+        "unconditional love (editorial)",
+        "friendship (editorial)",
+        "support through hardship (editorial)"
+      ]
+    },
+    "canonical:caleb-hearn/green-eyed-heart-attack": {
+      "genres": [
+        "folk-pop (editorial)"
+      ],
+      "moods": [
+        "playful (editorial)",
+        "affectionate (editorial)"
+      ],
+      "themes": [
+        "first meeting (editorial)",
+        "romantic attraction (editorial)",
+        "memory (editorial)"
+      ]
+    },
+    "canonical:chelsea-cutler/profile": {
+      "genres": [
+        "indie pop (editorial)",
+        "electronic pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "confessional (editorial)",
+        "wistful (editorial)",
+        "warm (editorial)"
+      ]
+    },
+    "canonical:chelsea-cutler/your-shirt": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "canonical:chelsea-cutler/sixteen": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "canonical:chelsea-cutler/how-to-be-human": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "introspective (editorial)"
+      ],
+      "themes": []
+    },
+    "canonical:chelsea-cutler/forever": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "canonical:chelsea-cutler/men-on-the-moon": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "canonical:chelsea-cutler/i-don-t-feel-alive": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "introspective (editorial)"
+      ],
+      "themes": [
+        "feeling insufficient (editorial)"
+      ]
+    },
+    "canonical:chelsea-cutler/your-bones": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "warm (editorial)",
+        "affectionate (editorial)"
+      ],
+      "themes": [
+        "love (editorial)",
+        "vulnerability (editorial)"
+      ]
+    },
+    "canonical:chelsea-cutler/you-re-all-i-ever-dreamed-of": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "tender (editorial)",
+        "hopeful (editorial)"
+      ],
+      "themes": [
+        "early romance (editorial)",
+        "vulnerability (editorial)"
+      ]
+    },
+    "canonical:chelsea-cutler/sad-tonight": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "canonical:chelsea-cutler/easy": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "canonical:chelsea-cutler/crazier-things-with-noah-kahan": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:chelsea-cutler/you-were-good-to-me": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:clara-mae/profile": {
+      "genres": [
+        "pop (catalogued)",
+        "Swedish pop (editorial)",
+        "electropop (editorial)",
+        "country-influenced pop (later work; editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "heartbroken (editorial)",
+        "reflective (editorial)",
+        "hopeful (editorial)"
+      ]
+    },
+    "canonical:clara-mae/im-not-her": {
+      "genres": [
+        "pop (catalogued)",
+        "electropop (editorial)"
+      ],
+      "moods": [
+        "defiant",
+        "vulnerable"
+      ],
+      "themes": [
+        "self-comparison",
+        "self-worth",
+        "breakups"
+      ]
+    },
+    "canonical:clara-mae/i-forgot": {
+      "genres": [
+        "pop (catalogued)",
+        "electropop (editorial)"
+      ],
+      "moods": [
+        "wistful",
+        "unsettled"
+      ],
+      "themes": [
+        "unexpected encounters",
+        "lingering attachment",
+        "breakups"
+      ]
+    },
+    "canonical:clara-mae/sorry-for-writing-all-the-songs-about-you": {
+      "genres": [
+        "pop (catalogued)",
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "reflective",
+        "resolute"
+      ],
+      "themes": [
+        "writing to heal",
+        "closure",
+        "breakups"
+      ]
+    },
+    "canonical:clara-mae/better-me-better-you": {
+      "genres": [
+        "pop (catalogued)",
+        "duet pop (editorial)"
+      ],
+      "moods": [
+        "conflicted",
+        "nostalgic"
+      ],
+      "themes": [
+        "idealizing the past",
+        "relationship comparison"
+      ]
+    },
+    "canonical:clara-mae/crash": {
+      "genres": [
+        "pop (official catalogue)",
+        "country-pop influence (artist commentary)"
+      ],
+      "moods": [
+        "hopeful",
+        "romantic",
+        "vulnerable",
+        "bittersweet"
+      ],
+      "themes": [
+        "vulnerability",
+        "risking love again",
+        "love after heartbreak",
+        "choosing love despite uncertainty"
+      ]
+    },
+    "canonical:clara-mae/loved-you-once": {
+      "genres": [
+        "pop (catalogued)",
+        "ballad (editorial)"
+      ],
+      "moods": [
+        "wistful",
+        "melancholic"
+      ],
+      "themes": [
+        "unexpected encounter",
+        "lost familiarity",
+        "breakups"
+      ]
+    },
+    "canonical:clara-mae/overused-feat-gnash": {
+      "genres": [
+        "pop (catalogued)",
+        "pop duet (editorial)"
+      ],
+      "moods": [
+        "bittersweet",
+        "conflicted"
+      ],
+      "themes": [
+        "relationship deterioration",
+        "preserving memories",
+        "separation"
+      ]
+    },
+    "canonical:clara-mae/alright-feat-russell-dickerson": {
+      "genres": [
+        "pop (catalogued)",
+        "country-influenced pop (editorial)"
+      ],
+      "moods": [
+        "tender",
+        "bittersweet"
+      ],
+      "themes": [
+        "different viewpoints",
+        "breakups",
+        "wishing someone well"
+      ]
+    },
+    "canonical:clara-mae/not-sad-anymore": {
+      "genres": [
+        "pop (catalogued)",
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "uplifting",
+        "hopeful"
+      ],
+      "themes": [
+        "independence",
+        "recovery",
+        "moving on"
+      ]
+    },
+    "canonical:clara-mae/no-jolene": {
+      "genres": [
+        "pop (catalogued)",
+        "country-influenced pop (editorial)"
+      ],
+      "moods": [
+        "playful",
+        "hopeful",
+        "confident"
+      ],
+      "themes": [
+        "trust in love",
+        "secure commitment",
+        "romantic confidence"
+      ]
+    },
+    "canonical:clara-mae/little-hope": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:clara-mae/learning-experience": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:clara-mae/unmiss-you": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:elina/profile": {
+      "genres": [
+        "singer-songwriter (source described)",
+        "folk-pop (source described)",
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "tender (editorial)",
+        "wistful (editorial)",
+        "reflective (editorial)"
+      ]
+    },
+    "canonical:elina/wild-enough": {
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "vulnerable (editorial)",
+        "determined (editorial)"
+      ],
+      "themes": [
+        "self-doubt (editorial)",
+        "self-belief (editorial)"
+      ]
+    },
+    "canonical:elina/here-with-me": {
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "canonical:elina/champion": {
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "canonical:elina/free": {
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "reflective (editorial)",
+        "wistful (editorial)"
+      ],
+      "themes": [
+        "letting go (editorial)",
+        "happiness (editorial)",
+        "doubt (editorial)"
+      ]
+    },
+    "canonical:elina/paper-planes": {
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "tender (editorial)",
+        "accepting (editorial)"
+      ],
+      "themes": [
+        "love (editorial)",
+        "separation (editorial)",
+        "goodwill (editorial)"
+      ]
+    },
+    "canonical:elina/blue": {
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "calm (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "acceptance (editorial)",
+        "change (editorial)",
+        "growth (editorial)"
+      ]
+    },
+    "canonical:elina/remember": {
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "comforting (editorial)",
+        "tender (editorial)"
+      ],
+      "themes": [
+        "self-worth (editorial)",
+        "empathy (editorial)",
+        "support (editorial)"
+      ]
+    },
+    "canonical:elina/another-round": {
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "longing (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "nostalgia (editorial)",
+        "resistance to change (editorial)"
+      ]
+    },
+    "canonical:elina/apologize": {
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [
+        "hopeful (editorial)",
+        "resolute (editorial)"
+      ],
+      "themes": [
+        "personal growth (editorial)",
+        "letting go (editorial)",
+        "self-worth (editorial)"
+      ]
+    },
+    "canonical:elina/you-make-me-think-of-fire": {
+      "genres": [
+        "singer-songwriter (source described)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "canonical:mokita/profile": {
+      "genres": [
+        "chill pop (source described)",
+        "electronic pop (source described)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "introspective (editorial)",
+        "warm (editorial)",
+        "melancholic (editorial)"
+      ]
+    },
+    "canonical:mokita/colorblind": {
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [
+        "melancholic (editorial)",
+        "vulnerable (editorial)"
+      ],
+      "themes": [
+        "depression (editorial)",
+        "communication (editorial)",
+        "isolation (editorial)"
+      ]
+    },
+    "canonical:mokita/london": {
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "canonical:mokita/with-you": {
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [
+        "uneasy (editorial)",
+        "introspective (editorial)"
+      ],
+      "themes": [
+        "identity in relationships (editorial)",
+        "emotional disconnection (editorial)"
+      ]
+    },
+    "canonical:mokita/whos-gonna-love-me-now": {
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [
+        "vulnerable (editorial)",
+        "uncertain (editorial)"
+      ],
+      "themes": [
+        "breakup (editorial)",
+        "starting over (editorial)",
+        "fear of vulnerability (editorial)"
+      ]
+    },
+    "canonical:mokita/down": {
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [
+        "comforting (editorial)",
+        "hopeful (editorial)"
+      ],
+      "themes": [
+        "friendship (editorial)",
+        "emotional support (editorial)"
+      ]
+    },
+    "canonical:mokita/love-alone": {
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [
+        "hesitant (editorial)",
+        "vulnerable (editorial)"
+      ],
+      "themes": [
+        "relationship anxiety (editorial)",
+        "emotional risk (editorial)"
+      ]
+    },
+    "canonical:mokita/more-than-friends": {
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "wistful (editorial)"
+      ],
+      "themes": [
+        "post-breakup friendship (editorial)",
+        "lingering feelings (editorial)"
+      ]
+    },
+    "canonical:mokita/ready-yet": {
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [
+        "dreamy (editorial)",
+        "conflicted (editorial)"
+      ],
+      "themes": [
+        "escapism (editorial)",
+        "avoidance (editorial)"
+      ]
+    },
+    "canonical:mokita/happiness": {
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "canonical:mokita/easy-come-easy-go": {
+      "genres": [
+        "chill pop (source described)"
+      ],
+      "moods": [
+        "warm (editorial)",
+        "hopeful (editorial)"
+      ],
+      "themes": [
+        "commitment (editorial)",
+        "emotional certainty (editorial)"
+      ]
+    },
+    "canonical:rosie-darling/profile": {
+      "genres": [
+        "indie pop (editorial)",
+        "confessional pop (editorial)"
+      ],
+      "moods": [
+        "introspective (editorial)",
+        "bittersweet (editorial)",
+        "vulnerable (editorial)"
+      ]
+    },
+    "canonical:rosie-darling/coping": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "heartbroken (editorial)",
+        "nostalgic (editorial)"
+      ],
+      "themes": [
+        "post-breakup memories (editorial)",
+        "loss (editorial)"
+      ]
+    },
+    "canonical:rosie-darling/witness": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "canonical:rosie-darling/reruns": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "canonical:rosie-darling/say-less": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "restless (editorial)",
+        "introspective (editorial)"
+      ],
+      "themes": [
+        "frustration (editorial)",
+        "meaning (editorial)",
+        "overwhelm (editorial)"
+      ]
+    },
+    "canonical:rosie-darling/golden-age": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)",
+        "wistful (editorial)"
+      ],
+      "themes": [
+        "grief (editorial)",
+        "isolation (editorial)",
+        "pandemic experience (editorial)"
+      ]
+    },
+    "canonical:rosie-darling/always-almost": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "melancholic (editorial)",
+        "nostalgic (editorial)"
+      ],
+      "themes": [
+        "missed connection (editorial)",
+        "regret (editorial)"
+      ]
+    },
+    "canonical:rosie-darling/lost-on-you": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "canonical:rosie-darling/boxes": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "vulnerable (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "personal recovery (editorial)",
+        "processing hurt (editorial)"
+      ]
+    },
+    "canonical:rosie-darling/joanna": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "canonical:rosie-darling/this-is-me-letting-you-go": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "canonical:rosie-darling/it-is-what-it-is": {
+      "genres": [
+        "indie pop (editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "one-sided relationships (editorial)",
+        "acceptance (editorial)"
+      ]
+    },
+    "canonical:rosie-darling/justify": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:rosie-darling/villain": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:sara-kays/profile": {
+      "genres": [
+        "alternative pop (documented music press)",
+        "singer-songwriter (documented artist description)",
+        "indie pop (editorial)",
+        "emotional pop (editorial tunetofond taxonomy)"
+      ],
+      "moods": [
+        "introspective (editorial)",
+        "bittersweet (editorial)",
+        "vulnerable (editorial)",
+        "nostalgic (editorial)"
+      ]
+    },
+    "canonical:sara-kays/remember-that-night": {
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "heartbroken",
+        "nostalgic"
+      ],
+      "themes": [
+        "renewed grief",
+        "breakup memories",
+        "moving on"
+      ]
+    },
+    "canonical:sara-kays/smaller-than-this": {
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "vulnerable",
+        "introspective"
+      ],
+      "themes": [
+        "body image",
+        "self-criticism",
+        "self-acceptance struggles"
+      ]
+    },
+    "canonical:sara-kays/chosen-last": {
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "lonely",
+        "self-conscious"
+      ],
+      "themes": [
+        "social exclusion",
+        "feeling overlooked"
+      ]
+    },
+    "canonical:sara-kays/home-for-the-summer": {
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "nostalgic",
+        "wistful"
+      ],
+      "themes": [
+        "old friends",
+        "distance",
+        "summer reunions"
+      ]
+    },
+    "canonical:sara-kays/no-matter-the-season": {
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "raw",
+        "reflective"
+      ],
+      "themes": [
+        "body image",
+        "belonging",
+        "insecurity"
+      ]
+    },
+    "canonical:sara-kays/traffic-lights": {
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "uneasy",
+        "bittersweet"
+      ],
+      "themes": [
+        "emotional distance",
+        "falling out of love",
+        "communication"
+      ]
+    },
+    "canonical:sara-kays/backseat-rider": {
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "excluded",
+        "sad"
+      ],
+      "themes": [
+        "friendship changes",
+        "social displacement",
+        "jealousy"
+      ]
+    },
+    "canonical:sara-kays/struck-by-lightning-feat-cavetown": {
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "compassionate",
+        "somber"
+      ],
+      "themes": [
+        "support",
+        "friendship",
+        "emotional distress"
+      ]
+    },
+    "canonical:sara-kays/picture-of-you": {
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "reflective",
+        "vulnerable"
+      ],
+      "themes": [
+        "photos",
+        "self-image",
+        "memory"
+      ]
+    },
+    "canonical:sara-kays/bench-sitter": {
+      "genres": [
+        "pop (editorial)",
+        "singer-songwriter pop (editorial)"
+      ],
+      "moods": [
+        "hurt (editorial)",
+        "resigned (editorial)",
+        "bittersweet (editorial)"
+      ],
+      "themes": [
+        "being a second choice (editorial)",
+        "unreciprocated affection (editorial)",
+        "unequal commitment (editorial)"
+      ]
+    },
+    "canonical:sara-kays/bored": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:sara-kays/miss-me-the-same-with-anson-seabra": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:sasha-alex-sloan/profile": {
+      "genres": [
+        "alternative pop (editorial)",
+        "confessional pop (editorial)",
+        "singer-songwriter (editorial)"
+      ],
+      "moods": [
+        "melancholic (editorial)",
+        "introspective (editorial)",
+        "wry (editorial)"
+      ]
+    },
+    "canonical:sasha-alex-sloan/dancing-with-your-ghost": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "melancholic (editorial)",
+        "tender (editorial)"
+      ],
+      "themes": [
+        "grief (editorial)",
+        "bereavement (editorial)"
+      ]
+    },
+    "canonical:sasha-alex-sloan/older": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": []
+    },
+    "canonical:sasha-alex-sloan/matter-to-you": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "existential unease (editorial)",
+        "love (editorial)",
+        "purpose (editorial)"
+      ]
+    },
+    "canonical:sasha-alex-sloan/only-child": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "nostalgic (editorial)",
+        "introspective (editorial)"
+      ],
+      "themes": [
+        "childhood (editorial)",
+        "isolation (editorial)",
+        "family (editorial)"
+      ]
+    },
+    "canonical:sasha-alex-sloan/house-with-no-mirrors": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "vulnerable (editorial)",
+        "introspective (editorial)"
+      ],
+      "themes": [
+        "body image (editorial)",
+        "self-acceptance (editorial)",
+        "vulnerability (editorial)"
+      ]
+    },
+    "canonical:sasha-alex-sloan/santa-s-real": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "wistful (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "lost innocence (editorial)",
+        "growing up (editorial)",
+        "world events (editorial)"
+      ]
+    },
+    "canonical:sasha-alex-sloan/someone-you-hate": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "regretful (editorial)",
+        "heartbroken (editorial)"
+      ],
+      "themes": [
+        "breakup (editorial)",
+        "guilt (editorial)",
+        "friendship (editorial)"
+      ]
+    },
+    "canonical:sasha-alex-sloan/until-it-happens-to-you": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "tender (editorial)",
+        "sorrowful (editorial)"
+      ],
+      "themes": [
+        "grief (editorial)",
+        "empathy (editorial)",
+        "helplessness (editorial)"
+      ]
+    },
+    "canonical:sasha-alex-sloan/high-school-me": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "nostalgic (editorial)",
+        "reassuring (editorial)"
+      ],
+      "themes": [
+        "adolescence (editorial)",
+        "self-acceptance (editorial)",
+        "growth (editorial)"
+      ]
+    },
+    "canonical:sasha-alex-sloan/lie": {
+      "genres": [
+        "alternative pop (editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "heartbroken (editorial)"
+      ],
+      "themes": [
+        "breakup (editorial)",
+        "empathy (editorial)",
+        "guilt (editorial)"
+      ]
+    },
+    "canonical:sasha-alex-sloan/hypochondriac": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:sasha-alex-sloan/adult": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:sasha-alex-sloan/runaway": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:sasha-alex-sloan/thank-god": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:sasha-alex-sloan/i-blame-the-world": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:sasha-alex-sloan/too-sad-to-cry": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:sasha-alex-sloan/smiling-when-i-die": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:sasha-alex-sloan/when-was-it-over-feat-sam-hunt": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:sasha-alex-sloan/normal": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:shy-martin/profile": {
+      "genres": [
+        "pop",
+        "electropop",
+        "emotional pop (editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "reflective (editorial)",
+        "vulnerable (editorial)"
+      ]
+    },
+    "canonical:shy-martin/make-us-never-happen": {
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "bittersweet",
+        "reflective"
+      ],
+      "themes": [
+        "heartbreak",
+        "regret",
+        "lost friendship"
+      ]
+    },
+    "canonical:shy-martin/slow": {
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "cautious",
+        "hopeful",
+        "reflective"
+      ],
+      "themes": [
+        "past relationship wounds",
+        "new relationships",
+        "vulnerability"
+      ]
+    },
+    "canonical:shy-martin/can-i-call-you-back": {
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "vulnerable",
+        "introspective"
+      ],
+      "themes": [
+        "anxiety",
+        "emotional overwhelm",
+        "mental health"
+      ]
+    },
+    "canonical:shy-martin/nobody-likes-moving-on": {
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "melancholic",
+        "reflective"
+      ],
+      "themes": [
+        "breakup",
+        "shared routines",
+        "separation"
+      ]
+    },
+    "canonical:shy-martin/are-you-happy": {
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "wistful",
+        "accepting"
+      ],
+      "themes": [
+        "acceptance",
+        "past relationships",
+        "closure"
+      ]
+    },
+    "canonical:shy-martin/forget-to-forget": {
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "conflicted (editorial)",
+        "bittersweet (editorial)"
+      ],
+      "themes": [
+        "repeated relationship mistakes",
+        "conflicted attraction",
+        "unhealthy attachment"
+      ]
+    },
+    "canonical:shy-martin/lose-you-too": {
+      "genres": [
+        "pop"
+      ],
+      "moods": [],
+      "themes": []
+    },
+    "canonical:shy-martin/keep-you-mine": {
+      "genres": [
+        "pop",
+        "electropop"
+      ],
+      "moods": [
+        "energetic"
+      ],
+      "themes": []
+    },
+    "canonical:shy-martin/wish-i-didnt-know-you": {
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "intimate",
+        "reflective"
+      ],
+      "themes": []
+    },
+    "canonical:shy-martin/glued-to-the-floor": {
+      "genres": [
+        "pop"
+      ],
+      "moods": [
+        "vulnerable",
+        "introspective"
+      ],
+      "themes": [
+        "mental health",
+        "emotional numbness",
+        "recovery"
+      ]
+    },
+    "canonical:shy-martin/same-old": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:shy-martin/just-a-little-longer": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "bittersweet (editorial)",
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:shy-martin/out-of-my-hands": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:shy-martin/on-a-prayer": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    },
+    "canonical:shy-martin/still-the-same-feat-boy-in-space": {
+      "genres": [
+        "pop (editorial)"
+      ],
+      "moods": [
+        "reflective (editorial)"
+      ],
+      "themes": [
+        "relationships and personal reflection (editorial)"
+      ]
+    }
+  }
+}

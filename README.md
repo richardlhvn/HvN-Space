@@ -1,6 +1,12 @@
 # tunetofond
 
-## Current: emotional moods and simpler genres — Core 0.14.0 / Theme 0.8.0
+## Current: shared tags — Core 0.15.0 / Theme 0.9.0
+
+[Download the combined update](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/tunetofond-tag-sync-2026-11-14/downloads/tunetofond_tag_sync_Core_0.15.0_Theme_0.9.0.zip) · [Local update steps](downloads/README_TAG_SYNC_UPDATE.md) · [All tag mappings and validation](docs/TAG_SYNC.md)
+
+**15 genres, 20 feelings, and 20 themes** now use shared labels in the website, stored WordPress tags/research and active bundled JSON. The theme menu is reduced from 161 labels to 20 topics. The owner-authorized protected migration also updates retained hidden records without changing their visibility. **Merge plugin, theme and scripts; back up; preview and apply `scripts/migrate-tags.php`.** The Google Sheet and XLSX remain unchanged for the owner’s later update. Earlier release reports below describe their original behavior.
+
+## Previous: emotional moods and simpler genres — Core 0.14.0 / Theme 0.8.0
 
 [Download the combined mood update](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/tunetofond-mood-groups-2026-11-14/downloads/tunetofond_mood_update_Core_0.14.0_Theme_0.8.0.zip) · [Local update steps](downloads/README_MOOD_GROUPS_UPDATE.md) · [Emotion mapping, validation and screenshots](docs/MOOD_GROUPS.md)
 

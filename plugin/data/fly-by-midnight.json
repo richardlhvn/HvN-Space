@@ -29,15 +29,13 @@
     "official_website": "https://www.flybymidnight.com/",
     "social_profiles": [],
     "genres": [
-      "pop (documented)",
-      "indie pop (documented)",
-      "synth-pop (editorial)",
-      "emotional electronic pop (Afterglow editorial)"
+      "Pop",
+      "Indie Pop",
+      "Electronic"
     ],
     "moods": [
-      "nostalgic (editorial)",
-      "atmospheric (editorial)",
-      "romantic (editorial)"
+      "Nostalgia",
+      "Love & Affection"
     ],
     "career_milestones": [
       {
@@ -157,7 +155,7 @@
       "release_type": "album",
       "short_description": "An Afterglow curated introduction to No Choice by Fly By Midnight.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -222,7 +220,7 @@
       "release_type": "album",
       "short_description": "An Afterglow curated introduction to In The Night by Fly By Midnight.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -292,7 +290,7 @@
       "release_type": "album",
       "short_description": "An Afterglow curated introduction to Infinitely Falling by Fly By Midnight.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -352,7 +350,7 @@
       "release_type": "album",
       "short_description": "An Afterglow curated introduction to What If I Wasn't Done Loving You? by Fly By Midnight.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -413,7 +411,7 @@
       "release_type": "album",
       "short_description": "An Afterglow curated introduction to Different Lives (feat. Rachel Grae) by Fly By Midnight, Rachel Grae.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -469,7 +467,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to Automatic by Fly By Midnight, Jake Miller.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -535,7 +533,7 @@
       "release_type": "album",
       "short_description": "An Afterglow curated introduction to Better Late Than Sooner by Fly By Midnight.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -605,7 +603,7 @@
       "release_type": null,
       "short_description": "An Afterglow curated introduction to Borrow Your Time by Fly By Midnight.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -658,7 +656,7 @@
       "release_type": "album",
       "short_description": "An Afterglow curated introduction to The Weather by Fly By Midnight.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -718,7 +716,7 @@
       "release_type": null,
       "short_description": "An Afterglow curated introduction to Love Me Like a Friend by Fly By Midnight.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],

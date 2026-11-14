@@ -62,7 +62,7 @@ try{
  const env=await fs.readFile('.env','utf8'),password=env.match(/^AFTERGLOW_ADMIN_PASSWORD=(.+)$/m)[1];
  await page.goto(`${base}/wp-login.php`);await page.locator('#user_login').fill('editor');await page.locator('#user_pass').fill(password);await page.locator('#wp-submit').click();await page.waitForURL('**/wp-admin/');
  await page.goto(`${base}/wp-admin/edit.php?post_type=artist&page=ag-genre-groups`);
- check((await page.locator('.wrap').innerText()).includes(`${Object.keys(config).length} shared genre families`),'Admin explains the controlled family vocabulary');
+ check((await page.locator('.wrap').innerText()).includes(`${Object.keys(config).length} genre families`),'Admin explains the controlled family vocabulary');
  check((await page.locator('.widefat').innerText()).includes('country-influenced pop'),'Original source labels remain available for editor review');
  check(await page.locator('.widefat select').first().locator('option').count()===Object.keys(config).length+1,'Mapping overrides offer only the known families and default');
  const denied=await page.request.post(`${base}/wp-admin/admin-post.php`,{form:{action:'ag_save_genre_groups','genre_groups[pop]':'electronic'}});

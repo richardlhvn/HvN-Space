@@ -41,7 +41,7 @@ try {
   await page.locator('.empty-state .button').click();
   const moodGroups = JSON.parse(await fs.readFile('plugin/data/mood-groups.json','utf8')).groups;
   const moods = await page.request.get(route('/wp-json/wp/v2/mood?per_page=100'));
-  const reflectionIDs = (await moods.json()).filter(t=>moodGroups.reflection.aliases.includes(t.slug)).map(t=>t.id);
+  const reflectionIDs = (await moods.json()).filter(t=>['reflection',...moodGroups.reflection.aliases].includes(t.slug)).map(t=>t.id);
   const expectedArtists = await page.request.get(route(`/wp-json/wp/v2/artist?mood=${reflectionIDs.join(',')}&per_page=1`));
   const moodTotal = Number(expectedArtists.headers()['x-wp-total']);
   await page.selectOption('#filter-mood', 'reflection');

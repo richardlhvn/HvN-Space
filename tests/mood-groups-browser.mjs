@@ -78,9 +78,9 @@ try{
  check(await nojs.locator('.discovery-card').count()>0,'Grouped discovery also works without JavaScript');await native.close();
  // Admin view and nonce guard; actual option changes are tested only in disposable tables.
  await page.setViewportSize({width:1440,height:1000});const env=await fs.readFile('.env','utf8'),password=env.match(/^AFTERGLOW_ADMIN_PASSWORD=(.+)$/m)[1];await page.goto(`${base}/wp-login.php`);await page.locator('#user_login').fill('editor');await page.locator('#user_pass').fill(password);await page.locator('#wp-submit').click();await page.waitForURL('**/wp-admin/');await page.goto(`${base}/wp-admin/edit.php?post_type=artist&page=ag-mood-groups`);
- check((await page.locator('.wrap').innerText()).includes('20 shared mood families'),'Admin offers the 20-family mood system');
+ check((await page.locator('.wrap').innerText()).includes('20 mood families'),'Admin offers the 20-family mood system');
  check((await page.locator('.widefat').innerText()).includes('introspective'),'Editors retain the original mood labels');
  const denied=await page.request.post(`${base}/wp-admin/admin-post.php`,{form:{action:'ag_save_mood_groups','mood_groups[introspective]':'playful'}});check(denied.status()===403,'Mood mapping writes require a nonce');await page.screenshot({path:'test-results/mood-groups-admin.png'});
  console.log(`PASS: ${checks} mood browser checks: exact emotional filters/pagination, tags, legacy links, home links, grouped recommendations, iframe preservation, no-JS and admin permissions.`);
- await fs.writeFile('test-results/mood-groups-summary.json',JSON.stringify({checks,emotion_families:20,public_artists:10,public_songs:128,source_data_changed:false},null,2));
+ await fs.writeFile('test-results/mood-groups-summary.json',JSON.stringify({checks,emotion_families:20,public_artists:10,public_songs:128},null,2));
 }finally{await browser.close();}

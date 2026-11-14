@@ -65,16 +65,16 @@
       }
     ],
     "genres": [
-      "alternative pop (documented music press)",
-      "singer-songwriter (documented artist description)",
-      "indie pop (editorial)",
-      "emotional pop (editorial Afterglow taxonomy)"
+      "Alternative Pop",
+      "Singer-Songwriter",
+      "Indie Pop",
+      "Pop"
     ],
     "moods": [
-      "introspective (editorial)",
-      "bittersweet (editorial)",
-      "vulnerable (editorial)",
-      "nostalgic (editorial)"
+      "Reflection",
+      "Bittersweet",
+      "Vulnerability",
+      "Nostalgia"
     ],
     "career_milestones": [
       {
@@ -285,17 +285,17 @@
       "release_type": "single",
       "short_description": "A breakup song triggered by a message from someone she previously dated.",
       "genres": [
-        "pop (editorial)",
-        "singer-songwriter pop (editorial)"
+        "Pop",
+        "Singer-Songwriter"
       ],
       "moods": [
-        "heartbroken",
-        "nostalgic"
+        "Heartbreak",
+        "Nostalgia"
       ],
       "themes": [
-        "renewed grief",
-        "breakup memories",
-        "moving on"
+        "Grief & Loss",
+        "Memories & Nostalgia",
+        "Moving On & Closure"
       ],
       "editorial_notes": "A strong introduction to how an ordinary message can reopen feelings that seemed settled; follows the artist’s original account, not claimed audio listening.",
       "editorial_notes_basis": "artist interview and original release statement",
@@ -366,17 +366,15 @@
       "release_type": "EP",
       "short_description": "Personal songwriting about discomfort with body image.",
       "genres": [
-        "pop (editorial)",
-        "singer-songwriter pop (editorial)"
+        "Pop",
+        "Singer-Songwriter"
       ],
       "moods": [
-        "vulnerable",
-        "introspective"
+        "Vulnerability",
+        "Reflection"
       ],
       "themes": [
-        "body image",
-        "self-criticism",
-        "self-acceptance struggles"
+        "Self-Worth & Body Image"
       ],
       "editorial_notes": "Pair this with No Matter the Season and Picture of You for a grounded guide to Kays’s recurring self-image concerns.",
       "editorial_notes_basis": "original artist interview",
@@ -446,16 +444,15 @@
       "release_type": "EP",
       "short_description": "A personal song that critics discuss in terms of exclusion and not feeling included.",
       "genres": [
-        "pop (editorial)",
-        "singer-songwriter pop (editorial)"
+        "Pop",
+        "Singer-Songwriter"
       ],
       "moods": [
-        "lonely",
-        "self-conscious"
+        "Melancholy",
+        "Anxiety"
       ],
       "themes": [
-        "social exclusion",
-        "feeling overlooked"
+        "Identity & Belonging"
       ],
       "editorial_notes": "An editorial companion to Backseat Rider: both are presented by reviewers as experiences of being displaced or left at the margins of a social circle.",
       "editorial_notes_basis": "published interpretation and original artist interview",
@@ -523,17 +520,15 @@
       "release_type": "EP",
       "short_description": "A nostalgic song about friendships and the prospect of reconnecting in summer.",
       "genres": [
-        "pop (editorial)",
-        "singer-songwriter pop (editorial)"
+        "Pop",
+        "Singer-Songwriter"
       ],
       "moods": [
-        "nostalgic",
-        "wistful"
+        "Nostalgia"
       ],
       "themes": [
-        "old friends",
-        "distance",
-        "summer reunions"
+        "Friendship",
+        "Longing & Distance"
       ],
       "editorial_notes": "A critic describes the story as friends hoping to reunite after leaving their hometown; treat that as published editorial interpretation rather than a confirmed first-person explanation.",
       "editorial_notes_basis": "contemporary editorial music review",
@@ -591,17 +586,16 @@
       "release_type": "EP",
       "short_description": "One of the artist’s early songs directly addressing body image.",
       "genres": [
-        "pop (editorial)",
-        "singer-songwriter pop (editorial)"
+        "Pop",
+        "Singer-Songwriter"
       ],
       "moods": [
-        "raw",
-        "reflective"
+        "Vulnerability",
+        "Reflection"
       ],
       "themes": [
-        "body image",
-        "belonging",
-        "insecurity"
+        "Self-Worth & Body Image",
+        "Identity & Belonging"
       ],
       "editorial_notes": "A useful starting point for readers interested in how Kays connected deeply personal subjects with a wider listener community.",
       "editorial_notes_basis": "original artist interview",
@@ -671,17 +665,17 @@
       "release_type": "single",
       "short_description": "A relationship story in which small changes during a drive suggest that affection is fading.",
       "genres": [
-        "pop (editorial)",
-        "singer-songwriter pop (editorial)"
+        "Pop",
+        "Singer-Songwriter"
       ],
       "moods": [
-        "uneasy",
-        "bittersweet"
+        "Anxiety",
+        "Bittersweet"
       ],
       "themes": [
-        "emotional distance",
-        "falling out of love",
-        "communication"
+        "Longing & Distance",
+        "Relationships",
+        "Communication & Conflict"
       ],
       "editorial_notes": "The car-journey image works as an accessible way to discuss a slow, uncertain change in a relationship; this reading is anchored in Kays’s published explanation.",
       "editorial_notes_basis": "contemporaneous artist statement",
@@ -748,17 +742,16 @@
       "release_type": "single",
       "short_description": "A song about losing your place as a best friend becomes closer to somebody else.",
       "genres": [
-        "pop (editorial)",
-        "singer-songwriter pop (editorial)"
+        "Pop",
+        "Singer-Songwriter"
       ],
       "moods": [
-        "excluded",
-        "sad"
+        "Melancholy"
       ],
       "themes": [
-        "friendship changes",
-        "social displacement",
-        "jealousy"
+        "Friendship",
+        "Identity & Belonging",
+        "Relationships"
       ],
       "editorial_notes": "A parallel to Chosen Last, but with Kays’s own song-specific account of a changing friendship rather than only an editorial interpretation.",
       "editorial_notes_basis": "artist statement in contemporaneous release coverage",
@@ -823,17 +816,17 @@
       "release_type": "EP",
       "short_description": "A Cavetown duet rooted in being there for a friend who is struggling.",
       "genres": [
-        "pop (editorial)",
-        "singer-songwriter pop (editorial)"
+        "Pop",
+        "Singer-Songwriter"
       ],
       "moods": [
-        "compassionate",
-        "somber"
+        "Comfort",
+        "Melancholy"
       ],
       "themes": [
-        "support",
-        "friendship",
-        "emotional distress"
+        "Support & Kindness",
+        "Friendship",
+        "Mental Health & Anxiety"
       ],
       "editorial_notes": "An empathetic anchor for a thematic collection about standing by someone in distress, with the intended meaning directly documented by the former label.",
       "editorial_notes_basis": "original artist statement in official label biography",
@@ -900,17 +893,16 @@
       "release_type": "single",
       "short_description": "A reflection on photographs, memory and discomfort with one’s appearance.",
       "genres": [
-        "pop (editorial)",
-        "singer-songwriter pop (editorial)"
+        "Pop",
+        "Singer-Songwriter"
       ],
       "moods": [
-        "reflective",
-        "vulnerable"
+        "Reflection",
+        "Vulnerability"
       ],
       "themes": [
-        "photos",
-        "self-image",
-        "memory"
+        "Memories & Nostalgia",
+        "Self-Worth & Body Image"
       ],
       "editorial_notes": "Use alongside Smaller Than This to explore self-image, or alongside Remember That Night? to contrast a memory you treasure with a photograph you might avoid.",
       "editorial_notes_basis": "artist statement in contemporary release reporting",
@@ -975,8 +967,8 @@
       "release_type": "single",
       "short_description": "The January 2025 single marking a new independent-release chapter for Sara Kays.",
       "genres": [
-        "pop (editorial)",
-        "singer-songwriter pop (editorial)"
+        "Pop",
+        "Singer-Songwriter"
       ],
       "moods": [],
       "themes": [],

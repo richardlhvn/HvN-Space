@@ -2,7 +2,7 @@
 /**
  * Plugin Name: tunetofond Core
  * Description: Artist and song records, curated relationships, and source-aware editorial fields.
- * Version: 0.14.0
+ * Version: 0.15.0
  * Requires at least: 6.6
  * Requires PHP: 8.1
  * License: GPL-2.0-or-later
@@ -19,6 +19,7 @@ require_once __DIR__ . '/public-catalog.php';
 require_once __DIR__ . '/taxonomy-groups.php';
 require_once __DIR__ . '/genre-groups.php';
 require_once __DIR__ . '/mood-groups.php';
+require_once __DIR__ . '/tag-sync.php';
 
 function ag_register_content() {
     foreach (['artist' => ['Artists', 'Artist', 'artists', 'dashicons-groups'], 'song' => ['Songs', 'Song', 'songs', 'dashicons-format-audio']] as $type => $labels) {

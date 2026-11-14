@@ -1,10 +1,10 @@
 <?php
-/** Shared read-only navigation over source genre/mood taxonomies. */
+/** Shared navigation and canonical tag families. */
 defined('ABSPATH') || exit;
 
 function ag_taxonomy_groups($taxonomy) {
     static $cache = [];
-    if (!in_array($taxonomy, ['genre','mood'], true)) { throw new InvalidArgumentException('Unsupported grouping taxonomy.'); }
+    if (!in_array($taxonomy, ['genre','mood','theme'], true)) { throw new InvalidArgumentException('Unsupported grouping taxonomy.'); }
     if (!isset($cache[$taxonomy])) {
         $data = json_decode(file_get_contents(__DIR__ . '/data/' . $taxonomy . '-groups.json'), true, 512, JSON_THROW_ON_ERROR);
         if (($data['schema_version'] ?? '') !== 'afterglow.' . $taxonomy . '-groups.v1' || count($data['groups'] ?? []) < 15 || count($data['groups']) > 20) { throw new RuntimeException('Invalid grouping catalog.'); }
@@ -16,7 +16,7 @@ function ag_taxonomy_groups($taxonomy) {
 function ag_taxonomy_default_aliases($taxonomy) {
     $map = [];
     foreach (ag_taxonomy_groups($taxonomy) as $slug => $group) {
-        foreach (array_unique(array_merge([$slug], $group['aliases'])) as $alias) { $map[$alias] = $slug; }
+        foreach (array_unique(array_merge([$slug, sanitize_title($group['name'])], $group['aliases'])) as $alias) { $map[$alias] = $slug; }
     }
     return $map;
 }
@@ -94,9 +94,11 @@ function ag_save_taxonomy_group_overrides($taxonomy, $input) {
 function ag_register_taxonomy_group_navigation($taxonomy) {
     if (!in_array($taxonomy, ['genre','mood'], true)) { throw new InvalidArgumentException('Unsupported grouping taxonomy.'); }
     add_action('template_redirect', function () use ($taxonomy) {
-        if (!is_tax($taxonomy) || is_404() || !ag_public_catalog_context()) { return; }
-        $term = get_queried_object();
-        $group = $term instanceof WP_Term ? (ag_taxonomy_aliases($taxonomy)[$term->slug] ?? null) : null;
+        if (!ag_public_catalog_context()) { return; }
+        // Retired aliases can be empty after tag sync, so resolve the rewrite
+        // variable even when WordPress has already marked the archive as 404.
+        $value = get_query_var($taxonomy);
+        $group = is_string($value) ? (ag_taxonomy_aliases($taxonomy)[$value] ?? null) : null;
         if (!$group) { return; }
         $type = null;
         foreach (['artist','song'] as $candidate) {
@@ -114,8 +116,8 @@ function ag_register_taxonomy_group_navigation($taxonomy) {
             $overrides = get_option('ag_' . $taxonomy . '_group_overrides', []);
             $overrides = is_array($overrides) ? $overrides : [];
             $terms = get_terms(['taxonomy'=>$taxonomy,'hide_empty'=>false]);
-            echo '<div class="wrap"><h1>' . esc_html($title) . '</h1><p>Public browsing uses ' . count($groups) . ' shared ' . esc_html($taxonomy) . ' families. Original labels, term IDs, research and editor assignments stay intact. Only families with published records in the public selection appear in each directory filter.</p><p>Adjust how a source label is grouped below. This changes navigation only. Unmapped labels stay available in the editor and need a family before appearing in grouped browsing.</p>';
-            if ($taxonomy === 'mood') { echo '<p>Musical/context labels such as melodic, atmospheric and late-night do not identify an emotion. They remain stored without an automatic emotional classification.</p>'; }
+            echo '<div class="wrap"><h1>' . esc_html($title) . '</h1><p>The shared catalog contains ' . count($groups) . ' ' . esc_html($taxonomy) . ' families. The tag-sync migration updates existing assignments and stored research to these labels. Historical aliases remain available for old links. Only populated families appear in public filters.</p><p>Overrides below affect navigation. Review a custom mapping before running tag sync; the migration will stop if it conflicts with the shared catalog.</p>';
+            if ($taxonomy === 'mood') { echo '<p>Musical/context labels melodic, atmospheric and late-night are retired from mood assignments by tag sync without inferring an emotion.</p>'; }
             echo '<form method="post" action="' . esc_url(admin_url('admin-post.php')) . '"><input type="hidden" name="action" value="ag_save_' . esc_attr($taxonomy) . '_groups">';
             wp_nonce_field('ag_save_' . $taxonomy . '_groups');
             echo '<table class="widefat striped"><thead><tr><th>Original ' . esc_html($taxonomy) . ' label</th><th>Public family</th><th>Grouping override</th></tr></thead><tbody>';

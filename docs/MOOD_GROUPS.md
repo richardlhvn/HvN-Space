@@ -1,3 +1,5 @@
+**Current policy:** [Core 0.15.0 / Theme 0.9.0](TAG_SYNC.md) normalizes stored genre/mood/theme tags and active source arrays, following the owner’s later instruction. The Sheet/XLSX update is deferred. The report below describes its original release.
+
 # Emotional mood groups — Core 0.14.0 / Theme 0.8.0
 
 Source: [`tunetofond-mood-groups-2026-11-14`](https://github.com/richardlhvn/HvN-Space/tree/tunetofond-mood-groups-2026-11-14), based on `127fce0`. The owner clarified that the requested simplification primarily concerned emotions such as heartbreak, reflection and playful feelings, while also retaining the simplified genres.

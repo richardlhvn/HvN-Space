@@ -61,16 +61,15 @@
       }
     ],
     "genres": [
-      "pop (catalogued)",
-      "Swedish pop (editorial)",
-      "electropop (editorial)",
-      "country-influenced pop (later work; editorial)"
+      "Pop",
+      "Electronic",
+      "Country Pop"
     ],
     "moods": [
-      "bittersweet (editorial)",
-      "heartbroken (editorial)",
-      "reflective (editorial)",
-      "hopeful (editorial)"
+      "Bittersweet",
+      "Heartbreak",
+      "Reflection",
+      "Hopeful"
     ],
     "career_milestones": [
       {
@@ -313,17 +312,16 @@
       "release_type": "single",
       "short_description": "An early Clara Mae single confronting comparison with an ex-partner’s new relationship.",
       "genres": [
-        "pop (catalogued)",
-        "electropop (editorial)"
+        "Pop",
+        "Electronic"
       ],
       "moods": [
-        "defiant",
-        "vulnerable"
+        "Confidence",
+        "Vulnerability"
       ],
       "themes": [
-        "self-comparison",
-        "self-worth",
-        "breakups"
+        "Self-Worth & Body Image",
+        "Heartbreak & Breakups"
       ],
       "editorial_notes": "A starting point for the songwriter’s practice of turning painful comparison into self-affirmation. This takeaway follows Clara Mae’s interview explanation, not an independent audio analysis.",
       "editorial_notes_basis": "artist interview",
@@ -387,17 +385,17 @@
       "release_type": "single",
       "short_description": "The emotional shock of seeing an ex again after believing the breakup was behind you.",
       "genres": [
-        "pop (catalogued)",
-        "electropop (editorial)"
+        "Pop",
+        "Electronic"
       ],
       "moods": [
-        "wistful",
-        "unsettled"
+        "Nostalgia",
+        "Anxiety"
       ],
       "themes": [
-        "unexpected encounters",
-        "lingering attachment",
-        "breakups"
+        "Love & Romance",
+        "Longing & Distance",
+        "Heartbreak & Breakups"
       ],
       "editorial_notes": "Read alongside I’m Not Her as another chapter in the EP relationship arc. This is based on Clara Mae’s first-person outline.",
       "editorial_notes_basis": "artist interview",
@@ -461,17 +459,16 @@
       "release_type": "EP",
       "short_description": "A closing chapter for an EP that turns the process of writing about heartbreak into its own resolution.",
       "genres": [
-        "pop (catalogued)",
-        "emotional pop (editorial)"
+        "Pop"
       ],
       "moods": [
-        "reflective",
-        "resolute"
+        "Reflection",
+        "Resilience"
       ],
       "themes": [
-        "writing to heal",
-        "closure",
-        "breakups"
+        "Healing & Recovery",
+        "Moving On & Closure",
+        "Heartbreak & Breakups"
       ],
       "editorial_notes": "As a discovery-page entry, this is an especially useful way to introduce Clara Mae’s songwriting perspective and the surrounding EP narrative.",
       "editorial_notes_basis": "artist interview",
@@ -541,16 +538,15 @@
       "release_type": "EP",
       "short_description": "A duet examining the temptation to romanticize a difficult past while in a better present.",
       "genres": [
-        "pop (catalogued)",
-        "duet pop (editorial)"
+        "Pop"
       ],
       "moods": [
-        "conflicted",
-        "nostalgic"
+        "Mixed Feelings",
+        "Nostalgia"
       ],
       "themes": [
-        "idealizing the past",
-        "relationship comparison"
+        "Memories & Nostalgia",
+        "Relationships"
       ],
       "editorial_notes": "The contrasting voices help frame the tension between current comfort and selective nostalgia; this is an editorial framing of the artist’s stated concept, not a claimed audio review.",
       "editorial_notes_basis": "artist interview",
@@ -618,8 +614,8 @@
       "release_type": "single",
       "short_description": "An early KREAM collaboration where Clara Mae provided vocals for an electronic dance-pop production.",
       "genres": [
-        "dance-pop (licensed catalogue)",
-        "electronic (editorial)"
+        "Dance Pop",
+        "Electronic"
       ],
       "moods": [],
       "themes": [],
@@ -698,17 +694,17 @@
       "release_type": "album",
       "short_description": "Clara Mae reflects on how an ex can become a stranger despite once being close.",
       "genres": [
-        "pop (catalogued)",
-        "ballad (editorial)"
+        "Pop",
+        "Ballads"
       ],
       "moods": [
-        "wistful",
-        "melancholic"
+        "Nostalgia",
+        "Melancholy"
       ],
       "themes": [
-        "unexpected encounter",
-        "lost familiarity",
-        "breakups"
+        "Love & Romance",
+        "Memories & Nostalgia",
+        "Heartbreak & Breakups"
       ],
       "editorial_notes": "Pair with I Forgot for two differently framed accounts of seeing a former partner after separation. Note that the 2019 announcement describes a demo version, whereas this link is to the 2020 album edition.",
       "editorial_notes_basis": "original release statement and later edition metadata",
@@ -784,17 +780,16 @@
       "release_type": "single",
       "short_description": "A collaboration contemplating whether a relationship should end before recurring conflict overwrites its happier memories.",
       "genres": [
-        "pop (catalogued)",
-        "pop duet (editorial)"
+        "Pop"
       ],
       "moods": [
-        "bittersweet",
-        "conflicted"
+        "Bittersweet",
+        "Mixed Feelings"
       ],
       "themes": [
-        "relationship deterioration",
-        "preserving memories",
-        "separation"
+        "Relationships",
+        "Memories & Nostalgia",
+        "Heartbreak & Breakups"
       ],
       "editorial_notes": "A useful recommendation for people drawn to the tension between still caring for someone and sensing a relationship has run its course.",
       "editorial_notes_basis": "original interview",
@@ -859,17 +854,17 @@
       "release_type": "album",
       "short_description": "A country-pop-leaning breakup duet built around two perspectives and concern for a former partner’s well-being.",
       "genres": [
-        "pop (catalogued)",
-        "country-influenced pop (editorial)"
+        "Pop",
+        "Country Pop"
       ],
       "moods": [
-        "tender",
-        "bittersweet"
+        "Love & Affection",
+        "Bittersweet"
       ],
       "themes": [
-        "different viewpoints",
-        "breakups",
-        "wishing someone well"
+        "Communication & Conflict",
+        "Heartbreak & Breakups",
+        "Support & Kindness"
       ],
       "editorial_notes": "This illustrates Clara Mae’s interest in emotionally direct duets and her appreciation of country storytelling.",
       "editorial_notes_basis": "original interview",
@@ -935,17 +930,15 @@
       "release_type": "EP",
       "short_description": "An unusually hopeful response to heartbreak, focused on reclaiming time and agency.",
       "genres": [
-        "pop (catalogued)",
-        "emotional pop (editorial)"
+        "Pop"
       ],
       "moods": [
-        "uplifting",
-        "hopeful"
+        "Hopeful"
       ],
       "themes": [
-        "independence",
-        "recovery",
-        "moving on"
+        "Independence & Self-Belief",
+        "Healing & Recovery",
+        "Moving On & Closure"
       ],
       "editorial_notes": "A tonal counterweight to her earlier breakup songs, grounded in her direct public explanation rather than inferred from the title.",
       "editorial_notes_basis": "reported artist statement",
@@ -1019,8 +1012,8 @@
       "release_type": "single",
       "short_description": "A representative entry from Clara Mae’s later era, surrounding her more organic, country-influenced My Roots project.",
       "genres": [
-        "pop (catalogued)",
-        "country-influenced pop (editorial)"
+        "Pop",
+        "Country Pop"
       ],
       "moods": [],
       "themes": [],

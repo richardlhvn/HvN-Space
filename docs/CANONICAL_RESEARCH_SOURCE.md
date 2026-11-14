@@ -1,3 +1,5 @@
+**Current policy:** [Core 0.15.0 / Theme 0.9.0](TAG_SYNC.md) normalizes stored genre/mood/theme tags and active source arrays, following the owner’s later instruction. The Sheet/XLSX update is deferred. The report below describes its original release.
+
 **Current source adjustment:** The owner subsequently authorized stored brand-reference updates. The active manifest selects `reviewed-tunetofond-2026-11-14.json`; its brand-only adjustment note identifies the unchanged original `reviewed-2026-11-14.json` and workbook. All facts, approved keys/links and rights remain authoritative; the historical import report below describes the original cleaned snapshot.
 
 **Current brand/release:** tunetofond Core 0.12.0 / Theme 0.6.0. See [the current rebrand and local update](TUNETOFOND_REBRAND.md). Older brand names, package filenames, source identities and validation results below retain their historical meaning. The canonical ten/128 selection remains authoritative.

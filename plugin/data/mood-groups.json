@@ -1,6 +1,6 @@
 {
   "schema_version": "afterglow.mood-groups.v1",
-  "policy": "Emotion navigation derived only from existing mood labels. Retain original research and taxonomy assignments; do not infer feelings from genres, sound, unverified listening or biography.",
+  "policy": "Twenty shared feelings. Owner-authorized tag sync on 2026-11-15; historical aliases retained. Retire non-emotional context descriptors atmospheric, melodic and late-night without inferring an emotion.",
   "unmapped_context_descriptors": [
     "atmospheric",
     "melodic",

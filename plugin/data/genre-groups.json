@@ -1,6 +1,6 @@
 {
   "schema_version": "afterglow.genre-groups.v1",
-  "policy": "Navigation families derived from retained source labels; does not change source taxonomy, research, country, moods or visibility. Influence-based source labels are grouped for browsing, not certified as primary or official genres.",
+  "policy": "Shared classification labels for browsing, source bundles and stored tags. Owner-authorized tag sync on 2026-11-15; historical aliases retained for compatibility. Influence labels are broad navigation classifications, not certified official genres.",
   "groups": {
     "pop": {
       "name": "Pop",

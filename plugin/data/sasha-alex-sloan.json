@@ -39,14 +39,14 @@
       }
     ],
     "genres": [
-      "alternative pop (editorial)",
-      "confessional pop (editorial)",
-      "singer-songwriter (editorial)"
+      "Alternative Pop",
+      "Pop",
+      "Singer-Songwriter"
     ],
     "moods": [
-      "melancholic (editorial)",
-      "introspective (editorial)",
-      "wry (editorial)"
+      "Melancholy",
+      "Reflection",
+      "Playful"
     ],
     "career_milestones": [
       {
@@ -209,15 +209,14 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Sasha Alex Sloan's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "alternative pop (editorial)"
+        "Alternative Pop"
       ],
       "moods": [
-        "melancholic (editorial)",
-        "tender (editorial)"
+        "Melancholy",
+        "Love & Affection"
       ],
       "themes": [
-        "grief (editorial)",
-        "bereavement (editorial)"
+        "Grief & Loss"
       ],
       "editorial_notes": "Artist-backed theme of imagining the lasting absence of a loved one.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -292,10 +291,10 @@
       "release_type": "EP",
       "short_description": "Afterglow editor's pick from Sasha Alex Sloan's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "alternative pop (editorial)"
+        "Alternative Pop"
       ],
       "moods": [
-        "reflective (editorial)"
+        "Reflection"
       ],
       "themes": [],
       "editorial_notes": null,
@@ -359,16 +358,16 @@
       "release_type": "album",
       "short_description": "Afterglow editor's pick from Sasha Alex Sloan's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "alternative pop (editorial)"
+        "Alternative Pop"
       ],
       "moods": [
-        "bittersweet (editorial)",
-        "reflective (editorial)"
+        "Bittersweet",
+        "Reflection"
       ],
       "themes": [
-        "existential unease (editorial)",
-        "love (editorial)",
-        "purpose (editorial)"
+        "Mental Health & Anxiety",
+        "Love & Romance",
+        "Life & Purpose"
       ],
       "editorial_notes": "A rare existential entry point into emotional pop.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -447,16 +446,15 @@
       "release_type": "album",
       "short_description": "Afterglow editor's pick from Sasha Alex Sloan's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "alternative pop (editorial)"
+        "Alternative Pop"
       ],
       "moods": [
-        "nostalgic (editorial)",
-        "introspective (editorial)"
+        "Nostalgia",
+        "Reflection"
       ],
       "themes": [
-        "childhood (editorial)",
-        "isolation (editorial)",
-        "family (editorial)"
+        "Family & Childhood",
+        "Identity & Belonging"
       ],
       "editorial_notes": "A personal identity story rather than a romance-focused song.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -535,16 +533,15 @@
       "release_type": "album",
       "short_description": "Afterglow editor's pick from Sasha Alex Sloan's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "alternative pop (editorial)"
+        "Alternative Pop"
       ],
       "moods": [
-        "vulnerable (editorial)",
-        "introspective (editorial)"
+        "Vulnerability",
+        "Reflection"
       ],
       "themes": [
-        "body image (editorial)",
-        "self-acceptance (editorial)",
-        "vulnerability (editorial)"
+        "Self-Worth & Body Image",
+        "Vulnerability"
       ],
       "editorial_notes": "One of the record’s explicitly self-reflective, personally sourced narratives.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -618,16 +615,15 @@
       "release_type": "album",
       "short_description": "Afterglow editor's pick from Sasha Alex Sloan's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "alternative pop (editorial)"
+        "Alternative Pop"
       ],
       "moods": [
-        "wistful (editorial)",
-        "reflective (editorial)"
+        "Nostalgia",
+        "Reflection"
       ],
       "themes": [
-        "lost innocence (editorial)",
-        "growing up (editorial)",
-        "world events (editorial)"
+        "Growing Up & Change",
+        "Life & Purpose"
       ],
       "editorial_notes": "Moves the record toward cultural and generational anxiety.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -706,16 +702,16 @@
       "release_type": "album",
       "short_description": "Afterglow editor's pick from Sasha Alex Sloan's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "alternative pop (editorial)"
+        "Alternative Pop"
       ],
       "moods": [
-        "regretful (editorial)",
-        "heartbroken (editorial)"
+        "Reflection",
+        "Heartbreak"
       ],
       "themes": [
-        "breakup (editorial)",
-        "guilt (editorial)",
-        "friendship (editorial)"
+        "Heartbreak & Breakups",
+        "Communication & Conflict",
+        "Friendship"
       ],
       "editorial_notes": "A breakup story told with attention to the other person’s hurt.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -789,16 +785,16 @@
       "release_type": "album",
       "short_description": "Afterglow editor's pick from Sasha Alex Sloan's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "alternative pop (editorial)"
+        "Alternative Pop"
       ],
       "moods": [
-        "tender (editorial)",
-        "sorrowful (editorial)"
+        "Love & Affection",
+        "Melancholy"
       ],
       "themes": [
-        "grief (editorial)",
-        "empathy (editorial)",
-        "helplessness (editorial)"
+        "Grief & Loss",
+        "Support & Kindness",
+        "Mental Health & Anxiety"
       ],
       "editorial_notes": "Pairs well with Dancing With Your Ghost while approaching grief from a different position.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -877,16 +873,15 @@
       "release_type": "album",
       "short_description": "Afterglow editor's pick from Sasha Alex Sloan's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "alternative pop (editorial)"
+        "Alternative Pop"
       ],
       "moods": [
-        "nostalgic (editorial)",
-        "reassuring (editorial)"
+        "Nostalgia",
+        "Comfort"
       ],
       "themes": [
-        "adolescence (editorial)",
-        "self-acceptance (editorial)",
-        "growth (editorial)"
+        "Growing Up & Change",
+        "Self-Worth & Body Image"
       ],
       "editorial_notes": "Provides an optimistic coda to a reflective album.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -960,16 +955,16 @@
       "release_type": "album",
       "short_description": "Afterglow editor's pick from Sasha Alex Sloan's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "alternative pop (editorial)"
+        "Alternative Pop"
       ],
       "moods": [
-        "bittersweet (editorial)",
-        "heartbroken (editorial)"
+        "Bittersweet",
+        "Heartbreak"
       ],
       "themes": [
-        "breakup (editorial)",
-        "empathy (editorial)",
-        "guilt (editorial)"
+        "Heartbreak & Breakups",
+        "Support & Kindness",
+        "Communication & Conflict"
       ],
       "editorial_notes": "A useful counterpart to Someone You Hate, documenting another angle on a separation.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",

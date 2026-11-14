@@ -38,14 +38,14 @@
       }
     ],
     "genres": [
-      "indie pop (editorial)",
-      "electronic pop (editorial)",
-      "singer-songwriter pop (editorial)"
+      "Indie Pop",
+      "Electronic",
+      "Singer-Songwriter"
     ],
     "moods": [
-      "confessional (editorial)",
-      "wistful (editorial)",
-      "warm (editorial)"
+      "Reflection",
+      "Nostalgia",
+      "Love & Affection"
     ],
     "career_milestones": [
       {
@@ -204,7 +204,7 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Chelsea Cutler's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "indie pop (editorial)"
+        "Indie Pop"
       ],
       "moods": [],
       "themes": [],
@@ -269,7 +269,7 @@
       "release_type": "EP",
       "short_description": "Afterglow editor's pick from Chelsea Cutler's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "indie pop (editorial)"
+        "Indie Pop"
       ],
       "moods": [],
       "themes": [],
@@ -334,10 +334,10 @@
       "release_type": "album",
       "short_description": "Afterglow editor's pick from Chelsea Cutler's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "indie pop (editorial)"
+        "Indie Pop"
       ],
       "moods": [
-        "introspective (editorial)"
+        "Reflection"
       ],
       "themes": [],
       "editorial_notes": null,
@@ -401,7 +401,7 @@
       "release_type": "album",
       "short_description": "Afterglow editor's pick from Chelsea Cutler's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "indie pop (editorial)"
+        "Indie Pop"
       ],
       "moods": [],
       "themes": [],
@@ -466,7 +466,7 @@
       "release_type": "album",
       "short_description": "Afterglow editor's pick from Chelsea Cutler's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "indie pop (editorial)"
+        "Indie Pop"
       ],
       "moods": [],
       "themes": [],
@@ -531,13 +531,13 @@
       "release_type": "album",
       "short_description": "Afterglow editor's pick from Chelsea Cutler's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "indie pop (editorial)"
+        "Indie Pop"
       ],
       "moods": [
-        "introspective (editorial)"
+        "Reflection"
       ],
       "themes": [
-        "feeling insufficient (editorial)"
+        "Self-Worth & Body Image"
       ],
       "editorial_notes": null,
       "editorial_notes_basis": null,
@@ -600,15 +600,14 @@
       "release_type": "album",
       "short_description": "Afterglow editor's pick from Chelsea Cutler's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "indie pop (editorial)"
+        "Indie Pop"
       ],
       "moods": [
-        "warm (editorial)",
-        "affectionate (editorial)"
+        "Love & Affection"
       ],
       "themes": [
-        "love (editorial)",
-        "vulnerability (editorial)"
+        "Love & Romance",
+        "Vulnerability"
       ],
       "editorial_notes": "The artist’s description emphasizes spontaneity and openness rather than a preplanned message.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -683,15 +682,15 @@
       "release_type": "album",
       "short_description": "Afterglow editor's pick from Chelsea Cutler's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "indie pop (editorial)"
+        "Indie Pop"
       ],
       "moods": [
-        "tender (editorial)",
-        "hopeful (editorial)"
+        "Love & Affection",
+        "Hopeful"
       ],
       "themes": [
-        "early romance (editorial)",
-        "vulnerability (editorial)"
+        "Love & Romance",
+        "Vulnerability"
       ],
       "editorial_notes": "A companion to Your Bones, with more explicit artist-supplied personal context.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -766,7 +765,7 @@
       "release_type": "album",
       "short_description": "Afterglow editor's pick from Chelsea Cutler's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "indie pop (editorial)"
+        "Indie Pop"
       ],
       "moods": [],
       "themes": [],
@@ -831,7 +830,7 @@
       "release_type": "album",
       "short_description": "Afterglow editor's pick from Chelsea Cutler's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "indie pop (editorial)"
+        "Indie Pop"
       ],
       "moods": [],
       "themes": [],

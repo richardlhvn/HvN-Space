@@ -29,15 +29,15 @@
     "official_website": null,
     "social_profiles": [],
     "genres": [
-      "pop (documented)",
-      "dance-pop (documented)",
-      "indie pop (documented)",
-      "electronic emotional pop (Afterglow editorial)"
+      "Pop",
+      "Dance Pop",
+      "Indie Pop",
+      "Electronic"
     ],
     "moods": [
-      "bittersweet (editorial)",
-      "energetic (editorial)",
-      "romantic (editorial)"
+      "Bittersweet",
+      "Energetic",
+      "Love & Affection"
     ],
     "career_milestones": [
       {
@@ -149,7 +149,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to High Without Your Love by Loote.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -210,7 +210,7 @@
       "release_type": "album",
       "short_description": "An Afterglow curated introduction to Your Side Of The Bed by Loote.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -270,7 +270,7 @@
       "release_type": "album",
       "short_description": "An Afterglow curated introduction to Wish I Never Met You by Loote.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -330,7 +330,7 @@
       "release_type": "EP",
       "short_description": "An Afterglow curated introduction to tomorrow tonight by Loote.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -391,7 +391,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to 85% by Loote, gnash.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -463,7 +463,7 @@
       "release_type": "EP",
       "short_description": "An Afterglow curated introduction to she's all yours by Loote.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -525,7 +525,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to Better When You're Gone by David Guetta, Brooks, Loote.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -585,7 +585,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to Friends by Loote.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -645,7 +645,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to Somebody Else by Loote.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],
@@ -706,7 +706,7 @@
       "release_type": "single",
       "short_description": "An Afterglow curated introduction to This Is the Last Song About You by Anson Seabra, Loote.",
       "genres": [
-        "pop (artist-level; not independently classified for this track)"
+        "Pop"
       ],
       "moods": [],
       "themes": [],

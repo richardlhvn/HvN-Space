@@ -6,13 +6,15 @@ try {
     wp_set_current_user(get_user_by('login','editor')->ID);
     $original=json_decode(file_get_contents(WP_PLUGIN_DIR.'/afterglow-core/data/reviewed-2026-11-14.json'),true);
     $data=ag_reviewed_data();
-    $assert($data['packs']===ag_branding_normalize($original['packs']) && $data['provenance']===$original['provenance'],'Active canonical data is only the owner-authorized branding adjustment of the original export.');
+    $assert($data['packs']===ag_tag_normalize_packs(ag_branding_normalize($original['packs'])) && $data['provenance']===$original['provenance'],'Active canonical data contains only owner-authorized branding and classification adjustments.');
     $partial=wp_insert_post(['post_type'=>'artist','post_title'=>'Partial installation','post_name'=>'astrid-s','post_status'=>'draft']);
     update_post_meta($partial,'_ag_handoff_key','astrid-s/profile');
     $assert(is_wp_error(ag_migrate_research_branding(false)),'An incomplete catalog cannot be created by the branding migration.');
     wp_delete_post($partial,true);
     $import=ag_import_reviewed(false,true,$original);
     $assert(!is_wp_error($import) && count($import['created'])===138,'Build only the approved original ten/128 fixture.');
+    $sync=ag_migrate_tags(false);
+    $assert(!is_wp_error($sync) && !$sync['conflicts'],'Normalize tags before the separate brand-only migration.');
     wp_update_post(['ID'=>ag_reviewed_find('astrid-s'),'post_date'=>'2020-01-02 03:04:05','post_date_gmt'=>'2020-01-02 03:04:05']);
     $artist=ag_reviewed_find('sara-kays');
     wp_update_post(['ID'=>$artist,'post_content'=>get_post_field('post_content',$artist).'<p>Later owner wording stays.</p>']);

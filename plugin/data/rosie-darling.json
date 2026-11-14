@@ -31,13 +31,13 @@
     "official_website": "https://www.rosiedarling.com/",
     "social_profiles": [],
     "genres": [
-      "indie pop (editorial)",
-      "confessional pop (editorial)"
+      "Indie Pop",
+      "Pop"
     ],
     "moods": [
-      "introspective (editorial)",
-      "bittersweet (editorial)",
-      "vulnerable (editorial)"
+      "Reflection",
+      "Bittersweet",
+      "Vulnerability"
     ],
     "career_milestones": [
       {
@@ -205,15 +205,15 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Rosie Darling's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "indie pop (editorial)"
+        "Indie Pop"
       ],
       "moods": [
-        "heartbroken (editorial)",
-        "nostalgic (editorial)"
+        "Heartbreak",
+        "Nostalgia"
       ],
       "themes": [
-        "post-breakup memories (editorial)",
-        "loss (editorial)"
+        "Memories & Nostalgia",
+        "Grief & Loss"
       ],
       "editorial_notes": "An introduction to Rosie Darling through a documented post-breakup perspective.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -294,10 +294,10 @@
       "release_type": "EP",
       "short_description": "Afterglow editor's pick from Rosie Darling's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "indie pop (editorial)"
+        "Indie Pop"
       ],
       "moods": [
-        "reflective (editorial)"
+        "Reflection"
       ],
       "themes": [],
       "editorial_notes": null,
@@ -361,10 +361,10 @@
       "release_type": "EP",
       "short_description": "Afterglow editor's pick from Rosie Darling's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "indie pop (editorial)"
+        "Indie Pop"
       ],
       "moods": [
-        "reflective (editorial)"
+        "Reflection"
       ],
       "themes": [],
       "editorial_notes": null,
@@ -428,16 +428,16 @@
       "release_type": "EP",
       "short_description": "Afterglow editor's pick from Rosie Darling's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "indie pop (editorial)"
+        "Indie Pop"
       ],
       "moods": [
-        "restless (editorial)",
-        "introspective (editorial)"
+        "Anxiety",
+        "Reflection"
       ],
       "themes": [
-        "frustration (editorial)",
-        "meaning (editorial)",
-        "overwhelm (editorial)"
+        "Communication & Conflict",
+        "Life & Purpose",
+        "Mental Health & Anxiety"
       ],
       "editorial_notes": "A short, candid entry into the frustrated perspective she described in her track-by-track commentary.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -517,16 +517,16 @@
       "release_type": "EP",
       "short_description": "Afterglow editor's pick from Rosie Darling's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "indie pop (editorial)"
+        "Indie Pop"
       ],
       "moods": [
-        "reflective (editorial)",
-        "wistful (editorial)"
+        "Reflection",
+        "Nostalgia"
       ],
       "themes": [
-        "grief (editorial)",
-        "isolation (editorial)",
-        "pandemic experience (editorial)"
+        "Grief & Loss",
+        "Identity & Belonging",
+        "Life & Purpose"
       ],
       "editorial_notes": "Its documented pandemic perspective extends the site beyond romantic heartbreak.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -606,15 +606,15 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Rosie Darling's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "indie pop (editorial)"
+        "Indie Pop"
       ],
       "moods": [
-        "melancholic (editorial)",
-        "nostalgic (editorial)"
+        "Melancholy",
+        "Nostalgia"
       ],
       "themes": [
-        "missed connection (editorial)",
-        "regret (editorial)"
+        "Longing & Distance",
+        "Communication & Conflict"
       ],
       "editorial_notes": "A clear counterpart to post-breakup narratives in Coping.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -694,10 +694,10 @@
       "release_type": "album",
       "short_description": "Afterglow editor's pick from Rosie Darling's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "indie pop (editorial)"
+        "Indie Pop"
       ],
       "moods": [
-        "reflective (editorial)"
+        "Reflection"
       ],
       "themes": [],
       "editorial_notes": null,
@@ -761,15 +761,14 @@
       "release_type": "album",
       "short_description": "Afterglow editor's pick from Rosie Darling's catalogue. Song theme follows a cited artist explanation.",
       "genres": [
-        "indie pop (editorial)"
+        "Indie Pop"
       ],
       "moods": [
-        "vulnerable (editorial)",
-        "reflective (editorial)"
+        "Vulnerability",
+        "Reflection"
       ],
       "themes": [
-        "personal recovery (editorial)",
-        "processing hurt (editorial)"
+        "Healing & Recovery"
       ],
       "editorial_notes": "Darling presents this as a particularly personal moment within the Lanterns period.",
       "editorial_notes_basis": "Original editorial paraphrase of source-backed theme; no claim of audio listening.",
@@ -849,7 +848,7 @@
       "release_type": "single",
       "short_description": "Afterglow editor's pick from Rosie Darling's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "indie pop (editorial)"
+        "Indie Pop"
       ],
       "moods": [],
       "themes": [],
@@ -907,7 +906,7 @@
       "release_type": null,
       "short_description": "Afterglow editor's pick from Rosie Darling's catalogue. No song-specific interpretation is asserted without a verified basis.",
       "genres": [
-        "indie pop (editorial)"
+        "Indie Pop"
       ],
       "moods": [],
       "themes": [],

@@ -60,15 +60,15 @@
       }
     ],
     "genres": [
-      "pop",
-      "electropop (editorial tag informed by MusicBrainz)",
-      "R&B influence"
+      "Pop",
+      "Electronic",
+      "R&B / Soul"
     ],
     "moods": [
-      "bittersweet (editorial)",
-      "reflective (editorial)",
-      "heartbreak (editorial)",
-      "playful (editorial)"
+      "Bittersweet",
+      "Reflection",
+      "Heartbreak",
+      "Playful"
     ],
     "career_milestones": [
       {
@@ -272,15 +272,14 @@
       "release_type": "EP",
       "short_description": "A signature Astrid S recording about wanting a relationship that also causes pain.",
       "genres": [
-        "pop (editorial)"
+        "Pop"
       ],
       "moods": [
-        "yearning",
-        "bittersweet"
+        "Longing",
+        "Bittersweet"
       ],
       "themes": [
-        "painful attraction",
-        "push-pull relationships"
+        "Relationships"
       ],
       "editorial_notes": "Start here for a relationship story built around attraction and incompatibility. This framing follows the artist’s own interview, not independent audio listening.",
       "editorial_notes_basis": "original artist interview",
@@ -346,16 +345,13 @@
       "release_type": "single",
       "short_description": "A pop single addressing words spoken in anger and the regret that follows.",
       "genres": [
-        "pop (editorial)"
+        "Pop"
       ],
       "moods": [
-        "regretful",
-        "reflective"
+        "Reflection"
       ],
       "themes": [
-        "arguments",
-        "regret",
-        "communication"
+        "Communication & Conflict"
       ],
       "editorial_notes": "Use for a playlist about conversations people wish they could undo; the subject is described in the release announcement and in Astrid’s interviews.",
       "editorial_notes_basis": "release announcement and original interviews",
@@ -422,17 +418,17 @@
       "release_type": "single",
       "short_description": "A breakup song reflecting on the unsettling absence, or delay, of expected heartbreak.",
       "genres": [
-        "pop (editorial)",
-        "acoustic-influenced pop (editorial)"
+        "Pop",
+        "Acoustic Pop"
       ],
       "moods": [
-        "wistful",
-        "restrained"
+        "Nostalgia",
+        "Calm"
       ],
       "themes": [
-        "breakup",
-        "emotional detachment",
-        "uncertain closure"
+        "Heartbreak & Breakups",
+        "Relationships",
+        "Moving On & Closure"
       ],
       "editorial_notes": "A useful Afterglow entry for songs where the narrator seems unexpectedly composed after a split. Independent reviews support that reading; it is not inferred from the title alone.",
       "editorial_notes_basis": "contemporaneous review and 2023 interview transcript",
@@ -500,16 +496,16 @@
       "release_type": "single",
       "short_description": "A duet about admitting that feelings for a former partner remain.",
       "genres": [
-        "pop (catalog)",
-        "country-pop influence (editorial)"
+        "Pop",
+        "Country Pop"
       ],
       "moods": [
-        "longing",
-        "conflicted"
+        "Longing",
+        "Mixed Feelings"
       ],
       "themes": [
-        "lingering love",
-        "breakup"
+        "Longing & Distance",
+        "Heartbreak & Breakups"
       ],
       "editorial_notes": "The two credited vocalists give Afterglow an example of a pop-country crossover, while contemporary reporting grounds the lingering-feelings theme. No independent audio analysis was performed.",
       "editorial_notes_basis": "label reporting and trade-publication description",
@@ -573,16 +569,15 @@
       "release_type": "EP",
       "short_description": "A personal song of gratitude for people who help someone become their best self.",
       "genres": [
-        "stripped-back pop (editorial)"
+        "Acoustic Pop"
       ],
       "moods": [
-        "warm",
-        "appreciative"
+        "Love & Affection"
       ],
       "themes": [
-        "friendship",
-        "family",
-        "self-acceptance"
+        "Friendship",
+        "Family & Childhood",
+        "Self-Worth & Body Image"
       ],
       "editorial_notes": "Rather than assuming a romantic dedication, frame it around positive influence from close relationships: the artist specifically mentioned friends and family.",
       "editorial_notes_basis": "original artist interview",
@@ -650,15 +645,15 @@
       "release_type": "single",
       "short_description": "A pop song about the breathless feeling of falling hard for a person or an extraordinary moment.",
       "genres": [
-        "pop (catalog)"
+        "Pop"
       ],
       "moods": [
-        "euphoric",
-        "romantic"
+        "Energetic",
+        "Love & Affection"
       ],
       "themes": [
-        "infatuation",
-        "overwhelming moments"
+        "Love & Romance",
+        "Mental Health & Anxiety"
       ],
       "editorial_notes": "Use for playlists about the intensity of a new feeling; the artist distinguished the emotion from being about any one specific partner.",
       "editorial_notes_basis": "contemporaneous original artist interview",
@@ -722,15 +717,15 @@
       "release_type": "EP",
       "short_description": "A sharp pop song that questions gendered expectations and uncertain behavior while dating.",
       "genres": [
-        "pop (catalog)"
+        "Pop"
       ],
       "moods": [
-        "assertive",
-        "playful"
+        "Confidence",
+        "Playful"
       ],
       "themes": [
-        "gender stereotypes",
-        "dating ambiguity"
+        "Identity & Belonging",
+        "Relationships"
       ],
       "editorial_notes": "More pointed and playful than the breakup-oriented entries here; this description draws from the artist’s discussion of how the song was written, not from a claimed listening session.",
       "editorial_notes_basis": "original artist interview",
@@ -797,11 +792,11 @@
       "release_type": "single",
       "short_description": "An electronic-pop collaboration joining NOTD’s production with Astrid S’s vocals.",
       "genres": [
-        "pop (catalog)",
-        "electronic-pop (editorial)"
+        "Pop",
+        "Electronic"
       ],
       "moods": [
-        "upbeat (reviewer characterization)"
+        "Energetic"
       ],
       "themes": [],
       "editorial_notes": "The original Q&A explains how the collaboration and vocal recording came together. It is a useful stylistic detour within the selection, but there is insufficient song-specific first-person evidence here to assert the intended lyrical story.",
@@ -881,17 +876,16 @@
       "release_type": "single",
       "short_description": "A playful relationship song presenting both attractive traits and personal complications.",
       "genres": [
-        "pop (catalog)",
-        "country-tinged pop (editorial)"
+        "Pop",
+        "Country Pop"
       ],
       "moods": [
-        "cheeky",
-        "self-aware"
+        "Playful",
+        "Reflection"
       ],
       "themes": [
-        "dating",
-        "imperfection",
-        "self-acceptance"
+        "Relationships",
+        "Self-Worth & Body Image"
       ],
       "editorial_notes": "An editorial bridge from Such A Boy: both approach dating with humor or provocation instead of straightforward sadness. The label announcement, not unverified audio playback, is the basis for this framing.",
       "editorial_notes_basis": "official label release and artist statement",
@@ -956,15 +950,15 @@
       "release_type": "album",
       "short_description": "An album title track using a temporary romance as a metaphor for enjoying uncertain experiences.",
       "genres": [
-        "pop (catalog)"
+        "Pop"
       ],
       "moods": [
-        "carefree",
-        "bittersweet"
+        "Playful",
+        "Bittersweet"
       ],
       "themes": [
-        "short-lived romance",
-        "living in the moment"
+        "Love & Romance",
+        "Life & Purpose"
       ],
       "editorial_notes": "A fitting closer for the starter selection: the artist’s own comparison broadens the song from romance to an outlook on creative life. This is interview-based analysis, not a claimed audio review.",
       "editorial_notes_basis": "original artist interview",

@@ -54,15 +54,15 @@
       }
     ],
     "genres": [
-      "folk-pop (editorial)",
-      "singer-songwriter pop (editorial)",
-      "indie pop (editorial)"
+      "Folk Pop",
+      "Singer-Songwriter",
+      "Indie Pop"
     ],
     "moods": [
-      "reflective (editorial)",
-      "tender (editorial)",
-      "nostalgic (editorial)",
-      "hopeful (editorial)"
+      "Reflection",
+      "Love & Affection",
+      "Nostalgia",
+      "Hopeful"
     ],
     "career_milestones": [
       {
@@ -292,16 +292,15 @@
       "release_type": "single",
       "short_description": "The re-recorded breakthrough that helped Hearn turn the loss of a friend into a public conversation about grief.",
       "genres": [
-        "singer-songwriter pop (editorial)"
+        "Singer-Songwriter"
       ],
       "moods": [
-        "grieving (editorial)",
-        "cathartic (editorial)"
+        "Melancholy",
+        "Letting Go"
       ],
       "themes": [
-        "friendship (editorial)",
-        "bereavement (editorial)",
-        "remembering a friend (editorial)"
+        "Friendship",
+        "Grief & Loss"
       ],
       "editorial_notes": "A useful starting point for his more vulnerable side, because Hearn explicitly connects the composition to processing the death of a close friend.",
       "editorial_notes_basis": "artist_interview",
@@ -401,16 +400,16 @@
       "release_type": "single",
       "short_description": "An early standalone single whose narrated character hides distress and tries to keep going.",
       "genres": [
-        "singer-songwriter pop (editorial)"
+        "Singer-Songwriter"
       ],
       "moods": [
-        "empathetic (editorial)",
-        "reflective (editorial)"
+        "Comfort",
+        "Reflection"
       ],
       "themes": [
-        "concealed emotional pain (editorial)",
-        "encouragement (editorial)",
-        "self-acceptance (editorial)"
+        "Mental Health & Anxiety",
+        "Support & Kindness",
+        "Self-Worth & Body Image"
       ],
       "editorial_notes": "The lyric narrative describes someone masking how much she is struggling. Afterglow reads it as a compassionate reminder not to mistake outward appearances for emotional security.",
       "editorial_notes_basis": "editorial_reading_of_artist_published_lyrics",
@@ -497,7 +496,7 @@
       "release_type": "single",
       "short_description": "A 2021 solo single featured in official Spotify catalogue listings.",
       "genres": [
-        "singer-songwriter pop (editorial)"
+        "Singer-Songwriter"
       ],
       "moods": [],
       "themes": [],
@@ -575,16 +574,15 @@
       "release_type": "single",
       "short_description": "A narrative about devastating loss, based on an experience witnessed by Hearn.",
       "genres": [
-        "singer-songwriter pop (editorial)"
+        "Singer-Songwriter"
       ],
       "moods": [
-        "heartbroken (editorial)",
-        "compassionate (editorial)"
+        "Heartbreak",
+        "Comfort"
       ],
       "themes": [
-        "bereavement (editorial)",
-        "loss of a partner (editorial)",
-        "family (editorial)"
+        "Grief & Loss",
+        "Family & Childhood"
       ],
       "editorial_notes": "Unlike a generic separation song, this selection has a documented story: Hearn was moved by a widowed father and his children. The emotional stakes are grounded in the label-published artist account.",
       "editorial_notes_basis": "artist_statement_via_label",
@@ -680,16 +678,16 @@
       "release_type": "EP",
       "short_description": "A relationship song that Hearn explicitly linked to the experience of being unfairly blamed by a partner.",
       "genres": [
-        "singer-songwriter pop (editorial)"
+        "Singer-Songwriter"
       ],
       "moods": [
-        "hurt (editorial)",
-        "resolute (editorial)"
+        "Heartbreak",
+        "Resilience"
       ],
       "themes": [
-        "manipulation in a relationship (editorial)",
-        "self-blame (editorial)",
-        "breakup (editorial)"
+        "Relationships",
+        "Communication & Conflict",
+        "Heartbreak & Breakups"
       ],
       "editorial_notes": "This is a strong candidate for Afterglow’s song-meaning pages because an original interview supports the interpretation of manipulative relationship dynamics.",
       "editorial_notes_basis": "original_artist_interview",
@@ -785,17 +783,16 @@
       "release_type": "EP",
       "short_description": "A memory of the small North Carolina house Hearn grew up in before his parents separated.",
       "genres": [
-        "singer-songwriter pop (editorial)"
+        "Singer-Songwriter"
       ],
       "moods": [
-        "nostalgic (editorial)",
-        "tender (editorial)",
-        "bittersweet (editorial)"
+        "Nostalgia",
+        "Love & Affection",
+        "Bittersweet"
       ],
       "themes": [
-        "childhood home (editorial)",
-        "family changes (editorial)",
-        "memory (editorial)"
+        "Family & Childhood",
+        "Memories & Nostalgia"
       ],
       "editorial_notes": "A strong thematic bridge between songs about relationships and songs about family: its meaning comes from Hearn’s own description of the home, rather than a title-based guess.",
       "editorial_notes_basis": "artist_published_statement_and_original_interview",
@@ -894,17 +891,16 @@
       "release_type": "single",
       "short_description": "A duet with ROSIE about someone whose presence makes difficult days feel more manageable.",
       "genres": [
-        "singer-songwriter pop (editorial)"
+        "Singer-Songwriter"
       ],
       "moods": [
-        "comforting (editorial)",
-        "hopeful (editorial)",
-        "romantic (editorial)"
+        "Comfort",
+        "Hopeful",
+        "Love & Affection"
       ],
       "themes": [
-        "mutual support (editorial)",
-        "love (editorial)",
-        "emotional reassurance (editorial)"
+        "Support & Kindness",
+        "Love & Romance"
       ],
       "editorial_notes": "The interplay of two named performers makes this a useful discovery bridge to ROSIE. The message of solace and companionship is backed by Hearn’s account of the writing process.",
       "editorial_notes_basis": "artist_interview_and_artist_release",
@@ -1002,17 +998,15 @@
       "release_type": "single",
       "short_description": "A direct and difficult song connected in reporting and interviews to Hearn’s experience of panic and intense distress.",
       "genres": [
-        "singer-songwriter pop (editorial)"
+        "Singer-Songwriter"
       ],
       "moods": [
-        "intense (editorial)",
-        "vulnerable (editorial)",
-        "anxious (editorial)"
+        "Intense",
+        "Vulnerability",
+        "Anxiety"
       ],
       "themes": [
-        "panic (editorial)",
-        "mental wellness (editorial)",
-        "searching for relief (editorial)"
+        "Mental Health & Anxiety"
       ],
       "editorial_notes": "More emotionally confronting than his reassuring love songs. Its documented context makes it suitable for careful editorial treatment without offering medical explanations or assumptions.",
       "editorial_notes_basis": "artist_interview_and_music_reporting",
@@ -1108,16 +1102,16 @@
       "release_type": "single",
       "short_description": "A solo-credited single about being supported through difficult periods.",
       "genres": [
-        "singer-songwriter pop (editorial)"
+        "Singer-Songwriter"
       ],
       "moods": [
-        "reassuring (editorial)",
-        "warm (editorial)"
+        "Comfort",
+        "Love & Affection"
       ],
       "themes": [
-        "unconditional love (editorial)",
-        "friendship (editorial)",
-        "support through hardship (editorial)"
+        "Trust & Commitment",
+        "Friendship",
+        "Support & Kindness"
       ],
       "editorial_notes": "A clear follow-up to Little Bit Better for listeners drawn to companionship as a response to hard times, although the two songs are not claimed to form a formal series.",
       "editorial_notes_basis": "artist_interview_and_artist_catalogue",
@@ -1214,16 +1208,15 @@
       "release_type": "album",
       "short_description": "A song from his second album whose inspiration Hearn directly identified as the story of meeting his wife.",
       "genres": [
-        "folk-pop (editorial)"
+        "Folk Pop"
       ],
       "moods": [
-        "playful (editorial)",
-        "affectionate (editorial)"
+        "Playful",
+        "Love & Affection"
       ],
       "themes": [
-        "first meeting (editorial)",
-        "romantic attraction (editorial)",
-        "memory (editorial)"
+        "Love & Romance",
+        "Memories & Nostalgia"
       ],
       "editorial_notes": "The direct interview links the song to a particular relationship memory and his experiments with a less conventional song structure; editorially it balances the collection’s heavier pieces.",
       "editorial_notes_basis": "original_artist_interview",
