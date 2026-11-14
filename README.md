@@ -1,6 +1,12 @@
 # tunetofond
 
-## Current: cleaner reader pages — Theme 0.6.1
+## Current: simpler genre groups — Core 0.13.0 / Theme 0.7.0
+
+[Download the genre update](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/tunetofond-genre-groups-2026-11-14/downloads/tunetofond_genre_update_Core_0.13.0_Theme_0.7.0.zip) · [Local update steps](downloads/README_GENRE_GROUPS_UPDATE.md) · [Grouping table, validation and screenshots](docs/GENRE_GROUPS.md)
+
+The 42 source labels now share **15 navigation families**. Artist/song filters, profile tags, artist cards and saved-artist subtitles use the same grouping. Each directory shows only its populated public families (nine for Artists, ten for Songs). Original research/genre assignments and public scope remain unchanged. **Artists → Genre groups** supports optional mapping overrides. Merge **plugin** and **theme**, restart WordPress and refresh; **no import or migration is needed**. The prior reader cleanup remains included.
+
+## Previous: cleaner reader pages — Theme 0.6.1
 
 [Download Theme 0.6.1](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/tunetofond-reader-cleanup-2026-11-14/downloads/tunetofond_theme_update_0.6.1.zip) · [Simple local update steps](downloads/README_THEME_0.6.1.md) · [Report and screenshots](docs/READER_PRESENTATION_0.6.1.md)
 

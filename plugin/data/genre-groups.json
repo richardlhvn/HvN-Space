@@ -1,0 +1,123 @@
+{
+  "schema_version": "afterglow.genre-groups.v1",
+  "policy": "Navigation families derived from retained source labels; does not change source taxonomy, research, country, moods or visibility. Influence-based source labels are grouped for browsing, not certified as primary or official genres.",
+  "groups": {
+    "pop": {
+      "name": "Pop",
+      "aliases": [
+        "pop",
+        "emotional-pop",
+        "confessional-pop",
+        "duet-pop",
+        "pop-duet",
+        "romantic-pop",
+        "norwegian-pop",
+        "swedish-pop"
+      ]
+    },
+    "indie-pop": {
+      "name": "Indie Pop",
+      "aliases": [
+        "indie-pop"
+      ]
+    },
+    "alternative-pop": {
+      "name": "Alternative Pop",
+      "aliases": [
+        "alternative-pop",
+        "alt-pop"
+      ]
+    },
+    "electronic": {
+      "name": "Electronic",
+      "aliases": [
+        "electronic",
+        "electronic-pop",
+        "electropop",
+        "emotional-electronic-pop",
+        "electronic-emotional-pop",
+        "synth-pop"
+      ]
+    },
+    "dance-pop": {
+      "name": "Dance Pop",
+      "aliases": [
+        "dance-pop"
+      ]
+    },
+    "acoustic-pop": {
+      "name": "Acoustic Pop",
+      "aliases": [
+        "acoustic-pop",
+        "acoustic-influenced-pop",
+        "stripped-back-pop"
+      ]
+    },
+    "folk-pop": {
+      "name": "Folk Pop",
+      "aliases": [
+        "folk-pop"
+      ]
+    },
+    "indie-folk": {
+      "name": "Indie Folk",
+      "aliases": [
+        "indie-folk"
+      ]
+    },
+    "singer-songwriter": {
+      "name": "Singer-Songwriter",
+      "aliases": [
+        "singer-songwriter",
+        "singer-songwriter-pop",
+        "alternative-singer-songwriter-pop",
+        "confessional-singer-songwriter-pop",
+        "folk-influenced-singer-songwriter-pop"
+      ]
+    },
+    "country-pop": {
+      "name": "Country Pop",
+      "aliases": [
+        "country-pop",
+        "country-influenced-pop",
+        "country-pop-influence",
+        "country-tinged-pop"
+      ]
+    },
+    "rb-soul": {
+      "name": "R&B / Soul",
+      "aliases": [
+        "alternative-rb",
+        "rb-influence",
+        "soul-influenced-pop",
+        "soul-influenced-singer-songwriter-pop"
+      ]
+    },
+    "piano-pop": {
+      "name": "Piano Pop",
+      "aliases": [
+        "piano-pop"
+      ]
+    },
+    "ballads": {
+      "name": "Ballads",
+      "aliases": [
+        "ballad",
+        "pop-ballad",
+        "pop-ballads"
+      ]
+    },
+    "chill-pop": {
+      "name": "Chill Pop",
+      "aliases": [
+        "chill-pop"
+      ]
+    },
+    "bedroom-pop": {
+      "name": "Bedroom Pop",
+      "aliases": [
+        "bedroom-pop"
+      ]
+    }
+  }
+}

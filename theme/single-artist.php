@@ -17,7 +17,7 @@
                     <div class="artist-heading"><p class="eyebrow">ON OUR RADAR / ARTIST PROFILE</p><div class="profile-title"><h1><?php the_title(); ?></h1><?php ag_save_button($id, 'large-save'); ?></div></div>
                 </div>
                 <?php if ($photo) : ?><p class="art-credit artist-identity-credit"><?php echo ag_photo_credit_html($id, true); ?></p><?php endif; ?>
-                <div class="tag-list"><?php foreach (['genre', 'mood', 'country'] as $tax) { $terms = get_the_terms($id, $tax); foreach ($terms && !is_wp_error($terms) ? $terms : [] as $term) { echo '<a class="tag" href="' . esc_url(ag_url('artists') . '?filter_' . $tax . '=' . $term->slug) . '">' . esc_html($term->name) . '</a>'; } } ?></div>
+                <div class="tag-list"><?php foreach (['genre', 'mood', 'country'] as $tax) { $terms = ag_display_terms($id, $tax); foreach ($terms && !is_wp_error($terms) ? $terms : [] as $term) { echo '<a class="tag" href="' . esc_url(ag_url('artists') . '?filter_' . $tax . '=' . $term->slug) . '">' . esc_html($term->name) . '</a>'; } } ?></div>
                 <?php if (get_post_field('post_excerpt', $id) !== '') : ?><p class="profile-intro"><?php echo esc_html(get_the_excerpt()); ?></p><?php endif; ?>
             </div>
             <?php if ($preview && $preview !== wp_strip_all_tags(get_the_excerpt())) : ?><div class="artist-biography-preview"><h2>Meet <?php the_title(); ?>.</h2><p><?php echo esc_html($preview); ?></p><a class="text-link" href="#artist-biography">Read the full biography <?php echo ag_icon('arrow'); ?></a></div><?php endif; ?>

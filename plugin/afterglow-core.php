@@ -2,7 +2,7 @@
 /**
  * Plugin Name: tunetofond Core
  * Description: Artist and song records, curated relationships, and source-aware editorial fields.
- * Version: 0.12.0
+ * Version: 0.13.0
  * Requires at least: 6.6
  * Requires PHP: 8.1
  * License: GPL-2.0-or-later
@@ -16,6 +16,7 @@ require_once __DIR__ . '/reviewed-research.php';
 require_once __DIR__ . '/media-sync.php';
 require_once __DIR__ . '/discovery.php';
 require_once __DIR__ . '/public-catalog.php';
+require_once __DIR__ . '/genre-groups.php';
 
 function ag_register_content() {
     foreach (['artist' => ['Artists', 'Artist', 'artists', 'dashicons-groups'], 'song' => ['Songs', 'Song', 'songs', 'dashicons-format-audio']] as $type => $labels) {
@@ -193,7 +194,7 @@ add_action('pre_get_posts', function ($q) {
         $tax = [];
         foreach (['genre', 'mood', 'country'] as $name) {
             $key = 'filter_' . $name;
-            if (isset($_GET[$key]) && is_string($_GET[$key]) && $_GET[$key] !== '') { $tax[] = ['taxonomy' => $name, 'field' => 'slug', 'terms' => sanitize_title(wp_unslash($_GET[$key]))]; }
+            if (isset($_GET[$key]) && is_string($_GET[$key]) && $_GET[$key] !== '') { $tax[] = ['taxonomy' => $name, 'field' => 'slug', 'terms' => $name === 'genre' ? ag_genre_filter_slugs(wp_unslash($_GET[$key])) : sanitize_title(wp_unslash($_GET[$key]))]; }
         }
         if ($tax) { $tax['relation'] = 'AND'; $q->set('tax_query', $tax); }
     }

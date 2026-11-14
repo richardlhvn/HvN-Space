@@ -1,3 +1,5 @@
+**Later update:** [Core 0.13.0 / Theme 0.7.0](GENRE_GROUPS.md) adds shared genre families while retaining this reader cleanup. The report below records Theme 0.6.1.
+
 # Cleaner reader presentation — Theme 0.6.1
 
 Current source: [`tunetofond-reader-cleanup-2026-11-14`](https://github.com/richardlhvn/HvN-Space/tree/tunetofond-reader-cleanup-2026-11-14), based on `a192eb1`. Core remains 0.12.0; no plugin, data or database migration is required.
