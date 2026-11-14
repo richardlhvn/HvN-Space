@@ -66,10 +66,9 @@ try {
   const coping = await copingResponse.json();
   check(coping.length === 1, 'Original or fresh-install canonical Coping page resolves without duplicates');
   await page.goto(coping[0].link);
-  check(await page.locator('.about-attribution').textContent().then(t => t.includes('Artist statement') || t.includes('tunetofond interpretation')), 'About the Song attribution is labeled');
+  check(await page.locator('.about-attribution,.attribution-label').count() === 0, 'About reads without an attribution badge');
   const intentText = await page.locator('.song-about').textContent();
-  const attributed = await page.locator('.about-attribution').count();
-  check(intentText.includes('No verified artist explanation') || (attributed === 1 && await page.locator('.source-list a').count() > 0), 'Artist commentary has attribution and sources, or missing intent is disclosed');
+  check(intentText.length > 0 && await page.locator('.source-list a').count() > 0, 'About retains its narrative and source citations');
   check(await page.locator('.artist-byline').textContent().then(t => t.includes('Rosie Darling')), 'Song links its artist');
   await page.locator('.search-trigger').click();
   await page.locator('#global-search').fill('Sara Kays');

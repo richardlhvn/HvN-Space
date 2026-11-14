@@ -1,6 +1,12 @@
 # tunetofond
 
-## Current: full rebrand — Core 0.12.0 / Theme 0.6.0
+## Current: cleaner reader pages — Theme 0.6.1
+
+[Download Theme 0.6.1](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/tunetofond-reader-cleanup-2026-11-14/downloads/tunetofond_theme_update_0.6.1.zip) · [Simple local update steps](downloads/README_THEME_0.6.1.md) · [Report and screenshots](docs/READER_PRESENTATION_0.6.1.md)
+
+The reader pages now omit the editorial workflow messages and attribution badges shown in the owner’s screenshots. Recommendations use the existing sparkle icon beside the theme/feeling. Citations, photo credits, factual narratives and stored research remain. Core stays **0.12.0**; merge only the **theme** folder and restart WordPress. **No import or migration is needed.**
+
+## Previous: full rebrand — Core 0.12.0 / Theme 0.6.0
 
 [Download the tunetofond local update](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/tunetofond-rebrand-2026-11-14/downloads/tunetofond_local_update_Core_0.12.0_Theme_0.6.0.zip) · [Local update instructions](downloads/README_TUNETOFOND_UPDATE.md) · [Implementation and validation report](docs/TUNETOFOND_REBRAND.md)
 

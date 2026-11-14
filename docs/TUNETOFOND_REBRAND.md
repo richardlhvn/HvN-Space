@@ -1,3 +1,5 @@
+**Later reader update:** [Theme 0.6.1](READER_PRESENTATION_0.6.1.md) omits the public editorial notes/attribution badges and uses sparkle recommendation tags. Stored research and attribution enums remain. The report below records the completed rebrand.
+
 # tunetofond — Core 0.12.0 / Theme 0.6.0
 
 Current source branch: [`tunetofond-rebrand-2026-11-14`](https://github.com/richardlhvn/HvN-Space/tree/tunetofond-rebrand-2026-11-14), based on verified `d152b762e99f8192a784cf4f4623ef2a87af8def` from `local-update-2026-11-13`. `main` was still the older `3c5a5c3` source in this environment. Later legitimate work was not reset.

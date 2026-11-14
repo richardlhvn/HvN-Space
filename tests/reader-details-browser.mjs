@@ -32,7 +32,7 @@ try{
  const shy=manifest.find(x=>x.url.includes('shy-martin-make-us-never-happen'));
  await page.goto(shy.url);
  check((await page.locator('.song-release-details').textContent()).includes('8 November 2019'),'Screenshot song has a readable date');
- check((await page.locator('.about-attribution').textContent()).includes('Artist statement'),'Artist attribution is retained');
+ check(await page.locator('.about-attribution,.attribution-label').count()===0,'Reader-facing attribution labels are omitted while sources remain');
  check((await page.locator('.listening-photo-credit').textContent()).includes('CC BY-SA 4.0'),'Required photo license remains visible');
  await page.evaluate(()=>document.fonts.ready);await page.screenshot({path:'test-results/reader-details-shy-desktop.png'});
  await page.locator('#song-notes').scrollIntoViewIfNeeded();await page.screenshot({path:'test-results/reader-details-shy-sources.png'});

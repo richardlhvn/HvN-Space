@@ -1,5 +1,6 @@
 <?php
 defined('ABSPATH') || exit;
+require_once __DIR__ . '/reader-presentation.php';
 require_once __DIR__ . '/discovery-ui.php';
 add_action('after_setup_theme', function () {
     add_theme_support('title-tag');
@@ -128,7 +129,7 @@ function ag_public_research_content($content) {
     // biographies and other headings remain stored and displayed as written.
     $content = preg_replace('~<h2[^>]*>\s*Research notes\s*</h2>.*?(?=<h2\b|$)~si', '', $content);
     $content = preg_replace('~<p\b[^>]*>\s*(?:<small\b[^>]*>)?\s*(?:<strong\b[^>]*>)?\s*(?:Basis:|Based on the supplied research dated\s).*?</p>~si', '', $content);
-    return ag_public_brand_html($content);
+    return ag_reader_content(ag_public_brand_html($content));
 }
 
 function ag_release_date_label($date, $precision) {
@@ -155,8 +156,7 @@ function ag_public_song_document($id, $fallback) {
     $about = function_exists('ag_about_song') ? ag_about_song($id) : [];
     $html = ag_public_research_content($fallback);
     if (!empty($about['text'])) {
-        $labels = ['artist_statement' => 'Artist statement · paraphrased', 'third_party_reporting' => 'Reported song background', 'afterglow_editorial' => ag_site_name() . ' interpretation · not an artist statement', 'mixed' => 'Multiple perspectives · attributed in the text'];
-        $html = '<h2>About the Song</h2><p>' . esc_html($labels[$about['attribution']] ?? '') . '</p>' . wpautop(esc_html(ag_public_brand_text($about['text'])));
+        $html = '<h2>About the Song</h2>' . wpautop(esc_html(ag_public_brand_text($about['text'])));
     }
     $details = ag_public_release_details($id);
     if ($details) {

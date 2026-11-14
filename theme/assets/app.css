@@ -206,3 +206,6 @@
 .brand-case{ text-transform:none; }
 /* Retain all header controls beside the longer identity on narrow phones. */
 @media(max-width:380px){.site-header .header-inner{gap:6px}.site-header .wordmark{font-size:24px;gap:5px}.site-header .brand-mark{width:25px;height:25px}.site-header .header-actions{gap:4px}}
+
+/* Keep recommendation tags compact, with the existing decorative brand symbol. */
+.discovery-reason .icon{width:15px;height:15px;display:inline-block;vertical-align:-.15em;margin-right:7px}
