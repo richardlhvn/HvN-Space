@@ -1,5 +1,7 @@
 # Deploying to Hostinger
 
+**Current deployment:** The owner selected the cloud site as the source for `https://tunetofond.com`, on Hostinger Unlimited. Follow [the current full database/media migration](HOSTINGER_CLOUD_MIGRATION.md), which preserves all IDs, hidden records, source data, classifications and relationships. Core is 0.15.0 / Theme 0.9.0. Do not seed demo content or substitute a plain content export for that transfer. The older fresh-install instructions below describe the initial implementation milestone.
+
 The deliverables are standard WordPress theme/plugin ZIPs. Production needs a Hostinger plan that supports WordPress, PHP 8.1+ (8.3 recommended), and MySQL/MariaDB. A static-file-only plan cannot run this site. Node and Docker are local development tools; neither is required on Hostinger. No paid plugins are required.
 
 This document prepares deployment; nothing has been deployed publicly, purchased, or connected to an advertising/analytics account.

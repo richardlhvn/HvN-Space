@@ -12,4 +12,8 @@ The Windows/WSL database is separate from cloud staging. Preserve .env, uploads,
 
 Provide actual screenshots and simple source-merge/restart/protected-migration instructions. Operator/contact/privacy details remain for completion before launch. Spotify audio/artwork stays inside the official consent-based widget. Full-song playback was owner-confirmed locally; cloud audio and a separate 15-second sample are not verified or implemented.
 
+The owner has now purchased Hostinger Unlimited and chosen `tunetofond.com` as the main domain, targeting US and European readers. A fresh hosting installation has WordPress 7.1.4 and PHP 8.3. The owner explicitly selected the CLOUD installation as the migration source; localhost is an independent copy. Read `docs/HOSTINGER_CLOUD_MIGRATION.md`. The private migration preserves 1,419 posts including 53 artists, 560 song posts, 784 revisions and six photo attachments, while retaining the ten/128 public selection. New production credentials are generated only on the hosting account; cloud login credentials are rotated on the destination. Keep indexing disabled until the hosted review is complete. Do not publish SQL/private migration archives or credentials to GitHub.
+
+An updated 27-tab XLSX was prepared privately as `Tunetofond_Master_Worksheet_UPDATED_2026-11-14.xlsx`, with 53 artists and 558 song rows, all shared tags, a reference tab and change log. The owner has a separate data-bot handoff for updating the existing Sheet. Do not assume the live Sheet has already been updated, or claim the new XLSX checksum is the unchanged original workbook checksum.
+
 Follow the next requested task; do not reconstruct historical imports merely to load context.
