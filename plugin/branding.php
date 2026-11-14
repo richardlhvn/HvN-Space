@@ -1,5 +1,5 @@
 <?php
-/** Configured display identity; compatibility keys and research stay untouched. */
+/** Configured identity and explicit, protected first-party branding migrations. */
 defined('ABSPATH') || exit;
 
 function ag_site_name() {
@@ -7,10 +7,17 @@ function ag_site_name() {
 }
 
 function ag_public_brand_text($text, $html = false) {
+    return ag_replace_brand_text($text, $html ? esc_html(ag_site_name()) : ag_site_name());
+}
+
+function ag_replace_brand_text($text, $name = 'tunetofond') {
+    return strtr($text, ag_brand_reference_map($name));
+}
+
+function ag_brand_reference_map($name = 'tunetofond') {
     // Only known first-party self-references, never a song title, workbook
     // filename, URL, source identity or generic occurrence of the old name.
-    $name = $html ? esc_html(ag_site_name()) : ag_site_name();
-    return strtr($text, [
+    return [
         'For Afterglow,' => 'For ' . $name . ',',
         'For Afterglow listeners,' => 'For ' . $name . ' listeners,',
         'On Afterglow,' => 'On ' . $name . ',',
@@ -25,7 +32,45 @@ function ag_public_brand_text($text, $html = false) {
         'give Afterglow an example' => 'give ' . $name . ' an example',
         'for Afterglow’s song-meaning pages' => 'for ' . $name . '’s song-meaning pages',
         'the Afterglow editor;' => 'the ' . $name . ' editor;',
-    ]);
+        'Afterglow’s emotional-pop classification' => $name . '’s emotional-pop classification',
+        'Afterglow’s abstract image placeholder' => $name . '’s abstract image placeholder',
+        'not republished in Afterglow.' => 'not republished in ' . $name . '.',
+        'editorial Afterglow taxonomy' => 'editorial ' . $name . ' taxonomy',
+        'the editorial taxonomy of Afterglow.' => 'the editorial taxonomy of ' . $name . '.',
+        'licensed for Afterglow;' => 'licensed for ' . $name . ';',
+    ];
+}
+
+function ag_branding_normalize($value) {
+    if (is_string($value)) { return ag_replace_brand_text($value); }
+    if (is_array($value)) { foreach ($value as &$child) { $child = ag_branding_normalize($child); } unset($child); }
+    return $value;
+}
+
+function ag_migrate_research_branding($dry_run = true) {
+    if (!current_user_can('manage_options')) { return new WP_Error('forbidden', 'Administrator access is required.'); }
+    $original = json_decode(file_get_contents(__DIR__ . '/data/reviewed-2026-11-14.json'), true, 512, JSON_THROW_ON_ERROR);
+    $current = ag_reviewed_data();
+    if ($current['packs'] !== ag_branding_normalize($original['packs']) || $current['provenance'] !== $original['provenance']) {
+        return new WP_Error('branding_source_mismatch', 'The branding dataset must differ from the cleaned source only by the approved brand references.');
+    }
+    $has_catalog = false;
+    foreach ($current['packs'] as $slug => $pack) { if (ag_reviewed_find($slug)) { $has_catalog = true; break; } }
+    if (!$has_catalog) { return ['updated'=>[], 'skipped'=>[], 'conflicts'=>[], 'not_installed'=>true]; }
+    $plan = ag_import_reviewed(true, false, $current);
+    if (is_wp_error($plan)) { return $plan; }
+    if ($plan['created']) { return new WP_Error('canonical_required', 'The cleaned ten/128 catalog is incomplete. Apply its separate protected canonical update before the branding migration. No research records were created.'); }
+    foreach ($plan['updated'] as $key) {
+        [$slug, $record_key] = explode('/', $key, 2);
+        $old = $record_key === 'profile' ? $original['packs'][$slug]['artist'] : array_column($original['packs'][$slug]['songs'], null, 'slug')[$record_key];
+        $id = $plan['ids'][$key];
+        if (get_post_meta($id, '_ag_handoff_record', true) !== $old || get_post_meta($id, '_ag_source_registry', true) !== $original['packs'][$slug]['sources']) {
+            return new WP_Error('canonical_required', 'Existing research is not the cleaned canonical baseline: ' . $key . '. Review the separate canonical update first. Branding never imports unrelated factual changes.');
+        }
+    }
+    // Reuse the transactional importer and its edit-conflict/baseline protection.
+    // Only existing, baseline-matching records can receive this brand-only data.
+    return $dry_run ? $plan : ag_import_reviewed(false, false, $current);
 }
 
 function ag_public_brand_html($html) {
@@ -93,8 +138,12 @@ function ag_branding_plan() {
 
 function ag_migrate_branding($dry_run = true) {
     if (!current_user_can('manage_options')) { return new WP_Error('forbidden', 'Administrator access is required.'); }
+    $research = ag_migrate_research_branding(true);
+    if (is_wp_error($research)) { return $research; }
     $plan = ag_branding_plan();
     if (!$dry_run) {
+        $research = ag_migrate_research_branding(false);
+        if (is_wp_error($research)) { return $research; }
         foreach ($plan['changes'] as $change) {
             if ($change['type'] === 'option') {
                 update_option($change['field'], $change['after']);
@@ -104,19 +153,23 @@ function ag_migrate_branding($dry_run = true) {
             }
         }
     }
-    return ['dry_run' => $dry_run, 'changed' => count($plan['changes'])] + $plan;
+    return ['dry_run' => $dry_run, 'changed' => count($plan['changes']) + count($research['updated']), 'research' => $research, 'research_substitutions' => $research['updated'] ? ag_brand_reference_map() : []] + $plan;
 }
 
 add_action('admin_menu', function () {
     add_management_page('Site branding', 'Site branding', 'manage_options', 'ag-branding', function () {
-        $plan = ag_branding_plan();
-        echo '<div class="wrap"><h1>' . esc_html(ag_site_name()) . ' · Site branding</h1><p>Preview the protected rename to tunetofond. Only the old default site title and the listed first-party phrases change. Artist/song research, custom wording, URLs, license credits and compatibility identifiers are retained. Back up your database before applying.</p>';
-        echo '<p>' . count($plan['changes']) . ' pending changes.</p>';
+        $plan = ag_migrate_branding(true);
+        echo '<div class="wrap"><h1>' . esc_html(ag_site_name()) . ' · Site branding</h1><p>Preview the protected rename to tunetofond. Only identified brand references change in first-party pages and the approved ten/128 research. Other wording, URLs, license credits and compatibility identifiers are retained. Later editor changes are preserved as conflicts. Back up your database before applying.</p>';
+        if (is_wp_error($plan)) { echo '<p>' . esc_html($plan->get_error_message()) . '</p></div>'; return; }
+        echo '<p>' . $plan['changed'] . ' pending changes.</p><p>Approved research records to update: ' . count($plan['research']['updated']) . '.</p>';
+        foreach ($plan['research_substitutions'] as $before => $after) { echo '<p><code>' . esc_html($before) . '</code> → <code>' . esc_html($after) . '</code></p>'; }
+        foreach ($plan['research']['updated'] as $key) { echo '<p>' . esc_html($key) . '</p>'; }
+        foreach ($plan['research']['conflicts'] as $key) { echo '<p>Preserved editor conflict: ' . esc_html($key) . '</p>'; }
         foreach ($plan['manual_review'] as $message) { echo '<p><strong>' . esc_html($message) . '</strong></p>'; }
         foreach ($plan['changes'] as $change) {
             echo '<h2>' . esc_html(($change['slug'] ?? 'Settings') . ' · ' . $change['field']) . '</h2><p>Before</p><pre style="white-space:pre-wrap">' . esc_html($change['before']) . '</pre><p>After</p><pre style="white-space:pre-wrap">' . esc_html($change['after']) . '</pre>';
         }
-        if ($plan['changes']) {
+        if ($plan['changed']) {
             echo '<form method="post" action="' . esc_url(admin_url('admin-post.php')) . '"><input type="hidden" name="action" value="ag_migrate_branding">';
             wp_nonce_field('ag_migrate_branding'); submit_button('Apply protected tunetofond branding'); echo '</form>';
         }

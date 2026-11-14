@@ -36,9 +36,17 @@
     "existing IDs and slugs",
     "editor changes"
   ],
-  "prepared_snapshot": "reviewed-2026-11-14.json",
+  "prepared_snapshot": "reviewed-tunetofond-2026-11-14.json",
   "snapshot_status": "staging_imported_and_functionally_validated",
   "superseded_snapshot": "reviewed-2026-11-13.json",
   "export_file_name": "Afterglow_Master_Worksheet_CLEANUP_2026-11-14.xlsx",
-  "export_sha256": "3af624d6abf0b51cfb2cdf9905f9037e8cd883c62a5e6fbc2858d71759ded8b7"
+  "export_sha256": "3af624d6abf0b51cfb2cdf9905f9037e8cd883c62a5e6fbc2858d71759ded8b7",
+  "branding_adjustment": {
+    "authorized_on": "2026-11-14",
+    "brand": "tunetofond",
+    "policy": "Owner-authorized first-party brand references only; all factual wording, source identities, URLs, date precision, keys and rights retained.",
+    "original_prepared_snapshot": "reviewed-2026-11-14.json",
+    "original_prepared_sha256": "e412522230eebd07b7a907dc52f5dda232141c41687dd0a5b9c79c83ee3a7bf5",
+    "original_workbook_unchanged": true
+  }
 }

@@ -193,7 +193,8 @@ function ag_handoff_save($id, $pack, $record, $artist, $artist_id, $publish) {
     $key = ag_handoff_key($pack['artist']['slug'], $artist ? null : $record);
     $args = ['post_type' => $artist ? 'artist' : 'song', 'post_title' => $artist ? $record['name'] : $record['title'], 'post_content' => ag_handoff_content($pack, $record, $artist), 'post_excerpt' => $record['short_description'] ?: '', 'post_status' => $publish ? 'publish' : ($id ? get_post_status($id) : 'draft')];
     if ($id) { $args['ID'] = $id; } else { $args['post_name'] = $artist ? $record['slug'] : $pack['artist']['slug'] . '-' . $record['slug']; }
-    $id = wp_insert_post($args, true);
+    // Preserve existing publication dates, author and other non-research fields.
+    $id = $id ? wp_update_post($args, true) : wp_insert_post($args, true);
     if (is_wp_error($id)) { return $id; }
     $meta = ['demo' => '1', 'spotify' => $record['spotify_url'] ?: '', 'sources' => ag_handoff_links($pack, $record)];
     if ($artist) {
