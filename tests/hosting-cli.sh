@@ -7,6 +7,8 @@ if wp --info >/tmp/tf-cli-denied.log 2>&1; then
   echo 'Restriction fixture did not activate.' >&2
   exit 1
 fi
+shopt -s expand_aliases
+alias wp='false'
 source /scripts/hosting/cli-session.sh
 wp --info
 # The migration runs in a child Bash shell and must inherit the compatibility function.
