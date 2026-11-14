@@ -2,10 +2,6 @@ import {chromium} from 'playwright';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 const base=process.env.TEST_URL||'http://localhost:8080';
-// Approved research remains verbatim, including historical self-references.
-const canonical=JSON.parse(await fs.readFile('plugin/data/reviewed-2026-11-14.json','utf8'));
-const normalize=s=>s.replace(/\s+/g,' ').trim();
-const approved=Object.values(canonical.packs).flatMap(p=>[p.artist.biography,...p.songs.flatMap(s=>[s.short_description,s.editorial_notes,s.about_song])]).filter(s=>typeof s==='string').map(normalize);
 const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox']});
 let checks=0;const check=(ok,message)=>{assert.ok(ok,message);checks++;};
 await fs.mkdir('test-results',{recursive:true});
@@ -24,8 +20,7 @@ try {
    check((await page.locator('.site-header .wordmark').getAttribute('aria-label'))==='tunetofond home',`${path}: accessible home identity`);
    check((await page.title()).includes('tunetofond'),`${path}: browser title identity`);
    check(await page.locator('meta[property="og:site_name"]').getAttribute('content')==='tunetofond',`${path}: social site name`);
-   const oldLines=(await page.locator('body').innerText()).replaceAll('afterglow:saved:v1','').split('\n').filter(s=>/afterglow/i.test(s));
-   check(oldLines.every(line=>line.length>50&&approved.some(text=>text.includes(normalize(line)))),`${path}: old branding appears only in unchanged approved research`);
+   check(!/afterglow/i.test((await page.locator('body').innerText()).replaceAll('afterglow:saved:v1','')),`${path}: old public brand references removed`);
    check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`${width} ${path}: no horizontal overflow`);
    check(await page.locator('.site-header').evaluate(el=>el.scrollWidth<=el.clientWidth),`${width}: header fits`);
    check(await page.locator('meta[name="robots"]').getAttribute('content').then(v=>v.includes('noindex')),`${path}: indexing unchanged`);

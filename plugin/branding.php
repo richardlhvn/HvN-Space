@@ -6,6 +6,43 @@ function ag_site_name() {
     return trim(wp_strip_all_tags(get_bloginfo('name'))) ?: 'tunetofond';
 }
 
+function ag_public_brand_text($text, $html = false) {
+    // Only known first-party self-references, never a song title, workbook
+    // filename, URL, source identity or generic occurrence of the old name.
+    $name = $html ? esc_html(ag_site_name()) : ag_site_name();
+    return strtr($text, [
+        'For Afterglow,' => 'For ' . $name . ',',
+        'For Afterglow listeners,' => 'For ' . $name . ' listeners,',
+        'On Afterglow,' => 'On ' . $name . ',',
+        'Afterglow’s emotional-pop categorization' => $name . '’s emotional-pop categorization',
+        'Afterglow groups her' => $name . ' groups her',
+        "Afterglow editor's pick" => $name . " editor's pick",
+        'an Afterglow editorial pairing' => 'a ' . $name . ' editorial pairing',
+        'Afterglow editorial' => $name . ' editorial',
+        'Afterglow reads it' => $name . ' reads it',
+        'an Afterglow theme' => 'a ' . $name . ' theme',
+        'A useful Afterglow entry' => 'A useful ' . $name . ' entry',
+        'give Afterglow an example' => 'give ' . $name . ' an example',
+        'for Afterglow’s song-meaning pages' => 'for ' . $name . '’s song-meaning pages',
+        'the Afterglow editor;' => 'the ' . $name . ' editor;',
+    ]);
+}
+
+function ag_public_brand_html($html) {
+    $parts = wp_html_split($html); $protected = [];
+    foreach ($parts as &$part) {
+        if (preg_match('~^<(a|blockquote|q|code|pre|script|style)\b~i', $part, $match)) {
+            $tag = strtolower($match[1]); $protected[$tag] = ($protected[$tag] ?? 0) + 1;
+        } elseif (preg_match('~^</(a|blockquote|q|code|pre|script|style)\b~i', $part, $match)) {
+            $tag = strtolower($match[1]); $protected[$tag] = max(0, ($protected[$tag] ?? 0) - 1);
+        } elseif ($part !== '' && $part[0] !== '<' && !array_sum($protected)) {
+            $part = ag_public_brand_text($part, true);
+        }
+    }
+    unset($part);
+    return implode('', $parts);
+}
+
 function ag_branding_plan() {
     $changes = []; $manual = [];
     $name = get_option('blogname');

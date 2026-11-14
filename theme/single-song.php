@@ -31,9 +31,9 @@ while (have_posts()) : the_post();
                     if (($about['origin'] ?? '') === 'legacy_editorial') {
                         // Preserve existing WordPress formatting and inline
                         // citations instead of flattening the editor's work.
-                        echo $story['listening'];
+                        echo ag_public_brand_html($story['listening']);
                     } else {
-                        $paragraphs = array_unique(array_filter(array_map('trim', preg_split('/\n\s*\n/', $about['text']))));
+                        $paragraphs = array_unique(array_filter(array_map('trim', preg_split('/\n\s*\n/', ag_public_brand_text($about['text'])))));
                         foreach ($paragraphs as $paragraph) { echo '<p>' . esc_html($paragraph) . '</p>'; }
                     }
                 ?></div>

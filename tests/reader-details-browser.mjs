@@ -14,10 +14,12 @@ try{
   const response=await page.goto(item.url);check(response.status()===200,'Public record renders');
   check(await page.locator('.editorial-notice,.song-review-status').count()===0,'No QA banners or review links');
   const body=await page.locator('main').innerText();
+  check(!/\bAfterglow\b/i.test(body),'All current public brand references use tunetofond');
   check(!/Research review pending|No independent audio listening is claimed|Based on the supplied research dated|Earlier original single day not established|independent check pending|source metadata pending|primary-audio verification pending|\(day precision\)/i.test(body),'No internal QA wording in the public body');
   check((await page.locator('meta[name=robots]').getAttribute('content')).includes('noindex'),'Removing visible QA does not enable indexing');
   const api=await context.request.get(`${base}/wp-json/wp/v2/${item.type}/${item.id}`);
   const apiData=await api.json();
+  check(!/\bAfterglow\b/i.test(apiData.content.rendered + apiData.excerpt.rendered),'Public REST prose uses the current brand too');
   check(api.status()===200&&!/Basis:|Research notes|Based on the supplied research dated|No independent audio listening is claimed/i.test(apiData.content.rendered),'Public REST also omits internal working notes');
   if(item.type==='artist')check(normal(await page.locator('.artist-full-biography .prose').textContent())===normal(item.biography),'Public biography retains its editor text and omits only internal sections');
   else{

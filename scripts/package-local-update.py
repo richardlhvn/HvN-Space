@@ -15,7 +15,8 @@ for folder in ['plugin', 'theme', 'scripts']:
                  and p.suffix.lower() not in {'.xlsx', '.xlsm', '.sql', '.zip', '.pyc'})
 files.extend(root / p for p in ['LICENSE', 'downloads/README_TUNETOFOND_UPDATE.md',
     'docs/TUNETOFOND_REBRAND.md', 'docs/CANONICAL_RESEARCH_SOURCE.md',
-    'downloads/tunetofond-desktop.png', 'downloads/tunetofond-mobile.png'])
+    'downloads/tunetofond-desktop.png', 'downloads/tunetofond-mobile.png',
+    'downloads/tunetofond-biography.png'])
 with ZipFile(out / name, 'w', ZIP_DEFLATED) as archive:
     for p in sorted(files):
         target = 'README_TUNETOFOND_UPDATE.md' if p.name == 'README_TUNETOFOND_UPDATE.md' else p.relative_to(root).as_posix()

@@ -19,7 +19,7 @@ function ag_artist_listening_panel($id) {
 
 function ag_artist_starter_note($id) {
     $description = trim((string) get_post_field('post_excerpt', $id));
-    if ($description && !preg_match('/not yet|not established|not been established|no verified|curated (selection|candidate)|awaiting|specific autobiographical meaning/i', $description)) { return wp_trim_words($description, 28); }
+    if ($description && !preg_match('/not yet|not established|not been established|no verified|curated (selection|candidate)|awaiting|specific autobiographical meaning/i', $description)) { return ag_public_brand_text(wp_trim_words($description, 28)); }
     $themes = array_slice(array_filter(array_map('trim', explode(',', ag_meta('themes', $id)))), 0, 2);
     if ($themes) { return ag_site_name() . ' themes: ' . implode(' · ', $themes) . '.'; }
     $moods = ag_terms_text($id, 'mood');

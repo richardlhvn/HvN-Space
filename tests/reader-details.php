@@ -20,6 +20,7 @@ $assert(!str_contains($public['content']['rendered'], 'Basis:') && !str_contains
 wp_set_current_user(get_user_by('login', 'editor')->ID);
 $request->set_param('context', 'edit');
 $editor = rest_do_request($request)->get_data();
+$assert($editor['excerpt']['raw'] === get_post_field('post_excerpt', $id), 'Editor REST excerpt retains the original stored research.');
 $assert($editor['content']['raw'] === get_post_field('post_content', $id), 'Editor REST content retains the exact stored working research, including resolved-note omissions.');
 global $post;
 $previous_post = $post;

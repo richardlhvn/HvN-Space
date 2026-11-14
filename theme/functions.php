@@ -103,6 +103,10 @@ function ag_demo_notice($id) {
     }
     if (ag_meta('demo', $id)) { echo '<aside class="editorial-notice"><strong>From the demo collection.</strong> This is a starter editorial page, not a fact-checked artist biography or an artist-endorsed explanation. Abstract artwork is a placeholder. This page is excluded from search-engine indexing.</aside>'; }
 }
+add_filter('get_the_excerpt', function ($excerpt, $post) {
+    return !is_admin() && in_array($post->post_type, ['artist', 'song'], true) ? ag_public_brand_text($excerpt) : $excerpt;
+}, 10, 2);
+
 // Internal evidence status stays in the worksheet/admin, while visitors retain
 // article titles, attribution and links. This changes labels, never source data.
 function ag_public_source_label($label) {
@@ -123,7 +127,8 @@ function ag_public_research_content($content) {
     // Only known importer-generated QA sections/paragraphs are removed. Editor
     // biographies and other headings remain stored and displayed as written.
     $content = preg_replace('~<h2[^>]*>\s*Research notes\s*</h2>.*?(?=<h2\b|$)~si', '', $content);
-    return preg_replace('~<p\b[^>]*>\s*(?:<small\b[^>]*>)?\s*(?:<strong\b[^>]*>)?\s*(?:Basis:|Based on the supplied research dated\s).*?</p>~si', '', $content);
+    $content = preg_replace('~<p\b[^>]*>\s*(?:<small\b[^>]*>)?\s*(?:<strong\b[^>]*>)?\s*(?:Basis:|Based on the supplied research dated\s).*?</p>~si', '', $content);
+    return ag_public_brand_html($content);
 }
 
 function ag_release_date_label($date, $precision) {
@@ -151,7 +156,7 @@ function ag_public_song_document($id, $fallback) {
     $html = ag_public_research_content($fallback);
     if (!empty($about['text'])) {
         $labels = ['artist_statement' => 'Artist statement · paraphrased', 'third_party_reporting' => 'Reported song background', 'afterglow_editorial' => ag_site_name() . ' interpretation · not an artist statement', 'mixed' => 'Multiple perspectives · attributed in the text'];
-        $html = '<h2>About the Song</h2><p>' . esc_html($labels[$about['attribution']] ?? '') . '</p>' . wpautop(esc_html($about['text']));
+        $html = '<h2>About the Song</h2><p>' . esc_html($labels[$about['attribution']] ?? '') . '</p>' . wpautop(esc_html(ag_public_brand_text($about['text'])));
     }
     $details = ag_public_release_details($id);
     if ($details) {
@@ -181,10 +186,11 @@ foreach (['artist', 'song'] as $type) {
                 $data['content']['rendered'] = ag_public_research_content($data['content']['rendered']);
             } else {
                 $about = function_exists('ag_about_song') ? ag_about_song($post->ID) : [];
-                if (!empty($about['text']) && isset($data['excerpt']['rendered'])) { $data['excerpt']['rendered'] = wpautop(esc_html(wp_trim_words($about['text'], 35, '…'))); }
+                if (!empty($about['text']) && isset($data['excerpt']['rendered'])) { $data['excerpt']['rendered'] = wpautop(esc_html(wp_trim_words(ag_public_brand_text($about['text']), 35, '…'))); }
                 $data['content']['rendered'] = ag_public_song_document($post->ID, $data['content']['rendered']);
             }
         }
+        if (isset($data['excerpt']['rendered'])) { $data['excerpt']['rendered'] = ag_public_brand_html($data['excerpt']['rendered']); }
         $response->set_data($data);
         return $response;
     }, 10, 3);
@@ -195,7 +201,7 @@ add_filter('the_content_feed', function ($content) {
 add_filter('the_excerpt_rss', function ($excerpt) {
     if (get_post_type() !== 'song' || !function_exists('ag_about_song')) { return $excerpt; }
     $about = ag_about_song(get_the_ID());
-    return !empty($about['text']) ? esc_html(wp_trim_words($about['text'], 35, '…')) : $excerpt;
+    return !empty($about['text']) ? esc_html(wp_trim_words(ag_public_brand_text($about['text']), 35, '…')) : $excerpt;
 });
 
 // A read-only editor view preserves QA evidence without putting it in public
@@ -293,7 +299,7 @@ add_filter('pre_get_document_title', function ($title) { return is_singular() &&
 add_action('wp_head', function () {
     $id = get_queried_object_id();
     $song_about = is_singular('song') && function_exists('ag_about_song') ? ag_about_song($id) : [];
-    $description = is_singular() ? (ag_meta('meta_description', $id) ?: wp_strip_all_tags(($song_about['text'] ?? '') ?: get_the_excerpt($id))) : 'Find your next favorite artist. Thoughtful discoveries, song stories, and music for the way you feel.';
+    $description = is_singular() ? (ag_meta('meta_description', $id) ?: wp_strip_all_tags(ag_public_brand_text($song_about['text'] ?? '') ?: get_the_excerpt($id))) : 'Find your next favorite artist. Thoughtful discoveries, song stories, and music for the way you feel.';
     if ($description) { echo '<meta name="description" content="' . esc_attr(wp_trim_words($description, 35, '…')) . '">' . "\n"; }
     echo '<meta property="og:site_name" content="' . esc_attr(ag_site_name()) . '"><meta name="twitter:card" content="summary">' . "\n";
     $social_title = wp_get_document_title();

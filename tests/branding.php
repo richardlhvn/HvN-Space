@@ -28,6 +28,13 @@ try {
     $assert([get_option('home'),get_option('siteurl'),get_option('blog_public'),get_option('permalink_structure'),ag_public_catalog_scope()] === $options, 'URLs, indexing, permalinks and catalog selection stay unchanged.');
     $assert(ag_migrate_branding(false)['changed'] === 0, 'Repeat apply makes zero changes.');
     $assert(count(ag_branding_plan()['manual_review']) === 1, 'Unknown historical wording is reported for manual review without rewriting.');
+    $assert(ag_public_brand_text('For Afterglow, this is an Afterglow theme.') === 'For tunetofond, this is a tunetofond theme.', 'Only first-party public brand references are adapted.');
+    $historical = 'Afterglow_Master_Worksheet.xlsx; Afterglow — a song title; https://example.test/Afterglow';
+    $assert(ag_public_brand_text($historical) === $historical, 'Original filenames, titles and URLs are not blindly replaced.');
+    $html = '<p>For Afterglow, <em>formatting stays</em>.</p><a href="https://example.test/Afterglow">For Afterglow, source title</a><blockquote>For Afterglow, quoted words</blockquote>';
+    $expected = str_replace('<p>For Afterglow,', '<p>For tunetofond,', $html);
+    $assert(ag_public_brand_html($html) === $expected, 'Public HTML preserves source links, quotations and inline formatting.');
+    $assert(strpos(get_post_field('post_content',$id), 'Afterglow_Master_Worksheet.xlsx') !== false && serialize([get_post($song),get_post_meta($song)]) === $research, 'Public substitutions never write back to protected research.');
     update_option('blogname','Owner custom identity');
     $assert(ag_migrate_branding(false)['changed'] === 0 && get_option('blogname') === 'Owner custom identity', 'Unexpected customized identity is preserved for explicit review.');
     $assert(ag_site_name() === 'Owner custom identity', 'Rendered labels follow the configured identity.');
