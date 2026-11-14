@@ -1,13 +1,14 @@
 <?php
 /**
- * Plugin Name: Afterglow Core
+ * Plugin Name: tunetofond Core
  * Description: Artist and song records, curated relationships, and source-aware editorial fields.
- * Version: 0.11.0
+ * Version: 0.12.0
  * Requires at least: 6.6
  * Requires PHP: 8.1
  * License: GPL-2.0-or-later
  */
 defined('ABSPATH') || exit;
+require_once __DIR__ . '/branding.php';
 require_once __DIR__ . '/about-song.php';
 require_once __DIR__ . '/research-collections.php';
 require_once __DIR__ . '/research-handoffs.php';
@@ -80,7 +81,7 @@ function ag_field_definitions($type) {
 
 add_action('add_meta_boxes', function () {
     foreach (['artist', 'song', 'post', 'page'] as $type) {
-        add_meta_box('afterglow-details', 'Afterglow · Editorial details', 'ag_editor_fields', $type, 'normal', 'high');
+        add_meta_box('afterglow-details', ag_site_name() . ' · Editorial details', 'ag_editor_fields', $type, 'normal', 'high');
     }
 });
 
@@ -106,7 +107,7 @@ function ag_editor_fields($post) {
         } elseif ($field['type'] === 'checkbox') {
             echo '<input type="checkbox" id="ag-' . esc_attr($key) . '" name="' . esc_attr($name) . '" value="1" ' . checked($value, '1', false) . '> Keep checked until fact-checking and rights review are complete.';
         } elseif (in_array($field['type'], ['meaning', 'palette', 'about_attribution'], true)) {
-            $choices = $field['type'] === 'about_attribution' ? ['' => 'Choose when adding a new narrative', 'artist_statement' => 'Artist statement — paraphrased', 'third_party_reporting' => 'Third-party reporting', 'afterglow_editorial' => 'Afterglow editorial interpretation', 'mixed' => 'Mixed — identify attribution in each paragraph'] : ($field['type'] === 'meaning' ? ['editorial' => 'Editorial interpretation (not an artist statement)', 'sourced' => 'Artist explanation — original source required'] : ['lilac' => 'Lilac', 'rose' => 'Rose', 'sage' => 'Sage', 'sand' => 'Sand', 'blue' => 'Blue', 'peach' => 'Peach']);
+            $choices = $field['type'] === 'about_attribution' ? ['' => 'Choose when adding a new narrative', 'artist_statement' => 'Artist statement — paraphrased', 'third_party_reporting' => 'Third-party reporting', 'afterglow_editorial' => ag_site_name() . ' editorial interpretation', 'mixed' => 'Mixed — identify attribution in each paragraph'] : ($field['type'] === 'meaning' ? ['editorial' => 'Editorial interpretation (not an artist statement)', 'sourced' => 'Artist explanation — original source required'] : ['lilac' => 'Lilac', 'rose' => 'Rose', 'sage' => 'Sage', 'sand' => 'Sand', 'blue' => 'Blue', 'peach' => 'Peach']);
             echo '<select id="ag-' . esc_attr($key) . '" name="' . esc_attr($name) . '">';
             foreach ($choices as $v => $label) { echo '<option value="' . esc_attr($v) . '" ' . selected($value, $v, false) . '>' . esc_html($label) . '</option>'; }
             echo '</select>';
@@ -200,7 +201,7 @@ add_action('pre_get_posts', function ($q) {
 
 add_action('admin_menu', function () {
     add_submenu_page('edit.php?post_type=artist', 'Editorial guide', 'Editorial guide', 'edit_posts', 'ag-guide', function () {
-        echo '<div class="wrap"><h1>Publishing with Afterglow</h1><ol><li>Add an artist and write an original biography. Set genres, moods, and country in the sidebar only when supported.</li><li>Add songs and select the artist in Editorial details. Use verified Spotify URLs; otherwise the public page offers a labeled Spotify search.</li><li>Write your own interpretation. Select Artist explanation only with a linked original source. Never invent quotations or reproduce lyrics.</li><li>Select recommended songs and related artists, then explain each artist connection using its visible ID.</li><li>Use abstract artwork, or document photo permission and attribution before setting a featured image.</li><li>Review titles, descriptions, sources, and rights; uncheck Demo only once the page is ready. Demo records are excluded from search-engine indexing and sitemaps.</li><li>Use Posts for original journal features, and Settings → Reading for your journal page. Appearance → Customize controls branding and contact email.</li></ol><p>Save drafts and preview before publishing. Artist and song relationships are manual; no external APIs are required.</p>';
+        echo '<div class="wrap"><h1>Publishing with ' . esc_html(ag_site_name()) . '</h1><ol><li>Add an artist and write an original biography. Set genres, moods, and country in the sidebar only when supported.</li><li>Add songs and select the artist in Editorial details. Use verified Spotify URLs; otherwise the public page offers a labeled Spotify search.</li><li>Write your own interpretation. Select Artist explanation only with a linked original source. Never invent quotations or reproduce lyrics.</li><li>Select recommended songs and related artists, then explain each artist connection using its visible ID.</li><li>Use abstract artwork, or document photo permission and attribution before setting a featured image.</li><li>Review titles, descriptions, sources, and rights; uncheck Demo only once the page is ready. Demo records are excluded from search-engine indexing and sitemaps.</li><li>Use Posts for original journal features, and Settings → Reading for your journal page. Appearance → Customize controls branding and contact email.</li></ol><p>Save drafts and preview before publishing. Artist and song relationships are manual; no external APIs are required.</p>';
         if (current_user_can('manage_options') && !get_option('ag_demo_seed_version')) {
             echo '<h2>Optional starter collection</h2><p>Create six demo artists, six demo songs, three original journal articles, and the supporting pages. Existing records with matching slugs are retained. This also selects the homepage and journal under Settings → Reading. Use only on a new staging site.</p><form method="post" action="' . esc_url(admin_url('admin-post.php')) . '"><input type="hidden" name="action" value="ag_seed_demo">';
             wp_nonce_field('ag_seed_demo'); submit_button('Create the labeled demo collection'); echo '</form>';

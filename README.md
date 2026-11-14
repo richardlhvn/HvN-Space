@@ -1,6 +1,14 @@
-# Afterglow local downloads
+# tunetofond
 
-## Latest: cleaned canonical workbook — Core 0.11.0 / Theme 0.5.3
+## Current: full rebrand — Core 0.12.0 / Theme 0.6.0
+
+[Download the tunetofond local update](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/tunetofond-rebrand-2026-11-14/downloads/tunetofond_local_update_Core_0.12.0_Theme_0.6.0.zip) · [Local update instructions](downloads/README_TUNETOFOND_UPDATE.md) · [Implementation and validation report](docs/TUNETOFOND_REBRAND.md)
+
+**tunetofond** is the chosen lowercase identity for the existing emotional-pop discovery website. This release rebrands the website, editorial attribution, discovery/journal labels, admin display names and fresh defaults. Merge the source folders into your existing Windows/WSL project, preserve your data and run only the protected branding migration when your cleaned ten/128 catalog is already installed. Do not replace your whole project or restore a cloud database.
+
+The public launch selection remains **ten artists / 128 songs**. Approved research, Spotify URLs, scoped sources, dates, licenses, saved items, URLs and compatibility identifiers are preserved. No domain/contact identity is invented. Production deployment and indexing remain separate. Historical downloads below retain their original source/release names.
+
+## Historical: cleaned canonical workbook — Core 0.11.0 / Theme 0.5.3
 
 [Download the complete local update](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/local-update-2026-11-13/downloads/Afterglow_local_update_Core_0.11.0_Theme_0.5.3.zip) · [GitHub file page](downloads/Afterglow_local_update_Core_0.11.0_Theme_0.5.3.zip)
 
@@ -16,7 +24,7 @@ ZIP SHA-256: `9d9ff89b83a4635b7a148fe759464e250eb872abbcc20d4958a658f2728f655b`
 
 ## Archived downloads and earlier research references
 
-The sections below record earlier work. Use the new cleaned update above for implementation. The earlier QA map/helper pack references the superseded master and is historical context, not the current import authority.
+The sections below record earlier work. Use the current tunetofond update above for branding; the cleaned update remains the historical data-import reference. The earlier QA map/helper pack references the superseded master and is historical context, not the current import authority.
 
 ## Research cleanup handoff
 

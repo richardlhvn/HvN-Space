@@ -7,6 +7,11 @@ try {
     wp_set_current_user(get_user_by('login', 'editor')->ID);
     $assert((int)$wpdb->get_var("SELECT COUNT(*) FROM {$wpdb->posts} WHERE post_type='artist'") === 10, 'Only the ten approved artists initialized.');
     $assert((int)$wpdb->get_var("SELECT COUNT(*) FROM {$wpdb->posts} WHERE post_type='song'") === 128, 'Only the 128 approved songs initialized.');
+    $assert(get_option('blogname') === 'tunetofond', 'Fresh installation uses the chosen lowercase identity.');
+    foreach (['about','copyright','media-credits'] as $slug) {
+        $body = get_page_by_path($slug, OBJECT, 'page')->post_content;
+        $assert(strpos($body, 'tunetofond') !== false && strpos($body, 'Afterglow') === false, 'Fresh first-party copy uses tunetofond: ' . $slug);
+    }
     $scope = ag_public_catalog_scope();
     $assert($scope['artists'] === 10 && $scope['songs'] === 128 && $scope['hidden_records'] === 0, 'Fresh scope contains no historical imports.');
     $again = ag_import_reviewed(true);

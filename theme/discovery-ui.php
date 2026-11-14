@@ -14,16 +14,16 @@ function ag_artist_listening_panel($id) {
     } else {
         echo '<div class="artist-listening-fallback">'; ag_listen($id); echo '</div>';
     }
-    echo '<p class="artist-art-disclosure">Original Afterglow artwork · Not an artist photograph</p></section>';
+    echo '<p class="artist-art-disclosure">Original ' . esc_html(ag_site_name()) . ' artwork · Not an artist photograph</p></section>';
 }
 
 function ag_artist_starter_note($id) {
     $description = trim((string) get_post_field('post_excerpt', $id));
     if ($description && !preg_match('/not yet|not established|not been established|no verified|curated (selection|candidate)|awaiting|specific autobiographical meaning/i', $description)) { return wp_trim_words($description, 28); }
     $themes = array_slice(array_filter(array_map('trim', explode(',', ag_meta('themes', $id)))), 0, 2);
-    if ($themes) { return 'Afterglow themes: ' . implode(' · ', $themes) . '.'; }
+    if ($themes) { return ag_site_name() . ' themes: ' . implode(' · ', $themes) . '.'; }
     $moods = ag_terms_text($id, 'mood');
-    return $moods ? 'Afterglow feelings: ' . $moods . '.' : 'A starting point from this artist’s Afterglow selection.';
+    return $moods ? ag_site_name() . ' feelings: ' . $moods . '.' : 'A starting point from this artist’s ' . ag_site_name() . ' selection.';
 }
 
 function ag_artist_starter_songs($songs) {
@@ -75,7 +75,7 @@ function ag_song_listening_panel($id) {
         echo '<p class="preview-artist-name">' . esc_html(get_the_title($artist)) . '<span>Artist photograph</span></p><p class="listening-photo-credit">' . ag_photo_credit_html($artist, true) . '</p>';
     } else {
         ag_art($id, 'listening-art', true, true);
-        echo '<div class="listening-art-caption"><p class="eyebrow">ORIGINAL AFTERGLOW ARTWORK</p><p>' . esc_html(get_the_title($id)) . '</p><span>' . esc_html(ag_artist_name($id)) . ' · Not official cover art</span></div>';
+        echo '<div class="listening-art-caption"><p class="eyebrow brand-case">ORIGINAL ' . esc_html(ag_site_name()) . ' ARTWORK</p><p>' . esc_html(get_the_title($id)) . '</p><span>' . esc_html(ag_artist_name($id)) . ' · Not official cover art</span></div>';
     }
     echo '</div>';
     if ($url) { echo '<div class="spotify-frame-slot" aria-live="polite"></div>'; }
@@ -118,7 +118,7 @@ function ag_discovery_panel($context) {
         foreach ($options + $context['choices'][$filter] as $value => $label) { echo '<option value="' . esc_attr($value) . '" ' . selected($context['preferences'][$filter], $value, false) . '>' . esc_html($label) . '</option>'; }
         echo '</select></div>';
     }
-    echo '<button class="button button-dark" type="submit">Find songs ' . ag_icon('arrow') . '</button></form><p class="fine-print">Feelings and themes are Afterglow editorial tags. Suggestions also use our curated song and artist connections.</p></details><p class="discovery-status" role="status">' . esc_html($context['invalid'] ? 'That filter is unavailable; showing this song’s suggestions. ' : '') . $count . ' suggestion' . ($count === 1 ? '' : 's') . ' to explore.</p><div class="discovery-results" data-discovery-results data-result-count="' . $count . '">';
+    echo '<button class="button button-dark" type="submit">Find songs ' . ag_icon('arrow') . '</button></form><p class="fine-print">Feelings and themes are ' . esc_html(ag_site_name()) . ' editorial tags. Suggestions also use our curated song and artist connections.</p></details><p class="discovery-status" role="status">' . esc_html($context['invalid'] ? 'That filter is unavailable; showing this song’s suggestions. ' : '') . $count . ' suggestion' . ($count === 1 ? '' : 's') . ' to explore.</p><div class="discovery-results" data-discovery-results data-result-count="' . $count . '">';
     foreach ($context['results'] as $song) {
         $url = ag_discovery_song_url($song, $context);
         echo '<article class="discovery-card"><p class="eyebrow">' . ($song['different_artist'] ? 'MEET ANOTHER ARTIST' : 'MORE FROM THIS ARTIST') . '</p><h3><a href="' . esc_url($url) . '">' . esc_html(get_the_title($song['id'])) . '</a></h3><a class="discovery-artist" href="' . esc_url(get_permalink($song['artist'])) . '">' . esc_html(get_the_title($song['artist'])) . ' ' . ag_icon('diagonal') . '</a><p class="discovery-reason">' . esc_html($song['reason']) . '</p><div class="discovery-card-actions"><a class="text-link" href="' . esc_url($url) . '">Explore this song ' . ag_icon('arrow') . '</a>'; ag_save_button($song['id']); echo '</div></article>';

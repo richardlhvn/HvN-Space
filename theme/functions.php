@@ -19,7 +19,7 @@ add_action('wp_enqueue_scripts', function () {
     wp_localize_script('ag-app', 'afterglow', ['savedEndpoint' => rest_url('afterglow/v1/saved')]);
 });
 add_action('customize_register', function ($c) {
-    $c->add_section('ag_identity', ['title' => 'Afterglow identity']);
+    $c->add_section('ag_identity', ['title' => ag_site_name() . ' identity']);
     foreach (['eyebrow' => ['Independent music discovery', 'Homepage eyebrow'], 'tagline' => ['A little closer to the music.', 'Footer tagline'], 'contact_email' => ['', 'Public contact / copyright email (leave blank until ready)']] as $key => $info) {
         $c->add_setting('ag_' . $key, ['default' => $info[0], 'sanitize_callback' => $key === 'contact_email' ? 'sanitize_email' : 'sanitize_text_field']);
         $c->add_control('ag_' . $key, ['section' => 'ag_identity', 'label' => $info[1], 'type' => $key === 'contact_email' ? 'email' : 'text']);
@@ -57,7 +57,7 @@ function ag_art($id, $class = '', $eager = false, $abstract_only = false) {
     if (!$abstract_only && has_post_thumbnail($id) && ag_meta('artwork_credit', $id)) {
         echo get_the_post_thumbnail($id, 'ag-card', ['loading' => $eager ? 'eager' : 'lazy', 'alt' => get_the_title($id)]);
     } else {
-        echo '<span class="art-sun" aria-hidden="true"></span><span class="art-hill hill-one" aria-hidden="true"></span><span class="art-hill hill-two" aria-hidden="true"></span><span class="art-grain" aria-hidden="true"></span><span class="art-label" aria-hidden="true">AFTERGLOW / DISCOVERY SERIES</span>';
+        echo '<span class="art-sun" aria-hidden="true"></span><span class="art-hill hill-one" aria-hidden="true"></span><span class="art-hill hill-two" aria-hidden="true"></span><span class="art-grain" aria-hidden="true"></span><span class="art-label" aria-hidden="true">' . esc_html(ag_site_name()) . ' / DISCOVERY SERIES</span>';
     }
     echo '</div>';
 }
@@ -150,7 +150,7 @@ function ag_public_song_document($id, $fallback) {
     $about = function_exists('ag_about_song') ? ag_about_song($id) : [];
     $html = ag_public_research_content($fallback);
     if (!empty($about['text'])) {
-        $labels = ['artist_statement' => 'Artist statement · paraphrased', 'third_party_reporting' => 'Reported song background', 'afterglow_editorial' => 'Afterglow interpretation · not an artist statement', 'mixed' => 'Multiple perspectives · attributed in the text'];
+        $labels = ['artist_statement' => 'Artist statement · paraphrased', 'third_party_reporting' => 'Reported song background', 'afterglow_editorial' => ag_site_name() . ' interpretation · not an artist statement', 'mixed' => 'Multiple perspectives · attributed in the text'];
         $html = '<h2>About the Song</h2><p>' . esc_html($labels[$about['attribution']] ?? '') . '</p>' . wpautop(esc_html($about['text']));
     }
     $details = ag_public_release_details($id);
@@ -295,6 +295,12 @@ add_action('wp_head', function () {
     $song_about = is_singular('song') && function_exists('ag_about_song') ? ag_about_song($id) : [];
     $description = is_singular() ? (ag_meta('meta_description', $id) ?: wp_strip_all_tags(($song_about['text'] ?? '') ?: get_the_excerpt($id))) : 'Find your next favorite artist. Thoughtful discoveries, song stories, and music for the way you feel.';
     if ($description) { echo '<meta name="description" content="' . esc_attr(wp_trim_words($description, 35, '…')) . '">' . "\n"; }
+    echo '<meta property="og:site_name" content="' . esc_attr(ag_site_name()) . '"><meta name="twitter:card" content="summary">' . "\n";
+    $social_title = wp_get_document_title();
+    echo '<meta name="twitter:title" content="' . esc_attr($social_title) . '"><meta name="twitter:description" content="' . esc_attr($description) . '">' . "\n";
+    if (!is_singular()) {
+        echo '<meta property="og:title" content="' . esc_attr($social_title) . '"><meta property="og:description" content="' . esc_attr($description) . '"><meta property="og:type" content="website">' . "\n";
+    }
     if (is_singular()) {
         echo '<meta property="og:title" content="' . esc_attr(get_the_title($id)) . '"><meta property="og:description" content="' . esc_attr($description) . '"><meta property="og:url" content="' . esc_url(get_permalink($id)) . '"><meta property="og:type" content="article">' . "\n";
         // Demo or unsourced pages make no machine-readable claims about real musicians.

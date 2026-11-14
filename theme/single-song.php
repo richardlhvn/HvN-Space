@@ -5,7 +5,7 @@ while (have_posts()) : the_post();
     $sources = ag_source_links($id);
     $story = ag_song_story_sections(apply_filters('the_content', get_the_content()), (bool) ag_meta('handoff_key'));
     $about = function_exists('ag_about_song') ? ag_about_song($id, $story['listening']) : ['text' => '', 'sources' => [], 'attribution' => ''];
-    $labels = ['artist_statement' => 'Artist statement · paraphrased', 'third_party_reporting' => 'Reported song background', 'afterglow_editorial' => 'Afterglow interpretation · not an artist statement', 'mixed' => 'Multiple perspectives · attributed in the text'];
+    $labels = ['artist_statement' => 'Artist statement · paraphrased', 'third_party_reporting' => 'Reported song background', 'afterglow_editorial' => ag_site_name() . ' interpretation · not an artist statement', 'mixed' => 'Multiple perspectives · attributed in the text'];
     $record = get_post_meta($id, '_ag_handoff_record', true);
     $custom_notes = !is_array($record) || !isset($record['editorial_notes_source_ids']) || get_post_field('post_content', $id) !== ag_handoff_content(['research_date' => ag_meta('handoff_date')], $record, false);
     $release_details = ag_public_release_details($id);

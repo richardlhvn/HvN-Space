@@ -201,3 +201,8 @@
 }
 
 .song-release-details{margin-top:16px;font-size:13px;line-height:1.7}.song-release-details>div{display:grid;grid-template-columns:110px minmax(0,1fr);gap:14px;margin:8px 0}.song-release-details dt{color:var(--muted)}.song-release-details dd{margin:0;overflow-wrap:anywhere}@media(max-width:640px){.song-release-details>div{grid-template-columns:90px minmax(0,1fr);gap:10px}}
+
+/* Keep the configured identity in its chosen case inside decorative labels. */
+.brand-case{ text-transform:none; }
+/* Retain all header controls beside the longer identity on narrow phones. */
+@media(max-width:380px){.site-header .header-inner{gap:6px}.site-header .wordmark{font-size:24px;gap:5px}.site-header .brand-mark{width:25px;height:25px}.site-header .header-actions{gap:4px}}

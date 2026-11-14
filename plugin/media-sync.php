@@ -90,7 +90,7 @@ function ag_media_credit($artist_id) {
 }
 
 function ag_media_credits_content() {
-    $html = '<p>Afterglow is an independent music discovery publication. Artist names and photographs identify editorial subjects and do not imply endorsement, sponsorship, or affiliation.</p><h2>Original abstract artwork</h2><p>Our abstract landscapes and discovery illustrations are original Afterglow designs. They are not official covers or portraits.</p>';
+    $html = '<p>' . esc_html(ag_site_name()) . ' is an independent music discovery publication. Artist names and photographs identify editorial subjects and do not imply endorsement, sponsorship, or affiliation.</p><h2>Original abstract artwork</h2><p>Our abstract landscapes and discovery illustrations are original ' . esc_html(ag_site_name()) . ' designs. They are not official covers or portraits.</p>';
     $photos = 0;
     foreach (ag_handoff_packs() as $slug => $pack) {
         $id = ag_handoff_find($slug); $credit = $id ? ag_media_credit($id) : [];
@@ -100,7 +100,7 @@ function ag_media_credits_content() {
         $html .= '</p><p>' . esc_html($credit['changes']) . ' Adapted image files retain ' . esc_html($credit['derivative_license']) . '.</p>';
     }
     if (!$photos) { $html .= '<h2>Artist photographs</h2><p>No artist photographs from the candidate register are currently used. Abstract placeholders remain while current permissions are reviewed. A candidate license is not a credit for a photo used here.</p>'; }
-    $html .= '<h2>Spotify players</h2><p>Optional official Spotify players may show artwork within Spotify’s widget. Afterglow does not download or self-host that artwork or music. Players contact Spotify only when you choose to load them.</p><h2>Corrections and copyright inquiries</h2><p>For attribution corrections or rights questions, use our <a href="' . esc_url(home_url('/copyright/')) . '">copyright inquiry page</a> or <a href="' . esc_url(home_url('/contact/')) . '">contact page</a>.</p>';
+    $html .= '<h2>Spotify players</h2><p>Optional official Spotify players may show artwork within Spotify’s widget. ' . esc_html(ag_site_name()) . ' does not download or self-host that artwork or music. Players contact Spotify only when you choose to load them.</p><h2>Corrections and copyright inquiries</h2><p>For attribution corrections or rights questions, use our <a href="' . esc_url(home_url('/copyright/')) . '">copyright inquiry page</a> or <a href="' . esc_url(home_url('/contact/')) . '">contact page</a>.</p>';
     return $html;
 }
 

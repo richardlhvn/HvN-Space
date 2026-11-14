@@ -7,7 +7,7 @@ define('WP_INSTALLING', true);
 require '/var/www/html/wp-load.php';
 if (!is_blog_installed()) {
     require_once ABSPATH . 'wp-admin/includes/upgrade.php';
-    wp_install('Afterglow', 'editor', 'editor@example.test', false, '', getenv('AFTERGLOW_ADMIN_PASSWORD'));
+    wp_install('tunetofond', 'editor', 'editor@example.test', false, '', getenv('AFTERGLOW_ADMIN_PASSWORD'));
     update_option('siteurl', $site_url);
     update_option('home', $site_url);
     WP_CLI::success('Local WordPress installed. Credentials remain in .env.');

@@ -1,3 +1,5 @@
+**Current brand/release:** tunetofond Core 0.12.0 / Theme 0.6.0. See [the current rebrand and local update](TUNETOFOND_REBRAND.md). Older brand names, package filenames, source identities and validation results below retain their historical meaning. The canonical ten/128 selection remains authoritative.
+
 # Canonical research source and staging update — 14 November 2026
 
 The owner-designated [cleaned Google Sheet](https://docs.google.com/spreadsheets/d/1CBJWklaLjymaRVw_wiPcmRMsumhfr_VUQheJeI7PvcI/edit) is authoritative for future imports. Its supplied full XLSX export, `Afterglow_Master_Worksheet_CLEANUP_2026-11-14.xlsx`, has now been read, validated and applied to cloud staging. Documents and QA tabs were treated as reference data; no uploaded scripts, formulas or macros were executed.

@@ -71,13 +71,13 @@ function ag_discovery_recommend($current, $catalog, $preferences, $trail = [], $
         $is_curated = in_array($song['id'], $curated, true);
         $related_artist = in_array($song['artist'], $related_artists, true);
         $score = ($themes ? 40 : 0) + ($moods ? 25 : 0) + ($is_curated ? 35 : 0) + ($related_artist ? 30 : 0) + ($different ? 12 : 0);
-        if ($preferences['theme'] !== 'any') { $labels = $preferences['theme'] === 'same' ? $themes : [$song['themes'][$preferences['theme']]]; $reason = 'Afterglow theme: ' . implode(', ', array_slice(array_values($labels), 0, 2)) . '.'; }
-        elseif ($preferences['feeling'] !== 'any') { $labels = $preferences['feeling'] === 'same' ? $moods : [$song['moods'][$preferences['feeling']]]; $reason = 'Afterglow feeling: ' . implode(', ', array_slice(array_values($labels), 0, 2)) . '.'; }
-        elseif ($themes) { $reason = 'Shares an Afterglow theme: ' . reset($themes) . '.'; }
-        elseif ($moods) { $reason = 'Shares an Afterglow feeling: ' . reset($moods) . '.'; }
-        elseif ($is_curated) { $reason = 'Linked by Afterglow’s song recommendations.'; }
+        if ($preferences['theme'] !== 'any') { $labels = $preferences['theme'] === 'same' ? $themes : [$song['themes'][$preferences['theme']]]; $reason = ag_site_name() . ' theme: ' . implode(', ', array_slice(array_values($labels), 0, 2)) . '.'; }
+        elseif ($preferences['feeling'] !== 'any') { $labels = $preferences['feeling'] === 'same' ? $moods : [$song['moods'][$preferences['feeling']]]; $reason = ag_site_name() . ' feeling: ' . implode(', ', array_slice(array_values($labels), 0, 2)) . '.'; }
+        elseif ($themes) { $reason = 'Shares a ' . ag_site_name() . ' theme: ' . reset($themes) . '.'; }
+        elseif ($moods) { $reason = 'Shares a ' . ag_site_name() . ' feeling: ' . reset($moods) . '.'; }
+        elseif ($is_curated) { $reason = 'Linked by ' . ag_site_name() . '’s song recommendations.'; }
         elseif ($related_artist) { $reason = 'From an artist linked in our editorial recommendations.'; }
-        else { $reason = 'Another ' . ($different ? 'artist' : 'song') . ' in Afterglow’s curated collection.'; }
+        else { $reason = 'Another ' . ($different ? 'artist' : 'song') . ' in ' . ag_site_name() . '’s curated collection.'; }
         $rows[] = $song + ['reason' => $reason, 'different_artist' => $different, 'score' => $score, 'tie' => sprintf('%u', crc32($current['id'] . ':' . $song['id']))];
     }
     usort($rows, function ($a, $b) { return ($b['score'] <=> $a['score']) ?: ($b['tie'] <=> $a['tie']) ?: ($a['id'] <=> $b['id']); });

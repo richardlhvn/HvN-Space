@@ -1,3 +1,5 @@
+**Current brand/release:** tunetofond Core 0.12.0 / Theme 0.6.0. See [the current rebrand and local update](TUNETOFOND_REBRAND.md). Older brand names, package filenames, source identities and validation results below retain their historical meaning. The canonical ten/128 selection remains authoritative.
+
 # About as the introduction; short listening preview
 
 Theme **0.5.2** removes the older short-description paragraph from song pages
