@@ -13,6 +13,8 @@ The source has 53 stored artists and 560 song posts. The public selection remain
 
 ## Check and apply
 
+If `wp --info` reports disabled `proc_open` / `proc_close`, prepare a session-only CLI wrapper before running the migration. The separately provided `scripts/hosting/cli-session.sh` can be sourced in the SSH Bash session. It resolves the PHP/WordPress CLI entry points and re-enables the process functions required by WP-CLI and its database export (`proc_open`, `proc_close`, `proc_get_status`, `proc_terminate`, `exec`) only for those CLI processes. Other configured restrictions and the website's PHP settings are retained. The exported function also applies to the child Bash migration script. Repeat this preparation after reconnecting; no global PHP setting is changed. If the `wp` command is a shell wrapper, identify its actual PHP/PHAR entry point before proceeding.
+
 Connect using the exact SSH command shown in hPanel. The example paths below are placeholders; use the real archive filename and document root.
 
 ```bash
