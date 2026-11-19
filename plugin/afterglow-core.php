@@ -197,7 +197,19 @@ add_action('pre_get_posts', function ($q) {
         $tax = [];
         foreach (['genre', 'mood', 'country'] as $name) {
             $key = 'filter_' . $name;
-            if (isset($_GET[$key]) && is_string($_GET[$key]) && $_GET[$key] !== '') { $tax[] = ['taxonomy' => $name, 'field' => 'slug', 'terms' => in_array($name, ['genre','mood'], true) ? ag_taxonomy_filter_slugs($name, wp_unslash($_GET[$key])) : sanitize_title(wp_unslash($_GET[$key]))]; }
+            if (isset($_GET[$key]) && is_string($_GET[$key]) && $_GET[$key] !== '') {
+                if ($name === 'country' && $q->is_post_type_archive('song')) {
+                    // A song's country follows its primary artist; do not rewrite stored terms.
+                    $artists = get_posts(['post_type' => 'artist', 'post_status' => 'publish', 'numberposts' => -1, 'fields' => 'ids', 'tax_query' => [['taxonomy' => 'country', 'field' => 'slug', 'terms' => sanitize_title(wp_unslash($_GET[$key]))]]]);
+                    $artists = array_map('intval', $artists);
+                    if (!$artists) { $q->set('post__in', [0]); }
+                    $country = ['key' => '_ag_artist_id', 'value' => $artists ?: [0], 'compare' => 'IN'];
+                    $existing = $q->get('meta_query');
+                    $q->set('meta_query', $existing ? ['relation' => 'AND', $existing, $country] : [$country]);
+                } else {
+                    $tax[] = ['taxonomy' => $name, 'field' => 'slug', 'terms' => in_array($name, ['genre','mood'], true) ? ag_taxonomy_filter_slugs($name, wp_unslash($_GET[$key])) : sanitize_title(wp_unslash($_GET[$key]))];
+                }
+            }
         }
         if ($tax) { $tax['relation'] = 'AND'; $q->set('tax_query', $tax); }
     }

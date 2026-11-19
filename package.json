@@ -9,7 +9,9 @@
     "test": "node tests/smoke.mjs",
     "package": "bash scripts/package.sh",
     "test:a11y": "node tests/accessibility.mjs",
-    "test:admin": "node tests/admin.mjs"
+    "test:admin": "node tests/admin.mjs",
+    "test:discovery:unit": "php -n tests/discovery-recommendations-unit.php",
+    "test:filters:unit": "php -n tests/archive-filters-unit.php"
   },
   "devDependencies": {
     "@axe-core/playwright": "^4.14.0",

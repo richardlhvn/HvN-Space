@@ -1,10 +1,18 @@
 # tunetofond
 
-## Current: shared tags — Core 0.15.0 / Theme 0.9.0
+## Current hosted source — 19 November 2026
+
+The approved Hostinger follow-up fixes are now recorded in source: finished public pages, song country filtering/counts, distinct recommendations with a shared-theme or same-artist featured discovery, and guarded default-content cleanup. Public scope remains **10 artists / 128 songs**, with indexing disabled.
+
+[Current hosted state, validation and remaining decisions](docs/HOSTED_STATE_2026-11-19.md) · [Continuation instructions](docs/NEW_CHAT_PROMPT.md)
+
+**Use this branch’s source for ongoing development.** Earlier downloadable ZIPs below are historical and omit these follow-up fixes. GitHub sync does not deploy or back up the live WordPress database. Privacy identity/retention details remain deferred by the owner; Sheet source links are owner-verified.
+
+## Previous: shared tags — Core 0.15.0 / Theme 0.9.0
 
 [Download the combined update](https://github.com/richardlhvn/HvN-Space/raw/refs/heads/tunetofond-tag-sync-2026-11-14/downloads/tunetofond_tag_sync_Core_0.15.0_Theme_0.9.0.zip) · [Local update steps](downloads/README_TAG_SYNC_UPDATE.md) · [All tag mappings and validation](docs/TAG_SYNC.md)
 
-**15 genres, 20 feelings, and 20 themes** now use shared labels in the website, stored WordPress tags/research and active bundled JSON. The theme menu is reduced from 161 labels to 20 topics. The owner-authorized protected migration also updates retained hidden records without changing their visibility. **Merge plugin, theme and scripts; back up; preview and apply `scripts/migrate-tags.php`.** The Google Sheet and XLSX remain unchanged for the owner’s later update. Earlier release reports below describe their original behavior.
+**15 genres, 20 feelings, and 20 themes** now use shared labels in the website, stored WordPress tags/research and active bundled JSON. The theme menu is reduced from 161 labels to 20 topics. The owner-authorized protected migration also updates retained hidden records without changing their visibility. **Merge plugin, theme and scripts; back up; preview and apply `scripts/migrate-tags.php`.** At this historical release, the Google Sheet and XLSX had not yet been updated; see the current hosted-state note for subsequent verification. Earlier release reports below describe their original behavior.
 
 ## Previous: emotional moods and simpler genres — Core 0.14.0 / Theme 0.8.0
 

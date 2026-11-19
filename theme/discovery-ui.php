@@ -96,19 +96,21 @@ function ag_discovery_song_url($song, $context) {
 
 function ag_next_discovery($context) {
     if (!$context) { return; }
-    echo '<section class="next-discovery" data-discovery-primary aria-label="Your next discovery"><p class="eyebrow">YOUR NEXT DISCOVERY</p>';
-    $song = $context['results'][0] ?? null;
+    $fallback = ($context['featured']['match_type'] ?? '') === 'same_artist';
+    $label = $fallback ? 'MORE FROM THIS ARTIST' : 'YOUR NEXT DISCOVERY';
+    echo '<section class="next-discovery" data-discovery-primary aria-label="' . esc_attr($fallback ? 'More from this artist' : 'Your next discovery') . '"><p class="eyebrow">' . esc_html($label) . '</p>';
+    $song = $context['featured'] ?? null;
     if ($song) {
         $url = ag_discovery_song_url($song, $context);
         echo '<h2><a href="' . esc_url($url) . '">' . esc_html(get_the_title($song['id'])) . '</a></h2><p class="next-artist">by <a href="' . esc_url(get_permalink($song['artist'])) . '">' . esc_html(get_the_title($song['artist'])) . '</a>' . ($song['different_artist'] ? '<span>A new artist to explore</span>' : '') . '</p><p class="discovery-reason">' . ag_discovery_reason_html($song['reason']) . '</p><a class="text-link next-discovery-link" href="' . esc_url($url) . '" aria-label="' . esc_attr('Next discovery: ' . get_the_title($song['id']) . ' by ' . get_the_title($song['artist'])) . '">Next discovery ' . ag_icon('arrow') . '</a>';
-    } else { echo '<p>No next song for this combination yet. <a href="#discover-more" data-discovery-open>Change the feeling or theme.</a></p>'; }
+    } else { echo '<p>No next song is available for this route yet. <a href="#discover-more" data-discovery-open>Change the feeling or theme.</a></p>'; }
     echo '</section>';
 }
 
 function ag_discovery_panel($context) {
     if (!$context) { return; }
     $count = count($context['results']); $filtered = isset($_GET['ag_feeling']) || isset($_GET['ag_theme']);
-    echo '<section class="discovery-explore section" id="discover-more" aria-labelledby="discovery-heading"><div class="discovery-heading"><div><p class="eyebrow">FOLLOW YOUR CURIOSITY</p><h2 id="discovery-heading">Where do you want to go next?</h2><p>Stay with a feeling, follow a theme, or meet another artist.</p></div>';
+    echo '<section class="discovery-explore section" id="discover-more" aria-labelledby="discovery-heading"><div class="discovery-heading"><div><p class="eyebrow">FOLLOW YOUR CURIOSITY</p><h2 id="discovery-heading">Where do you want to go next?</h2><p>Follow a shared theme, hear more from an artist, or explore another connection.</p></div>';
     ag_next_discovery($context);
     echo '</div><details class="discovery-controls"' . ($filtered ? ' open' : '') . '><summary>Change the feeling or theme ' . ag_icon('arrow') . '</summary><form class="discovery-form" action="' . esc_url(get_permalink($context['current']['id'])) . '#discover-more" method="get">';
     if ($context['trail']) { echo '<input type="hidden" name="ag_trail" value="' . esc_attr(implode(',', $context['trail'])) . '">'; }
@@ -119,7 +121,7 @@ function ag_discovery_panel($context) {
         foreach ($options + $context['choices'][$filter] as $value => $label) { echo '<option value="' . esc_attr($value) . '" ' . selected($context['preferences'][$filter], $value, false) . '>' . esc_html($label) . '</option>'; }
         echo '</select></div>';
     }
-    echo '<button class="button button-dark" type="submit">Find songs ' . ag_icon('arrow') . '</button></form></details><p class="discovery-status" role="status">' . esc_html($context['invalid'] ? 'That filter is unavailable; showing this song’s suggestions. ' : '') . $count . ' suggestion' . ($count === 1 ? '' : 's') . ' to explore.</p><div class="discovery-results" data-discovery-results data-result-count="' . $count . '">';
+    echo '<button class="button button-dark" type="submit">Find songs ' . ag_icon('arrow') . '</button></form></details><p class="discovery-status" role="status">' . esc_html($context['invalid'] ? 'That filter is unavailable; showing this song’s suggestions. ' : '') . $count . ' alternative' . ($count === 1 ? '' : 's') . ' to explore.</p><div class="discovery-results" data-discovery-results data-result-count="' . $count . '">';
     foreach ($context['results'] as $song) {
         $url = ag_discovery_song_url($song, $context);
         echo '<article class="discovery-card"><p class="eyebrow">' . ($song['different_artist'] ? 'MEET ANOTHER ARTIST' : 'MORE FROM THIS ARTIST') . '</p><h3><a href="' . esc_url($url) . '">' . esc_html(get_the_title($song['id'])) . '</a></h3><a class="discovery-artist" href="' . esc_url(get_permalink($song['artist'])) . '">' . esc_html(get_the_title($song['artist'])) . ' ' . ag_icon('diagonal') . '</a><p class="discovery-reason">' . ag_discovery_reason_html($song['reason']) . '</p><div class="discovery-card-actions"><a class="text-link" href="' . esc_url($url) . '">Explore this song ' . ag_icon('arrow') . '</a>'; ag_save_button($song['id']); echo '</div></article>';

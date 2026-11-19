@@ -48,7 +48,7 @@ function ag_discovery_defaults($current, $catalog, $trail = []) {
     return ['feeling' => 'any', 'theme' => 'any'];
 }
 
-function ag_discovery_recommend($current, $catalog, $preferences, $trail = [], $limit = 3) {
+function ag_discovery_recommend($current, $catalog, $preferences, $trail = [], $limit = 3, $reserve_current_artist = false) {
     $limit = max(1, min(3, absint($limit)));
     $curated = array_filter(array_map('absint', explode(',', (string)get_post_meta($current['id'], '_ag_related', true))));
     $related_artists = array_filter(array_map('absint', explode(',', (string)get_post_meta($current['artist'], '_ag_related', true))));
@@ -67,7 +67,10 @@ function ag_discovery_recommend($current, $catalog, $preferences, $trail = [], $
         $different = $song['artist'] !== $current['artist'];
         $is_curated = in_array($song['id'], $curated, true);
         $related_artist = in_array($song['artist'], $related_artists, true);
-        $score = ($themes ? 40 : 0) + ($moods ? 25 : 0) + ($is_curated ? 35 : 0) + ($related_artist ? 30 : 0) + ($different ? 12 : 0);
+        // Never fill a gap with an unrelated song. Relevance comes before variety.
+        if (!$themes && !$moods && !$is_curated && !$related_artist) { continue; }
+        $tier = $themes ? 4000 : ($moods ? 3000 : ($is_curated ? 2000 : 1000));
+        $score = $tier + count($themes) * 100 + count($moods) * 20 + ($is_curated ? 35 : 0) + ($related_artist ? 30 : 0) + ($different ? 12 : 0);
         if ($preferences['theme'] !== 'any') { $labels = $preferences['theme'] === 'same' ? $themes : [$song['themes'][$preferences['theme']]]; $reason = ag_site_name() . ' theme: ' . implode(', ', array_slice(array_values($labels), 0, 2)) . '.'; }
         elseif ($preferences['feeling'] !== 'any') { $labels = $preferences['feeling'] === 'same' ? $moods : [$song['moods'][$preferences['feeling']]]; $reason = ag_site_name() . ' feeling: ' . implode(', ', array_slice(array_values($labels), 0, 2)) . '.'; }
         elseif ($themes) { $reason = 'Shares a ' . ag_site_name() . ' theme: ' . reset($themes) . '.'; }
@@ -78,17 +81,39 @@ function ag_discovery_recommend($current, $catalog, $preferences, $trail = [], $
         $rows[] = $song + ['reason' => $reason, 'different_artist' => $different, 'score' => $score, 'tie' => sprintf('%u', crc32($current['id'] . ':' . $song['id']))];
     }
     usort($rows, function ($a, $b) { return ($b['score'] <=> $a['score']) ?: ($b['tie'] <=> $a['tie']) ?: ($a['id'] <=> $b['id']); });
-    // Prefer a different artist when there is a matching option; diversify the remaining cards too.
-    $different = array_values(array_filter($rows, function ($r) use ($current) { return $r['artist'] !== $current['artist']; }));
-    if ($different && $different[0]['score'] >= 25) { $first = $different[0]; $rows = array_merge([$first], array_filter($rows, function ($r) use ($first) { return $r['id'] !== $first['id']; })); }
     $selected = []; $used_artists = [];
+    // Reserve one relevant alternative from the current artist when available.
+    if ($reserve_current_artist) {
+        foreach ($rows as $row) {
+            if ($row['artist'] !== $current['artist']) { continue; }
+            $selected[$row['id']] = $row; $used_artists[$row['artist']] = true; break;
+        }
+    }
     foreach ($rows as $row) {
+        if (count($selected) >= $limit) { break; }
         if (isset($used_artists[$row['artist']])) { continue; }
         $selected[$row['id']] = $row; $used_artists[$row['artist']] = true;
-        if (count($selected) >= $limit) { return array_values($selected); }
     }
-    foreach ($rows as $row) { $selected[$row['id']] = $row; if (count($selected) >= $limit) { break; } }
-    return array_values($selected);
+    $selected = array_values($selected);
+    if ($reserve_current_artist) {
+        usort($selected, function ($a, $b) use ($current) { return (($a['artist'] === $current['artist']) <=> ($b['artist'] === $current['artist'])) ?: ($b['score'] <=> $a['score']) ?: ($a['id'] <=> $b['id']); });
+    }
+    return $selected;
+}
+
+function ag_discovery_featured($current, $catalog, $trail = []) {
+    $shared = ag_discovery_recommend($current, $catalog, ['feeling' => 'any', 'theme' => 'same'], $trail, 1)[0] ?? null;
+    if ($shared) { return $shared + ['match_type' => 'shared_theme']; }
+    // An explicit artist connection is the fallback, never a claimed theme match.
+    $curated = array_filter(array_map('absint', explode(',', (string)get_post_meta($current['id'], '_ag_related', true))));
+    $rows = [];
+    foreach ($catalog as $song) {
+        if ($song['artist'] !== $current['artist'] || $song['id'] === $current['id'] || in_array($song['id'], $trail, true)) { continue; }
+        $moods = array_intersect_key($song['moods'], $current['moods']);
+        $rows[] = $song + ['match_type' => 'same_artist', 'different_artist' => false, 'reason' => 'Another song from this artist’s selection.', 'score' => count($moods) * 100 + (in_array($song['id'], $curated, true) ? 35 : 0), 'tie' => sprintf('%u', crc32($current['id'] . ':' . $song['id']))];
+    }
+    usort($rows, function ($a, $b) { return ($b['score'] <=> $a['score']) ?: ($b['tie'] <=> $a['tie']) ?: ($a['id'] <=> $b['id']); });
+    return $rows[0] ?? null;
 }
 
 function ag_discovery_context($id, $input = []) {
@@ -105,5 +130,9 @@ function ag_discovery_context($id, $input = []) {
         if (!is_string($raw) || strlen($raw) > 160 || ($raw !== 'any' && !($raw === 'same' && $current[$field]) && !isset($choices[$filter][$raw]))) { $invalid = true; continue; }
         $preferences[$filter] = $raw;
     }
-    return ['current' => $current, 'preferences' => $preferences, 'choices' => $choices, 'trail' => $trail, 'invalid' => $invalid, 'results' => ag_discovery_recommend($current, $catalog, $preferences, $trail)];
+    // Prefer a shared theme; otherwise continue with the current artist.
+    $featured = ag_discovery_featured($current, $catalog, $trail);
+    $exclude = $featured ? array_merge($trail, [$featured['id']]) : $trail;
+    $results = ag_discovery_recommend($current, $catalog, $preferences, $exclude, 3, true);
+    return ['current' => $current, 'preferences' => $preferences, 'choices' => $choices, 'trail' => $trail, 'invalid' => $invalid, 'featured' => $featured, 'results' => $results];
 }

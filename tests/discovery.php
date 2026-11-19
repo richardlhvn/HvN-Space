@@ -31,9 +31,10 @@ try {
     foreach ([$draft, $private, $orphan, $hidden] as $id) { ag_discovery_assert(!isset($catalog[$id]), 'Draft, private, orphaned, and private-artist songs must not leak.'); }
     $context = ag_discovery_context($current);
     ag_discovery_assert($context['preferences']['theme'] === 'same', 'Available current themes should be the initial route.');
-    ag_discovery_assert(count($context['results']) === 3, 'Three matching suggestions should be returned when available.');
-    ag_discovery_assert($context['results'][0]['artist'] !== $artists[0], 'A genuine matching different artist should be the next discovery.');
-    ag_discovery_assert(count(array_unique(array_column($context['results'], 'artist'))) === 3, 'Results should diversify artists when possible.');
+    ag_discovery_assert(count($context['results']) === 2, 'The featured choice is removed from the remaining two matching alternatives.');
+    ag_discovery_assert($context['featured']['match_type'] === 'shared_theme', 'The featured discovery must share a current theme.');
+    ag_discovery_assert(count(array_unique(array_column($context['results'], 'artist'))) === 2, 'Results should diversify artists when possible.');
+    ag_discovery_assert(!in_array($context['featured']['id'], array_column($context['results'], 'id'), true), 'The featured recording must not repeat in alternatives.');
     foreach ($context['results'] as $row) {
         ag_discovery_assert($row['id'] !== $current && isset($row['themes']['heartbreak-breakups']), 'Recommendations must exclude the current track and honor its grouped theme.');
         ag_discovery_assert(stripos($row['reason'], 'breakup') !== false, 'Each themed result must explain its actual editorial match.');
@@ -53,7 +54,7 @@ try {
     ag_discovery_assert(count(ag_discovery_recommend($catalog[$current], $catalog, ['feeling' => 'any', 'theme' => 'any'], [], 500)) === 3, 'Public result sets remain bounded.');
     $unknown = ag_fixture_song($artists[1], 'Untagged fixture');
     $unknown_context = ag_discovery_context($unknown);
-    ag_discovery_assert($unknown_context['preferences'] === ['feeling' => 'any', 'theme' => 'any'] && $unknown_context['results'], 'Untagged songs need a useful catalog route without fabricated matching tags.');
+    ag_discovery_assert($unknown_context['preferences'] === ['feeling' => 'any', 'theme' => 'any'] && $unknown_context['featured']['match_type'] === 'same_artist' && !$unknown_context['results'], 'Untagged songs feature their artist without arbitrary unrelated alternatives.');
     foreach ($unknown_context['results'] as $row) { ag_discovery_assert(!str_contains($row['reason'], 'Shares an'), 'Untagged song recommendations must not claim a theme or mood match.'); }
     $eligible = count(ag_discovery_catalog());
     for ($i = count(get_posts(['post_type' => 'artist', 'post_status' => 'publish', 'numberposts' => -1])); $i < 50; $i++) { $artists[] = wp_insert_post(['post_type' => 'artist', 'post_title' => 'Scale fixture artist ' . $i, 'post_status' => 'publish']); }

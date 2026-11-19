@@ -6,7 +6,7 @@ The owner requested a finished Contact page after verifying two-way delivery for
 
 ## Hosted update
 
-Cloud has the update. Hosting has not yet been updated or verified. Do not repeat the full database migration for this change.
+The owner applied the guarded update on Hostinger on 16 November 2026. The hosted page and desktop/phone layouts were verified. The owner confirmed two-way email delivery. Do not repeat the full database migration for this change. See `docs/HOSTED_STATE_2026-11-19.md` for subsequent changes.
 
 `downloads/tunetofond-contact-update.php` is generated with `python scripts/package-contact-update.py`. It contains only the two public theme files and a guarded WP-CLI updater. It checks the site/theme, the original or already-updated Contact body, the configured email, and the absence of conflicting Contact files. It preserves owner edits by refusing unexpected values.
 
@@ -29,4 +29,4 @@ For a manual rollback, use the reported `before.json`: restore the Contact body'
 - Cloud browser checks at 1440, 768, 390 and 320 pixels: HTTP 200, one H1, no setup copy, valid email subjects, no horizontal overflow or JavaScript errors.
 - Automated WCAG 2 A/AA and 2.1 AA checks pass at all four sizes. Desktop and phone screenshots were visually inspected.
 - Packaged updater: dry-run, already-installed repeat, and fresh theme file installation in a writable fixture, including mode 0644 checks.
-- Current environment cannot reach the public Hostinger site (HTTP proxy rejects the connection). Hostinger plugin setup was found under the website dashboard's **Connect your coding agent → Codex → Install**, but no Hostinger tools are currently callable here. Do not claim live deployment from cloud-only checks.
+- Subsequent hosted verification: public Contact loads successfully, the approved introduction is present, email destinations/subjects are correct, and desktop/phone screenshots were inspected. Hostinger is connected; the original cloud-only access limitation is historical.

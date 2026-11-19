@@ -54,7 +54,16 @@
     "policy": "Owner-authorized classification tags only: 15 genres, 20 moods, 20 themes. Non-emotional mood descriptors atmospheric, melodic and late-night retired without inventing an emotion.",
     "original_prepared_snapshot": "reviewed-tunetofond-2026-11-14.json",
     "original_prepared_sha256": "b4a1ad2edaacb517efcd7f65a99fad7ae1ee6be2dbf15b501cb51ea118122307",
-    "workbook_sync_status": "pending_owner_update",
-    "original_workbook_unchanged": true
+    "workbook_sync_status": "public_128_sheet_tags_verified",
+    "original_workbook_unchanged": true,
+    "sheet_verification": {
+      "verified_on": "2026-11-19",
+      "scope": "27-tab inventory and public 128-song classification mapping; not a claim that every private workbook row was independently audited"
+    }
+  },
+  "source_link_verification": {
+    "status": "owner_reported_opened_and_verified",
+    "recorded_on": "2026-11-19",
+    "scope": "Source links in the canonical Google Sheet; selected public citation targets checked against canonical data. Automated blocks do not override owner verification."
   }
 }
